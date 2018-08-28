@@ -40,4 +40,6 @@ hs_err_pid*
 # specific files #
 usercache.json
 usernamecache.json
+.curseclient
+
 
