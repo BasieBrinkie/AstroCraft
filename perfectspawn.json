@@ -1,0 +1,11 @@
+{
+	"general": {
+		"initialSpawnDimension": -30
+	},
+	"rules": [ {
+		"appliesTo": [-30],
+		"canRespawnHere": true,
+		"canSleepHere": true,
+		"respawnDimension": -30 
+	} ]
+}

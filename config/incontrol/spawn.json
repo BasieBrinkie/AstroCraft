@@ -1,0 +1,13 @@
+[
+{
+	"mob": ["galacticraftcore:evolved_zombie",
+			"galacticraftcore:evolved_skeleton",
+			"galacticraftcore:evolved_witch",
+			"galacticraftcore:evolved_spider",
+			"galacticraftcore:evolved_enderman",
+			"galacticraftcore:evolved_creeper"
+			],
+	"dimension": -30,
+	"result": "deny"
+}
+]

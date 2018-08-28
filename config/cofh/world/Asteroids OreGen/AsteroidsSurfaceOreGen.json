@@ -1,0 +1,92 @@
+{
+    "populate": {   
+        "AsteroidSurfaceOres_NickelIronMix": {
+            "distribution": "uniform",
+            "generator": {     
+                "block": [
+                    {"name": "galacticraftplanets:asteroids_block", "metadata": 5, "weight": 85},
+                    {"name": "thermalfoundation:ore", "properties": { "type": "nickel" }, "weight": 15}
+                ],
+                "material": {"name": "galacticraftplanets:asteroids_block","metadata": 1},
+                "cluster-size": 6,
+            },
+            "min-height": 20,
+            "max-height": 240,
+            "cluster-count": 40,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [-30]
+            }
+        },
+        "AsteroidSurfaceOres_Iron": {
+            "distribution": "uniform",
+            "generator": {     
+                "block":  {"name": "galacticraftplanets:asteroids_block", "metadata": 5,},
+                "material": {"name": "galacticraftplanets:asteroids_block","metadata": 1},
+                "cluster-size": 16,
+            },
+            "min-height": 20,
+            "max-height": 240,
+            "cluster-count": 25,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [-30]
+            }
+        },
+        "AsteroidSurfaceOres_Nickel": {
+            "distribution": "uniform",
+            "generator": {     
+                "block":  {"name": "thermalfoundation:ore", "properties": { "type": "nickel" }},
+                "material": {"name": "galacticraftplanets:asteroids_block","metadata": 1},
+                "cluster-size": 7,
+            },
+            "min-height": 20,
+            "max-height": 240,
+            "cluster-count": 13,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [-30]
+            }
+        },
+        "AsteroidSurfaceOres_Aluminum": {
+            "distribution": "uniform",
+            "generator": {     
+                "block":  {"name": "galacticraftplanets:asteroids_block", "metadata": 3},
+                "material": {"name": "galacticraftplanets:asteroids_block", "metadata": 2},
+                "cluster-size": 4,
+            },
+            "min-height": 20,
+            "max-height": 240,
+            "cluster-count": 25,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [-30]
+            }
+        },
+        "AsteroidSurfaceOres_Silicon": {
+            "distribution": "uniform",
+            "generator": {     
+                "block":  {"name": "galacticraftplanets:venus", "metadata": 10},
+                "material": {"name": "galacticraftplanets:dense_ice"},
+                "cluster-size": 5,
+            },
+            "min-height": 20,
+            "max-height": 240,
+            "cluster-count": 40,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [-30]
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "Platform_-689,106,-900",
+  "name": "Platform",
+  "icon": "waypoint-normal.png",
+  "x": -689,
+  "y": 106,
+  "z": -900,
+  "r": 57,
+  "g": 231,
+  "b": 221,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    -30
+  ],
+  "persistent": true
+}

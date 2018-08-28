@@ -1,0 +1,18 @@
+{
+  "id": "First Base_-725,83,-969",
+  "name": "First Base",
+  "icon": "waypoint-normal.png",
+  "x": -725,
+  "y": 83,
+  "z": -969,
+  "r": 248,
+  "g": 67,
+  "b": 249,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    -30
+  ],
+  "persistent": true
+}

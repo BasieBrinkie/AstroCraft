@@ -1,0 +1,12 @@
+{
+  "galacticraftplanets:asteroids_block:1": [
+  {
+    "drop": {
+      "name": "exnihilocreatio:item_pebble", 
+      "meta": 0
+    },
+    "chance": 1,
+    "meshLevel": 1
+  }
+  ]
+}
