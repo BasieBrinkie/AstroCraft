@@ -1,0 +1,53 @@
+{
+  "block_pools": [
+    {
+      "name": "OxygenLog",
+      "type": {
+        "type": "block",
+        "name": "minecraft:grass",
+        "meta": 0
+      },
+      "clicktype": "rightclick",
+      "properties": [
+        {
+          "type": "require_sneak"
+        },
+        {
+          "type": "require_item",
+          "name": "minecraft:stick"
+        },
+        {
+        	"type": "consume_item",
+        	"amount": 1
+        },
+        {
+          "type": "add_tile_items",
+          "name": "advancedrocketry:bucketoxygen",
+          "meta": 0,
+          "amount": 1,
+          "slots": [1]
+        },
+        {
+          "type": "swing_hand"
+        }
+      ],
+      "drops": [
+        {
+          "name": "minecraft:log",
+          "meta": 0,
+          "chance": 0
+        }
+      ],
+      "messages": [
+        {
+          "id": "global",
+          "message": "No Tile Entity"
+        },
+        {
+          "id": "success",
+          "message": "Yup should workd"
+        }
+      ]
+    }
+  ]
+}
