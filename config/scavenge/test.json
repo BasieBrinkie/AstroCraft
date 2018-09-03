@@ -1,0 +1,51 @@
+{
+  "block_pools": [
+    {
+      "name": "test",
+      "type": {
+        "type": "ore",
+        "name": "logWood"
+      },
+      "clicktype": "rightclick",
+      "properties": [
+        {
+          "type": "conditional_Effect",
+          "condition": {
+            "type": "require_item",
+            "name": "minecraft:grass",
+            "meta": 0,
+            "amount": 1,
+            "offhand": false,
+            "required_durability": -1
+          },
+          "effects": [
+            {
+              "type": "consume_item",
+              "name": "minecraft:grass",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "type": "swing_hand"
+        }
+      ],
+      "drops": [
+        {
+          "name": "minecraft:dirt",
+          "amount": 1
+        }
+      ],
+      "messages": [
+        {
+          "id": "global",
+          "message": "failed to run script"
+        },
+        {
+          "id": "success",
+          "message": "Yup, should have worked"
+        }
+      ]
+    }
+  ]
+}
