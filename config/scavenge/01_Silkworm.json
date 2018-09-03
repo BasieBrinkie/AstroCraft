@@ -4,7 +4,8 @@
       "name": "DirtSilkworms",
       "type": {
         "type": "block",
-        "name": "minecraft:dirt"
+        "name": "minecraft:dirt",
+        "meta": 0
       },
       "clicktype": "rightclick",
       "properties": [
@@ -13,7 +14,7 @@
         },
         {
           "type": "play_sound",
-          "name": "minecraft:block.grass.hit"
+          "name": "minecraft:block.grass.break"
         },
         {
           "type": "swing_hand"
@@ -40,7 +41,7 @@
         {
           "name": "exnihilocreatio:item_material",
           "meta": 2,
-          "chance": 5
+          "chance": 3
         }
       ]
     }

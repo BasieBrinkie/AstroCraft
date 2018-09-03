@@ -3,49 +3,33 @@
     {
       "name": "OxygenLog",
       "type": {
-        "type": "block",
-        "name": "minecraft:grass",
-        "meta": 0
+        "type": "ore",
+        "name": "logWood"
       },
       "clicktype": "rightclick",
       "properties": [
         {
-          "type": "require_sneak"
-        },
-        {
-          "type": "require_item",
-          "name": "minecraft:stick"
-        },
-        {
-        	"type": "consume_item",
-        	"amount": 1
-        },
-        {
-          "type": "add_tile_items",
-          "name": "advancedrocketry:bucketoxygen",
-          "meta": 0,
-          "amount": 1,
-          "slots": [1]
+          "type": "require_tool",
+          "tool": "axe",
+          "level": 1
         },
         {
           "type": "swing_hand"
+        },
+        {
+        	"type":"consume_block",
+        	"chance": 33.3
+        },
+        {
+        	"type": "damage_item",
+        	"amount": 3
         }
       ],
       "drops": [
         {
-          "name": "minecraft:log",
-          "meta": 0,
-          "chance": 0
-        }
-      ],
-      "messages": [
-        {
-          "id": "global",
-          "message": "No Tile Entity"
-        },
-        {
-          "id": "success",
-          "message": "Yup should workd"
+          "name": "abyssalcraft:crystalfragment",
+          "meta": 4,
+          "chance": 100.0
         }
       ]
     }

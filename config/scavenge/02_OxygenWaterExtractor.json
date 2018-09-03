@@ -1,0 +1,247 @@
+{
+  "block_pools": [
+    {
+      "name": "OxygenWaterExtractor",
+      "type": {
+        "type": "ore",
+        "name": "logWood"
+      },
+      "clicktype": "rightclick",
+      "properties": [
+        {
+          "type": "array_condition",
+          "conditions": [
+            {
+              "type": "require_item",
+              "name": "skyresources:waterextractor"
+            },
+            {
+              "type": "array_condition",
+              "conditions": [
+                {
+                  "type": "invert_Condition",
+                  "value": {
+                    "type": "item_has_nbt",
+                    "require": true,
+                    "name": "Oxy12"
+                  }
+                },
+                {
+                  "type": "invert_Condition",
+                  "value": {
+                    "type": "item_has_nbt",
+                    "require": true,
+                    "name": "Oxy18"
+                  }
+                },
+                {
+                  "type": "invert_Condition",
+                  "value": {
+                    "type": "item_has_nbt",
+                    "require": true,
+                    "name": "Oxy26"
+                  }
+                },
+                {
+                  "type": "invert_Condition",
+                  "value": {
+                    "type": "item_has_nbt",
+                    "require": true,
+                    "name": "Oxy29"
+                  }
+                },
+                {
+                  "type": "invert_Condition",
+                  "value": {
+                    "type": "item_has_nbt",
+                    "require": true,
+                    "name": "Oxy34"
+                  }
+                },
+                {
+                  "type": "invert_Condition",
+                  "value": {
+                    "type": "item_has_nbt",
+                    "require": true,
+                    "name": "Oxy41"
+                  }
+                },
+                {
+                  "type": "invert_Condition",
+                  "value": {
+                    "type": "item_has_nbt",
+                    "require": true,
+                    "name": "Oxy44"
+                  }
+                },
+                {
+                  "type": "invert_Condition",
+                  "value": {
+                    "type": "item_has_nbt",
+                    "require": true,
+                    "name": "Oxy52"
+                  }
+                },
+                {
+                  "type": "invert_Condition",
+                  "value": {
+                    "type": "item_has_nbt",
+                    "require": true,
+                    "name": "Oxy54"
+                  }
+                },
+                {
+                  "type": "invert_Condition",
+                  "value": {
+                    "type": "item_has_nbt",
+                    "require": true,
+                    "name": "Oxy59"
+                  }
+                },
+                {
+                  "type": "invert_Condition",
+                  "value": {
+                    "type": "item_has_nbt",
+                    "require": true,
+                    "name": "Oxy64"
+                  }
+                },
+                {
+                  "type": "invert_Condition",
+                  "value": {
+                    "type": "item_has_nbt",
+                    "require": true,
+                    "name": "Oxy65"
+                  }
+                },
+                {
+                  "type": "invert_Condition",
+                  "value": {
+                    "type": "item_has_nbt",
+                    "require": true,
+                    "name": "Oxy71"
+                  }
+                },
+                {
+                  "type": "invert_Condition",
+                  "value": {
+                    "type": "item_has_nbt",
+                    "require": true,
+                    "name": "Oxy77"
+                  }
+                },
+                {
+                  "type": "invert_Condition",
+                  "value": {
+                    "type": "item_has_nbt",
+                    "require": true,
+                    "name": "Oxy85"
+                  }
+                },
+                {
+                  "type": "invert_Condition",
+                  "value": {
+                    "type": "item_has_nbt",
+                    "require": true,
+                    "name": "Oxy94"
+                  }
+                },
+                {
+                  "type": "invert_Condition",
+                  "value": {
+                    "type": "item_has_nbt",
+                    "require": true,
+                    "name": "Oxy106"
+                  }
+                },
+                {
+                  "type": "invert_Condition",
+                  "value": {
+                    "type": "item_has_nbt",
+                    "require": true,
+                    "name": "Oxy114"
+                  }
+                },
+                {
+                  "type": "invert_Condition",
+                  "value": {
+                    "type": "item_has_nbt",
+                    "require": true,
+                    "name": "Oxy131"
+                  }
+                },
+                {
+                  "type": "invert_Condition",
+                  "value": {
+                    "type": "item_has_nbt",
+                    "require": true,
+                    "name": "Oxy150"
+                  }
+                }
+              ],
+              "and": true
+            }
+          ],
+          "and": true
+        },
+        {
+          "type": "swing_hand"
+        },
+        {
+          "type": "drop_items",
+          "doDrop": false
+        },
+        {
+          "type": "consume_item",
+          "name": "skyresources:waterextractor",
+          "amount": 1
+        },
+        {
+          "type": "per_block_limit",
+          "max": 5,
+          "replacement": {
+            "name": "minecraft:log",
+            "meta": 0,
+            "chance": 100.0
+          }
+        }
+      ],
+      "drops": [
+        {
+          "name": "skyresources:waterextractor",
+          "properties": {
+            "type": "set_random_nbtData",
+            "datas": [
+              "Oxy12",
+              "Oxy18",
+              "Oxy26",
+              "Oxy29",
+              "Oxy34",
+              "Oxy41",
+              "Oxy44",
+              "Oxy52",
+              "Oxy54",
+              "Oxy59",
+              "Oxy64",
+              "Oxy65",
+              "Oxy71",
+              "Oxy77",
+              "Oxy85",
+              "Oxy94",
+              "Oxy106",
+              "Oxy114",
+              "Oxy131",
+              "Oxy150"
+            ]
+          }
+        }
+      ],
+      "messages": [
+        {
+          "id": "success",
+          "message": "You can't use this item again until it's been emptied"
+        }
+      ]
+    }
+  ]
+}
