@@ -1,23 +1,30 @@
-/* 
+#priority 10000
+/* ----------------------------------------------------------------------------------------------------------------------
 	All credit goes to the developers of Sevtech-Ages for writing this awesome wrapper.
 	I initially wanted to write my own but theirs works exactly like how i wanted it to be.
 	Thanks to the permission of the SevTech-Ages developers the development of this pack has been speeded up drastically.
 	So once again credit goes to the awesome people of DarkPacks!
+	---------------------------------------------------------------------------------------------------------------------
 */
-/*
+/*	------------------------------------------------------------
 	Recipe wrapper for easier development and a clearer scripts.
+	------------------------------------------------------------
 */
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
 import mods.zenstages.ZenStager;
 
-//changed the classname to recipeBuilder because it sounds better than recipeUtil.
+/*	--------------------------------------------------------------------------------
+	changed the classname to recipeBuilder because it sounds better than recipeUtil.
+	--------------------------------------------------------------------------------
+*/
 zenClass recipeBuilder {
 	zenConstructor() {}
 	
-	/*
+	/*	------------------------------------------
 		Process Method to handle Shapless Recipes.
+		------------------------------------------
 	*/
 
 	function processNamed(map as IIngredient[][][string][IItemStack]) {
@@ -46,8 +53,9 @@ zenClass recipeBuilder {
 		}
 	}
 
-	/*
+	/*	-----------------------------------------------------
 		Process Method to handle Shaped and Mirrored Recipes.
+		-----------------------------------------------------
 	*/
 
 	function processNamed(map as IIngredient[][][][string][IItemStack], isMirrored as bool) {
@@ -89,8 +97,9 @@ zenClass recipeBuilder {
 		}
 	}
 
-	/*
+	/*	----------------------------------------
 		Removes recipes simple as baking a cake!
+		----------------------------------------
 	*/
 
 	function removeRecipes(removals as IItemStack[]) {
@@ -104,8 +113,9 @@ zenClass recipeBuilder {
 		}
 	}
 
-	/*
+	/*	--------------------------------------------
 		Process Method for handling Furnace Recipes.
+		--------------------------------------------
 	*/
 
 	function processFurnace(recipesToAdd as IIngredient[][IItemStack]) {
@@ -116,8 +126,9 @@ zenClass recipeBuilder {
 		}
 	}
 
-	/*
+	/*	----------------------------------------
 		Remove recipes from the Vanilla Furnace.
+		----------------------------------------
 	*/
 
 	function removeFurnace(removals as IIngredient[]) {
@@ -131,11 +142,12 @@ zenClass recipeBuilder {
 		}
 	}
 
-	/*
+	/*	--------------------------------------------------------------------------------
 		Hide an item from JEI.
 
 		You can also set true to the second param to remove the recipes also.
 		This also sets the Stage to Disabled incase people still have them or find them.
+		--------------------------------------------------------------------------------
 	*/
 
 	function hideItems(removals as IIngredient[]) {
