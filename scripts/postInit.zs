@@ -1,4 +1,4 @@
-#priority -100
+#priority -1
 
 import mods.zenstages.ZenStager;
 
@@ -7,24 +7,28 @@ import mods.zenstages.ZenStager;
 	Load order of scripts.
 	----------------------
 */
-initClasses();
+initSpawnItems();
+initOredict();
 initRecipes();
 
+ZenStager.buildAll();
 /*
 	-------------------------------------------------
 	Functions to define where the init functions are.
 	-------------------------------------------------
 */
-
-function initClasses() {
-	scripts.00_InitialScripts.Classes.classBuilder.init();
+function initSpawnItems() {
+	scripts.initialScripts.initialInventory.initialInventory.init();
+}
+function initOredict() {
+	scripts.oredict.mods.betterQuesting.init();
 }
 
-function initRecipes() {
-	
-	/*	-------------------------------------------------
-		Recipes per mod
-		-------------------------------------------------
+function initRecipes() {	
+	/*	
+		----------------
+		Recipes per mod.
+		----------------
 	*/
-	scripts.01_Recipes.Mods.Galacticraftcore.init();
+	scripts.recipes.mods.galacticraftCore.init();
 }
