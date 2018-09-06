@@ -88,9 +88,9 @@ static mirror as IOredictEntry[][IOredictEntry] = {
 };
 
 function init() {
-	OredictBuilder.process(addItemsToOredict);
-	OredictBuilder.process(addOredictToOredict);
-	OredictBuilder.remove(removeItemsFromOredict);
-	OredictBuilder.remove(removeModID);
-	OredictBuilder.mirror(mirror);
+	oredictBuilder.process(addItemsToOredict);
+	oredictBuilder.processOredict(addOredictToOredict);
+	oredictBuilder.remove(removeItemsFromOredict);
+	oredictBuilder.removeModID(removeModID);
+	oredictBuilder.mirror(mirror);
 }

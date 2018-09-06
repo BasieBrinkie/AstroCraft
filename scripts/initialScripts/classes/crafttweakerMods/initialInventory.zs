@@ -1,11 +1,13 @@
+#priority 9000
 import mods.initialinventory.InvHandler.addStartingItem as addSpawnItem;
+import crafttweaker.item.IItemStack;
 
 zenClass spawnItems {
 	zenConstructor() {}
-
-	/* 	----------------------------------------
+	/*
+	 	----------------------------------------
 		Function to add items to spawn inventory
-		Syntax: spawnItems.add(int[IItemStack])
+		Syntax: spawnItems.add(int[IItemStack]);
 		----------------------------------------
 	*/
 

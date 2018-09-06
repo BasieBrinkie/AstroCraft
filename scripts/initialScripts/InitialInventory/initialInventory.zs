@@ -1,7 +1,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 
-static spawnItems as int[IItemStack] = {
+static addSpawnItems as int[IItemStack] = {
 	//Full space suit with 4000mb oxygen in a low pressuretank automatically go in the correct armor slots;
 	<advancedrocketry:spacehelmet>: 39,
 	<advancedrocketry:spacechestplate>.withTag(nbt.pressureTank_Oxygen(4000, 0)): 38,
@@ -21,5 +21,5 @@ static spawnItems as int[IItemStack] = {
 };
 
 function init() {
-	spawnItems.add(spawnItems);
+	spawnItems.add(addSpawnItems);
 }

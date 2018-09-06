@@ -1,11 +1,12 @@
+#priority 9000
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 
 zenClass unifier {
 	zenConstructor() {}
 	
-	function checkOredict(oredict as IOredict, item as IItemStack) {
-		if(!(oredict in item)) {
+	function checkOredict(oredict as IOredict, item as IItemStack) as bool {
+		if(oredict in item) {
 			return true;
 		}
 	}
@@ -14,14 +15,8 @@ zenClass unifier {
 		for oredictName in oredictEntry {	
 			for modID in preferredMods {
 				for item in oredictName.items {
-					if (item.definition.owner == modID) {
-						oredictName.remove(oredictName);
-						oredictName.add(item);
-					}
-					else {
-						var firstItem = oredictName.firstItem;
-						oredictName.remove(oredictName);
-						oredictName.add(firstItem);
+					if (!(item.definition.owner == modID)) {
+						oredictName.remove(item);
 					}				
 				}
 			}

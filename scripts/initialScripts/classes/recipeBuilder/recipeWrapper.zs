@@ -1,12 +1,14 @@
-#priority 10000
-/* ----------------------------------------------------------------------------------------------------------------------
+#priority 9000
+/* 
+	----------------------------------------------------------------------------------------------------------------------
 	All credit goes to the developers of Sevtech-Ages for writing this awesome wrapper.
 	I initially wanted to write my own but theirs works exactly like how i wanted it to be.
 	Thanks to the permission of the SevTech-Ages developers the development of this pack has been speeded up drastically.
 	So once again credit goes to the awesome people of DarkPacks!
 	---------------------------------------------------------------------------------------------------------------------
 */
-/*	------------------------------------------------------------
+/*	
+	------------------------------------------------------------
 	Recipe wrapper for easier development and a clearer scripts.
 	------------------------------------------------------------
 */
@@ -15,19 +17,23 @@ import crafttweaker.item.IIngredient;
 
 import mods.zenstages.ZenStager;
 
-/*	--------------------------------------------------------------------------------
+import scripts.initialScripts.stages.register.stageDisabledItems;
+
+/*	
+	--------------------------------------------------------------------------------
 	changed the classname to recipeBuilder because it sounds better than recipeUtil.
 	--------------------------------------------------------------------------------
 */
 zenClass recipeBuilder {
 	zenConstructor() {}
 	
-	/*	------------------------------------------
+	/*	
+		------------------------------------------
 		Process Method to handle Shapless Recipes.
 		------------------------------------------
 	*/
 
-	function processNamed(map as IIngredient[][][string][IItemStack]) {
+	function processShapelessNamed(map as IIngredient[][][string][IItemStack]) {
 		for item, itemRecipes in map {
 			for recipeName, recipesInner in itemRecipes {
 				for i, recipe in recipesInner {
@@ -45,7 +51,7 @@ zenClass recipeBuilder {
 		}
 	}
 
-	function process(map as IIngredient[][][IItemStack]) {
+	function processShapeless(map as IIngredient[][][IItemStack]) {
 		for item, itemRecipes in map {
 			for recipe in itemRecipes {
 				recipes.addShapeless(item, recipe);
@@ -53,7 +59,8 @@ zenClass recipeBuilder {
 		}
 	}
 
-	/*	-----------------------------------------------------
+	/*	
+		-----------------------------------------------------
 		Process Method to handle Shaped and Mirrored Recipes.
 		-----------------------------------------------------
 	*/
@@ -90,14 +97,16 @@ zenClass recipeBuilder {
 			for recipe in itemRecipes {
 				if (isMirrored) {
 					recipes.addShapedMirrored(item, recipe);
-				} else {
+				} 
+				else {
 					recipes.addShaped(item, recipe);
 				}
 			}
 		}
 	}
 
-	/*	----------------------------------------
+	/*	
+		----------------------------------------
 		Removes recipes simple as baking a cake!
 		----------------------------------------
 	*/
@@ -113,7 +122,8 @@ zenClass recipeBuilder {
 		}
 	}
 
-	/*	--------------------------------------------
+	/*	
+		--------------------------------------------
 		Process Method for handling Furnace Recipes.
 		--------------------------------------------
 	*/
@@ -126,7 +136,8 @@ zenClass recipeBuilder {
 		}
 	}
 
-	/*	----------------------------------------
+	/*	
+		----------------------------------------
 		Remove recipes from the Vanilla Furnace.
 		----------------------------------------
 	*/
@@ -142,7 +153,8 @@ zenClass recipeBuilder {
 		}
 	}
 
-	/*	--------------------------------------------------------------------------------
+	/*	
+		--------------------------------------------------------------------------------
 		Hide an item from JEI.
 
 		You can also set true to the second param to remove the recipes also.
@@ -157,9 +169,10 @@ zenClass recipeBuilder {
 		if (removeRecipe) {
 			for toHide in removals {
 				mods.jei.JEI.removeAndHide(toHide);
-				ZenStager.getStage(stageDisabled.stage).addIngredient(toHide, false);
+				ZenStager.getStage(stageDisabledItems.stage).addIngredient(toHide, false);
 			}
-		} else {
+		}
+		else {
 			for toHide in removals {
 				for toHideItem in toHide.items {
 					mods.jei.JEI.hide(toHideItem);
