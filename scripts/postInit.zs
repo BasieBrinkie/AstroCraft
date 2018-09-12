@@ -30,5 +30,5 @@ function initRecipes() {
 		Recipes per mod.
 		----------------
 	*/
-	scripts.recipes.mods.galacticraftCore.init();
+	scripts.recipes.mods.advancedRocketry.init();
 }

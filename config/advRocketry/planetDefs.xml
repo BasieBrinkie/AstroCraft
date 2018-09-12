@@ -1,6 +1,6 @@
 <galaxy>
     <star name="ToBeSet" temp="100" x="0" y="0" numPlanets="0" numGasGiants="0">
-        <planet name="Asteroid Belt" DIMID="-30" dimMapping="">
+        <planet name="Asteroid Belt" DIMID="3">
             <atmosphereDensity>0</atmosphereDensity>
             <gravitationalMultiplier>100</gravitationalMultiplier>
             <biomeIds>0</biomeIds>

@@ -44,7 +44,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.6859269Z",
       "lastWriteTimeUtc": "2018-08-20T10:34:02.7078629Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8450379Z",
+      "queryTimestamp": "2018-09-12T17:25:33.2942542Z",
       "fileCount": 1,
       "fileSize": 15316083
     },
@@ -74,9 +74,24 @@
       "status": 1,
       "timestamp": "2018-09-11T17:04:49.2478366Z",
       "lastWriteTimeUtc": "2018-08-20T10:51:36.4798485Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8450379Z",
+      "queryTimestamp": "2018-09-12T17:25:33.2952537Z",
       "fileCount": 1,
       "fileSize": 247347
+    },
+    {
+      "folderName": "NuclearCraft-2.11f--1.12.2.jar",
+      "fingerprint": 1192082100,
+      "fileDateHash": 2669149107,
+      "sectionID": 6,
+      "individualFingerprints": [
+        1192082100
+      ],
+      "status": 1,
+      "timestamp": "2018-09-12T14:33:58.0168415Z",
+      "lastWriteTimeUtc": "2018-09-12T14:25:31.7606019Z",
+      "queryTimestamp": "2018-09-12T14:34:01.1238578Z",
+      "fileCount": 1,
+      "fileSize": 6717433
     },
     {
       "folderName": "ResourceLoader-MC1.12.1-1.5.3.jar",
@@ -89,7 +104,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.776898Z",
       "lastWriteTimeUtc": "2018-08-27T10:12:21.091872Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8460378Z",
+      "queryTimestamp": "2018-09-12T17:25:33.2962533Z",
       "fileCount": 1,
       "fileSize": 16612
     },
@@ -104,7 +119,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.7042118Z",
       "lastWriteTimeUtc": "2018-08-20T10:58:33.5691059Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8460378Z",
+      "queryTimestamp": "2018-09-12T17:25:33.2962533Z",
       "fileCount": 1,
       "fileSize": 132795
     },
@@ -119,7 +134,7 @@
       "status": 1,
       "timestamp": "2018-09-09T22:02:48.6015919Z",
       "lastWriteTimeUtc": "2018-08-30T10:37:26.7255996Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8460378Z",
+      "queryTimestamp": "2018-09-12T17:25:33.2962533Z",
       "fileCount": 1,
       "fileSize": 235739
     },
@@ -134,24 +149,9 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.577252Z",
       "lastWriteTimeUtc": "2018-08-30T10:37:02.2718397Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8470374Z",
+      "queryTimestamp": "2018-09-12T17:25:33.2972531Z",
       "fileCount": 1,
       "fileSize": 210042
-    },
-    {
-      "folderName": "NuclearCraft-2.11e--1.12.2.jar",
-      "fingerprint": 1268005318,
-      "fileDateHash": 814101199,
-      "sectionID": 6,
-      "individualFingerprints": [
-        1268005318
-      ],
-      "status": 1,
-      "timestamp": "2018-09-11T21:01:47.7349475Z",
-      "lastWriteTimeUtc": "2018-09-11T19:59:27.0971171Z",
-      "queryTimestamp": "2018-09-11T21:01:49.9498575Z",
-      "fileCount": 1,
-      "fileSize": 6717835
     },
     {
       "folderName": "StandardExpansion-3.4.145.jar",
@@ -164,7 +164,7 @@
       "status": 1,
       "timestamp": "2018-08-20T19:53:42.7739353Z",
       "lastWriteTimeUtc": "2018-08-20T16:30:39.1235308Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8470374Z",
+      "queryTimestamp": "2018-09-12T17:25:33.2972531Z",
       "fileCount": 1,
       "fileSize": 394590
     },
@@ -179,7 +179,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.2700596Z",
       "lastWriteTimeUtc": "2018-08-20T10:56:20.610253Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8470374Z",
+      "queryTimestamp": "2018-09-12T17:25:33.2972531Z",
       "fileCount": 1,
       "fileSize": 973054
     },
@@ -209,9 +209,24 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.5069843Z",
       "lastWriteTimeUtc": "2018-08-20T10:37:24.3284943Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8480369Z",
+      "queryTimestamp": "2018-09-12T17:25:33.2982528Z",
       "fileCount": 1,
       "fileSize": 26285
+    },
+    {
+      "folderName": "Galacticraft-Planets-1.12.2-4.0.1.181.jar.disabled",
+      "fingerprint": 2363718374,
+      "fileDateHash": 2190621183,
+      "sectionID": 6,
+      "individualFingerprints": [
+        2363718374
+      ],
+      "status": 1,
+      "timestamp": "2018-09-12T17:25:32.1735379Z",
+      "lastWriteTimeUtc": "2018-08-20T11:46:10.8526522Z",
+      "queryTimestamp": "2018-09-12T17:25:33.2992531Z",
+      "fileCount": 1,
+      "fileSize": 3845831
     },
     {
       "folderName": "RedstoneFlux-1.12-2.0.2.3-universal.jar",
@@ -224,9 +239,24 @@
       "status": 1,
       "timestamp": "2018-08-20T19:53:42.7359469Z",
       "lastWriteTimeUtc": "2018-08-20T10:29:24.1262286Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8490368Z",
+      "queryTimestamp": "2018-09-12T17:25:33.2992531Z",
       "fileCount": 1,
       "fileSize": 35219
+    },
+    {
+      "folderName": "CharcoalPit-[1.12]-1.20.jar",
+      "fingerprint": 4144845191,
+      "fileDateHash": 92873263,
+      "sectionID": 6,
+      "individualFingerprints": [
+        4144845191
+      ],
+      "status": 1,
+      "timestamp": "2018-09-12T14:33:57.9948483Z",
+      "lastWriteTimeUtc": "2018-09-12T14:25:13.4224434Z",
+      "queryTimestamp": "2018-09-12T14:34:01.1278561Z",
+      "fileCount": 1,
+      "fileSize": 304571
     },
     {
       "folderName": "architecturecraft-1.12-2.68.jar",
@@ -239,7 +269,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.2570639Z",
       "lastWriteTimeUtc": "2018-08-20T10:54:26.3939658Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8490368Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3012517Z",
       "fileCount": 1,
       "fileSize": 897626
     },
@@ -254,7 +284,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.3990182Z",
       "lastWriteTimeUtc": "2018-08-20T10:40:08.3254927Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8490368Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3012517Z",
       "fileCount": 1,
       "fileSize": 76753
     },
@@ -284,7 +314,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.7372013Z",
       "lastWriteTimeUtc": "2018-09-08T22:45:15.3551269Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8500363Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3022514Z",
       "fileCount": 1,
       "fileSize": 5401579
     },
@@ -299,9 +329,39 @@
       "status": 1,
       "timestamp": "2018-09-11T17:04:49.3767942Z",
       "lastWriteTimeUtc": "2018-08-20T10:37:30.1071607Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8500363Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3022514Z",
       "fileCount": 1,
       "fileSize": 1683895
+    },
+    {
+      "folderName": "GalacticraftCore-1.12.2-4.0.1.181.jar.disabled",
+      "fingerprint": 527084515,
+      "fileDateHash": 2694569639,
+      "sectionID": 6,
+      "individualFingerprints": [
+        527084515
+      ],
+      "status": 1,
+      "timestamp": "2018-09-12T17:25:32.1945316Z",
+      "lastWriteTimeUtc": "2018-08-20T11:46:05.6407991Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3022514Z",
+      "fileCount": 1,
+      "fileSize": 10355756
+    },
+    {
+      "folderName": "MCMultiPart-2.5.3.jar",
+      "fingerprint": 909753984,
+      "fileDateHash": 215934814,
+      "sectionID": 6,
+      "individualFingerprints": [
+        909753984
+      ],
+      "status": 1,
+      "timestamp": "2018-09-12T14:33:58.015842Z",
+      "lastWriteTimeUtc": "2018-09-12T14:25:26.47179Z",
+      "queryTimestamp": "2018-09-12T14:34:01.1298827Z",
+      "fileCount": 1,
+      "fileSize": 173426
     },
     {
       "folderName": "woot-1.12.2-1.4.4.jar",
@@ -314,7 +374,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.768191Z",
       "lastWriteTimeUtc": "2018-08-26T16:30:47.5640508Z",
-      "queryTimestamp": "2018-09-11T17:04:54.851036Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3032512Z",
       "fileCount": 1,
       "fileSize": 869487
     },
@@ -329,7 +389,7 @@
       "status": 1,
       "timestamp": "2018-08-20T19:53:43.4007349Z",
       "lastWriteTimeUtc": "2018-08-20T11:21:28.8796308Z",
-      "queryTimestamp": "2018-09-11T17:04:54.851036Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3032512Z",
       "fileCount": 1,
       "fileSize": 1104402
     },
@@ -359,7 +419,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.6512283Z",
       "lastWriteTimeUtc": "2018-09-03T20:45:58.7147852Z",
-      "queryTimestamp": "2018-09-11T17:04:54.851036Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3042509Z",
       "fileCount": 1,
       "fileSize": 305869
     },
@@ -374,7 +434,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.6062431Z",
       "lastWriteTimeUtc": "2018-08-28T17:48:11.7248313Z",
-      "queryTimestamp": "2018-09-11T17:04:54.851036Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3042509Z",
       "fileCount": 1,
       "fileSize": 828980
     },
@@ -404,7 +464,7 @@
       "status": 1,
       "timestamp": "2018-08-20T19:53:41.9636607Z",
       "lastWriteTimeUtc": "2018-08-20T10:40:04.5951732Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8520356Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3052505Z",
       "fileCount": 1,
       "fileSize": 497005
     },
@@ -419,7 +479,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.3300405Z",
       "lastWriteTimeUtc": "2018-08-20T10:38:37.7632092Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8520356Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3052505Z",
       "fileCount": 1,
       "fileSize": 63616
     },
@@ -434,7 +494,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.5952462Z",
       "lastWriteTimeUtc": "2018-08-20T10:47:32.9585854Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8520356Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3052505Z",
       "fileCount": 1,
       "fileSize": 506772
     },
@@ -449,7 +509,7 @@
       "status": 1,
       "timestamp": "2018-09-08T21:48:46.2963093Z",
       "lastWriteTimeUtc": "2018-08-20T11:16:30.8256143Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8530353Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3062503Z",
       "fileCount": 1,
       "fileSize": 538295
     },
@@ -464,7 +524,7 @@
       "status": 1,
       "timestamp": "2018-08-20T19:53:42.5799968Z",
       "lastWriteTimeUtc": "2018-08-20T10:23:36.9058035Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8530353Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3062503Z",
       "fileCount": 1,
       "fileSize": 68793
     },
@@ -494,7 +554,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.766192Z",
       "lastWriteTimeUtc": "2018-08-20T10:33:42.4212956Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8530353Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3072502Z",
       "fileCount": 1,
       "fileSize": 320554
     },
@@ -509,7 +569,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.2830556Z",
       "lastWriteTimeUtc": "2018-09-03T15:02:13.6922857Z",
-      "queryTimestamp": "2018-09-11T17:04:54.854035Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3072502Z",
       "fileCount": 1,
       "fileSize": 82878
     },
@@ -554,7 +614,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.6112411Z",
       "lastWriteTimeUtc": "2018-08-20T10:30:19.1482896Z",
-      "queryTimestamp": "2018-09-11T17:04:54.854035Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3082497Z",
       "fileCount": 1,
       "fileSize": 168974
     },
@@ -569,7 +629,7 @@
       "status": 1,
       "timestamp": "2018-08-27T10:14:01.9710401Z",
       "lastWriteTimeUtc": "2018-08-27T10:11:18.6916102Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8550351Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3082497Z",
       "fileCount": 1,
       "fileSize": 14693
     },
@@ -599,7 +659,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.2770573Z",
       "lastWriteTimeUtc": "2018-08-28T17:47:36.6699174Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8550351Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3102491Z",
       "fileCount": 1,
       "fileSize": 11034
     },
@@ -614,7 +674,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.7362014Z",
       "lastWriteTimeUtc": "2018-08-20T11:14:04.3635379Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8560343Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3102491Z",
       "fileCount": 1,
       "fileSize": 141059
     },
@@ -644,7 +704,7 @@
       "status": 1,
       "timestamp": "2018-08-20T19:53:42.7359469Z",
       "lastWriteTimeUtc": "2018-08-20T10:30:03.1638511Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8560343Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3112486Z",
       "fileCount": 1,
       "fileSize": 30446
     },
@@ -674,9 +734,24 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.6532277Z",
       "lastWriteTimeUtc": "2018-08-27T12:36:46.8580145Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8560343Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3112486Z",
       "fileCount": 1,
       "fileSize": 61797
+    },
+    {
+      "folderName": "extrautils2-1.12-1.9.2.jar",
+      "fingerprint": 1739501354,
+      "fileDateHash": 2060623289,
+      "sectionID": 6,
+      "individualFingerprints": [
+        1739501354
+      ],
+      "status": 1,
+      "timestamp": "2018-09-12T14:33:57.9968476Z",
+      "lastWriteTimeUtc": "2018-09-12T14:25:20.4137208Z",
+      "queryTimestamp": "2018-09-12T14:34:01.137871Z",
+      "fileCount": 1,
+      "fileSize": 3187862
     },
     {
       "folderName": "skyresources-2.3.8.jar",
@@ -719,7 +794,7 @@
       "status": 1,
       "timestamp": "2018-08-20T19:53:41.4358294Z",
       "lastWriteTimeUtc": "2018-08-20T10:20:18.5019685Z",
-      "queryTimestamp": "2018-09-11T17:04:54.857034Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3122489Z",
       "fileCount": 1,
       "fileSize": 1275699
     },
@@ -734,7 +809,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.4879902Z",
       "lastWriteTimeUtc": "2018-08-20T10:23:45.9169466Z",
-      "queryTimestamp": "2018-09-11T17:04:54.857034Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3132479Z",
       "fileCount": 1,
       "fileSize": 424722
     },
@@ -749,7 +824,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.5532601Z",
       "lastWriteTimeUtc": "2018-08-20T10:29:33.1738617Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8580337Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3132479Z",
       "fileCount": 1,
       "fileSize": 2904524
     },
@@ -764,7 +839,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.3940199Z",
       "lastWriteTimeUtc": "2018-08-22T14:52:21.1105621Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8580337Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3132479Z",
       "fileCount": 1,
       "fileSize": 157747
     },
@@ -779,7 +854,7 @@
       "status": 1,
       "timestamp": "2018-08-26T16:41:28.1268178Z",
       "lastWriteTimeUtc": "2018-08-20T10:30:25.0359203Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8580337Z",
+      "queryTimestamp": "2018-09-12T17:25:33.314248Z",
       "fileCount": 1,
       "fileSize": 155196
     },
@@ -809,7 +884,7 @@
       "status": 1,
       "timestamp": "2018-08-23T21:10:20.7666208Z",
       "lastWriteTimeUtc": "2018-08-23T18:24:02.4240484Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8590334Z",
+      "queryTimestamp": "2018-09-12T17:25:33.314248Z",
       "fileCount": 1,
       "fileSize": 2194
     },
@@ -824,7 +899,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.4040166Z",
       "lastWriteTimeUtc": "2018-08-20T10:38:43.6143562Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8590334Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3152475Z",
       "fileCount": 1,
       "fileSize": 338984
     },
@@ -854,7 +929,7 @@
       "status": 1,
       "timestamp": "2018-09-03T00:06:10.7992681Z",
       "lastWriteTimeUtc": "2018-09-02T22:34:06.821195Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8600331Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3152475Z",
       "fileCount": 1,
       "fileSize": 39764
     },
@@ -869,7 +944,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.5762529Z",
       "lastWriteTimeUtc": "2018-08-20T10:20:23.2819533Z",
-      "queryTimestamp": "2018-09-11T17:04:54.861033Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3162472Z",
       "fileCount": 1,
       "fileSize": 108450
     },
@@ -884,7 +959,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.6019541Z",
       "lastWriteTimeUtc": "2018-08-20T10:34:24.8053473Z",
-      "queryTimestamp": "2018-09-11T17:04:54.861033Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3162472Z",
       "fileCount": 1,
       "fileSize": 1554061
     },
@@ -899,7 +974,7 @@
       "status": 1,
       "timestamp": "2018-09-08T21:48:45.9149256Z",
       "lastWriteTimeUtc": "2018-09-08T21:10:25.3912493Z",
-      "queryTimestamp": "2018-09-11T17:04:54.861033Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3162472Z",
       "fileCount": 1,
       "fileSize": 1305835
     },
@@ -914,7 +989,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.6012446Z",
       "lastWriteTimeUtc": "2018-08-20T10:30:48.9538332Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8620329Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3172468Z",
       "fileCount": 1,
       "fileSize": 1085417
     },
@@ -929,7 +1004,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.7172076Z",
       "lastWriteTimeUtc": "2018-08-20T10:35:54.5944063Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8620329Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3172468Z",
       "fileCount": 1,
       "fileSize": 596191
     },
@@ -959,7 +1034,7 @@
       "status": 1,
       "timestamp": "2018-09-11T17:04:49.2898221Z",
       "lastWriteTimeUtc": "2018-08-28T17:48:36.6209496Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8630321Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3172468Z",
       "fileCount": 1,
       "fileSize": 6109100
     },
@@ -1646,7 +1721,7 @@
       "status": 1,
       "timestamp": "2018-08-26T16:23:33.8511469Z",
       "lastWriteTimeUtc": "2018-08-24T20:33:02.1403611Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8640318Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3192462Z",
       "fileCount": 1,
       "fileSize": 232119
     },
@@ -1661,7 +1736,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.5922471Z",
       "lastWriteTimeUtc": "2018-08-20T10:23:17.7336753Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8640318Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3192462Z",
       "fileCount": 1,
       "fileSize": 176289
     },
@@ -1676,7 +1751,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.6009538Z",
       "lastWriteTimeUtc": "2018-08-20T10:37:48.5563139Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8650315Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3192462Z",
       "fileCount": 1,
       "fileSize": 130481
     },
@@ -1691,7 +1766,7 @@
       "status": 1,
       "timestamp": "2018-08-20T19:53:41.9146766Z",
       "lastWriteTimeUtc": "2018-08-20T10:23:01.6757374Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8650315Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3202458Z",
       "fileCount": 1,
       "fileSize": 577235
     },
@@ -1706,7 +1781,7 @@
       "status": 1,
       "timestamp": "2018-08-26T16:41:28.5467471Z",
       "lastWriteTimeUtc": "2018-08-20T10:34:54.9623004Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8650315Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3202458Z",
       "fileCount": 1,
       "fileSize": 16020358
     },
@@ -1721,7 +1796,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.4969873Z",
       "lastWriteTimeUtc": "2018-08-24T20:42:25.3350109Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8650315Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3202458Z",
       "fileCount": 1,
       "fileSize": 555445
     },
@@ -1736,7 +1811,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.3170445Z",
       "lastWriteTimeUtc": "2018-08-27T10:44:13.5736534Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8660315Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3202458Z",
       "fileCount": 1,
       "fileSize": 779757
     },
@@ -1751,7 +1826,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.5782516Z",
       "lastWriteTimeUtc": "2018-08-20T10:35:54.111056Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8670311Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3212457Z",
       "fileCount": 1,
       "fileSize": 96859
     },
@@ -1781,7 +1856,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.2570639Z",
       "lastWriteTimeUtc": "2018-08-20T10:40:10.4163279Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8670311Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3212457Z",
       "fileCount": 1,
       "fileSize": 44041
     },
@@ -1796,7 +1871,7 @@
       "status": 1,
       "timestamp": "2018-09-02T19:41:07.7046809Z",
       "lastWriteTimeUtc": "2018-09-02T19:12:10.7413832Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8680308Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3222453Z",
       "fileCount": 1,
       "fileSize": 176934
     },
@@ -1826,7 +1901,7 @@
       "status": 1,
       "timestamp": "2018-08-20T19:53:43.343753Z",
       "lastWriteTimeUtc": "2018-08-20T10:29:49.1807873Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8680308Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3222453Z",
       "fileCount": 1,
       "fileSize": 2284786
     },
@@ -1841,7 +1916,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.5732533Z",
       "lastWriteTimeUtc": "2018-08-20T10:52:44.1518804Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8690304Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3232448Z",
       "fileCount": 1,
       "fileSize": 555982
     },
@@ -1856,9 +1931,24 @@
       "status": 1,
       "timestamp": "2018-09-08T21:48:47.1660324Z",
       "lastWriteTimeUtc": "2018-08-24T20:32:22.3864532Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8690304Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3232448Z",
       "fileCount": 1,
       "fileSize": 285402
+    },
+    {
+      "folderName": "mcjtylib-1.12-3.0.5.jar",
+      "fingerprint": 1159305596,
+      "fileDateHash": 2512945336,
+      "sectionID": 6,
+      "individualFingerprints": [
+        1159305596
+      ],
+      "status": 1,
+      "timestamp": "2018-09-12T14:33:58.0128425Z",
+      "lastWriteTimeUtc": "2018-09-12T14:25:25.3846343Z",
+      "queryTimestamp": "2018-09-12T14:34:01.1488676Z",
+      "fileCount": 1,
+      "fileSize": 488438
     },
     {
       "folderName": "BloodMagic-1.12.2-2.3.3-101.jar",
@@ -1886,7 +1976,7 @@
       "status": 1,
       "timestamp": "2018-09-08T21:48:47.0510684Z",
       "lastWriteTimeUtc": "2018-08-21T18:03:10.0270904Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8700299Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3242448Z",
       "fileCount": 1,
       "fileSize": 13580
     },
@@ -1901,7 +1991,7 @@
       "status": 1,
       "timestamp": "2018-08-22T10:07:25.9594254Z",
       "lastWriteTimeUtc": "2018-08-20T10:29:35.6620741Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8700299Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3242448Z",
       "fileCount": 1,
       "fileSize": 26034
     },
@@ -1916,7 +2006,7 @@
       "status": 1,
       "timestamp": "2018-08-20T19:53:43.3957368Z",
       "lastWriteTimeUtc": "2018-08-20T11:01:33.367084Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8710296Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3252441Z",
       "fileCount": 1,
       "fileSize": 342220
     },
@@ -1931,7 +2021,7 @@
       "status": 1,
       "timestamp": "2018-08-20T19:53:42.6749665Z",
       "lastWriteTimeUtc": "2018-08-20T11:13:36.9037472Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8710296Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3252441Z",
       "fileCount": 1,
       "fileSize": 31082
     },
@@ -1946,9 +2036,24 @@
       "status": 1,
       "timestamp": "2018-08-20T19:53:41.4278319Z",
       "lastWriteTimeUtc": "2018-08-20T10:29:42.4259261Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8710296Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3252441Z",
       "fileCount": 1,
       "fileSize": 449717
+    },
+    {
+      "folderName": "MicdoodleCore-1.12.2-4.0.1.181.jar.disabled",
+      "fingerprint": 462497132,
+      "fileDateHash": 4270445383,
+      "sectionID": 6,
+      "individualFingerprints": [
+        462497132
+      ],
+      "status": 1,
+      "timestamp": "2018-09-12T17:25:32.2505133Z",
+      "lastWriteTimeUtc": "2018-08-20T11:46:22.8498434Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3262441Z",
+      "fileCount": 1,
+      "fileSize": 52606
     },
     {
       "folderName": "BrandonsCore-1.12.2-2.4.4.173-universal.jar",
@@ -1976,24 +2081,9 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.406016Z",
       "lastWriteTimeUtc": "2018-08-20T11:44:10.8464347Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8720292Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3262441Z",
       "fileCount": 1,
       "fileSize": 161142
-    },
-    {
-      "folderName": "Galacticraft-Planets-1.12.2-4.0.1.181.jar",
-      "fingerprint": 2363718374,
-      "fileDateHash": 2190621183,
-      "sectionID": 6,
-      "individualFingerprints": [
-        2363718374
-      ],
-      "status": 1,
-      "timestamp": "2018-08-20T19:53:41.7777196Z",
-      "lastWriteTimeUtc": "2018-08-20T11:46:10.8526522Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8720292Z",
-      "fileCount": 1,
-      "fileSize": 3845831
     },
     {
       "folderName": "multiblockstages-1.1.1.jar",
@@ -2021,7 +2111,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.3950197Z",
       "lastWriteTimeUtc": "2018-08-20T10:40:08.6933748Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8730291Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3282437Z",
       "fileCount": 1,
       "fileSize": 315455
     },
@@ -2036,7 +2126,7 @@
       "status": 1,
       "timestamp": "2018-09-06T13:40:04.9129794Z",
       "lastWriteTimeUtc": "2018-09-05T22:38:07.5421833Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8730291Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3282437Z",
       "fileCount": 1,
       "fileSize": 4309847
     },
@@ -2051,7 +2141,7 @@
       "status": 1,
       "timestamp": "2018-09-11T17:04:49.3917894Z",
       "lastWriteTimeUtc": "2018-08-20T11:06:20.1231337Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8730291Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3282437Z",
       "fileCount": 1,
       "fileSize": 346204
     },
@@ -2066,7 +2156,7 @@
       "status": 1,
       "timestamp": "2018-08-20T20:26:18.110793Z",
       "lastWriteTimeUtc": "2018-08-20T11:18:39.6757658Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8740287Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3292431Z",
       "fileCount": 1,
       "fileSize": 170312
     },
@@ -2081,7 +2171,7 @@
       "status": 1,
       "timestamp": "2018-09-08T21:48:47.8388175Z",
       "lastWriteTimeUtc": "2018-08-20T11:16:30.114842Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8740287Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3292431Z",
       "fileCount": 1,
       "fileSize": 1255887
     },
@@ -2096,7 +2186,7 @@
       "status": 1,
       "timestamp": "2018-08-22T10:07:26.1083772Z",
       "lastWriteTimeUtc": "2018-08-21T22:04:59.6220529Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8740287Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3292431Z",
       "fileCount": 1,
       "fileSize": 31738
     },
@@ -2126,7 +2216,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.3250418Z",
       "lastWriteTimeUtc": "2018-08-20T10:29:48.1691106Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8750287Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3302428Z",
       "fileCount": 1,
       "fileSize": 992232
     },
@@ -2141,7 +2231,7 @@
       "status": 1,
       "timestamp": "2018-09-08T21:48:47.3369775Z",
       "lastWriteTimeUtc": "2018-08-20T10:56:36.3987421Z",
-      "queryTimestamp": "2018-09-11T17:04:54.876028Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3302428Z",
       "fileCount": 1,
       "fileSize": 153197
     },
@@ -2156,7 +2246,7 @@
       "status": 1,
       "timestamp": "2018-09-08T21:08:54.0950702Z",
       "lastWriteTimeUtc": "2018-09-07T22:59:24.1550569Z",
-      "queryTimestamp": "2018-09-11T17:04:54.876028Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3312422Z",
       "fileCount": 1,
       "fileSize": 1013414
     },
@@ -2171,7 +2261,7 @@
       "status": 1,
       "timestamp": "2018-08-22T18:29:00.7327412Z",
       "lastWriteTimeUtc": "2018-08-20T10:42:39.2416598Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8750287Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3312422Z",
       "fileCount": 1,
       "fileSize": 25043
     },
@@ -2216,7 +2306,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.7761885Z",
       "lastWriteTimeUtc": "2018-08-20T10:30:48.5709552Z",
-      "queryTimestamp": "2018-09-11T17:04:54.876028Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3322422Z",
       "fileCount": 1,
       "fileSize": 203460
     },
@@ -2231,7 +2321,7 @@
       "status": 1,
       "timestamp": "2018-08-23T21:10:20.7116386Z",
       "lastWriteTimeUtc": "2018-08-20T10:22:33.0368072Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8770277Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3322422Z",
       "fileCount": 1,
       "fileSize": 192297
     },
@@ -2246,7 +2336,7 @@
       "status": 1,
       "timestamp": "2018-08-22T10:07:26.1743564Z",
       "lastWriteTimeUtc": "2018-08-20T10:46:15.2917012Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8770277Z",
+      "queryTimestamp": "2018-09-12T17:25:33.333242Z",
       "fileCount": 1,
       "fileSize": 42906
     },
@@ -2276,7 +2366,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.2780572Z",
       "lastWriteTimeUtc": "2018-08-20T10:40:02.8092409Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8770277Z",
+      "queryTimestamp": "2018-09-12T17:25:33.333242Z",
       "fileCount": 1,
       "fileSize": 474721
     },
@@ -2291,7 +2381,7 @@
       "status": 1,
       "timestamp": "2018-08-20T19:53:43.3947363Z",
       "lastWriteTimeUtc": "2018-08-20T10:34:50.13333Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8770277Z",
+      "queryTimestamp": "2018-09-12T17:25:33.333242Z",
       "fileCount": 1,
       "fileSize": 135021
     },
@@ -2306,7 +2396,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.3990182Z",
       "lastWriteTimeUtc": "2018-08-20T10:23:02.7953897Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8780273Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3342414Z",
       "fileCount": 1,
       "fileSize": 860884
     },
@@ -2321,7 +2411,7 @@
       "status": 1,
       "timestamp": "2018-09-08T21:48:46.4522598Z",
       "lastWriteTimeUtc": "2018-08-20T10:47:30.6328249Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8780273Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3342414Z",
       "fileCount": 1,
       "fileSize": 496656
     },
@@ -2336,7 +2426,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.3310402Z",
       "lastWriteTimeUtc": "2018-08-27T10:14:28.3481967Z",
-      "queryTimestamp": "2018-09-11T17:04:54.879027Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3342414Z",
       "fileCount": 1,
       "fileSize": 428462
     },
@@ -2366,7 +2456,7 @@
       "status": 1,
       "timestamp": "2018-09-08T21:48:47.7388498Z",
       "lastWriteTimeUtc": "2018-08-20T11:13:42.4384899Z",
-      "queryTimestamp": "2018-09-11T17:04:54.879027Z",
+      "queryTimestamp": "2018-09-12T17:25:33.335241Z",
       "fileCount": 1,
       "fileSize": 198114
     },
@@ -2381,7 +2471,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.3870221Z",
       "lastWriteTimeUtc": "2018-09-08T21:17:23.2526399Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8800267Z",
+      "queryTimestamp": "2018-09-12T17:25:33.335241Z",
       "fileCount": 1,
       "fileSize": 24516
     },
@@ -2396,7 +2486,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.3980184Z",
       "lastWriteTimeUtc": "2018-08-20T11:32:40.2114847Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8800267Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3362408Z",
       "fileCount": 1,
       "fileSize": 84409
     },
@@ -2411,7 +2501,7 @@
       "status": 1,
       "timestamp": "2018-08-20T19:53:43.3947363Z",
       "lastWriteTimeUtc": "2018-08-20T11:02:21.9041877Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8800267Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3372402Z",
       "fileCount": 1,
       "fileSize": 66307
     },
@@ -2426,7 +2516,7 @@
       "status": 1,
       "timestamp": "2018-08-20T19:53:41.9286717Z",
       "lastWriteTimeUtc": "2018-08-20T11:21:08.2756527Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8800267Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3372402Z",
       "fileCount": 1,
       "fileSize": 3806071
     },
@@ -2456,7 +2546,7 @@
       "status": 1,
       "timestamp": "2018-09-06T13:40:04.9469686Z",
       "lastWriteTimeUtc": "2018-09-05T22:38:09.7694822Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8810263Z",
+      "queryTimestamp": "2018-09-12T17:25:33.33824Z",
       "fileCount": 1,
       "fileSize": 893014
     },
@@ -2471,7 +2561,7 @@
       "status": 1,
       "timestamp": "2018-09-06T13:40:04.9849564Z",
       "lastWriteTimeUtc": "2018-09-05T22:38:30.8033431Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8810263Z",
+      "queryTimestamp": "2018-09-12T17:25:33.33824Z",
       "fileCount": 1,
       "fileSize": 1012438
     },
@@ -2783,7 +2873,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.3330394Z",
       "lastWriteTimeUtc": "2018-09-05T22:38:13.91718Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8830257Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3392401Z",
       "fileCount": 1,
       "fileSize": 3820141
     },
@@ -2798,7 +2888,7 @@
       "status": 1,
       "timestamp": "2018-09-08T21:48:47.0980544Z",
       "lastWriteTimeUtc": "2018-08-20T11:13:07.3496122Z",
-      "queryTimestamp": "2018-09-11T17:04:54.882026Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3392401Z",
       "fileCount": 1,
       "fileSize": 402774
     },
@@ -2818,21 +2908,6 @@
       "fileSize": 21377922
     },
     {
-      "folderName": "CharcoalPit-[1.12]-1.19.jar",
-      "fingerprint": 2021288257,
-      "fileDateHash": 2000203800,
-      "sectionID": 6,
-      "individualFingerprints": [
-        2021288257
-      ],
-      "status": 1,
-      "timestamp": "2018-09-09T20:49:31.5792513Z",
-      "lastWriteTimeUtc": "2018-09-02T19:30:55.8573775Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8830257Z",
-      "fileCount": 1,
-      "fileSize": 299998
-    },
-    {
       "folderName": "FpsReducer-1.12.2-1.10.2.jar",
       "fingerprint": 431964175,
       "fileDateHash": 2484979521,
@@ -2843,7 +2918,7 @@
       "status": 1,
       "timestamp": "2018-08-20T19:53:41.6697549Z",
       "lastWriteTimeUtc": "2018-08-20T11:11:16.8635817Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8830257Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3402396Z",
       "fileCount": 1,
       "fileSize": 43598
     },
@@ -2858,7 +2933,7 @@
       "status": 1,
       "timestamp": "2018-08-20T19:53:41.3148676Z",
       "lastWriteTimeUtc": "2018-08-20T10:29:56.1720707Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8830257Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3402396Z",
       "fileCount": 1,
       "fileSize": 241939
     },
@@ -2888,7 +2963,7 @@
       "status": 1,
       "timestamp": "2018-08-21T17:58:57.7577508Z",
       "lastWriteTimeUtc": "2018-08-20T10:47:31.6854888Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8840253Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3412391Z",
       "fileCount": 1,
       "fileSize": 24645
     },
@@ -2918,7 +2993,7 @@
       "status": 1,
       "timestamp": "2018-08-26T16:41:28.4467583Z",
       "lastWriteTimeUtc": "2018-08-20T10:33:45.6152826Z",
-      "queryTimestamp": "2018-09-11T17:04:54.885025Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3412391Z",
       "fileCount": 1,
       "fileSize": 136082
     },
@@ -2933,24 +3008,9 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.4759941Z",
       "lastWriteTimeUtc": "2018-08-20T10:33:53.8841574Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8860248Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3422388Z",
       "fileCount": 1,
       "fileSize": 951245
-    },
-    {
-      "folderName": "GalacticraftCore-1.12.2-4.0.1.181.jar",
-      "fingerprint": 527084515,
-      "fileDateHash": 2694569639,
-      "sectionID": 6,
-      "individualFingerprints": [
-        527084515
-      ],
-      "status": 1,
-      "timestamp": "2018-08-20T19:53:41.7967135Z",
-      "lastWriteTimeUtc": "2018-08-20T11:46:05.6407991Z",
-      "queryTimestamp": "2018-09-11T17:04:54.885025Z",
-      "fileCount": 1,
-      "fileSize": 10355756
     },
     {
       "folderName": "MTLib-3.0.5.jar",
@@ -2963,24 +3023,9 @@
       "status": 1,
       "timestamp": "2018-08-22T10:07:26.0174068Z",
       "lastWriteTimeUtc": "2018-08-20T10:23:45.580054Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8860248Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3422388Z",
       "fileCount": 1,
       "fileSize": 30005
-    },
-    {
-      "folderName": "MicdoodleCore-1.12.2-4.0.1.181.jar",
-      "fingerprint": 462497132,
-      "fileDateHash": 4270445383,
-      "sectionID": 6,
-      "individualFingerprints": [
-        462497132
-      ],
-      "status": 1,
-      "timestamp": "2018-08-20T19:53:42.4030536Z",
-      "lastWriteTimeUtc": "2018-08-20T11:46:22.8498434Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8870244Z",
-      "fileCount": 1,
-      "fileSize": 52606
     },
     {
       "folderName": "SimplyJetpacks2-1.12.2-2.2.7.45.jar",
@@ -2993,7 +3038,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.706211Z",
       "lastWriteTimeUtc": "2018-08-20T10:32:12.7902411Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8880241Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3422388Z",
       "fileCount": 1,
       "fileSize": 662980
     },
@@ -3013,21 +3058,6 @@
       "fileSize": 7268494
     },
     {
-      "folderName": "shetiphiancore-1.12.0-3.5.7.jar",
-      "fingerprint": 3826296177,
-      "fileDateHash": 3338726791,
-      "sectionID": 6,
-      "individualFingerprints": [
-        3826296177
-      ],
-      "status": 1,
-      "timestamp": "2018-09-10T17:15:10.2593683Z",
-      "lastWriteTimeUtc": "2018-08-20T10:40:13.307412Z",
-      "queryTimestamp": "2018-09-11T19:28:11.7033544Z",
-      "fileCount": 1,
-      "fileSize": 404364
-    },
-    {
       "folderName": "BetterBuildersWands-1.12-0.11.1.245+69d0d70.jar",
       "fingerprint": 3073248050,
       "fileDateHash": 2229691786,
@@ -3038,7 +3068,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.2770573Z",
       "lastWriteTimeUtc": "2018-08-20T10:28:35.1657438Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8880241Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3432385Z",
       "fileCount": 1,
       "fileSize": 75709
     },
@@ -3053,7 +3083,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.765192Z",
       "lastWriteTimeUtc": "2018-08-20T10:40:59.9676223Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8880241Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3432385Z",
       "fileCount": 1,
       "fileSize": 122873
     },
@@ -3073,6 +3103,21 @@
       "fileSize": 5736513
     },
     {
+      "folderName": "shetiphiancore-1.12.0-3.5.8.jar",
+      "fingerprint": 2107441376,
+      "fileDateHash": 2629713758,
+      "sectionID": 6,
+      "individualFingerprints": [
+        2107441376
+      ],
+      "status": 1,
+      "timestamp": "2018-09-12T14:33:58.0563348Z",
+      "lastWriteTimeUtc": "2018-09-12T14:25:39.4786445Z",
+      "queryTimestamp": "2018-09-12T14:34:01.1688608Z",
+      "fileCount": 1,
+      "fileSize": 405798
+    },
+    {
       "folderName": "industrialforegoing-1.12.2-1.11.2-212.jar",
       "fingerprint": 3309538227,
       "fileDateHash": 1699176816,
@@ -3083,7 +3128,7 @@
       "status": 1,
       "timestamp": "2018-09-11T17:04:49.3308092Z",
       "lastWriteTimeUtc": "2018-08-28T17:48:38.108979Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8890241Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3442382Z",
       "fileCount": 1,
       "fileSize": 1510116
     },
@@ -3098,7 +3143,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.2910528Z",
       "lastWriteTimeUtc": "2018-08-28T17:47:59.5956559Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8890241Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3452377Z",
       "fileCount": 1,
       "fileSize": 390302
     },
@@ -3128,7 +3173,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.3220428Z",
       "lastWriteTimeUtc": "2018-08-20T11:00:18.5323105Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8900235Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3462373Z",
       "fileCount": 1,
       "fileSize": 486598
     },
@@ -3143,7 +3188,7 @@
       "status": 1,
       "timestamp": "2018-08-20T19:53:43.3287579Z",
       "lastWriteTimeUtc": "2018-08-20T10:29:49.5501724Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8900235Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3462373Z",
       "fileCount": 1,
       "fileSize": 758676
     },
@@ -3173,7 +3218,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.3870221Z",
       "lastWriteTimeUtc": "2018-09-09T22:27:21.8151584Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8900235Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3472369Z",
       "fileCount": 1,
       "fileSize": 816607
     },
@@ -3188,7 +3233,7 @@
       "status": 1,
       "timestamp": "2018-09-09T22:02:48.5925948Z",
       "lastWriteTimeUtc": "2018-09-09T21:12:53.5898641Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8910231Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3472369Z",
       "fileCount": 1,
       "fileSize": 713248
     },
@@ -3203,7 +3248,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.5932467Z",
       "lastWriteTimeUtc": "2018-08-20T10:29:56.5109624Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8910231Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3472369Z",
       "fileCount": 1,
       "fileSize": 418336
     },
@@ -3233,7 +3278,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.7042118Z",
       "lastWriteTimeUtc": "2018-09-03T15:12:55.602706Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8910231Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3482367Z",
       "fileCount": 1,
       "fileSize": 210006
     },
@@ -3516,7 +3561,7 @@
       "status": 1,
       "timestamp": "2018-08-26T19:26:43.4707967Z",
       "lastWriteTimeUtc": "2018-08-26T19:25:36.139669Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8910231Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3492363Z",
       "fileCount": 42,
       "fileSize": 0
     },
@@ -3531,7 +3576,7 @@
       "status": 1,
       "timestamp": "2018-08-28T19:55:10.5401956Z",
       "lastWriteTimeUtc": "2018-08-28T19:23:46.3772271Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8920228Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3492363Z",
       "fileCount": 1,
       "fileSize": 69920
     },
@@ -3561,7 +3606,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.3550323Z",
       "lastWriteTimeUtc": "2018-08-20T16:34:37.6727724Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8930225Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3502362Z",
       "fileCount": 1,
       "fileSize": 2563291
     },
@@ -3576,7 +3621,7 @@
       "status": 1,
       "timestamp": "2018-09-02T19:41:07.6956836Z",
       "lastWriteTimeUtc": "2018-09-02T19:12:03.9935172Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8920228Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3502362Z",
       "fileCount": 1,
       "fileSize": 1519327
     },
@@ -3591,7 +3636,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.6199481Z",
       "lastWriteTimeUtc": "2018-08-20T11:05:20.5665014Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8930225Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3512361Z",
       "fileCount": 1,
       "fileSize": 81332
     },
@@ -3606,7 +3651,7 @@
       "status": 1,
       "timestamp": "2018-08-30T13:09:49.6043463Z",
       "lastWriteTimeUtc": "2018-08-30T10:36:08.4538623Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8930225Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3512361Z",
       "fileCount": 1,
       "fileSize": 21780
     },
@@ -3636,7 +3681,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.4689959Z",
       "lastWriteTimeUtc": "2018-08-20T10:56:37.5998623Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8950218Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3522358Z",
       "fileCount": 1,
       "fileSize": 224287
     },
@@ -3651,7 +3696,7 @@
       "status": 1,
       "timestamp": "2018-09-08T21:48:47.3189835Z",
       "lastWriteTimeUtc": "2018-08-20T11:32:39.9220736Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8950218Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3522358Z",
       "fileCount": 1,
       "fileSize": 467773
     },
@@ -3666,7 +3711,7 @@
       "status": 1,
       "timestamp": "2018-08-20T19:53:41.4208337Z",
       "lastWriteTimeUtc": "2018-08-20T10:29:41.8671055Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8950218Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3522358Z",
       "fileCount": 1,
       "fileSize": 700706
     },
@@ -3696,7 +3741,7 @@
       "status": 1,
       "timestamp": "2018-08-22T10:07:26.413279Z",
       "lastWriteTimeUtc": "2018-08-20T10:54:53.9447299Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8960215Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3532353Z",
       "fileCount": 1,
       "fileSize": 75731
     },
@@ -3711,7 +3756,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.8408775Z",
       "lastWriteTimeUtc": "2018-08-20T10:29:47.4053548Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8960215Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3532353Z",
       "fileCount": 1,
       "fileSize": 480292
     },
@@ -3726,7 +3771,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.2770573Z",
       "lastWriteTimeUtc": "2018-08-20T11:13:59.5575606Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8960215Z",
+      "queryTimestamp": "2018-09-12T17:25:33.354235Z",
       "fileCount": 1,
       "fileSize": 61372
     },
@@ -3744,6 +3789,198 @@
       "queryTimestamp": "2018-09-11T21:18:11.1638843Z",
       "fileCount": 1,
       "fileSize": 15988421
+    },
+    {
+      "folderName": "Progression line and Playtesting",
+      "fingerprint": 469706976,
+      "fileDateHash": 815586552,
+      "sectionID": 17,
+      "individualFingerprints": [
+        316064470,
+        405472214,
+        489458212,
+        489458212,
+        489458212,
+        489458212,
+        489458212,
+        489458212,
+        489458212,
+        489458212,
+        489458212,
+        489458212,
+        489458212,
+        489458212,
+        489458212,
+        489458212,
+        489458212,
+        489458212,
+        493877642,
+        500036828,
+        506600240,
+        546743649,
+        589084565,
+        612512516,
+        679366383,
+        758054953,
+        758054953,
+        758054953,
+        758054953,
+        758054953,
+        758054953,
+        758054953,
+        758054953,
+        758054953,
+        758054953,
+        758054953,
+        758054953,
+        758054953,
+        758054953,
+        758054953,
+        758054953,
+        758054953,
+        758054953,
+        758054953,
+        758054953,
+        758054953,
+        758054953,
+        827095010,
+        827095010,
+        827095010,
+        827095010,
+        827095010,
+        827095010,
+        827095010,
+        827095010,
+        827095010,
+        827095010,
+        827095010,
+        827095010,
+        827095010,
+        827095010,
+        827095010,
+        827095010,
+        827095010,
+        827095010,
+        827095010,
+        827095010,
+        827095010,
+        827095010,
+        894951805,
+        918559548,
+        919347235,
+        1017209382,
+        1044836905,
+        1068447471,
+        1071238834,
+        1179511508,
+        1200811285,
+        1206456482,
+        1254400901,
+        1315943404,
+        1469532744,
+        1556308673,
+        1906001083,
+        1946936536,
+        2029316093,
+        2055392973,
+        2169867367,
+        2169867367,
+        2227383745,
+        2251484112,
+        2274311749,
+        2287932601,
+        2317171697,
+        2318544849,
+        2325125830,
+        2329593959,
+        2335436367,
+        2358070762,
+        2415515346,
+        2430003878,
+        2430003878,
+        2433947685,
+        2572719169,
+        2572719169,
+        2643933950,
+        2763463119,
+        2806307567,
+        2885887976,
+        2984203116,
+        3028428630,
+        3149183751,
+        3182276126,
+        3185003860,
+        3271550575,
+        3271550575,
+        3271550575,
+        3271550575,
+        3271550575,
+        3271550575,
+        3271550575,
+        3271550575,
+        3271550575,
+        3271550575,
+        3271550575,
+        3271550575,
+        3271550575,
+        3271550575,
+        3271550575,
+        3271550575,
+        3271550575,
+        3271550575,
+        3271550575,
+        3271550575,
+        3281291259,
+        3363378697,
+        3494995794,
+        3540678216,
+        3553861632,
+        3553861632,
+        3553861632,
+        3553861632,
+        3553861632,
+        3553861632,
+        3553861632,
+        3553861632,
+        3553861632,
+        3553861632,
+        3553861632,
+        3553861632,
+        3553861632,
+        3553861632,
+        3553861632,
+        3553861632,
+        3553861632,
+        3553861632,
+        3553861632,
+        3553861632,
+        3553861632,
+        3553861632,
+        3582932549,
+        3662660607,
+        3689182310,
+        3704533067,
+        3717140120,
+        3809748988,
+        3813790070,
+        3987611042,
+        4134180796,
+        4144352045,
+        4155479256,
+        4155479256,
+        4155479256,
+        4155479256,
+        4155479256,
+        4189217236,
+        4213863462,
+        4272588933
+      ],
+      "status": 1,
+      "timestamp": "2018-09-12T17:25:32.2515133Z",
+      "lastWriteTimeUtc": "2018-09-12T15:04:59.0952781Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3552344Z",
+      "fileCount": 44,
+      "fileSize": 0
     },
     {
       "folderName": "AdFinders-1.12.2-2.3.1.0-build.0155.jar",
@@ -3786,7 +4023,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.294052Z",
       "lastWriteTimeUtc": "2018-08-20T10:34:24.3549888Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8980209Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3562342Z",
       "fileCount": 1,
       "fileSize": 112248
     },
@@ -3801,7 +4038,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.7212064Z",
       "lastWriteTimeUtc": "2018-09-08T22:28:27.535853Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8980209Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3562342Z",
       "fileCount": 1,
       "fileSize": 2342103
     },
@@ -3816,7 +4053,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.5902476Z",
       "lastWriteTimeUtc": "2018-08-20T10:31:03.7201537Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8990205Z",
+      "queryTimestamp": "2018-09-12T17:25:33.357234Z",
       "fileCount": 1,
       "fileSize": 13723
     },
@@ -3861,7 +4098,7 @@
       "status": 1,
       "timestamp": "2018-09-11T17:04:49.4317767Z",
       "lastWriteTimeUtc": "2018-08-20T10:39:50.2232331Z",
-      "queryTimestamp": "2018-09-11T17:04:54.8990205Z",
+      "queryTimestamp": "2018-09-12T17:25:33.357234Z",
       "fileCount": 1,
       "fileSize": 63756
     },
@@ -3876,7 +4113,7 @@
       "status": 1,
       "timestamp": "2018-09-08T21:48:47.3779645Z",
       "lastWriteTimeUtc": "2018-08-20T10:31:56.8293055Z",
-      "queryTimestamp": "2018-09-11T17:04:54.9000201Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3582341Z",
       "fileCount": 1,
       "fileSize": 213675
     },
@@ -3891,7 +4128,7 @@
       "status": 1,
       "timestamp": "2018-08-26T16:23:33.7326771Z",
       "lastWriteTimeUtc": "2018-08-24T20:42:44.8328358Z",
-      "queryTimestamp": "2018-09-11T17:04:54.9000201Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3582341Z",
       "fileCount": 1,
       "fileSize": 1483250
     },
@@ -3921,7 +4158,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.5902476Z",
       "lastWriteTimeUtc": "2018-08-20T10:52:44.7636854Z",
-      "queryTimestamp": "2018-09-11T17:04:54.9010204Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3592334Z",
       "fileCount": 1,
       "fileSize": 253901
     },
@@ -3936,7 +4173,7 @@
       "status": 1,
       "timestamp": "2018-08-20T19:53:41.9086779Z",
       "lastWriteTimeUtc": "2018-08-20T10:23:26.8359953Z",
-      "queryTimestamp": "2018-09-11T17:04:54.9010204Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3592334Z",
       "fileCount": 1,
       "fileSize": 263258
     },
@@ -3951,24 +4188,9 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.3970188Z",
       "lastWriteTimeUtc": "2018-08-20T10:38:49.4904934Z",
-      "queryTimestamp": "2018-09-11T17:04:54.9010204Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3592334Z",
       "fileCount": 1,
       "fileSize": 7863
-    },
-    {
-      "folderName": "MCMultiPart-2.5.2.jar",
-      "fingerprint": 1454458186,
-      "fileDateHash": 3913605507,
-      "sectionID": 6,
-      "individualFingerprints": [
-        1454458186
-      ],
-      "status": 1,
-      "timestamp": "2018-09-02T19:41:07.7036819Z",
-      "lastWriteTimeUtc": "2018-09-02T19:12:06.2033165Z",
-      "queryTimestamp": "2018-09-11T17:04:54.9010204Z",
-      "fileCount": 1,
-      "fileSize": 173065
     },
     {
       "folderName": "enderutilities-1.12.2-0.7.11.jar",
@@ -3981,24 +4203,9 @@
       "status": 1,
       "timestamp": "2018-08-26T16:41:28.3547456Z",
       "lastWriteTimeUtc": "2018-08-20T10:45:45.0217953Z",
-      "queryTimestamp": "2018-09-11T17:04:54.9020202Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3602332Z",
       "fileCount": 1,
       "fileSize": 1726250
-    },
-    {
-      "folderName": "platforms-1.12.0-1.4.5.jar",
-      "fingerprint": 414771364,
-      "fileDateHash": 2530626590,
-      "sectionID": 6,
-      "individualFingerprints": [
-        414771364
-      ],
-      "status": 1,
-      "timestamp": "2018-09-10T17:15:10.2453731Z",
-      "lastWriteTimeUtc": "2018-08-20T10:40:13.6443043Z",
-      "queryTimestamp": "2018-09-11T19:28:11.7163495Z",
-      "fileCount": 1,
-      "fileSize": 376665
     },
     {
       "folderName": "AutoRegLib-1.3-20.jar",
@@ -4011,7 +4218,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.263062Z",
       "lastWriteTimeUtc": "2018-08-20T10:35:24.0740706Z",
-      "queryTimestamp": "2018-09-11T17:04:54.904019Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3602332Z",
       "fileCount": 1,
       "fileSize": 97062
     },
@@ -4026,7 +4233,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.4070162Z",
       "lastWriteTimeUtc": "2018-08-27T10:12:21.8841245Z",
-      "queryTimestamp": "2018-09-11T17:04:54.904019Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3602332Z",
       "fileCount": 1,
       "fileSize": 16887
     },
@@ -4041,7 +4248,7 @@
       "status": 1,
       "timestamp": "2018-09-08T21:48:47.3729659Z",
       "lastWriteTimeUtc": "2018-08-20T11:10:34.3845342Z",
-      "queryTimestamp": "2018-09-11T17:04:54.904019Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3612325Z",
       "fileCount": 1,
       "fileSize": 53247
     },
@@ -4056,7 +4263,7 @@
       "status": 1,
       "timestamp": "2018-08-20T19:53:41.8476976Z",
       "lastWriteTimeUtc": "2018-08-20T10:45:38.9357258Z",
-      "queryTimestamp": "2018-09-11T17:04:54.9050186Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3612325Z",
       "fileCount": 1,
       "fileSize": 49126
     },
@@ -4071,7 +4278,7 @@
       "status": 1,
       "timestamp": "2018-09-11T17:04:49.3488034Z",
       "lastWriteTimeUtc": "2018-08-20T10:52:56.2480448Z",
-      "queryTimestamp": "2018-09-11T17:04:54.904019Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3612325Z",
       "fileCount": 1,
       "fileSize": 225142
     },
@@ -4086,7 +4293,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.3870221Z",
       "lastWriteTimeUtc": "2018-08-27T12:34:35.359129Z",
-      "queryTimestamp": "2018-09-11T17:04:54.9050186Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3622325Z",
       "fileCount": 1,
       "fileSize": 5200
     },
@@ -4101,7 +4308,7 @@
       "status": 1,
       "timestamp": "2018-09-11T17:04:49.4107835Z",
       "lastWriteTimeUtc": "2018-08-20T10:30:42.2799497Z",
-      "queryTimestamp": "2018-09-11T17:04:54.9050186Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3622325Z",
       "fileCount": 1,
       "fileSize": 1140374
     },
@@ -4116,7 +4323,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.7012122Z",
       "lastWriteTimeUtc": "2018-09-02T19:12:20.338355Z",
-      "queryTimestamp": "2018-09-11T17:04:54.9070184Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3622325Z",
       "fileCount": 1,
       "fileSize": 592523
     },
@@ -4131,7 +4338,7 @@
       "status": 1,
       "timestamp": "2018-08-26T16:41:28.0958281Z",
       "lastWriteTimeUtc": "2018-08-20T22:46:17.6408535Z",
-      "queryTimestamp": "2018-09-11T17:04:54.9060183Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3632321Z",
       "fileCount": 1,
       "fileSize": 3570947
     },
@@ -4146,7 +4353,7 @@
       "status": 1,
       "timestamp": "2018-09-11T17:04:49.2558339Z",
       "lastWriteTimeUtc": "2018-08-20T10:30:41.8740801Z",
-      "queryTimestamp": "2018-09-11T17:04:54.9070184Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3632321Z",
       "fileCount": 1,
       "fileSize": 4595089
     },
@@ -4161,7 +4368,7 @@
       "status": 1,
       "timestamp": "2018-08-30T13:09:49.596349Z",
       "lastWriteTimeUtc": "2018-08-30T11:17:36.7879544Z",
-      "queryTimestamp": "2018-09-11T17:04:54.9070184Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3642317Z",
       "fileCount": 1,
       "fileSize": 16999
     },
@@ -4176,7 +4383,7 @@
       "status": 1,
       "timestamp": "2018-08-22T18:29:00.8087324Z",
       "lastWriteTimeUtc": "2018-08-20T10:55:14.2797808Z",
-      "queryTimestamp": "2018-09-11T17:04:54.9080179Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3642317Z",
       "fileCount": 1,
       "fileSize": 194559
     },
@@ -4191,7 +4398,7 @@
       "status": 1,
       "timestamp": "2018-08-22T10:07:25.9954136Z",
       "lastWriteTimeUtc": "2018-08-20T10:44:25.1456285Z",
-      "queryTimestamp": "2018-09-11T17:04:54.9080179Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3642317Z",
       "fileCount": 1,
       "fileSize": 99132
     },
@@ -4206,7 +4413,7 @@
       "status": 1,
       "timestamp": "2018-08-20T19:53:41.6697549Z",
       "lastWriteTimeUtc": "2018-08-20T11:03:57.8722311Z",
-      "queryTimestamp": "2018-09-11T17:04:54.9080179Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3652312Z",
       "fileCount": 1,
       "fileSize": 9656
     },
@@ -4221,7 +4428,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.5672553Z",
       "lastWriteTimeUtc": "2018-08-20T10:36:37.8732076Z",
-      "queryTimestamp": "2018-09-11T17:04:54.9090176Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3652312Z",
       "fileCount": 1,
       "fileSize": 11604
     },
@@ -4236,24 +4443,9 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.6259461Z",
       "lastWriteTimeUtc": "2018-08-20T10:56:01.4268347Z",
-      "queryTimestamp": "2018-09-11T17:04:54.9090176Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3652312Z",
       "fileCount": 1,
       "fileSize": 21871
-    },
-    {
-      "folderName": "extrautils2-1.12-1.9.1.jar",
-      "fingerprint": 145464091,
-      "fileDateHash": 3680445171,
-      "sectionID": 6,
-      "individualFingerprints": [
-        145464091
-      ],
-      "status": 1,
-      "timestamp": "2018-09-10T13:32:39.3700273Z",
-      "lastWriteTimeUtc": "2018-09-02T19:11:57.7134998Z",
-      "queryTimestamp": "2018-09-11T17:04:54.9100171Z",
-      "fileCount": 1,
-      "fileSize": 3163805
     },
     {
       "folderName": "morebeautifulbuttons-1.12.2-1.7.3.20.jar.disabled",
@@ -4266,24 +4458,9 @@
       "status": 1,
       "timestamp": "2018-09-08T21:48:47.7308522Z",
       "lastWriteTimeUtc": "2018-08-20T11:13:48.7944728Z",
-      "queryTimestamp": "2018-09-11T17:04:54.9100171Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3662311Z",
       "fileCount": 1,
       "fileSize": 203537
-    },
-    {
-      "folderName": "mcjtylib-1.12-3.0.4.jar",
-      "fingerprint": 3927481204,
-      "fileDateHash": 1423770863,
-      "sectionID": 6,
-      "individualFingerprints": [
-        3927481204
-      ],
-      "status": 1,
-      "timestamp": "2018-08-26T16:41:28.5437478Z",
-      "lastWriteTimeUtc": "2018-08-20T10:28:31.1100325Z",
-      "queryTimestamp": "2018-09-11T17:04:54.9110168Z",
-      "fileCount": 1,
-      "fileSize": 486322
     },
     {
       "folderName": "CoFHCore-1.12.2-4.5.3.20-universal.jar",
@@ -4296,7 +4473,7 @@
       "status": 1,
       "timestamp": "2018-08-20T19:53:41.4238331Z",
       "lastWriteTimeUtc": "2018-08-20T10:29:24.5500936Z",
-      "queryTimestamp": "2018-09-11T17:04:54.9110168Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3662311Z",
       "fileCount": 1,
       "fileSize": 838208
     },
@@ -4311,7 +4488,7 @@
       "status": 1,
       "timestamp": "2018-08-22T18:29:00.6897399Z",
       "lastWriteTimeUtc": "2018-08-20T10:47:49.7787543Z",
-      "queryTimestamp": "2018-09-11T17:04:54.9110168Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3662311Z",
       "fileCount": 1,
       "fileSize": 18251
     },
@@ -4386,7 +4563,7 @@
       "status": 1,
       "timestamp": "2018-09-11T17:04:49.3548018Z",
       "lastWriteTimeUtc": "2018-08-20T10:28:31.7263403Z",
-      "queryTimestamp": "2018-09-11T17:04:54.9120166Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3682305Z",
       "fileCount": 1,
       "fileSize": 2886817
     },
@@ -4401,7 +4578,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.765192Z",
       "lastWriteTimeUtc": "2018-08-30T15:29:50.9407004Z",
-      "queryTimestamp": "2018-09-11T17:04:54.9130164Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3682305Z",
       "fileCount": 1,
       "fileSize": 78202
     },
@@ -4416,7 +4593,7 @@
       "status": 1,
       "timestamp": "2018-09-11T17:04:49.4237791Z",
       "lastWriteTimeUtc": "2018-08-20T10:30:43.4980641Z",
-      "queryTimestamp": "2018-09-11T17:04:54.9130164Z",
+      "queryTimestamp": "2018-09-12T17:25:33.36923Z",
       "fileCount": 1,
       "fileSize": 463284
     },
@@ -4431,9 +4608,24 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.2830556Z",
       "lastWriteTimeUtc": "2018-09-09T22:20:02.0309342Z",
-      "queryTimestamp": "2018-09-11T17:04:54.9130164Z",
+      "queryTimestamp": "2018-09-12T17:25:33.36923Z",
       "fileCount": 1,
       "fileSize": 1130555
+    },
+    {
+      "folderName": "platforms-1.12.0-1.4.6.jar",
+      "fingerprint": 3749417326,
+      "fileDateHash": 2786381008,
+      "sectionID": 6,
+      "individualFingerprints": [
+        3749417326
+      ],
+      "status": 1,
+      "timestamp": "2018-09-12T14:33:58.053336Z",
+      "lastWriteTimeUtc": "2018-09-12T14:25:35.405439Z",
+      "queryTimestamp": "2018-09-12T14:34:01.1908732Z",
+      "fileCount": 1,
+      "fileSize": 398642
     },
     {
       "folderName": "ItemStages-1.12.2-2.0.35.jar",
@@ -4446,7 +4638,7 @@
       "status": 1,
       "timestamp": "2018-08-22T10:07:26.0124078Z",
       "lastWriteTimeUtc": "2018-08-20T10:46:16.1714201Z",
-      "queryTimestamp": "2018-09-11T17:04:54.9140161Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3702296Z",
       "fileCount": 1,
       "fileSize": 33564
     },
@@ -4461,7 +4653,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.6532277Z",
       "lastWriteTimeUtc": "2018-08-28T17:48:47.3355539Z",
-      "queryTimestamp": "2018-09-11T17:04:54.9140161Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3702296Z",
       "fileCount": 1,
       "fileSize": 7768495
     },
@@ -4476,7 +4668,7 @@
       "status": 1,
       "timestamp": "2018-09-08T21:48:47.3429759Z",
       "lastWriteTimeUtc": "2018-08-20T10:55:45.2759548Z",
-      "queryTimestamp": "2018-09-11T17:04:54.9150158Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3702296Z",
       "fileCount": 1,
       "fileSize": 18945
     },
@@ -4491,7 +4683,7 @@
       "status": 1,
       "timestamp": "2018-08-30T13:09:49.6043463Z",
       "lastWriteTimeUtc": "2018-08-30T10:36:07.1627697Z",
-      "queryTimestamp": "2018-09-11T17:04:54.9140161Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3712293Z",
       "fileCount": 1,
       "fileSize": 18769
     },
@@ -4506,7 +4698,7 @@
       "status": 1,
       "timestamp": "2018-08-30T13:09:49.6003477Z",
       "lastWriteTimeUtc": "2018-08-30T10:36:05.5637751Z",
-      "queryTimestamp": "2018-09-11T17:04:54.9150158Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3712293Z",
       "fileCount": 1,
       "fileSize": 534420
     },
@@ -4521,7 +4713,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.8388779Z",
       "lastWriteTimeUtc": "2018-08-30T10:36:14.6344047Z",
-      "queryTimestamp": "2018-09-11T17:04:54.9150158Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3712293Z",
       "fileCount": 1,
       "fileSize": 13504
     },
@@ -4551,7 +4743,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.5682548Z",
       "lastWriteTimeUtc": "2018-08-30T15:29:12.404886Z",
-      "queryTimestamp": "2018-09-11T17:04:54.9160153Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3722292Z",
       "fileCount": 1,
       "fileSize": 919075
     },
@@ -4566,7 +4758,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.7342017Z",
       "lastWriteTimeUtc": "2018-09-06T19:33:57.8955639Z",
-      "queryTimestamp": "2018-09-11T17:04:54.9160153Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3732293Z",
       "fileCount": 1,
       "fileSize": 21270
     },
@@ -4581,7 +4773,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.5972459Z",
       "lastWriteTimeUtc": "2018-08-20T11:01:03.8579412Z",
-      "queryTimestamp": "2018-09-11T17:04:54.9160153Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3732293Z",
       "fileCount": 1,
       "fileSize": 742786
     },
@@ -4596,13 +4788,13 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.5722537Z",
       "lastWriteTimeUtc": "2018-08-30T15:29:10.6519401Z",
-      "queryTimestamp": "2018-09-11T17:04:54.9170148Z",
+      "queryTimestamp": "2018-09-12T17:25:33.3732293Z",
       "fileCount": 1,
       "fileSize": 131987
     }
   ],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2018-09-12T13:24:29.1308458Z",
+  "lastPreviousMatchUpdate": "2018-09-12T17:25:34.2439491Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.12.2",
@@ -10697,45 +10889,7 @@
     {
       "addonID": 225247,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
-      "installedFile": {
-        "id": 2484148,
-        "fileName": "EnderZoo-1.12.1-1.4.0.49.jar",
-        "fileNameOnDisk": "EnderZoo-1.12.1-1.4.0.49.jar.disabled",
-        "fileDate": "2017-09-25T19:42:33.73",
-        "fileLength": 0,
-        "releaseType": 1,
-        "fileStatus": 1,
-        "downloadUrl": "https://files.forgecdn.net/files/2484/148/EnderZoo-1.12.1-1.4.0.49.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "folderName": "META-INF",
-            "fimgerprint": 2464251221
-          },
-          {
-            "folderName": "crazypants",
-            "fimgerprint": 1867099404
-          },
-          {
-            "folderName": "assets",
-            "fimgerprint": 1741900600
-          },
-          {
-            "folderName": "mcmod.info",
-            "fimgerprint": 823029538
-          }
-        ],
-        "packageFingerprint": 282257609,
-        "gameVersion": [
-          "1.12.2",
-          "1.12.1",
-          "1.12"
-        ],
-        "installMetadata": null
-      },
+      "installedFile": null,
       "dateInstalled": "2018-08-20T10:47:30.6328249Z",
       "dateUpdated": "2018-08-20T10:47:30.6358241Z",
       "dateLastUpdateAttempted": "2018-08-20T10:47:30.6358241Z",
@@ -10743,7 +10897,7 @@
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
-      "isModified": true,
+      "isModified": false,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
@@ -12104,14 +12258,14 @@
       "addonID": 284523,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2614929,
-        "fileName": "Charset Lib 0.5.5.4",
-        "fileNameOnDisk": "Charset-Lib-0.5.5.4.jar",
-        "fileDate": "2018-09-09T10:23:13.323",
+        "id": 2616125,
+        "fileName": "Charset Lib 0.5.5.5",
+        "fileNameOnDisk": "Charset-Lib-0.5.5.5.jar",
+        "fileDate": "2018-09-12T08:20:30.823",
         "fileLength": 0,
         "releaseType": 1,
         "fileStatus": 2,
-        "downloadUrl": "https://files.forgecdn.net/files/2614/929/Charset-Lib-0.5.5.4.jar",
+        "downloadUrl": "https://files.forgecdn.net/files/2616/125/Charset-Lib-0.5.5.5.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -12119,15 +12273,15 @@
         "modules": [
           {
             "folderName": "META-INF",
-            "fimgerprint": 2889483464
+            "fimgerprint": 3945842811
           },
           {
             "folderName": "pl",
-            "fimgerprint": 2165649895
+            "fimgerprint": 3642678039
           },
           {
             "folderName": "assets",
-            "fimgerprint": 182121217
+            "fimgerprint": 413681365
           },
           {
             "folderName": "README.md",
@@ -12139,27 +12293,27 @@
           },
           {
             "folderName": "changelog",
-            "fimgerprint": 2401032803
+            "fimgerprint": 2179032610
           },
           {
             "folderName": "mcmod.info",
-            "fimgerprint": 2366776121
+            "fimgerprint": 630019637
           },
           {
             "folderName": "pack.mcmeta",
             "fimgerprint": 3033825429
           }
         ],
-        "packageFingerprint": 1255034692,
+        "packageFingerprint": 3479106872,
         "gameVersion": [
           "1.12.2"
         ],
         "installMetadata": null
       },
       "dateInstalled": "2018-08-20T10:58:32.5649235Z",
-      "dateUpdated": "2018-09-09T22:20:02.0409318Z",
-      "dateLastUpdateAttempted": "2018-09-09T22:20:02.0409318Z",
-      "status": 5,
+      "dateUpdated": "2018-09-12T18:23:43.1159786Z",
+      "dateLastUpdateAttempted": "2018-09-12T18:23:43.1159786Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12934,49 +13088,7 @@
     {
       "addonID": 76544,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
-      "installedFile": {
-        "id": 2497541,
-        "fileName": "GeographiCraft-1.12-0.8.9b.jar",
-        "fileNameOnDisk": "GeographiCraft-1.12-0.8.9b.jar.disabled",
-        "fileDate": "2017-11-05T18:36:36.937",
-        "fileLength": 0,
-        "releaseType": 1,
-        "fileStatus": 1,
-        "downloadUrl": "https://files.forgecdn.net/files/2497/541/GeographiCraft-1.12-0.8.9b.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "folderName": "META-INF",
-            "fimgerprint": 2464251221
-          },
-          {
-            "folderName": "api",
-            "fimgerprint": 2801823682
-          },
-          {
-            "folderName": "climateControl",
-            "fimgerprint": 1582245004
-          },
-          {
-            "folderName": "com",
-            "fimgerprint": 2131782996
-          },
-          {
-            "folderName": "mcmod.info",
-            "fimgerprint": 192310991
-          }
-        ],
-        "packageFingerprint": 42317994,
-        "gameVersion": [
-          "1.12.2",
-          "1.12.1",
-          "1.12"
-        ],
-        "installMetadata": null
-      },
+      "installedFile": null,
       "dateInstalled": "2018-08-20T11:13:07.3496122Z",
       "dateUpdated": "2018-08-20T11:13:07.3516109Z",
       "dateLastUpdateAttempted": "2018-08-20T11:13:07.3516109Z",
@@ -12984,7 +13096,7 @@
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
-      "isModified": true,
+      "isModified": false,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
@@ -14627,14 +14739,14 @@
       "addonID": 244844,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2609613,
-        "fileName": "ForgeEndertech-1.12.2-4.3.21.0-build.0165.jar",
-        "fileNameOnDisk": "ForgeEndertech-1.12.2-4.3.21.0-build.0165.jar",
-        "fileDate": "2018-08-28T02:30:09.007",
+        "id": 2616144,
+        "fileName": "ForgeEndertech-1.12.2-4.4.0.0-build.0180.jar",
+        "fileNameOnDisk": "ForgeEndertech-1.12.2-4.4.0.0-build.0180.jar",
+        "fileDate": "2018-09-12T11:05:59.013",
         "fileLength": 0,
         "releaseType": 1,
         "fileStatus": 2,
-        "downloadUrl": "https://files.forgecdn.net/files/2609/613/ForgeEndertech-1.12.2-4.3.21.0-build.0165.jar",
+        "downloadUrl": "https://files.forgecdn.net/files/2616/144/ForgeEndertech-1.12.2-4.4.0.0-build.0180.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -14642,39 +14754,39 @@
         "modules": [
           {
             "folderName": "META-INF",
-            "fimgerprint": 3836051359
+            "fimgerprint": 1371545408
           },
           {
             "folderName": "com",
-            "fimgerprint": 794908412
+            "fimgerprint": 3349906883
           },
           {
             "folderName": "assets",
-            "fimgerprint": 2448465867
+            "fimgerprint": 2794985391
           },
           {
             "folderName": "CHANGELOG.md",
-            "fimgerprint": 2396716285
+            "fimgerprint": 3445678768
           },
           {
             "folderName": "mcmod.info",
-            "fimgerprint": 2747613001
+            "fimgerprint": 1605836792
           }
         ],
-        "packageFingerprint": 3276918180,
+        "packageFingerprint": 1621497921,
         "gameVersion": [
           "1.12.2"
         ],
         "installMetadata": null
       },
       "dateInstalled": "2018-08-27T10:12:05.4318245Z",
-      "dateUpdated": "2018-08-28T17:48:11.731829Z",
-      "dateLastUpdateAttempted": "2018-08-28T17:48:11.731829Z",
-      "status": 5,
+      "dateUpdated": "2018-09-12T18:25:56.9847878Z",
+      "dateLastUpdateAttempted": "2018-09-12T18:25:56.9847878Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
-      "isModified": true,
+      "isModified": false,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
@@ -18108,14 +18220,14 @@
       "addonID": 260925,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2582127,
-        "fileName": "AdFinders-1.12.2-2.3.1.0-build.0155.jar",
-        "fileNameOnDisk": "AdFinders-1.12.2-2.3.1.0-build.0155.jar",
-        "fileDate": "2018-07-12T20:32:47.73",
+        "id": 2616146,
+        "fileName": "AdFinders-1.12.2-2.3.2.0-build.0180.jar",
+        "fileNameOnDisk": "AdFinders-1.12.2-2.3.2.0-build.0180.jar",
+        "fileDate": "2018-09-12T11:09:44.737",
         "fileLength": 0,
         "releaseType": 1,
         "fileStatus": 2,
-        "downloadUrl": "https://files.forgecdn.net/files/2582/127/AdFinders-1.12.2-2.3.1.0-build.0155.jar",
+        "downloadUrl": "https://files.forgecdn.net/files/2616/146/AdFinders-1.12.2-2.3.2.0-build.0180.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -18336,11 +18448,11 @@
         "modules": [
           {
             "folderName": "META-INF",
-            "fimgerprint": 487229701
+            "fimgerprint": 3304600932
           },
           {
             "folderName": "com",
-            "fimgerprint": 533071961
+            "fimgerprint": 909329010
           },
           {
             "folderName": "assets",
@@ -18348,27 +18460,27 @@
           },
           {
             "folderName": "CHANGELOG.md",
-            "fimgerprint": 2321929101
+            "fimgerprint": 1315589695
           },
           {
             "folderName": "mcmod.info",
-            "fimgerprint": 3772254295
+            "fimgerprint": 3192416078
           }
         ],
-        "packageFingerprint": 4034189835,
+        "packageFingerprint": 527686420,
         "gameVersion": [
           "1.12.2"
         ],
         "installMetadata": null
       },
       "dateInstalled": "2018-09-10T19:31:11.3689114Z",
-      "dateUpdated": "2017-09-10T19:31:11.3689114Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
+      "dateUpdated": "2018-09-12T18:22:50.9331281Z",
+      "dateLastUpdateAttempted": "2018-09-12T18:22:50.9331281Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
-      "isModified": true,
+      "isModified": false,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,

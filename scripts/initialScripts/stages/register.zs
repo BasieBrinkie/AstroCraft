@@ -14,7 +14,7 @@ import mods.zenstages.Stage;
 	-------------------
 */
 
-static stageOxygen as Stage = ZenStager.initStage("Oxygen");
+static stageOxygen1 as Stage = ZenStager.initStage("Oxygen1");
 static stage1A as Stage = ZenStager.initStage("1a");
 static stage1B as Stage = ZenStager.initStage("b");
 static stage1C as Stage = ZenStager.initStage("1c");

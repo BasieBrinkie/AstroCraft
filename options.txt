@@ -43,7 +43,7 @@ mipmapLevels:0
 forceUnicodeFont:false
 reducedDebugInfo:false
 useNativeTransport:true
-entityShadows:false
+entityShadows:true
 mainHand:right
 attackIndicator:1
 showSubtitles:false
@@ -85,6 +85,8 @@ key_key.hotbar.6:7
 key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
+key_Change Caster Focus:33
+key_Misc Caster Toggle:34
 key_Airship Up:57
 key_Airship Forward:17
 key_Airship Backward:31
@@ -100,6 +102,7 @@ key_Zepplin Airship Turn Right:77
 key_Zepplin Airship Down:74
 key_Zepplin Airship Stop:76
 key_keybind.baublesinventory:48
+key_key.staff_mode.desc:50
 key_key.xu2.searchforitems:20
 key_psimisc.keybind:46
 key_key.betterquesting.quests:41
@@ -108,6 +111,8 @@ key_bloodmagic.keybind.cycle_holding_pos:13:SHIFT
 key_bloodmagic.keybind.cycle_holding_neg:12:SHIFT
 key_enderutilities.key.activate_unselected:34
 key_enderutilities.key.togglemode:34
+key_ComputerArmorBoost:44
+key_ComputerArmorNightVision:45
 key_key.ftbutilities.warp:35
 key_key.ftbutilities.nbt:49:ALT
 key_ingameinfoxml.key.toggle:0
@@ -120,17 +125,15 @@ key_pneumaticcraft.armor.options:22
 key_pneumaticcraft.helmet.hack:35
 key_pneumaticcraft.helmet.debugging.drone:21
 key_pneumaticcraft.boots.kick:45:CONTROL
-key_simplyjetpacks.keybind.engine:34
-key_simplyjetpacks.keybind.hover:38
-key_simplyjetpacks.keybind.charger:25
-key_simplyjetpacks.keybind.emergencyhover:19
 key_key.toastcontrol.clear:36
 key_key.open_terminal.desc:0
 key_key.open_magnet.desc:0
 key_key.switch_magnet_mode.desc:0
 key_key.xtones.scroll:42
 key_key.narrator:48:CONTROL
-key_key.cofh.multimode:47
+key_key.fp.compositearmor:46
+key_key.fp.gleiter:57
+key_key.fp.modul_magnet:34
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.toggleCheatMode:0
@@ -139,6 +142,7 @@ key_key.jei.showUses:22
 key_key.jei.recipeBack:14
 key_key.jei.previousPage:201
 key_key.jei.nextPage:209
+key_key.cofh.multimode:47
 key_bbw.key.mode:50
 key_bbw.key.fluidmode:33
 key_nei.options.keys.gui.botania_corporea_request:46
@@ -179,9 +183,6 @@ key_key.toggleFlight:0
 key_key.toggleDislocator:0
 key_Toggle Farting:25
 key_Open Exalted Crafter:46
-key_[GC] Galaxy Map:50
-key_[GC] Open Spaceship Inventory:34
-key_[GC] Toggle Sensor Goggles Mode:37
 key_keybinding.extrabitmanipulation.design:19
 key_keybinding.extrabitmanipulation.throw.bit:19
 key_keybinding.extrabitmanipulation.throw.bit.bitbag:19
@@ -193,6 +194,8 @@ key_keybinding.extrabitmanipulation.control:0
 key_keybinding.extrabitmanipulation.alt:45
 key_key.clipboardPaste:78
 key_FpsReducer.key.guiOpen:207
+key_key.toggleLiquids:38
+key_key.toggleVisible:0
 key_key.immersiveengineering.magnetEquip:31
 key_key.immersiveengineering.chemthrowerSwitch:0
 key_Mekanism Item Mode Switch:50
@@ -233,28 +236,20 @@ key_techguns.key.toggleStepassist:47
 key_techguns.key.forceReload:19
 key_techguns.key.toggleJetpack:36
 key_Trade:47
+key_key.radial_menu:46
+key_key.use_ring:19
+key_key.open_pouch:34
+key_key.connect_caving_rope:47
 key_Toggle Jetpack:79
 key_Open Rocket GUI:46
-key_key.journeymap.zoom_in:13
-key_key.journeymap.zoom_out:12
-key_key.journeymap.minimap_type:26
-key_key.journeymap.minimap_preset:43
-key_key.journeymap.create_waypoint:48
-key_key.journeymap.fullscreen_create_waypoint:48
-key_key.journeymap.fullscreen_chat_position:46
-key_key.journeymap.map_toggle_alt:36
-key_key.journeymap.fullscreen_waypoints:47:CONTROL
-key_key.journeymap.minimap_toggle_alt:36:CONTROL
-key_key.journeymap.fullscreen_options:24
-key_key.journeymap.fullscreen.north:200
-key_key.journeymap.fullscreen.south:208
-key_key.journeymap.fullscreen.east:205
-key_key.journeymap.fullscreen.west:203
+key_Toggle RCS:19
+key_Rotate Rocket Right:32
+key_Rotate Rocket Left:30
 key_Profile GUI:210
 soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0
-soundCategory_weather:1.0
+soundCategory_weather:0.0
 soundCategory_block:1.0
 soundCategory_hostile:1.0
 soundCategory_neutral:1.0
