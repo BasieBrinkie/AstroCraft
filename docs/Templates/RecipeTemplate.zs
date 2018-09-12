@@ -10,7 +10,7 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<CraftingResult:meta> :[
+	<CraftingResult:item:meta> :[
 		[
 			[<item:1>, <item:2>, <item:3>],
 			[<item:4>, <item:5>, <item:6>],
@@ -18,7 +18,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	
 	],
-	<CraftingResult:meta> :[
+	<CraftingResult:item:meta> :[
 		[
 			[<item:1>, <item:2>, <item:3>],
 			[<item:4>, <item:5>, <item:6>],
@@ -29,7 +29,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
-	<CraftingResult:meta> : {
+	<CraftingResult:item:meta> : {
 		"Recipename": [
 			[
 				[<item:1>, <item:2>, <item:3>],
@@ -39,7 +39,7 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 	
 		]
 	},
-	<CraftingResult:meta> : {
+	<CraftingResult:item:meta> : {
 		"Recipename": [
 			[
 				[<item:1>, <item:2>, <item:3>],
@@ -57,7 +57,7 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
     -----------------
 */
 static mirroredRecipes as IIngredient[][][][IItemStack] = {
-	<CraftingResult:meta> : [
+	<CraftingResult:item:meta> : [
 		[
 			[<item:1>, <item:2>, <item:3>],
 			[<item:4>, <item:5>, <item:6>],
@@ -65,7 +65,7 @@ static mirroredRecipes as IIngredient[][][][IItemStack] = {
 		]
 	
 	],
-	<CraftingResult:meta> : [
+	<CraftingResult:item:meta> : [
 		[
 			[<item:1>, <item:2>, <item:3>],
 			[<item:4>, <item:5>, <item:6>],
@@ -76,7 +76,7 @@ static mirroredRecipes as IIngredient[][][][IItemStack] = {
 };
 
 static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
-	<CraftingResult:meta> : {
+	<CraftingResult:item:meta> : {
 		"Recipename": [
 			[
 				[<item:1>, <item:2>, <item:3>],
@@ -86,7 +86,7 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
 	
 		]
 	},
-	<CraftingResult:meta> : {
+	<CraftingResult:item:meta> : {
 		"Recipename": [
 			[
 				[<item:1>, <item:2>, <item:3>],
@@ -104,21 +104,21 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
     ------------------
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
-	<CraftingResult:meta> : [
+	<CraftingResult:item:meta> : [
 		[<item:1>, <item:2>, <item:3>]
 	],
-	<CraftingResult:meta> : [
+	<CraftingResult:item:meta> : [
 		[<item:1>, <item:2>, <item:3>]
 	]
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
-	<CraftingResult:meta> : {
+	<CraftingResult:item:meta> : {
 		"Recipename": [
 			[<item:1>, <item:2>, <item:3>],	
 		]
 	},
-	<CraftingResult:meta> : {
+	<CraftingResult:item:meta> : {
 		"Recipename": [
 			[<item:1>, <item:2>, <item:3>]	
 		]
@@ -135,7 +135,13 @@ static removeRecipes as IItemStack[] = [
 	<item:2>
 ];
 
-static removeRecipes as string[] = [
+/*
+	----------------------------------------------------------------------------------
+	Remove Recipes by using regex (check if the name of the item has a matching name).
+	----------------------------------------------------------------------------------
+*/
+
+static removeRecipesRegex as string[] = [
 	"name",
 	"name2"
 ];
@@ -152,8 +158,8 @@ static removeFurnace as IIngredient[] = [
 ];
 
 static furnaceRecipes as IIngredient[][IItemStack] = {
-	<FurnaceInput:meta>: [<FurnaceOutput:1>],
-	<FurnaceInput:meta>: [<ore:First>, <ore:Two>]
+	<FurnaceInput:item:meta>: [<FurnaceOutput:1>],
+	<FurnaceInput:item:meta>: [<ore:First>, <ore:Two>]
 };
 
 
@@ -179,6 +185,8 @@ function init() {
 		-------------------
 	*/
 	recipeBuilder.removeRecipes(removeRecipes);
+	recipeBuilder.removeRecipesString(removeRecipesRegex);
+
 
 	/*	----------------
 		Furnace Recipes.

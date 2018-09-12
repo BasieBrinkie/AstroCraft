@@ -116,7 +116,7 @@ zenClass recipeBuilder {
 			recipes.remove(toRemove);
 		}
 	}
-	function removeRecipes(removals as string[]) {
+	function removeRecipesString(removals as string[]) {
 		for toRemove in removals {
 			recipes.removeByRegex(toRemove);
 		}

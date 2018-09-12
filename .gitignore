@@ -34,7 +34,7 @@ saves/
 server-resource-packs/
 woot/
 .mixin.out/
-journeymap/
+journeymap/*
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
@@ -51,7 +51,6 @@ config/splash.properties
 minecraftinstance.json
 playerschoice.marker
 minecraftinstance.json
-minecraftinstance.json
 config/AppliedEnergistics2/aerecipes/items.csv
 config/AppliedEnergistics2/CustomRecipes.cfg
 config/AppliedEnergistics2/Facades.cfg
@@ -73,3 +72,4 @@ config/AppliedEnergistics2/CustomRecipes.cfg
 config/AppliedEnergistics2/Facades.cfg
 config/AppliedEnergistics2/VersionChecker.cfg
 minecraftinstance.json
+config/AppliedEnergistics2/CustomRecipes.cfg
