@@ -17,7 +17,7 @@ import crafttweaker.item.IIngredient;
 
 import mods.zenstages.ZenStager;
 
-import scripts.initialScripts.stages.register.stageDisabledItems;
+import scripts.stages.register.stageDisabledItems;
 
 /*	
 	--------------------------------------------------------------------------------

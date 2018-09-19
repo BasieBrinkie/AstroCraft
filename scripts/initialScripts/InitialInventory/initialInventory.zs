@@ -1,3 +1,4 @@
+#priority 1000
 import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 

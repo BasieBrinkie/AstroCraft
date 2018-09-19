@@ -10,6 +10,8 @@ import mods.zenstages.ZenStager;
 initSpawnItems();
 initOredict();
 initRecipes();
+initStages();
+initDrops();
 
 ZenStager.buildAll();
 /*
@@ -20,6 +22,7 @@ ZenStager.buildAll();
 function initSpawnItems() {
 	scripts.initialScripts.initialInventory.initialInventory.init();
 }
+
 function initOredict() {
 	scripts.oredict.mods.betterQuesting.init();
 }
@@ -31,4 +34,15 @@ function initRecipes() {
 		----------------
 	*/
 	scripts.recipes.mods.advancedRocketry.init();
+}
+
+function initStages() {
+	scripts.stages.mods.advancedRocketry.init();
+	scripts.stages.mods.betterQuesting.init();
+
+	scripts.stages.mods.minecraft.init();
+}
+
+function initDrops() {
+	scripts.drops.mods.advancedRocketry.init();
 }

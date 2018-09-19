@@ -10,9 +10,19 @@
 	Load classes from crafttweakerMods folder and make them global.
 	---------------------------------------------------------------
 */
+//	Initial inventory class
+global spawnItems as scripts.initialScripts.classes.mods.initialInventory.spawnItems = scripts.initialScripts.classes.mods.initialInventory.spawnItems();
 
-global spawnItems as scripts.initialScripts.classes.crafttweakerMods.initialInventory.spawnItems = scripts.initialScripts.classes.crafttweakerMods.initialInventory.spawnItems();
-	
+//	ZenStager class
+global stager as scripts.initialScripts.classes.mods.zenStager.stages = scripts.initialScripts.classes.mods.zenStager.stages();
+
+/*
+	--------------------------------------
+	Load classes for all Eventhandlers.
+	--------------------------------------
+*/
+
+global blockDrop as scripts.initialScripts.classes.events.blockDrop.blockDrop = scripts.initialScripts.classes.events.blockDrop.blockDrop();
 /*
 	--------------------------------------
 	Load classes for all default wrappers.
