@@ -5913,14 +5913,14 @@
       "addonID": 223794,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2612061,
-        "fileName": "appliedenergistics2-rv6-alpha-4.jar",
-        "fileNameOnDisk": "appliedenergistics2-rv6-alpha-4.jar",
-        "fileDate": "2018-09-02T12:23:44.527",
-        "fileLength": 4056303,
-        "releaseType": 3,
+        "id": 2543840,
+        "fileName": "appliedenergistics2-rv5-stable-11.jar",
+        "fileNameOnDisk": "appliedenergistics2-rv5-stable-11.jar",
+        "fileDate": "2018-03-22T13:05:41.587",
+        "fileLength": 3570947,
+        "releaseType": 1,
         "fileStatus": 2,
-        "downloadUrl": "https://files.forgecdn.net/files/2612/61/appliedenergistics2-rv6-alpha-4.jar",
+        "downloadUrl": "https://files.forgecdn.net/files/2543/840/appliedenergistics2-rv5-stable-11.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -5928,34 +5928,34 @@
         "modules": [
           {
             "folderName": "META-INF",
-            "fimgerprint": 689271067
+            "fimgerprint": 345553015
           },
           {
             "folderName": "appeng",
-            "fimgerprint": 82727916
+            "fimgerprint": 4056667626
           },
           {
             "folderName": "assets",
-            "fimgerprint": 1288957751
+            "fimgerprint": 1577902975
           },
           {
             "folderName": "mcmod.info",
-            "fimgerprint": 3482862016
+            "fimgerprint": 3325165655
           },
           {
             "folderName": "pack.mcmeta",
             "fimgerprint": 2679328301
           }
         ],
-        "packageFingerprint": 3860742267,
+        "packageFingerprint": 3284264109,
         "gameVersion": [
           "1.12.2"
         ],
         "installMetadata": null
       },
       "dateInstalled": "2018-08-20T10:28:53.1630446Z",
-      "dateUpdated": "2018-09-19T17:47:43.5885174Z",
-      "dateLastUpdateAttempted": "2018-09-19T17:47:43.5885174Z",
+      "dateUpdated": "2018-09-19T18:10:02.3865675Z",
+      "dateLastUpdateAttempted": "2018-09-19T18:10:02.3865675Z",
       "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
