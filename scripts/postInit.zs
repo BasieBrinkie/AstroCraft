@@ -1,19 +1,17 @@
 #priority -1
 
-import mods.zenstages.ZenStager;
-
 /*
-	----------------------
-	Load order of scripts.
-	----------------------
+	-------------------------
+	Execute order of scripts.
+	-------------------------
 */
 initSpawnItems();
 initOredict();
 initRecipes();
-initStages();
+//initStages();
 initDrops();
+//initBuildStages();
 
-ZenStager.buildAll();
 /*
 	-------------------------------------------------
 	Functions to define where the init functions are.
@@ -45,4 +43,8 @@ function initStages() {
 
 function initDrops() {
 	scripts.drops.mods.advancedRocketry.init();
+}
+
+function initBuildStages() {
+	stager.build();
 }

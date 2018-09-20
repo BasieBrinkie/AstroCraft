@@ -84,7 +84,7 @@ static removeModID as IOredictEntry[][string] = {
 
 static mirror as IOredictEntry[][IOredictEntry] = {	
 	//All Items in Oredict gold are now the Items in Oredict iron and vice versa
-	<ore:gold>: <ore:iron>,	
+	<ore:gold>: [<ore:iron>],	
 };
 
 function init() {
