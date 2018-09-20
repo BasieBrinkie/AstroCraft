@@ -27,7 +27,10 @@ crash-reports/
 downloads/
 local/
 logs/
-mods/
+mods/*.jar
+mods/*.jar.disabled
+JustEnoughButtons/
+memory_repo
 resourcepacks/
 resources/
 saves/
