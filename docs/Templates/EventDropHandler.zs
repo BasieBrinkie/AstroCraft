@@ -110,10 +110,10 @@ function normalFortuneDrop() {
 			var hasOverride = !isNull(blockArray[blockId]);
 			if (hasOverride) {
 				for i, block in blockArray[blockId] {	
-					if (i == 0 & fortuneMultiplier >= 0) {
+					if (i == 0 & fortuneMultiplier > 0) {
 						event.drops = (block * fortune).items;
 					} 
-					if (i != 0 & fortuneMultiplier >= 0) {
+					if (i != 0 & fortuneMultiplier > 0) {
 						event.drops += (block * fortune);
 					}
 				}
@@ -166,11 +166,11 @@ function weightedFortuneDrop() {
 				var hasOverride = !isNull(blockArray[blockId]);
 				if (hasOverride) {
 					for i, block in blockArray[blockId] {
-						if (i == 0 & fortuneMultiplier >= 0) {
+						if (i == 0 & fortuneMultiplier > 0) {
 							event.drops = (block * fortune).items;
 							event.dropChance = dropchance;
 						} 
-						if (i != 0 & fortuneMultiplier >= 0) {
+						if (i != 0 & fortuneMultiplier > 0) {
 							event.drops += (block * fortune);
 						}
 					}
