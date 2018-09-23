@@ -54,7 +54,7 @@ static weightedDrops as IItemStack[][string][float] = {
 	NOTE2: Set the dropchance between 0.000 and 1.000. 
 	---------------------------------------------------------------
 */
-static weightedFortuneDrops as IItemStack[][string][float] = {
+static weightedFortuneDrops as IItemStack[][string][float][int] = {
 	//Set the fortune multiplier example if set to 2 fortune III gives you 8x times your set drop(s).
 	2: {
 		//Set the chance for getting an item

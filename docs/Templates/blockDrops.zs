@@ -28,7 +28,7 @@ static normalDrops as IItemStack[][string] = {
 static normalFortuneDrops as IItemStack[][string][int] = {
 	//Set the fortune multiplier example if set to 2 fortune III gives you 8x times your set drop(s).
 	2: {
-	"minecraft:item:1+": [<minecraft:item:1+>]
+		"minecraft:item:1+": [<minecraft:item:1+>]
 	}
 };
 

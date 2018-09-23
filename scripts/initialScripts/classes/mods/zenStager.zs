@@ -33,7 +33,7 @@ zenClass stages {
 						stageNonStaged.addIngredient(item);
 					}
 				}
-			}			//var allIngredients = ingredient.getItems(allItems);
+			}
 		}
 	}
 

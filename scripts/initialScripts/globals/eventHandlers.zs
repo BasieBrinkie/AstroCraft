@@ -11,3 +11,5 @@
 	------------------------------------
 */
 global blockDrop as scripts.initialScripts.classes.events.blockDrop.blockDrop = scripts.initialScripts.classes.events.blockDrop.blockDrop();
+
+global mobDrop as scripts.initialScripts.classes.events.eventMobDrops = scripts.initialScripts.classes.events.eventMobDrops();
