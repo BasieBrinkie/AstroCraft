@@ -38,21 +38,21 @@ function initRecipes() {
 		Recipes per mod.
 		----------------
 	*/
-	//scripts.recipes.vanillaCraftingTables.mods.advancedRocketry.init();
-	//scripts.recipes.vanillaCraftingTables.mods.betterQuesting.init();
-	//scripts.recipes.vanillaCraftingTables.mods.charcoalPit.init();
+	scripts.recipes.vanillaCraftingTables.mods.advancedRocketry.init();
+	scripts.recipes.vanillaCraftingTables.mods.betterQuesting.init();
+	scripts.recipes.vanillaCraftingTables.mods.charcoalPit.init();
 
-	//scripts.recipes.vanillaCraftingTables.mods.minecraft.init();
+	scripts.recipes.vanillaCraftingTables.mods.minecraft.init();
 }
 
 function initStages() {
-	//scripts.stages.mods.advancedRocketry.init();
-	//scripts.stages.mods.betterQuesting.init();
-	//scripts.stages.mods.exNihiloCreatio.init();
-	//scripts.stages.mods.minecraft.init();
+	scripts.stages.mods.advancedRocketry.init();
+	scripts.stages.mods.betterQuesting.init();
+	scripts.stages.mods.exNihiloCreatio.init();
+	scripts.stages.mods.minecraft.init();
 
 
-	//stager.addLeftovers(devStages);
+	stager.addLeftovers(devStages);
 }
 
 function initDrops() {
@@ -60,6 +60,6 @@ function initDrops() {
 }
 
 function initBuildStages() {
-	//stager.build();
+	stager.build();
 }
 

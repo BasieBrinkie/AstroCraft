@@ -1,6 +1,13 @@
 #priority 9000
-import scripts.initialScripts.classes.mods.zenstages.zenStagerWrapper;
-import scripts.initialScripts.classes.mods.mobstages.mobStagerWrapper;
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import crafttweaker.mods.ILoadedMods;
+
+import mods.MobStages;
+import mods.zenstages.ZenStager;
+import mods.zenstages.Stage;
+
+import scripts.stages.register.stageNonStaged;
 
 zenClass stager {
 	zenConstructor() {}
@@ -11,23 +18,30 @@ zenClass stager {
 		--------------------
 	*/
 	function setStage(map as IIngredient[][string]) {
-		zenStagerWrapper.setStage(map);
-	}
-
-	function stageExist(map as string) as bool {
-		return zenStagerWrapper.stageExist(map);
+		for stageName, itemArray in map {
+			ZenStager.getStage(stageName).addIngredients(itemArray);
+		}
 	}
 
 	function disable(map as IIngredient[]) {
-		zenStagerWrapper.disable(map);
+		ZenStager.getStage("disabled_items").addIngredients(map);
 	}
 
 	function addLeftovers(map as bool){
-		zenStagerWrapper.addLeftovers(map);
+		if(map){
+			for modName in loadedMods {
+				for item in modName.items {
+					if(ZenStager.isStaged("ingredient", item)) {}
+					else {
+						stageNonStaged.addIngredient(item);
+					}
+				}
+			}
+		}
 	}
-
+	
 	function build() {
-		zenStagerWrapper.build();
+		ZenStager.buildAll();
 	}
 
 	/*
@@ -36,34 +50,70 @@ zenClass stager {
 		--------------------
 	*/
 	function mobSetStage(map as string[][string]) {
-		mobStagerWrapper.mobSetStage(map);
+		for stage, mobArray in map {
+			for mob in mobArray {
+				MobStages.addStage(stage, mob);
+			}
+		}
 	}
 
 	function mobSetStageDim(map as string[][string][int]) {
-		mobStagerWrapper.mobSetStageDim(map);
+		for dimension, stageArray in map {
+			for stage, mobArray in stageArray {
+				for mob in mobArray {
+					MobStages.addStage(stage, mob);
+				}
+			}
+		}
 	}
 
 	function mobReplace(map as string[][string]) {
-		mobStagerWrapper.mobReplace(map);
+		for replacementMob, stagedMobsArray in map {
+			for stagedMob in stagedMobsArray {
+				MobStages.addReplacement(stagedMob, replacementMob);
+			}
+		} 
 	}
-	
+
 	function mobReplaceDim(map as string[][string][int]) {
-		mobStagerWrapper.mobReplaceDim(map);
+		for dimension, stageArray in map {
+			for replacementMob, stagedMobsArray in stageArray {
+				for stagedMob in stagedMobsArray {
+					MobStages.addReplacement(stagedMob, replacementMob);
+				}
+			} 
+		}
 	}
 
 	function mobRange(map as string[][int]) {
-		mobStagerWrapper.mobRange(map);
+		for range, mobArray in map {
+			for mob in mobArray {
+				MobStages.addRange(mob, range);
+			}
+		}
 	}
 
 	function mobRangeDim(map as string[][int][int]) {
-		mobStagerWrapper.mobRangeDim(map);
+		for dimension, rangeArray in map {
+			for range, mobArray in rangeArray {
+				for mob in mobArray {
+					MobStages.addRange(mob, range);
+				}
+			}
+		}
 	}
 
 	function mobSpawnerAllowed(map as string[]) {
-		mobStagerWrapper.mobSpawnerAllowed(map);
+		for mob in map {
+			MobStages.toggleSpawner(mob, true);
+		}
 	}
 
 	function mobSpawnerAllowedDim(map as string[][int]) {
-		mobStagerWrapper.mobSpawnerAllowedDim(map);
+		for dimension, mobArray in map {
+			for mob in mobArray {
+				MobStages.toggleSpawner(mob, true, dimension);
+			}
+		}
 	}
 }

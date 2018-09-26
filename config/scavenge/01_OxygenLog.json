@@ -13,7 +13,7 @@
           "tool": "axe",
           "level": 1
         },
-        {
+		{
           "type": "require_sneak"
         },
         {
@@ -24,7 +24,7 @@
         {
           "type": "swing_hand"
         },
-        {
+		{
           "type": "spawn_particles",
           "name": "cloud",
           "xOffset": 0.2,
@@ -34,13 +34,13 @@
         },
         {
         	"type":"consume_block",
-        	"chance": 32.2
+        	"chance": 32.3
         },
         {
         	"type": "damage_item",
         	"amount": 3
         },
-        {
+		{
           "type": "drop_items",
           "doDrop": true
         }
