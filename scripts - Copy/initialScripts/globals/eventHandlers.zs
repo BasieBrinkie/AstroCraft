@@ -10,8 +10,4 @@
 	Loads classes for all Eventhandlers.
 	------------------------------------
 */
-<<<<<<< HEAD
 global mobDrop as scripts.initialScripts.classes.events.eventMobDrops.mobDrop = scripts.initialScripts.classes.events.eventMobDrops.mobDrop();
-=======
-global blockDrop as scripts.initialScripts.classes.events.blockDrop.blockDrop = scripts.initialScripts.classes.events.blockDrop.blockDrop();
->>>>>>> parent of 7b57585... Got the mobDrop Scripts working!

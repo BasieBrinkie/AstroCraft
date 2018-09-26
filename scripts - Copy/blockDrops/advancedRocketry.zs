@@ -26,10 +26,6 @@ static normalDrops as IItemStack[][string] = {
 	--------------------------------------------------------------------------------
 */
 static normalFortuneDrops as IItemStack[][string][int] = {
-	//Set the fortune multiplier example if set to 2 fortune III gives you 8x times your set drop(s).
-	2: {
-		"minecraft:item:1+": [<minecraft:item:1+>]
-	}
 };
 
 /*	---------------------------------------------------------------
@@ -40,11 +36,6 @@ static normalFortuneDrops as IItemStack[][string][int] = {
 	---------------------------------------------------------------
 */
 static weightedDrops as IItemStack[][string][float] = {
-	//Set the chance for getting an item
-
-	0.8: {
-		"minecraft:grass": [<minecraft:stone:0>]
-	}	
 };
 
 /*	---------------------------------------------------------------
@@ -54,14 +45,7 @@ static weightedDrops as IItemStack[][string][float] = {
 	NOTE2: Set the dropchance between 0.000 and 1.000. 
 	---------------------------------------------------------------
 */
-static weightedFortuneDrops as IItemStack[][string][float] = {
-	//Set the fortune multiplier example if set to 2 fortune III gives you 8x times your set drop(s).
-	2: {
-		//Set the chance for getting an item
-		0.8: {
-			"minecraft:grass": [<minecraft:stone:0>]
-		}
-	}	
+static weightedFortuneDrops as IItemStack[][string][float][int] = {
 };
 
 /*	-------------------------------------------------------
@@ -160,10 +144,10 @@ function weightedFortuneDrop() {
 			return;
 		}
 		
-		for dropchance, fortuneArray in weightedFortuneDrops {
-			for fortuneMultiplier, blockArray in fortuneArray {
+		for fortuneMultiplier, dropchanceArray in weightedFortuneDrops {
 			var fortune = (event.fortuneLevel + 1) * fortuneMultiplier;
-				var hasOverride = !isNull(blockArray[blockId]);
+			for dropchance, blockArray in dropchanceArray {
+			var hasOverride = !isNull(blockArray[blockId]);
 				if (hasOverride) {
 					for i, block in blockArray[blockId] {
 						if (i == 0 & fortuneMultiplier > 0) {
@@ -187,7 +171,7 @@ function weightedFortuneDrop() {
 	-------------------------------------------------------
 */
 
-function init(){
+function init() {
 	normalDrop();
 	normalFortuneDrop();
 	weightedDrop();

@@ -1,6 +1,10 @@
-#priority 9000
 import crafttweaker.events.IEventManager;
 import crafttweaker.event.PlayerChangedDimensionEvent;
+
+zenClass eventPlayerChangedDimension {
+		zenConstructor() {}
+
+		event as PlayerChancedDimensionEvent;
 
 		/* 	
 			---------------------------------------------------
@@ -8,8 +12,8 @@ import crafttweaker.event.PlayerChangedDimensionEvent;
 			---------------------------------------------------
 		*/
 		function changeAny() as bool {
-			events.onPlayerChangedDimenion(function (event as PlayerChangedDimensionEvent) {
-
+			events.onPlayerChangedDimenion(function (event) as bool {
+				return true;
 			});
 		}
 
@@ -18,10 +22,10 @@ import crafttweaker.event.PlayerChangedDimensionEvent;
 			Check if player changed from a certain dimension and returns true.	
 			---------------------------------------------------
 		*/
-		function changeFromCertain(fromDimension as int) {
-			events.onPlayerChangedDimension(function (event as PlayerChangedDimensionEvent) {
+		function changeFromCertain(fromDimension as int) as bool {
+			events.onPlayerChangedDimension(function (event, fromDimension as int) as bool {
 				if (event.from = fromDimension) {
-					
+					return true;
 				};
 			});
 		}
@@ -31,10 +35,10 @@ import crafttweaker.event.PlayerChangedDimensionEvent;
 			Check if player changed from a certain dimension and returns true.	
 			---------------------------------------------------
 		*/
-		function changeToCertain(toDimension as int) {
-			events.onPlayerChangedDimension(function (event as PlayerChangedDimensionEvent)  {
+		function changeToCertain(toDimension as int) as bool {
+			events.onPlayerChangedDimension(function (event, toDimension as int) as bool {
 				if (event.to = toDimension) {
-
+					return true;
 				};
 			});
 		}
@@ -44,11 +48,10 @@ import crafttweaker.event.PlayerChangedDimensionEvent;
 			Check if player changed from a certain dimension to a certain dimension and returns true.	
 			---------------------------------------------------
 		*/
-		function changeMatches(fromDimension as int, toDimension as int) {
-			events.onPlayerChangedDimension( function(event as PlayerChangedDimensionEvent) {
-				if (event.from = fromDimension & event.to = toDimension) {
-				
-				}
+		function changeMatches(fromDimension as int, toDimension as int) as bool {
+			events.onPlayerChangedDimension( function(event, fromDimension as int, toDimension as int) as bool)
+			if (event.from = fromDimension & event.to = toDimension) {
+				return true;
 			}
 		}
 }

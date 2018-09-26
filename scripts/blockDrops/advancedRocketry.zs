@@ -45,7 +45,18 @@ static weightedDrops as IItemStack[][string][float] = {
 	NOTE2: Set the dropchance between 0.000 and 1.000. 
 	---------------------------------------------------------------
 */
+<<<<<<< HEAD
 static weightedFortuneDrops as IItemStack[][string][float][int] = {
+=======
+static weightedFortuneDrops as IItemStack[][string][float] = {
+	//Set the fortune multiplier example if set to 2 fortune III gives you 8x times your set drop(s).
+	2: {
+		//Set the chance for getting an item
+		0.8: {
+			"minecraft:grass": [<minecraft:stone:0>]
+		}
+	}	
+>>>>>>> parent of 7b57585... Got the mobDrop Scripts working!
 };
 
 /*	-------------------------------------------------------

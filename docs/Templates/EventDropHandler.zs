@@ -1,8 +1,9 @@
 #priority 1000
-import crafttweaker.player.IPlayer;
+import crafttweaker.block.IBlock;
 import crafttweaker.item.IItemStack;
-import crafttweaker.entity.IEntity;
-import crafttweaker.entity.IEntityDefinition;
+import crafttweaker.events.IEventManager;
+import crafttweaker.event.IBlockEvent;
+import crafttweaker.event.BlockHarvestDropsEvent;
 
 /* 	--------------------------------------------------------------------------------
 	Define all the drops per block that drop with a 100% chance.
@@ -12,24 +13,12 @@ import crafttweaker.entity.IEntityDefinition;
 	NOTE3: Ignores fortune
 	--------------------------------------------------------------------------------
 */
-static normalDrops as IItemStack[][IEntity] = {
-	"<advancedrocketry:charcoallog>": [
+static normalDrops as IItemStack[][string] = {
+	"advancedrocketry:charcoallog": [
 		<advancedrocketry:charcoallog>
 	]
 };
 
-<<<<<<< HEAD
-	the first [int] defines the minimum drop of your weighteditemstack
-	the second [int] defines the maximum drop of your weighteditemstack
-	The bool sets wether it has to be a playerkill yes or no. If true player required.
-	-----------------------------------------------------------------------------------
-*/
-static drops as bool[int][int][WeightedItemStack[]][IEntityDefinition] = {
-	<entity:minecraft:sheep>: { [
-		<advancedrocketry:charcoallog> % 20,
-		<minecraft:dirt> % 100]: 
-			{1:{5: true}}}
-=======
 /* 	--------------------------------------------------------------------------------
 	Just like the normalDrops list but now accepts an fortune multiplier.
 	The itemdrops are a static amount of drops
@@ -41,7 +30,6 @@ static normalFortuneDrops as IItemStack[][string][int] = {
 	2: {
 	"minecraft:item:1+": [<minecraft:item:1+>]
 	}
->>>>>>> parent of 7b57585... Got the mobDrop Scripts working!
 };
 
 /*	---------------------------------------------------------------
@@ -79,15 +67,31 @@ static weightedFortuneDrops as IItemStack[][string][float] = {
 /*	-------------------------------------------------------
 	Event handlers for blockDrops. 
 	Credit goes to Sevtech-Ages developers for the handler.
-	------------------------------------------------------
-*/-
+	-------------------------------------------------------
+*/
 function normalDrop() {
-	for entityName, dropArray in normalDrops {
-		entityName.clearDrops;
-		for itemDrop in dropArray {
-			entity.addDrop(itemD);
+	events.onBlockHarvestDrops(function (event as BlockHarvestDropsEvent) {
+		var blockId = event.block.definition.id;
+		if (event.block.meta != 0) {
+			blockId += ":" ~ event.block.meta;
 		}
-	}
+
+		if (event.silkTouch) {
+			return;
+		}
+
+		var hasOverride = !isNull(normalDrops[blockId]);
+		if (hasOverride) {
+			for i, block in normalDrops[blockId] {
+				if (i == 0) {
+					event.drops = block.items;
+				} 
+				else {
+					event.drops += block;
+				}
+			}
+		}
+	});
 }
 
 function normalFortuneDrop() {

@@ -36,7 +36,7 @@ zenClass zenStagerWrapper {
 						stageNonStaged.addIngredient(item);
 					}
 				}
-			}			//var allIngredients = ingredient.getItems(allItems);
+			}
 		}
 	}
 
