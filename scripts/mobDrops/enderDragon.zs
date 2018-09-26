@@ -11,9 +11,10 @@ import crafttweaker.entity.IEntityDefinition;
 
 	the first [int] defines the minimum drop of your weighteditemstack
 	the second [int] defines the maximum drop of your weighteditemstack
+	The bool sets wether it has to be a playerkill yes or no. If true player required.
 	-----------------------------------------------------------------------------------
 */
-static drops as bool[int][int][WeightedItemStack[]][IEntity] = {
+static drops as bool[int][int][WeightedItemStack[]][IEntityDefinition] = {
 	<entity:minecraft:sheep>: { [
 		<advancedrocketry:charcoallog> % 20,
 		<minecraft:dirt> % 100]: 

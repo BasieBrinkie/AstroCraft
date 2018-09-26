@@ -1,4 +1,3 @@
-#priority 1000
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
@@ -8,12 +7,13 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<questbook:itemquestbook:0>: [
+	/*<galacticraftcore:machine:0>: [
 		[
-			[<exnihilocreatio:item_pebble:0>, <exnihilocreatio:item_pebble:0>], 
-			[<exnihilocreatio:item_pebble:0>, <exnihilocreatio:item_pebble:0>]
+			[<exnihilocreatio:item_pebble:0>, <exnihilocreatio:item_pebble:0>, <exnihilocreatio:item_pebble:0>], 
+			[<exnihilocreatio:item_pebble:0>, <ore:oreTin>|<ore:oreCopper>, <exnihilocreatio:item_pebble:0>],
+			[<exnihilocreatio:item_pebble:0>, <exnihilocreatio:item_pebble:0>, <exnihilocreatio:item_pebble:0>]
 		]
-	]
+	]*/
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {

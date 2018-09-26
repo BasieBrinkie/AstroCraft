@@ -8,8 +8,8 @@ import scripts.stages.register.stageOxygen1;
 import scripts.stages.register.stageDisabledItems;
 
 static stagedItems as IIngredient[][string] = {
-	stageTheBeginning.stage: [
-		<questbook:itemquestbook:0>
+	stageOxygen1.stage: [
+		<abyssalcraft:crystalfragment:4>
 	]
 };
 

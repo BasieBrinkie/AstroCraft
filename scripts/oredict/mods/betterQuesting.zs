@@ -1,4 +1,4 @@
-#priority 1500
+
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 
@@ -12,10 +12,11 @@ import crafttweaker.oredict.IOreDictEntry;
 	----------------------
 */
 
-static addItemsToOredict as IOreDictEntry[IItemStack[]] = { [
+static addItemsToOredict as IOreDictEntry[IItemStack[]] = { 
+[
 	<minecraft:grass>,
 	<minecraft:dirt>]: 
-	<ore:BetterQuestingOxygenGeneration1>
+		<ore:BetterQuestingOxygenGeneration1>
 };
 
 /*	-------------------------------------------------

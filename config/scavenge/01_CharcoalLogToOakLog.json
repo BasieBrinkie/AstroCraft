@@ -1,10 +1,10 @@
 {
   "block_pools": [
     {
-      "name": "OxygenLog",
+      "name": "OakLogConverter",
       "type": {
-        "type": "ore",
-        "name": "logWood"
+        "type": "block",
+        "name": "advancedrocketry:charcoallog"
       },
       "clicktype": "rightclick",
       "properties": [
@@ -14,31 +14,28 @@
           "level": 1
         },
         {
-          "type": "require_sneak"
-        },
-        {
-          "type": "play_sound",
-          "name": "minecraft:block.wood_button.click_on",
-          "volume": 0.4
-        },
-        {
           "type": "swing_hand"
         },
         {
+          "type": "play_sound",
+          "name": "minecraft:block.wood.break"
+        },
+        {
           "type": "spawn_particles",
-          "name": "cloud",
-          "xOffset": 0.2,
-          "zOffset": 0.2,
-          "amount": 9,
-          "speed": 0.1
+          "name": "crit",
+          "xOffset": 10.0,
+          "zOffset": 10.0,
+          "amount": 15,
+          "speed": 0.6
         },
         {
         	"type":"consume_block",
-        	"chance": 32.2
+        	"chance": 34.0,
+          "name": "minecraft:log"
         },
         {
         	"type": "damage_item",
-        	"amount": 3
+        	"amount": 2
         },
         {
           "type": "drop_items",
@@ -47,9 +44,13 @@
       ],
       "drops": [
         {
-          "name": "abyssalcraft:crystalfragment",
-          "meta": 4,
-          "chance": 100.0
+          "name": "actuallyadditions:item_misc",
+          "meta": 11,
+          "chance": 5.0
+        },
+        {
+          "name": "tp:tiny_charcoal",
+          "chance": 78.0
         }
       ]
     }

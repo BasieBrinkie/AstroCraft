@@ -7,10 +7,10 @@
 */
 initSpawnItems();
 initOredict();
+initStages();
 initRecipes();
-//initStages();
 initDrops();
-//initBuildStages();
+initBuildStages();
 
 /*
 	-------------------------------------------------
@@ -26,24 +26,40 @@ function initOredict() {
 }
 
 function initRecipes() {	
+	/*
+		------------------------------------------------------
+		Removes all the recipes from all mods except set mods.
+		------------------------------------------------------
+	*/
+	//scripts.recipes.remove.init();
+
 	/*	
 		----------------
 		Recipes per mod.
 		----------------
 	*/
-	scripts.recipes.mods.advancedRocketry.init();
+	//scripts.recipes.vanillaCraftingTables.mods.advancedRocketry.init();
+	//scripts.recipes.vanillaCraftingTables.mods.betterQuesting.init();
+	//scripts.recipes.vanillaCraftingTables.mods.charcoalPit.init();
+
+	//scripts.recipes.vanillaCraftingTables.mods.minecraft.init();
 }
 
 function initStages() {
-	scripts.stages.mods.advancedRocketry.init();
-	scripts.stages.mods.betterQuesting.init();
+	//scripts.stages.mods.advancedRocketry.init();
+	//scripts.stages.mods.betterQuesting.init();
+	//scripts.stages.mods.exNihiloCreatio.init();
+	//scripts.stages.mods.minecraft.init();
 
-	scripts.stages.mods.minecraft.init();
+
+	//stager.addLeftovers(devStages);
 }
 
 function initDrops() {
-	scripts.drops.mods.advancedRocketry.init();
+	scripts.blockDrops.advancedRocketry.init();
 }
 
 function initBuildStages() {
-	stager.build();
+	//stager.build();
+}
+

@@ -1,7 +1,6 @@
 #priority 9000
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
-import crafttweaker.mods.ILoadedMods;
 import crafttweaker.liquid.ILiquidStack;
 
 zenClass oredictBuilder {

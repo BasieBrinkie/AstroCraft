@@ -14,8 +14,10 @@
 */
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
+import crafttweaker.mods.ILoadedMods;
 
 import mods.zenstages.ZenStager;
+import mods.zenstages.Stage;
 
 import scripts.stages.register.stageDisabledItems;
 
@@ -179,5 +181,32 @@ zenClass recipeBuilder {
 				}
 			}
 		}
+	}
+
+	function hideAllItemsExcept(modIds as string[]) {
+		if (!isNull(modIds)) {
+			for modName in loadedMods {
+				for modId in modIds {
+					if (!(loadedMods in modId)) {
+						print(modId + "doesn't exist. Make sure this modID is valid by running the command /ct mods");
+					}
+					else {
+						if (modId in modName.name) {}
+						else {
+							for item in modName.items {
+								mods.jei.JEI.removeAndHide(item);
+							}
+						}
+					}
+				}
+			}
+		}
+		else {
+			for mod in loadedMods {
+				for item in mod.items {
+					mods.jei.JEI.removeAndHide(item);
+				}
+			}	
+		}	
 	}
 }

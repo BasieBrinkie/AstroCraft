@@ -9,7 +9,7 @@ import scripts.stages.register.stageDisabledItems;
 
 static stagedItems as IIngredient[][string] = {
 	stageTheBeginning.stage: [
-		<questbook:itemquestbook:0>
+		<exnihilocreatio:item_pebble:0>
 	]
 };
 
