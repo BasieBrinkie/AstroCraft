@@ -12,11 +12,11 @@ import crafttweaker.oredict.IOreDictEntry;
 	----------------------
 */
 
-static addItemsToOredict as IOreDictEntry[IItemStack[]] = { 
-[
-	<minecraft:grass>,
-	<minecraft:dirt>]: 
-		<ore:BetterQuestingOxygenGeneration1>
+static addItemsToOredict as IItemStack[][IOreDictEntry] = { 
+	<ore:BetterQuestingOxygenGeneration1>: [
+		<minecraft:grass>,
+		<minecraft:dirt>
+	] 
 };
 
 /*	-------------------------------------------------
@@ -29,7 +29,7 @@ static addItemsToOredict as IOreDictEntry[IItemStack[]] = {
 	---------------------------
 */
 
-static removeItemsFromOredict as IOreDictEntry[IItemStack[]] = {	
+static removeItemsFromOredict as IItemStack[][IOreDictEntry] = {	
 };
 
 /*	------------------------------------------

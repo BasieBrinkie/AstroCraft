@@ -3,5 +3,5 @@ static skipModIDs as string[] = [
 ];
 
 function init() {
-	recipeBuilder.hideAllItemsExcept(skipModIDs);
+	recipeBuilder.hideAllItemsExcept(skipModIDs, dev);
 }

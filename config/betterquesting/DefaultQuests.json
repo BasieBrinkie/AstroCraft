@@ -79,7 +79,9 @@
     },
     "2:10": {
       "questID:3": 2,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        25
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -89,34 +91,25 @@
           "repeattime:3": -1,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:grass",
+            "id:8": "minecraft:log",
             "Count:3": 1,
             "Damage:2": 0,
-            "OreDict:8": "BetterQuestingHollowCave"
+            "OreDict:8": ""
           },
           "globalshare:1": 0,
-          "questlogic:8": "OR",
+          "questlogic:8": "AND",
           "partysinglereward:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "ismain:1": 0,
-          "name:8": "Hollow Asteroids",
-          "desc:8": "Break a block of grass when enterring a hollow asteroid.\nIf you\u0027re lucky you\u0027re able to find a tree "
+          "name:8": "Let\u0027s strip them!",
+          "desc:8": "We need to strip the burned bark to get Oak Log\nSo let\u0027s strip them bitc*es!\n\n\n- Take your axe in your hand\nThings can get rough now!\n- Hit the Charcoal Log with right click"
         }
       },
       "tasks:9": {
         "0:10": {
-          "blocks:9": {
-            "0:10": {
-              "blockID:8": "minecraft:grass",
-              "nbt:10": {},
-              "amount:3": 1,
-              "oreDict:8": "BetterQuestingOxygenGeneration1",
-              "meta:3": -1
-            }
-          },
           "index:3": 0,
-          "taskID:8": "bq_standard:block_break"
+          "taskID:8": "bq_standard:checkbox"
         }
       },
       "rewards:9": {}
@@ -544,8 +537,7 @@
     "13:10": {
       "questID:3": 13,
       "preRequisites:11": [
-        2,
-        15
+        25
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -556,9 +548,9 @@
           "repeattime:3": -1,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:log",
+            "id:8": "abyssalcraft:crystalfragment",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 4,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -568,22 +560,26 @@
           "autoclaim:1": 1,
           "ismain:1": 0,
           "name:8": "Chop down those trees!",
-          "desc:8": "No Description"
+          "desc:8": "Breathing vacuum or oxygen, which one do you prefer?\nEven though I prefer breathing vacuum but my body can\u0027t handle that.\nSince there isn\u0027t any other alternative get ready to make oxygen!\n\n- Gather 18 oxygen shards"
         }
       },
       "tasks:9": {
         "0:10": {
-          "blocks:9": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
             "0:10": {
-              "blockID:8": "minecraft:log",
-              "nbt:10": {},
-              "amount:3": 1,
-              "oreDict:8": "logWood",
-              "meta:3": -1
+              "id:8": "abyssalcraft:crystalfragment",
+              "Count:3": 18,
+              "OreDict:8": "",
+              "Damage:3": 4
             }
           },
-          "index:3": 0,
-          "taskID:8": "bq_standard:block_break"
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -591,7 +587,7 @@
     "14:10": {
       "questID:3": 14,
       "preRequisites:11": [
-        13
+        2
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -641,8 +637,7 @@
     "15:10": {
       "questID:3": 15,
       "preRequisites:11": [
-        2,
-        13
+        17
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -653,19 +648,19 @@
           "repeattime:3": -1,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:sapling",
+            "id:8": "minecraft:cobblestone",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
-          "questlogic:8": "XOR",
+          "questlogic:8": "AND",
           "partysinglereward:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 1,
           "ismain:1": 0,
-          "name:8": "Saplings",
-          "desc:8": "No Description"
+          "name:8": "Cobbliestone",
+          "desc:8": "We are going to need cobblestone, probably lots of it\n\n- Break asteroid stone to obtain pebbles\n- Craft 10 cobblestone by filling all crafting slots\nPS. keep a few or more than a few pebbles you\u0027ll need them later on"
         }
       },
       "tasks:9": {
@@ -678,9 +673,9 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:sapling",
-              "Count:3": 1,
-              "OreDict:8": "treeSapling",
+              "id:8": "minecraft:cobblestone",
+              "Count:3": 10,
+              "OreDict:8": "",
               "Damage:3": 0
             }
           },
@@ -724,6 +719,435 @@
           "taskID:8": "bq_standard:checkbox"
         }
       },
+      "rewards:9": {}
+    },
+    "17:10": {
+      "questID:3": 17,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "minecraft:wooden_pickaxe",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "ismain:1": 0,
+          "name:8": "Tools",
+          "desc:8": "Let\u0027s make life easier by using tools\n\n-JEI will always be your friend"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:wooden_pickaxe",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "18:10": {
+      "questID:3": 18,
+      "preRequisites:11": [
+        15
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:furnace",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Chef-Cook",
+          "desc:8": "Starting a fire with pebbles and cobblestone is a bit of pain in the ass, don\u0027t you think?\n\n- Craft a furnace"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:furnace",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "19:10": {
+      "questID:3": 19,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "20:10": {
+      "questID:3": 20,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:crafting_table",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Obtaining a crafting table",
+          "desc:8": "You can get a crafting table pretty easily\nChoose which charcoallog you want to convert to a crafting table\n\n- Make sure your hand is empty\n- Now Sneak!\n- Hit the log with your hand\n\nTadaaa your first crafting table"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "21:10": {
+      "questID:3": 21,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Book of the almighty lore",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "22:10": {
+      "questID:3": 22,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "23:10": {
+      "questID:3": 23,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "24:10": {
+      "questID:3": 24,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "25:10": {
+      "questID:3": 25,
+      "preRequisites:11": [
+        18
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "minecraft:stone_axe",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Gather Coal",
+          "desc:8": "Stripper tools ...\n\n- Craft an axe"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:stone_axe",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "26:10": {
+      "questID:3": 26,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "27:10": {
+      "questID:3": 27,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "28:10": {
+      "questID:3": 28,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
       "rewards:9": {}
     }
   },
@@ -818,33 +1242,75 @@
       "quests:9": {
         "0:10": {
           "size:3": 24,
-          "x:3": 12,
+          "x:3": 156,
           "y:3": 12,
           "id:3": 2
         },
         "1:10": {
           "size:3": 24,
-          "x:3": 48,
-          "y:3": 12,
+          "x:3": 156,
+          "y:3": 48,
           "id:3": 13
         },
         "2:10": {
           "size:3": 24,
-          "x:3": 84,
+          "x:3": 192,
           "y:3": 12,
           "id:3": 14
         },
         "3:10": {
           "size:3": 24,
           "x:3": 48,
-          "y:3": 48,
+          "y:3": 12,
           "id:3": 15
         },
         "4:10": {
           "size:3": 24,
-          "x:3": 120,
+          "x:3": 228,
           "y:3": 12,
           "id:3": 16
+        },
+        "5:10": {
+          "size:3": 24,
+          "x:3": 12,
+          "y:3": 12,
+          "id:3": 17
+        },
+        "6:10": {
+          "size:3": 24,
+          "x:3": 84,
+          "y:3": 12,
+          "id:3": 18
+        },
+        "7:10": {
+          "size:3": 24,
+          "x:3": 120,
+          "y:3": 84,
+          "id:3": 19
+        },
+        "8:10": {
+          "size:3": 24,
+          "x:3": 120,
+          "y:3": 12,
+          "id:3": 25
+        },
+        "9:10": {
+          "size:3": 24,
+          "x:3": 156,
+          "y:3": 84,
+          "id:3": 26
+        },
+        "10:10": {
+          "size:3": 24,
+          "x:3": 192,
+          "y:3": 84,
+          "id:3": 27
+        },
+        "11:10": {
+          "size:3": 24,
+          "x:3": 156,
+          "y:3": 120,
+          "id:3": 28
         }
       },
       "lineID:3": 1,
@@ -856,18 +1322,64 @@
           "desc:8": "WIP Setup an emergency oxygen generator, because you will need it"
         }
       },
+      "order:3": 2
+    },
+    "2:10": {
+      "quests:9": {
+        "0:10": {
+          "size:3": 24,
+          "x:3": 12,
+          "y:3": 12,
+          "id:3": 20
+        },
+        "1:10": {
+          "size:3": 24,
+          "x:3": 90,
+          "y:3": 18,
+          "id:3": 21
+        },
+        "2:10": {
+          "size:3": 24,
+          "x:3": 90,
+          "y:3": 54,
+          "id:3": 22
+        },
+        "3:10": {
+          "size:3": 24,
+          "x:3": 126,
+          "y:3": 18,
+          "id:3": 23
+        },
+        "4:10": {
+          "size:3": 24,
+          "x:3": 126,
+          "y:3": 54,
+          "id:3": 24
+        }
+      },
+      "lineID:3": 2,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "The Beginning",
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "This tab stores important information like how to start, tips and tricks for this modpack and you can unlock new chapters for the lorebook"
+        }
+      },
       "order:3": 1
     }
   },
   "questSettings:10": {
     "betterquesting:10": {
       "livesdef:3": 3,
+      "pack_name:8": "",
       "home_anchor_y:5": 0.0,
       "livesmax:3": 10,
       "home_anchor_x:5": 0.5,
-      "editmode:1": 0,
+      "editmode:1": 1,
       "hardcore:1": 0,
       "home_image:8": "betterquesting:textures/gui/default_title.png",
+      "pack_version:3": 0,
       "home_offset_x:3": -128,
       "home_offset_y:3": 0
     }

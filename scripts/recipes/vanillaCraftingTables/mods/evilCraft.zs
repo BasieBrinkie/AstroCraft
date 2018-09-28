@@ -7,41 +7,11 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<minecraft:cobblestone:0>: [
+	<evilcraft:dark_stick:0>: [
 		[
-			[<exnihilocreatio:item_pebble:0>, <exnihilocreatio:item_pebble:0>, <exnihilocreatio:item_pebble:0>], 
-			[<exnihilocreatio:item_pebble:0>, <exnihilocreatio:item_pebble:0>, <exnihilocreatio:item_pebble:0>],
-			[<exnihilocreatio:item_pebble:0>, <exnihilocreatio:item_pebble:0>, <exnihilocreatio:item_pebble:0>]
-		]
-	],
-	<minecraft:stone_axe>: [
-		[
-			[<minecraft:stone:0>, <minecraft:stone:0>, null],
-			[<minecraft:stone:0>, <evilcraft:dark_stick>, null],
-			[null, <evilcraft:dark_stick>, null]
-
-		]
-	],
-	<minecraft:wooden_pickaxe>: [
-		[
-			[<advancedrocketry:charcoallog:0>,<advancedrocketry:charcoallog:0>,<advancedrocketry:charcoallog:0>],
-			[null, <evilcraft:dark_stick:0>, null],
-			[null, <evilcraft:dark_stick:0>, null]
-		]
-	],
-	<minecraft:furnace:0>: [
-		[
-			[<minecraft:cobblestone:0>,<minecraft:cobblestone:0>,<minecraft:cobblestone:0>],
-			[<minecraft:cobblestone:0>,<minecraft:coal:1>, <minecraft:cobblestone:0>],
-			[<minecraft:cobblestone:0>,<minecraft:cobblestone:0>,<minecraft:cobblestone:0>]
-
-		]
-	],
-	<minecraft:coal:1>: [
-		[
-			[<actuallyadditions:item_misc:11>,<actuallyadditions:item_misc:11>,<actuallyadditions:item_misc:11>],
-			[<actuallyadditions:item_misc:11>, null, <actuallyadditions:item_misc:11>],
-			[<actuallyadditions:item_misc:11>,<actuallyadditions:item_misc:11>,<actuallyadditions:item_misc:11>]
+			[<advancedrocketry:charcoallog:0>, null, null], 
+			[<advancedrocketry:charcoallog:0>, null, null],
+			[null, null, null]
 		]
 	]
 };

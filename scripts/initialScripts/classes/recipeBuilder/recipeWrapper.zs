@@ -183,8 +183,8 @@ zenClass recipeBuilder {
 		}
 	}
 
-	function hideAllItemsExcept(modIds as string[]) {
-		if (!isNull(modIds)) {
+	function hideAllItemsExcept(modIds as string[], devBool as bool) {
+		if (!isNull(modIds) & !devBool) {
 			for modName in loadedMods {
 				for modId in modIds {
 					if (!(loadedMods in modId)) {
@@ -199,6 +199,11 @@ zenClass recipeBuilder {
 						}
 					}
 				}
+			}
+		}
+		if (devBool) {
+			for modName in loadedMods {
+					removeRecipes(modName.items);
 			}
 		}
 		else {

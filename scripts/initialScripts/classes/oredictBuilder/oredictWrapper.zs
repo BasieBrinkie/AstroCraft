@@ -13,8 +13,8 @@ zenClass oredictBuilder {
 		----------------------------------------------
 	*/
 
-	function process(map as IOreDictEntry[IItemStack[]]) {
-		for itemArray, oredictName in map {
+	function process(map as IItemStack[][IOreDictEntry]) {
+		for oredictName, itemArray in map {
 			for item in itemArray {
 				oredictName.add(item);
 			}
@@ -27,8 +27,8 @@ zenClass oredictBuilder {
 		--------------------------------------------------
 	*/
 
-	function remove(map as IOreDictEntry[IItemStack[]]) {
-		for itemArray, oredictName in map {
+	function remove(map as IItemStack[][IOreDictEntry]) {
+		for oredictName, itemArray in map {
 			for item in itemArray {
 				oredictName.remove(item);
 			}
