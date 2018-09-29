@@ -1,4 +1,5 @@
 #priority 9500
+#modloaded initialinventory
 import mods.initialinventory.InvHandler.addStartingItem as addSpawnItem;
 import crafttweaker.item.IItemStack;
 
