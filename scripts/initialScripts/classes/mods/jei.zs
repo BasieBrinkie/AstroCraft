@@ -6,7 +6,7 @@ import crafttweaker.liquid.ILiquidStack;
 
 import mods.jei.JEI;
 
-zenclass jei {
+zenClass jei {
 	zenConstructor() {}
 
 	function hideItem(map as IItemStack[]) {

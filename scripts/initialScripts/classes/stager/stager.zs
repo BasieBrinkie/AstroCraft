@@ -1,5 +1,5 @@
 #priority 9000
-#modloaded zenstages MobStages
+#modloaded zenstages mobstages
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.mods.ILoadedMods;

@@ -11,8 +11,13 @@
 	---------------------------------------
 */
 global oredictBuilder as scripts.initialScripts.classes.oredictBuilder.oredictWrapper.oredictBuilder = scripts.initialScripts.classes.oredictBuilder.oredictWrapper.oredictBuilder();
+
 global unifier as scripts.initialScripts.classes.oredictUnifier.unifierWrapper.unifier = scripts.initialScripts.classes.oredictUnifier.unifierWrapper.unifier();
+
 global recipeBuilder as scripts.initialScripts.classes.recipeBuilder.recipeWrapper.recipeBuilder = scripts.initialScripts.classes.recipeBuilder.recipeWrapper.recipeBuilder();
+
 global nbt as scripts.initialScripts.classes.nbtBuilder.nbtBuilder.nbt = scripts.initialScripts.classes.nbtBuilder.nbtBuilder.nbt();
+
 global itemProperties as scripts.initialScripts.classes.itemProperties.itemProperties.itemProperties = scripts.initialScripts.classes.itemProperties.itemProperties.itemProperties();
+
 global stager as scripts.initialScripts.classes.stager.stager.stager = scripts.initialScripts.classes.stager.stager.stager();
