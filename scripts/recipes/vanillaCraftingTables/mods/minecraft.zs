@@ -17,31 +17,38 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<minecraft:stone_axe>: [
 		[
 			[<minecraft:stone:0>, <minecraft:stone:0>, null],
-			[<minecraft:stone:0>, <evilcraft:dark_stick>, null],
-			[null, <evilcraft:dark_stick>, null]
+			[<minecraft:stone:0>, <minecraft:stick>, null],
+			[null, <minecraft:stick>, null]
 
 		]
 	],
 	<minecraft:wooden_pickaxe>: [
 		[
-			[<advancedrocketry:charcoallog:0>,<advancedrocketry:charcoallog:0>,<advancedrocketry:charcoallog:0>],
+			[<advancedrocketry:charcoallog:0>, <advancedrocketry:charcoallog:0>, <advancedrocketry:charcoallog:0>],
 			[null, <evilcraft:dark_stick:0>, null],
 			[null, <evilcraft:dark_stick:0>, null]
 		]
 	],
 	<minecraft:furnace:0>: [
 		[
-			[<minecraft:cobblestone:0>,<minecraft:cobblestone:0>,<minecraft:cobblestone:0>],
-			[<minecraft:cobblestone:0>,<minecraft:coal:1>, <minecraft:cobblestone:0>],
-			[<minecraft:cobblestone:0>,<minecraft:cobblestone:0>,<minecraft:cobblestone:0>]
+			[<minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>],
+			[<minecraft:cobblestone:0>, <minecraft:coal:1>, <minecraft:cobblestone:0>],
+			[<minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>]
 
 		]
 	],
 	<minecraft:coal:1>: [
 		[
-			[<actuallyadditions:item_misc:11>,<actuallyadditions:item_misc:11>,<actuallyadditions:item_misc:11>],
+			[<actuallyadditions:item_misc:11>, <actuallyadditions:item_misc:11>, <actuallyadditions:item_misc:11>],
 			[<actuallyadditions:item_misc:11>, null, <actuallyadditions:item_misc:11>],
-			[<actuallyadditions:item_misc:11>,<actuallyadditions:item_misc:11>,<actuallyadditions:item_misc:11>]
+			[<actuallyadditions:item_misc:11>, <actuallyadditions:item_misc:11>, <actuallyadditions:item_misc:11>]
+		]
+	],
+	<minecraft:furnace:0>: [
+		[
+			[<minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>],
+			[<minecraft:cobblestone:0>, <minecraft:coal:1>, <minecraft:cobblestone:0>],
+			[<minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>]
 		]
 	]
 };
@@ -71,23 +78,11 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 };
 
-/*	
-	----------------
-    Recipe Removals.
-    ----------------
-*/
-static removeRecipes as IItemStack[] = [];
-
-static removeRecipesRegex as string[] = [];
-
-
 /*
 	----------------
 	Furnace Recipes.
 	----------------
 */
-static removeFurnace as IIngredient[] = [];
-
 static furnaceRecipes as IIngredient[][IItemStack] = {};
 
 
@@ -108,18 +103,9 @@ function init() {
     recipeBuilder.processNamed(namedMirroredRecipes, true);
     recipeBuilder.processShapelessNamed(namedShapelessRecipes);
 
-	/*	-------------------
-		Removal of Recipes.
-		-------------------
-	*/
-	recipeBuilder.removeRecipes(removeRecipes);
-	recipeBuilder.removeRecipesString(removeRecipesRegex);
-
-
 	/*	----------------
 		Furnace Recipes.
 		----------------
 	*/
 	recipeBuilder.processFurnace(furnaceRecipes);
-	recipeBuilder.removeFurnace(removeFurnace);
 }

@@ -40,23 +40,11 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 };
 
-/*	
-	----------------
-    Recipe Removals.
-    ----------------
-*/
-static removeRecipes as IItemStack[] = [];
-
-static removeRecipesRegex as string[] = [];
-
-
 /*
 	----------------
 	Furnace Recipes.
 	----------------
 */
-static removeFurnace as IIngredient[] = [];
-
 static furnaceRecipes as IIngredient[][IItemStack] = {};
 
 
@@ -77,18 +65,9 @@ function init() {
     recipeBuilder.processNamed(namedMirroredRecipes, true);
     recipeBuilder.processShapelessNamed(namedShapelessRecipes);
 
-	/*	-------------------
-		Removal of Recipes.
-		-------------------
-	*/
-	recipeBuilder.removeRecipes(removeRecipes);
-	recipeBuilder.removeRecipesString(removeRecipesRegex);
-
-
 	/*	----------------
 		Furnace Recipes.
 		----------------
 	*/
 	recipeBuilder.processFurnace(furnaceRecipes);
-	recipeBuilder.removeFurnace(removeFurnace);
 }

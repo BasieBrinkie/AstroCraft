@@ -11,11 +11,18 @@ import crafttweaker.event.BlockHarvestDropsEvent;
 	NOTE: You should rename the IItemStack to a string and remove the <> brackets.
 	NOTE2: You can't mix the same block entry in both normalDrops and weightedDrops.
 	NOTE3: Ignores fortune
+	NOTE4: Some blocks have multiple meta's per orientation
 	--------------------------------------------------------------------------------
 */
 static normalDrops as IItemStack[][string] = {
 	//Advanced Rocketry
 	"advancedrocketry:charcoallog": [
+		<advancedrocketry:charcoallog>
+	],
+	"advancedrocketry:charcoallog:4": [
+		<advancedrocketry:charcoallog>
+	],
+	"advancedrocketry:charcoallog:8": [
 		<advancedrocketry:charcoallog>
 	]
 };
@@ -23,13 +30,20 @@ static normalDrops as IItemStack[][string] = {
 /* 	--------------------------------------------------------------------------------
 	Just like the normalDrops list but now accepts an fortune multiplier.
 	The itemdrops are a static amount of drops
-	NOTE: Set the fortune multiplier > 0
+	NOTE: Set the fortune multiplier > 0.
+	NOTE2: Some blocks have multiple meta's per orientation.
 	--------------------------------------------------------------------------------
 */
 static normalFortuneDrops as IItemStack[][string][int] = {
 	1: {	
 		//Minecraft
 		"minecraft:log": [
+			<minecraft:planks:0> * 2
+		],
+		"minecraft:log:4": [
+			<minecraft:planks:0> * 2
+		],
+		"minecraft:log:8": [
 			<minecraft:planks:0> * 2
 		]
 	}
@@ -39,7 +53,8 @@ static normalFortuneDrops as IItemStack[][string][int] = {
 	Items will only drop for a set chance.
 	If you desire you can add multiple items per drop.
 	NOTE: You can't have multiple drops with different dropchances.
-	NOTE2: Set the dropchance between 0.000 and 1.000. 
+	NOTE2: Set the dropchance between 0.000 and 1.000.
+	NOTE3: Some blocks have multiple meta's per orientation.
 	---------------------------------------------------------------
 */
 static weightedDrops as IItemStack[][string][float] = {
@@ -49,7 +64,8 @@ static weightedDrops as IItemStack[][string][float] = {
 	Items will only drop for a set chance.
 	If you desire you can add multiple items per drop.
 	NOTE: You can't have multiple drops with different dropchances.
-	NOTE2: Set the dropchance between 0.000 and 1.000. 
+	NOTE2: Set the dropchance between 0.000 and 1.000.
+	NOTE3: Some blocks have multiple meta's per orientation.
 	---------------------------------------------------------------
 */
 static weightedFortuneDrops as IItemStack[][string][float][int] = {

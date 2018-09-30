@@ -1,3 +1,6 @@
+/* 
+	This is a template file for a standard recipe script
+*/
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
@@ -7,16 +10,11 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<charcoal_pit:log_pile:0>: [
+	<exnihilocreatio:block_barrel0:0>: [
 		[
-			[<advancedrocketry:charcoallog:0>, <advancedrocketry:charcoallog:0>, <advancedrocketry:charcoallog:0>], 
-			[<advancedrocketry:charcoallog:0>, <advancedrocketry:charcoallog:0>, <advancedrocketry:charcoallog:0>],
-			[<advancedrocketry:charcoallog:0>, <advancedrocketry:charcoallog:0>, <advancedrocketry:charcoallog:0>]
-		],
-		[
-			[<minecraft:log:0>, <minecraft:log:0>, <minecraft:log:0>], 
-			[<minecraft:log:0>, <minecraft:log:0>, <minecraft:log:0>],
-			[<minecraft:log:0>, <minecraft:log:0>, <minecraft:log:0>]
+			[<minecraft:planks:0>, null, <minecraft:planks:0>],
+			[<minecraft:planks:0>, null, <minecraft:planks:0>],
+			[<minecraft:wooden_slab:0>, <minecraft:wooden_slab:0>, <minecraft:wooden_slab:0>]
 		]
 	]
 };
@@ -51,7 +49,8 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 	Furnace Recipes.
 	----------------
 */
-static furnaceRecipes as IIngredient[][IItemStack] = {};
+static furnaceRecipes as IIngredient[][IItemStack] = {
+};
 
 
 function init() {

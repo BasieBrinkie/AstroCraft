@@ -45,6 +45,7 @@ function initRecipes() {
 	scripts.recipes.vanillaCraftingTables.mods.charcoalPit.init();
 
 	scripts.recipes.vanillaCraftingTables.mods.evilCraft.init();
+	scripts.recipes.vanillaCraftingTables.mods.exNihiloCreatio.init();
 
 	scripts.recipes.vanillaCraftingTables.mods.minecraft.init();
 }
@@ -59,7 +60,7 @@ function initStages() {
 
 	scripts.stages.mobs.chickens.init();
 
-	stager.addLeftovers(devStages);
+	stager.addLeftovers();
 }
 
 function initDrops() {
@@ -67,6 +68,8 @@ function initDrops() {
 }
 
 function initItemProperties() {
+	scripts.items.evilCraft.init();
+	scripts.items.minecraft.init();
 	scripts.items.tinyProgressions.init();
 }
 

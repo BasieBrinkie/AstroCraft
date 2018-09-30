@@ -16,6 +16,10 @@ static addItemsToOredict as IItemStack[][IOreDictEntry] = {
 	<ore:BetterQuestingOxygenGeneration1>: [
 		<minecraft:grass>,
 		<minecraft:dirt>
+	],
+	<ore:BetterQuestingOxygenGeneration2>: [
+		<exnihilocreatio:hammer_wood>,
+		<exnihilocreatio:hammer_stone>
 	] 
 };
 

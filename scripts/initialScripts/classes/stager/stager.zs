@@ -28,8 +28,8 @@ zenClass stager {
 		ZenStager.getStage("disabled_items").addIngredients(map);
 	}
 
-	function addLeftovers(map as bool){
-		if(map){
+	function addLeftovers(){
+		if(devStages){
 			for modName in loadedMods {
 				for item in modName.items {
 					if(ZenStager.isStaged("ingredient", item)) {}

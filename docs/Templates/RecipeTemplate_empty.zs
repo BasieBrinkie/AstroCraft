@@ -1,3 +1,6 @@
+/* 
+	This is a template file for a standard recipe script
+*/
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
@@ -7,18 +10,6 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<charcoal_pit:log_pile:0>: [
-		[
-			[<advancedrocketry:charcoallog:0>, <advancedrocketry:charcoallog:0>, <advancedrocketry:charcoallog:0>], 
-			[<advancedrocketry:charcoallog:0>, <advancedrocketry:charcoallog:0>, <advancedrocketry:charcoallog:0>],
-			[<advancedrocketry:charcoallog:0>, <advancedrocketry:charcoallog:0>, <advancedrocketry:charcoallog:0>]
-		],
-		[
-			[<minecraft:log:0>, <minecraft:log:0>, <minecraft:log:0>], 
-			[<minecraft:log:0>, <minecraft:log:0>, <minecraft:log:0>],
-			[<minecraft:log:0>, <minecraft:log:0>, <minecraft:log:0>]
-		]
-	]
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
@@ -51,7 +42,8 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 	Furnace Recipes.
 	----------------
 */
-static furnaceRecipes as IIngredient[][IItemStack] = {};
+static furnaceRecipes as IIngredient[][IItemStack] = {
+};
 
 
 function init() {
@@ -71,9 +63,18 @@ function init() {
     recipeBuilder.processNamed(namedMirroredRecipes, true);
     recipeBuilder.processShapelessNamed(namedShapelessRecipes);
 
+	/*	-------------------
+		Removal of Recipes.
+		-------------------
+	*/
+	recipeBuilder.removeRecipes(removeRecipes);
+	recipeBuilder.removeRecipesString(removeRecipesRegex);
+
+
 	/*	----------------
 		Furnace Recipes.
 		----------------
 	*/
 	recipeBuilder.processFurnace(furnaceRecipes);
+	recipeBuilder.removeFurnace(removeFurnace);
 }
