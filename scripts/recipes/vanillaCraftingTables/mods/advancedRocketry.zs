@@ -7,13 +7,20 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	/*<galacticraftcore:machine:0>: [
+	<advancedrocketry:platepress:0>: [
 		[
-			[<exnihilocreatio:item_pebble:0>, <exnihilocreatio:item_pebble:0>, <exnihilocreatio:item_pebble:0>], 
-			[<exnihilocreatio:item_pebble:0>, <ore:oreTin>|<ore:oreCopper>, <exnihilocreatio:item_pebble:0>],
-			[<exnihilocreatio:item_pebble:0>, <exnihilocreatio:item_pebble:0>, <exnihilocreatio:item_pebble:0>]
+			[<minecraft:planks:0>, <minecraft:planks:0>, <minecraft:planks:0>], 
+			[<minecraft:stone:0>, <abyssalcraft:crystalfragment:17>, <minecraft:stone:0>],
+			[<minecraft:stone:0>, <minecraft:stone:0>, <minecraft:stone:0>]
 		]
-	]*/
+	],
+	<advancedrocketry:oxygencharger:0>: [
+		[
+			[null, <abyssalcraft:crystalshard:4>, null],
+			[<minecraft:stone:0>, <libvulpes:productplate:4>, <minecraft:stone:0>],
+			[<minecraft:stone:0>, <minecraft:stone:0>, <minecraft:stone:0>]
+		]
+	]
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {

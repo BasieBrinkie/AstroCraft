@@ -80,7 +80,7 @@
     "2:10": {
       "questID:3": 2,
       "preRequisites:11": [
-        26
+        25
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -537,7 +537,7 @@
     "13:10": {
       "questID:3": 13,
       "preRequisites:11": [
-        25
+        2
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -587,7 +587,7 @@
     "14:10": {
       "questID:3": 14,
       "preRequisites:11": [
-        2
+        29
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -687,7 +687,8 @@
     "16:10": {
       "questID:3": 16,
       "preRequisites:11": [
-        14
+        32,
+        34
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -709,14 +710,27 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Silk Worms ",
+          "desc:8": "Gather silkworms from dirt. After you retreive or at least tried to catch a silkworm the dirt isn\u0027t fertilised anymore and changes in coarse dirt.\n\n- Use a shovel on a normal dirt block while sneaking\n- Collect at least 1 silkworm"
         }
       },
       "tasks:9": {
         "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
           "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "exnihilocreatio:item_material",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 2
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -1042,7 +1056,6 @@
     "25:10": {
       "questID:3": 25,
       "preRequisites:11": [
-        2,
         18
       ],
       "properties:10": {
@@ -1119,7 +1132,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Charcoal Pit",
-          "desc:8": "We need to create a charcoal pit for charcoal.\n\n- Place down a log pile, make sure it is fully touched by non-flammable blocks but leave the top side open.\n\n- Now you need to slab down an adjoining block of cobblestone\n\n- In order to start a fire throw pebbles to the block of cobblestone and observe\n\n- Once the logpile burn all adjecent log piles will also burn.\n\n\nNOTE: Be sure that every side including the top is covered before all piles are burned up."
+          "desc:8": "We need to create a charcoal pit for charcoal.\n\n- Place down a log pile, make sure it is fully touched by non-flammable blocks but leave the top side open.\n\n- Now you need to slab down an adjoining block of cobblestone\n\n- In order to start a fire throw pebbles to the block of cobblestone and observe\n\n- Once a logpile burns all adjecent log piles will also burn.\n\n\nNOTE: Be sure that every side including the top is covered once the fire is lit otherwise all piles will burn up."
         }
       },
       "tasks:9": {
@@ -1145,7 +1158,9 @@
     },
     "27:10": {
       "questID:3": 27,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        18
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1159,6 +1174,444 @@
               "astralsorcery:cap_item_amulet_holder:10": {}
             },
             "id:8": "exnihilocreatio:hammer_stone",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "BetterQuestingOxygenGeneration2"
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "ismain:1": 0,
+          "name:8": "Hammer",
+          "desc:8": "Choose which hammer you would like to make, wood or stone?\n\n- Craft a wooden hammer or stone hammer"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "exnihilocreatio:hammer_stone",
+              "Count:3": 1,
+              "OreDict:8": "BetterQuestingOxygenGeneration2",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "28:10": {
+      "questID:3": 28,
+      "preRequisites:11": [
+        27
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:gravel",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "ismain:1": 0,
+          "name:8": "Crushed Cobblestone",
+          "desc:8": "Gravel is cobblestone that has been hammered\n\n- Hammer blocks of cobblestone\n- Collect 4 gravel"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:gravel",
+              "Count:3": 4,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "29:10": {
+      "questID:3": 29,
+      "preRequisites:11": [
+        2,
+        27
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:wooden_slab",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "ismain:1": 0,
+          "name:8": "The making of planks",
+          "desc:8": "Making planks is a bit unusual in this pack\n\n- Smack down a block of planks\n- Break it with a hammer"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:wooden_slab",
+              "Count:3": 4,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "30:10": {
+      "questID:3": 30,
+      "preRequisites:11": [
+        29,
+        31
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "exnihilocreatio:block_barrel0",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "ismain:1": 0,
+          "name:8": "Barrels",
+          "desc:8": "Barrels will make you dirt in the early game stages\n\n- Craft a wooden barrel"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "exnihilocreatio:block_barrel0",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "31:10": {
+      "questID:3": 31,
+      "preRequisites:11": [
+        19
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "charcoal_pit:item_ash",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "charcoal_pit:item_ash",
+              "Count:3": 25,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "32:10": {
+      "questID:3": 32,
+      "preRequisites:11": [
+        30
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:dirt",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "ismain:1": 0,
+          "name:8": "Farm land in space???",
+          "desc:8": "With the ash from the charcoal pit you can make dirt\n\n- Fill up the wooden barrel with ash which you gathered before in the quest \u0027Charcoal Pit\u0027\n- Let it compost\n- Wait...\n- Wait some more...\n- Retreive your compost\n\n\n- Collect 10 pieces of dirt"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:dirt",
+              "Count:3": 10,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "33:10": {
+      "questID:3": 33,
+      "preRequisites:11": [
+        30,
+        16
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:string",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "ismain:1": 0,
+          "name:8": "String Worms",
+          "desc:8": "Silkworms compost into wool which drops a single piece of string\n\n- Fill a wooden barrel with 10 silkworms\n- Wait until it is composted\n- Collect 9 wool"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:wool",
+              "Count:3": 9,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "34:10": {
+      "questID:3": 34,
+      "preRequisites:11": [
+        18
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "minecraft:stone_shovel",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "ismain:1": 0,
+          "name:8": "Manual Excavator",
+          "desc:8": "Boy, digging with my bare hands in space is a tough job. I wish i brought a shovel with my. Luckily there is always room to impovise.\n\n- Craft a stone shovel"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:stone_shovel",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "35:10": {
+      "questID:3": 35,
+      "preRequisites:11": [
+        14,
+        33,
+        28
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "exnihilocreatio:item_mesh",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "36:10": {
+      "questID:3": 36,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -1176,8 +1629,8 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "28:10": {
-      "questID:3": 28,
+    "37:10": {
+      "questID:3": 37,
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -1298,20 +1751,20 @@
       "quests:9": {
         "0:10": {
           "size:3": 24,
-          "x:3": 144,
+          "x:3": 216,
           "y:3": -18,
           "id:3": 2
         },
         "1:10": {
           "size:3": 24,
-          "x:3": 216,
-          "y:3": 0,
+          "x:3": 252,
+          "y:3": -36,
           "id:3": 13
         },
         "2:10": {
           "size:3": 24,
-          "x:3": 180,
-          "y:3": -36,
+          "x:3": 288,
+          "y:3": -18,
           "id:3": 14
         },
         "3:10": {
@@ -1322,8 +1775,8 @@
         },
         "4:10": {
           "size:3": 24,
-          "x:3": 216,
-          "y:3": -36,
+          "x:3": 252,
+          "y:3": 108,
           "id:3": 16
         },
         "5:10": {
@@ -1335,7 +1788,7 @@
         "6:10": {
           "size:3": 24,
           "x:3": 144,
-          "y:3": 18,
+          "y:3": 0,
           "id:3": 18
         },
         "7:10": {
@@ -1347,26 +1800,80 @@
         "8:10": {
           "size:3": 24,
           "x:3": 180,
-          "y:3": 0,
+          "y:3": -18,
           "id:3": 25
         },
         "9:10": {
           "size:3": 24,
           "x:3": 108,
-          "y:3": 0,
+          "y:3": -18,
           "id:3": 26
         },
         "10:10": {
           "size:3": 24,
-          "x:3": 180,
-          "y:3": 36,
+          "x:3": 198,
+          "y:3": 18,
           "id:3": 27
         },
         "11:10": {
           "size:3": 24,
-          "x:3": 216,
-          "y:3": 36,
+          "x:3": 288,
+          "y:3": 18,
           "id:3": 28
+        },
+        "12:10": {
+          "size:3": 24,
+          "x:3": 252,
+          "y:3": 0,
+          "id:3": 29
+        },
+        "13:10": {
+          "size:3": 24,
+          "x:3": 252,
+          "y:3": 36,
+          "id:3": 30
+        },
+        "14:10": {
+          "size:3": 24,
+          "x:3": 108,
+          "y:3": 18,
+          "id:3": 31
+        },
+        "15:10": {
+          "size:3": 24,
+          "x:3": 252,
+          "y:3": 72,
+          "id:3": 32
+        },
+        "16:10": {
+          "size:3": 24,
+          "x:3": 288,
+          "y:3": 72,
+          "id:3": 33
+        },
+        "17:10": {
+          "size:3": 24,
+          "x:3": 144,
+          "y:3": 36,
+          "id:3": 34
+        },
+        "18:10": {
+          "size:3": 24,
+          "x:3": 324,
+          "y:3": -18,
+          "id:3": 35
+        },
+        "19:10": {
+          "size:3": 24,
+          "x:3": 360,
+          "y:3": -18,
+          "id:3": 36
+        },
+        "20:10": {
+          "size:3": 24,
+          "x:3": 360,
+          "y:3": -54,
+          "id:3": 37
         }
       },
       "lineID:3": 1,

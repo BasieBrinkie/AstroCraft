@@ -7,5 +7,14 @@
       "chance": 1.0,
       "fortuneChance": 0.0
     }
+  ],
+  "minecraft:stone": [
+    { 
+      "item": "minecraft:gravel",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
   ]
 }

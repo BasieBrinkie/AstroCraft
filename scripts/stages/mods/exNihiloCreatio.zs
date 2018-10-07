@@ -10,7 +10,8 @@ import scripts.stages.register.stageDisabledItems;
 static stagedItems as IIngredient[][string] = {
 	stageTheBeginning.stage: [
 		<exnihilocreatio:item_pebble:0>,
-		<exnihilocreatio:block_barrel0:0>
+		<exnihilocreatio:block_barrel0:0>,
+		<exnihilocreatio:item_ore_copper:0>
 	]
 };
 

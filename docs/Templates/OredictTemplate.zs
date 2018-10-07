@@ -1,5 +1,5 @@
 import crafttweaker.item.IItemStack;
-import crafttweaker.Oredict.IOredictEntry;
+import crafttweaker.oredict.IOredictEntry;
 
 /*	----------------------
 	Adds Items to Oredict.

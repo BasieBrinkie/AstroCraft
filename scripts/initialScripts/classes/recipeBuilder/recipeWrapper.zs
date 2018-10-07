@@ -118,9 +118,24 @@ zenClass recipeBuilder {
 			recipes.remove(toRemove);
 		}
 	}
+	
 	function removeRecipesString(removals as string[]) {
 		for toRemove in removals {
 			recipes.removeByRegex(toRemove);
+		}
+	}
+
+	function removeRecipesMod(modIds as string[]) {
+		if (!isNull(modIds) & dev) {
+			for modName in modIds {
+				recipes.removeByMod(modName);
+			}
+		}
+	}	
+
+	function removeAllRecipes() {
+		if (!dev) {
+			recipes.removeAll();
 		}
 	}
 
@@ -181,37 +196,5 @@ zenClass recipeBuilder {
 				}
 			}
 		}
-	}
-
-	function hideAllItemsExcept(modIds as string[], devBool as bool) {
-		if (!isNull(modIds) & !devBool) {
-			for modName in loadedMods {
-				for modId in modIds {
-					if (!(loadedMods in modId)) {
-						print(modId + "doesn't exist. Make sure this modID is valid by running the command /ct mods");
-					}
-					else {
-						if (modId in modName.name) {}
-						else {
-							for item in modName.items {
-								mods.jei.JEI.removeAndHide(item);
-							}
-						}
-					}
-				}
-			}
-		}
-		if (devBool) {
-			for modName in loadedMods {
-					removeRecipes(modName.items);
-			}
-		}
-		else {
-			for mod in loadedMods {
-				for item in mod.items {
-					mods.jei.JEI.removeAndHide(item);
-				}
-			}	
-		}	
 	}
 }

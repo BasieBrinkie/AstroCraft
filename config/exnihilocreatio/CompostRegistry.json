@@ -1,7 +1,12 @@
 {
   "charcoal_pit:item_ash": {
-    "value": 0.05,
+    "value": 0.07,
     "compostBlock": "minecraft:dirt:0",
-    "color": "d4e3ff"
+    "color": "406196"
+  },
+  "exnihilocreatio:item_material:2": {
+    "value": 0.1,
+    "compostBlock": "minecraft:wool",
+    "color": "edf93e"
   }
 }

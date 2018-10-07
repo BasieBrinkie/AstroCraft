@@ -13,6 +13,18 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<tp:tiny_charcoal>, null, <tp:tiny_charcoal>],
 			[<tp:tiny_charcoal>, <tp:tiny_charcoal>, <tp:tiny_charcoal>]
 		]
+	],
+	<exnihilocreatio:item_ore_copper:1>: [
+		[
+			[<exnihilocreatio:item_ore_copper:0>, <exnihilocreatio:item_ore_copper:0>],
+			[<exnihilocreatio:item_ore_copper:0>, <exnihilocreatio:item_ore_copper:0>],
+			[]
+		],
+		[
+			[],
+			[<exnihilocreatio:item_ore_copper:0>, <exnihilocreatio:item_ore_copper:0>],
+			[<exnihilocreatio:item_ore_copper:0>, <exnihilocreatio:item_ore_copper:0>]
+		]
 	]
 };
 

@@ -1,9 +1,9 @@
 <galaxy>
-    <star name="ToBeSetWIP" temp="100" x="0" y="0" numPlanets="0" numGasGiants="0">
+    <star name="ToBeSetWIP" temp="100" x="0" y="0" size="1.4" numPlanets="0" numGasGiants="0" blackHole="true">
         <planet name="Asteroid Belt" DIMID="3">
         	<genType>2</genType>
             <atmosphereDensity>0</atmosphereDensity>
-            <gravitationalMultiplier>0</gravitationalMultiplier>
+            <gravitationalMultiplier>5</gravitationalMultiplier>
             <biomeIds>113</biomeIds>
         </planet>
     </star>

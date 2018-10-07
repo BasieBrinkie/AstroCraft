@@ -34,7 +34,7 @@ zenClass itemProperties {
 			item.clearTooltip();
 			for toolTipStandardArray, toolTipShiftArray in toolTipArray {
 				for toolTipStandard in toolTipStandardArray {
-					item.addTooltip(toolTipStandard);
+					item.addTooltip(format.white(toolTipStandard));
 				}
 				for toolTipShift in toolTipShiftArray {
 					item.addShiftTooltip(toolTipShift);

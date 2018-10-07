@@ -17,8 +17,8 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<minecraft:stone_axe>: [
 		[
 			[<minecraft:stone:0>, <minecraft:stone:0>, null],
-			[<minecraft:stone:0>, <minecraft:stick>, null],
-			[null, <minecraft:stick>, null]
+			[<minecraft:stone:0>, <evilcraft:dark_stick:0>, null],
+			[null, <evilcraft:dark_stick:0>, null]
 
 		]
 	],
@@ -32,7 +32,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<minecraft:furnace:0>: [
 		[
 			[<minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>],
-			[<minecraft:cobblestone:0>, <minecraft:coal:1>, <minecraft:cobblestone:0>],
+			[<minecraft:cobblestone:0>, <ore:charcoal> | <ore:coal>, <minecraft:cobblestone:0>],
 			[<minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>]
 
 		]
@@ -49,6 +49,25 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>],
 			[<minecraft:cobblestone:0>, <minecraft:coal:1>, <minecraft:cobblestone:0>],
 			[<minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>]
+		]
+	],
+	<minecraft:stone_shovel>: [
+		[
+			[<minecraft:stick:0>],
+			[<minecraft:stick:0>],
+			[<minecraft:stone:0>]
+		]
+	],
+	<minecraft:lever:0>: [
+		[
+			[<evilcraft:dark_stick:0>],
+			[<minecraft:stone:0>],
+			[]
+		],
+		[
+			[],
+			[<evilcraft:dark_stick:0>],
+			[<minecraft:stone:0>]
 		]
 	]
 };

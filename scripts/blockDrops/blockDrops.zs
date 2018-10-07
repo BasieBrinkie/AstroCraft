@@ -24,6 +24,10 @@ static normalDrops as IItemStack[][string] = {
 	],
 	"advancedrocketry:charcoallog:8": [
 		<advancedrocketry:charcoallog>
+	],
+	//Minecraft
+	"minecraft:wool": [
+		<minecraft:string:0>
 	]
 };
 

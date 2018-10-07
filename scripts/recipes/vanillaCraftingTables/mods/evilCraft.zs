@@ -9,9 +9,14 @@ import crafttweaker.item.IIngredient;
 static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<evilcraft:dark_stick:0>: [
 		[
-			[<advancedrocketry:charcoallog:0>, null, null], 
-			[<advancedrocketry:charcoallog:0>, null, null],
-			[null, null, null]
+			[<advancedrocketry:charcoallog:0>], 
+			[<advancedrocketry:charcoallog:0>],
+			[]
+		],
+		[
+			[],
+			[<advancedrocketry:charcoallog:0>], 
+			[<advancedrocketry:charcoallog:0>]
 		]
 	]
 };

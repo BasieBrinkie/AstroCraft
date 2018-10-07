@@ -21,6 +21,14 @@ zenClass oredictBuilder {
 		}
 	}
 
+	function processOredict(map as IOreDictEntry[][IOreDictEntry]) {
+		for oredictName, oredictArray in map {
+			for oredictToAdd in oredictArray {
+				oredictName.addAll(oredictToAdd);
+			}
+		}
+	}
+
 	/* 	
 		--------------------------------------------------
 		Process Arrays of Oredicts with Items for removal.
