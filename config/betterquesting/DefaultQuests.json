@@ -537,7 +537,8 @@
     "13:10": {
       "questID:3": 13,
       "preRequisites:11": [
-        2
+        2,
+        35
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1212,7 +1213,8 @@
     "28:10": {
       "questID:3": 28,
       "preRequisites:11": [
-        27
+        27,
+        29
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1592,16 +1594,61 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Sieve Work",
+          "desc:8": "Early game items come partially from the sieves. you\u0027ll be able to gather more resources as you upgrade your mesh tier. With the basic string mesh the drops aren\u0027t all that great but know this it will get better.\n\n- Craft a \u0027String Mesh\u0027\n- Place the mesh in the \u0027Oak Sieve\u0027\n\n- Collect 1 \u0027Worm\u0027\n- Collect 1 \u0027Seeds\u0027\n- Collect 1 \u0027Coffee Seeds\u0027\n- Collect 4 \u0027Copper Ore Piece\u0027"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "exnihilocreatio:item_mesh",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 1
+            },
+            "1:10": {
+              "id:8": "minecraft:wheat_seeds",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "2:10": {
+              "id:8": "actuallyadditions:item_coffee_seed",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "3:10": {
+              "id:8": "exnihilocreatio:item_ore_copper",
+              "Count:3": 4,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "4:10": {
+              "id:8": "actuallyadditions:item_worm",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "36:10": {
       "questID:3": 36,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        40,
+        13
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1611,7 +1658,7 @@
           "repeattime:3": -1,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "advancedrocketry:oxygencharger",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -1621,17 +1668,37 @@
           "partysinglereward:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
-          "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "ismain:1": 1,
+          "name:8": "Oxygenizer",
+          "desc:8": "The oxygen pad is the exact thing you need to survive in space. Slab some oxygen crystals against it and you are good to go.\nSpace is quite comfortable right?\n\n- Craft a \u0027Oxygen Pad\u0027\n- Put \u0027Small Oxygen Crystal\u0027 or \u0027Oxygen Crystal\u0027 in the top slot of the \u0027Oxygen Pad\u0027\n- Stand on top of a filled \u0027Oxygen Pad\u0027 while your spacesuit is equipped"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "advancedrocketry:oxygencharger",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "37:10": {
-      "questID:3": 37,
-      "preRequisites:11": [],
+      "questID:3": 38,
+      "preRequisites:11": [
+        35
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1641,7 +1708,75 @@
           "repeattime:3": -1,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "abyssalcraft:crystalfragment",
+            "Count:3": 1,
+            "Damage:2": 17,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Copper Chunks",
+          "desc:8": "In order to fill your oxygen back up, copper is required for the machinery to make it all posible.\n\n- Sieve lots \u0027gravel\u0027\n- Collect \u0027Copper Ore Pieces\u0027\n- Craft \u0027Copper Ore Chunks\u0027\n\n- Cook the \u0027Copper Ore Chunks\u0027 this will transform it in \u0027Small Copper Chunk\u0027\n- Craft a block of \u0027Copper Block - Purity (8%)\u0027"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "abyssalcraft:crystalfragment",
+              "Count:3": 9,
+              "OreDict:8": "",
+              "Damage:3": 17
+            },
+            "1:10": {
+              "id:8": "exnihilocreatio:item_ore_copper",
+              "Count:3": 9,
+              "OreDict:8": "",
+              "Damage:3": 1
+            },
+            "2:10": {
+              "id:8": "exnihilocreatio:item_ore_copper",
+              "Count:3": 36,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "3:10": {
+              "id:8": "nuclearcraft:ingot_block",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "38:10": {
+      "questID:3": 39,
+      "preRequisites:11": [
+        38
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "advancedrocketry:platepress",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -1652,11 +1787,85 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Plate Pressèr",
+          "desc:8": "The \u0027Small Plate Presser\u0027 Will make you some nifty items eg. plates.\n\n- Craft a block of \u0027Copper Block - Purity (8%)\u0027\n- Craft a \u0027Small Plate Presser\u0027\n- Craft a \u0027Lever\u0027"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "advancedrocketry:platepress",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "minecraft:lever",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "39:10": {
+      "questID:3": 40,
+      "preRequisites:11": [
+        39
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "libvulpes:productplate",
+            "Count:3": 1,
+            "Damage:2": 4,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "ismain:1": 0,
+          "name:8": "Flat Block \u003d\u003d Plate",
+          "desc:8": "You\u0027ve made the \u0027Small Plate Presser\u0027 however you need to go on a trip. For the presser to work you need to find a single block of obsidian. After that follow the instructions below\n\n- Find a block of obsidian in a asteroid\n- Place the \u0027Small Plate Presser\u0027 a block above the obsidian\n- Place the block of \u0027Copper Block - Purity (8%)\u0027 between the obsidian and the small plate presser\n\n- Toggle the lever and collect the copper plate"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "libvulpes:productplate",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 4
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     }
   },
@@ -1757,8 +1966,8 @@
         },
         "1:10": {
           "size:3": 24,
-          "x:3": 252,
-          "y:3": -36,
+          "x:3": 342,
+          "y:3": -54,
           "id:3": 13
         },
         "2:10": {
@@ -1775,8 +1984,8 @@
         },
         "4:10": {
           "size:3": 24,
-          "x:3": 252,
-          "y:3": 108,
+          "x:3": 198,
+          "y:3": 54,
           "id:3": 16
         },
         "5:10": {
@@ -1847,8 +2056,8 @@
         },
         "16:10": {
           "size:3": 24,
-          "x:3": 288,
-          "y:3": 72,
+          "x:3": 324,
+          "y:3": 54,
           "id:3": 33
         },
         "17:10": {
@@ -1860,20 +2069,32 @@
         "18:10": {
           "size:3": 24,
           "x:3": 324,
-          "y:3": -18,
+          "y:3": 0,
           "id:3": 35
         },
         "19:10": {
-          "size:3": 24,
-          "x:3": 360,
-          "y:3": -18,
+          "size:3": 48,
+          "x:3": 474,
+          "y:3": -12,
           "id:3": 36
         },
         "20:10": {
           "size:3": 24,
           "x:3": 360,
-          "y:3": -54,
-          "id:3": 37
+          "y:3": 0,
+          "id:3": 38
+        },
+        "21:10": {
+          "size:3": 24,
+          "x:3": 396,
+          "y:3": 0,
+          "id:3": 39
+        },
+        "22:10": {
+          "size:3": 24,
+          "x:3": 432,
+          "y:3": 0,
+          "id:3": 40
         }
       },
       "lineID:3": 1,
