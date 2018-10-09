@@ -12,12 +12,18 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:cobblestone:0>,
 		<minecraft:coal:1>,
 		<minecraft:crafting_table:0>,
-		<minecraft:log:0>,
-		<minecraft:stone_axe:*>,
-		<minecraft:wooden_pickaxe:*>,
-		<minecraft:stone_shovel:*>,
+		<minecraft:dirt:0>,
 		<minecraft:furnace:0>,
-		<minecraft:wheat_seeds>
+		<minecraft:lever:0>,
+		<minecraft:log:0>,
+		<minecraft:planks:0>,
+		<minecraft:stone:0>,		
+		<minecraft:stone_axe:*>,
+		<minecraft:stone_shovel:*>,
+		<minecraft:string:0>,
+		<minecraft:wheat_seeds:0>,
+		<minecraft:wooden_pickaxe:*>,
+		<minecraft:wool:0>
 	]
 };
 

@@ -9,8 +9,9 @@ import scripts.stages.register.stageDisabledItems;
 
 static stagedItems as IIngredient[][string] = {
 	stageOxygen1.stage: [
+		<advancedrocketry:charcoallog:0>,		
 		<advancedrocketry:oxygencharger:0>,
-		<advancedrocketry:charcoallog:0>
+		<advancedrocketry:platepress:0>
 	]
 };
 

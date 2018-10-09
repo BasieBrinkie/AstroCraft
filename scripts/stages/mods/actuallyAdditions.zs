@@ -9,8 +9,8 @@ import scripts.stages.register.stageDisabledItems;
 
 static stagedItems as IIngredient[][string] = {
 	stageOxygen1.stage: [
-		<actuallyadditions:item_worm>,
-		<actuallyadditions:item_coffee_seed>
+		<actuallyadditions:item_coffee_seed:0>,
+		<actuallyadditions:item_worm:0>
 	]
 };
 

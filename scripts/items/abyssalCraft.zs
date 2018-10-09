@@ -8,6 +8,11 @@ static itemNames as string[IItemStack] = {
 	<abyssalcraft:crystalshard:17>: "Copper Chunk"
 };
 
+static itemTooltips as IFormattedText[][string[]][IItemStack] = {
+	
+
+};
+
 function init() {
 	itemProperties.setName(itemNames);
 }

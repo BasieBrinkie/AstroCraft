@@ -7,70 +7,70 @@ import crafttweaker.formatting.IFormattedText;
 static itemNames as string[IItemStack] = {
 	/*
 		--------------
-		Copper Ingots.
+		Steel Ingots.
 		--------------
 	*/
 
 	/*
 		--------------
-		Copper Blocks.
+		Steel Blocks.
 		--------------
 	*/
-	<nuclearcraft:ingot_block:0>: "Copper Block - Purity: (8%)",
-	<fp:erz_blocke:2>: "Copper Block - Purity: (23%)",
-	<mekanism:basicblock:12>: "Copper Block - Purity: (47.5%)",
-	<libvulpes:metal0:4>: "Copper Block - Purity: (78%)",
-	<thermalfoundation:storage:0>: "Copper Block - Purity: (98.5%)",
+	<bigreactors:blockmetals:5>: "Steel Block - Carbon: (0.05%)",
+	<tp:steel_block:0>: "Steel Block - Carbon: (0.3%)",
+	<mekanism:basicblock:5>: "Steel Block - Carbon: (0.7%)",
+	<immersiveengineering:storage:8>: "Steel Block - Carbon: (1.6%)",
+	<thermalfoundation:storage_alloy:0>: "Steel Block - Carbon: (3.8%)",
 	
 	/*
 		--------------
-		Copper Plates.
+		Steel Plates.
 		--------------
 	*/
-	<libvulpes:productplate:4>: "Copper Plate - Thickness: 25mm",
-	<tconstruct:large_plate:0>.withTag({Material: "copper"}): "Copper Plate - Thinkness: 18mm",
-	<techguns:itemshared:47>: "Copper Plate - Thinkness: 12mm",
-	<immersiveengineering:metal:30>: "Copper Plate - Thinkness: 4mm",
-	<thermalfoundation:material:320>: "Copper Plate - Thinkness: 2mm"
+	<libvulpes:productplate:4>: "Steel Plate - Thickness: 25mm",
+	<tconstruct:large_plate:0>.withTag({Material: "Steel"}): "Steel Plate - Thinkness: 18mm",
+	<techguns:itemshared:47>: "Steel Plate - Thinkness: 12mm",
+	<immersiveengineering:metal:30>: "Steel Plate - Thinkness: 4mm",
+	<thermalfoundation:material:320>: "Steel Plate - Thinkness: 2mm"
 
 	/*
 		-------------
-		Copper Gears.
+		Steel Gears.
 		-------------
 	*/
 };
 
 static itemTooltips as IFormattedText[][string[]][IItemStack] = {
-	<nuclearcraft:ingot_block:0>: {
-		["A block of copper with a purity of 8%"]: [
+	<bigreactors:blockmetals:5>: {
+		["A block of Steel with a purity of 36%"]: [
 			"You can use this item in recipes with a tier 1 ingredient",
 			"Higher tier ingredients can also be used in recipes with a lower ingredient requirement",
 			format.yellow("Tier 1")
 			]		
 	},
-	<fp:erz_blocke:2>: {
-		["A block of copper with a purity of 23%"]: [
+	<tp:steel_block:0>: {
+		["A block of Steel with a purity of 43%"]: [
 			"You can use this item in recipes with a tier 2 ingredient",
 			"Higher tier ingredients can also be used in recipes with a lower ingredient requirement",
 			format.yellow("Tier 2")
 			]
 	},
-	<mekanism:basicblock:12>: {
-		["A block of copper with a purity of 47.5%"]: [
+	<mekanism:basicblock:5>: {
+		["A block of Steel with a purity of 56%"]: [
 			"You can use this item in recipes with a tier 3 ingredient",
 			"Higher tier ingredients can also be used in recipes with a lower ingredient requirement",
 			format.yellow("Tier 3")
 			]
 	},
-	<libvulpes:metal0:4>: {
-		["A block of copper with a purity of 78%"]: [
+	<immersiveengineering:storage:8>: {
+		["A block of Steel with a purity of 82%"]: [
 			"You can use this item in recipes with a tier 4 ingredient",
 			"Higher tier ingredients can also be used in recipes with a lower ingredient requirement",
 			format.yellow("Tier 4")
 			]
 	},
-	<thermalfoundation:storage:0>: {
-		["A block of copper with a purity of 98.5%"]: [
+	<thermalfoundation:storage_alloy:0>: {
+		["A block of Steel with a purity of 99.8%"]: [
 			"You can use this item in recipes with a tier 5 ingredient",
 			"Higher tier ingredients can also be used in recipes with a lower ingredient requirement",
 			format.yellow("Tier 5")
@@ -79,41 +79,41 @@ static itemTooltips as IFormattedText[][string[]][IItemStack] = {
 
 	/*
 		--------------
-		Copper Plates.
+		Steel Plates.
 		--------------
 	*/
-	<libvulpes:productplate:4>: {
-		["A plate of copper with a Thinkness of 25mm"]: [
+	<libvulpes:productplate:6>: {
+		["A plate of Iron with a Thinkness of 25mm"]: [
 			"You can use this item in recipes with a tier 1 ingredient",
 			"Higher tier ingredients can also be used in recipes with a lower ingredient requirement",
 			format.yellow("Tier 1")		
 		]
 	},
-	<tconstruct:large_plate:0>.withTag({Material: "copper"}): {
-		["A plate of copper with a Thinkness of 18mm"]: [
+	<tconstruct:large_plate:0>.withTag({Material: "steel"}): {
+		["A plate of Iron with a Thinkness of 18mm"]: [
 			"You can use this item in recipes with a tier 2 ingredient",
 			"Higher tier ingredients can also be used in recipes with a lower ingredient requirement",
 			format.yellow("Tier 2")		
 		]
 	},
-	<techguns:itemshared:47>: {
-		["A plate of copper with a Thinkness of 12mm"]: [
+	<techguns:itemshared:50>: {
+		["A plate of Iron with a Thinkness of 12mm"]: [
 			"You can use this item in recipes with a tier 3 ingredient",
 			"Higher tier ingredients can also be used in recipes with a lower ingredient requirement",
 			format.yellow("Tier 3")		
 		]
 	},
 
-	<immersiveengineering:metal:30>: {
-		["A plate of copper with a Thinkness of 4mm"]: [
+	<immersiveengineering:metal:38>: {
+		["A plate of Iron with a Thinkness of 4mm"]: [
 			"You can use this item in recipes with a tier 4 ingredient",
 			"Higher tier ingredients can also be used in recipes with a lower ingredient requirement",
 			format.yellow("Tier 4")		
 		]
 	},
 
-	<thermalfoundation:material:320>: {
-		["A plate of copper with a Thinkness of 2mm"]: [
+	<thermalfoundation:material:352>: {
+		["A plate of Iron with a Thinkness of 2mm"]: [
 			"You can use this item in recipes with a tier 5 ingredient",
 			"Higher tier ingredients can also be used in recipes with a lower ingredient requirement",
 			format.yellow("Tier 5")		

@@ -9,8 +9,8 @@ import scripts.stages.register.stageDisabledItems;
 
 static stagedItems as IIngredient[][string] = {
 	stageOxygen1.stage: [
-		<abyssalcraft:crystalfragment:4>,
-		<abyssalcraft:crystalfragment:17>
+		<nuclearcraft:ingot_block:0>, //Tier 1 Copper Block
+		<libvulpes:productplate:4> //Tier 1 Copper Plate
 	]
 };
 

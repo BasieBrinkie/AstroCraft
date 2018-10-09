@@ -12,7 +12,8 @@ static itemTooltips as IFormattedText[][string[]][IItemStack] = {
 			format.yellow("EARLY GAME TIP: Put small oxygen crystals in the top slot which will liquify the oxygen inside the crystals")
 			]		
 	}
-}
+};
+
 function init() {
 	itemProperties.setName(itemNames);
 }

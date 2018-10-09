@@ -25,6 +25,7 @@ function initSpawnItems() {
 
 function initOredict() {
 	scripts.oredict.metalCopper.init();
+	scripts.oredict.metalIron.init();
 
 	scripts.oredict.mods.betterQuesting.init();
 }
@@ -36,6 +37,7 @@ function initStages() {
 	scripts.stages.mods.betterQuesting.init();
 	scripts.stages.mods.charcoalPit.init();
 	scripts.stages.mods.exNihiloCreatio.init();
+	scripts.stages.mods.libVulpes.init();
 	scripts.stages.mods.minecraft.init();
 
 
@@ -84,6 +86,9 @@ function initItemProperties() {
 		----------------------------
 	*/
 	scripts.items.metalCopper.init();
+	scripts.items.metalIron.init();
+	scripts.items.metalLead.init();
+	scripts.items.metalSteel.init();
 	/*	
 		------------------------
 		Item Properties per Mod.
