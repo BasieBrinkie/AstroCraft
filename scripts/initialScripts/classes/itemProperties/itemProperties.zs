@@ -29,12 +29,26 @@ zenClass itemProperties {
 		}
 	}
 
-	function setTooltip(map as IFormattedText[][IFormattedText[]][IItemStack]) {
+ 	function setTooltipString(map as IFormattedText[][string[]][IItemStack]) {
 		for item, toolTipArray in map {
 			item.clearTooltip();
 			for toolTipStandardArray, toolTipShiftArray in toolTipArray {
 				for toolTipStandard in toolTipStandardArray {
 					item.addTooltip(format.white(toolTipStandard));
+				}
+				for toolTipShift in toolTipShiftArray {
+					item.addShiftTooltip(toolTipShift);
+				}
+			}
+		}
+	}
+
+	function setTooltipFormat(map as IFormattedText[][IFormattedText[]][IItemStack]) {
+		for item, toolTipArray in map {
+			item.clearTooltip();
+			for toolTipStandardArray, toolTipShiftArray in toolTipArray {
+				for toolTipStandard in toolTipStandardArray {
+					item.addTooltip(toolTipStandard);
 				}
 				for toolTipShift in toolTipShiftArray {
 					item.addShiftTooltip(toolTipShift);

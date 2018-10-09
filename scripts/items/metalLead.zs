@@ -39,22 +39,22 @@ static itemNames as string[IItemStack] = {
 static itemTooltips as IFormattedText[][string[]][IItemStack] = {
 	<nuclearcraft:ingot_block:2>: {
 		["A block of Lead with a purity of 8%"]: [
-			"You can use this item in recipes with a tier 1 ingredient",
-			"Higher tier ingredients can also be used in recipes with a lower ingredient requirement",
+			format.white("You can use this item in recipes with a tier 1 ingredient"),
+			format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
 			format.yellow("Tier 1")
 			]		
 	},
 	<immersiveengineering:storage:2>: {
 		["A block of Lead with a purity of 47.5%"]: [
-			"You can use this item in recipes with a tier 3 ingredient",
-			"Higher tier ingredients can also be used in recipes with a lower ingredient requirement",
+			format.white("You can use this item in recipes with a tier 3 ingredient"),
+			format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
 			format.yellow("Tier 3")
 			]
 	},
 	<thermalfoundation:storage:3>: {
 		["A block of Lead with a purity of 98.5%"]: [
-			"You can use this item in recipes with a tier 5 ingredient",
-			"Higher tier ingredients can also be used in recipes with a lower ingredient requirement",
+			format.white("You can use this item in recipes with a tier 5 ingredient"),
+			format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
 			format.yellow("Tier 5")
 			]
 	},
@@ -66,23 +66,23 @@ static itemTooltips as IFormattedText[][string[]][IItemStack] = {
 	*/
 	<tconstruct:large_plate:0>.withTag({Material: "lead"}): {
 		["A plate of Lead with a Thinkness of 18mm"]: [
-			"You can use this item in recipes with a tier 2 ingredient",
-			"Higher tier ingredients can also be used in recipes with a lower ingredient requirement",
+			format.white("You can use this item in recipes with a tier 2 ingredient"),
+			format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
 			format.yellow("Tier 2")		
 		]
 	},
 	<immersiveengineering:metal:32>: {
 		["A plate of Lead with a Thinkness of 4mm"]: [
-			"You can use this item in recipes with a tier 4 ingredient",
-			"Higher tier ingredients can also be used in recipes with a lower ingredient requirement",
+			format.white("You can use this item in recipes with a tier 4 ingredient"),
+			format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
 			format.yellow("Tier 4")		
 		]
 	},
 
 	<thermalfoundation:material:323>: {
 		["A plate of Lead with a Thinkness of 2mm"]: [
-			"You can use this item in recipes with a tier 5 ingredient",
-			"Higher tier ingredients can also be used in recipes with a lower ingredient requirement",
+			format.white("You can use this item in recipes with a tier 5 ingredient"),
+			format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
 			format.yellow("Tier 5")		
 		]
 	}
@@ -90,5 +90,5 @@ static itemTooltips as IFormattedText[][string[]][IItemStack] = {
 
 function init() {
 	itemProperties.setName(itemNames);
-	itemProperties.setTooltip(itemTooltips);
+	itemProperties.setTooltipString(itemTooltips);
 }

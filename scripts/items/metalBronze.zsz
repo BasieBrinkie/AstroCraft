@@ -43,36 +43,36 @@ static itemNames as string[IItemStack] = {
 static itemTooltips as IFormattedText[][string[]][IItemStack] = {
 	<nuclearcraft:ingot_block:0>: {
 		["A block of copper with a purity of 8%"]: [
-			"You can use this item in recipes with a tier 1 ingredient",
-			"Higher tier ingredients can also be used in recipes with a lower ingredient requirement",
+			format.white("You can use this item in recipes with a tier 1 ingredient"),
+			format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
 			format.yellow("Tier 1")
 			]		
 	},
 	<fp:erz_blocke:2>: {
 		["A block of copper with a purity of 23%"]: [
-			"You can use this item in recipes with a tier 2 ingredient",
-			"Higher tier ingredients can also be used in recipes with a lower ingredient requirement",
+			format.white("You can use this item in recipes with a tier 2 ingredient"),
+			format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
 			format.yellow("Tier 2")
 			]
 	},
 	<mekanism:basicblock:12>: {
 		["A block of copper with a purity of 47.5%"]: [
-			"You can use this item in recipes with a tier 3 ingredient",
-			"Higher tier ingredients can also be used in recipes with a lower ingredient requirement",
+			format.white("You can use this item in recipes with a tier 3 ingredient"),
+			format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
 			format.yellow("Tier 3")
 			]
 	},
 	<libvulpes:metal0:4>: {
 		["A block of copper with a purity of 78%"]: [
-			"You can use this item in recipes with a tier 4 ingredient",
-			"Higher tier ingredients can also be used in recipes with a lower ingredient requirement",
+			format.white("You can use this item in recipes with a tier 4 ingredient"),
+			format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
 			format.yellow("Tier 4")
 			]
 	},
 	<thermalfoundation:storage:0>: {
 		["A block of copper with a purity of 98.5%"]: [
-			"You can use this item in recipes with a tier 5 ingredient",
-			"Higher tier ingredients can also be used in recipes with a lower ingredient requirement",
+			format.white("You can use this item in recipes with a tier 5 ingredient"),
+			format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
 			format.yellow("Tier 5")
 			]
 	},
@@ -84,38 +84,38 @@ static itemTooltips as IFormattedText[][string[]][IItemStack] = {
 	*/
 	<libvulpes:productplate:4>: {
 		["A plate of copper with a Thinkness of 25mm"]: [
-			"You can use this item in recipes with a tier 1 ingredient",
-			"Higher tier ingredients can also be used in recipes with a lower ingredient requirement",
+			format.white("You can use this item in recipes with a tier 1 ingredient"),
+			format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
 			format.yellow("Tier 1")		
 		]
 	},
 	<tconstruct:large_plate:0>.withTag({Material: "copper"}): {
 		["A plate of copper with a Thinkness of 18mm"]: [
-			"You can use this item in recipes with a tier 2 ingredient",
-			"Higher tier ingredients can also be used in recipes with a lower ingredient requirement",
+			format.white("You can use this item in recipes with a tier 2 ingredient"),
+			format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
 			format.yellow("Tier 2")		
 		]
 	},
 	<techguns:itemshared:47>: {
 		["A plate of copper with a Thinkness of 12mm"]: [
-			"You can use this item in recipes with a tier 3 ingredient",
-			"Higher tier ingredients can also be used in recipes with a lower ingredient requirement",
+			format.white("You can use this item in recipes with a tier 3 ingredient"),
+			format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
 			format.yellow("Tier 3")		
 		]
 	},
 
 	<immersiveengineering:metal:30>: {
 		["A plate of copper with a Thinkness of 4mm"]: [
-			"You can use this item in recipes with a tier 4 ingredient",
-			"Higher tier ingredients can also be used in recipes with a lower ingredient requirement",
+			format.white("You can use this item in recipes with a tier 4 ingredient"),
+			format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
 			format.yellow("Tier 4")		
 		]
 	},
 
 	<thermalfoundation:material:320>: {
 		["A plate of copper with a Thinkness of 2mm"]: [
-			"You can use this item in recipes with a tier 5 ingredient",
-			"Higher tier ingredients can also be used in recipes with a lower ingredient requirement",
+			format.white("You can use this item in recipes with a tier 5 ingredient"),
+			format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
 			format.yellow("Tier 5")		
 		]
 	}
@@ -123,5 +123,5 @@ static itemTooltips as IFormattedText[][string[]][IItemStack] = {
 
 function init() {
 	itemProperties.setName(itemNames);
-	itemProperties.setTooltip(itemTooltips);
+	itemProperties.setTooltipString(itemTooltips);
 }
