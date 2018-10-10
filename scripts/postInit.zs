@@ -8,11 +8,11 @@
 initSpawnItems();
 initOredict();
 initStages();
+initBuildStages();
+initItemProperties();
 initRecipes();
 initDrops();
-initItemProperties();
 initSeeds();
-initBuildStages();
 
 /*
 	-------------------------------------------------
@@ -31,6 +31,8 @@ function initOredict() {
 }
 
 function initStages() {
+	scripts.stages.metalCopper.init();
+
 	scripts.stages.mods.abyssalCraft.init();
 	scripts.stages.mods.actuallyAdditions.init();	
 	scripts.stages.mods.advancedRocketry.init();
@@ -45,6 +47,27 @@ function initStages() {
 	scripts.stages.mobs.chickens.init();
 
 	stager.addLeftovers();
+}
+
+function initItemProperties() {
+	/*	
+		----------------------------
+		Item Properties per Oredict.
+		----------------------------
+	*/
+	scripts.items.metalCopper.init();
+	scripts.items.metalIron.init();
+	scripts.items.metalLead.init();
+	scripts.items.metalSteel.init();
+	/*	
+		------------------------
+		Item Properties per Mod.
+		------------------------
+	*/
+	scripts.items.mods.abyssalCraft.init();
+	scripts.items.mods.evilCraft.init();
+	scripts.items.mods.minecraft.init();
+	scripts.items.mods.tinyProgressions.init();
 }
 
 function initRecipes() {	
@@ -79,26 +102,6 @@ function initDrops() {
 	scripts.mobDrops.minecraft.init();
 }
 
-function initItemProperties() {
-	/*	
-		----------------------------
-		Item Properties per Oredict.
-		----------------------------
-	*/
-	scripts.items.metalCopper.init();
-	scripts.items.metalIron.init();
-	scripts.items.metalLead.init();
-	scripts.items.metalSteel.init();
-	/*	
-		------------------------
-		Item Properties per Mod.
-		------------------------
-	*/
-	scripts.items.abyssalCraft.init();
-	scripts.items.evilCraft.init();
-	scripts.items.minecraft.init();
-	scripts.items.tinyProgressions.init();
-}
 
 function initSeeds() {
 	scripts.seeds.seeds.init();

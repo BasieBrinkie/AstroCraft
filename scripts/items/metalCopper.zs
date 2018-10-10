@@ -20,7 +20,6 @@ static itemNames as string[IItemStack] = {
 	<fp:erz_blocke:2>: "Copper Block - Purity: (23%)",
 	<mekanism:basicblock:12>: "Copper Block - Purity: (47.5%)",
 	<libvulpes:metal0:4>: "Copper Block - Purity: (78%)",
-	<thermalfoundation:storage:0>: "Copper Block - Purity: (98.5%)",
 	
 	/*
 		--------------
@@ -30,14 +29,19 @@ static itemNames as string[IItemStack] = {
 	<libvulpes:productplate:4>: "Copper Plate - Thickness: 25mm",
 	<tconstruct:large_plate:0>.withTag({Material: "copper"}): "Copper Plate - Thinkness: 18mm",
 	<techguns:itemshared:47>: "Copper Plate - Thinkness: 12mm",
-	<immersiveengineering:metal:30>: "Copper Plate - Thinkness: 4mm",
-	<thermalfoundation:material:320>: "Copper Plate - Thinkness: 2mm"
+	<immersiveengineering:metal:30>: "Copper Plate - Thinkness: 4mm"
 
 	/*
 		-------------
 		Copper Gears.
 		-------------
 	*/
+};
+
+static unlocalizedNames as string[string] = {
+	"tile.thermalfoundation.storage.copper.name.name": "Copper Block - Purity: (98.5%)",
+
+	"item.thermalfoundation.material.plateCopper.name": "Copper Plate - Thinkness: 2mm"
 };
 
 static itemTooltips as IFormattedText[][string[]][IItemStack] = {
@@ -123,5 +127,6 @@ static itemTooltips as IFormattedText[][string[]][IItemStack] = {
 
 function init() {
 	itemProperties.setName(itemNames);
+	//itemProperties.setUnlocalizedName(unlocalizedNames);
 	itemProperties.setTooltipString(itemTooltips);
 }

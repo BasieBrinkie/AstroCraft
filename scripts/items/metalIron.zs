@@ -30,14 +30,17 @@ static itemNames as string[IItemStack] = {
 	<libvulpes:productplate:1>: "Iron Plate - Thickness: 25mm",
 	<tconstruct:large_plate:0>.withTag({Material: "iron"}): "Iron Plate - Thinkness: 18mm",
 	<techguns:itemshared:46>: "Iron Plate - Thinkness: 12mm",
-	<immersiveengineering:metal:39>: "Iron Plate - Thinkness: 4mm",
-	<thermalfoundation:material:32>: "Iron Plate - Thinkness: 2mm"
+	<immersiveengineering:metal:39>: "Iron Plate - Thinkness: 4mm"
 
 	/*
 		-------------
 		Iron Gears.
 		-------------
 	*/
+};
+
+static unlocalizedNames as string[string] = {
+	"item.thermalfoundation.material.plateIron.name": "Iron Plate - Thinkness: 2mm"
 };
 
 static itemTooltips as IFormattedText[][string[]][IItemStack] = {

@@ -3,7 +3,11 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.block.IBlock;
 import crafttweaker.block.IBlockDefinition;
+import crafttweaker.game.IGame;
 import crafttweaker.formatting.IFormattedText;
+
+import mods.zenstages.ZenStager;
+import mods.zenstages.Stage;
 
 zenClass itemProperties {
 	zenConstructor() {}
@@ -23,22 +27,35 @@ zenClass itemProperties {
 		}
 	}
 
-	function setName(map as string[IItemStack]){
+	function setName(map as string[IItemStack]) {
 		for item, newItemName in map {
 			item.displayName = newItemName;
+		}
+	}
+
+	function setUnlocalizedName(map as string[string]) {
+		for unlocalizedName, newItemName in map {
+			game.setLocalization(unlocalizedName, newItemName);
 		}
 	}
 
  	function setTooltipString(map as IFormattedText[][string[]][IItemStack]) {
 		for item, toolTipArray in map {
 			item.clearTooltip();
+			item.addTooltip(format.white(item.displayName));
+			
 			for toolTipStandardArray, toolTipShiftArray in toolTipArray {
 				for toolTipStandard in toolTipStandardArray {
-					item.addTooltip(format.white(toolTipStandard));
+					item.addTooltip(format.gray(toolTipStandard));
 				}
 				for toolTipShift in toolTipShiftArray {
 					item.addShiftTooltip(toolTipShift);
 				}
+			}
+			item.addTooltip(format.darkGray(item.definition.id));
+			
+			if (ZenStager.isStaged("ingredient", item)) {
+				item.addTooltip(format.blue("Stage: ") + format.white(ZenStager.getIngredientStage(item).stage));
 			}
 		}
 	}
@@ -46,6 +63,8 @@ zenClass itemProperties {
 	function setTooltipFormat(map as IFormattedText[][IFormattedText[]][IItemStack]) {
 		for item, toolTipArray in map {
 			item.clearTooltip();
+			item.addTooltip(format.white(item.displayName));
+			
 			for toolTipStandardArray, toolTipShiftArray in toolTipArray {
 				for toolTipStandard in toolTipStandardArray {
 					item.addTooltip(toolTipStandard);
@@ -53,6 +72,11 @@ zenClass itemProperties {
 				for toolTipShift in toolTipShiftArray {
 					item.addShiftTooltip(toolTipShift);
 				}
+			}
+			item.addTooltip(format.darkGray(item.definition.id));
+			
+			if (ZenStager.isStaged("ingredient", item)) {
+				item.addTooltip(format.blue("Stage: ") + format.white(ZenStager.getIngredientStage(item).stage));
 			}
 		}
 	}

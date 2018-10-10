@@ -18,7 +18,6 @@ static itemNames as string[IItemStack] = {
 	*/
 	<nuclearcraft:ingot_block:2>: "Lead Block - Purity: (8%)",
 	<immersiveengineering:storage:2>: "Lead Block - Purity: (47.5%)",
-	<thermalfoundation:storage:3>: "Lead Block - Purity: (98.5%)",
 	
 	/*
 		--------------
@@ -26,14 +25,19 @@ static itemNames as string[IItemStack] = {
 		--------------
 	*/
 	<tconstruct:large_plate>.withTag({Material: "lead"}): "Lead Plate - Thinkness: 18mm",
-	<immersiveengineering:metal:32>: "Lead Plate - Thinkness: 4mm",
-	<thermalfoundation:material:323>: "Lead Plate - Thinkness: 2mm"
+	<immersiveengineering:metal:32>: "Lead Plate - Thinkness: 4mm"
 
 	/*
 		-------------
 		Lead Gears.
 		-------------
 	*/
+};
+
+static unlocalizedNames as string[string] = {
+	"tile.thermalfoundation.storage.lead.name.name": "Lead Block - Purity: (98.5%)",
+
+	"item.thermalfoundation.material.plateLead.name": "Lead Plate - Thinkness: 2mm"
 };
 
 static itemTooltips as IFormattedText[][string[]][IItemStack] = {

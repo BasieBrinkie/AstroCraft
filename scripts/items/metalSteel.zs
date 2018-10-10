@@ -40,6 +40,8 @@ static itemNames as string[IItemStack] = {
 	*/
 };
 
+
+
 static itemTooltips as IFormattedText[][string[]][IItemStack] = {
 	<bigreactors:blockmetals:5>: {
 		["A block of Steel with a purity of 36%"]: [

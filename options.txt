@@ -132,9 +132,6 @@ key_pneumaticcraft.helmet.hack:35
 key_pneumaticcraft.helmet.debugging.drone:21
 key_pneumaticcraft.boots.kick:45:CONTROL
 key_key.toastcontrol.clear:36
-key_vsb.kb.openBackpack:48
-key_vsb.kb.removeBackpack:48:SHIFT
-key_vsb.kb.changeHotbar:37
 key_keys.vampirism.action:19
 key_keys.vampirism.suck:47
 key_keys.vampirism.select_skills:25
@@ -160,8 +157,6 @@ key_key.jei.previousPage:201
 key_key.jei.nextPage:209
 key_key.cofh.multimode:47
 key_key.toggle_focus.desc:15
-key_bbw.key.mode:50
-key_bbw.key.fluidmode:33
 key_nei.options.keys.gui.botania_corporea_request:46
 key_mod.chiselsandbits.chiselmode.single:0
 key_mod.chiselsandbits.chiselmode.snap2:0
@@ -258,7 +253,6 @@ key_techguns.key.toggleSafemode:48
 key_techguns.key.toggleStepassist:47
 key_techguns.key.forceReload:19
 key_techguns.key.toggleJetpack:36
-key_Trade:47
 key_key.radial_menu:46
 key_key.use_ring:19
 key_key.open_pouch:34
