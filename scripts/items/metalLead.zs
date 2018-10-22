@@ -24,8 +24,8 @@ static itemNames as string[IItemStack] = {
 		Lead Plates.
 		--------------
 	*/
-	<tconstruct:large_plate>.withTag({Material: "lead"}): "Lead Plate - Thinkness: 18mm",
-	<immersiveengineering:metal:32>: "Lead Plate - Thinkness: 4mm"
+	<tconstruct:large_plate>.withTag({Material: "lead"}): "Lead Plate - Thickness: 18mm",
+	<immersiveengineering:metal:32>: "Lead Plate - Thickness: 4mm"
 
 	/*
 		-------------
@@ -35,9 +35,9 @@ static itemNames as string[IItemStack] = {
 };
 
 static unlocalizedNames as string[string] = {
-	"tile.thermalfoundation.storage.lead.name.name": "Lead Block - Purity: (98.5%)",
+	"tile.thermalfoundation.storage.lead.name": "Lead Block - Purity: (98.5%)",
 
-	"item.thermalfoundation.material.plateLead.name": "Lead Plate - Thinkness: 2mm"
+	"item.thermalfoundation.material.plateLead.name": "Lead Plate - Thickness: 2mm"
 };
 
 static itemTooltips as IFormattedText[][string[]][IItemStack] = {
@@ -69,14 +69,14 @@ static itemTooltips as IFormattedText[][string[]][IItemStack] = {
 		--------------
 	*/
 	<tconstruct:large_plate:0>.withTag({Material: "lead"}): {
-		["A plate of Lead with a Thinkness of 18mm"]: [
+		["A plate of Lead with a Thickness of 18mm"]: [
 			format.white("You can use this item in recipes with a tier 2 ingredient"),
 			format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
 			format.yellow("Tier 2")		
 		]
 	},
 	<immersiveengineering:metal:32>: {
-		["A plate of Lead with a Thinkness of 4mm"]: [
+		["A plate of Lead with a Thickness of 4mm"]: [
 			format.white("You can use this item in recipes with a tier 4 ingredient"),
 			format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
 			format.yellow("Tier 4")		
@@ -84,7 +84,7 @@ static itemTooltips as IFormattedText[][string[]][IItemStack] = {
 	},
 
 	<thermalfoundation:material:323>: {
-		["A plate of Lead with a Thinkness of 2mm"]: [
+		["A plate of Lead with a Thickness of 2mm"]: [
 			format.white("You can use this item in recipes with a tier 5 ingredient"),
 			format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
 			format.yellow("Tier 5")		
@@ -93,6 +93,7 @@ static itemTooltips as IFormattedText[][string[]][IItemStack] = {
 };
 
 function init() {
+	itemProperties.setUnlocalizedName(unlocalizedNames);
 	itemProperties.setName(itemNames);
 	itemProperties.setTooltipString(itemTooltips);
 }

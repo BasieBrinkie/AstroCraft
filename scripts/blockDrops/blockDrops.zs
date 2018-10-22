@@ -49,6 +49,9 @@ static normalFortuneDrops as IItemStack[][string][int] = {
 		],
 		"minecraft:log:8": [
 			<minecraft:planks:0> * 2
+		],
+		"minecraft:iron_ore": [
+			<minecraft:iron_ore:0>
 		]
 	}
 };

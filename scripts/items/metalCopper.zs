@@ -27,9 +27,9 @@ static itemNames as string[IItemStack] = {
 		--------------
 	*/
 	<libvulpes:productplate:4>: "Copper Plate - Thickness: 25mm",
-	<tconstruct:large_plate:0>.withTag({Material: "copper"}): "Copper Plate - Thinkness: 18mm",
-	<techguns:itemshared:47>: "Copper Plate - Thinkness: 12mm",
-	<immersiveengineering:metal:30>: "Copper Plate - Thinkness: 4mm"
+	<tconstruct:large_plate:0>.withTag({Material: "copper"}): "Copper Plate - Thickness: 18mm",
+	<techguns:itemshared:47>: "Copper Plate - Thickness: 12mm",
+	<immersiveengineering:metal:30>: "Copper Plate - Thickness: 4mm"
 
 	/*
 		-------------
@@ -39,9 +39,9 @@ static itemNames as string[IItemStack] = {
 };
 
 static unlocalizedNames as string[string] = {
-	"tile.thermalfoundation.storage.copper.name.name": "Copper Block - Purity: (98.5%)",
+	"tile.thermalfoundation.storage.copper.name": "Copper Block - Purity: (98.5%)",
 
-	"item.thermalfoundation.material.plateCopper.name": "Copper Plate - Thinkness: 2mm"
+	"item.thermalfoundation.material.plateCopper.name": "Copper Plate - Thickness: 2mm"
 };
 
 static itemTooltips as IFormattedText[][string[]][IItemStack] = {
@@ -87,21 +87,21 @@ static itemTooltips as IFormattedText[][string[]][IItemStack] = {
 		--------------
 	*/
 	<libvulpes:productplate:4>: {
-		["A plate of copper with a Thinkness of 25mm"]: [
+		["A plate of copper with a Thickness of 25mm"]: [
 			format.white("You can use this item in recipes with a tier 1 ingredient"),
 			format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
 			format.yellow("Tier 1")		
 		]
 	},
 	<tconstruct:large_plate:0>.withTag({Material: "copper"}): {
-		["A plate of copper with a Thinkness of 18mm"]: [
+		["A plate of copper with a Thickness of 18mm"]: [
 			format.white("You can use this item in recipes with a tier 2 ingredient"),
 			format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
 			format.yellow("Tier 2")		
 		]
 	},
 	<techguns:itemshared:47>: {
-		["A plate of copper with a Thinkness of 12mm"]: [
+		["A plate of copper with a Thickness of 12mm"]: [
 			format.white("You can use this item in recipes with a tier 3 ingredient"),
 			format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
 			format.yellow("Tier 3")		
@@ -109,7 +109,7 @@ static itemTooltips as IFormattedText[][string[]][IItemStack] = {
 	},
 
 	<immersiveengineering:metal:30>: {
-		["A plate of copper with a Thinkness of 4mm"]: [
+		["A plate of copper with a Thickness of 4mm"]: [
 			format.white("You can use this item in recipes with a tier 4 ingredient"),
 			format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
 			format.yellow("Tier 4")		
@@ -117,7 +117,7 @@ static itemTooltips as IFormattedText[][string[]][IItemStack] = {
 	},
 
 	<thermalfoundation:material:320>: {
-		["A plate of copper with a Thinkness of 2mm"]: [
+		["A plate of copper with a Thickness of 2mm"]: [
 			format.white("You can use this item in recipes with a tier 5 ingredient"),
 			format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
 			format.yellow("Tier 5")		
@@ -126,7 +126,7 @@ static itemTooltips as IFormattedText[][string[]][IItemStack] = {
 };
 
 function init() {
+	itemProperties.setUnlocalizedName(unlocalizedNames);
 	itemProperties.setName(itemNames);
-	//itemProperties.setUnlocalizedName(unlocalizedNames);
 	itemProperties.setTooltipString(itemTooltips);
 }

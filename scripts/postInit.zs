@@ -8,12 +8,12 @@
 initSpawnItems();
 initOredict();
 initStages();
-initBuildStages();
 initItemProperties();
 initRecipes();
 initDrops();
 initSeeds();
 
+initBuildStages();
 /*
 	-------------------------------------------------
 	Functions to define where the init functions are.
@@ -41,7 +41,7 @@ function initStages() {
 	scripts.stages.mods.exNihiloCreatio.init();
 	scripts.stages.mods.libVulpes.init();
 	scripts.stages.mods.minecraft.init();
-
+	scripts.stages.mods.thermalFoundation.init();
 
 
 	scripts.stages.mobs.chickens.init();

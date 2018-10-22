@@ -10,7 +10,7 @@
   },
   {
     "drop": {
-      "name": "actuallyadditions:item_worm",
+      "name": "waterstrainer:worm",
       "meta": 0
     },
     "chance": 0.4,

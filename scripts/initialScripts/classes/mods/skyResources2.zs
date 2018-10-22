@@ -8,9 +8,9 @@ zenClass skyRes {
 	zenConstructor() {}
 
 	function fusionAddRecipe(map as float[IItemStack[]][IItemStack]) {
-		for item, array in map {
+		for outputItem, array in map {
 			for itemArray, catalyst in array {
-				mods.skyresources.fusion.addRecipe(item, itemArray, catalyst);
+				mods.skyresources.fusion.addRecipe(outputItem, itemArray, catalyst);
 			}
 		}
 	}
@@ -23,8 +23,8 @@ zenClass skyRes {
 
 	function catalystAdd(map as float[IItemStack[]]) {
 		for itemArray, catalystAmount in map {
-			for item in itemArray {
-				mods.skyresources.catalysts.add(item, catalystAmount);
+			for outputItem in itemArray {
+				mods.skyresources.catalysts.add(outputItem, catalystAmount);
 			}
 		}
 	}
@@ -36,8 +36,8 @@ zenClass skyRes {
 	}
 
 	function cauldronAddRecipe(map as float[IItemStack][IItemStack]) {
-		for inputItem, array in map {
-			for outputItem, chance in array {
+		for outputItem, array in map {
+			for inputItem, chance in array {
 				mods.skyresources.cauldronclean.addRecipe(outputItem, inputItem, chance);
 			}
 		}
@@ -92,7 +92,7 @@ zenClass skyRes {
 	}
 
 	function knifeAddRecipe(map as IItemStack[IItemStack]) {
-		for inputItem, outputItem in map {
+		for  outputItem, inputItem in map {
 			mods.skyresources.knife.addRecipe(outputItem, inputItem);
 		}
 	}
@@ -104,8 +104,8 @@ zenClass skyRes {
 	}
 
 	function freezerAddRecipe(map as int[IItemStack][IItemStack]) {
-		for inputItem, array in map {
-			for outputItem, tickTime in array {
+		for outputItem, array in map {
+			for inputItem, tickTime in array {
 			mods.skyresources.freezer.addRecipe(outputItem, inputItem, tickTime);
 			}
 		}
@@ -130,9 +130,9 @@ zenClass skyRes {
 	}
 
 	function infusionAddRecipe(map as int[IItemStack][IItemStack][IItemStack]) {
-		for inputBlock, array in map {
+		for outputItem, array in map {
 			for inputItem, array2 in array {
-				for outputItem, health in array2 {
+				for inputBlock, health in array2 {
 					mods.skyresources.infusion.addRecipe(outputItem, inputItem, inputBlock, health);
 				}
 			}
@@ -146,8 +146,8 @@ zenClass skyRes {
 	}
 
 	function rockGrinderAddRecipe(map as float[IItemStack][IItemStack]) {
-		for inputItem, array in map {
-			for outputItem, chance in array {
+		for outputItem, array in map {
+			for inputItem, chance in array {
 			mods.skyresources.rockgrinder.addRecipe(outputItem, inputItem, chance);
 			}
 		}
@@ -160,24 +160,24 @@ zenClass skyRes {
 	}
 
 	function waterExtractorExtractAdd(map as int[IItemStack][IItemStack]) {
-		for inputItem, array in map {
-			for outputItem, waterAmount in array {
+		for outputItem, array in map {
+			for inputItem, waterAmount in array {
 				mods.skyresources.waterextractor.extract.addRecipe(waterAmount, outputItem, inputItem);
 			}
 		}
 	}
 
 	function waterExtractorInsertAdd(map as int[IItemStack][IItemStack]) {
-		for inputItem, array in map {
-			for outputItem, waterAmount in array {
+		for outputItem, array in map {
+			for inputItem, waterAmount in array {
 				mods.skyresources.waterextractor.insert.addRecipe(outputItem, inputItem, waterAmount);
 			}
 		}
 	}
 
-	function waterExtractorExtractRemove(map as int[IItemStack][IIngredient]) {
-		for inputIngredient, array in map {
-			for outputItem, waterAmount in array {
+	function waterExtractorExtractRemove(map as int[IIngredient][IItemStack]) {
+		for outputItem, array in map {
+			for inputIngredient, waterAmount in array {
 				mods.skyresources.waterextractor.extract.removeRecipe(waterAmount, outputItem, inputIngredient);
 			}
 		}
@@ -188,4 +188,4 @@ zenClass skyRes {
 			mods.skyresources.waterextractor.insert.removeRecipe(item);
 		}
 	}
-}	
+}
