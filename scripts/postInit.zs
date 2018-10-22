@@ -50,6 +50,7 @@ function initStages() {
 }
 
 function initItemProperties() {
+	if (!devItemProperties) {
 	/*	
 		----------------------------
 		Item Properties per Oredict.
@@ -68,6 +69,8 @@ function initItemProperties() {
 	scripts.items.mods.evilCraft.init();
 	scripts.items.mods.minecraft.init();
 	scripts.items.mods.tinyProgressions.init();
+
+	}
 }
 
 function initRecipes() {	

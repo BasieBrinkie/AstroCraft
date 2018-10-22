@@ -18,7 +18,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2018-10-21T12:09:39.8751244Z",
+  "lastPlayed": "2018-10-22T20:56:30.2337678Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -2665,12 +2665,12 @@
     {
       "folderName": "Progression World",
       "fingerprint": 0,
-      "fileDateHash": 322954047,
+      "fileDateHash": 896804446,
       "sectionID": 17,
       "individualFingerprints": null,
       "status": 5,
-      "timestamp": "2018-10-21T11:15:35.285745Z",
-      "lastWriteTimeUtc": "2018-10-21T09:17:45.2370717Z",
+      "timestamp": "2018-10-21T14:24:47.9433374Z",
+      "lastWriteTimeUtc": "2018-10-21T14:24:26.339691Z",
       "queryTimestamp": "0001-01-01T00:00:00",
       "fileCount": 46,
       "fileSize": 0
@@ -4622,7 +4622,7 @@
     }
   ],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2018-10-21T11:15:36.3174145Z",
+  "lastPreviousMatchUpdate": "2018-10-21T14:24:49.0045033Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.12.2",
