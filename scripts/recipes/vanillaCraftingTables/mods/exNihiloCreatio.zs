@@ -16,6 +16,18 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:planks:0>, null, <minecraft:planks:0>],
 			[<minecraft:wooden_slab:0>, <minecraft:wooden_slab:0>, <minecraft:wooden_slab:0>]
 		]
+	],
+	<exnihilocreatio:item_ore_copper:1>: [
+		[
+			[<exnihilocreatio:item_ore_copper:0>, <exnihilocreatio:item_ore_copper:0>],
+			[<exnihilocreatio:item_ore_copper:0>, <exnihilocreatio:item_ore_copper:0>],
+			[]
+		],
+		[
+			[],
+			[<exnihilocreatio:item_ore_copper:0>, <exnihilocreatio:item_ore_copper:0>],
+			[<exnihilocreatio:item_ore_copper:0>, <exnihilocreatio:item_ore_copper:0>]
+		]
 	]
 };
 

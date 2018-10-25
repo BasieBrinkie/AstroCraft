@@ -45,8 +45,6 @@ function initStages() {
 
 
 	scripts.stages.mobs.chickens.init();
-
-	stager.addLeftovers();
 }
 
 function initItemProperties() {
@@ -68,7 +66,6 @@ function initItemProperties() {
 	scripts.items.mods.abyssalCraft.init();
 	scripts.items.mods.evilCraft.init();
 	scripts.items.mods.minecraft.init();
-	scripts.items.mods.tinyProgressions.init();
 
 	}
 }

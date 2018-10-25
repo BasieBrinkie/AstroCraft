@@ -39,17 +39,18 @@ zenClass itemProperties {
 		}
 	}
 
- 	function setTooltipString(map as IFormattedText[][string[]][IItemStack]) {
+ 	function setTooltipName(map as IFormattedText[][IFormattedText[]][string][IItemStack]) {
 		for item, toolTipArray in map {
 			item.clearTooltip();
-			item.addTooltip(format.white(item.displayName));
-			
-			for toolTipStandardArray, toolTipShiftArray in toolTipArray {
-				for toolTipStandard in toolTipStandardArray {
-					item.addTooltip(format.gray(toolTipStandard));
-				}
-				for toolTipShift in toolTipShiftArray {
-					item.addShiftTooltip(toolTipShift);
+			for itemName, toolTipArray2 in toolTipArray {
+				item.addTooltip(format.white(itemName));
+				for toolTipStandardArray, toolTipShiftArray in toolTipArray2 {
+					for toolTipStandard in toolTipStandardArray {
+						item.addTooltip(toolTipStandard);
+					}
+					for toolTipShift in toolTipShiftArray {
+						item.addShiftTooltip(toolTipShift);
+					}
 				}
 			}
 			item.addTooltip(format.darkGray(item.definition.id));

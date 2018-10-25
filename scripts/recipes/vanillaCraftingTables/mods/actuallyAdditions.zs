@@ -7,25 +7,7 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<actuallyadditions:item_misc:11>: [
-		[
-			[<tp:tiny_charcoal>, <tp:tiny_charcoal>, <tp:tiny_charcoal>], 
-			[<tp:tiny_charcoal>, null, <tp:tiny_charcoal>],
-			[<tp:tiny_charcoal>, <tp:tiny_charcoal>, <tp:tiny_charcoal>]
-		]
-	],
-	<exnihilocreatio:item_ore_copper:1>: [
-		[
-			[<exnihilocreatio:item_ore_copper:0>, <exnihilocreatio:item_ore_copper:0>],
-			[<exnihilocreatio:item_ore_copper:0>, <exnihilocreatio:item_ore_copper:0>],
-			[]
-		],
-		[
-			[],
-			[<exnihilocreatio:item_ore_copper:0>, <exnihilocreatio:item_ore_copper:0>],
-			[<exnihilocreatio:item_ore_copper:0>, <exnihilocreatio:item_ore_copper:0>]
-		]
-	]
+	
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {

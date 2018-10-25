@@ -44,6 +44,8 @@ zenClass stager {
 	
 	function build() {
 		ZenStager.buildAll();
+		addLeftovers();
+		ZenStager.buildAll();
 	}
 
 	/*

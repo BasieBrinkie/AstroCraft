@@ -5,31 +5,6 @@ import crafttweaker.block.IBlockDefinition;
 import crafttweaker.formatting.IFormattedText;
 
 static itemNames as string[IItemStack] = {
-	/*
-		--------------
-		Steel Ingots.
-		--------------
-	*/
-
-	/*
-		--------------
-		Steel Blocks.
-		--------------
-	*/
-	<bigreactors:blockmetals:5>: "Steel Block - Carbon: (0.05%)",
-	<tp:steel_block:0>: "Steel Block - Carbon: (0.3%)",
-	<mekanism:basicblock:5>: "Steel Block - Carbon: (0.7%)",
-	<immersiveengineering:storage:8>: "Steel Block - Carbon: (1.6%)",
-	
-	/*
-		--------------
-		Steel Plates.
-		--------------
-	*/
-	<libvulpes:productplate:4>: "Steel Plate - Thickness: 25mm",
-	<tconstruct:large_plate:0>.withTag({Material: "Steel"}): "Steel Plate - Thickness: 18mm",
-	<techguns:itemshared:47>: "Steel Plate - Thickness: 12mm",
-	<immersiveengineering:metal:30>: "Steel Plate - Thickness: 4mm"
 
 	/*
 		-------------
@@ -44,41 +19,82 @@ static unlocalizedNames as string[string] = {
 	"item.thermalfoundation.material.plateSteel.name": "Steel Plate - Thickness: 2mm"
 };
 
-static itemTooltips as IFormattedText[][string[]][IItemStack] = {
-	<bigreactors:blockmetals:5>: {
-		["A block of Steel mixture with a carbon level of 0.05%"]: [
-			format.white("You can use this item in recipes with a tier 1 ingredient"),
-			format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
-			format.yellow("Tier 1")
-			]		
+static itemTooltips as IFormattedText[][IFormattedText[]][string][IItemStack] = {
+	/*
+		--------------
+		Steel Ingots.
+		--------------
+	*/
+
+	<nuclearcraft:alloy:5>: {
+		"Steel Ingot - Carbon: (0.05%)": {[
+			format.gray("A ingot of Steel with a carbon level of 0.05%")]: [
+				format.white("You can use this item in recipes with a tier 1 ingredient"),
+				format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
+				format.yellow("Tier 1")
+			]}
 	},
-	<tp:steel_block:0>: {
-		["A block of Steel mixture with a carbon level of 0.3%"]: [
-			format.white("You can use this item in recipes with a tier 2 ingredient"),
-			format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
-			format.yellow("Tier 2")
-			]
+	<mekanism:ingot:4>: {
+		"Steel Ingot - Carbon: (0.3%)": {[
+			format.gray("A ingot of Steel with a carbon level of 0.3%")]: [
+				format.white("You can use this item in recipes with a tier 2 ingredient"),
+				format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
+				format.yellow("Tier 2")
+			]}
+	},
+	<techguns:itemshared:83>: {
+		"Steel Ingot - Carbon: (1.6%)": {[
+			format.gray("A ingot of Steel with a carbon level of 1.6%")]: [
+				format.white("You can use this item in recipes with a tier 3 ingredient"),
+				format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
+				format.yellow("Tier 3")
+			]}
+	},
+	<immersiveengineering:metal:8>: {
+		"Steel Ingot - Carbon: (3.8%)": {[
+			format.gray("A ingot of Steel with a carbon level of 3.8%")]: [
+				format.white("You can use this item in recipes with a tier 4 ingredient"),
+				format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
+				format.yellow("Tier 4")
+			]}
+	},
+	
+	/*
+		--------------
+		Steel Blocks.
+		--------------
+	*/	
+	<bigreactors:blockmetals:5>: {
+		"Steel Block - Carbon: (0.05%)": {[
+			format.gray("A block of Steel with a carbon level of 0.05%")]: [
+				format.white("You can use this item in recipes with a tier 1 ingredient"),
+				format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
+				format.yellow("Tier 1")
+			]}	
 	},
 	<mekanism:basicblock:5>: {
-		["A block of Steel wmixture with a carbon level of 0.7%"]: [
-			format.white("You can use this item in recipes with a tier 3 ingredient"),
-			format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
-			format.yellow("Tier 3")
-			]
+		"Steel Block - Carbon: (0.3%)":	{[
+			format.gray("A block of Steel with a carbon level of 0.3%")]: [
+				format.white("You can use this item in recipes with a tier 2 ingredient"),
+				format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
+				format.yellow("Tier 2")
+			]}
 	},
 	<immersiveengineering:storage:8>: {
-		["A block of Steel mixture with a carbon level of 1.6%"]: [
-			format.white("You can use this item in recipes with a tier 4 ingredient"),
-			format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
-			format.yellow("Tier 4")
-			]
+		"Steel Block - Carbon: (1.6%)": {[
+			format.gray("A block of Steel with a carbon level of 1.6%")]: [
+				format.white("You can use this item in recipes with a tier 3 ingredient"),
+				format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
+				format.yellow("Tier 3")
+			]}
 	},
 	<thermalfoundation:storage_alloy:0>: {
-		["A block of Steel mixture with a carbon level of 3.8%"]: [
-			format.white("You can use this item in recipes with a tier 5 ingredient"),
-			format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
-			format.yellow("Tier 5")
-			]
+		"Steel Block - Carbon: (3.8%)":	{[
+			format.gray("A block of Steel with a carbon level of 3.8%")]: [
+				format.white("You can use this item in recipes with a tier 4 ingredient"),
+				format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
+				format.yellow("Tier 4")
+			]}
 	},
 
 	/*
@@ -87,46 +103,43 @@ static itemTooltips as IFormattedText[][string[]][IItemStack] = {
 		--------------
 	*/
 	<libvulpes:productplate:6>: {
-		["A plate of Iron with a Thickness of 25mm"]: [
-			format.white("You can use this item in recipes with a tier 1 ingredient"),
-			format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
-			format.yellow("Tier 1")		
-		]
+		"Steel Plate - Thickness: (25mm)": {[
+			format.gray("A plate of steel with a thickness of 25mm")]: [
+				format.white("You can use this item in recipes with a tier 1 ingredient"),
+				format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
+				format.yellow("Tier 1")		
+			]}
 	},
 	<tconstruct:large_plate:0>.withTag({Material: "steel"}): {
-		["A plate of Iron with a Thickness of 18mm"]: [
-			format.white("You can use this item in recipes with a tier 2 ingredient"),
-			format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
-			format.yellow("Tier 2")		
-		]
-	},
-	<techguns:itemshared:50>: {
-		["A plate of Iron with a Thickness of 12mm"]: [
-			format.white("You can use this item in recipes with a tier 3 ingredient"),
-			format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
-			format.yellow("Tier 3")		
-		]
+		"Steel Plate - Thickness: (18mm)": {[
+			format.gray("A plate of steel with a thickness of 18mm")]: [
+				format.white("You can use this item in recipes with a tier 2 ingredient"),
+				format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
+				format.yellow("Tier 2")		
+			]}
 	},
 
 	<immersiveengineering:metal:38>: {
-		["A plate of Iron with a Thickness of 4mm"]: [
-			format.white("You can use this item in recipes with a tier 4 ingredient"),
-			format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
-			format.yellow("Tier 4")		
-		]
+		"Steel Plate - Thickness: (4mm)": {[
+			format.gray("A plate of steel with a thickness of 4mm")]: [
+				format.white("You can use this item in recipes with a tier 3 ingredient"),
+				format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
+				format.yellow("Tier 3")		
+			]}
 	},
 
 	<thermalfoundation:material:352>: {
-		["A plate of Iron with a Thickness of 2mm"]: [
-			format.white("You can use this item in recipes with a tier 5 ingredient"),
-			format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
-			format.yellow("Tier 5")		
-		]
+		"Steel Plate - Thickness: (2mm)": {[
+			format.gray("A plate of steel with a thickness of 2mm")]: [
+				format.white("You can use this item in recipes with a tier 4 ingredient"),
+				format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement"),
+				format.yellow("Tier 4")		
+			]}
 	}
 };
 
 function init() {
-	itemProperties.setUnlocalizedName(unlocalizedNames);
+	//itemProperties.setUnlocalizedName(unlocalizedNames);
 	itemProperties.setName(itemNames);
-	itemProperties.setTooltipString(itemTooltips);
+	itemProperties.setTooltipName(itemTooltips);
 }
