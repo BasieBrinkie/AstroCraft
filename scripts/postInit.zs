@@ -8,12 +8,13 @@
 initSpawnItems();
 initOredict();
 initStages();
-initItemProperties();
 initRecipes();
+initBuildStages();
+
+initItemProperties();
 initDrops();
 initSeeds();
 
-initBuildStages();
 /*
 	-------------------------------------------------
 	Functions to define where the init functions are.
@@ -26,11 +27,16 @@ function initSpawnItems() {
 function initOredict() {
 	scripts.oredict.metalCopper.init();
 	scripts.oredict.metalIron.init();
+	scripts.oredict.planks.init();
+	scripts.oredict.sticks.init();
 
 	scripts.oredict.mods.betterQuesting.init();
 }
 
 function initStages() {
+	if (devAddStages == true & dev == true) {}
+	else {
+
 	scripts.stages.metalCopper.init();
 
 	scripts.stages.mods.abyssalCraft.init();
@@ -38,6 +44,7 @@ function initStages() {
 	scripts.stages.mods.advancedRocketry.init();
 	scripts.stages.mods.betterQuesting.init();
 	scripts.stages.mods.charcoalPit.init();
+	scripts.stages.mods.exCompressum.init();
 	scripts.stages.mods.exNihiloCreatio.init();
 	scripts.stages.mods.libVulpes.init();
 	scripts.stages.mods.minecraft.init();
@@ -45,10 +52,13 @@ function initStages() {
 
 
 	scripts.stages.mobs.chickens.init();
+
+	}
 }
 
 function initItemProperties() {
-	if (!devItemProperties) {
+	if (devItemProperties == true & dev == true) {}
+	else {
 	/*	
 		----------------------------
 		Item Properties per Oredict.
@@ -64,10 +74,22 @@ function initItemProperties() {
 		------------------------
 	*/
 	scripts.items.mods.abyssalCraft.init();
+	scripts.items.mods.advancedRocketry.init();
 	scripts.items.mods.evilCraft.init();
 	scripts.items.mods.minecraft.init();
 
 	}
+}
+
+function initIntegrations() {
+	if (devDisableIntegrations == true & dev == true) {}
+	else {
+	
+	scripts.integrations.skyResources.cuttingKnife.init();
+	scripts.integrations.skyResources.rockGrinder.init();
+	
+	}
+	
 }
 
 function initRecipes() {	
@@ -76,13 +98,20 @@ function initRecipes() {
 		Removes all the recipes from all mods except set mods.
 		------------------------------------------------------
 	*/
+	if (devRemoveRecipes == true & dev == true) {}
+	else {
+		
 	scripts.recipes.remove.init();
-
+	
+	}
 	/*	
 		----------------
 		Recipes per mod.
 		----------------
 	*/
+	if (devAddRecipes == true & dev == true) {}
+	else {
+	
 	scripts.recipes.vanillaCraftingTables.mods.abyssalCraft.init();
 	scripts.recipes.vanillaCraftingTables.mods.actuallyAdditions.init();
 	scripts.recipes.vanillaCraftingTables.mods.advancedRocketry.init();
@@ -94,6 +123,9 @@ function initRecipes() {
 
 	scripts.recipes.vanillaCraftingTables.mods.minecraft.init();
 	scripts.recipes.vanillaCraftingTables.mods.nuclearCraft.init();
+	scripts.recipes.vanillaCraftingTables.mods.skyResources.init();
+
+	}
 }
 
 function initDrops() {

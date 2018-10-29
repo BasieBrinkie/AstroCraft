@@ -12,13 +12,11 @@ import crafttweaker.oredict.IOreDictEntry;
 */
 
 static addItemsToOredict as IItemStack[][IOreDictEntry] = { 
-	<ore:BetterQuestingOxygenGeneration1>: [
-		<minecraft:grass>,
-		<minecraft:dirt>
+	<ore:stickTier1>: [
+		<evilcraft:dark_stick:0>
 	],
-	<ore:BetterQuestingOxygenGeneration2>: [
-		<exnihilocreatio:hammer_wood>,
-		<exnihilocreatio:hammer_stone>
+	<ore:stickTier2>: [
+		<minecraft:stick:0>
 	] 
 };
 
@@ -27,13 +25,34 @@ static addItemsToOredict as IItemStack[][IOreDictEntry] = {
 	-------------------------------------------------
 */
 
+static addOredictsToOredict as IOreDictEntry[][IOreDictEntry] = {
+	<ore:stickTier1To2>: [
+		<ore:stickTier1>,
+		<ore:stickTier2>,
+	],
+/*
+	<ore:blockCopperTier2To5>: [
+		<ore:blockCopperTier2>,
+		<ore:blockCopperTier3>,
+		<ore:blockCopperTier4>,
+		<ore:blockCopperTier5>
+	],
+		<ore:blockCopperTier3To5>: [
+		<ore:blockCopperTier3>,
+		<ore:blockCopperTier4>,
+		<ore:blockCopperTier5>
+	],
+	<ore:blockCopperTier4To5>: [
+		<ore:blockCopperTier4>,
+		<ore:blockCopperTier5>
+	],
+*/
+};
+
 /*	---------------------------
 	Removes Items from Oredict.
 	---------------------------
 */
-
-static addOredictsToOredict as IOreDictEntry[][IOreDictEntry] = {
-};
 
 static removeItemsFromOredict as IItemStack[][IOreDictEntry] = {	
 };
@@ -53,7 +72,6 @@ static removeModID as IOreDictEntry[][string] = {
 
 static mirrorOredict as IOreDictEntry[][IOreDictEntry] = {	
 };
-
 
 function init() {
 	oredictBuilder.process(addItemsToOredict);

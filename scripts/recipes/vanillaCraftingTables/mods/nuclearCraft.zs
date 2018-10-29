@@ -7,7 +7,7 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<nuclearcraft:ingot_block:0>: [
+	<nuclearcraft:ingot_block:0>: [	//Tier 1 Copper Block
 		[
 			[<abyssalcraft:crystalfragment:17>, <abyssalcraft:crystalfragment:17>, <abyssalcraft:crystalfragment:17>],
 			[<abyssalcraft:crystalfragment:17>, <abyssalcraft:crystalfragment:17>, <abyssalcraft:crystalfragment:17>],

@@ -7,6 +7,13 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
+	<minecraft:chest:0>: [
+		[
+			[<ore:planksTier1To3>, <ore:planksTier1To3>, <ore:planksTier1To3>],
+			[<ore:planksTier1To3>, <minecraft:iron_nugget>, <ore:planksTier1To3>],
+			[<ore:planksTier1To3>, <ore:planksTier1To3>, <ore:planksTier1To3>]
+		]
+	],
 	<minecraft:cobblestone:0>: [
 		[
 			[<exnihilocreatio:item_pebble:0>, <exnihilocreatio:item_pebble:0>, <exnihilocreatio:item_pebble:0>], 
@@ -23,13 +30,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<minecraft:lever:0>: [
 		[
-			[<evilcraft:dark_stick:0>],
+			[<ore:stickTier1To2>],
 			[<minecraft:stone:0>],
 			[]
 		],
 		[
 			[],
-			[<evilcraft:dark_stick:0>],
+			[<ore:stickTier1To2>],
 			[<minecraft:stone:0>]
 		]
 	],
@@ -44,23 +51,23 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<minecraft:stone_axe>: [
 		[
 			[<minecraft:stone:0>, <minecraft:stone:0>, null],
-			[<minecraft:stone:0>, <evilcraft:dark_stick:0>, null],
-			[null, <evilcraft:dark_stick:0>, null]
+			[<minecraft:stone:0>, <ore:stickTier1To2>, null],
+			[null, <ore:stickTier1To2>, null]
 
 		]
 	],
 	<minecraft:stone_shovel>: [
 		[
-			[<evilcraft:dark_stick:0>],
-			[<evilcraft:dark_stick:0>],
+			[<ore:stickTier1To2>],
+			[<ore:stickTier1To2>],
 			[<minecraft:stone:0>]
 		]
 	],
 	<minecraft:wooden_pickaxe>: [
 		[
 			[<advancedrocketry:charcoallog:0>, <advancedrocketry:charcoallog:0>, <advancedrocketry:charcoallog:0>],
-			[null, <evilcraft:dark_stick:0>, null],
-			[null, <evilcraft:dark_stick:0>, null]
+			[null, <ore:stickTier1To2>, null],
+			[null, <ore:stickTier1To2>, null]
 		]
 	] 
 };

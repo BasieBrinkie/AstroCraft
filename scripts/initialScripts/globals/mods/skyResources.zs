@@ -11,4 +11,4 @@
 	Loads class(es) from ./classes/mods folder and make them global.
 	--------------------------------------------------------------
 */
-global skyRes as scripts.initialScripts.classes.mods.skyResources2.skyRes = scripts.initialScripts.classes.mods.skyResources2.skyRes();
+global skyRes as scripts.initialScripts.classes.mods.skyResources.skyRes = scripts.initialScripts.classes.mods.skyResources.skyRes();

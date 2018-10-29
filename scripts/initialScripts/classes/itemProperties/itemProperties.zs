@@ -1,6 +1,7 @@
 #priority 9000
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.block.IBlock;
 import crafttweaker.block.IBlockDefinition;
 import crafttweaker.game.IGame;
@@ -43,41 +44,64 @@ zenClass itemProperties {
 		for item, toolTipArray in map {
 			item.clearTooltip();
 			for itemName, toolTipArray2 in toolTipArray {
+				item.displayName = itemName;
 				item.addTooltip(format.white(itemName));
 				for toolTipStandardArray, toolTipShiftArray in toolTipArray2 {
 					for toolTipStandard in toolTipStandardArray {
 						item.addTooltip(toolTipStandard);
+					}
+					if (!isNull(toolTipShiftArray)) {
+						item.addTooltip(format.white("Hold: ") + format.blue("LShift ") + format.white("for more information"));
 					}
 					for toolTipShift in toolTipShiftArray {
 						item.addShiftTooltip(toolTipShift);
 					}
 				}
 			}
-			item.addTooltip(format.darkGray(item.definition.id));
-			
-			if (ZenStager.isStaged("ingredient", item)) {
-				item.addTooltip(format.blue("Stage: ") + format.white(ZenStager.getIngredientStage(item).stage));
+			if (dev) {
+				item.addTooltip(format.darkGray(item.definition.id));
 			}
 		}
 	}
 
-	function setTooltipFormat(map as IFormattedText[][IFormattedText[]][IItemStack]) {
+	function setTooltip(map as IFormattedText[][IFormattedText[]][IItemStack]) {
 		for item, toolTipArray in map {
 			item.clearTooltip();
-			item.addTooltip(format.white(item.displayName));
-			
 			for toolTipStandardArray, toolTipShiftArray in toolTipArray {
 				for toolTipStandard in toolTipStandardArray {
 					item.addTooltip(toolTipStandard);
+				}
+				if (!isNull(toolTipShiftArray)) {
+					item.addTooltip(format.white("Hold: ") + format.blue("LShift ") + format.white("for more information"));
 				}
 				for toolTipShift in toolTipShiftArray {
 					item.addShiftTooltip(toolTipShift);
 				}
 			}
-			item.addTooltip(format.darkGray(item.definition.id));
-			
-			if (ZenStager.isStaged("ingredient", item)) {
-				item.addTooltip(format.blue("Stage: ") + format.white(ZenStager.getIngredientStage(item).stage));
+			if (dev) {
+				item.addTooltip(format.darkGray(item.definition.id));
+			}
+		}
+	}
+
+	function setTooltipOreDict(map as IFormattedText[][IFormattedText[]][IOreDictEntry]) {
+		for oredictEntry, toolTipArray in map {
+			for item in oredictEntry.items {
+				item.clearTooltip();
+				for toolTipStandardArray, toolTipShiftArray in toolTipArray {
+					for toolTipStandard in toolTipStandardArray {
+						item.addTooltip(toolTipStandard);
+					}
+					if (!isNull(toolTipShiftArray)) {
+						item.addTooltip(format.white("Hold: ") + format.blue("LShift ") + format.white("for more information"));
+					}
+					for toolTipShift in toolTipShiftArray {
+						item.addShiftTooltip(toolTipShift);
+					}
+				}
+				if (dev) {
+					item.addTooltip(format.darkGray(item.definition.id));
+				}
 			}
 		}
 	}

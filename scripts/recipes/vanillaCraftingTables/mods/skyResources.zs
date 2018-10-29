@@ -7,16 +7,23 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<evilcraft:dark_stick:0>: [ //Tier 1 Stick
+	<skyresources:stonecuttingknife:0>: [
 		[
-			[<advancedrocketry:charcoallog:0>], 
-			[<advancedrocketry:charcoallog:0>],
+			[<minecraft:stone:0>, <ore:stickTier1To2>, null], 
+			[null, <minecraft:stone:0>, <ore:stickTier1To2>],
 			[]
 		],
 		[
 			[],
-			[<advancedrocketry:charcoallog:0>], 
-			[<advancedrocketry:charcoallog:0>]
+			[<minecraft:stone:0>, <ore:stickTier1To2>, null], 
+			[null, <minecraft:stone:0>, <ore:stickTier1To2>]
+		]
+	],
+	<skyresources:stonegrinder:0>: [
+		[
+			[<minecraft:stone:0>, null, null],
+			[null, <ore:stickTier2>, null],
+			[null, null, <ore:stickTier2>]
 		]
 	]
 };
