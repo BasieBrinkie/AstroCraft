@@ -8,6 +8,7 @@
 initSpawnItems();
 initOredict();
 initStages();
+initIntegrations();
 initRecipes();
 initBuildStages();
 
@@ -34,7 +35,7 @@ function initOredict() {
 }
 
 function initStages() {
-	if (devAddStages != true | dev != true){
+	if (!devAddStages | !dev) {
 
 	scripts.stages.metalCopper.init();
 
@@ -56,7 +57,7 @@ function initStages() {
 }
 
 function initItemProperties() {
-	if (devItemProperties != true | dev != true){
+	if (!devItemProperties | !dev) {
 	/*	
 		----------------------------
 		Item Properties per Oredict.
@@ -80,7 +81,7 @@ function initItemProperties() {
 }
 
 function initIntegrations() {
-	if (devDisableIntegrations != true | dev != true){
+	if (!devDisableIntegrations | !dev) {
 	
 	scripts.integrations.skyResources.cuttingKnife.init();
 	scripts.integrations.skyResources.rockGrinder.init();
@@ -95,7 +96,7 @@ function initRecipes() {
 		Removes all the recipes from all mods except set mods.
 		------------------------------------------------------
 	*/
-	if (devRemoveRecipes != true | dev != true){
+	if (!devRemoveRecipes | !dev) {
 	scripts.recipes.remove.init();}
 
 	/*	
@@ -103,7 +104,7 @@ function initRecipes() {
 		Recipes per mod.
 		----------------
 	*/
-	if (devAddRecipes != true | dev != true){
+	if (!devAddRecipes | !dev) {
 	
 	scripts.recipes.vanillaCraftingTables.mods.abyssalCraft.init();
 	scripts.recipes.vanillaCraftingTables.mods.actuallyAdditions.init();
