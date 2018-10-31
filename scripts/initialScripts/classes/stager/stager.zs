@@ -29,7 +29,8 @@ zenClass stager {
 	}
 
 	function addLeftovers(){
-		if(!devNonStagedItems | !dev) {
+		if(devNonStagedItems | !dev) {
+			print("----------------------- Stages: Non Staged Items -----------------------");
 			for modName in loadedMods {
 				for item in modName.items {
 					if(ZenStager.isStaged("ingredient", item)) {}

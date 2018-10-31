@@ -4734,7 +4734,7 @@
     }
   ],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2018-10-29T22:53:49.7109541Z",
+  "lastPreviousMatchUpdate": "2018-10-30T15:39:55.5437755Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.12.2",
@@ -14424,7 +14424,7 @@
       "dateInstalled": "2018-09-03T15:12:55.6067051Z",
       "dateUpdated": "2018-09-03T15:12:55.6117036Z",
       "dateLastUpdateAttempted": "2018-09-03T15:12:55.6117036Z",
-      "status": 5,
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,

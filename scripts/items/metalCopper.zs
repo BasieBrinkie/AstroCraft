@@ -132,4 +132,6 @@ function init() {
 	itemProperties.setName(itemNames);
 	itemProperties.setUnlocalizedName(unlocalizedNames);
 	itemProperties.setTooltipName(itemTooltips);
+
+	print("abcd " ~ <libvulpes:metal0:4>.name ~ " normal name and displayName " ~ <libvulpes:metal0:4>.displayName)
 }

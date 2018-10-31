@@ -22,10 +22,13 @@ initSeeds();
 	-------------------------------------------------
 */
 function initSpawnItems() {
+	print("----------------------- Spawn Items -----------------------");
 	scripts.initialScripts.initialInventory.initialInventory.init();
 }
 
 function initOredict() {
+	print("----------------------- OreDict -----------------------");
+
 	scripts.oredict.metalCopper.init();
 	scripts.oredict.metalIron.init();
 	scripts.oredict.planks.init();
@@ -35,7 +38,8 @@ function initOredict() {
 }
 
 function initStages() {
-	if (!devAddStages | !dev) {
+	if (!devDisableStages | !dev) {
+	print("----------------------- Stages -----------------------");
 
 	scripts.stages.metalCopper.init();
 
@@ -58,6 +62,7 @@ function initStages() {
 
 function initItemProperties() {
 	if (!devItemProperties | !dev) {
+	print("----------------------- Item Properties -----------------------");
 	/*	
 		----------------------------
 		Item Properties per Oredict.
@@ -82,6 +87,7 @@ function initItemProperties() {
 
 function initIntegrations() {
 	if (!devDisableIntegrations | !dev) {
+	print("----------------------- Integrations -----------------------");
 	
 	scripts.integrations.skyResources.cuttingKnife.init();
 	scripts.integrations.skyResources.rockGrinder.init();
@@ -97,6 +103,7 @@ function initRecipes() {
 		------------------------------------------------------
 	*/
 	if (!devRemoveRecipes | !dev) {
+	print("----------------------- Recipes: Removal -----------------------");
 	scripts.recipes.remove.init();}
 
 	/*	
@@ -105,6 +112,7 @@ function initRecipes() {
 		----------------
 	*/
 	if (!devAddRecipes | !dev) {
+	print("----------------------- Recipes: Additions -----------------------");
 	
 	scripts.recipes.vanillaCraftingTables.mods.abyssalCraft.init();
 	scripts.recipes.vanillaCraftingTables.mods.actuallyAdditions.init();
@@ -123,16 +131,21 @@ function initRecipes() {
 }
 
 function initDrops() {
+	print("----------------------- Block Drops -----------------------");
 	scripts.blockDrops.blockDrops.init();
+
+	print("----------------------- Mob Drops -----------------------");
 
 	scripts.mobDrops.minecraft.init();
 }
 
 
 function initSeeds() {
+	print("----------------------- Seeds -----------------------");
 	scripts.seeds.seeds.init();
 }
 
 function initBuildStages() {
+	print("----------------------- Build Stages -----------------------");
 	stager.build();
 }
