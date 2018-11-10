@@ -1,6 +1,7 @@
 #priority 9000
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.oredict.IOreDict;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.mods.ILoadedMods;
 
@@ -23,6 +24,38 @@ zenClass oredictBuilder {
 
 	function processOredict(map as IOreDictEntry[][IOreDictEntry]) {
 		for oredictName, oredictArray in map {
+			for oredictToAdd in oredictArray {
+				oredictName.addAll(oredictToAdd);
+			}
+		}
+	}
+
+	/* 	
+		---------------------------------------------------------------------------
+		create Arrays of Oredicts with defined Items.
+		NOTE: If the oredict already exists it will be deleted and new items added.
+		---------------------------------------------------------------------------
+	*/
+	function create(map as IItemStack[][IOreDictEntry]) {
+		for oredictName, itemArray in map {
+			if (oreDict in oredictName) {
+				for item in oredictName.items {
+						oredictName.remove(item); 
+				}
+			}
+			for item in itemArray {
+				oredictName.add(item);
+			}
+		}
+	}
+
+	function createOredict(map as IOreDictEntry[][IOreDictEntry]) {
+		for oredictName, oredictArray in map {
+			if (oreDict in oredictName) {
+				for item in oredictName.items {
+						oredictName.remove(item); 
+				}
+			}
 			for oredictToAdd in oredictArray {
 				oredictName.addAll(oredictToAdd);
 			}
@@ -68,7 +101,13 @@ zenClass oredictBuilder {
 
 	function mirror(map as IOreDictEntry[IOreDictEntry]) {
 		for oredict, oredictName in map {
-				oredictName.mirror(oredict);
+			if (oreDict in oredictName) {
+				for item in oredictName.items {
+					oredictName.remove(item); 
+				}
+			}
+			
+			oredictName.mirror(oredict);
 		}
 	}
 }

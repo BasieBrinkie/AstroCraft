@@ -47,8 +47,8 @@
       ],
       "drops": [
         {
-          "name": "abyssalcraft:crystalfragment",
-          "meta": 4,
+          "name": "skyresources:alchemyitemcomponent",
+          "meta": 1,
           "chance": 100.0
         }
       ]

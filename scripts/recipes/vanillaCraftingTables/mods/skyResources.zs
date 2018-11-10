@@ -7,6 +7,8 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
+	
+
 	<skyresources:stonecuttingknife:0>: [
 		[
 			[<minecraft:stone:0>, <ore:stickTier1To2>, null], 
@@ -58,7 +60,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 	Furnace Recipes.
 	----------------
 */
-static furnaceRecipes as IIngredient[][IItemStack] = {};
+static furnaceRecipes as IIngredient[IItemStack] = {};
 
 
 function init() {

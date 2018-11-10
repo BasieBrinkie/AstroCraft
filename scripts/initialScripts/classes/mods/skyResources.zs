@@ -21,7 +21,7 @@ zenClass skyRes {
 		}
 	}
 
-	function catalystAdd(map as float[IItemStack[]]) {
+	function catalystAddRecipe(map as float[IItemStack[]]) {
 		for itemArray, catalystAmount in map {
 			for outputItem in itemArray {
 				mods.skyresources.catalysts.add(outputItem, catalystAmount);
@@ -29,7 +29,7 @@ zenClass skyRes {
 		}
 	}
 
-	function catalystRemove(map as IItemStack[]) {
+	function catalystRemoveRecipe(map as IItemStack[]) {
 		for item in map {
 			mods.skyresources.catalysts.remove(item);
 		}

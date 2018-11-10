@@ -25,7 +25,7 @@ chatLinks:true
 chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:true
-fullscreen:true
+fullscreen:false
 enableVsync:true
 useVbo:true
 hideServerAddress:false
@@ -106,6 +106,7 @@ key_key.staff_mode.desc:50
 key_key.use_cage.desc:49
 key_psimisc.keybind:46
 key_key.betterquesting.quests:41
+key_keybind.hammercorerenderstack:77
 key_bloodmagic.keybind.open_holding:35
 key_bloodmagic.keybind.cycle_holding_pos:13:SHIFT
 key_bloodmagic.keybind.cycle_holding_neg:12:SHIFT
@@ -145,15 +146,17 @@ key_key.fp.compositearmor:46
 key_key.fp.gleiter:57
 key_key.fp.modul_magnet:2
 key_key.jei.toggleOverlay:24:CONTROL
-key_key.jei.focusSearch:33:CONTROL
+key_key.jei.focusSearch:-97
 key_key.jei.toggleCheatMode:0
 key_key.jei.showRecipe:19
-key_key.jei.showUses:22
+key_key.jei.showUses:-96
 key_key.jei.recipeBack:14
 key_key.jei.previousPage:201
 key_key.jei.nextPage:209
 key_key.cofh.multimode:47
 key_key.toggle_focus.desc:15
+key_bbw.key.mode:50
+key_bbw.key.fluidmode:33
 key_nei.options.keys.gui.botania_corporea_request:46
 key_key.modeSwitch:34
 key_key.rangeChange:19
@@ -230,11 +233,11 @@ key_key.little.redo:21:CONTROL
 key_Open Matter Scanner GUI:46
 key_Android Ability key:45
 key_Android Switch Ability key:2
+key_key.nutrition:49
 key_key.porterNextDestination:27
 key_key.porterPrevDestination:26
 key_key.debugDumpNBTItem:0
 key_key.debugDumpNBTBlock:0
-key_key.noclip:0
 key_key.toggleFoVChanges:51:SHIFT
 key_key.reloadSoundSystem:66:SHIFT
 key_key.toggleTimeOfDayOverlay:43:CONTROL
@@ -263,6 +266,8 @@ key_Open Rocket GUI:46
 key_Toggle RCS:3
 key_Rotate Rocket Right:32
 key_Rotate Rocket Left:30
+key_Move Rocket Up:44
+key_Move Rocket Down:45
 key_key.journeymap.zoom_in:13
 key_key.journeymap.zoom_out:12
 key_key.journeymap.minimap_type:26

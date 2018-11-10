@@ -1,5 +1,6 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
+import crafttweaker.item.IItemDefinition;
 import crafttweaker.block.IBlock;
 import crafttweaker.block.IBlockDefinition;
 import crafttweaker.formatting.IFormattedText;
@@ -58,7 +59,8 @@ static itemTooltips as IFormattedText[][IFormattedText[]][string][IItemStack] = 
 		}
 	},
 	<libvulpes:metal0:4>: {
-		"Copper Block - Purity: (78%)": {[
+		null: {[
+			format.white("Copper Block - Purity: (78%)"),
 			format.gray("A block of copper with a purity of 78%"),
 			format.yellow("Tier 4")]: [
 				format.white("You can use this item in recipes with a tier 4 ingredient"),
@@ -82,7 +84,8 @@ static itemTooltips as IFormattedText[][IFormattedText[]][string][IItemStack] = 
 		--------------
 	*/
 	<libvulpes:productplate:4>: {
-		"Copper Plate - Thickness: (25mm)": {[
+		null: {[
+			format.white("Copper Plate - Thickness: (25mm)"),
 			format.gray("A plate of copper with a thickness of 25mm"),
 			format.yellow("Tier 1")]: [
 				format.white("You can use this item in recipes with a tier 1 ingredient"),
@@ -132,6 +135,4 @@ function init() {
 	itemProperties.setName(itemNames);
 	itemProperties.setUnlocalizedName(unlocalizedNames);
 	itemProperties.setTooltipName(itemTooltips);
-
-	print("abcd " ~ <libvulpes:metal0:4>.name ~ " normal name and displayName " ~ <libvulpes:metal0:4>.displayName)
 }

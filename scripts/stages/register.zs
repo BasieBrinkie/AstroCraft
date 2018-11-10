@@ -13,7 +13,7 @@ import mods.zenstages.Stage;
 	Progression Stages.
 	-------------------
 */
-static stageTheBeginning as Stage = ZenStager.initStage("thebeginning");
+static stageDawnOfANewDay as Stage = ZenStager.initStage("start");
 static stageOxygen1 as Stage = ZenStager.initStage("oxygen_one");
 static stageResources1 as Stage = ZenStager.initStage("resources_one");
 /*static stage1B as Stage = ZenStager.initStage("1b");

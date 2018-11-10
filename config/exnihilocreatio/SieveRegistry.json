@@ -1,36 +1,38 @@
 {
   "minecraft:gravel": [
-  {
-    "drop": {
-      "name": "minecraft:wheat_seeds", 
-      "meta": 0
+    {
+      "drop": {
+        "name": "exnihilocreatio:item_ore_copper",
+        "meta": 0
+      },
+      "chance": 0.2,
+      "meshLevel": 1
+    }
+  ],
+  "minecraft:dirt": [
+    {
+      "drop": {
+        "name": "minecraft:wheat_seeds", 
+        "meta": 0
+      },
+      "chance": 0.02,
+      "meshLevel": 1
     },
-    "chance": 0.02,
-    "meshLevel": 1
-  },
-  {
-    "drop": {
-      "name": "waterstrainer:worm",
-      "meta": 0
+    {
+      "drop": {
+        "name": "waterstrainer:worm",
+        "meta": 0
+      },
+      "chance": 0.4,
+      "meshLevel": 1
     },
-    "chance": 0.4,
-    "meshLevel": 1
-  },
-  {
-    "drop": {
-      "name": "actuallyadditions:item_coffee_seed",
-      "meta": 0
-    },
-    "chance": 0.55,
-    "meshLevel": 1
-  },
-  {
-    "drop": {
-      "name": "exnihilocreatio:item_ore_copper",
-      "meta": 0
-    },
-    "chance": 0.2,
-    "meshLevel": 1
-  }
+    {
+      "drop": {
+        "name": "minecraft:deadbush",
+        "meta": 0
+      },
+      "chance": 0.55,
+      "meshLevel": 1
+    }
   ]
 }

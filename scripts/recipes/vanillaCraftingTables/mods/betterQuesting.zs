@@ -45,7 +45,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 	Furnace Recipes.
 	----------------
 */
-static furnaceRecipes as IIngredient[][IItemStack] = {};
+static furnaceRecipes as IIngredient[IItemStack] = {};
 
 
 function init() {

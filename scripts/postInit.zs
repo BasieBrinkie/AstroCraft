@@ -65,9 +65,11 @@ function initItemProperties() {
 	print("----------------------- Item Properties -----------------------");
 	/*	
 		----------------------------
-		Item Properties per Oredict.
+		Item Properties per Oredict/Group/Property.
 		----------------------------
 	*/
+	scripts.items.burnTime.init();
+
 	scripts.items.metalCopper.init();
 	scripts.items.metalIron.init();
 	scripts.items.metalLead.init();
@@ -104,7 +106,9 @@ function initRecipes() {
 	*/
 	if (!devRemoveRecipes | !dev) {
 	print("----------------------- Recipes: Removal -----------------------");
-	scripts.recipes.remove.init();}
+	scripts.recipes.remove.init();
+
+	}
 
 	/*	
 		----------------
@@ -121,6 +125,7 @@ function initRecipes() {
 	scripts.recipes.vanillaCraftingTables.mods.charcoalPit.init();
 
 	scripts.recipes.vanillaCraftingTables.mods.evilCraft.init();
+	scripts.recipes.vanillaCraftingTables.mods.exCompressum.init();
 	scripts.recipes.vanillaCraftingTables.mods.exNihiloCreatio.init();
 
 	scripts.recipes.vanillaCraftingTables.mods.minecraft.init();

@@ -43,7 +43,8 @@ static itemTooltips as IFormattedText[][IFormattedText[]][string][IItemStack] = 
 		}		
 	},
 	<libvulpes:productingot:6>: {
-		"Iron Block - Purity: (47.5%)": {[
+		null: {[
+			format.white("Iron Block - Purity: (47.5%)"),
 			format.gray("A block of iron with a purity of 47.5%"),
 			format.yellow("Tier 3")]: [
 				format.white("You can use this item in recipes with a tier 3 ingredient"),
@@ -93,7 +94,8 @@ static itemTooltips as IFormattedText[][IFormattedText[]][string][IItemStack] = 
 		}
 	},
 	<libvulpes:metal0:6>: {
-		"Iron Block - Purity: (47.5%)": {[
+		null: {[
+			format.white("Iron Block - Purity: (47.5%)"),
 			format.gray("A block of iron with a purity of 47.5%"),
 			format.yellow("Tier 3")]: [
 				format.white("You can use this item in recipes with a tier 3 ingredient"),
@@ -126,7 +128,8 @@ static itemTooltips as IFormattedText[][IFormattedText[]][string][IItemStack] = 
 		--------------
 	*/
 	<libvulpes:productplate:1>: {
-		"Iron Plate - Thickness: (25mm)": {[
+		null: {[
+			format.white("Iron Plate - Thickness: (25mm)"),
 			format.gray("A plate of iron with a thickness of 25mm"),
 			format.yellow("Tier 1")]: [
 				format.white("You can use this item in recipes with a tier 1 ingredient"),

@@ -1,0 +1,61 @@
+
+{
+  "ID": 58,
+  "Name": "Envia",
+  "Resource Location": "fp:envia",
+  "Class": "futurepack.common.dim.biome.BiomeEnvia",
+  "Root Height": 2.1,
+  "Height Variation": 0.4,
+  "Top Block": "minecraft:stone[variant\u003dstone]",
+  "Filler Block": "minecraft:stone[variant\u003dstone]",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Water Color": "16777215",
+  "Temperature": 0.0,
+  "Humidity": 0.3,
+  "Water Tint": 16777215,
+  "Enable Rain": false,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "LUSH",
+    "DEAD",
+    "COLD",
+    "DRY"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "com.setycz.chickens.entity.EntityChickensChicken",
+      "Weight": 10,
+      "Min Group Count": 3,
+      "Max Group Count": 5
+    }
+  ],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "matteroverdrive.entity.monster.EntityMeleeRougeAndroidMob",
+      "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "matteroverdrive.entity.monster.EntityRangedRogueAndroidMob",
+      "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "techguns.entities.npcs.TGDummySpawn",
+      "Weight": 600,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    }
+  ],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": false
+}

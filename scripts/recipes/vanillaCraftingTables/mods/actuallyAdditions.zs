@@ -7,7 +7,13 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	
+	<actuallyadditions:item_misc:11>: [
+		[
+			[<excompressum:uncompressed_coal:0>, <excompressum:uncompressed_coal:0>, <excompressum:uncompressed_coal:0>],
+			[null, <excompressum:uncompressed_coal:0>, <excompressum:uncompressed_coal:0>],
+			[null, null, <excompressum:uncompressed_coal:0>]
+		]
+	]
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
@@ -40,7 +46,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 	Furnace Recipes.
 	----------------
 */
-static furnaceRecipes as IIngredient[][IItemStack] = {};
+static furnaceRecipes as IIngredient[IItemStack] = {};
 
 
 function init() {

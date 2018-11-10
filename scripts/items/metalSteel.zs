@@ -111,7 +111,8 @@ static itemTooltips as IFormattedText[][IFormattedText[]][string][IItemStack] = 
 		--------------
 	*/
 	<libvulpes:productplate:6>: {
-		"Steel Plate - Thickness: (25mm)": {[
+		null: {[
+			format.white("Steel Plate - Thickness: (25mm)"),
 			format.gray("A plate of steel with a thickness of 25mm"),
 			format.yellow("Tier 1")]: [
 				format.white("You can use this item in recipes with a tier 1 ingredient"),

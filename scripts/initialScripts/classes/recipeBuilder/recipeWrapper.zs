@@ -113,21 +113,21 @@ zenClass recipeBuilder {
 		----------------------------------------
 	*/
 
-	function removeRecipes(removals as IItemStack[]) {
-		for toRemove in removals {
+	function removeRecipes(map as IItemStack[]) {
+		for toRemove in map {
 			recipes.remove(toRemove);
 		}
 	}
 	
-	function removeRecipesString(removals as string[]) {
-		for toRemove in removals {
+	function removeRecipesString(map as string[]) {
+		for toRemove in map {
 			recipes.removeByRegex(toRemove);
 		}
 	}
 
-	function removeRecipesMod(modIds as string[]) {
-		if (!isNull(modIds) & dev) {
-			for modName in modIds {
+	function removeRecipesMod(map as string[]) {
+		if (!isNull(map) & dev) {
+			for modName in map {
 				recipes.removeByMod(modName);
 			}
 		}
@@ -145,11 +145,9 @@ zenClass recipeBuilder {
 		--------------------------------------------
 	*/
 
-	function processFurnace(recipesToAdd as IIngredient[][IItemStack]) {
-		for output, inputs in recipesToAdd {
-			for input in inputs {
+	function processFurnace(map as IIngredient[IItemStack]) {
+		for output, input in map {
 				furnace.addRecipe(output, input);
-			}
 		}
 	}
 
@@ -159,13 +157,13 @@ zenClass recipeBuilder {
 		----------------------------------------
 	*/
 
-	function removeFurnace(removals as IIngredient[]) {
-		for toRemove in removals {
+	function removeFurnace(map as IIngredient[]) {
+		for toRemove in map {
 			furnace.remove(toRemove);
 		}
 	}
-	function removeFurnace(removals as IIngredient[IIngredient]) {
-		for input, output in removals {
+	function removeFurnace(map as IIngredient[IIngredient]) {
+		for input, output in map {
 			furnace.remove(input, output);
 		}
 	}

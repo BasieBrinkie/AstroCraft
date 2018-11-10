@@ -9,9 +9,9 @@ import crafttweaker.item.IIngredient;
 static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<nuclearcraft:ingot_block:0>: [	//Tier 1 Copper Block
 		[
-			[<abyssalcraft:crystalfragment:17>, <abyssalcraft:crystalfragment:17>, <abyssalcraft:crystalfragment:17>],
-			[<abyssalcraft:crystalfragment:17>, <abyssalcraft:crystalfragment:17>, <abyssalcraft:crystalfragment:17>],
-			[<abyssalcraft:crystalfragment:17>, <abyssalcraft:crystalfragment:17>, <abyssalcraft:crystalfragment:17>]
+			[<mekanism:clump:3>, <mekanism:clump:3>, <mekanism:clump:3>],
+			[<mekanism:clump:3>, <mekanism:clump:3>, <mekanism:clump:3>],
+			[<mekanism:clump:3>, <mekanism:clump:3>, <mekanism:clump:3>]
 		]
 	]
 };
@@ -46,7 +46,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 	Furnace Recipes.
 	----------------
 */
-static furnaceRecipes as IIngredient[][IItemStack] = {};
+static furnaceRecipes as IIngredient[IItemStack] = {};
 
 
 function init() {

@@ -10,13 +10,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<advancedrocketry:platepress:0>: [
 		[
 			[<minecraft:planks:0>, <minecraft:planks:0>, <minecraft:planks:0>], 
-			[<minecraft:stone:0>, <abyssalcraft:crystalfragment:17>, <minecraft:stone:0>],
+			[<minecraft:stone:0>, <ore:clumpsCopper> | <ore:ingotCopperTier1to5>, <minecraft:stone:0>],
 			[<minecraft:stone:0>, <minecraft:stone:0>, <minecraft:stone:0>]
 		]
 	],
 	<advancedrocketry:oxygencharger:0>: [
 		[
-			[null, <abyssalcraft:crystalshard:4>, null],
+			[null, <skyresources:alchemyitemcomponent:1>, null],
 			[<minecraft:stone:0>, <libvulpes:productplate:4>, <minecraft:stone:0>],
 			[<minecraft:stone:0>, <minecraft:stone:0>, <minecraft:stone:0>]
 		]
@@ -53,7 +53,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 	Furnace Recipes.
 	----------------
 */
-static furnaceRecipes as IIngredient[][IItemStack] = {};
+static furnaceRecipes as IIngredient[IItemStack] = {};
 
 
 function init() {

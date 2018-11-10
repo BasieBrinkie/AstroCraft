@@ -28,6 +28,22 @@ zenClass itemProperties {
 		}
 	}
 
+	function setBlockUnbreakable(map as IItemStack[]) {
+		for item in map {
+			item.asBlock().definition.setUnbreakable();
+		}
+	}
+
+	function setHarvestLevel(map as IItemStack[][int][string]) {
+		for toolName, levelArray in map {
+			for harvestLevel, itemArray in levelArray {
+				for item in itemArray {
+					item.asBlock().definition.setHarvestLevel(toolName, harvestLevel);
+				}
+			}
+		}
+	}
+	
 	function setName(map as string[IItemStack]) {
 		for item, newItemName in map {
 			item.displayName = newItemName;
@@ -44,14 +60,17 @@ zenClass itemProperties {
 		for item, toolTipArray in map {
 			item.clearTooltip();
 			for itemName, toolTipArray2 in toolTipArray {
-				item.displayName = itemName;
-				item.addTooltip(format.white(itemName));
+				if (!isNull(itemName)) {
+					item.displayName = itemName;
+					item.addTooltip(format.white(itemName));
+				}
+		
 				for toolTipStandardArray, toolTipShiftArray in toolTipArray2 {
 					for toolTipStandard in toolTipStandardArray {
 						item.addTooltip(toolTipStandard);
 					}
 					if (!isNull(toolTipShiftArray)) {
-						item.addTooltip(format.white("Hold: ") + format.blue("LShift ") + format.white("for more information"));
+						item.addTooltip(format.white("Hold: ") + format.blue(format.italic("LShift ")) + format.white("for more information"));
 					}
 					for toolTipShift in toolTipShiftArray {
 						item.addShiftTooltip(toolTipShift);
@@ -72,7 +91,7 @@ zenClass itemProperties {
 					item.addTooltip(toolTipStandard);
 				}
 				if (!isNull(toolTipShiftArray)) {
-					item.addTooltip(format.white("Hold: ") + format.blue("LShift ") + format.white("for more information"));
+					item.addTooltip(format.white("Hold: ") + format.blue(format.italic("LShift ")) + format.white("for more information"));
 				}
 				for toolTipShift in toolTipShiftArray {
 					item.addShiftTooltip(toolTipShift);
@@ -93,7 +112,7 @@ zenClass itemProperties {
 						item.addTooltip(toolTipStandard);
 					}
 					if (!isNull(toolTipShiftArray)) {
-						item.addTooltip(format.white("Hold: ") + format.blue("LShift ") + format.white("for more information"));
+						item.addTooltip(format.white("Hold: ") + format.blue(format.italic("LShift ")) + format.white("for more information"));
 					}
 					for toolTipShift in toolTipShiftArray {
 						item.addShiftTooltip(toolTipShift);
@@ -106,19 +125,4 @@ zenClass itemProperties {
 		}
 	}
 
-	function setHarvestLevel(map as IItemStack[][int][string]) {
-		for toolName, levelArray in map {
-			for harvestLevel, itemArray in levelArray {
-				for item in itemArray {
-					item.asBlock().definition.setHarvestLevel(toolName, harvestLevel);
-				}
-			}
-		}
-	}
-
-	function setBlockUnbreakable(map as IItemStack[]) {
-		for item in map {
-			item.asBlock().definition.setUnbreakable();
-		}
-	}
 }

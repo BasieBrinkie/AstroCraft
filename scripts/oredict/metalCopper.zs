@@ -3,11 +3,28 @@ import crafttweaker.oredict.IOreDictEntry;
 
 /*	
 	----------------------
-	Adds Items to Oredict.
+	Add Items to Oredict.
 	----------------------
 */
+static addItemsToOredict as IItemStack[][IOreDictEntry] = {
+};
 
-static addItemsToOredict as IItemStack[][IOreDictEntry] = {	
+/*	
+	-------------------------------------------------
+	Adds all Items from Oredicts to a master Oredict.
+	-------------------------------------------------
+*/
+static addOredictsToOredict as IOreDictEntry[][IOreDictEntry] = {
+};
+
+/*	
+	-----------------------------------------
+	Create new Oredicts.
+	If Oredict exists it will first clear it.
+	-----------------------------------------
+*/
+static createItemsToOredict as IItemStack[][IOreDictEntry] = {	
+	
 	/*	
 	--------------
 	Copper Blocks.
@@ -27,12 +44,28 @@ static addItemsToOredict as IItemStack[][IOreDictEntry] = {
 	],
 	<ore:blockCopperTier5>: [
 		<thermalfoundation:storage:0>
-	]
+	],
+
 	/*	
 	--------------
 	Copper Ingots.
 	--------------
 	*/
+	<ore:ingotCopperTier1>: [
+		<exnihilocreatio:item_ore_copper:3>
+	],
+	<ore:ingotCopperTier2>: [
+		<mekanism:ingot:5>
+	],
+	<ore:ingotCopperTier3>: [
+		<libvulpes:productingot:4>
+	],
+	<ore:ingotCopperTier4>: [
+		<fp:itemerze:2>
+	],
+	<ore:ingotCopperTier5>: [
+		<thermalfoundation:material:128>
+	],
 
 	/*	
 	-------------
@@ -42,18 +75,29 @@ static addItemsToOredict as IItemStack[][IOreDictEntry] = {
 
 	/*	
 	-------------
-	Copper 
+	Copper Clumps
 	-------------
-	*/	
+	*/
+	<ore:clumpCopper>: [
+		<mekanism:clump:3>,
+		<abyssalcraft:crystalfragment:17>,
+		<tconstruct:shard>.withTag({Material: "copper"})
+	]	
 };
 
 /*	
-	-------------------------------------------------
-	Adds all Items from Oredicts to a master Oredict.
-	-------------------------------------------------
+	------------------------------------------------
+	Create new Oredicts.
+	Add existing Oredicts to 1 Oredict.
+	If master Oredict exists it will first clear it.
+	------------------------------------------------
 */
-
-static addOredictsToOredict as IOreDictEntry[][IOreDictEntry] = {
+static createOredictsToOredict as IOreDictEntry[][IOreDictEntry] = {
+	/*	
+	--------------
+	Copper Blocks.
+	--------------
+	*/	
 	<ore:blockCopperTier1To5>: [
 		<ore:blockCopperTier1>,
 		<ore:blockCopperTier2>,
@@ -76,35 +120,66 @@ static addOredictsToOredict as IOreDictEntry[][IOreDictEntry] = {
 		<ore:blockCopperTier4>,
 		<ore:blockCopperTier5>
 	],
+
+
+	/*	
+	--------------
+	Copper Ingots.
+	--------------
+	*/
+	<ore:ingotCopperTier1To5>: [
+		<ore:ingotCopperTier1>,
+		<ore:ingotCopperTier2>,
+		<ore:ingotCopperTier3>,
+		<ore:ingotCopperTier4>,
+		<ore:ingotCopperTier5>
+	],
+	<ore:ingotCopperTier2To5>: [
+		<ore:ingotCopperTier2>,
+		<ore:ingotCopperTier3>,
+		<ore:ingotCopperTier4>,
+		<ore:ingotCopperTier5>
+	],
+	<ore:ingotCopperTier3To5>: [
+		<ore:ingotCopperTier3>,
+		<ore:ingotCopperTier4>,
+		<ore:ingotCopperTier5>
+	],
+	<ore:ingotCopperTier4To5>: [
+		<ore:ingotCopperTier4>,
+		<ore:ingotCopperTier5>
+	]
 };
 
-/*	---------------------------
+/*	
+	---------------------------
 	Removes Items from Oredict.
 	---------------------------
 */
-
 static removeItemsFromOredict as IItemstack[][IOreDictEntry] = {	
 };
 
-/*	------------------------------------------
+/*	
+	------------------------------------------
 	Removes all Items in a Oredict by modname.	
 	------------------------------------------
 */
-
 static removeModID as IOreDictEntry[][string] = {
 };
 
-/*	------------------
+/*	
+	------------------
 	Mirror an Oredict.
 	------------------
 */
-
 static mirror as IOreDictEntry[][IOreDictEntry] = {	
 };
 
 function init() {
 	oredictBuilder.process(addItemsToOredict);
 	oredictBuilder.processOredict(addOredictsToOredict);
+	oredictBuilder.create(createItemsToOredict);
+	oredictBuilder.createOredict(createOredictsToOredict);
 	oredictBuilder.remove(removeItemsFromOredict);
 	oredictBuilder.removeModID(removeModID);
 	oredictBuilder.mirror(mirror);

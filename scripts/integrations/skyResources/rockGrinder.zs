@@ -2,7 +2,7 @@ import crafttweaker.item.IItemStack;
 
 /*	
 	----------------------------------------------------------------------------------------------
-	You can change the recipes of the  skyresources2 rockgrinder using the skyresources wrapper
+	You can change the recipes of the skyresources2 rockgrinder using the skyresources wrapper
 	possible actions: 
 	- add new drops.
 	- remove existing drops.
