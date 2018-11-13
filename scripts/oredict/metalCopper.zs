@@ -1,21 +1,6 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 
-/*	
-	----------------------
-	Add Items to Oredict.
-	----------------------
-*/
-static addItemsToOredict as IItemStack[][IOreDictEntry] = {
-};
-
-/*	
-	-------------------------------------------------
-	Adds all Items from Oredicts to a master Oredict.
-	-------------------------------------------------
-*/
-static addOredictsToOredict as IOreDictEntry[][IOreDictEntry] = {
-};
 
 /*	
 	-----------------------------------------
@@ -152,6 +137,22 @@ static createOredictsToOredict as IOreDictEntry[][IOreDictEntry] = {
 };
 
 /*	
+	----------------------
+	Add Items to Oredict.
+	----------------------
+*/
+static addItemsToOredict as IItemStack[][IOreDictEntry] = {
+};
+
+/*	
+	-------------------------------------------------
+	Adds all Items from Oredicts to a master Oredict.
+	-------------------------------------------------
+*/
+static addOredictsToOredict as IOreDictEntry[][IOreDictEntry] = {
+};
+
+/*	
 	---------------------------
 	Removes Items from Oredict.
 	---------------------------
@@ -176,10 +177,10 @@ static mirror as IOreDictEntry[][IOreDictEntry] = {
 };
 
 function init() {
-	oredictBuilder.process(addItemsToOredict);
-	oredictBuilder.processOredict(addOredictsToOredict);
 	oredictBuilder.create(createItemsToOredict);
 	oredictBuilder.createOredict(createOredictsToOredict);
+	oredictBuilder.process(addItemsToOredict);
+	oredictBuilder.processOredict(addOredictsToOredict);
 	oredictBuilder.remove(removeItemsFromOredict);
 	oredictBuilder.removeModID(removeModID);
 	oredictBuilder.mirror(mirror);

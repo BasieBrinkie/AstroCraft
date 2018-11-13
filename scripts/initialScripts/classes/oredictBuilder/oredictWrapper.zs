@@ -38,9 +38,9 @@ zenClass oredictBuilder {
 	*/
 	function create(map as IItemStack[][IOreDictEntry]) {
 		for oredictName, itemArray in map {
-			if (oreDict in oredictName) {
+			if (oreDict in oredictName.name) {
 				for item in oredictName.items {
-						oredictName.remove(item); 
+					oredictName.remove(item); 
 				}
 			}
 			for item in itemArray {
@@ -51,9 +51,9 @@ zenClass oredictBuilder {
 
 	function createOredict(map as IOreDictEntry[][IOreDictEntry]) {
 		for oredictName, oredictArray in map {
-			if (oreDict in oredictName) {
+			if (oreDict in oredictName.name) {
 				for item in oredictName.items {
-						oredictName.remove(item); 
+					oredictName.remove(item); 
 				}
 			}
 			for oredictToAdd in oredictArray {
@@ -101,7 +101,7 @@ zenClass oredictBuilder {
 
 	function mirror(map as IOreDictEntry[IOreDictEntry]) {
 		for oredict, oredictName in map {
-			if (oreDict in oredictName) {
+			if (oreDict in oredictName.name) {
 				for item in oredictName.items {
 					oredictName.remove(item); 
 				}

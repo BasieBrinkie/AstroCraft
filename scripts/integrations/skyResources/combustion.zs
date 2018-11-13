@@ -16,8 +16,8 @@ import crafttweaker.item.IItemStack;
 
 
 static combustionAdd as int[IItemStack[]][IItemStack] = {
-	<mekanism:dirtydust:0>: {[
-		<exnihilocreatio:item_ore_iron:0>,
+	<exnihilocreatio:item_ore_iron:0>: {[
+		<exnihilocreatio:item_ore_iron:1>,
 		<charcoal_pit:item_ash:0> * 4]: 50
 	}
 };

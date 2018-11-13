@@ -2,12 +2,12 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 
 /*	
-	----------------------
-	Adds Items to Oredict.
-	----------------------
+	-----------------------------------------
+	Create new Oredicts.
+	If Oredict exists it will first clear it.
+	-----------------------------------------
 */
-
-static addItemsToOredict as IItemStack[][IOreDictEntry] = {	
+static createItemsToOredict as IItemStack[][IOreDictEntry] = {	
 	/*	
 	--------------
 	Iron Blocks.
@@ -27,12 +27,31 @@ static addItemsToOredict as IItemStack[][IOreDictEntry] = {
 	],
 	<ore:blockIronTier5>: [
 		<immersiveengineering:sheetmetal:9>
-	]
+	],
+	
 	/*	
 	--------------
 	Iron Ingots.
 	--------------
 	*/
+	<ore:ingotIronTier1>:[
+		<minecraft:iron_nugget:0>
+	],
+	<ore:ingotIronTier2>:[
+	],
+	
+	/*	
+	--------------
+	Iron Nuggets.
+	--------------
+	*/
+	<ore:nuggetIronTier1>: [
+		<minecraft:iron_nugget:0>,
+		<thaumcraft:nugget:0>
+	],
+	<ore:nuggetIronTier2>: [
+		<immersiveengineering:metal:29>
+	]	
 
 	/*	
 	-------------
@@ -48,12 +67,18 @@ static addItemsToOredict as IItemStack[][IOreDictEntry] = {
 };
 
 /*	
-	-------------------------------------------------
-	Adds all Items from Oredicts to a master Oredict.
-	-------------------------------------------------
+	------------------------------------------------
+	Create new Oredicts.
+	Add existing Oredicts to 1 Oredict.
+	If master Oredict exists it will first clear it.
+	------------------------------------------------
 */
-
-static addOredictsToOredict as IOreDictEntry[][IOreDictEntry] = {
+static createOredictsToOredict as IOreDictEntry[][IOreDictEntry] = {
+	/*	
+	--------------
+	Iron Blocks.
+	--------------
+	*/
 	<ore:blockIronTier1To5>: [
 		<ore:blockIronTier1>,
 		<ore:blockIronTier2>,
@@ -76,13 +101,47 @@ static addOredictsToOredict as IOreDictEntry[][IOreDictEntry] = {
 		<ore:blockIronTier4>,
 		<ore:blockIronTier5>
 	],
+
+	/*	
+	--------------
+	Iron Ingots.
+	--------------
+	*/
+	<ore:ingotIronTier1to2>: [
+		<ore:ingotIronTier1>,
+		<ore:ingotIronTier2>
+	],
+	
+	/*	
+	--------------
+	Iron Nuggets.
+	--------------
+	*/
+	<ore:nuggetIronTier1To2>: [
+		<ore:nuggetIronTier1>,
+		<ore:nuggetIronTier2>
+	]
+};
+
+/*	
+	----------------------
+	Adds Items to Oredict.
+	----------------------
+*/
+static addItemsToOredict as IItemStack[][IOreDictEntry] = {	
+};
+/*	
+	-------------------------------------------------
+	Adds all Items from Oredicts to a master Oredict.
+	-------------------------------------------------
+*/
+static addOredictsToOredict as IOreDictEntry[][IOreDictEntry] = {
 };
 
 /*	---------------------------
 	Removes Items from Oredict.
 	---------------------------
 */
-
 static removeItemsFromOredict as IItemstack[][IOreDictEntry] = {	
 };
 
@@ -90,7 +149,6 @@ static removeItemsFromOredict as IItemstack[][IOreDictEntry] = {
 	Removes all Items in a Oredict by modname.	
 	------------------------------------------
 */
-
 static removeModID as IOreDictEntry[][string] = {
 };
 
@@ -98,11 +156,12 @@ static removeModID as IOreDictEntry[][string] = {
 	Mirror an Oredict.
 	------------------
 */
-
 static mirror as IOreDictEntry[][IOreDictEntry] = {	
 };
 
 function init() {
+	oredictBuilder.create(createItemsToOredict);
+	oredictBuilder.createOredict(createOredictsToOredict);
 	oredictBuilder.process(addItemsToOredict);
 	oredictBuilder.processOredict(addOredictsToOredict);
 	oredictBuilder.remove(removeItemsFromOredict);

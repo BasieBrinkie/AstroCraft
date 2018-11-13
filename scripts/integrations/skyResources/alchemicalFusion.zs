@@ -16,8 +16,7 @@ import crafttweaker.item.IItemStack;
 
 static fusionAdd as float[IItemStack[]][IItemStack] = { 
 	<minecraft:iron_nugget:0>: {[
-		<mekanism:dirtydust:0>,
-		<charcoal_pit:item_ash:0> * 4]: 0.25 
+		<exnihilocreatio:item_ore_iron:1> * 3]: 0.25 
 	}
 };
 

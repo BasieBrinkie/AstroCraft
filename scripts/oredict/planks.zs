@@ -1,17 +1,11 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 
-/*	--------------------------------------------------------------------------------------------
-	Some quests will use the oredict so multiple items will qualify for completion of the quest.
-	--------------------------------------------------------------------------------------------
-*/
-
 /*	----------------------
 	Adds Items to Oredict.
 	----------------------
 */
-
-static addItemsToOredict as IItemStack[][IOreDictEntry] = { 
+static createItemsToOredict as IItemStack[][IOreDictEntry] = { 
 	<ore:planksTier1>: [
 		<minecraft:planks:0>,
 		<minecraft:planks:1>,
@@ -75,7 +69,7 @@ static addItemsToOredict as IItemStack[][IOreDictEntry] = {
 	-------------------------------------------------
 */
 
-static addOredictsToOredict as IOreDictEntry[][IOreDictEntry] = {
+static createOredictsToOredict as IOreDictEntry[][IOreDictEntry] = {
 	<ore:planksTier1To3>: [
 		<ore:planksTier1>,
 		<ore:planksTier2>,
@@ -87,34 +81,48 @@ static addOredictsToOredict as IOreDictEntry[][IOreDictEntry] = {
 	]
 };
 
+/*	
+	----------------------
+	Adds Items to Oredict.
+	----------------------
+*/
+static addItemsToOredict as IItemStack[][IOreDictEntry] = {	
+};
+/*	
+	-------------------------------------------------
+	Adds all Items from Oredicts to a master Oredict.
+	-------------------------------------------------
+*/
+static addOredictsToOredict as IOreDictEntry[][IOreDictEntry] = {
+};
+
 /*	---------------------------
 	Removes Items from Oredict.
 	---------------------------
 */
-
-static removeItemsFromOredict as IItemStack[][IOreDictEntry] = {	
+static removeItemsFromOredict as IItemstack[][IOreDictEntry] = {	
 };
 
 /*	------------------------------------------
 	Removes all Items in a Oredict by modname.	
 	------------------------------------------
 */
-
-static removeModID as IOreDictEntry[][string] = {	
+static removeModID as IOreDictEntry[][string] = {
 };
 
 /*	------------------
 	Mirror an Oredict.
 	------------------
 */
-
-static mirrorOredict as IOreDictEntry[][IOreDictEntry] = {	
+static mirror as IOreDictEntry[][IOreDictEntry] = {	
 };
 
 function init() {
+	oredictBuilder.create(createItemsToOredict);
+	oredictBuilder.createOredict(createOredictsToOredict);
 	oredictBuilder.process(addItemsToOredict);
 	oredictBuilder.processOredict(addOredictsToOredict);
 	oredictBuilder.remove(removeItemsFromOredict);
 	oredictBuilder.removeModID(removeModID);
-	oredictBuilder.mirror(mirrorOredict);
+	oredictBuilder.mirror(mirror);
 }
