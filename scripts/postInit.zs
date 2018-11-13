@@ -91,6 +91,9 @@ function initIntegrations() {
 	if (!devDisableIntegrations | !dev) {
 	print("----------------------- Integrations -----------------------");
 	
+	scripts.integrations.skyResources.alchemicalFusion.init();
+	scripts.integrations.skyResources.catalysts.init();
+	scripts.integrations.skyResources.combustion.init();
 	scripts.integrations.skyResources.cuttingKnife.init();
 	scripts.integrations.skyResources.rockGrinder.init();
 	
@@ -128,6 +131,7 @@ function initRecipes() {
 	scripts.recipes.vanillaCraftingTables.mods.exCompressum.init();
 	scripts.recipes.vanillaCraftingTables.mods.exNihiloCreatio.init();
 
+	scripts.recipes.vanillaCraftingTables.mods.mekanism.init();
 	scripts.recipes.vanillaCraftingTables.mods.minecraft.init();
 	scripts.recipes.vanillaCraftingTables.mods.nuclearCraft.init();
 	scripts.recipes.vanillaCraftingTables.mods.skyResources.init();
