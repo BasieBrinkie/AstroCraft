@@ -32,13 +32,6 @@ static itemTooltips as IFormattedText[][IFormattedText[]][string][IItemStack] = 
 		--------------
 	*/	
 	<nuclearcraft:ingot_block:0>: {
-		"Copper Block - Purity: (8%)": {[
-			format.gray("A block of copper with a purity of 8%"),
-			format.yellow("Tier 1")]: [
-				format.white("You can use this item in recipes with a tier 1 ingredient"),
-				format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement")
-			]
-		}	
 	},
 	<fp:erz_blocke:2>: {
 		"Copper Block - Purity: (23%)": {[

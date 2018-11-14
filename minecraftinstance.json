@@ -44,7 +44,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.6859269Z",
       "lastWriteTimeUtc": "2018-08-20T10:34:02.7078629Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3180159Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3434172Z",
       "fileCount": 1,
       "fileSize": 15316083
     },
@@ -59,7 +59,7 @@
       "status": 1,
       "timestamp": "2018-09-11T19:28:10.0573786Z",
       "lastWriteTimeUtc": "2018-08-20T10:47:56.5955913Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3180159Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3434172Z",
       "fileCount": 1,
       "fileSize": 20887
     },
@@ -74,7 +74,7 @@
       "status": 1,
       "timestamp": "2018-09-16T20:35:11.7200543Z",
       "lastWriteTimeUtc": "2018-08-20T10:51:36.4798485Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3180159Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3434172Z",
       "fileCount": 1,
       "fileSize": 247347
     },
@@ -89,7 +89,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.776898Z",
       "lastWriteTimeUtc": "2018-08-27T10:12:21.091872Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3190152Z",
+      "queryTimestamp": "2018-11-14T21:15:18.344417Z",
       "fileCount": 1,
       "fileSize": 16612
     },
@@ -104,24 +104,9 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.7042118Z",
       "lastWriteTimeUtc": "2018-08-20T10:58:33.5691059Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3190152Z",
+      "queryTimestamp": "2018-11-14T21:15:18.344417Z",
       "fileCount": 1,
       "fileSize": 132795
-    },
-    {
-      "folderName": "Atomic-Science-1.12.2-3.1.0b67.jar",
-      "fingerprint": 3585066223,
-      "fileDateHash": 167378204,
-      "sectionID": 6,
-      "individualFingerprints": [
-        3585066223
-      ],
-      "status": 1,
-      "timestamp": "2018-11-12T19:40:26.0448351Z",
-      "lastWriteTimeUtc": "2018-11-12T16:25:17.8771339Z",
-      "queryTimestamp": "2018-11-12T19:40:26.5086864Z",
-      "fileCount": 1,
-      "fileSize": 1386651
     },
     {
       "folderName": "ThermalExpansion-1.12.2-5.5.2.39-universal.jar",
@@ -134,7 +119,7 @@
       "status": 1,
       "timestamp": "2018-10-07T12:35:32.7764475Z",
       "lastWriteTimeUtc": "2018-10-07T11:40:30.9887016Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3190152Z",
+      "queryTimestamp": "2018-11-14T21:15:18.344417Z",
       "fileCount": 1,
       "fileSize": 2411466
     },
@@ -149,7 +134,7 @@
       "status": 1,
       "timestamp": "2018-10-30T15:39:54.0797407Z",
       "lastWriteTimeUtc": "2018-10-29T22:54:25.3025584Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3200156Z",
+      "queryTimestamp": "2018-11-14T21:15:18.344417Z",
       "fileCount": 1,
       "fileSize": 63740
     },
@@ -164,7 +149,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.577252Z",
       "lastWriteTimeUtc": "2018-08-30T10:37:02.2718397Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3200156Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3454166Z",
       "fileCount": 1,
       "fileSize": 210042
     },
@@ -179,7 +164,7 @@
       "status": 1,
       "timestamp": "2018-08-20T19:53:42.7739353Z",
       "lastWriteTimeUtc": "2018-08-20T16:30:39.1235308Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3210146Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3454166Z",
       "fileCount": 1,
       "fileSize": 394590
     },
@@ -194,7 +179,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.2700596Z",
       "lastWriteTimeUtc": "2018-08-20T10:56:20.610253Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3210146Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3454166Z",
       "fileCount": 1,
       "fileSize": 973054
     },
@@ -209,7 +194,7 @@
       "status": 1,
       "timestamp": "2018-09-27T15:05:02.2786965Z",
       "lastWriteTimeUtc": "2018-09-27T14:42:37.368605Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3210146Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3454166Z",
       "fileCount": 1,
       "fileSize": 127582
     },
@@ -224,7 +209,7 @@
       "status": 1,
       "timestamp": "2018-10-12T18:53:42.814638Z",
       "lastWriteTimeUtc": "2018-10-11T21:13:09.7844703Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3220148Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3464163Z",
       "fileCount": 1,
       "fileSize": 1123473
     },
@@ -239,7 +224,7 @@
       "status": 1,
       "timestamp": "2018-10-15T19:26:31.8310573Z",
       "lastWriteTimeUtc": "2018-10-15T12:27:14.285272Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3220148Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3464163Z",
       "fileCount": 1,
       "fileSize": 552913
     },
@@ -254,7 +239,7 @@
       "status": 1,
       "timestamp": "2018-11-12T19:40:26.0638291Z",
       "lastWriteTimeUtc": "2018-11-12T16:26:06.8390724Z",
-      "queryTimestamp": "2018-11-12T19:40:26.5126852Z",
+      "queryTimestamp": "2018-11-13T23:39:11.7681256Z",
       "fileCount": 1,
       "fileSize": 1526803
     },
@@ -269,7 +254,7 @@
       "status": 1,
       "timestamp": "2018-09-16T20:35:11.7180543Z",
       "lastWriteTimeUtc": "2018-09-12T14:25:13.4224434Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3220148Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3474159Z",
       "fileCount": 1,
       "fileSize": 304571
     },
@@ -284,7 +269,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.3990182Z",
       "lastWriteTimeUtc": "2018-08-20T10:40:08.3254927Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3220148Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3474159Z",
       "fileCount": 1,
       "fileSize": 76753
     },
@@ -299,7 +284,7 @@
       "status": 1,
       "timestamp": "2018-10-25T12:31:47.4568832Z",
       "lastWriteTimeUtc": "2018-10-24T23:11:00.812322Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3230141Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3474159Z",
       "fileCount": 1,
       "fileSize": 839004
     },
@@ -314,7 +299,7 @@
       "status": 1,
       "timestamp": "2018-09-25T13:28:01.6619554Z",
       "lastWriteTimeUtc": "2018-09-24T20:38:06.1751933Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3230141Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3474159Z",
       "fileCount": 1,
       "fileSize": 507343
     },
@@ -329,7 +314,7 @@
       "status": 1,
       "timestamp": "2018-10-30T15:39:54.0797407Z",
       "lastWriteTimeUtc": "2018-10-29T22:54:28.6264941Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3230141Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3484157Z",
       "fileCount": 1,
       "fileSize": 3226384
     },
@@ -344,7 +329,7 @@
       "status": 1,
       "timestamp": "2018-09-24T14:58:30.0628046Z",
       "lastWriteTimeUtc": "2018-09-08T22:45:15.3551269Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3240141Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3484157Z",
       "fileCount": 1,
       "fileSize": 5401579
     },
@@ -359,7 +344,7 @@
       "status": 1,
       "timestamp": "2018-10-25T12:31:47.5638489Z",
       "lastWriteTimeUtc": "2018-10-24T23:11:16.9911417Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3240141Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3484157Z",
       "fileCount": 1,
       "fileSize": 342423
     },
@@ -374,7 +359,7 @@
       "status": 1,
       "timestamp": "2018-09-16T20:35:11.6110883Z",
       "lastWriteTimeUtc": "2018-09-12T18:22:50.9271298Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3240141Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3494153Z",
       "fileCount": 1,
       "fileSize": 72203
     },
@@ -389,7 +374,7 @@
       "status": 1,
       "timestamp": "2018-09-17T19:48:35.9023211Z",
       "lastWriteTimeUtc": "2018-09-12T14:25:26.47179Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3250133Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3494153Z",
       "fileCount": 1,
       "fileSize": 173426
     },
@@ -404,7 +389,7 @@
       "status": 1,
       "timestamp": "2018-08-20T19:53:43.4007349Z",
       "lastWriteTimeUtc": "2018-08-20T11:21:28.8796308Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3250133Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3494153Z",
       "fileCount": 1,
       "fileSize": 1104402
     },
@@ -419,7 +404,7 @@
       "status": 1,
       "timestamp": "2018-10-07T12:35:32.5315253Z",
       "lastWriteTimeUtc": "2018-10-07T11:29:55.2565553Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3250133Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3494153Z",
       "fileCount": 1,
       "fileSize": 895338
     },
@@ -434,7 +419,7 @@
       "status": 1,
       "timestamp": "2018-10-30T15:39:54.1087313Z",
       "lastWriteTimeUtc": "2018-10-29T22:55:16.1912648Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3260136Z",
+      "queryTimestamp": "2018-11-14T21:15:18.350415Z",
       "fileCount": 1,
       "fileSize": 488706
     },
@@ -449,7 +434,7 @@
       "status": 1,
       "timestamp": "2018-09-11T19:28:09.7949584Z",
       "lastWriteTimeUtc": "2018-08-20T11:25:25.1139495Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3260136Z",
+      "queryTimestamp": "2018-11-14T21:15:18.350415Z",
       "fileCount": 1,
       "fileSize": 65084
     },
@@ -464,7 +449,7 @@
       "status": 1,
       "timestamp": "2018-09-08T21:48:46.2963093Z",
       "lastWriteTimeUtc": "2018-08-20T11:16:30.8256143Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3260136Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3514149Z",
       "fileCount": 1,
       "fileSize": 538295
     },
@@ -479,7 +464,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.2830556Z",
       "lastWriteTimeUtc": "2018-09-03T15:02:13.6922857Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3270124Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3514149Z",
       "fileCount": 1,
       "fileSize": 82878
     },
@@ -494,7 +479,7 @@
       "status": 1,
       "timestamp": "2018-11-04T23:29:02.9207131Z",
       "lastWriteTimeUtc": "2018-11-04T20:51:16.6276137Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3270124Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3514149Z",
       "fileCount": 1,
       "fileSize": 504895
     },
@@ -509,7 +494,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.6112411Z",
       "lastWriteTimeUtc": "2018-08-20T10:30:19.1482896Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3280124Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3524143Z",
       "fileCount": 1,
       "fileSize": 168974
     },
@@ -524,7 +509,7 @@
       "status": 1,
       "timestamp": "2018-08-27T10:14:01.9710401Z",
       "lastWriteTimeUtc": "2018-08-27T10:11:18.6916102Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3280124Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3524143Z",
       "fileCount": 1,
       "fileSize": 14693
     },
@@ -539,7 +524,7 @@
       "status": 1,
       "timestamp": "2018-11-07T18:44:25.9215306Z",
       "lastWriteTimeUtc": "2018-11-07T18:39:54.6468804Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3280124Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3524143Z",
       "fileCount": 1,
       "fileSize": 362193
     },
@@ -554,7 +539,7 @@
       "status": 1,
       "timestamp": "2018-09-11T21:18:05.6790179Z",
       "lastWriteTimeUtc": "2018-09-02T19:11:56.058523Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3290124Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3524143Z",
       "fileCount": 1,
       "fileSize": 30375049
     },
@@ -569,7 +554,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.2770573Z",
       "lastWriteTimeUtc": "2018-08-28T17:47:36.6699174Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3290124Z",
+      "queryTimestamp": "2018-11-14T21:15:18.353414Z",
       "fileCount": 1,
       "fileSize": 11034
     },
@@ -584,7 +569,7 @@
       "status": 1,
       "timestamp": "2018-11-04T23:29:02.8997196Z",
       "lastWriteTimeUtc": "2018-11-04T20:51:09.6058658Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3300122Z",
+      "queryTimestamp": "2018-11-14T21:15:18.353414Z",
       "fileCount": 1,
       "fileSize": 1527868
     },
@@ -599,7 +584,7 @@
       "status": 1,
       "timestamp": "2018-08-20T19:53:42.7359469Z",
       "lastWriteTimeUtc": "2018-08-20T10:30:03.1638511Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3300122Z",
+      "queryTimestamp": "2018-11-14T21:15:18.353414Z",
       "fileCount": 1,
       "fileSize": 30446
     },
@@ -614,7 +599,7 @@
       "status": 1,
       "timestamp": "2018-11-07T18:44:25.8815433Z",
       "lastWriteTimeUtc": "2018-11-07T18:36:55.5659949Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3300122Z",
+      "queryTimestamp": "2018-11-14T21:15:18.353414Z",
       "fileCount": 1,
       "fileSize": 8155777
     },
@@ -629,7 +614,7 @@
       "status": 1,
       "timestamp": "2018-09-13T20:40:39.0676186Z",
       "lastWriteTimeUtc": "2018-09-13T19:26:35.1802944Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3300122Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3544137Z",
       "fileCount": 1,
       "fileSize": 20203
     },
@@ -644,7 +629,7 @@
       "status": 1,
       "timestamp": "2018-09-16T20:35:12.0979328Z",
       "lastWriteTimeUtc": "2018-08-23T18:13:09.1026875Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3310114Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3544137Z",
       "fileCount": 1,
       "fileSize": 1023807
     },
@@ -659,7 +644,7 @@
       "status": 1,
       "timestamp": "2018-10-12T18:53:42.8876146Z",
       "lastWriteTimeUtc": "2018-10-11T21:13:37.0687187Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3310114Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3544137Z",
       "fileCount": 1,
       "fileSize": 1040272
     },
@@ -674,7 +659,7 @@
       "status": 1,
       "timestamp": "2018-09-27T14:28:29.7575507Z",
       "lastWriteTimeUtc": "2018-09-26T13:41:31.1299914Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3310114Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3544137Z",
       "fileCount": 1,
       "fileSize": 169399
     },
@@ -689,7 +674,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.3940199Z",
       "lastWriteTimeUtc": "2018-08-22T14:52:21.1105621Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3320115Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3554134Z",
       "fileCount": 1,
       "fileSize": 157747
     },
@@ -704,7 +689,7 @@
       "status": 1,
       "timestamp": "2018-08-26T16:41:28.1268178Z",
       "lastWriteTimeUtc": "2018-08-20T10:30:25.0359203Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3320115Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3554134Z",
       "fileCount": 1,
       "fileSize": 155196
     },
@@ -719,7 +704,7 @@
       "status": 1,
       "timestamp": "2018-11-04T23:29:02.8527347Z",
       "lastWriteTimeUtc": "2018-11-04T20:50:44.1340345Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3320115Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3554134Z",
       "fileCount": 1,
       "fileSize": 2913879
     },
@@ -734,7 +719,7 @@
       "status": 1,
       "timestamp": "2018-10-01T16:00:16.7180989Z",
       "lastWriteTimeUtc": "2018-10-01T15:58:11.0080885Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3320115Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3554134Z",
       "fileCount": 1,
       "fileSize": 2560744
     },
@@ -749,7 +734,7 @@
       "status": 1,
       "timestamp": "2018-10-25T12:31:47.3459196Z",
       "lastWriteTimeUtc": "2018-10-24T23:10:07.5363799Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3330109Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3564131Z",
       "fileCount": 1,
       "fileSize": 193477
     },
@@ -764,7 +749,7 @@
       "status": 1,
       "timestamp": "2018-09-11T21:18:05.9919178Z",
       "lastWriteTimeUtc": "2018-08-20T10:50:21.3476769Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3330109Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3564131Z",
       "fileCount": 1,
       "fileSize": 8943
     },
@@ -779,7 +764,7 @@
       "status": 1,
       "timestamp": "2018-08-23T21:10:20.7666208Z",
       "lastWriteTimeUtc": "2018-08-23T18:24:02.4240484Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3330109Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3564131Z",
       "fileCount": 1,
       "fileSize": 2194
     },
@@ -794,7 +779,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.4040166Z",
       "lastWriteTimeUtc": "2018-08-20T10:38:43.6143562Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3330109Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3574127Z",
       "fileCount": 1,
       "fileSize": 338984
     },
@@ -809,7 +794,7 @@
       "status": 1,
       "timestamp": "2018-09-16T20:35:11.933986Z",
       "lastWriteTimeUtc": "2018-09-02T22:34:06.821195Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3340107Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3574127Z",
       "fileCount": 1,
       "fileSize": 39764
     },
@@ -824,7 +809,7 @@
       "status": 1,
       "timestamp": "2018-11-04T23:29:02.8077496Z",
       "lastWriteTimeUtc": "2018-11-04T20:50:22.2590499Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3340107Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3574127Z",
       "fileCount": 1,
       "fileSize": 5644245
     },
@@ -839,7 +824,7 @@
       "status": 1,
       "timestamp": "2018-10-03T18:38:23.128377Z",
       "lastWriteTimeUtc": "2018-10-03T18:34:41.9894997Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3340107Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3574127Z",
       "fileCount": 1,
       "fileSize": 1483403
     },
@@ -854,7 +839,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.5762529Z",
       "lastWriteTimeUtc": "2018-08-20T10:20:23.2819533Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3350102Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3584125Z",
       "fileCount": 1,
       "fileSize": 108450
     },
@@ -869,7 +854,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.6019541Z",
       "lastWriteTimeUtc": "2018-08-20T10:34:24.8053473Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3350102Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3584125Z",
       "fileCount": 1,
       "fileSize": 1554061
     },
@@ -884,7 +869,7 @@
       "status": 1,
       "timestamp": "2018-10-25T12:31:47.389905Z",
       "lastWriteTimeUtc": "2018-10-24T23:10:40.4638369Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3350102Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3584125Z",
       "fileCount": 1,
       "fileSize": 11377933
     },
@@ -899,7 +884,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.6012446Z",
       "lastWriteTimeUtc": "2018-08-20T10:30:48.9538332Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3350102Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3594121Z",
       "fileCount": 1,
       "fileSize": 1085417
     },
@@ -914,7 +899,7 @@
       "status": 1,
       "timestamp": "2018-11-07T18:44:25.8785444Z",
       "lastWriteTimeUtc": "2018-11-07T18:36:46.282947Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3360103Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3594121Z",
       "fileCount": 1,
       "fileSize": 584272
     },
@@ -929,7 +914,7 @@
       "status": 1,
       "timestamp": "2018-11-04T23:29:02.7927538Z",
       "lastWriteTimeUtc": "2018-11-04T21:03:51.9973413Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3360103Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3604119Z",
       "fileCount": 1,
       "fileSize": 570149
     },
@@ -944,7 +929,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.7172076Z",
       "lastWriteTimeUtc": "2018-08-20T10:35:54.5944063Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3360103Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3604119Z",
       "fileCount": 1,
       "fileSize": 596191
     },
@@ -959,7 +944,7 @@
       "status": 1,
       "timestamp": "2018-11-04T23:29:02.8037503Z",
       "lastWriteTimeUtc": "2018-11-04T20:50:19.1030619Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3370095Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3604119Z",
       "fileCount": 1,
       "fileSize": 824126
     },
@@ -974,7 +959,7 @@
       "status": 1,
       "timestamp": "2018-10-12T18:54:59.466066Z",
       "lastWriteTimeUtc": "2018-10-12T18:54:27.996067Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3370095Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3604119Z",
       "fileCount": 1,
       "fileSize": 492374
     },
@@ -989,7 +974,7 @@
       "status": 1,
       "timestamp": "2018-09-10T17:15:10.3963247Z",
       "lastWriteTimeUtc": "2018-08-20T10:41:32.2933698Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3370095Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3614114Z",
       "fileCount": 1,
       "fileSize": 449444
     },
@@ -1004,7 +989,7 @@
       "status": 1,
       "timestamp": "2018-09-23T15:49:27.0535804Z",
       "lastWriteTimeUtc": "2018-09-23T15:06:58.5600174Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3380094Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3614114Z",
       "fileCount": 1,
       "fileSize": 4310011
     },
@@ -1694,7 +1679,7 @@
       "status": 1,
       "timestamp": "2018-10-15T12:25:17.9600954Z",
       "lastWriteTimeUtc": "2018-10-14T13:26:56.8254719Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3380094Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3614114Z",
       "fileCount": 51,
       "fileSize": 0
     },
@@ -1709,7 +1694,7 @@
       "status": 1,
       "timestamp": "2018-10-12T18:53:42.9086086Z",
       "lastWriteTimeUtc": "2018-10-11T21:13:55.1349237Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3390089Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3614114Z",
       "fileCount": 1,
       "fileSize": 235834
     },
@@ -1724,7 +1709,7 @@
       "status": 1,
       "timestamp": "2018-10-30T15:39:54.1007349Z",
       "lastWriteTimeUtc": "2018-10-30T15:39:25.6587362Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3390089Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3624112Z",
       "fileCount": 1,
       "fileSize": 107101
     },
@@ -1739,7 +1724,7 @@
       "status": 1,
       "timestamp": "2018-11-07T18:44:25.8755453Z",
       "lastWriteTimeUtc": "2018-11-07T18:36:28.8645024Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3390089Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3624112Z",
       "fileCount": 1,
       "fileSize": 243495
     },
@@ -1754,7 +1739,7 @@
       "status": 1,
       "timestamp": "2018-09-14T20:26:19.4143559Z",
       "lastWriteTimeUtc": "2018-09-14T20:16:33.7400148Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3400088Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3624112Z",
       "fileCount": 1,
       "fileSize": 305890
     },
@@ -1769,7 +1754,7 @@
       "status": 1,
       "timestamp": "2018-11-04T23:29:02.8387396Z",
       "lastWriteTimeUtc": "2018-11-04T20:50:39.7974253Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3400088Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3624112Z",
       "fileCount": 1,
       "fileSize": 1727216
     },
@@ -1784,7 +1769,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.5922471Z",
       "lastWriteTimeUtc": "2018-08-20T10:23:17.7336753Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3400088Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3634108Z",
       "fileCount": 1,
       "fileSize": 176289
     },
@@ -1799,7 +1784,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.6009538Z",
       "lastWriteTimeUtc": "2018-08-20T10:37:48.5563139Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3400088Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3634108Z",
       "fileCount": 1,
       "fileSize": 130481
     },
@@ -1814,7 +1799,7 @@
       "status": 1,
       "timestamp": "2018-08-26T16:41:28.5467471Z",
       "lastWriteTimeUtc": "2018-08-20T10:34:54.9623004Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3410082Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3634108Z",
       "fileCount": 1,
       "fileSize": 16020358
     },
@@ -1829,7 +1814,7 @@
       "status": 1,
       "timestamp": "2018-10-26T22:24:29.3083444Z",
       "lastWriteTimeUtc": "2018-10-26T22:23:55.5205316Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3410082Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3644105Z",
       "fileCount": 1,
       "fileSize": 52325
     },
@@ -1844,7 +1829,7 @@
       "status": 1,
       "timestamp": "2018-10-18T14:03:24.7005618Z",
       "lastWriteTimeUtc": "2018-10-18T14:02:46.3578382Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3410082Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3644105Z",
       "fileCount": 1,
       "fileSize": 6242473
     },
@@ -1859,7 +1844,7 @@
       "status": 1,
       "timestamp": "2018-09-27T20:04:30.1623517Z",
       "lastWriteTimeUtc": "2018-09-27T15:56:20.0551221Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3420081Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3644105Z",
       "fileCount": 1,
       "fileSize": 12650785
     },
@@ -1874,7 +1859,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.4969873Z",
       "lastWriteTimeUtc": "2018-08-24T20:42:25.3350109Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3420081Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3644105Z",
       "fileCount": 1,
       "fileSize": 555445
     },
@@ -1889,7 +1874,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.3170445Z",
       "lastWriteTimeUtc": "2018-08-27T10:44:13.5736534Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3420081Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3654102Z",
       "fileCount": 1,
       "fileSize": 779757
     },
@@ -1904,7 +1889,7 @@
       "status": 1,
       "timestamp": "2018-10-01T20:55:31.5571723Z",
       "lastWriteTimeUtc": "2018-10-01T18:38:09.2052223Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3420081Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3654102Z",
       "fileCount": 1,
       "fileSize": 77016
     },
@@ -1919,7 +1904,7 @@
       "status": 1,
       "timestamp": "2018-10-26T22:24:29.3243401Z",
       "lastWriteTimeUtc": "2018-10-26T22:24:23.8970504Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3430076Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3654102Z",
       "fileCount": 1,
       "fileSize": 19553
     },
@@ -1934,7 +1919,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.5782516Z",
       "lastWriteTimeUtc": "2018-08-20T10:35:54.111056Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3430076Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3654102Z",
       "fileCount": 1,
       "fileSize": 96859
     },
@@ -1949,7 +1934,7 @@
       "status": 1,
       "timestamp": "2018-09-02T19:41:07.7046809Z",
       "lastWriteTimeUtc": "2018-09-02T19:12:10.7413832Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3430076Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3664099Z",
       "fileCount": 1,
       "fileSize": 176934
     },
@@ -1964,7 +1949,7 @@
       "status": 1,
       "timestamp": "2018-11-04T23:29:02.8677299Z",
       "lastWriteTimeUtc": "2018-11-04T20:52:34.5336293Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3430076Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3664099Z",
       "fileCount": 1,
       "fileSize": 5125466
     },
@@ -1979,7 +1964,7 @@
       "status": 1,
       "timestamp": "2018-10-25T12:31:47.6018373Z",
       "lastWriteTimeUtc": "2018-10-24T23:12:01.9167576Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3440073Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3664099Z",
       "fileCount": 1,
       "fileSize": 95850
     },
@@ -1994,7 +1979,7 @@
       "status": 1,
       "timestamp": "2018-11-04T23:29:02.9297102Z",
       "lastWriteTimeUtc": "2018-11-04T20:51:33.019357Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3440073Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3664099Z",
       "fileCount": 1,
       "fileSize": 18214464
     },
@@ -2009,7 +1994,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.5732533Z",
       "lastWriteTimeUtc": "2018-08-20T10:52:44.1518804Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3440073Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3674095Z",
       "fileCount": 1,
       "fileSize": 555982
     },
@@ -2240,7 +2225,7 @@
       "status": 1,
       "timestamp": "2018-11-07T22:08:14.4351803Z",
       "lastWriteTimeUtc": "2018-11-07T20:06:56.1469285Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3450072Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3684094Z",
       "fileCount": 45,
       "fileSize": 0
     },
@@ -2255,7 +2240,7 @@
       "status": 1,
       "timestamp": "2018-09-16T20:35:11.6120883Z",
       "lastWriteTimeUtc": "2018-08-30T10:36:59.3547591Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3450072Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3684094Z",
       "fileCount": 1,
       "fileSize": 7064754
     },
@@ -2270,7 +2255,7 @@
       "status": 1,
       "timestamp": "2018-08-22T10:07:25.9594254Z",
       "lastWriteTimeUtc": "2018-08-20T10:29:35.6620741Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3450072Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3684094Z",
       "fileCount": 1,
       "fileSize": 26034
     },
@@ -2285,7 +2270,7 @@
       "status": 1,
       "timestamp": "2018-10-03T18:38:23.1963542Z",
       "lastWriteTimeUtc": "2018-10-03T18:29:34.0173324Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3450072Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3684094Z",
       "fileCount": 1,
       "fileSize": 36278
     },
@@ -2300,7 +2285,7 @@
       "status": 1,
       "timestamp": "2018-08-20T19:53:42.6749665Z",
       "lastWriteTimeUtc": "2018-08-20T11:13:36.9037472Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3460068Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3694095Z",
       "fileCount": 1,
       "fileSize": 31082
     },
@@ -2315,7 +2300,7 @@
       "status": 1,
       "timestamp": "2018-10-30T15:39:54.0727436Z",
       "lastWriteTimeUtc": "2018-10-29T22:54:23.0652751Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3460068Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3694095Z",
       "fileCount": 1,
       "fileSize": 486776
     },
@@ -2330,7 +2315,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.406016Z",
       "lastWriteTimeUtc": "2018-08-20T11:44:10.8464347Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3470061Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3694095Z",
       "fileCount": 1,
       "fileSize": 161142
     },
@@ -2345,7 +2330,7 @@
       "status": 1,
       "timestamp": "2018-09-11T19:28:09.9884006Z",
       "lastWriteTimeUtc": "2018-08-20T10:51:25.0469749Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3470061Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3694095Z",
       "fileCount": 1,
       "fileSize": 19322
     },
@@ -2360,7 +2345,7 @@
       "status": 1,
       "timestamp": "2018-09-23T15:06:05.255785Z",
       "lastWriteTimeUtc": "2018-09-19T17:47:02.1051433Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3480064Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3704087Z",
       "fileCount": 1,
       "fileSize": 700785
     },
@@ -2375,7 +2360,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.3950197Z",
       "lastWriteTimeUtc": "2018-08-20T10:40:08.6933748Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3480064Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3704087Z",
       "fileCount": 1,
       "fileSize": 315455
     },
@@ -2390,7 +2375,7 @@
       "status": 1,
       "timestamp": "2018-09-17T19:38:06.9532309Z",
       "lastWriteTimeUtc": "2018-08-24T20:32:22.3864532Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3480064Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3704087Z",
       "fileCount": 1,
       "fileSize": 285402
     },
@@ -2405,7 +2390,7 @@
       "status": 1,
       "timestamp": "2018-10-03T18:38:23.2833271Z",
       "lastWriteTimeUtc": "2018-10-03T18:29:45.2087938Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3490058Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3714083Z",
       "fileCount": 1,
       "fileSize": 196397
     },
@@ -2420,7 +2405,7 @@
       "status": 1,
       "timestamp": "2018-10-18T14:03:24.7445475Z",
       "lastWriteTimeUtc": "2018-10-18T14:02:57.8731506Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3490058Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3714083Z",
       "fileCount": 1,
       "fileSize": 11360786
     },
@@ -2435,7 +2420,7 @@
       "status": 1,
       "timestamp": "2018-11-04T23:29:03.0586686Z",
       "lastWriteTimeUtc": "2018-11-04T20:52:01.7941289Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3490058Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3714083Z",
       "fileCount": 1,
       "fileSize": 31806
     },
@@ -2450,7 +2435,7 @@
       "status": 1,
       "timestamp": "2018-11-04T23:29:02.6647954Z",
       "lastWriteTimeUtc": "2018-11-04T20:49:56.6982472Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3490058Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3714083Z",
       "fileCount": 1,
       "fileSize": 22779308
     },
@@ -2465,7 +2450,7 @@
       "status": 1,
       "timestamp": "2018-10-25T12:31:47.5878413Z",
       "lastWriteTimeUtc": "2018-10-24T23:12:10.5369974Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3500055Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3724081Z",
       "fileCount": 1,
       "fileSize": 606351
     },
@@ -2480,7 +2465,7 @@
       "status": 1,
       "timestamp": "2018-09-08T21:48:47.8388175Z",
       "lastWriteTimeUtc": "2018-08-20T11:16:30.114842Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3500055Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3724081Z",
       "fileCount": 1,
       "fileSize": 1255887
     },
@@ -2495,7 +2480,7 @@
       "status": 1,
       "timestamp": "2018-10-18T14:03:24.533615Z",
       "lastWriteTimeUtc": "2018-10-18T14:01:41.7785146Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3500055Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3724081Z",
       "fileCount": 1,
       "fileSize": 2905493
     },
@@ -2510,7 +2495,7 @@
       "status": 1,
       "timestamp": "2018-09-08T21:48:47.3369775Z",
       "lastWriteTimeUtc": "2018-08-20T10:56:36.3987421Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3510051Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3734079Z",
       "fileCount": 1,
       "fileSize": 153197
     },
@@ -2525,7 +2510,7 @@
       "status": 1,
       "timestamp": "2018-08-22T18:29:00.7327412Z",
       "lastWriteTimeUtc": "2018-08-20T10:42:39.2416598Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3510051Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3734079Z",
       "fileCount": 1,
       "fileSize": 25043
     },
@@ -2540,9 +2525,24 @@
       "status": 1,
       "timestamp": "2018-09-11T19:28:09.7869612Z",
       "lastWriteTimeUtc": "2018-08-20T10:32:04.2599466Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3510051Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3734079Z",
       "fileCount": 1,
       "fileSize": 906018
+    },
+    {
+      "folderName": "Atomic-Science-1.12.2-3.0.6b19.jar",
+      "fingerprint": 1622126662,
+      "fileDateHash": 655657071,
+      "sectionID": 6,
+      "individualFingerprints": [
+        1622126662
+      ],
+      "status": 1,
+      "timestamp": "2018-11-12T23:54:47.5804212Z",
+      "lastWriteTimeUtc": "2018-11-12T21:49:02.8081156Z",
+      "queryTimestamp": "2018-11-14T19:15:22.0472952Z",
+      "fileCount": 1,
+      "fileSize": 1240856
     },
     {
       "folderName": "rftools-1.12-7.57.jar",
@@ -2555,7 +2555,7 @@
       "status": 1,
       "timestamp": "2018-11-12T19:40:26.0818236Z",
       "lastWriteTimeUtc": "2018-11-12T16:26:39.4831988Z",
-      "queryTimestamp": "2018-11-12T19:40:26.5416759Z",
+      "queryTimestamp": "2018-11-13T23:39:11.799116Z",
       "fileCount": 1,
       "fileSize": 2887894
     },
@@ -2570,7 +2570,7 @@
       "status": 1,
       "timestamp": "2018-10-03T18:38:23.1493699Z",
       "lastWriteTimeUtc": "2018-10-03T18:29:23.400711Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3510051Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3744074Z",
       "fileCount": 1,
       "fileSize": 99090
     },
@@ -2585,7 +2585,7 @@
       "status": 1,
       "timestamp": "2018-11-04T23:29:03.0606679Z",
       "lastWriteTimeUtc": "2018-11-04T20:52:26.6091706Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3520047Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3744074Z",
       "fileCount": 1,
       "fileSize": 159826
     },
@@ -2600,7 +2600,7 @@
       "status": 1,
       "timestamp": "2018-10-01T16:00:16.7570867Z",
       "lastWriteTimeUtc": "2018-10-01T15:59:11.0209938Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3520047Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3744074Z",
       "fileCount": 1,
       "fileSize": 214428
     },
@@ -2615,7 +2615,7 @@
       "status": 1,
       "timestamp": "2018-11-04T23:29:03.066666Z",
       "lastWriteTimeUtc": "2018-11-04T20:52:45.2052069Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3520047Z",
+      "queryTimestamp": "2018-11-14T21:15:18.375407Z",
       "fileCount": 1,
       "fileSize": 635338
     },
@@ -2630,7 +2630,7 @@
       "status": 1,
       "timestamp": "2018-09-11T19:28:10.0633772Z",
       "lastWriteTimeUtc": "2018-08-30T10:38:38.3644422Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3520047Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3764067Z",
       "fileCount": 1,
       "fileSize": 42609
     },
@@ -2645,7 +2645,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.7761885Z",
       "lastWriteTimeUtc": "2018-08-20T10:30:48.5709552Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3530044Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3764067Z",
       "fileCount": 1,
       "fileSize": 203460
     },
@@ -2660,7 +2660,7 @@
       "status": 1,
       "timestamp": "2018-08-22T10:07:26.1743564Z",
       "lastWriteTimeUtc": "2018-08-20T10:46:15.2917012Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3530044Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3764067Z",
       "fileCount": 1,
       "fileSize": 42906
     },
@@ -2675,31 +2675,36 @@
       "status": 1,
       "timestamp": "2018-09-11T19:28:10.0223901Z",
       "lastWriteTimeUtc": "2018-08-20T10:35:24.6174011Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3530044Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3764067Z",
       "fileCount": 1,
       "fileSize": 2177817
     },
     {
       "folderName": "Progression World",
-      "fingerprint": 451135477,
-      "fileDateHash": 1429489081,
+      "fingerprint": 2198789537,
+      "fileDateHash": 1042921263,
       "sectionID": 17,
       "individualFingerprints": [
         21732952,
         27320080,
+        88419321,
         89182320,
         116423505,
         119929088,
         153096096,
+        157525285,
         175724813,
         239919920,
         239919920,
         346151413,
-        375549218,
         391023048,
         396855217,
         399763499,
+        402350169,
         421494449,
+        432056223,
+        438170646,
+        458575301,
         460094007,
         489458212,
         489458212,
@@ -2719,14 +2724,12 @@
         489458212,
         493877642,
         498572511,
-        537347324,
-        537347324,
-        537347324,
-        537347324,
         580262400,
         611634437,
+        653082644,
         676988680,
         679012161,
+        689142782,
         732676616,
         758054953,
         758054953,
@@ -2753,9 +2756,7 @@
         758054953,
         789439508,
         792719333,
-        797414128,
         802051867,
-        823751058,
         827095010,
         827095010,
         827095010,
@@ -2780,9 +2781,10 @@
         827095010,
         827095010,
         827095010,
-        835372330,
+        828656612,
         879732342,
         892732752,
+        976365335,
         1041101642,
         1068447471,
         1068447471,
@@ -2791,8 +2793,6 @@
         1068447471,
         1068447471,
         1068447471,
-        1090824166,
-        1195384369,
         1200811285,
         1222802607,
         1222802607,
@@ -2813,43 +2813,44 @@
         1254400901,
         1254400901,
         1254400901,
+        1257385558,
         1266832948,
         1285571696,
         1290992928,
-        1296815775,
         1330685547,
         1403494374,
+        1433387070,
         1494096185,
         1498841218,
         1552097572,
-        1556884041,
         1564098957,
         1576169130,
         1613289827,
+        1656457662,
         1663705599,
+        1680891216,
         1693721928,
         1735812051,
         1772417415,
         1785968277,
+        1786163861,
         1842190932,
         1895060417,
-        1943023119,
         1946936536,
         1981211636,
         1981211636,
         1984873842,
-        2001829225,
         2088974731,
-        2100878409,
-        2110297913,
         2124076709,
         2129503909,
         2134092238,
         2142287936,
         2169867367,
         2169867367,
+        2216604670,
         2219708140,
         2250013309,
+        2312420447,
         2325125830,
         2329593959,
         2357926260,
@@ -2883,28 +2884,25 @@
         2435962164,
         2443136014,
         2502585590,
-        2610245018,
         2615181391,
+        2619326842,
         2636453190,
-        2646411511,
         2729243037,
-        2740470711,
-        2751266366,
         2761208926,
         2763463119,
         2767816562,
+        2782529355,
         2806307567,
         2852205304,
         2907975276,
         2929471575,
         3008097874,
-        3020912483,
         3174664715,
         3184781582,
         3383409723,
         3452851459,
         3462410450,
-        3503471486,
+        3530008543,
         3553861632,
         3553861632,
         3553861632,
@@ -2929,33 +2927,35 @@
         3553861632,
         3553861632,
         3567785790,
+        3579875793,
         3582932549,
         3590743117,
-        3663087499,
+        3631178428,
         3717191340,
         3720823954,
         3771282984,
-        3773575062,
         3794097604,
         3826788790,
         3834979825,
         3883077771,
-        3894114935,
         3899176432,
+        4044751640,
         4071038596,
         4083554476,
         4094441158,
-        4096377222,
-        4191532950,
+        4162139077,
+        4162139077,
+        4162139077,
+        4162139077,
         4213863462,
         4265557949,
         4272588933,
         4272588933
       ],
       "status": 1,
-      "timestamp": "2018-11-12T16:24:26.48796Z",
-      "lastWriteTimeUtc": "2018-11-12T16:23:48.5269795Z",
-      "queryTimestamp": "2018-11-12T16:24:27.103268Z",
+      "timestamp": "2018-11-13T23:39:10.5290176Z",
+      "lastWriteTimeUtc": "2018-11-13T23:37:25.2849732Z",
+      "queryTimestamp": "2018-11-13T23:39:11.802115Z",
       "fileCount": 47,
       "fileSize": 0
     },
@@ -2970,7 +2970,7 @@
       "status": 1,
       "timestamp": "2018-11-12T19:40:26.1018169Z",
       "lastWriteTimeUtc": "2018-11-12T16:26:50.215785Z",
-      "queryTimestamp": "2018-11-12T19:40:26.5446752Z",
+      "queryTimestamp": "2018-11-13T23:39:11.802115Z",
       "fileCount": 1,
       "fileSize": 3921062
     },
@@ -2985,7 +2985,7 @@
       "status": 1,
       "timestamp": "2018-11-04T23:29:02.7957531Z",
       "lastWriteTimeUtc": "2018-11-04T20:50:05.4844296Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3540041Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3774064Z",
       "fileCount": 1,
       "fileSize": 895061
     },
@@ -3000,7 +3000,7 @@
       "status": 1,
       "timestamp": "2018-10-18T14:03:24.6335828Z",
       "lastWriteTimeUtc": "2018-10-18T14:01:52.8049844Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3540041Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3774064Z",
       "fileCount": 1,
       "fileSize": 418511
     },
@@ -3015,7 +3015,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.3980184Z",
       "lastWriteTimeUtc": "2018-08-20T11:32:40.2114847Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3540041Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3784061Z",
       "fileCount": 1,
       "fileSize": 84409
     },
@@ -3030,7 +3030,7 @@
       "status": 1,
       "timestamp": "2018-08-20T19:53:43.3947363Z",
       "lastWriteTimeUtc": "2018-08-20T11:02:21.9041877Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3550038Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3784061Z",
       "fileCount": 1,
       "fileSize": 66307
     },
@@ -3045,7 +3045,7 @@
       "status": 1,
       "timestamp": "2018-11-04T23:29:02.8477364Z",
       "lastWriteTimeUtc": "2018-11-04T20:50:41.7717923Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3560033Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3784061Z",
       "fileCount": 1,
       "fileSize": 998794
     },
@@ -3060,7 +3060,7 @@
       "status": 1,
       "timestamp": "2018-10-12T18:53:42.9146058Z",
       "lastWriteTimeUtc": "2018-10-11T21:13:58.2639202Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3560033Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3784061Z",
       "fileCount": 1,
       "fileSize": 7718832
     },
@@ -3075,7 +3075,7 @@
       "status": 1,
       "timestamp": "2018-11-04T23:29:02.9067175Z",
       "lastWriteTimeUtc": "2018-11-04T20:51:13.1857177Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3560033Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3794063Z",
       "fileCount": 1,
       "fileSize": 2751117
     },
@@ -3090,7 +3090,7 @@
       "status": 1,
       "timestamp": "2018-08-20T19:53:41.9286717Z",
       "lastWriteTimeUtc": "2018-08-20T11:21:08.2756527Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3570034Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3794063Z",
       "fileCount": 1,
       "fileSize": 3806071
     },
@@ -3105,7 +3105,7 @@
       "status": 1,
       "timestamp": "2018-11-04T23:29:02.8007513Z",
       "lastWriteTimeUtc": "2018-11-04T20:50:13.8297535Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3570034Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3794063Z",
       "fileCount": 1,
       "fileSize": 716388
     },
@@ -3120,7 +3120,7 @@
       "status": 1,
       "timestamp": "2018-10-12T18:53:42.8206361Z",
       "lastWriteTimeUtc": "2018-10-11T21:13:23.4081Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3570034Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3794063Z",
       "fileCount": 1,
       "fileSize": 1301473
     },
@@ -3135,7 +3135,7 @@
       "status": 1,
       "timestamp": "2018-10-25T12:31:47.3519174Z",
       "lastWriteTimeUtc": "2018-10-24T23:10:21.0810431Z",
-      "queryTimestamp": "2018-11-12T16:23:21.358003Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3804055Z",
       "fileCount": 1,
       "fileSize": 3834020
     },
@@ -3150,7 +3150,7 @@
       "status": 1,
       "timestamp": "2018-09-17T19:48:35.893324Z",
       "lastWriteTimeUtc": "2018-08-20T10:23:00.8000169Z",
-      "queryTimestamp": "2018-11-12T16:23:21.358003Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3804055Z",
       "fileCount": 1,
       "fileSize": 1822850
     },
@@ -3447,7 +3447,7 @@
       "status": 1,
       "timestamp": "2018-09-11T19:51:47.390704Z",
       "lastWriteTimeUtc": "2018-09-11T19:51:07.0555449Z",
-      "queryTimestamp": "2018-11-12T16:23:21.358003Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3804055Z",
       "fileCount": 47,
       "fileSize": 0
     },
@@ -3462,7 +3462,7 @@
       "status": 1,
       "timestamp": "2018-10-15T12:25:17.8801213Z",
       "lastWriteTimeUtc": "2018-10-14T13:28:59.9709727Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3590026Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3814051Z",
       "fileCount": 1,
       "fileSize": 76751
     },
@@ -3477,7 +3477,7 @@
       "status": 1,
       "timestamp": "2018-10-25T12:31:47.5568512Z",
       "lastWriteTimeUtc": "2018-10-24T23:11:08.4588739Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3590026Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3814051Z",
       "fileCount": 1,
       "fileSize": 430351
     },
@@ -3492,7 +3492,7 @@
       "status": 1,
       "timestamp": "2018-11-12T19:40:26.057831Z",
       "lastWriteTimeUtc": "2018-11-12T16:25:54.9498491Z",
-      "queryTimestamp": "2018-11-12T19:40:26.5496732Z",
+      "queryTimestamp": "2018-11-13T23:39:11.808113Z",
       "fileCount": 1,
       "fileSize": 409072
     },
@@ -3507,7 +3507,7 @@
       "status": 1,
       "timestamp": "2018-10-01T16:00:16.7121008Z",
       "lastWriteTimeUtc": "2018-10-01T15:58:04.8110551Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3590026Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3814051Z",
       "fileCount": 1,
       "fileSize": 431890
     },
@@ -3522,7 +3522,7 @@
       "status": 1,
       "timestamp": "2018-11-04T23:29:02.8927218Z",
       "lastWriteTimeUtc": "2018-11-04T20:51:00.3968192Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3600028Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3824048Z",
       "fileCount": 1,
       "fileSize": 876047
     },
@@ -3537,7 +3537,7 @@
       "status": 1,
       "timestamp": "2018-10-03T18:38:23.1423723Z",
       "lastWriteTimeUtc": "2018-10-03T18:29:20.8920114Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3600028Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3824048Z",
       "fileCount": 1,
       "fileSize": 531831
     },
@@ -3552,7 +3552,7 @@
       "status": 1,
       "timestamp": "2018-08-21T17:58:57.7577508Z",
       "lastWriteTimeUtc": "2018-08-20T10:47:31.6854888Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3600028Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3824048Z",
       "fileCount": 1,
       "fileSize": 24645
     },
@@ -3567,7 +3567,7 @@
       "status": 1,
       "timestamp": "2018-09-11T21:18:05.6770181Z",
       "lastWriteTimeUtc": "2018-09-02T19:11:48.643367Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3610017Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3824048Z",
       "fileCount": 1,
       "fileSize": 329326
     },
@@ -3582,7 +3582,7 @@
       "status": 1,
       "timestamp": "2018-09-16T20:35:11.8150238Z",
       "lastWriteTimeUtc": "2018-08-20T10:33:45.6152826Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3610017Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3834044Z",
       "fileCount": 1,
       "fileSize": 136082
     },
@@ -3597,7 +3597,7 @@
       "status": 1,
       "timestamp": "2018-10-07T12:35:32.526527Z",
       "lastWriteTimeUtc": "2018-10-07T11:29:53.1452234Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3610017Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3834044Z",
       "fileCount": 1,
       "fileSize": 844143
     },
@@ -3612,7 +3612,7 @@
       "status": 1,
       "timestamp": "2018-08-22T10:07:26.0174068Z",
       "lastWriteTimeUtc": "2018-08-20T10:23:45.580054Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3620022Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3834044Z",
       "fileCount": 1,
       "fileSize": 30005
     },
@@ -3627,7 +3627,7 @@
       "status": 1,
       "timestamp": "2018-10-07T12:35:32.5095327Z",
       "lastWriteTimeUtc": "2018-10-07T11:29:33.4135004Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3630012Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3834044Z",
       "fileCount": 1,
       "fileSize": 910239
     },
@@ -3642,7 +3642,7 @@
       "status": 1,
       "timestamp": "2018-11-04T23:29:02.8967205Z",
       "lastWriteTimeUtc": "2018-11-04T20:50:58.8363195Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3630012Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3844042Z",
       "fileCount": 1,
       "fileSize": 423926
     },
@@ -3657,7 +3657,7 @@
       "status": 1,
       "timestamp": "2018-10-30T21:00:03.5445749Z",
       "lastWriteTimeUtc": "2018-10-30T15:49:13.7768315Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3630012Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3854038Z",
       "fileCount": 1,
       "fileSize": 75709
     },
@@ -3672,7 +3672,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.765192Z",
       "lastWriteTimeUtc": "2018-08-20T10:40:59.9676223Z",
-      "queryTimestamp": "2018-11-12T16:23:21.364001Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3854038Z",
       "fileCount": 1,
       "fileSize": 122873
     },
@@ -3687,7 +3687,7 @@
       "status": 1,
       "timestamp": "2018-10-15T12:25:17.879121Z",
       "lastWriteTimeUtc": "2018-10-14T13:28:52.1994653Z",
-      "queryTimestamp": "2018-11-12T16:23:21.364001Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3854038Z",
       "fileCount": 1,
       "fileSize": 44033
     },
@@ -3702,7 +3702,7 @@
       "status": 1,
       "timestamp": "2018-09-12T14:33:58.0563348Z",
       "lastWriteTimeUtc": "2018-09-12T14:25:39.4786445Z",
-      "queryTimestamp": "2018-11-12T16:23:21.364001Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3854038Z",
       "fileCount": 1,
       "fileSize": 405798
     },
@@ -3717,7 +3717,7 @@
       "status": 1,
       "timestamp": "2018-09-11T21:18:05.5290664Z",
       "lastWriteTimeUtc": "2018-08-20T10:57:32.5779439Z",
-      "queryTimestamp": "2018-11-12T16:23:21.364001Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3864035Z",
       "fileCount": 1,
       "fileSize": 11506446
     },
@@ -3732,7 +3732,7 @@
       "status": 1,
       "timestamp": "2018-11-07T18:44:25.8685472Z",
       "lastWriteTimeUtc": "2018-11-07T18:35:29.719877Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3650009Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3864035Z",
       "fileCount": 1,
       "fileSize": 1321095
     },
@@ -3747,7 +3747,7 @@
       "status": 1,
       "timestamp": "2018-11-04T23:29:03.0586686Z",
       "lastWriteTimeUtc": "2018-11-04T20:51:59.3699062Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3650009Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3864035Z",
       "fileCount": 1,
       "fileSize": 22262
     },
@@ -3762,7 +3762,7 @@
       "status": 1,
       "timestamp": "2018-11-04T23:29:02.7957531Z",
       "lastWriteTimeUtc": "2018-11-04T21:03:56.8227939Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3660003Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3864035Z",
       "fileCount": 1,
       "fileSize": 45137
     },
@@ -3777,7 +3777,7 @@
       "status": 1,
       "timestamp": "2018-09-16T20:35:12.5487886Z",
       "lastWriteTimeUtc": "2018-09-14T21:09:47.8949807Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3660003Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3874031Z",
       "fileCount": 1,
       "fileSize": 520550
     },
@@ -4045,7 +4045,7 @@
       "status": 1,
       "timestamp": "2018-08-26T19:26:43.4707967Z",
       "lastWriteTimeUtc": "2018-08-26T19:25:36.139669Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3660003Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3874031Z",
       "fileCount": 42,
       "fileSize": 0
     },
@@ -4060,7 +4060,7 @@
       "status": 1,
       "timestamp": "2018-09-27T14:28:29.494635Z",
       "lastWriteTimeUtc": "2018-09-26T13:41:17.3958386Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3660003Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3874031Z",
       "fileCount": 1,
       "fileSize": 16304269
     },
@@ -4075,7 +4075,7 @@
       "status": 1,
       "timestamp": "2018-09-12T18:56:26.5798546Z",
       "lastWriteTimeUtc": "2018-09-12T18:25:56.9777897Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3669999Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3884029Z",
       "fileCount": 1,
       "fileSize": 835266
     },
@@ -4090,7 +4090,7 @@
       "status": 1,
       "timestamp": "2018-10-30T15:39:54.0997348Z",
       "lastWriteTimeUtc": "2018-10-29T22:54:38.2024285Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3669999Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3884029Z",
       "fileCount": 1,
       "fileSize": 70086
     },
@@ -4105,7 +4105,7 @@
       "status": 1,
       "timestamp": "2018-11-04T23:29:03.0646667Z",
       "lastWriteTimeUtc": "2018-11-04T20:52:37.3997101Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3669999Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3884029Z",
       "fileCount": 1,
       "fileSize": 332091
     },
@@ -4120,7 +4120,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.6199481Z",
       "lastWriteTimeUtc": "2018-08-20T11:05:20.5665014Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3679999Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3884029Z",
       "fileCount": 1,
       "fileSize": 81332
     },
@@ -4135,7 +4135,7 @@
       "status": 1,
       "timestamp": "2018-09-11T19:28:09.7919597Z",
       "lastWriteTimeUtc": "2018-08-20T10:37:41.0092052Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3679999Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3894029Z",
       "fileCount": 1,
       "fileSize": 522502
     },
@@ -4150,7 +4150,7 @@
       "status": 1,
       "timestamp": "2018-10-25T12:31:47.2679441Z",
       "lastWriteTimeUtc": "2018-10-24T23:10:05.9358922Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3679999Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3894029Z",
       "fileCount": 1,
       "fileSize": 13787931
     },
@@ -4165,7 +4165,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.4689959Z",
       "lastWriteTimeUtc": "2018-08-20T10:56:37.5998623Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3679999Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3894029Z",
       "fileCount": 1,
       "fileSize": 224287
     },
@@ -4180,7 +4180,7 @@
       "status": 1,
       "timestamp": "2018-11-12T19:40:26.019843Z",
       "lastWriteTimeUtc": "2018-11-12T16:24:42.4368933Z",
-      "queryTimestamp": "2018-11-12T19:40:26.5576706Z",
+      "queryTimestamp": "2018-11-13T23:39:11.8181095Z",
       "fileCount": 1,
       "fileSize": 4057137
     },
@@ -4195,7 +4195,7 @@
       "status": 1,
       "timestamp": "2018-08-22T10:07:26.413279Z",
       "lastWriteTimeUtc": "2018-08-20T10:54:53.9447299Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3689999Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3904023Z",
       "fileCount": 1,
       "fileSize": 75731
     },
@@ -4210,7 +4210,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.2770573Z",
       "lastWriteTimeUtc": "2018-08-20T11:13:59.5575606Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3689999Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3904023Z",
       "fileCount": 1,
       "fileSize": 61372
     },
@@ -4225,7 +4225,7 @@
       "status": 1,
       "timestamp": "2018-11-07T18:44:25.9235297Z",
       "lastWriteTimeUtc": "2018-11-07T18:33:31.7003065Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3689999Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3904023Z",
       "fileCount": 1,
       "fileSize": 80643670
     },
@@ -4240,7 +4240,7 @@
       "status": 1,
       "timestamp": "2018-10-07T12:35:32.5355244Z",
       "lastWriteTimeUtc": "2018-10-07T11:35:12.9949102Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3689999Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3914019Z",
       "fileCount": 1,
       "fileSize": 10342
     },
@@ -4255,7 +4255,7 @@
       "status": 1,
       "timestamp": "2018-10-25T12:42:34.583423Z",
       "lastWriteTimeUtc": "2018-10-25T12:32:42.3933543Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3699992Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3914019Z",
       "fileCount": 1,
       "fileSize": 1684102
     },
@@ -4270,7 +4270,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.294052Z",
       "lastWriteTimeUtc": "2018-08-20T10:34:24.3549888Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3709992Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3914019Z",
       "fileCount": 1,
       "fileSize": 112248
     },
@@ -4285,7 +4285,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.5902476Z",
       "lastWriteTimeUtc": "2018-08-20T10:31:03.7201537Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3709992Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3914019Z",
       "fileCount": 1,
       "fileSize": 13723
     },
@@ -4300,7 +4300,7 @@
       "status": 1,
       "timestamp": "2018-10-07T12:35:32.7894433Z",
       "lastWriteTimeUtc": "2018-10-07T11:40:32.1268422Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3709992Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3924016Z",
       "fileCount": 1,
       "fileSize": 2304958
     },
@@ -4315,7 +4315,7 @@
       "status": 1,
       "timestamp": "2018-09-10T17:15:10.2623676Z",
       "lastWriteTimeUtc": "2018-08-20T11:16:50.3979057Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3709992Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3934015Z",
       "fileCount": 1,
       "fileSize": 24897365
     },
@@ -4330,7 +4330,7 @@
       "status": 1,
       "timestamp": "2018-09-11T17:04:49.4317767Z",
       "lastWriteTimeUtc": "2018-08-20T10:39:50.2232331Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3719989Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3934015Z",
       "fileCount": 1,
       "fileSize": 63756
     },
@@ -4345,7 +4345,7 @@
       "status": 1,
       "timestamp": "2018-09-08T21:48:47.3779645Z",
       "lastWriteTimeUtc": "2018-08-20T10:31:56.8293055Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3719989Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3934015Z",
       "fileCount": 1,
       "fileSize": 213675
     },
@@ -4360,7 +4360,7 @@
       "status": 1,
       "timestamp": "2018-11-12T19:40:25.8728908Z",
       "lastWriteTimeUtc": "2018-11-12T16:25:16.0972016Z",
-      "queryTimestamp": "2018-11-12T19:40:26.5616694Z",
+      "queryTimestamp": "2018-11-13T23:39:11.8211089Z",
       "fileCount": 1,
       "fileSize": 13641200
     },
@@ -4375,7 +4375,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.5902476Z",
       "lastWriteTimeUtc": "2018-08-20T10:52:44.7636854Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3719989Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3944009Z",
       "fileCount": 1,
       "fileSize": 253901
     },
@@ -4390,7 +4390,7 @@
       "status": 1,
       "timestamp": "2018-10-07T12:35:32.5425216Z",
       "lastWriteTimeUtc": "2018-10-07T11:39:52.7718466Z",
-      "queryTimestamp": "2018-11-12T16:23:21.372998Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3944009Z",
       "fileCount": 1,
       "fileSize": 24450272
     },
@@ -4405,7 +4405,7 @@
       "status": 1,
       "timestamp": "2018-08-20T19:53:41.9086779Z",
       "lastWriteTimeUtc": "2018-08-20T10:23:26.8359953Z",
-      "queryTimestamp": "2018-11-12T16:23:21.372998Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3944009Z",
       "fileCount": 1,
       "fileSize": 263258
     },
@@ -4420,7 +4420,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.3970188Z",
       "lastWriteTimeUtc": "2018-08-20T10:38:49.4904934Z",
-      "queryTimestamp": "2018-11-12T16:23:21.372998Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3944009Z",
       "fileCount": 1,
       "fileSize": 7863
     },
@@ -4435,7 +4435,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.263062Z",
       "lastWriteTimeUtc": "2018-08-20T10:35:24.0740706Z",
-      "queryTimestamp": "2018-11-12T16:23:21.372998Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3954009Z",
       "fileCount": 1,
       "fileSize": 97062
     },
@@ -4450,7 +4450,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.4070162Z",
       "lastWriteTimeUtc": "2018-08-27T10:12:21.8841245Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3739978Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3954009Z",
       "fileCount": 1,
       "fileSize": 16887
     },
@@ -4465,7 +4465,7 @@
       "status": 1,
       "timestamp": "2018-09-08T21:48:47.3729659Z",
       "lastWriteTimeUtc": "2018-08-20T11:10:34.3845342Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3739978Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3954009Z",
       "fileCount": 1,
       "fileSize": 53247
     },
@@ -4480,7 +4480,7 @@
       "status": 1,
       "timestamp": "2018-11-04T23:29:03.0696651Z",
       "lastWriteTimeUtc": "2018-11-04T20:52:47.0636109Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3739978Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3964009Z",
       "fileCount": 1,
       "fileSize": 870678
     },
@@ -4495,7 +4495,7 @@
       "status": 1,
       "timestamp": "2018-09-16T21:33:08.6350126Z",
       "lastWriteTimeUtc": "2018-08-20T10:52:56.2480448Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3739978Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3964009Z",
       "fileCount": 1,
       "fileSize": 225142
     },
@@ -4510,7 +4510,7 @@
       "status": 1,
       "timestamp": "2018-09-11T17:04:49.4107835Z",
       "lastWriteTimeUtc": "2018-08-20T10:30:42.2799497Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3749977Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3964009Z",
       "fileCount": 1,
       "fileSize": 1140374
     },
@@ -4525,7 +4525,7 @@
       "status": 1,
       "timestamp": "2018-11-04T23:29:03.0226808Z",
       "lastWriteTimeUtc": "2018-11-04T20:51:56.4588399Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3749977Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3964009Z",
       "fileCount": 1,
       "fileSize": 6972755
     },
@@ -4540,7 +4540,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.5672553Z",
       "lastWriteTimeUtc": "2018-08-20T10:36:37.8732076Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3749977Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3974Z",
       "fileCount": 1,
       "fileSize": 11604
     },
@@ -4555,7 +4555,7 @@
       "status": 1,
       "timestamp": "2018-11-12T19:40:25.9468669Z",
       "lastWriteTimeUtc": "2018-11-12T16:24:40.6939481Z",
-      "queryTimestamp": "2018-11-12T19:40:26.5656683Z",
+      "queryTimestamp": "2018-11-13T23:39:11.8261074Z",
       "fileCount": 1,
       "fileSize": 12199793
     },
@@ -4570,7 +4570,7 @@
       "status": 1,
       "timestamp": "2018-08-22T18:29:00.6897399Z",
       "lastWriteTimeUtc": "2018-08-20T10:47:49.7787543Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3759975Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3974Z",
       "fileCount": 1,
       "fileSize": 18251
     },
@@ -4585,7 +4585,7 @@
       "status": 1,
       "timestamp": "2018-10-03T18:38:23.1453709Z",
       "lastWriteTimeUtc": "2018-10-03T18:35:58.0962854Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3759975Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3984001Z",
       "fileCount": 1,
       "fileSize": 823259
     },
@@ -4600,7 +4600,7 @@
       "status": 1,
       "timestamp": "2018-10-26T22:24:29.3013468Z",
       "lastWriteTimeUtc": "2018-10-26T22:23:48.7391816Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3759975Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3984001Z",
       "fileCount": 1,
       "fileSize": 439338
     },
@@ -4615,7 +4615,7 @@
       "status": 1,
       "timestamp": "2018-11-12T19:40:26.076825Z",
       "lastWriteTimeUtc": "2018-11-12T16:26:35.9998033Z",
-      "queryTimestamp": "2018-11-12T19:40:26.5666679Z",
+      "queryTimestamp": "2018-11-13T23:39:11.8271066Z",
       "fileCount": 1,
       "fileSize": 89605
     },
@@ -4630,7 +4630,7 @@
       "status": 1,
       "timestamp": "2018-10-26T22:24:29.3233397Z",
       "lastWriteTimeUtc": "2018-10-26T22:24:11.6029358Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3769965Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3984001Z",
       "fileCount": 1,
       "fileSize": 63161
     },
@@ -4645,7 +4645,7 @@
       "status": 1,
       "timestamp": "2018-09-27T15:05:02.2776969Z",
       "lastWriteTimeUtc": "2018-09-27T14:46:10.529733Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3769965Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3993995Z",
       "fileCount": 1,
       "fileSize": 216277
     },
@@ -4660,7 +4660,7 @@
       "status": 1,
       "timestamp": "2018-11-04T23:29:02.9237121Z",
       "lastWriteTimeUtc": "2018-11-04T20:51:18.1731183Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3769965Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3993995Z",
       "fileCount": 1,
       "fileSize": 1184851
     },
@@ -4675,7 +4675,7 @@
       "status": 1,
       "timestamp": "2018-09-23T15:06:05.2857755Z",
       "lastWriteTimeUtc": "2018-09-19T17:47:14.8281138Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3779967Z",
+      "queryTimestamp": "2018-11-14T21:15:18.3993995Z",
       "fileCount": 1,
       "fileSize": 7296016
     },
@@ -4690,7 +4690,7 @@
       "status": 1,
       "timestamp": "2018-10-25T12:31:47.595839Z",
       "lastWriteTimeUtc": "2018-10-24T23:11:59.1946291Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3779967Z",
+      "queryTimestamp": "2018-11-14T21:15:18.4003992Z",
       "fileCount": 1,
       "fileSize": 301674
     },
@@ -4705,7 +4705,7 @@
       "status": 1,
       "timestamp": "2018-09-12T14:33:58.053336Z",
       "lastWriteTimeUtc": "2018-09-12T14:25:35.405439Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3779967Z",
+      "queryTimestamp": "2018-11-14T21:15:18.4003992Z",
       "fileCount": 1,
       "fileSize": 398642
     },
@@ -4720,7 +4720,7 @@
       "status": 1,
       "timestamp": "2018-08-22T10:07:26.0124078Z",
       "lastWriteTimeUtc": "2018-08-20T10:46:16.1714201Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3789964Z",
+      "queryTimestamp": "2018-11-14T21:15:18.4003992Z",
       "fileCount": 1,
       "fileSize": 33564
     },
@@ -4735,7 +4735,7 @@
       "status": 1,
       "timestamp": "2018-11-04T23:29:03.0616676Z",
       "lastWriteTimeUtc": "2018-11-04T20:52:29.2703172Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3789964Z",
+      "queryTimestamp": "2018-11-14T21:15:18.401399Z",
       "fileCount": 1,
       "fileSize": 599123
     },
@@ -4750,7 +4750,7 @@
       "status": 1,
       "timestamp": "2018-09-08T21:48:47.3429759Z",
       "lastWriteTimeUtc": "2018-08-20T10:55:45.2759548Z",
-      "queryTimestamp": "2018-11-12T16:23:21.379996Z",
+      "queryTimestamp": "2018-11-14T21:15:18.401399Z",
       "fileCount": 1,
       "fileSize": 18945
     },
@@ -4765,7 +4765,7 @@
       "status": 1,
       "timestamp": "2018-08-30T13:09:49.6003477Z",
       "lastWriteTimeUtc": "2018-08-30T10:36:05.5637751Z",
-      "queryTimestamp": "2018-11-12T16:23:21.379996Z",
+      "queryTimestamp": "2018-11-14T21:15:18.4023989Z",
       "fileCount": 1,
       "fileSize": 534420
     },
@@ -4780,7 +4780,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.8388779Z",
       "lastWriteTimeUtc": "2018-08-30T10:36:14.6344047Z",
-      "queryTimestamp": "2018-11-12T16:23:21.379996Z",
+      "queryTimestamp": "2018-11-14T21:15:18.4023989Z",
       "fileCount": 1,
       "fileSize": 13504
     },
@@ -4795,7 +4795,7 @@
       "status": 1,
       "timestamp": "2018-09-16T20:35:11.5411108Z",
       "lastWriteTimeUtc": "2018-08-28T17:47:41.9097578Z",
-      "queryTimestamp": "2018-11-12T16:23:21.379996Z",
+      "queryTimestamp": "2018-11-14T21:15:18.4023989Z",
       "fileCount": 1,
       "fileSize": 459232
     },
@@ -4810,7 +4810,7 @@
       "status": 1,
       "timestamp": "2018-10-07T12:35:32.7724478Z",
       "lastWriteTimeUtc": "2018-10-07T11:40:29.7510977Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3809957Z",
+      "queryTimestamp": "2018-11-14T21:15:18.4033982Z",
       "fileCount": 1,
       "fileSize": 761778
     },
@@ -4825,13 +4825,13 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.7342017Z",
       "lastWriteTimeUtc": "2018-09-06T19:33:57.8955639Z",
-      "queryTimestamp": "2018-11-12T16:23:21.3809957Z",
+      "queryTimestamp": "2018-11-14T21:15:18.4033982Z",
       "fileCount": 1,
       "fileSize": 21270
     }
   ],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2018-11-12T19:40:27.1634765Z",
+  "lastPreviousMatchUpdate": "2018-11-14T22:54:32.2267543Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.12.2",
@@ -5410,7 +5410,7 @@
       "dateInstalled": "2018-08-20T10:23:04.1599535Z",
       "dateUpdated": "2018-11-12T16:26:50.2257823Z",
       "dateLastUpdateAttempted": "2018-11-12T16:26:50.2257823Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -5964,7 +5964,7 @@
       "dateInstalled": "2018-08-20T10:28:53.1630446Z",
       "dateUpdated": "2018-11-12T16:24:42.4478902Z",
       "dateLastUpdateAttempted": "2018-11-12T16:24:42.4478902Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7241,7 +7241,7 @@
       "dateInstalled": "2018-08-20T10:30:42.8002868Z",
       "dateUpdated": "2018-11-12T16:26:06.8470706Z",
       "dateLastUpdateAttempted": "2018-11-12T16:26:06.8470706Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9039,7 +9039,7 @@
       "dateInstalled": "2018-08-20T10:39:01.6151452Z",
       "dateUpdated": "2018-11-12T16:25:16.1141953Z",
       "dateLastUpdateAttempted": "2018-11-12T16:25:16.1141953Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12303,14 +12303,14 @@
       "addonID": 292785,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2574249,
-        "fileName": "VanillaFix-1.0.9-97.jar",
-        "fileNameOnDisk": "VanillaFix-1.0.9-97.jar",
-        "fileDate": "2018-06-19T06:38:13.42",
-        "fileLength": 0,
+        "id": 2637411,
+        "fileName": "VanillaFix 1.0.10-98.jar",
+        "fileNameOnDisk": "VanillaFix-1.0.10-98.jar",
+        "fileDate": "2018-11-12T07:26:35.77",
+        "fileLength": 1118753,
         "releaseType": 1,
         "fileStatus": 2,
-        "downloadUrl": "https://files.forgecdn.net/files/2574/249/VanillaFix-1.0.9-97.jar",
+        "downloadUrl": "https://files.forgecdn.net/files/2637/411/VanillaFix-1.0.10-98.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -12318,15 +12318,15 @@
         "modules": [
           {
             "folderName": "META-INF",
-            "fimgerprint": 1162763638
+            "fimgerprint": 481483959
           },
           {
             "folderName": "org",
-            "fimgerprint": 2542338907
+            "fimgerprint": 2674875255
           },
           {
             "folderName": "assets",
-            "fimgerprint": 4034113466
+            "fimgerprint": 4257585702
           },
           {
             "folderName": "dst_root_ca_x3.jks",
@@ -12334,11 +12334,11 @@
           },
           {
             "folderName": "mcmod.info",
-            "fimgerprint": 246712678
+            "fimgerprint": 2221331171
           },
           {
             "folderName": "mixins.vanillafix.bugs.json",
-            "fimgerprint": 2733833828
+            "fimgerprint": 365641129
           },
           {
             "folderName": "mixins.vanillafix.crashes.json",
@@ -12354,7 +12354,7 @@
           },
           {
             "folderName": "mixins.vanillafix.textures.json",
-            "fimgerprint": 1948216779
+            "fimgerprint": 1592007373
           },
           {
             "folderName": "mixins.vanillafix.textures.modsupport.json",
@@ -12366,25 +12366,25 @@
           },
           {
             "folderName": "mixins.vanillafix.refmap.json",
-            "fimgerprint": 4233030205
+            "fimgerprint": 2313728362
           }
         ],
-        "packageFingerprint": 4173820638,
+        "packageFingerprint": 4121473196,
         "gameVersion": [
           "1.12.2",
-          "1.12.1",
-          "1.12"
+          "1.12",
+          "1.12.1"
         ],
         "installMetadata": null
       },
       "dateInstalled": "2018-08-20T11:21:28.8796308Z",
-      "dateUpdated": "2018-08-20T11:21:28.8826296Z",
-      "dateLastUpdateAttempted": "2018-08-20T11:21:28.8826296Z",
-      "status": 3,
+      "dateUpdated": "2018-11-14T23:19:40.8264915Z",
+      "dateLastUpdateAttempted": "2018-11-14T23:19:40.8264915Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
-      "isModified": true,
+      "isModified": false,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
@@ -12640,7 +12640,7 @@
       "dateInstalled": "2018-08-20T15:50:07.6342141Z",
       "dateUpdated": "2018-11-12T16:26:39.4921957Z",
       "dateLastUpdateAttempted": "2018-11-12T16:26:39.4921957Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13744,7 +13744,7 @@
       "dateInstalled": "2018-08-28T19:23:46.3817308Z",
       "dateUpdated": "2018-11-12T16:26:36.0068012Z",
       "dateLastUpdateAttempted": "2018-11-12T16:26:36.0068012Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14571,7 +14571,7 @@
       "dateInstalled": "2018-09-06T13:40:07.4666702Z",
       "dateUpdated": "2018-11-12T16:24:40.7099429Z",
       "dateLastUpdateAttempted": "2018-11-12T16:24:40.7099429Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17157,7 +17157,7 @@
       "dateInstalled": "2018-09-27T14:36:42.1873817Z",
       "dateUpdated": "2018-11-12T21:49:02.8151135Z",
       "dateLastUpdateAttempted": "2018-11-12T21:49:02.8151135Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17616,7 +17616,7 @@
       "dateInstalled": "2018-10-12T19:11:03.5413904Z",
       "dateUpdated": "2018-11-12T16:25:54.956847Z",
       "dateLastUpdateAttempted": "2018-11-12T16:25:54.956847Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,

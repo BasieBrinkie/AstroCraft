@@ -53,21 +53,27 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 	],
 
 	/*	
+	--------------
+	Copper Nugget.
+	--------------
+	*/
+	<ore:nuggetCopperTier1>: [
+		<mekanism:clump:3>,
+		<abyssalcraft:crystalfragment:17>,
+		<tconstruct:shard>.withTag({Material: "copper"})
+	]
+		
+	/*	
 	-------------
 	Copper Gears.
 	-------------
 	*/
 
-	/*	
-	-------------
-	Copper Clumps
-	-------------
-	*/
-	<ore:clumpCopper>: [
-		<mekanism:clump:3>,
-		<abyssalcraft:crystalfragment:17>,
-		<tconstruct:shard>.withTag({Material: "copper"})
-	]	
+};
+
+static unlocalizedNames as string[IItemStack] = {
+	<thermalfoundation:storage:0>: "tile.thermalfoundation.storage.copper.name",
+	<thermalfoundation:material:128>: "item.thermalfoundation.material.plateCopper.name"
 };
 
 /*	
@@ -178,6 +184,7 @@ static mirror as IOreDictEntry[][IOreDictEntry] = {
 
 function init() {
 	oredictBuilder.create(createItemsToOredict);
+	tooltipGen.oredictIterator(createItemsToOredict, unlocalizedNames);
 	oredictBuilder.createOredict(createOredictsToOredict);
 	oredictBuilder.process(addItemsToOredict);
 	oredictBuilder.processOredict(addOredictsToOredict);

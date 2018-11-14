@@ -16,6 +16,7 @@ zenClass itemProperties {
 	function setBurnTime(map as IIngredient[][int]) {
 		for amountBurnItems, itemArray in map {
 			var burntime = amountBurnItems * 200;
+			
 			for item in itemArray {
 				furnace.setFuel(item, burntime);
 			}
@@ -59,6 +60,7 @@ zenClass itemProperties {
  	function setTooltipName(map as IFormattedText[][IFormattedText[]][string][IItemStack]) {
 		for item, toolTipArray in map {
 			item.clearTooltip();
+			
 			for itemName, toolTipArray2 in toolTipArray {
 				if (!isNull(itemName)) {
 					item.displayName = itemName;
@@ -69,14 +71,17 @@ zenClass itemProperties {
 					for toolTipStandard in toolTipStandardArray {
 						item.addTooltip(toolTipStandard);
 					}
+					
 					if (!isNull(toolTipShiftArray)) {
 						item.addTooltip(format.white("Hold: ") + format.blue(format.italic("LShift ")) + format.white("for more information"));
 					}
+				
 					for toolTipShift in toolTipShiftArray {
 						item.addShiftTooltip(toolTipShift);
 					}
 				}
 			}
+		
 			if (dev) {
 				item.addTooltip(format.darkGray(item.definition.id));
 			}
@@ -86,17 +91,21 @@ zenClass itemProperties {
 	function setTooltip(map as IFormattedText[][IFormattedText[]][IItemStack]) {
 		for item, toolTipArray in map {
 			item.clearTooltip();
+			
 			for toolTipStandardArray, toolTipShiftArray in toolTipArray {
 				for toolTipStandard in toolTipStandardArray {
 					item.addTooltip(toolTipStandard);
 				}
+				
 				if (!isNull(toolTipShiftArray)) {
 					item.addTooltip(format.white("Hold: ") + format.blue(format.italic("LShift ")) + format.white("for more information"));
 				}
+			
 				for toolTipShift in toolTipShiftArray {
 					item.addShiftTooltip(toolTipShift);
 				}
 			}
+			
 			if (dev) {
 				item.addTooltip(format.darkGray(item.definition.id));
 			}
@@ -107,17 +116,21 @@ zenClass itemProperties {
 		for oredictEntry, toolTipArray in map {
 			for item in oredictEntry.items {
 				item.clearTooltip();
+				
 				for toolTipStandardArray, toolTipShiftArray in toolTipArray {
 					for toolTipStandard in toolTipStandardArray {
 						item.addTooltip(toolTipStandard);
 					}
+				
 					if (!isNull(toolTipShiftArray)) {
 						item.addTooltip(format.white("Hold: ") + format.blue(format.italic("LShift ")) + format.white("for more information"));
 					}
+				
 					for toolTipShift in toolTipShiftArray {
 						item.addShiftTooltip(toolTipShift);
 					}
 				}
+			
 				if (dev) {
 					item.addTooltip(format.darkGray(item.definition.id));
 				}

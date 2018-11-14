@@ -1,6 +1,10 @@
 #priority 9000
 
 import crafttweaker.item.IItemStack;
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.game.IGame;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.formatting.IFormattedText;
 
 zenClass tooltipGen {
@@ -16,16 +20,60 @@ zenClass tooltipGen {
 		if (inputString.isEmpty) {
 			return "";
 		}
-		return inputString[0].toUpperCase ~ inputString.substring(1,inputString.length);
+		
+		else {
+			return inputString[0].toUpperCase ~ inputString.substring(1,inputString.length);
+		}
 	}
 
 	function decapitalize(inputString as string) as string {
 		if (inputString.isEmpty) {
 			return "";
 		}
-		return inputString[0].toLowerCase ~ inputString.substring(1,inputString.length);
+		
+		else {
+			return inputString[0].toLowerCase ~ inputString.substring(1,inputString.length);
+		}
 	}
-	
+
+	function iArticleGen(inputWord as string) as string {	
+		val genAnLetter as string[] = [
+		// Check these starting letters and generate an "an"
+			"a",
+			"e",
+			"i",
+			"o",
+			"u",
+		];
+
+		val exceptionsA as string[] = [
+		// Generate an "a" for these words
+		];
+
+		val exceptionsAn as string[] = [
+		// Generate an "an" for these words
+		];
+
+		for word in exceptionsA {
+			if (inputWord in word) {
+				return "a";
+			}
+		}
+		
+		for word2 in exceptionsAn {
+			if (inputWord in word2) {
+				return "an";
+			}
+		}
+		
+		for letter in genAnLetter {
+			if (genAnLetter in inputWord[0]) {
+				return "an";
+			}
+		}
+
+		return "a";
+	}
 	
 	/*
 	------------------------------
@@ -53,10 +101,35 @@ zenClass tooltipGen {
 		if (tier == 5) {
 			return "98.7%"; 
 		}
+		
 		else {
 			return "ERROR, Wrong Tier!!!";
 		}	
 	}
+
+	/*
+	---------------------------------------------
+	Select which carbon level for specified tier.
+	---------------------------------------------
+	*/
+	function carbonTier(tier as int) as string {
+		if (tier == 1) {
+			return "0.05%"; 
+		}
+		if (tier == 2) {
+			return "0.3%"; 
+		}
+		if (tier == 3) {
+			return "1.6%"; 
+		}
+		if (tier == 4) {
+			return "3.8%"; 
+		}
+		
+		else {
+			return "ERROR, Wrong Tier!!!";
+		}	
+	}	
 
 	/*
 	-------------------------------------
@@ -79,6 +152,7 @@ zenClass tooltipGen {
 		if (tier == 5) {
 			return "2.5mm"; 
 		}		
+		
 		else {
 			return "ERROR, Wrong Tier!!!";
 		}	
@@ -142,11 +216,15 @@ zenClass tooltipGen {
 	which function to call for inputPart.
 	-------------------------------------
 	*/
-	function tierDescription(inputPart as string, tier as int) {
-		var part = capitalize(inputPart);
-
+	function tierDescription(material as string, part as string, tier as int) as string {
 		if (part == "Block" | part == "Ingot") {
-			return purityTier(tier);
+			if (material == "Steel") {
+				carbonTier(tier);
+			}
+
+			else {
+				return purityTier(tier);
+			}
 		}
 		if (part == "Nugget") {
 			return sizeTier(tier);
@@ -164,11 +242,15 @@ zenClass tooltipGen {
 	Property per part.
 	------------------
 	*/
-	function partDescription(inputPart as string) as string {
-		var part = capitalize(inputPart);
-
+	function partDescription(part as string, material as string) as string {
 		if (part == "Block") {
-			return "Purity";
+			if (material == "Steel") {
+				return "Carbon level";
+			}
+			
+			else {
+				return "Purity";
+			}
 		}
 		if (part == "Ingot") {
 			return "Purity";
@@ -185,21 +267,43 @@ zenClass tooltipGen {
 	}
 
 	/*
+	-----------------------
+	Description generation.
+	-----------------------
+	*/
+	function itemNameString(material as string, part as string, tier as int) as string {
+		var partDesc as string = partDescription(part, material);
+		var tierDesc as string = tierDescription(material, part, tier);
+
+		val itemNameString as string = material ~ " " ~ part ~ " - " ~ partDesc ~ ": (" ~ tierDesc ~ ")";
+		return itemNameString;
+	}
+
+	function itemDescriptionFormatted(material as string, part as string, tier as int) as IFormattedText[] {
+		val CArticle as string = capitalize(iArticleGen(part));
+		val DPart as string = decapitalize(part);
+		val DMaterial as string = decapitalize(material);
+		val DPartDesc as string = decapitalize(partDescription(part, material));
+		val itemDescriptionFormatted as IFormattedText[] = [
+			format.gray(CArticle ~ " " ~ DPart ~ " of " ~ DMaterial ~ " with a " ~ DPartDesc ~ " of " ~ tierDescription(material, part, tier)),
+			format.yellow("Tier " ~ tier)
+		];
+		return itemDescriptionFormatted;
+	}
+	
+	function itemShiftDescriptionFormatted(tier as int) as IFormattedText[] {
+		val itemShiftDescriptionFormatted as IFormattedText[] = [
+			format.white("You can use this item in recipes with a tier " ~ tier ~ " ingredient"),
+			format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement")
+		];
+		return itemShiftDescriptionFormatted;
+	}
+	
+	/*
 	---------------
 	Spelling check.
 	---------------
 	*/
-	function partChecker(inputpart as string) as string {
-		var part = capitalize(inputpart);
-		
-		if (part == "Block" | part == "Ingot" | part == "Nugget" | part == "Plate" | part == "Gear") {
-			return part;
-		}
-		else {
-			return "ERROR, Wrong Part!!!";
-		}	
-	}
-
 	function materialChecker(inputMaterial as string) as string {
 		var material = capitalize(inputMaterial);
 		
@@ -207,10 +311,22 @@ zenClass tooltipGen {
 			
 			return material;
 		}
+		
 		else {
 			return "ERROR, Wrong Material!!!";
 		}
+	}
 
+	function partChecker(inputpart as string) as string {
+		var part = capitalize(inputpart);
+		
+		if (part == "Block" | part == "Ingot" | part == "Nugget" | part == "Plate" | part == "Gear") {
+			return part;
+		}
+		
+		else {
+			return "ERROR, Wrong Part!!!";
+		}	
 	}
 
 	/*
@@ -218,15 +334,206 @@ zenClass tooltipGen {
 	Generation of the tiered tooltip itself.	
 	----------------------------------------
 	*/
-	function tieredTooltip(part as string, tier as int) as IFormattedText {
+	function tieredTooltip(inputMaterial as string, inputPart as string, tier as int) as IFormattedText[][IFormattedText[]][string] {
+		var material = materialChecker(inputMaterial);
+		var part = partChecker(inputPart);
+
 		val tieredTooltip as IFormattedText[][IFormattedText[]][string] = {
-			"Iron " ~ capitalize(part) ~ " - " ~ partDescription(part) ~ ": " ~ tierDescription(part, tier): {[
-				format.gray("A ingot of iron with a " ~ decapitalize(partDescription(part)) ~ " of " ~ tierDescription(part, tier)),
-				format.yellow("Tier " ~ tier)]: [				
-					format.white("You can use this item in recipes with a tier " ~ tier ~ " ingredient"),
-					format.white("Higher tier ingredients can also be used in recipes with a lower ingredient requirement")]
+			itemNameString(material, part, tier): {
+				itemDescriptionFormatted(material, part, tier): itemShiftDescriptionFormatted(tier)
 			}
 		};	
 		return tieredTooltip;
 	}
+
+	function oredictMaterial(oredictName as IOreDictEntry) as string {
+		if (oredictName.name in "Bronze") {
+			return "Bronze";
+		}
+		if (oredictName.name in "Copper") {
+			return "Copper";
+		}
+		if (oredictName.name in "Iron") {
+			return "Iron";
+		}
+		if (oredictName.name in "Lead") {
+			return "Lead";
+		}
+		if (oredictName.name in "Steel") {
+			return "Steel";
+		}
+		if (oredictName.name in "Tin") {
+			return "Tin";
+		}
+		
+		else {
+			return "Invalid Material";
+		}
+	}
+
+	function oredictPart(oredictName as IOreDictEntry) as string {
+		if (decapitalize(oredictName.name) in "block") {
+			return "Block";
+		}
+		if (decapitalize(oredictName.name) in "ingot") {
+			return "Ingot";
+		}
+		if (decapitalize(oredictName.name) in "nugget") {
+			return "Nugget";
+		}
+		if (decapitalize(oredictName.name) in "gear") {
+			return "Gear";
+		}
+		if (decapitalize(oredictName.name) in "plate") {
+			return "Plate";
+		}
+		
+		else {
+			return "Invalid Part";
+		}
+	}
+
+
+	function oredictTier(oredictName as IOreDictEntry) as int {
+		if (oredictName.name in "Tier1") {
+			return 1;
+		}
+		if (oredictName.name in "Tier2") {
+			return 2;
+		}
+		if (oredictName.name in "Tier3") {
+			return 3;
+		}
+		if (oredictName.name in "Tier4") {
+			return 4;
+		}
+		if (oredictName.name in "Tier5") {
+			return 5;
+		}
+		
+		else {
+			return 0;
+		}
+	}
+
+
+	function setTooltipAndName(map as IFormattedText[][IFormattedText[]][string], item as IItemStack, setName as bool) {
+		item.clearTooltip();
+			for itemName, toolTipArray in map {
+				if (setName) {
+					item.displayName = itemName;
+				}
+				item.addTooltip(format.white(itemName));
+	
+				for toolTipStandardArray, toolTipShiftArray in toolTipArray {
+					for toolTipStandard in toolTipStandardArray {
+						item.addTooltip(toolTipStandard);
+					}
+	
+					if (!isNull(toolTipShiftArray)) {
+						item.addTooltip(format.white("Hold: ") + format.blue(format.italic("LShift ")) + format.white("for more information"));
+					}
+	
+					for toolTipShift in toolTipShiftArray {
+						item.addShiftTooltip(toolTipShift);
+					}
+				}
+			}
+	
+		if (dev) {
+			item.addTooltip(format.darkGray(item.definition.id));
+		}
+	}
+
+	function setTooltipAndUnlocalizedName(map as IFormattedText[][IFormattedText[]][string], item as IItemStack, unlocalizedName as string) {
+		item.clearTooltip();
+			for itemName, toolTipArray in map {
+				game.setLocalization(itemName, unlocalizedName);
+				item.addTooltip(format.white(itemName));
+	
+				for toolTipStandardArray, toolTipShiftArray in toolTipArray {
+					for toolTipStandard in toolTipStandardArray {
+						item.addTooltip(toolTipStandard);
+					}
+	
+					if (!isNull(toolTipShiftArray)) {
+						item.addTooltip(format.white("Hold: ") + format.blue(format.italic("LShift ")) + format.white("for more information"));
+					}
+	
+					for toolTipShift in toolTipShiftArray {
+						item.addShiftTooltip(toolTipShift);
+					}
+				}
+			}
+	
+		if (dev) {
+			item.addTooltip(format.darkGray(item.definition.id));
+		}
+	}
+
+	function blacklistedMods(item as IItemStack) as bool {
+		val blacklistedMods as string[] = [
+			"libvulpes",
+			"thermalfoundation"
+		];
+		
+		for blacklistedMod in blacklistedMods {
+			if (item.definition.owner in blacklistedMod) {
+				return true;
+			}
+
+			else {
+				return false;
+			}
+		}
+	}
+
+	function unlocalizedNameMods(item as IItemStack) as bool {
+		val allowed as string[] = [
+			"thermalfoundation"
+		];
+		
+		for blacklistedMod in allowed {
+			if (item.definition.owner in blacklistedMod) {
+				return true;
+			}
+
+			else {
+				return false;
+			}
+		}
+	}
+	
+	/*
+	--------------------------------------
+	Set the tooltip based on oredict info.	
+	--------------------------------------
+	*/
+	function oredictIterator(map as IItemStack[][IOreDictEntry], unlocalizedName as string[IItemStack]) {
+		for oredictName, itemArray in map {
+			val inputMaterial = oredictMaterial(oredictName);
+			val inputPart = oredictPart(oredictName);
+
+			val material = materialChecker(inputMaterial);
+			val part = partChecker(inputPart);
+			val tier = oredictTier(oredictName);
+
+			val tooltip = tieredTooltip(material, part, tier);
+			for item in itemArray {	
+				if (!blacklistedMods(item) & !(unlocalizedNameMods(item))) {
+					print("----------------------- Tiered Tooltip Generation With Name For Item: <" ~ item.definition.id ~ "> -----------------------");
+					setTooltipAndName(tooltip, item, true);
+				}
+				if (blacklistedMods(item)) {
+					print("----------------------- Tiered Tooltip Generation For Item: <" ~ item.definition.id ~ "> -----------------------");
+					setTooltipAndName(tooltip, item, false);
+				}
+				if (unlocalizedNameMods(item)) {
+					print("----------------------- Tiered Tooltip Generation For Unlocalized Item: <" ~ item.definition.id ~ "> -----------------------");
+					setTooltipAndUnlocalizedName(tooltip, item, unlocalizedName[item]);
+				}
+			}
+		}
+	}
+
 }

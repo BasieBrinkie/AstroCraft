@@ -70,7 +70,7 @@ function initItemProperties() {
 	*/
 	scripts.items.burnTime.init();
 
-	scripts.items.metalCopper.init();
+	//scripts.items.metalCopper.init();
 	scripts.items.metalIron.init();
 	scripts.items.metalLead.init();
 	scripts.items.metalSteel.init();

@@ -30,7 +30,7 @@ zenClass nbt {
 				 }
 			]
 		};	
-		return  oxygenTag;
+		return oxygenTag;
 	}
 }
 
