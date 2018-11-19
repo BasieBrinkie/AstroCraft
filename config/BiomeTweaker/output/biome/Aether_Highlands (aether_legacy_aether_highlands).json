@@ -1,6 +1,6 @@
 
 {
-  "ID": 123,
+  "ID": 120,
   "Name": "Aether Highlands",
   "Resource Location": "aether_legacy:aether_highlands",
   "Class": "com.legacy.aether.world.biome.AetherBiome",

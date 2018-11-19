@@ -1,6 +1,6 @@
 
 {
-  "ID": 69,
+  "ID": 68,
   "Name": "Oak Savanna",
   "Resource Location": "twilightforest:oak_savannah",
   "Class": "twilightforest.biomes.TFBiomeOakSavanna",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "FOREST",
-    "SPARSE"
+    "SPARSE",
+    "FOREST"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

@@ -16,9 +16,18 @@ import crafttweaker.item.IItemStack;
 
 
 static combustionAdd as int[IItemStack[]][IItemStack] = {
+	
+	/*	
+		---------------------------------------------
+		Stage: Basic Resources
+		---------------------------------------------
+	*/	
 	<exnihilocreatio:item_ore_iron:0>: {[
-		<exnihilocreatio:item_ore_iron:1>,
-		<charcoal_pit:item_ash:0> * 4]: 50
+		<exnihilocreatio:item_ore_iron:1> * 2,
+		<charcoal_pit:item_ash:0> * 5]: 50
+	},
+	<minecraft:iron_ingot:0>: {[
+		<minecraft:iron_nugget:0> * 5]: 500
 	}
 };
 
@@ -38,7 +47,7 @@ static combustionRemove as IItemStack[] = [
 	<minecraft:end_stone:0>, 
 	<minecraft:glowstone_dust:0>,
 	<minecraft:gunpowder:0>,
-	<minecraft:netherrack:40>,
+	<minecraft:netherrack:0>,
 	<minecraft:poisonous_potato:0>,
 	<minecraft:prismarine_crystals:0>,
 	<minecraft:prismarine_shard:0>,

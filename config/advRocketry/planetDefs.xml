@@ -1,5 +1,5 @@
 <galaxy>
-    <star name="ToBeSetWIP" temp="100" x="0" y="0" size="1.4" numPlanets="0" numGasGiants="0" blackHole="true">
+    <star name="ToBeSetWIP" temp="100" x="0" y="0" size="4.4" numPlanets="0" numGasGiants="0" blackHole="true">
         <planet name="Asteroid Belt" DIMID="3">
         	<genType>2</genType>
             <atmosphereDensity>0</atmosphereDensity>

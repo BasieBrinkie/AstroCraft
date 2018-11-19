@@ -1,6 +1,8 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.formatting.IFormattedText;
 
+import scripts.integrations.skyResources.catalysts.catalystAdd;
 
 /*	
 	-----------------------------------------
@@ -71,9 +73,18 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 
 };
 
+/*	
+	----------------------------------------------------
+	Extra information for automation of tiered tooltips.
+	----------------------------------------------------
+*/	
 static unlocalizedNames as string[IItemStack] = {
 	<thermalfoundation:storage:0>: "tile.thermalfoundation.storage.copper.name",
 	<thermalfoundation:material:128>: "item.thermalfoundation.material.plateCopper.name"
+};
+
+static extraTooltips as IFormattedText[][IItemStack] = {
+	<mekanism:clump:3>: [skyRes.catalystYield(catalystAdd, <mekanism:clump:3>)]
 };
 
 /*	
@@ -163,7 +174,7 @@ static addOredictsToOredict as IOreDictEntry[][IOreDictEntry] = {
 	Removes Items from Oredict.
 	---------------------------
 */
-static removeItemsFromOredict as IItemstack[][IOreDictEntry] = {	
+static removeItemsFromOredict as IItemStack[][IOreDictEntry] = {	
 };
 
 /*	
@@ -184,7 +195,7 @@ static mirror as IOreDictEntry[][IOreDictEntry] = {
 
 function init() {
 	oredictBuilder.create(createItemsToOredict);
-	tooltipGen.oredictIterator(createItemsToOredict, unlocalizedNames);
+	tooltipGen.oredictIterator(createItemsToOredict, unlocalizedNames, extraTooltips);
 	oredictBuilder.createOredict(createOredictsToOredict);
 	oredictBuilder.process(addItemsToOredict);
 	oredictBuilder.processOredict(addOredictsToOredict);

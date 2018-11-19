@@ -1,5 +1,6 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.formatting.IFormattedText;
 
 /*	
 	-----------------------------------------
@@ -35,7 +36,7 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 	--------------
 	*/
 	<ore:ingotIronTier1>:[
-		<minecraft:iron_nugget:0>
+		<minecraft:iron_ingot:0>
 	],
 	<ore:ingotIronTier2>:[
 	],
@@ -64,6 +65,17 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 	Iron Plates
 	-------------
 	*/	
+};
+
+/*	
+	----------------------------------------------------
+	Extra information for automation of tiered tooltips.
+	----------------------------------------------------
+*/	
+static unlocalizedNames as string[IItemStack] = {
+};
+
+static extraTooltips as IFormattedText[][IItemStack] = {
 };
 
 /*	
@@ -142,7 +154,7 @@ static addOredictsToOredict as IOreDictEntry[][IOreDictEntry] = {
 	Removes Items from Oredict.
 	---------------------------
 */
-static removeItemsFromOredict as IItemstack[][IOreDictEntry] = {	
+static removeItemsFromOredict as IItemStack[][IOreDictEntry] = {	
 };
 
 /*	------------------------------------------
@@ -161,6 +173,7 @@ static mirror as IOreDictEntry[][IOreDictEntry] = {
 
 function init() {
 	oredictBuilder.create(createItemsToOredict);
+	tooltipGen.oredictIterator(createItemsToOredict, unlocalizedNames, extraTooltips);
 	oredictBuilder.createOredict(createOredictsToOredict);
 	oredictBuilder.process(addItemsToOredict);
 	oredictBuilder.processOredict(addOredictsToOredict);

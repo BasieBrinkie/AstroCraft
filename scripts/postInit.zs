@@ -71,7 +71,7 @@ function initItemProperties() {
 	scripts.items.burnTime.init();
 
 	//scripts.items.metalCopper.init();
-	scripts.items.metalIron.init();
+	//scripts.items.metalIron.init();
 	scripts.items.metalLead.init();
 	scripts.items.metalSteel.init();
 	/*	
@@ -91,8 +91,8 @@ function initIntegrations() {
 	if (!devDisableIntegrations | !dev) {
 	print("----------------------- Integrations -----------------------");
 	
-	scripts.integrations.skyResources.alchemicalFusion.init();
 	scripts.integrations.skyResources.catalysts.init();
+	scripts.integrations.skyResources.alchemicalFusion.init();
 	scripts.integrations.skyResources.combustion.init();
 	scripts.integrations.skyResources.cuttingKnife.init();
 	scripts.integrations.skyResources.rockGrinder.init();

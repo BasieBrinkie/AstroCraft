@@ -1,6 +1,6 @@
 
 {
-  "ID": 106,
+  "ID": 103,
   "Name": "Dreadlands",
   "Resource Location": "abyssalcraft:dreadlands",
   "Class": "com.shinoow.abyssalcraft.common.world.biome.BiomeGenDreadlands",

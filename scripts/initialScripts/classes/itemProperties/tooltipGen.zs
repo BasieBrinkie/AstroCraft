@@ -209,7 +209,33 @@ zenClass tooltipGen {
 		else {
 			return "ERROR, Wrong Tier!!!";
 		}		
-	}	
+	}
+
+	/*
+	-----------------------------------------
+	Select which sizeName for specified tier.
+	-----------------------------------------
+	*/
+	function sizeNameTier(tier as int) as string {
+		if (tier == 1) {
+			return "Enormous"; 
+		}
+		if (tier == 2) {
+			return "Huge"; 
+		}
+		if (tier == 3) {
+			return "Normal"; 
+		}
+		if (tier == 4) {
+			return "Minuscule"; 
+		}
+		if (tier == 5) {
+			return "Ridiculously Small"; 
+		}
+		else {
+			return "ERROR, Wrong Tier!!!";
+		}		
+	}			
 
 	/*
 	-------------------------------------
@@ -234,6 +260,9 @@ zenClass tooltipGen {
 		}
 		if (part == "Gear") {
 			return moduleTier(tier);
+		}
+		if (part == "Clump") {
+			return sizeNameTier(tier);
 		}
 	}
 
@@ -263,6 +292,9 @@ zenClass tooltipGen {
 		}
 		if (part == "Gear") {
 			return "Module";
+		}
+		if (part == "Clump") {
+			return "Size";
 		}
 	}
 
@@ -320,7 +352,7 @@ zenClass tooltipGen {
 	function partChecker(inputpart as string) as string {
 		var part = capitalize(inputpart);
 		
-		if (part == "Block" | part == "Ingot" | part == "Nugget" | part == "Plate" | part == "Gear") {
+		if (part == "Block" | part == "Ingot" | part == "Nugget" | part == "Plate" | part == "Gear" | part == "Plate") {
 			return part;
 		}
 		
@@ -387,6 +419,9 @@ zenClass tooltipGen {
 		if (decapitalize(oredictName.name) in "plate") {
 			return "Plate";
 		}
+		if (decapitalize(oredictName.name) in "clump") {
+			return "Clump";
+		}
 		
 		else {
 			return "Invalid Part";
@@ -417,7 +452,7 @@ zenClass tooltipGen {
 	}
 
 
-	function setTooltipAndName(map as IFormattedText[][IFormattedText[]][string], item as IItemStack, setName as bool) {
+	function setTooltipAndName(map as IFormattedText[][IFormattedText[]][string], item as IItemStack, setName as bool, extraFormattedTooltips as IFormattedText[]) {
 		item.clearTooltip();
 			for itemName, toolTipArray in map {
 				if (setName) {
@@ -429,7 +464,13 @@ zenClass tooltipGen {
 					for toolTipStandard in toolTipStandardArray {
 						item.addTooltip(toolTipStandard);
 					}
-	
+					
+					if (!isNull(extraFormattedTooltips)) {
+						for extraTooltip in extraFormattedTooltips {
+							item.addTooltip(extraTooltip);
+						}
+					}
+
 					if (!isNull(toolTipShiftArray)) {
 						item.addTooltip(format.white("Hold: ") + format.blue(format.italic("LShift ")) + format.white("for more information"));
 					}
@@ -445,7 +486,7 @@ zenClass tooltipGen {
 		}
 	}
 
-	function setTooltipAndUnlocalizedName(map as IFormattedText[][IFormattedText[]][string], item as IItemStack, unlocalizedName as string) {
+	function setTooltipAndUnlocalizedName(map as IFormattedText[][IFormattedText[]][string], item as IItemStack, unlocalizedName as string, extraFormattedTooltips as IFormattedText[]) {
 		item.clearTooltip();
 			for itemName, toolTipArray in map {
 				game.setLocalization(itemName, unlocalizedName);
@@ -456,6 +497,12 @@ zenClass tooltipGen {
 						item.addTooltip(toolTipStandard);
 					}
 	
+					if (!isNull(extraFormattedTooltips)) {
+						for extraTooltip in extraFormattedTooltips {
+							item.addTooltip(extraTooltip);
+						}
+					}
+
 					if (!isNull(toolTipShiftArray)) {
 						item.addTooltip(format.white("Hold: ") + format.blue(format.italic("LShift ")) + format.white("for more information"));
 					}
@@ -470,11 +517,17 @@ zenClass tooltipGen {
 			item.addTooltip(format.darkGray(item.definition.id));
 		}
 	}
-
+	
+	/*
+	-----------------------------------------------
+	These mods don't do item.displayName = newName,
+	but still sets the tooltip,
+	-----------------------------------------------
+	*/
 	function blacklistedMods(item as IItemStack) as bool {
 		val blacklistedMods as string[] = [
 			"libvulpes",
-			"thermalfoundation"
+			"tconstruct"
 		];
 		
 		for blacklistedMod in blacklistedMods {
@@ -488,6 +541,11 @@ zenClass tooltipGen {
 		}
 	}
 
+	/*
+	----------------------------------------------------------
+	These mods get their name by setting the unlocalized name.	
+	----------------------------------------------------------
+	*/
 	function unlocalizedNameMods(item as IItemStack) as bool {
 		val allowed as string[] = [
 			"thermalfoundation"
@@ -509,7 +567,7 @@ zenClass tooltipGen {
 	Set the tooltip based on oredict info.	
 	--------------------------------------
 	*/
-	function oredictIterator(map as IItemStack[][IOreDictEntry], unlocalizedName as string[IItemStack]) {
+	function oredictIterator(map as IItemStack[][IOreDictEntry], unlocalizedName as string[IItemStack], extraTooltip as IFormattedText[][IItemStack]) {
 		for oredictName, itemArray in map {
 			val inputMaterial = oredictMaterial(oredictName);
 			val inputPart = oredictPart(oredictName);
@@ -521,16 +579,22 @@ zenClass tooltipGen {
 			val tooltip = tieredTooltip(material, part, tier);
 			for item in itemArray {	
 				if (!blacklistedMods(item) & !(unlocalizedNameMods(item))) {
+					val extraFormattedTooltips as IFormattedText[] = extraTooltip[item];
+
 					print("----------------------- Tiered Tooltip Generation With Name For Item: <" ~ item.definition.id ~ "> -----------------------");
-					setTooltipAndName(tooltip, item, true);
+					setTooltipAndName(tooltip, item, true, extraFormattedTooltips);
 				}
 				if (blacklistedMods(item)) {
+					val extraFormattedTooltips as IFormattedText[] = extraTooltip[item];
+
 					print("----------------------- Tiered Tooltip Generation For Item: <" ~ item.definition.id ~ "> -----------------------");
-					setTooltipAndName(tooltip, item, false);
+					setTooltipAndName(tooltip, item, false, extraFormattedTooltips);
 				}
 				if (unlocalizedNameMods(item)) {
+					val extraFormattedTooltips as IFormattedText[] = extraTooltip[item];
+					
 					print("----------------------- Tiered Tooltip Generation For Unlocalized Item: <" ~ item.definition.id ~ "> -----------------------");
-					setTooltipAndUnlocalizedName(tooltip, item, unlocalizedName[item]);
+					setTooltipAndUnlocalizedName(tooltip, item, unlocalizedName[item], extraFormattedTooltips);
 				}
 			}
 		}

@@ -1,6 +1,6 @@
 
 {
-  "ID": 65,
+  "ID": 64,
   "Name": "Twilight Stream",
   "Resource Location": "twilightforest:twilight_stream",
   "Class": "twilightforest.biomes.TFBiomeStream",

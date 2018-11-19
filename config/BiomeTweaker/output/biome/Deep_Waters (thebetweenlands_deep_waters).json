@@ -1,6 +1,6 @@
 
 {
-  "ID": 128,
+  "ID": 124,
   "Name": "Deep Waters",
   "Resource Location": "thebetweenlands:deep_waters",
   "Class": "thebetweenlands.common.world.biome.BiomeDeepWaters",

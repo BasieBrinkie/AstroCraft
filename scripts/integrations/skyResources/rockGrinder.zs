@@ -16,7 +16,7 @@ import crafttweaker.item.IItemStack;
 
 
 static rockGrinderAdd as float[IItemStack][IItemStack] = {
-	<exnihilocreatio:item_ore_iron:0>: {
+	<exnihilocreatio:item_ore_iron:1>: {
 		<minecraft:iron_ore:0>: 0.5
 	}
 };

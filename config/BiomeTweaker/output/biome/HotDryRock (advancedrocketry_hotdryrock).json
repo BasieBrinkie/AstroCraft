@@ -1,6 +1,6 @@
 
 {
-  "ID": 115,
+  "ID": 112,
   "Name": "HotDryRock",
   "Resource Location": "advancedrocketry:hotdryrock",
   "Class": "zmaster587.advancedRocketry.world.biome.BiomeGenHotDryRock",
@@ -20,8 +20,8 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WASTELAND",
     "DRY",
+    "WASTELAND",
     "COLD"
   ],
   "BiomeManager Entries": {},

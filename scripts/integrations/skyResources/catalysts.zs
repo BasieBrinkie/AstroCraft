@@ -15,7 +15,7 @@ import crafttweaker.item.IItemStack;
 
 
 static catalystAdd as float[IItemStack[]] = { [
-	<mekanism:clump:3>]: 0.25
+	<mekanism:clump:3>]: 1.00
 };
 
 /*	

@@ -1,6 +1,6 @@
 
 {
-  "ID": 102,
+  "ID": 99,
   "Name": "Darklands Highland",
   "Resource Location": "abyssalcraft:darklands_hills",
   "Class": "com.shinoow.abyssalcraft.common.world.biome.BiomeGenDarklandsHills",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HILLS",
-    "SPOOKY"
+    "SPOOKY",
+    "HILLS"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [

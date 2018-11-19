@@ -1,12 +1,14 @@
 #priority 9000
 import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
 zenClass unifier {
 	zenConstructor() {}
 	
-	function checkOredict(oredict as IOredict, item as IItemStack) as bool {
-		if(oredict in item) {
+	function checkOredict(oredictName as IOreDictEntry, item as IItemStack) as bool {
+		if(oredictName in item) {
 			return true;
 		}
 	}

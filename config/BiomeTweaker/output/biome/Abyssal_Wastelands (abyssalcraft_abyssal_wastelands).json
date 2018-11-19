@@ -1,6 +1,6 @@
 
 {
-  "ID": 105,
+  "ID": 102,
   "Name": "Abyssal Wastelands",
   "Resource Location": "abyssalcraft:abyssal_wastelands",
   "Class": "com.shinoow.abyssalcraft.common.world.biome.BiomeGenAbywasteland",

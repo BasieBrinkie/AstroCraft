@@ -1,6 +1,6 @@
 
 {
-  "ID": 61,
+  "ID": 60,
   "Name": "Dense Twilight Forest",
   "Resource Location": "twilightforest:dense_twilight_forest",
   "Class": "twilightforest.biomes.TFBiomeTwilightForestVariant",

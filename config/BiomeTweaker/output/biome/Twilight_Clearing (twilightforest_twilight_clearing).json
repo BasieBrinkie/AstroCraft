@@ -1,6 +1,6 @@
 
 {
-  "ID": 68,
+  "ID": 67,
   "Name": "Twilight Clearing",
   "Resource Location": "twilightforest:twilight_clearing",
   "Class": "twilightforest.biomes.TFBiomeClearing",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "PLAINS",
-    "SPARSE"
+    "SPARSE",
+    "PLAINS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

@@ -1,6 +1,6 @@
 
 {
-  "ID": 80,
+  "ID": 79,
   "Name": "Defiled Plains",
   "Resource Location": "defiledlands:plains_defiled",
   "Class": "lykrast.defiledlands.common.world.biome.BiomePlainsDefiled",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "PLAINS",
-    "SPOOKY"
+    "SPOOKY",
+    "PLAINS"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

@@ -3,6 +3,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.formatting.IFormattedText;
 
 zenClass skyRes {
 	zenConstructor() {}
@@ -186,6 +187,16 @@ zenClass skyRes {
 	function waterExtractorInsertRemove(map as IItemStack[]) {
 		for item in map {
 			mods.skyresources.waterextractor.insert.removeRecipe(item);
+		}
+	}
+
+	function catalystYield(map as float[IItemStack[]], inputItem as IItemStack) as IFormattedText {
+		for itemArray, catalystYield in map {
+			for item in itemArray {
+				if (item.definition.id == inputItem.definition.id) {
+					return format.aqua("Catalyst Yield: " ~ (catalystYield * 100) ~ "%");
+				}
+			}
 		}
 	}
 }

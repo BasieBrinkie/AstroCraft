@@ -100,7 +100,7 @@ static addOredictsToOredict as IOreDictEntry[][IOreDictEntry] = {
 	Removes Items from Oredict.
 	---------------------------
 */
-static removeItemsFromOredict as IItemstack[][IOreDictEntry] = {	
+static removeItemsFromOredict as IItemStack[][IOreDictEntry] = {	
 };
 
 /*	------------------------------------------

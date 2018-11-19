@@ -1,6 +1,6 @@
 
 {
-  "ID": 100,
+  "ID": 97,
   "Name": "Darklands Forest",
   "Resource Location": "abyssalcraft:darklands_forest",
   "Class": "com.shinoow.abyssalcraft.common.world.biome.BiomeGenDarklandsForest",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "FOREST",
-    "SPOOKY"
+    "SPOOKY",
+    "FOREST"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [
