@@ -1,6 +1,6 @@
 
 {
-  "ID": 115,
+  "ID": 112,
   "Name": "CrystalChasms",
   "Resource Location": "advancedrocketry:crystalchasms",
   "Class": "zmaster587.advancedRocketry.world.biome.BiomeGenCrystal",
@@ -10,8 +10,10 @@
   "Filler Block": "minecraft:packed_ice",
   "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
   "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
-  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
-  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": [
+    "minecraft:stone[variant\u003dstone]"
+  ],
+  "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
   "Water Color": "16777215",
   "Temperature": 0.1,

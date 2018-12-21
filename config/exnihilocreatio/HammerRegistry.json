@@ -8,6 +8,15 @@
       "fortuneChance": 0.0
     }
   ],
+  "minecraft:cobblestone": [
+    {
+      "item": "minecraft:stone_slab:3",
+      "amount": 2,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
   "minecraft:stone": [
     { 
       "item": "minecraft:gravel",

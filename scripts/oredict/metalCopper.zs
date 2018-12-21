@@ -63,7 +63,7 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 		<mekanism:clump:3>,
 		<abyssalcraft:crystalfragment:17>,
 		<tconstruct:shard>.withTag({Material: "copper"})
-	]
+	],
 		
 	/*	
 	-------------
@@ -71,6 +71,26 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 	-------------
 	*/
 
+	/*	
+	--------------
+	Copper Plates.
+	--------------
+	*/
+	<ore:plateCopperTier1>: [
+		<libvulpes:productplate:4>
+	],
+	<ore:plateCopperTier2>: [
+		<tconstruct:large_plate:0>.withTag({Material: "copper"})
+	],
+	<ore:plateCopperTier3>: [
+		<techguns:itemshared:47>
+	],
+	<ore:plateCopperTier4>: [
+		<immersiveengineering:metal:30>
+	],
+	<ore:plateCopperTier5>: [
+		<thermalfoundation:material:320>
+	]
 };
 
 /*	
@@ -150,7 +170,35 @@ static createOredictsToOredict as IOreDictEntry[][IOreDictEntry] = {
 	<ore:ingotCopperTier4To5>: [
 		<ore:ingotCopperTier4>,
 		<ore:ingotCopperTier5>
-	]
+	],
+
+	/*	
+	--------------
+	Copper Plates.
+	--------------
+	*/
+	<ore:plateCopperTier1To5>: [
+		<ore:plateCopperTier1>,
+		<ore:plateCopperTier2>,
+		<ore:plateCopperTier3>,
+		<ore:plateCopperTier4>,
+		<ore:plateCopperTier5>
+	],
+	<ore:plateCopperTier2To5>: [
+		<ore:plateCopperTier2>,
+		<ore:plateCopperTier3>,
+		<ore:plateCopperTier4>,
+		<ore:plateCopperTier5>
+	],
+	<ore:plateCopperTier3To5>: [
+		<ore:plateCopperTier3>,
+		<ore:plateCopperTier4>,
+		<ore:plateCopperTier5>
+	],
+	<ore:plateCopperTier4To5>: [
+		<ore:plateCopperTier4>,
+		<ore:plateCopperTier5>
+	]	
 };
 
 /*	

@@ -767,5 +767,15 @@
     "Spawn Type": "NONE",
     "Parent 1": "",
     "Parent 2": ""
+  },
+  "morechickens:chromechicken": {
+    "Name": "chromechicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "gregtech:meta_item_1:10016",
+    "Drop Item": "gregtech:meta_item_1:10016",
+    "Spawn Type": "NONE",
+    "Parent 1": "morechickens:tinchicken",
+    "Parent 2": "morechickens:titaniumchicken"
   }
 }

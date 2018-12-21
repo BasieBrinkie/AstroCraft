@@ -1,6 +1,6 @@
 
 {
-  "ID": 98,
+  "ID": 92,
   "Name": "vampireForest",
   "Resource Location": "vampirism:vampireforest",
   "Class": "de.teamlapen.vampirism.biome.BiomeGenVampireForest",
@@ -10,8 +10,10 @@
   "Filler Block": "vampirism:cursed_earth",
   "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
   "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
-  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
-  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": [
+    "minecraft:stone[variant\u003dstone]"
+  ],
+  "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
   "Water Color": "15607045",
   "Temperature": 0.5,
@@ -20,10 +22,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DENSE",
-    "FOREST",
     "SPOOKY",
-    "MAGICAL"
+    "DENSE",
+    "MAGICAL",
+    "FOREST"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

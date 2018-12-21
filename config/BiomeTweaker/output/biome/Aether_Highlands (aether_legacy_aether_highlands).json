@@ -1,6 +1,6 @@
 
 {
-  "ID": 120,
+  "ID": 117,
   "Name": "Aether Highlands",
   "Resource Location": "aether_legacy:aether_highlands",
   "Class": "com.legacy.aether.world.biome.AetherBiome",
@@ -10,8 +10,10 @@
   "Filler Block": "aether_legacy:holystone[aether_legacy_double_drops\u003dtrue]",
   "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
   "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
-  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
-  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": [
+    "minecraft:stone[variant\u003dstone]"
+  ],
+  "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
   "Water Color": "16777215",
   "Temperature": 0.5,
@@ -20,8 +22,8 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DRY",
-    "PLAINS"
+    "PLAINS",
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

@@ -91,11 +91,11 @@ function initIntegrations() {
 	if (!devDisableIntegrations | !dev) {
 	print("----------------------- Integrations -----------------------");
 	
-	scripts.integrations.skyResources.catalysts.init();
-	scripts.integrations.skyResources.alchemicalFusion.init();
-	scripts.integrations.skyResources.combustion.init();
-	scripts.integrations.skyResources.cuttingKnife.init();
-	scripts.integrations.skyResources.rockGrinder.init();
+	scripts.recipes.integrations.skyResources.catalysts.init();
+	scripts.recipes.integrations.skyResources.alchemicalFusion.init();
+	scripts.recipes.integrations.skyResources.combustion.init();
+	scripts.recipes.integrations.skyResources.cuttingKnife.init();
+	scripts.recipes.integrations.skyResources.rockGrinder.init();
 	
 	}
 	

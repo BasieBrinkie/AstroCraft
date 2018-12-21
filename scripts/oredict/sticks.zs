@@ -11,6 +11,11 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 	],
 	<ore:stickTier2>: [
 		<minecraft:stick:0>
+	],
+	<ore:stickTier3>: [
+		<fp:spaceship:12>,
+		<immersiveengineering:material:0>,
+		<mysticalagriculture:crafting:22>
 	] 
 };
 
@@ -19,9 +24,14 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 	-------------------------------------------------
 */
 static createOredictsToOredict as IOreDictEntry[][IOreDictEntry] = {
-	<ore:stickTier1To2>: [
+	<ore:stickTier1To3>: [
 		<ore:stickTier1>,
 		<ore:stickTier2>,
+		<ore:stickTier3>
+	],
+	<ore:stickTier2To3>: [
+		<ore:stickTier2>,
+		<ore:stickTier3>
 	]
 };
 

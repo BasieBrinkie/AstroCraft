@@ -1,6 +1,6 @@
 
 {
-  "ID": 105,
+  "ID": 102,
   "Name": "Dreadlands Forest",
   "Resource Location": "abyssalcraft:dreadlands_forest",
   "Class": "com.shinoow.abyssalcraft.common.world.biome.BiomeGenForestDreadlands",
@@ -10,8 +10,10 @@
   "Filler Block": "abyssalcraft:dreadlandsdirt",
   "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
   "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
-  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
-  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": [
+    "minecraft:stone[variant\u003dstone]"
+  ],
+  "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
   "Water Color": "16777215",
   "Temperature": 0.5,

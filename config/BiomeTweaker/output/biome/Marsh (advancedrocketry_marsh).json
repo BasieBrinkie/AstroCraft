@@ -1,6 +1,6 @@
 
 {
-  "ID": 117,
+  "ID": 114,
   "Name": "Marsh",
   "Resource Location": "advancedrocketry:marsh",
   "Class": "zmaster587.advancedRocketry.world.biome.BiomeGenMarsh",
@@ -10,8 +10,10 @@
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
   "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
   "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
-  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
-  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": [
+    "minecraft:stone[variant\u003dstone]"
+  ],
+  "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
   "Water Color": "16777215",
   "Temperature": 0.5,
@@ -20,8 +22,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WET",
-    "HOT"
+    "HOT",
+    "WET"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

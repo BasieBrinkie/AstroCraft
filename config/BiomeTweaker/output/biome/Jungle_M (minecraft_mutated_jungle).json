@@ -10,8 +10,10 @@
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
   "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
   "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
-  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
-  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": [
+    "minecraft:stone[variant\u003dstone]"
+  ],
+  "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
   "Water Color": "16777215",
   "Temperature": 0.95,
@@ -20,12 +22,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
+    "RARE",
     "DENSE",
-    "JUNGLE",
+    "HOT",
     "MOUNTAIN",
     "WET",
-    "RARE"
+    "JUNGLE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -132,18 +134,6 @@
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 4
-    },
-    {
-      "Entity Class": "essentialcraft.common.entity.EntityWindMage",
-      "Weight": 2,
-      "Min Group Count": 1,
-      "Max Group Count": 6
-    },
-    {
-      "Entity Class": "essentialcraft.common.entity.EntityPoisonFume",
-      "Weight": 100,
-      "Min Group Count": 8,
-      "Max Group Count": 16
     },
     {
       "Entity Class": "de.teamlapen.vampirism.entity.vampire.EntityBasicVampire",
