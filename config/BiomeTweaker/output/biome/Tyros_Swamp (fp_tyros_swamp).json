@@ -22,10 +22,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
     "WET",
-    "JUNGLE",
-    "SWAMP"
+    "HOT",
+    "SWAMP",
+    "JUNGLE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -134,10 +134,10 @@
       "Max Group Count": 3
     },
     {
-      "Entity Class": "com.shinoow.abyssalcraft.common.entity.EntityLesserShoggoth",
-      "Weight": 3,
+      "Entity Class": "techguns.entities.npcs.TGDummySpawn",
+      "Weight": 600,
       "Min Group Count": 1,
-      "Max Group Count": 1
+      "Max Group Count": 3
     },
     {
       "Entity Class": "matteroverdrive.entity.monster.EntityMeleeRougeAndroidMob",
@@ -150,12 +150,6 @@
       "Weight": 25,
       "Min Group Count": 1,
       "Max Group Count": 2
-    },
-    {
-      "Entity Class": "techguns.entities.npcs.TGDummySpawn",
-      "Weight": 600,
-      "Min Group Count": 1,
-      "Max Group Count": 3
     }
   ],
   "Spawnable Water Creatures": [

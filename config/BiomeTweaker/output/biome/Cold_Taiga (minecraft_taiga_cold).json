@@ -23,9 +23,9 @@
   "Enable Snow": true,
   "Dictionary Types": [
     "COLD",
+    "SNOWY",
     "CONIFEROUS",
-    "FOREST",
-    "SNOWY"
+    "FOREST"
   ],
   "BiomeManager Entries": {
     "ICY Weights": [
@@ -138,10 +138,10 @@
       "Max Group Count": 1
     },
     {
-      "Entity Class": "thaumcraft.common.entities.monster.EntityBrainyZombie",
-      "Weight": 10,
+      "Entity Class": "techguns.entities.npcs.TGDummySpawn",
+      "Weight": 600,
       "Min Group Count": 1,
-      "Max Group Count": 1
+      "Max Group Count": 3
     },
     {
       "Entity Class": "matteroverdrive.entity.monster.EntityMeleeRougeAndroidMob",
@@ -154,12 +154,6 @@
       "Weight": 25,
       "Min Group Count": 1,
       "Max Group Count": 2
-    },
-    {
-      "Entity Class": "techguns.entities.npcs.TGDummySpawn",
-      "Weight": 600,
-      "Min Group Count": 1,
-      "Max Group Count": 3
     }
   ],
   "Spawnable Water Creatures": [

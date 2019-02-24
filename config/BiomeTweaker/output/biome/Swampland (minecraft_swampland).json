@@ -54,30 +54,6 @@
       "Weight": 8,
       "Min Group Count": 4,
       "Max Group Count": 4
-    },
-    {
-      "Entity Class": "com.shinoow.abyssalcraft.common.entity.demon.EntityEvilpig",
-      "Weight": 20,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.shinoow.abyssalcraft.common.entity.demon.EntityEvilCow",
-      "Weight": 20,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.shinoow.abyssalcraft.common.entity.demon.EntityEvilChicken",
-      "Weight": 20,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.shinoow.abyssalcraft.common.entity.demon.EntityEvilSheep",
-      "Weight": 20,
-      "Min Group Count": 1,
-      "Max Group Count": 3
     }
   ],
   "Spawnable Monsters": [
@@ -154,22 +130,40 @@
       "Max Group Count": 3
     },
     {
+      "Entity Class": "com.shinoow.abyssalcraft.common.entity.demon.EntityEvilpig",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
       "Entity Class": "com.shinoow.abyssalcraft.common.entity.EntityAbyssalZombie",
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 3
     },
     {
-      "Entity Class": "com.shinoow.abyssalcraft.common.entity.EntityLesserShoggoth",
-      "Weight": 3,
+      "Entity Class": "com.shinoow.abyssalcraft.common.entity.demon.EntityEvilCow",
+      "Weight": 20,
       "Min Group Count": 1,
-      "Max Group Count": 1
+      "Max Group Count": 3
     },
     {
-      "Entity Class": "thaumcraft.common.entities.monster.EntityBrainyZombie",
-      "Weight": 10,
+      "Entity Class": "com.shinoow.abyssalcraft.common.entity.demon.EntityEvilChicken",
+      "Weight": 20,
       "Min Group Count": 1,
-      "Max Group Count": 1
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.shinoow.abyssalcraft.common.entity.demon.EntityEvilSheep",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "techguns.entities.npcs.TGDummySpawn",
+      "Weight": 600,
+      "Min Group Count": 1,
+      "Max Group Count": 3
     },
     {
       "Entity Class": "matteroverdrive.entity.monster.EntityMeleeRougeAndroidMob",
@@ -182,12 +176,6 @@
       "Weight": 25,
       "Min Group Count": 1,
       "Max Group Count": 2
-    },
-    {
-      "Entity Class": "techguns.entities.npcs.TGDummySpawn",
-      "Weight": 600,
-      "Min Group Count": 1,
-      "Max Group Count": 3
     }
   ],
   "Spawnable Water Creatures": [

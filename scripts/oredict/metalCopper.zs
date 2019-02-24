@@ -2,7 +2,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.formatting.IFormattedText;
 
-import scripts.integrations.skyResources.catalysts.catalystAdd;
+import scripts.recipes.integrations.skyResources.catalysts.catalystAdd;
 
 /*	
 	-----------------------------------------

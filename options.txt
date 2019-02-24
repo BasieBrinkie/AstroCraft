@@ -26,7 +26,7 @@ chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:true
 fullscreen:false
-enableVsync:true
+enableVsync:false
 useVbo:true
 hideServerAddress:false
 advancedItemTooltips:true
@@ -104,7 +104,6 @@ key_Zepplin Airship Stop:76
 key_keybind.baublesinventory:48
 key_key.staff_mode.desc:50
 key_key.use_cage.desc:49
-key_psimisc.keybind:46
 key_key.betterquesting.quests:41
 key_keybind.hammercorerenderstack:77
 key_bloodmagic.keybind.open_holding:35
@@ -116,10 +115,7 @@ key_key.erebus.glide:2
 key_key.erebus.poweredglide:35
 key_key.erebus.beetleram:2
 key_key.erebus.beetlemine:56
-key_ComputerArmorBoost:44
-key_ComputerArmorNightVision:45
 key_key.xu2.searchforitems:20
-key_key.ftbutilities.warp:35
 key_key.ftbutilities.nbt:49:ALT
 key_igwmod.keys.wiki:23
 key_ingameinfoxml.key.toggle:0
@@ -132,6 +128,7 @@ key_pneumaticcraft.armor.options:22
 key_pneumaticcraft.helmet.hack:35
 key_pneumaticcraft.helmet.debugging.drone:21
 key_pneumaticcraft.boots.kick:45:CONTROL
+key_psimisc.keybind:46
 key_key.toastcontrol.clear:36
 key_keys.vampirism.action:2
 key_keys.vampirism.suck:47
@@ -162,6 +159,8 @@ key_key.modeSwitch:34
 key_key.rangeChange:19
 key_key.undoKey:22
 key_key.anchorKey:35
+key_key.fuzzyKey:0
+key_key.connectedarea:0
 key_mod.chiselsandbits.chiselmode.single:0
 key_mod.chiselsandbits.chiselmode.snap2:0
 key_mod.chiselsandbits.chiselmode.snap4:0
@@ -227,12 +226,9 @@ key_key.rotateright:0
 key_key.rotateleft:203
 key_key.little.flip:2
 key_key.little.mark:50
-key_key.little.config:46:CONTROL
+key_key.little.config.item:46
 key_key.little.undo:44:CONTROL
 key_key.little.redo:21:CONTROL
-key_Open Matter Scanner GUI:46
-key_Android Ability key:45
-key_Android Switch Ability key:2
 key_key.nutrition:49
 key_key.porterNextDestination:27
 key_key.porterPrevDestination:26
@@ -257,6 +253,9 @@ key_techguns.key.toggleSafemode:48
 key_techguns.key.toggleStepassist:47
 key_techguns.key.forceReload:2
 key_techguns.key.toggleJetpack:36
+key_Open Matter Scanner GUI:46
+key_Android Ability key:45
+key_Android Switch Ability key:2
 key_key.radial_menu:46
 key_key.use_ring:2
 key_key.open_pouch:2

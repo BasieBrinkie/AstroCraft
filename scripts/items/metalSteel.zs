@@ -68,7 +68,7 @@ static itemTooltips as IFormattedText[][IFormattedText[]][string][IItemStack] = 
 		Steel Blocks.
 		--------------
 	*/	
-	<bigreactors:blockmetals:5>: {
+	<bigreactors:blocksteel>: {
 		"Steel Block - Carbon: (0.05%)": {[
 			format.gray("A block of Steel with a carbon level of 0.05%"),
 			format.yellow("Tier 1")]: [

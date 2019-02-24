@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "RARE",
-    "MOUNTAIN",
-    "SPARSE"
+    "SPARSE",
+    "MOUNTAIN"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -133,6 +133,12 @@
       "Max Group Count": 1
     },
     {
+      "Entity Class": "techguns.entities.npcs.TGDummySpawn",
+      "Weight": 600,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
       "Entity Class": "matteroverdrive.entity.monster.EntityMeleeRougeAndroidMob",
       "Weight": 25,
       "Min Group Count": 1,
@@ -143,12 +149,6 @@
       "Weight": 25,
       "Min Group Count": 1,
       "Max Group Count": 2
-    },
-    {
-      "Entity Class": "techguns.entities.npcs.TGDummySpawn",
-      "Weight": 600,
-      "Min Group Count": 1,
-      "Max Group Count": 3
     }
   ],
   "Spawnable Water Creatures": [

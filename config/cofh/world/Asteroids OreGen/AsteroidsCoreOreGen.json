@@ -3,69 +3,79 @@
         "AsteroidCoreOre_Iridium": {
             "distribution": "uniform",
             "generator": {     
+                "cluster-size": 4,
                 "block": {"name": "thermalfoundation:ore", "properties": { "type": "iridium" } },
-                "material": {"name": "galacticraftplanets:asteroids_block","metadata": 0},
-                "cluster-size": 10,
+                "material": {"name": "minecraft:stone","metadata": 0},
             },
             "min-height": 20,
             "max-height": 240,
-            "cluster-count": 14,
+            "cluster-count": 5,
+            "chunk-chance": 0.6,
             "retrogen": "true",
             "biome": "all",
             "dimension": {
                 "restriction": "whitelist",
-                "value": [-30]
+                "value": [3]
             }
         },
+        
         "AsteroidCoreOre_CompressedIron": {
             "distribution": "uniform",
             "generator": {     
+                "type": "plate",
+                "radius": 2,
+                "height": 1,
+
                 "block": {"name": "minecraft:iron_block"},
-                "material": {"name": "galacticraftplanets:asteroids_block","metadata": 0},
-                "cluster-size": 5,
+                "material": {"name": "minecraft:stone","metadata": 0},
             },
             "min-height": 20,
             "max-height": 240,
-            "cluster-count": 16,
+            "cluster-count": 1,
+            "chunk-chance": 0.4,
             "retrogen": "true",
             "biome": "all",
             "dimension": {
                 "restriction": "whitelist",
-                "value": [-30]
+                "value": [3]
             }
         },
+        
+        "AsteroidCoreOre_Uranium": {
+            "distribution": "uniform",
+            "generator": {     
+                "cluster-size": 1,                
+                "block": {"name": "techguns:basicore", "metadata": 4},
+                "material": {"name": "minecraft:stone","metadata": 0},
+            },
+            "min-height": 20,
+            "max-height": 240,
+            "cluster-count": 1,
+            "chunk-chance": 0.15,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [3]
+            }
+        },
+
         "AsteroidCoreOre_Diamond": {
             "distribution": "uniform",
             "generator": {     
-                "block": [ {"name": "minecraft:diamond_ore", "weight": 40}, {"name": "galacticraftcore:basic_block_core", "metadata": 12, "weight": 60} ],
-                "material": {"name": "galacticraftcore:basic_block_core","metadata": 12},
-                "cluster-size": 18,
+                "cluster-size": 1,                
+                "block": {"name": "minecraft:diamond_ore"},
+                "material": {"name": "minecraft:stone","metadata": 0},
             },
             "min-height": 20,
             "max-height": 240,
-            "cluster-count": 100,
+            "cluster-count": 1,
+            "chunk-chance": 0.1,
             "retrogen": "true",
             "biome": "all",
             "dimension": {
                 "restriction": "whitelist",
-                "value": [-30]
-            }
-        },
-        "AsteroidCoreOre_DiamondSiliconMix": {
-            "distribution": "uniform",
-            "generator": {     
-                "block": [ {"name": "minecraft:diamond_ore", "weight": 10}, {"name": "galacticraftcore:basic_block_core", "metadata": 12, "weight": 90} ],
-                "material": {"name": "galacticraftplanets:venus","metadata": 10},
-                "cluster-size": 12,
-            },
-            "min-height": 20,
-            "max-height": 240,
-            "cluster-count": 40,
-            "retrogen": "true",
-            "biome": "all",
-            "dimension": {
-                "restriction": "whitelist",
-                "value": [-30]
+                "value": [3]
             }
         },
     }

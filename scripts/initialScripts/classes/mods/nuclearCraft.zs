@@ -767,32 +767,6 @@ zenClass nuclearCraft {
 		mods.nuclearcraft.salt_fission.removeAllRecipes();
 	}
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-	function coolantHeaterAddRecipe(map as double[IIngredient][IIngredient]) {
-		for outputFluid, array1 in map {
-			for inputFluid, coolingRate in map {
-				mods.nuclearcraft.coolant_heater.addRecipe([inputFluid, outputFluid, coolingRate]);
-			}
-		}
-	}
-
-	function coolantHeaterRemoveInputRecipe(map as IIngredient[]) {
-		for inputFluid in map {
-			mods.nuclearcraft.coolant_heater.removeRecipeWithInput([inputFluid]);
-		}
-	}
-
-	function coolantHeaterRemoveOutputRecipe(map as IIngredient[]) {
-		for outputFluid in map {
-			mods.nuclearcraft.coolant_heater.removeRecipeWithOutput([outputFluid]);
-		}
-	}
-
-	function coolantHeaterRemoveAll() {
-		mods.nuclearcraft.coolant_heater.removeAllRecipes();
-	}
-
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	function heatExchangerAddRecipe(map as int[int][double][IIngredient][IIngredient]) {
@@ -823,61 +797,36 @@ zenClass nuclearCraft {
 		mods.nuclearcraft.heat_exchanger.removeAllRecipes();
 	}
 
-///////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-	function highPressureAddRecipe(map as double[double][IIngredient][IIngredient]) {
+	function steamTurbineAddRecipe(map as int[int][double][IIngredient][IIngredient]) {
 		for inputFluid, array1 in map {
 			for outputFluid, array2 in array1 {
-				for multiplierTime, multiplierPower in array2 {
-					mods.nuclearcraft.high_turbine.addRecipe([inputFluid, outputFluid, multiplierTime, multiplierPower]);
+				for requiredHeat, array3 in array2 {
+					for tempIn, tempOut in array3 {
+						mods.nuclearcraft.turbine.addRecipe([inputFluid, outputFluid, requiredHeat, tempIn, tempOut]);
+					}
 				}
 			}
 		}
 	}
 
-	function highPressureRemoveInputRecipe(map as IIngredient[]) {
+	function steamTurbineRemoveInputRecipe(map as IIngredient[]) {
 		for inputFluid in map {
-			mods.nuclearcraft.high_turbine.removeRecipeWithInput([inputFluid]);
+			mods.nuclearcraft.turbine.removeRecipeWithInput([inputFluid]);
 		}
 	}
 
-	function highPressureRemoveOutputRecipe(map as IIngredient[]) {
+	function steamTurbineRemoveOutputRecipe(map as IIngredient[]) {
 		for outputFluid in map {
-			mods.nuclearcraft.high_turbine.removeRecipeWithOutput([outputFluid]);
+			mods.nuclearcraft.turbine.removeRecipeWithOutput([outputFluid]);
 		}
 	}
 
-	function highPressureRemoveAll() {
-		mods.nuclearcraft.high_turbine.removeAllRecipes();
+	function steamTurbineRemoveAll() {
+		mods.nuclearcraft.turbine.removeAllRecipes();
 	}
 
-///////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-	function lowPressureAddRecipe(map as double[double][IIngredient][IIngredient]) {
-		for inputFluid, array1 in map {
-			for outputFluid, array2 in array1 {
-				for multiplierTime, multiplierPower in array2 {
-					mods.nuclearcraft.low_turbine.addRecipe([inputFluid, outputFluid, multiplierTime, multiplierPower]);
-				}
-			}
-		}
-	}
-
-	function lowPressureRemoveInputRecipe(map as IIngredient[]) {
-		for inputFluid in map {
-			mods.nuclearcraft.low_turbine.removeRecipeWithInput([inputFluid]);
-		}
-	}
-
-	function lowPressureRemoveOutputRecipe(map as IIngredient[]) {
-		for outputFluid in map {
-			mods.nuclearcraft.low_turbine.removeRecipeWithOutput([outputFluid]);
-		}
-	}
-
-	function lowPressureRemoveAll() {
-		mods.nuclearcraft.low_turbine.removeAllRecipes();
-	}
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -932,10 +881,8 @@ zenClass nuclearCraft {
 			fissionRemoveAll();
 			fusionRemoveAll();
 			saltFissionRemoveAll();
-			coolantHeaterRemoveAll();
 			heatExchangerRemoveAll();
-			highPressureRemoveAll();
-			lowPressureRemoveAll();
+			steamTurbineRemoveAll();
 			condenserRemoveAll();
 		}
 	}

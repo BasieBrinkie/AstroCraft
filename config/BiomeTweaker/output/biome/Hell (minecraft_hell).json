@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "HOT",
-    "DRY",
-    "NETHER"
+    "NETHER",
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -91,16 +91,10 @@
       "Max Group Count": 3
     },
     {
-      "Entity Class": "thaumcraft.common.entities.monster.EntityFireBat",
-      "Weight": 10,
+      "Entity Class": "techguns.entities.npcs.TGDummySpawn",
+      "Weight": 300,
       "Min Group Count": 1,
-      "Max Group Count": 2
-    },
-    {
-      "Entity Class": "thaumcraft.common.entities.monster.EntityWisp",
-      "Weight": 5,
-      "Min Group Count": 1,
-      "Max Group Count": 1
+      "Max Group Count": 3
     },
     {
       "Entity Class": "matteroverdrive.entity.monster.EntityMeleeRougeAndroidMob",
@@ -113,12 +107,6 @@
       "Weight": 25,
       "Min Group Count": 1,
       "Max Group Count": 2
-    },
-    {
-      "Entity Class": "techguns.entities.npcs.TGDummySpawn",
-      "Weight": 300,
-      "Min Group Count": 1,
-      "Max Group Count": 3
     }
   ],
   "Spawnable Water Creatures": [],

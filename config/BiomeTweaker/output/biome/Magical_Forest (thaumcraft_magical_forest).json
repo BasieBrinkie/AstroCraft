@@ -25,14 +25,7 @@
     "MAGICAL",
     "FOREST"
   ],
-  "BiomeManager Entries": {
-    "WARM Weights": [
-      5
-    ],
-    "COOL Weights": [
-      5
-    ]
-  },
+  "BiomeManager Entries": {},
   "Spawnable Creatures": [
     {
       "Entity Class": "net.minecraft.entity.passive.EntitySheep",
@@ -139,18 +132,6 @@
       "Max Group Count": 1
     },
     {
-      "Entity Class": "thaumcraft.common.entities.monster.EntityPech",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "thaumcraft.common.entities.monster.EntityWisp",
-      "Weight": 20,
-      "Min Group Count": 1,
-      "Max Group Count": 2
-    },
-    {
       "Entity Class": "de.teamlapen.vampirism.entity.vampire.EntityBasicVampire",
       "Weight": 75,
       "Min Group Count": 1,
@@ -163,10 +144,10 @@
       "Max Group Count": 1
     },
     {
-      "Entity Class": "thaumcraft.common.entities.monster.EntityBrainyZombie",
-      "Weight": 10,
+      "Entity Class": "techguns.entities.npcs.TGDummySpawn",
+      "Weight": 600,
       "Min Group Count": 1,
-      "Max Group Count": 1
+      "Max Group Count": 3
     },
     {
       "Entity Class": "matteroverdrive.entity.monster.EntityMeleeRougeAndroidMob",
@@ -179,12 +160,6 @@
       "Weight": 25,
       "Min Group Count": 1,
       "Max Group Count": 2
-    },
-    {
-      "Entity Class": "techguns.entities.npcs.TGDummySpawn",
-      "Weight": 600,
-      "Min Group Count": 1,
-      "Max Group Count": 3
     }
   ],
   "Spawnable Water Creatures": [

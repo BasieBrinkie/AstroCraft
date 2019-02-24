@@ -1,10 +1,22 @@
 <galaxy>
-    <star name="ToBeSetWIP" temp="100" x="0" y="0" size="4.4" numPlanets="0" numGasGiants="0" blackHole="true">
+    <star name="ToBeSetWIP" temp="100" x="0" y="0" size="2.4" numPlanets="0" numGasGiants="0" blackHole="true">
         <planet name="Asteroid Belt" DIMID="3">
+        	<isKnown>True</isKnown>
         	<genType>2</genType>
             <atmosphereDensity>0</atmosphereDensity>
             <gravitationalMultiplier>5</gravitationalMultiplier>
-            <biomeIds>113</biomeIds>
+            <biomeIds>advancedrocketry:space</biomeIds>
+            <orbitalDistance>20</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+            <orbitalPhi>45</orbitalPhi>
+            
+            <fillerBlock>minecraft:stone</fillerBlock>
+            <OreGen>
+            	<ore block="thermalfoundation:ore" meta="5" minHeight="1" maxHeight="255" clumpSize="16" chancePerChunk="1" />
+            </OreGen>
+            <oceanBlock></oceanBlock>
+            <seaLevel></seaLevel>
+            <rotationalPeriod>24000</rotationalPeriod>
         </planet>
     </star>
 </galaxy>
