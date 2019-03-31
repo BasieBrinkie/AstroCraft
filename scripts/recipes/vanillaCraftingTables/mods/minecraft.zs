@@ -63,6 +63,18 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:stone:0>]
 		]
 	],
+	<minecraft:stick:0>: [ //Tier 1 Stick
+		[
+			[<advancedrocketry:charcoallog:0>], 
+			[<advancedrocketry:charcoallog:0>],
+			[]
+		],
+		[
+			[],
+			[<advancedrocketry:charcoallog:0>], 
+			[<advancedrocketry:charcoallog:0>]
+		]
+	],
 	<minecraft:torch:0>: [
 		[
 			[<excompressum:uncompressed_coal:0>],

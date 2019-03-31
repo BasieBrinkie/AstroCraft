@@ -12,7 +12,7 @@
             
             <fillerBlock>minecraft:stone</fillerBlock>
             <OreGen>
-            	<ore block="thermalfoundation:ore" meta="5" minHeight="1" maxHeight="255" clumpSize="16" chancePerChunk="1" />
+                
             </OreGen>
             <oceanBlock></oceanBlock>
             <seaLevel></seaLevel>

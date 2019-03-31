@@ -1,0 +1,21 @@
+{
+  "data": [
+    {
+      "weight": 2.0680112838745117,
+      "block": "minecraft:diamond_ore",
+      "metadata": 0,
+      "tileEntity": "null"
+    },
+    {
+      "block": "minecraft:obsidian",
+      "metadata": 0,
+      "tileEntity": "null"
+    }
+  ],
+  "metadata": {
+    "title": "Randomized Diamond Ores",
+    "description": [
+      ""
+    ]
+  }
+}

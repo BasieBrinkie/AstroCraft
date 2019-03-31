@@ -72,13 +72,15 @@ zenClass itemProperties {
 						item.addTooltip(toolTipStandard);
 					}
 					
-					if (!isNull(toolTipShiftArray)) {
+					if (!isNull(toolTipShiftArray[0])) {
 						item.addTooltip(format.white("Hold: ") + format.blue(format.italic("LShift ")) + format.white("for more information"));
+
+						for toolTipShift in toolTipShiftArray {
+							item.addShiftTooltip(toolTipShift);
+						}
 					}
 				
-					for toolTipShift in toolTipShiftArray {
-						item.addShiftTooltip(toolTipShift);
-					}
+					
 				}
 			}
 		
@@ -97,12 +99,12 @@ zenClass itemProperties {
 					item.addTooltip(toolTipStandard);
 				}
 				
-				if (!isNull(toolTipShiftArray)) {
+				if (!isNull(toolTipShiftArray[0])) {
 					item.addTooltip(format.white("Hold: ") + format.blue(format.italic("LShift ")) + format.white("for more information"));
-				}
-			
-				for toolTipShift in toolTipShiftArray {
-					item.addShiftTooltip(toolTipShift);
+
+					for toolTipShift in toolTipShiftArray {
+						item.addShiftTooltip(toolTipShift);
+					}
 				}
 			}
 			

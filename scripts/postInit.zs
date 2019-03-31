@@ -31,6 +31,9 @@ function initOredict() {
 
 	scripts.oredict.metalCopper.init();
 	scripts.oredict.metalIron.init();
+	scripts.oredict.metalLead.init();
+	scripts.oredict.metalSteel.init();
+
 	scripts.oredict.planks.init();
 	scripts.oredict.sticks.init();
 
@@ -46,7 +49,6 @@ function initStages() {
 	scripts.stages.mods.abyssalCraft.init();
 	scripts.stages.mods.actuallyAdditions.init();	
 	scripts.stages.mods.advancedRocketry.init();
-	scripts.stages.mods.betterQuesting.init();
 	scripts.stages.mods.charcoalPit.init();
 	scripts.stages.mods.exCompressum.init();
 	scripts.stages.mods.exNihiloCreatio.init();
@@ -72,8 +74,8 @@ function initItemProperties() {
 
 	//scripts.items.metalCopper.init();
 	//scripts.items.metalIron.init();
-	scripts.items.metalLead.init();
-	scripts.items.metalSteel.init();
+	//scripts.items.metalLead.init();
+	//scripts.items.metalSteel.init();
 	/*	
 		------------------------
 		Item Properties per Mod.
@@ -81,7 +83,7 @@ function initItemProperties() {
 	*/
 	scripts.items.mods.abyssalCraft.init();
 	scripts.items.mods.advancedRocketry.init();
-	scripts.items.mods.evilCraft.init();
+	scripts.items.mods.alchemistry.init();
 	scripts.items.mods.minecraft.init();
 
 	}
@@ -124,10 +126,8 @@ function initRecipes() {
 	scripts.recipes.vanillaCraftingTables.mods.abyssalCraft.init();
 	scripts.recipes.vanillaCraftingTables.mods.actuallyAdditions.init();
 	scripts.recipes.vanillaCraftingTables.mods.advancedRocketry.init();
-	scripts.recipes.vanillaCraftingTables.mods.betterQuesting.init();
 	scripts.recipes.vanillaCraftingTables.mods.charcoalPit.init();
 
-	scripts.recipes.vanillaCraftingTables.mods.evilCraft.init();
 	scripts.recipes.vanillaCraftingTables.mods.exCompressum.init();
 	scripts.recipes.vanillaCraftingTables.mods.exNihiloCreatio.init();
 

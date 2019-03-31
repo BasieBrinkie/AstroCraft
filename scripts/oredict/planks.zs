@@ -21,13 +21,7 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 		<advancedrocketry:planks:0>,
 		
 		<astralsorcery:blockinfusedwood:1>,
-		
-		<botania:dreamwood:1>,
-		<botania:dreamwood:2>,
-		<botania:livingwood:1>,
-		<botania:livingwood:2>,
-		<botania:shimmerwoodplanks:0>,
-		
+				
 		<erebus:planks:0>,
 		<erebus:planks:1>,
 		<erebus:planks:2>,
@@ -53,7 +47,6 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 		
 		<twilightforest:tower_wood:0>
 		
-
 	],
 	<ore:planksTier3>: [
 		<defiledlands:tenebra_planks:0>,
@@ -77,7 +70,7 @@ static createOredictsToOredict as IOreDictEntry[][IOreDictEntry] = {
 	],
 	<ore:planksTier2To3>: [
 		<ore:planksTier2>,
-		<ore:planksTier3>,
+		<ore:planksTier3>
 	]
 };
 

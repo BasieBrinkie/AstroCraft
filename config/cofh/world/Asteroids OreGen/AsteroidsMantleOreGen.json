@@ -12,7 +12,7 @@
             },
             "min-height": 1,
             "max-height": 255,
-            "cluster-count": 40,
+            "cluster-count": 65,
             "retrogen": "true",
             "biome": "all",
             "dimension": {
@@ -29,7 +29,7 @@
             },
             "min-height": 1,
             "max-height": 255,
-            "cluster-count": 54,
+            "cluster-count": 60,
             "retrogen": "true",
             "biome": "all",
             "dimension": {
@@ -46,7 +46,7 @@
             },
             "min-height": 1,
             "max-height": 255,
-            "cluster-count": 19,
+            "cluster-count": 34,
             "retrogen": "true",
             "biome": "all",
             "dimension": {
@@ -63,7 +63,7 @@
             },
             "min-height": 1,
             "max-height": 255,
-            "cluster-count": 25,
+            "cluster-count": 48,
             "retrogen": "true",
             "biome": "all",
             "dimension": {
@@ -90,10 +90,10 @@
             }
         },
 
-        "AsteroidMantleOres_CompressedIron": {
+        "AsteroidMantleOres_Lead": {
             "distribution": "uniform",
             "generator": {     
-                "block":  {"name": "minecraft:iron_block"},
+                "block":  {"name": "thermalfoundation:ore", "properties": { "type": "lead" }},
                 "material": {"name": "minecraft:stone", "metadata": 0},
                 "cluster-size": 3,
             },

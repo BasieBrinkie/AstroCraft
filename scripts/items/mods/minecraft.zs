@@ -5,6 +5,7 @@ import crafttweaker.block.IBlockDefinition;
 import crafttweaker.formatting.IFormattedText;
 
 static itemNames as string[IItemStack] = {
+	<minecraft:stick:0>: "Weak Stick"
 };
 
 static unlocalizedNames as string[string] = {

@@ -14,8 +14,8 @@ static itemTooltips as IFormattedText[][IFormattedText[]][string][IItemStack] = 
 	<advancedrocketry:oxygencharger:0>: {
 		"Oxygen Pad": {[
 			format.gray("Charges your spacesuit up with oxygen")]: [
-				format.white("If you want to fill up your suit with oxygen you need to pipe in liquid oxygen"),
-				format.yellow("EARLY GAME TIP: Put small oxygen crystals in the top slot which will liquify the oxygen inside the crystals")
+				format.white("If you want to fill up your suit with oxygen you need to pipe in liquid oxygen and stand on top of the pad"),
+				format.yellow("Early Game Tip: Put Small Oxygen Crystals in the top slot. That will liquify the oxygen inside the crystals and fill up the internal buffer of the oxygen pad")
 			]
 		}		
 	}

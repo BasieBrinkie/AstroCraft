@@ -1,6 +1,7 @@
 #priority 1000
 import crafttweaker.block.IBlock;
 import crafttweaker.item.IItemStack;
+import crafttweaker.item.WeightedItemStack;
 import crafttweaker.events.IEventManager;
 import crafttweaker.event.IBlockEvent;
 import crafttweaker.event.BlockHarvestDropsEvent;
@@ -207,6 +208,6 @@ function weightedFortuneDrop() {
 function init() {
 	normalDrop();
 	normalFortuneDrop();
-	weightedDrop();
-	weightedFortuneDrop();
+	//weightedDrop();
+	//weightedFortuneDrop();
 }

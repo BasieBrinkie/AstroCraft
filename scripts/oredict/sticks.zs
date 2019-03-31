@@ -7,13 +7,12 @@ import crafttweaker.oredict.IOreDictEntry;
 */
 static createItemsToOredict as IItemStack[][IOreDictEntry] = { 
 	<ore:stickTier1>: [
-		<evilcraft:dark_stick:0>
-	],
-	<ore:stickTier2>: [
 		<minecraft:stick:0>
 	],
+	<ore:stickTier2>: [
+		<fp:spaceship:12>
+	],
 	<ore:stickTier3>: [
-		<fp:spaceship:12>,
 		<immersiveengineering:material:0>,
 		<mysticalagriculture:crafting:22>
 	] 

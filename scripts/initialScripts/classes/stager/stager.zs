@@ -3,6 +3,7 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.mods.ILoadedMods;
+import crafttweaker.mods.IMod;
 
 import mods.MobStages;
 import mods.zenstages.ZenStager;
@@ -27,24 +28,23 @@ zenClass stager {
 	function disable(map as IIngredient[]) {
 		ZenStager.getStage("disabled_items").addIngredients(map);
 	}
-
-	function addLeftovers(){
+/* TEMP DISABLED DUE TO A BUG IN 4.1.15
+	function addLeftovers() {
 		if(devNonStagedItems | !dev) {
 			print("----------------------- Stages: Non Staged Items -----------------------");
 			for modName in loadedMods {
 				for item in modName.items {
-					if(ZenStager.isStaged("ingredient", item)) {}
-					else {
+					if(!ZenStager.isStaged("ingredient", item)) {
 						stageNonStaged.addIngredient(item);
 					}
 				}
 			}
 		}
 	}
-	
+*/
 	function build() {
 		ZenStager.buildAll();
-		addLeftovers();
+		//addLeftovers();
 		ZenStager.buildAll();
 	}
 
@@ -60,7 +60,7 @@ zenClass stager {
 			}
 		}
 	}
-
+	
 	function mobSetStageDim(map as string[][string][int]) {
 		for dimension, stageArray in map {
 			for stage, mobArray in stageArray {

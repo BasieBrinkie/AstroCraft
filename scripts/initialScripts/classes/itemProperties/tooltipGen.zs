@@ -10,6 +10,35 @@ import crafttweaker.formatting.IFormattedText;
 zenClass tooltipGen {
 	zenConstructor() {}
 
+	/*
+	--------------------------------------------------------
+	If you want different materials add or change them here.
+	--------------------------------------------------------
+	*/
+	function oredictMaterial(oredictName as IOreDictEntry) as string {
+		if (oredictName.name in "Bronze") {
+			return "Bronze";
+		}
+		if (oredictName.name in "Copper") {
+			return "Copper";
+		}
+		if (oredictName.name in "Iron") {
+			return "Iron";
+		}
+		if (oredictName.name in "Lead") {
+			return "Lead";
+		}
+		if (oredictName.name in "Steel") {
+			return "Steel";
+		}
+		if (oredictName.name in "Tin") {
+			return "Tin";
+		}
+		
+		else {
+			return "Invalid Material";
+		}
+	}
 
 	/*
 	-------------------------------------------
@@ -114,15 +143,12 @@ zenClass tooltipGen {
 	*/
 	function carbonTier(tier as int) as string {
 		if (tier == 1) {
-			return "0.05%"; 
-		}
-		if (tier == 2) {
 			return "0.3%"; 
 		}
-		if (tier == 3) {
+		if (tier == 2) {
 			return "1.6%"; 
 		}
-		if (tier == 4) {
+		if (tier == 3) {
 			return "3.8%"; 
 		}
 		
@@ -245,7 +271,7 @@ zenClass tooltipGen {
 	function tierDescription(material as string, part as string, tier as int) as string {
 		if (part == "Block" | part == "Ingot") {
 			if (material == "Steel") {
-				carbonTier(tier);
+				return carbonTier(tier);
 			}
 
 			else {
@@ -378,30 +404,7 @@ zenClass tooltipGen {
 		return tieredTooltip;
 	}
 
-	function oredictMaterial(oredictName as IOreDictEntry) as string {
-		if (oredictName.name in "Bronze") {
-			return "Bronze";
-		}
-		if (oredictName.name in "Copper") {
-			return "Copper";
-		}
-		if (oredictName.name in "Iron") {
-			return "Iron";
-		}
-		if (oredictName.name in "Lead") {
-			return "Lead";
-		}
-		if (oredictName.name in "Steel") {
-			return "Steel";
-		}
-		if (oredictName.name in "Tin") {
-			return "Tin";
-		}
-		
-		else {
-			return "Invalid Material";
-		}
-	}
+	
 
 	function oredictPart(oredictName as IOreDictEntry) as string {
 		if (decapitalize(oredictName.name) in "block") {

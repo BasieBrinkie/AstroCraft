@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "weight": 5.4332804679870605,
+      "block": "minecraft:obsidian",
+      "metadata": 0,
+      "tileEntity": "null"
+    },
+    {
+      "weight": 1.0,
+      "block": "minecraft:air",
+      "metadata": 0,
+      "tileEntity": "null"
+    }
+  ],
+  "metadata": {
+    "title": "Obsidian Randomized Air",
+    "description": [
+      ""
+    ]
+  }
+}

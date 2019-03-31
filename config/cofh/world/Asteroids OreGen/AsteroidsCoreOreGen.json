@@ -19,20 +19,20 @@
             }
         },
         
-        "AsteroidCoreOre_CompressedIron": {
+        "AsteroidCoreOre_Lead": {
             "distribution": "uniform",
             "generator": {     
                 "type": "plate",
                 "radius": 2,
                 "height": 1,
 
-                "block": {"name": "minecraft:iron_block"},
+                "block": {"name": "thermalfoundation:ore", "properties": { "type": "lead" }},
                 "material": {"name": "minecraft:stone","metadata": 0},
             },
             "min-height": 20,
             "max-height": 240,
             "cluster-count": 1,
-            "chunk-chance": 0.4,
+            "chunk-chance": 0.2,
             "retrogen": "true",
             "biome": "all",
             "dimension": {
