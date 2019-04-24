@@ -5,8 +5,7 @@ import crafttweaker.block.IBlockDefinition;
 import crafttweaker.formatting.IFormattedText;
 
 static itemNames as string[IItemStack] = {
-	<abyssalcraft:crystalfragment:4>: "Small Oxygen Crystal",
-	<abyssalcraft:crystalshard:4>: "Oxygen Crystal",
+
 };
 
 static unlocalizedNames as string[string] = {

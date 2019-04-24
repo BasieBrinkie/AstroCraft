@@ -6,14 +6,14 @@ gamma:0.5
 saturation:0.0
 renderDistance:8
 guiScale:2
-particles:1
+particles:0
 bobView:true
 anaglyph3d:false
 maxFps:260
 fboEnable:true
 difficulty:2
-fancyGraphics:false
-ao:1
+fancyGraphics:true
+ao:2
 renderClouds:false
 resourcePacks:[]
 incompatibleResourcePacks:[]
@@ -112,6 +112,9 @@ key_pneumaticcraft.helmet.debugging.drone:21
 key_pneumaticcraft.boots.kick:45:CONTROL
 key_pneumaticcraft.chestplate.launcher:46:CONTROL
 key_psimisc.keybind:46
+key_key.toggleFoVChanges:51:SHIFT
+key_key.reloadSoundSystem:66:SHIFT
+key_key.toggleTimeOfDayOverlay:43:CONTROL
 key_key.toastcontrol.clear:36
 key_key.xtones.scroll:42
 key_key.narrator:48:CONTROL
@@ -172,6 +175,8 @@ key_key.toolProfileChange:43
 key_key.armorProfileChange:43:ALT
 key_key.toggleFlight:0
 key_key.toggleDislocator:0
+key_key.cycleDigAOE:0
+key_key.cycleAttackAOE:0
 key_FpsReducer.key.guiOpen:207
 key_key.dragon_fireAttack:19
 key_key.dragon_strike:34
@@ -202,37 +207,14 @@ key_key.porterNextDestination:27
 key_key.porterPrevDestination:26
 key_key.debugDumpNBTItem:0
 key_key.debugDumpNBTBlock:0
-key_key.toggleFoVChanges:51:SHIFT
-key_key.reloadSoundSystem:66:SHIFT
-key_key.toggleTimeOfDayOverlay:43:CONTROL
 key_key.toggle.schemui:22
 key_key.skyresources.guide:81
-key_key.+x:71
-key_key.+y:75
-key_key.+z:79
-key_key.-x:72
-key_key.-y:76
-key_key.-z:80
-key_key.show:82
-key_key.resetXYZ:179
-key_key.reloadFX:156
 key_techguns.key.toggleNightvision:49
 key_techguns.key.toggleSafemode:48
-key_techguns.key.toggleStepassist:47
+key_techguns.key.toggleStepassist:72
 key_techguns.key.forceReload:2
 key_techguns.key.toggleJetpack:36
-key_gui.xaero_minimap_settings:21
-key_gui.xaero_switch_waypoint_set:0
-key_gui.xaero_instant_waypoint:78
-key_gui.xaero_toggle_slime:0
-key_gui.xaero_toggle_grid:0
-key_gui.xaero_toggle_waypoints:0
-key_gui.xaero_toggle_map:35
-key_gui.xaero_enlarge_map:44
-key_gui.xaero_waypoints_key:22
-key_gui.xaero_zoom_in:23
-key_gui.xaero_zoom_out:24
-key_gui.xaero_new_waypoint:48
+key_WorldEdit Reference:38
 key_Open Matter Scanner GUI:46
 key_Android Ability key:45
 key_Android Switch Ability key:2
@@ -247,8 +229,23 @@ key_Rotate Rocket Right:32
 key_Rotate Rocket Left:30
 key_Move Rocket Up:44
 key_Move Rocket Down:45
+key_key.journeymap.zoom_in:13
+key_key.journeymap.zoom_out:12
+key_key.journeymap.minimap_type:26
+key_key.journeymap.minimap_preset:43
+key_key.journeymap.create_waypoint:48
+key_key.journeymap.fullscreen_create_waypoint:48
+key_key.journeymap.fullscreen_chat_position:46
+key_key.journeymap.map_toggle_alt:36
+key_key.journeymap.fullscreen_waypoints:48:CONTROL
+key_key.journeymap.minimap_toggle_alt:36:CONTROL
+key_key.journeymap.fullscreen_options:24
+key_key.journeymap.fullscreen.north:200
+key_key.journeymap.fullscreen.south:208
+key_key.journeymap.fullscreen.east:205
+key_key.journeymap.fullscreen.west:203
 key_Profile GUI:210
-soundCategory_master:1.0
+soundCategory_master:0.0
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:0.0

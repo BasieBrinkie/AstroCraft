@@ -20,18 +20,10 @@
     },
     {
       "drop": {
-        "name": "waterstrainer:worm",
+        "name": "actuallyadditions:item_worm",
         "meta": 0
       },
       "chance": 0.4,
-      "meshLevel": 1
-    },
-    {
-      "drop": {
-        "name": "minecraft:deadbush",
-        "meta": 0
-      },
-      "chance": 0.55,
       "meshLevel": 1
     }
   ]

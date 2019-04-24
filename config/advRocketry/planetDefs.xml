@@ -10,7 +10,7 @@
             <orbitalTheta>0</orbitalTheta>
             <orbitalPhi>45</orbitalPhi>
             
-            <fillerBlock>minecraft:stone</fillerBlock>
+            <fillerBlock>contenttweaker:astrostone</fillerBlock>
             <OreGen>
                 
             </OreGen>

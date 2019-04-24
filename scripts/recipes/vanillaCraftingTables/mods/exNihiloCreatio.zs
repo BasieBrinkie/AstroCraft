@@ -12,9 +12,9 @@ import crafttweaker.item.IIngredient;
 static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<exnihilocreatio:block_barrel0:0>: [
 		[
-			[<minecraft:planks:0>, null, <minecraft:planks:0>],
-			[<minecraft:planks:0>, null, <minecraft:planks:0>],
-			[<minecraft:wooden_slab:0>, <minecraft:wooden_slab:0>, <minecraft:wooden_slab:0>]
+			[<ore:woodPlanksTier1>, null, <ore:woodPlanksTier1>],
+			[<ore:woodPlanksTier1>, null, <ore:woodPlanksTier1>],
+			[<ore:slabsTier1>, <ore:slabsTier1>, <ore:slabsTier1>]
 		]
 	],
 	<exnihilocreatio:item_ore_copper:1>: [

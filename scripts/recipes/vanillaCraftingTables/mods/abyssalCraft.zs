@@ -7,6 +7,7 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
+	/*
 	<abyssalcraft:crystalshard:4>: [
 		[
 			[<abyssalcraft:crystalfragment:4>, <abyssalcraft:crystalfragment:4>],
@@ -18,7 +19,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<abyssalcraft:crystalfragment:4>, <abyssalcraft:crystalfragment:4>],
 			[<abyssalcraft:crystalfragment:4>, <abyssalcraft:crystalfragment:4>]
 		]
-	]
+	]*/
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {

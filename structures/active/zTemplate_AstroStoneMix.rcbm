@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "weight": 1.9039692878723145,
+      "block": "contenttweaker:astrostone",
+      "metadata": 0,
+      "tileEntity": "null"
+    },
+    {
+      "weight": 0.5043042898178101,
+      "block": "advancedrocketry:charcoallog",
+      "metadata": 4,
+      "tileEntity": "null"
+    },
+    {
+      "weight": 1.0,
+      "block": "minecraft:air",
+      "metadata": 0,
+      "tileEntity": "null"
+    }
+  ],
+  "metadata": {
+    "title": "Randomized Astro Stone",
+    "description": [
+      ""
+    ]
+  }
+}

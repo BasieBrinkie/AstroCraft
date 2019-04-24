@@ -8,23 +8,23 @@
       },
       "clicktype": "rightclick",
       "properties": [
-        {
+      {
           "type": "require_tool",
           "tool": "axe",
           "level": 1
         },
-		{
+		  {
           "type": "require_sneak"
         },
-        {
+      {
           "type": "play_sound",
           "name": "minecraft:block.wood_button.click_on",
           "volume": 0.4
         },
-        {
+      {
           "type": "swing_hand"
         },
-		{
+		  {
           "type": "spawn_particles",
           "name": "cloud",
           "xOffset": 0.2,
@@ -32,11 +32,11 @@
           "amount": 9,
           "speed": 0.1
         },
-        {
+      {
         	"type":"consume_block",
         	"chance": 32.3
         },
-        {
+      {
         	"type": "damage_item",
         	"amount": 3
         },

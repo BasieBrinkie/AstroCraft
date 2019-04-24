@@ -20,6 +20,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<advancedrocketry:charcoallog:0>]
 		]
 	]*/
+	<excompressum:wooden_crucible>: [
+		[
+			[<ore:woodPlanksTier1>, null, <ore:woodPlanksTier1>],
+			[<ore:woodPlanksTier1>, null, <ore:woodPlanksTier1>],
+			[<ore:woodPlanksTier1>, <ore:woodSlabsTier1>, <ore:woodPlanksTier1>]
+		]
+	]
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {

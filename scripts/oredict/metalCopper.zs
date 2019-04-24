@@ -61,7 +61,6 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 	*/
 	<ore:nuggetCopperTier1>: [
 		<mekanism:clump:3>,
-		<abyssalcraft:crystalfragment:17>,
 		<tconstruct:shard>.withTag({Material: "copper"})
 	],
 		

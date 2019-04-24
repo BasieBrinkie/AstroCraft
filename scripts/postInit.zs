@@ -34,7 +34,8 @@ function initOredict() {
 	scripts.oredict.metalLead.init();
 	scripts.oredict.metalSteel.init();
 
-	scripts.oredict.planks.init();
+	scripts.oredict.woodPlanks.init();
+	scripts.oredict.woodSlabs.init();
 	scripts.oredict.sticks.init();
 
 	scripts.oredict.mods.betterQuesting.init();
@@ -63,7 +64,7 @@ function initStages() {
 }
 
 function initItemProperties() {
-	if (!devItemProperties | !dev) {
+	if (!devDisableItemProperties | !dev) {
 	print("----------------------- Item Properties -----------------------");
 	/*	
 		----------------------------
@@ -109,7 +110,7 @@ function initRecipes() {
 		Removes all the recipes from all mods except set mods.
 		------------------------------------------------------
 	*/
-	if (!devRemoveRecipes | !dev) {
+	if (!devDisableRemoveRecipes | !dev) {
 	print("----------------------- Recipes: Removal -----------------------");
 	scripts.recipes.remove.init();
 
@@ -120,7 +121,7 @@ function initRecipes() {
 		Recipes per mod.
 		----------------
 	*/
-	if (!devAddRecipes | !dev) {
+	if (!devDisableAddRecipes | !dev) {
 	print("----------------------- Recipes: Additions -----------------------");
 	
 	scripts.recipes.vanillaCraftingTables.mods.abyssalCraft.init();

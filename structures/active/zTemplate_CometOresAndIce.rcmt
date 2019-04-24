@@ -8,9 +8,10 @@
           "uniform": false,
           "id": "replace_1b83018a",
           "sourceExpression": "minecraft:packed_ice",
+          "destinationPreset": "zTemplate_CometIceAstroStone",
           "destination": [
             {
-              "block": "minecraft:stone",
+              "block": "contenttweaker:astrostone",
               "metadata": 0,
               "tileEntity": "null"
             },

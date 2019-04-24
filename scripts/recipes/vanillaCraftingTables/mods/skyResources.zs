@@ -7,8 +7,14 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	
-
+	/*
+	<skyresources:crucible:0>: [
+		[
+			[<minecraft:cobblestone:0>, null, <minecraft:cobblestone:0>], 
+			[<minecraft:cobblestone:0>, null, <minecraft:cobblestone:0>],
+			[<minecraft:cobblestone:0>,<minecraft:cobblestone:0>,<minecraft:cobblestone:0>]
+		]
+	],*/
 	<skyresources:stonecuttingknife:0>: [
 		[
 			[<minecraft:stone:0>, <ore:stickTier1To2>, null], 
@@ -19,13 +25,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[],
 			[<minecraft:stone:0>, <ore:stickTier1To2>, null], 
 			[null, <minecraft:stone:0>, <ore:stickTier1To2>]
-		]
-	],
-	<skyresources:stonegrinder:0>: [
-		[
-			[<minecraft:stone:0>, null, null],
-			[null, <ore:stickTier2>, null],
-			[null, null, <ore:stickTier2>]
 		]
 	]
 };
@@ -39,6 +38,13 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
     -----------------
 */
 static mirroredRecipes as IIngredient[][][][IItemStack] = {
+	<skyresources:stonegrinder:0>: [
+		[
+			[<minecraft:stone:0>, null, null],
+			[null, <ore:stickTier2>, null],
+			[null, null, <ore:stickTier2>]
+		]
+	]
 };
 
 static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
