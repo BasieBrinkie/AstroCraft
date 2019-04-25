@@ -30,13 +30,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<minecraft:lever:0>: [
 		[
-			[<ore:stickTier1To2>],
-			[<minecraft:stone:0>],
-			[]
-		],
-		[
-			[],
-			[<ore:stickTier1To2>],
+			[<ore:stickTier1To3>],
 			[<minecraft:stone:0>]
 		]
 	],
@@ -51,7 +45,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<minecraft:stone_axe>: [
 		[
 			[<minecraft:stone:0>, <minecraft:stone:0>, null],
-			[<minecraft:stone:0>, <ore:stickTier1To2>, null],
+			[<minecraft:stone:0>, <ore:woodStickTier1To2>, null],
 			[null, <ore:stickTier1To2>, null]
 
 		]
@@ -66,25 +60,19 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<minecraft:stick:0>: [ //Tier 1 Stick
 		[
 			[<advancedrocketry:charcoallog:0>], 
-			[<advancedrocketry:charcoallog:0>],
-			[]
-		],
-		[
-			[],
-			[<advancedrocketry:charcoallog:0>], 
 			[<advancedrocketry:charcoallog:0>]
 		]
 	],
 	<minecraft:torch:0>: [
 		[
 			[<excompressum:uncompressed_coal:0>],
-			[<ore:stickWood>],
-			[]
-		],
-		[	
-			[],
-			[<excompressum:uncompressed_coal:0>],
 			[<ore:stickWood>]
+		]
+	],
+	<minecraft:trapdoor>: [
+		[
+			[<ore:woodPlanksTier1To3>, <ore:woodPlanksTier1To3>, <ore:woodPlanksTier1To3>],
+			[<ore:woodPlanksTier1To3>, <ore:woodPlanksTier1To3>, <ore:woodPlanksTier1To3>]
 		]
 	],
 	<minecraft:wooden_pickaxe>: [

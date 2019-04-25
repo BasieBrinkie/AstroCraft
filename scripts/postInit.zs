@@ -34,10 +34,12 @@ function initOredict() {
 	scripts.oredict.metalLead.init();
 	scripts.oredict.metalSteel.init();
 
+	scripts.oredict.sticks.init();
+	scripts.oredict.woodLog.init();
 	scripts.oredict.woodPlanks.init();
 	scripts.oredict.woodSlabs.init();
-	scripts.oredict.sticks.init();
 
+	
 	scripts.oredict.mods.betterQuesting.init();
 }
 
@@ -73,10 +75,6 @@ function initItemProperties() {
 	*/
 	scripts.items.burnTime.init();
 
-	//scripts.items.metalCopper.init();
-	//scripts.items.metalIron.init();
-	//scripts.items.metalLead.init();
-	//scripts.items.metalSteel.init();
 	/*	
 		------------------------
 		Item Properties per Mod.
@@ -85,7 +83,9 @@ function initItemProperties() {
 	scripts.items.mods.abyssalCraft.init();
 	scripts.items.mods.advancedRocketry.init();
 	scripts.items.mods.alchemistry.init();
+	scripts.items.mods.exCompressum.init();
 	scripts.items.mods.minecraft.init();
+	scripts.items.mods.skyResources.init();
 
 	}
 }
@@ -94,9 +94,10 @@ function initIntegrations() {
 	if (!devDisableIntegrations | !dev) {
 	print("----------------------- Integrations -----------------------");
 	
-	scripts.recipes.integrations.skyResources.catalysts.init();
 	scripts.recipes.integrations.skyResources.alchemicalFusion.init();
+	scripts.recipes.integrations.skyResources.catalysts.init();
 	scripts.recipes.integrations.skyResources.combustion.init();
+	scripts.recipes.integrations.skyResources.crucible.init();
 	scripts.recipes.integrations.skyResources.cuttingKnife.init();
 	scripts.recipes.integrations.skyResources.rockGrinder.init();
 	
@@ -145,7 +146,6 @@ function initDrops() {
 	scripts.blockDrops.blockDrops.init();
 
 	print("----------------------- Mob Drops -----------------------");
-
 	scripts.mobDrops.minecraft.init();
 }
 

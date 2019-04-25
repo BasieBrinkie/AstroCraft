@@ -33,9 +33,7 @@ static rockGrinderRemove as IItemStack[] = [
 	<minecraft:gravel:0>,
 	<minecraft:sand:0>,
 	<minecraft:flint:0>,
-	<skyresources:techitemcomponent:0>,
-	<skyresources:techitemcomponent:3>,
-	<skyresources:techitemcomponent:5>,
+	<skyresources:baseitemcomponent:5>,
 	<skyresources:dirtygem:0>,
 	<skyresources:dirtygem:1>,
 	<skyresources:dirtygem:2>,
@@ -48,7 +46,9 @@ static rockGrinderRemove as IItemStack[] = [
 	<skyresources:dirtygem:41>,
 	<skyresources:dirtygem:42>,
 	<skyresources:dirtygem:43>,
-
+	<skyresources:techitemcomponent:0>,
+	<skyresources:techitemcomponent:3>,
+	<skyresources:techitemcomponent:5>
 ];
 
 /*	

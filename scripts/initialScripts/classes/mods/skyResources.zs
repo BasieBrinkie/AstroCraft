@@ -93,7 +93,7 @@ zenClass skyRes {
 	}
 
 	function cuttingKnifeAddRecipe(map as IItemStack[IItemStack]) {
-		for  outputItem, inputItem in map {
+		for outputItem, inputItem in map {
 			mods.skyresources.knife.addRecipe(outputItem, inputItem);
 		}
 	}
