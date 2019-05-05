@@ -1,43 +1,36 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
+
 /*	
 	----------------------------------------------------------------------------------------------
-	You can change the recipes of the skyresources2 combustion using the skyresources wrapper
+	You can change the recipes of the skyresources2 alchemical fusion using the skyresources wrapper
 	possible actions: 
 	- add new recipes.
 	- remove existing recipes.
 
 	Add method:
-	First [ILiquidStack] is the output liquid.
-	Second IItemStack is the input item. 
+	First [IItemStack[]] is the array with all items that need to become a catalyst.
+	float is the amount it adds. (consistent with usage in alchemical fusion) 
 	----------------------------------------------------------------------------------------------
 */	
 
 
-static crucibleAdd as IItemStack[ILiquidStack] = {
-	
-	/*	
-		---------------------------------------------
-		Stage: 1 - Basic Resources
-		---------------------------------------------
-	*/	
-	<liquid:oxygen> * 50: <skyresources:alchemyitemcomponent:1>,
-	<liquid:water> * 100: <minecraft:packed_ice:0> 
-	
+static centrifugeAdd as bool[IItemStack][IItemStack[]] = { 
+	[<minecraft:sand:0>, <exnihilocreatio:item_pebble:0>]: { <minecraft:gravel:0>: true } 
+
 };
 
 /*	
 	----------------------------------------------------------------------------------------------
 	Remove method:
-	Add all recipes that you want to remove in an ILiquidStack array.
+	Add all items that you want to remove in an IItemStack array.
+	NOTE: It removes all items by output item.
 	----------------------------------------------------------------------------------------------
 */	
 
-static crucibleRemove as ILiquidStack[] = [
-	<liquid:srcrystalfluid>,
-	<liquid:lava>
-
-];
+static centrifugeRemove as IItemStack[IItemStack[]] = {
+	
+};
 
 /*	
 	-------------------------------------------------------
@@ -46,6 +39,6 @@ static crucibleRemove as ILiquidStack[] = [
 */
 
 function init() {
-	skyRes.crucibleRemoveRecipe(crucibleRemove);
-	skyRes.crucibleAddRecipe(crucibleAdd);
+	facTech.centrifugeRemove(centrifugeRemove);
+	facTech.centrifugeAdd(centrifugeAdd);
 }

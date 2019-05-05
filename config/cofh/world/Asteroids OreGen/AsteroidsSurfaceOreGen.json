@@ -88,5 +88,22 @@
                 "value": [3]
             }
         },
+        "AsteroidSurfaceOres_Ice": {
+            "distribution": "surface",
+            "generator": {     
+                "block":  {"name": "minecraft:packed_ice", "metadata": 0},
+                "material": {"name": "contenttweaker:astrostone","metadata": 0},
+                "cluster-size": 6,
+            },
+            "min-height": 1,
+            "max-height": 255,
+            "cluster-count": 3,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [3]
+            }
+        },
     }
 }

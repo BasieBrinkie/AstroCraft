@@ -34,11 +34,11 @@
         },
       {
         	"type":"consume_block",
-        	"chance": 32.3
+        	"chance": 21.5
         },
       {
         	"type": "damage_item",
-        	"amount": 3
+        	"amount": 1
         },
 		{
           "type": "drop_items",

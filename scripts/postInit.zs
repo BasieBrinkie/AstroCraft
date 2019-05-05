@@ -41,6 +41,7 @@ function initOredict() {
 
 	
 	scripts.oredict.mods.betterQuesting.init();
+	scripts.oredict.mods.skyResources.init();
 }
 
 function initStages() {
@@ -57,6 +58,7 @@ function initStages() {
 	scripts.stages.mods.exNihiloCreatio.init();
 	scripts.stages.mods.libVulpes.init();
 	scripts.stages.mods.minecraft.init();
+	scripts.stages.mods.skyResources.init();
 	scripts.stages.mods.thermalFoundation.init();
 
 
@@ -93,7 +95,8 @@ function initItemProperties() {
 function initIntegrations() {
 	if (!devDisableIntegrations | !dev) {
 	print("----------------------- Integrations -----------------------");
-	
+	scripts.recipes.integrations.factoryTech.centrifuge.init();
+
 	scripts.recipes.integrations.skyResources.alchemicalFusion.init();
 	scripts.recipes.integrations.skyResources.catalysts.init();
 	scripts.recipes.integrations.skyResources.combustion.init();

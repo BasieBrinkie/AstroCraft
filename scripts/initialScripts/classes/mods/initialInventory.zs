@@ -4,6 +4,7 @@ import mods.initialinventory.InvHandler.addStartingItem as addSpawnItem;
 import crafttweaker.item.IItemStack;
 
 zenClass spawnItems {
+	
 	zenConstructor() {}
 	/*
 	 	----------------------------------------

@@ -15,7 +15,7 @@
         "name": "skyresources:alchemyitemcomponent",
         "metadata": "1",
         "fluid": "oxygen",
-        "amount": 20
+        "amount": 40
       }
     ]
   }

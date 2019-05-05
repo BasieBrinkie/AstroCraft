@@ -45,15 +45,22 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<minecraft:stone_axe>: [
 		[
 			[<minecraft:stone:0>, <minecraft:stone:0>, null],
-			[<minecraft:stone:0>, <ore:woodStickTier1To2>, null],
-			[null, <ore:stickTier1To2>, null]
+			[<minecraft:stone:0>, <ore:woodstickTier1To3>, null],
+			[null, <ore:stickTier1To3>, null]
 
+		]
+	],
+	<minecraft:stone_hoe>: [
+		[
+			[<ore:stickTier1To3>, null, null],
+			[<exnihilocreatio:item_pebble>, <ore:stickTier1To3>, null],
+			[null, null, <ore:stickTier1To3>]
 		]
 	],
 	<minecraft:stone_shovel>: [
 		[
-			[<ore:stickTier1To2>],
-			[<ore:stickTier1To2>],
+			[<ore:stickTier1To3>],
+			[<ore:stickTier1To3>],
 			[<minecraft:stone:0>]
 		]
 	],
