@@ -75,7 +75,16 @@
           "taskID:8": "bq_standard:checkbox"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "hideBlockIcon:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "description:8": "Run a command script",
+          "viaPlayer:1": 0,
+          "index:3": 0,
+          "command:8": "#Grant all stages\n/gamestage add @p oxygen_one\n/gamestage add @p "
+        }
+      }
     },
     "2:10": {
       "questID:3": 2,
@@ -199,7 +208,16 @@
           "taskID:8": "bq_standard:checkbox"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "hideBlockIcon:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "description:8": "This command will get you started",
+          "viaPlayer:1": 0,
+          "index:3": 0,
+          "command:8": "#Grant gamestages for genius progression line \n/gamestage add @p gamemode_genius\n/gamestage add @p oxygen_one"
+        }
+      }
     },
     "5:10": {
       "questID:3": 5,
@@ -382,12 +400,12 @@
       },
       "rewards:9": {
         "0:10": {
-          "hideBlockIcon:1": 0,
+          "hideBlockIcon:1": 1,
           "rewardID:8": "bq_standard:command",
-          "description:8": "",
+          "description:8": "This command will get you started",
           "viaPlayer:1": 0,
           "index:3": 0,
-          "command:8": "/gamestage add @p oxygen_one"
+          "command:8": "#grant gamestages for normal progression\n/gamestage add @p gamemode_abnormal\n/gamestage add @p oxygen_one"
         }
       }
     },
@@ -1192,7 +1210,7 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "minecraft:sand",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -2873,211 +2891,43 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": 320,
-          "y:3": -32,
-          "id:3": 2,
+          "x:3": 0,
+          "y:3": 0,
+          "id:3": 19,
           "sizeY:3": 24
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": 352,
+          "x:3": 48,
           "y:3": 0,
-          "id:3": 6,
+          "id:3": 21,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": 192,
-          "y:3": 0,
-          "id:3": 7,
-          "sizeY:3": 24
-        },
-        "3:10": {
-          "sizeX:3": 24,
-          "x:3": 256,
-          "y:3": -32,
-          "id:3": 9,
-          "sizeY:3": 24
-        },
-        "4:10": {
-          "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": 0,
-          "id:3": 20,
-          "sizeY:3": 24
-        },
-        "5:10": {
-          "sizeX:3": 24,
-          "x:3": 288,
-          "y:3": -32,
-          "id:3": 63,
-          "sizeY:3": 24
-        },
-        "6:10": {
-          "sizeX:3": 24,
-          "x:3": 288,
-          "y:3": 0,
-          "id:3": 64,
-          "sizeY:3": 24
-        },
-        "7:10": {
-          "sizeX:3": 24,
-          "x:3": 64,
-          "y:3": 0,
-          "id:3": 65,
-          "sizeY:3": 24
-        },
-        "8:10": {
-          "sizeX:3": 24,
-          "x:3": 288,
-          "y:3": 32,
-          "id:3": 66,
-          "sizeY:3": 24
-        },
-        "9:10": {
-          "sizeX:3": 24,
-          "x:3": 32,
-          "y:3": 0,
-          "id:3": 67,
-          "sizeY:3": 24
-        },
-        "10:10": {
-          "sizeX:3": 24,
-          "x:3": 160,
-          "y:3": 0,
-          "id:3": 68,
-          "sizeY:3": 24
-        },
-        "11:10": {
-          "sizeX:3": 24,
           "x:3": 96,
           "y:3": 0,
-          "id:3": 69,
-          "sizeY:3": 24
-        },
-        "12:10": {
-          "sizeX:3": 24,
-          "x:3": 224,
-          "y:3": -32,
-          "id:3": 75,
-          "sizeY:3": 24
-        },
-        "13:10": {
-          "sizeX:3": 24,
-          "x:3": 128,
-          "y:3": -16,
-          "id:3": 76,
-          "sizeY:3": 24
-        },
-        "14:10": {
-          "sizeX:3": 24,
-          "x:3": 224,
-          "y:3": 0,
-          "id:3": 77,
-          "sizeY:3": 24
-        },
-        "15:10": {
-          "sizeX:3": 24,
-          "x:3": 320,
-          "y:3": 0,
-          "id:3": 78,
-          "sizeY:3": 24
-        },
-        "16:10": {
-          "sizeX:3": 24,
-          "x:3": 256,
-          "y:3": 0,
-          "id:3": 79,
-          "sizeY:3": 24
-        },
-        "17:10": {
-          "sizeX:3": 24,
-          "x:3": 256,
-          "y:3": 80,
-          "id:3": 80,
-          "sizeY:3": 24
-        },
-        "18:10": {
-          "sizeX:3": 24,
-          "x:3": 128,
-          "y:3": 16,
-          "id:3": 81,
-          "sizeY:3": 24
-        },
-        "19:10": {
-          "sizeX:3": 24,
-          "x:3": 288,
-          "y:3": 96,
-          "id:3": 82,
-          "sizeY:3": 24
-        },
-        "20:10": {
-          "sizeX:3": 24,
-          "x:3": 288,
-          "y:3": 64,
-          "id:3": 83,
-          "sizeY:3": 24
-        },
-        "21:10": {
-          "sizeX:3": 24,
-          "x:3": 224,
-          "y:3": 32,
-          "id:3": 84,
-          "sizeY:3": 24
-        },
-        "22:10": {
-          "sizeX:3": 24,
-          "x:3": 320,
-          "y:3": 48,
-          "id:3": 85,
-          "sizeY:3": 24
-        },
-        "23:10": {
-          "sizeX:3": 48,
-          "x:3": 456,
-          "y:3": 36,
-          "id:3": 86,
-          "sizeY:3": 48
-        },
-        "24:10": {
-          "sizeX:3": 24,
-          "x:3": 352,
-          "y:3": 48,
-          "id:3": 88,
-          "sizeY:3": 24
-        },
-        "25:10": {
-          "sizeX:3": 24,
-          "x:3": 384,
-          "y:3": 48,
-          "id:3": 89,
-          "sizeY:3": 24
-        },
-        "26:10": {
-          "sizeX:3": 24,
-          "x:3": 416,
-          "y:3": 48,
-          "id:3": 90,
+          "id:3": 22,
           "sizeY:3": 24
         }
       },
-      "lineID:3": 4,
+      "lineID:3": 1,
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "NORMAL",
-          "name:8": "0 - Oxygen Generation",
+          "name:8": "1 - Farming For Food",
           "icon:10": {
-            "id:8": "advancedrocketry:oxygencharger",
+            "id:8": "minecraft:book",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
           },
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "In order to survive you first need create an emergency oxygen generation setup. Luckily there is enough oxygen in your tank to survive at least 30 minutes. Plenty of time to improvise something in this harsh environment."
+          "desc:8": "Your crashed escape pod has only four tubes of spacefood. An enormous downside of being alive is you need food to seize the day. Therefore you need to become the worlds first space farmer."
         }
       },
-      "order:3": 1
+      "order:3": 3
     },
     "2:10": {
       "quests:9": {
@@ -3300,43 +3150,211 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": 0,
-          "id:3": 19,
+          "x:3": 320,
+          "y:3": -32,
+          "id:3": 2,
           "sizeY:3": 24
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": 48,
+          "x:3": 352,
           "y:3": 0,
-          "id:3": 21,
+          "id:3": 6,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
+          "x:3": 192,
+          "y:3": 0,
+          "id:3": 7,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": 256,
+          "y:3": -32,
+          "id:3": 9,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 0,
+          "id:3": 20,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": 288,
+          "y:3": -32,
+          "id:3": 63,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": 288,
+          "y:3": 0,
+          "id:3": 64,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": 64,
+          "y:3": 0,
+          "id:3": 65,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": 288,
+          "y:3": 32,
+          "id:3": 66,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": 32,
+          "y:3": 0,
+          "id:3": 67,
+          "sizeY:3": 24
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": 160,
+          "y:3": 0,
+          "id:3": 68,
+          "sizeY:3": 24
+        },
+        "11:10": {
+          "sizeX:3": 24,
           "x:3": 96,
           "y:3": 0,
-          "id:3": 22,
+          "id:3": 69,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": 224,
+          "y:3": -32,
+          "id:3": 75,
+          "sizeY:3": 24
+        },
+        "13:10": {
+          "sizeX:3": 24,
+          "x:3": 128,
+          "y:3": -16,
+          "id:3": 76,
+          "sizeY:3": 24
+        },
+        "14:10": {
+          "sizeX:3": 24,
+          "x:3": 224,
+          "y:3": 0,
+          "id:3": 77,
+          "sizeY:3": 24
+        },
+        "15:10": {
+          "sizeX:3": 24,
+          "x:3": 320,
+          "y:3": 0,
+          "id:3": 78,
+          "sizeY:3": 24
+        },
+        "16:10": {
+          "sizeX:3": 24,
+          "x:3": 256,
+          "y:3": 0,
+          "id:3": 79,
+          "sizeY:3": 24
+        },
+        "17:10": {
+          "sizeX:3": 24,
+          "x:3": 256,
+          "y:3": 80,
+          "id:3": 80,
+          "sizeY:3": 24
+        },
+        "18:10": {
+          "sizeX:3": 24,
+          "x:3": 128,
+          "y:3": 16,
+          "id:3": 81,
+          "sizeY:3": 24
+        },
+        "19:10": {
+          "sizeX:3": 24,
+          "x:3": 288,
+          "y:3": 96,
+          "id:3": 82,
+          "sizeY:3": 24
+        },
+        "20:10": {
+          "sizeX:3": 24,
+          "x:3": 288,
+          "y:3": 64,
+          "id:3": 83,
+          "sizeY:3": 24
+        },
+        "21:10": {
+          "sizeX:3": 24,
+          "x:3": 224,
+          "y:3": 32,
+          "id:3": 84,
+          "sizeY:3": 24
+        },
+        "22:10": {
+          "sizeX:3": 24,
+          "x:3": 320,
+          "y:3": 48,
+          "id:3": 85,
+          "sizeY:3": 24
+        },
+        "23:10": {
+          "sizeX:3": 48,
+          "x:3": 456,
+          "y:3": 36,
+          "id:3": 86,
+          "sizeY:3": 48
+        },
+        "24:10": {
+          "sizeX:3": 24,
+          "x:3": 352,
+          "y:3": 48,
+          "id:3": 88,
+          "sizeY:3": 24
+        },
+        "25:10": {
+          "sizeX:3": 24,
+          "x:3": 384,
+          "y:3": 48,
+          "id:3": 89,
+          "sizeY:3": 24
+        },
+        "26:10": {
+          "sizeX:3": 24,
+          "x:3": 416,
+          "y:3": 48,
+          "id:3": 90,
           "sizeY:3": 24
         }
       },
-      "lineID:3": 1,
+      "lineID:3": 4,
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "NORMAL",
-          "name:8": "1 - Farming For Food",
+          "name:8": "0 - Oxygen Generation",
           "icon:10": {
-            "id:8": "minecraft:book",
+            "id:8": "advancedrocketry:oxygencharger",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
           },
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "Your crashed escape pod has only four tubes of spacefood. An enormous downside of being alive is you need food to seize the day. Therefore you need to become the worlds first space farmer."
+          "desc:8": "In order to survive you first need create an emergency oxygen generation setup. Luckily there is enough oxygen in your tank to survive at least 30 minutes. Plenty of time to improvise something in this harsh environment."
         }
       },
-      "order:3": 3
+      "order:3": 1
     }
   },
   "questSettings:10": {

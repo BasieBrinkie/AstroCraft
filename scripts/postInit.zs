@@ -29,9 +29,11 @@ function initSpawnItems() {
 function initOredict() {
 	print("----------------------- OreDict -----------------------");
 
+	scripts.oredict.metalAluminum.init();
 	scripts.oredict.metalCopper.init();
 	scripts.oredict.metalIron.init();
 	scripts.oredict.metalLead.init();
+	scripts.oredict.metalNickel.init();
 	scripts.oredict.metalSteel.init();
 
 	scripts.oredict.sticks.init();
@@ -132,6 +134,7 @@ function initRecipes() {
 	scripts.recipes.vanillaCraftingTables.mods.actuallyAdditions.init();
 	scripts.recipes.vanillaCraftingTables.mods.advancedRocketry.init();
 	scripts.recipes.vanillaCraftingTables.mods.charcoalPit.init();
+	scripts.recipes.vanillaCraftingTables.mods.chisel.init();
 
 	scripts.recipes.vanillaCraftingTables.mods.exCompressum.init();
 	scripts.recipes.vanillaCraftingTables.mods.exNihiloCreatio.init();

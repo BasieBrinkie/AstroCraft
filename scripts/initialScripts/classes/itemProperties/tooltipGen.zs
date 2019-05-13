@@ -46,76 +46,24 @@ zenClass tooltipGen {
 		}
 	}
 
-	/*
-	-------------------------------------------
-	Functions that should be in CT2 by default.
-	-------------------------------------------
-	*/
-	function capitalize(inputString as string) as string {
-		if (inputString.isEmpty) {
-			return "";
+	function materialChecker(inputMaterial as string) as string {
+		var material = capitalize(inputMaterial);
+		
+		if (material == "Aluminum" | material == "Bronze" | material == "Copper" | material == "Iron" | material == "Lead" | material == "Nickel" | material == "Steel" | material == "Tin") {
+			
+			return material;
 		}
 		
 		else {
-			return inputString[0].toUpperCase ~ inputString.substring(1,inputString.length);
+			return "ERROR, Wrong Material!!!";
 		}
-	}
-
-	function decapitalize(inputString as string) as string {
-		if (inputString.isEmpty) {
-			return "";
-		}
-		
-		else {
-			return inputString[0].toLowerCase ~ inputString.substring(1,inputString.length);
-		}
-	}
-
-	function iArticleGen(inputWord as string) as string {	
-		val genAnLetter as string[] = [
-		// Check these starting letters and generate an "an"
-			"a",
-			"e",
-			"i",
-			"o",
-			"u",
-		];
-
-		val exceptionsA as string[] = [
-		// Generate an "a" for these words
-		];
-
-		val exceptionsAn as string[] = [
-		// Generate an "an" for these words
-		];
-
-		for word in exceptionsA {
-			if (inputWord in word) {
-				return "a";
-			}
-		}
-		
-		for word2 in exceptionsAn {
-			if (inputWord in word2) {
-				return "an";
-			}
-		}
-		
-		for letter in genAnLetter {
-			if (genAnLetter in inputWord[0]) {
-				return "an";
-			}
-		}
-
-		return "a";
 	}
 	
 	/*
 	------------------------------
 	Automation of tiered tooltips.
 	------------------------------
-	*/
-	/*
+
 	---------------------------------------
 	Select which purity for specified tier.
 	---------------------------------------
@@ -368,14 +316,14 @@ zenClass tooltipGen {
 		
 		if (part == "Clump") {
 			val itemDescriptionFormatted as IFormattedText[] = [
-				format.gray(CArticle ~ " " ~ DPart ~ " of " ~ DMaterial ~ " with a " ~ tierDescription(material, part, tier) ~ " " ~ DPartDesc),
+				format.gray(CArticle ~ " " ~ DPart ~ " of " ~ DMaterial ~ " with a " ~ decapitalize(tierDescription(material, part, tier)) ~ " " ~ DPartDesc),
 				format.yellow("Tier " ~ tier)
 			];
 			return itemDescriptionFormatted;
 		}
 		if (part == "Dust") {
 			val itemDescriptionFormatted as IFormattedText[] = [
-				format.gray(CArticle ~ " " ~ tierDescription(material, part, tier) ~ " piece of " ~ DMaterial ~ " " ~ DPart),
+				format.gray(CArticle ~ " " ~ decapitalize(tierDescription(material, part, tier)) ~ " piece of " ~ DMaterial ~ " " ~ DPart),
 				format.yellow("Tier " ~ tier)
 			];
 			return itemDescriptionFormatted;
@@ -396,36 +344,6 @@ zenClass tooltipGen {
 		];
 		return itemShiftDescriptionFormatted;
 	}
-	
-	/*
-	---------------
-	Spelling check.
-	---------------
-	*/
-	function materialChecker(inputMaterial as string) as string {
-		var material = capitalize(inputMaterial);
-		
-		if (material == "Aluminum" | material == "Bronze" | material == "Copper" | material == "Iron" | material == "Lead" | material == "Nickel" | material == "Steel" | material == "Tin") {
-			
-			return material;
-		}
-		
-		else {
-			return "ERROR, Wrong Material!!!";
-		}
-	}
-
-	function partChecker(inputpart as string) as string {
-		var part = capitalize(inputpart);
-		
-		if (part == "Block" | part == "Ingot" | part == "Nugget" | part == "Plate" | part == "Gear" | part == "Plate") {
-			return part;
-		}
-		
-		else {
-			return "ERROR, Wrong Part!!!";
-		}	
-	}
 
 	/*
 	----------------------------------------
@@ -444,28 +362,38 @@ zenClass tooltipGen {
 		return tieredTooltip;
 	}
 
-	
+	function partChecker(inputpart as string) as string {
+		var part = capitalize(inputpart);
+		
+		if (part == "Block" | part == "Clump" | part == "Dust" | part == "Gear" | part == "Ingot" | part == "Nugget" | part == "Plate") {
+			return part;
+		}
+		
+		else {
+			return "ERROR, Wrong Part!!!";
+		}	
+	}
 
 	function oredictPart(oredictName as IOreDictEntry) as string {
-		if (decapitalize(oredictName.name) in "block") {
+		if (oredictName.name in "block") {
 			return "Block";
 		}
-		if (decapitalize(oredictName.name) in "ingot") {
+		if (oredictName.name in "ingot") {
 			return "Ingot";
 		}
-		if (decapitalize(oredictName.name) in "nugget") {
+		if (oredictName.name in "nugget") {
 			return "Nugget";
 		}
-		if (decapitalize(oredictName.name) in "gear") {
+		if (oredictName.name in "gear") {
 			return "Gear";
 		}
-		if (decapitalize(oredictName.name) in "plate") {
+		if (oredictName.name in "plate") {
 			return "Plate";
 		}
-		if (decapitalize(oredictName.name) in "clump") {
+		if (oredictName.name in "clump") {
 			return "Clump";
 		}
-		if (decapitalize(oredictName.name) in "dust") {
+		if (oredictName.name in "dust") {
 			return "Dust";
 		}
 		
@@ -473,7 +401,6 @@ zenClass tooltipGen {
 			return "Invalid Part";
 		}
 	}
-
 
 	function oredictTier(oredictName as IOreDictEntry) as int {
 		if (oredictName.name in "Tier1") {
@@ -496,7 +423,6 @@ zenClass tooltipGen {
 			return 0;
 		}
 	}
-
 
 	function setTooltipAndName(map as IFormattedText[][IFormattedText[]][string], item as IItemStack, setName as bool, extraFormattedTooltips as IFormattedText[]) {
 		item.clearTooltip();
@@ -606,6 +532,70 @@ zenClass tooltipGen {
 				return false;
 			}
 		}
+	}
+
+	/*
+	-------------------------------------------
+	Functions that should be in CT2 by default.
+	-------------------------------------------
+	*/
+	function capitalize(inputString as string) as string {
+		if (inputString.isEmpty) {
+			return "";
+		}
+		
+		else {
+			return inputString[0].toUpperCase ~ inputString.substring(1,inputString.length);
+		}
+	}
+
+	function decapitalize(inputString as string) as string {
+		if (inputString.isEmpty) {
+			return "";
+		}
+		
+		else {
+			return inputString[0].toLowerCase ~ inputString.substring(1,inputString.length);
+		}
+	}
+
+	function iArticleGen(inputWord as string) as string {	
+		val genAnLetter as string[] = [
+		// Check these starting letters and generate an "an"
+			"a",
+			"e",
+			"i",
+			"o",
+			"u",
+		];
+
+		val exceptionsA as string[] = [
+		// Generate an "a" for these words
+		];
+
+		val exceptionsAn as string[] = [
+		// Generate an "an" for these words
+		];
+
+		for word in exceptionsA {
+			if (inputWord in word) {
+				return "a";
+			}
+		}
+		
+		for word2 in exceptionsAn {
+			if (inputWord in word2) {
+				return "an";
+			}
+		}
+		
+		for letter in genAnLetter {
+			if (genAnLetter in inputWord[0]) {
+				return "an";
+			}
+		}
+
+		return "a";
 	}
 	
 	/*
