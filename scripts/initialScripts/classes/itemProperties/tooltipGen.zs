@@ -16,6 +16,9 @@ zenClass tooltipGen {
 	--------------------------------------------------------
 	*/
 	function oredictMaterial(oredictName as IOreDictEntry) as string {
+		if (oredictName.name in "Aluminum") {
+			return "Aluminum";
+		}
 		if (oredictName.name in "Bronze") {
 			return "Bronze";
 		}
@@ -27,6 +30,9 @@ zenClass tooltipGen {
 		}
 		if (oredictName.name in "Lead") {
 			return "Lead";
+		}
+		if (oredictName.name in "Nickel") {
+			return "Nickel";
 		}
 		if (oredictName.name in "Steel") {
 			return "Steel";
@@ -167,15 +173,9 @@ zenClass tooltipGen {
 			return "29.7mm"; 
 		}
 		if (tier == 2) {
-			return "22.0mm"; 
-		}
-		if (tier == 3) {
 			return "13.1mm"; 
 		}
-		if (tier == 4) {
-			return "8.6mm"; 
-		}
-		if (tier == 5) {
+		if (tier == 3) {
 			return "2.5mm"; 
 		}		
 		
@@ -256,7 +256,24 @@ zenClass tooltipGen {
 			return "Minuscule"; 
 		}
 		if (tier == 5) {
-			return "Ridiculously Small"; 
+			return "Ridiculously small"; 
+		}
+		else {
+			return "ERROR, Wrong Tier!!!";
+		}		
+	}			
+
+	/*
+	------------------------------------------
+	Select which filthName for specified tier.
+	------------------------------------------
+	*/
+	function filthinessTier(tier as int) as string {
+		if (tier == 1) {
+			return "Dirty"; 
+		}
+		if (tier == 2) {
+			return "Pure"; 
 		}
 		else {
 			return "ERROR, Wrong Tier!!!";
@@ -265,7 +282,7 @@ zenClass tooltipGen {
 
 	/*
 	-------------------------------------
-	which function to call for inputPart.
+	Which function to call for inputPart.
 	-------------------------------------
 	*/
 	function tierDescription(material as string, part as string, tier as int) as string {
@@ -289,6 +306,9 @@ zenClass tooltipGen {
 		}
 		if (part == "Clump") {
 			return sizeNameTier(tier);
+		}
+		if (part == "Dust") {
+			return filthinessTier(tier);
 		}
 	}
 
@@ -322,6 +342,9 @@ zenClass tooltipGen {
 		if (part == "Clump") {
 			return "Size";
 		}
+		if (part == "Dust") {
+			return "Cleanness";
+		}
 	}
 
 	/*
@@ -338,15 +361,32 @@ zenClass tooltipGen {
 	}
 
 	function itemDescriptionFormatted(material as string, part as string, tier as int) as IFormattedText[] {
-		val CArticle as string = capitalize(iArticleGen(part));
 		val DPart as string = decapitalize(part);
+		val CArticle as string = capitalize(iArticleGen(DPart));
 		val DMaterial as string = decapitalize(material);
 		val DPartDesc as string = decapitalize(partDescription(part, material));
-		val itemDescriptionFormatted as IFormattedText[] = [
-			format.gray(CArticle ~ " " ~ DPart ~ " of " ~ DMaterial ~ " with a " ~ DPartDesc ~ " of " ~ tierDescription(material, part, tier)),
-			format.yellow("Tier " ~ tier)
-		];
-		return itemDescriptionFormatted;
+		
+		if (part == "Clump") {
+			val itemDescriptionFormatted as IFormattedText[] = [
+				format.gray(CArticle ~ " " ~ DPart ~ " of " ~ DMaterial ~ " with a " ~ tierDescription(material, part, tier) ~ " " ~ DPartDesc),
+				format.yellow("Tier " ~ tier)
+			];
+			return itemDescriptionFormatted;
+		}
+		if (part == "Dust") {
+			val itemDescriptionFormatted as IFormattedText[] = [
+				format.gray(CArticle ~ " " ~ tierDescription(material, part, tier) ~ " piece of " ~ DMaterial ~ " " ~ DPart),
+				format.yellow("Tier " ~ tier)
+			];
+			return itemDescriptionFormatted;
+		}
+		else {
+			val itemDescriptionFormatted as IFormattedText[] = [
+				format.gray(CArticle ~ " " ~ DPart ~ " of " ~ DMaterial ~ " with a " ~ DPartDesc ~ " of " ~ tierDescription(material, part, tier)),
+				format.yellow("Tier " ~ tier)
+			];
+			return itemDescriptionFormatted;
+		}
 	}
 	
 	function itemShiftDescriptionFormatted(tier as int) as IFormattedText[] {
@@ -365,7 +405,7 @@ zenClass tooltipGen {
 	function materialChecker(inputMaterial as string) as string {
 		var material = capitalize(inputMaterial);
 		
-		if (material == "Bronze" | material == "Copper" | material == "Iron" | material == "Lead" | material == "Steel" | material == "Tin") {
+		if (material == "Aluminum" | material == "Bronze" | material == "Copper" | material == "Iron" | material == "Lead" | material == "Nickel" | material == "Steel" | material == "Tin") {
 			
 			return material;
 		}
@@ -424,6 +464,9 @@ zenClass tooltipGen {
 		}
 		if (decapitalize(oredictName.name) in "clump") {
 			return "Clump";
+		}
+		if (decapitalize(oredictName.name) in "dust") {
+			return "Dust";
 		}
 		
 		else {

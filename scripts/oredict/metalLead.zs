@@ -32,19 +32,52 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 	Lead Ingots.
 	--------------
 	*/
+	<ore:ingotLeadTier1>: [
+		<erebus:materials:44>
+	],
+	<ore:ingotLeadTier2>: [
+		<techguns:itemshared:82>
+	],
+	<ore:ingotLeadTier3>: [
+		<exnihilocreatio:item_ore_lead:3>
+	],
 
 	/*	
 	--------------
 	Lead Nugget.
 	--------------
 	*/
+	<ore:nuggetLeadTier1>: [
+		<tconstruct:shard>.withTag({Material: "lead"}),
+		<thaumcraft:nugget:4>
+	],
+	<ore:nuggetLeadTier2>: [
+		<techguns:itemshared:87>
+	],
+	<ore:nuggetLeadTier3>: [
+		<immersiveengineering:metal:22>
+	],		
+	
+	/*
+	------------
+	Steel Dusts.
+	------------
+	*/
+	<ore:dustLeadTier1>: [
+		<mekanism:dirtydust:6>
+	],
+	<ore:dustLeadTier2>: [
+		<exnihilocreatio:item_ore_lead:2>
+	],
 
-		
 	/*	
 	-------------
 	Lead Gears.
 	-------------
 	*/
+	<ore:gearLeadTier1>: [
+		<thermalfoundation:material:259>
+	],
 
 	/*	
 	--------------
@@ -52,7 +85,7 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 	--------------
 	*/
 	<ore:plateLeadTier1>: [
-		<tconstruct:large_plate:0>.withTag({Material: "lead"})
+		<techguns:itemshared:52>
 	],
 	<ore:plateLeadTier2>: [
 		<immersiveengineering:metal:32>
@@ -69,6 +102,7 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 */	
 static unlocalizedNames as string[IItemStack] = {
 	<thermalfoundation:storage:3>: "tile.thermalfoundation.storage.lead.name",
+	<thermalfoundation:material:259>: "item.thermalfoundation.material.gearLead.name",
 	<thermalfoundation:material:323>: "item.thermalfoundation.material.plateLead.name"
 };
 
@@ -105,6 +139,43 @@ static createOredictsToOredict as IOreDictEntry[][IOreDictEntry] = {
 	Lead Ingots.
 	--------------
 	*/
+	<ore:ingotLeadTier1To3>: [
+		<ore:ingotLeadTier1>,
+		<ore:ingotLeadTier2>,
+		<ore:ingotLeadTier3>
+	],
+	<ore:ingotLeadTier2To3>: [
+		<ore:ingotLeadTier2>,
+		<ore:ingotLeadTier3>
+
+	],
+
+	/*	
+	--------------
+	Lead Nuggets.
+	--------------
+	*/
+	<ore:nuggetLeadTier1To3>: [
+		<ore:nuggetLeadTier1>,
+		<ore:nuggetLeadTier2>,
+		<ore:nuggetLeadTier3>
+	],
+	<ore:nuggetLeadTier2To3>: [
+		<ore:nuggetLeadTier2>,
+		<ore:nuggetLeadTier3>
+
+	],
+
+	/*	
+	--------------
+	Lead Dusts.
+	--------------
+	*/
+	<ore:dustLeadTier1To2>: [
+		<ore:dustLeadTier1>,
+		<ore:dustLeadTier2>
+
+	],
 	
 	/*	
 	--------------
@@ -159,7 +230,13 @@ static removeModID as IOreDictEntry[][string] = {
 	Mirror an Oredict.
 	------------------
 */
-static mirror as IOreDictEntry[][IOreDictEntry] = {	
+static mirror as IOreDictEntry[IOreDictEntry] = {
+	<ore:blockLeadTier1To3>: 	<ore:blockLead>,
+	<ore:dustLeadTier1To2>: 	<ore:dustLead>,
+	<ore:ingotLeadTier1To3>: 	<ore:ingotLead>,
+	<ore:gearLeadTier1>: 		<ore:gearLead>,
+	<ore:nuggetLeadTier1To3>: 	<ore:nuggetLead>,
+	<ore:plateLeadTier1To3>: 	<ore:plateLead>	
 };
 
 function init() {

@@ -100,14 +100,8 @@ zenClass oredictBuilder {
 	*/	
 
 	function mirror(map as IOreDictEntry[IOreDictEntry]) {
-		for oredict, oredictName in map {
-			if (oreDict in oredictName.name) {
-				for item in oredictName.items {
-					oredictName.remove(item); 
-				}
-			}
-			
-			oredictName.mirror(oredict);
+		for oredictReplaced, oredictMaster in map {	
+			oredictMaster.mirror(oredictReplaced);
 		}
 	}
 }

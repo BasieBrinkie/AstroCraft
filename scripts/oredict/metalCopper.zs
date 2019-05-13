@@ -48,9 +48,6 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 		<libvulpes:productingot:4>
 	],
 	<ore:ingotCopperTier4>: [
-		<fp:itemerze:2>
-	],
-	<ore:ingotCopperTier5>: [
 		<thermalfoundation:material:128>
 	],
 
@@ -60,8 +57,26 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 	--------------
 	*/
 	<ore:nuggetCopperTier1>: [
-		<mekanism:clump:3>,
-		<tconstruct:shard>.withTag({Material: "copper"})
+		<tconstruct:shard>.withTag({Material: "copper"}),
+		<mekanism:clump:3>
+	],
+	<ore:nuggetCopperTier2>: [
+		<immersiveengineering:metal:20>
+	],
+	<ore:nuggetCopperTier3>: [
+		<factorytech:ore_dust:4>
+	],
+
+	/*	
+	-------------
+	Copper Dusts.
+	-------------
+	*/
+	<ore:dustCopperTier1>: [
+		<mekanism:dirtydust:3>
+	],
+	<ore:dustCopperTier2>: [
+		<factorytech:ore_dust:8>
 	],
 		
 	/*	
@@ -69,6 +84,9 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 	Copper Gears.
 	-------------
 	*/
+	<ore:gearCopperTier1>: [
+		<thermalfoundation:material:256>
+	],
 
 	/*	
 	--------------
@@ -79,15 +97,12 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 		<libvulpes:productplate:4>
 	],
 	<ore:plateCopperTier2>: [
-		<tconstruct:large_plate:0>.withTag({Material: "copper"})
-	],
-	<ore:plateCopperTier3>: [
 		<techguns:itemshared:47>
 	],
-	<ore:plateCopperTier4>: [
+	<ore:plateCopperTier3>: [
 		<immersiveengineering:metal:30>
 	],
-	<ore:plateCopperTier5>: [
+	<ore:plateCopperTier4>: [
 		<thermalfoundation:material:320>
 	]
 };
@@ -99,7 +114,9 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 */	
 static unlocalizedNames as string[IItemStack] = {
 	<thermalfoundation:storage:0>: "tile.thermalfoundation.storage.copper.name",
-	<thermalfoundation:material:128>: "item.thermalfoundation.material.plateCopper.name"
+	<thermalfoundation:material:256>: "item.thermalfoundation.material.gearCopper.name",
+	<thermalfoundation:material:128>: "item.thermalfoundation.material.ingotCopper.name",
+	<thermalfoundation:material:320>: "item.thermalfoundation.material.plateCopper.name"
 };
 
 static extraTooltips as IFormattedText[][IItemStack] = {
@@ -148,55 +165,66 @@ static createOredictsToOredict as IOreDictEntry[][IOreDictEntry] = {
 	Copper Ingots.
 	--------------
 	*/
-	<ore:ingotCopperTier1To5>: [
+	<ore:ingotCopperTier1To4>: [
 		<ore:ingotCopperTier1>,
 		<ore:ingotCopperTier2>,
 		<ore:ingotCopperTier3>,
-		<ore:ingotCopperTier4>,
-		<ore:ingotCopperTier5>
+		<ore:ingotCopperTier4>
 	],
-	<ore:ingotCopperTier2To5>: [
+	<ore:ingotCopperTier2To4>: [
 		<ore:ingotCopperTier2>,
 		<ore:ingotCopperTier3>,
-		<ore:ingotCopperTier4>,
-		<ore:ingotCopperTier5>
+		<ore:ingotCopperTier4>
 	],
-	<ore:ingotCopperTier3To5>: [
+	<ore:ingotCopperTier3To4>: [
 		<ore:ingotCopperTier3>,
-		<ore:ingotCopperTier4>,
-		<ore:ingotCopperTier5>
-	],
-	<ore:ingotCopperTier4To5>: [
-		<ore:ingotCopperTier4>,
-		<ore:ingotCopperTier5>
+		<ore:ingotCopperTier4>
 	],
 
+	/*	
+	---------------
+	Copper Nuggets.
+	---------------
+	*/
+	<ore:nuggetCopperTier1To3>: [
+		<ore:nuggetCopperTier1>,
+		<ore:nuggetCopperTier2>,
+		<ore:nuggetCopperTier3>
+	],
+	<ore:nuggetCopperTier2To3>: [
+		<ore:nuggetCopperTier2>,
+		<ore:nuggetCopperTier3>
+	],
+
+	/*	
+	-------------
+	Copper Dusts.
+	-------------
+	*/
+	<ore:dustCopperTier1To2>: [
+		<ore:dustCopperTier1>,
+		<ore:dustCopperTier2>
+
+	],
 	/*	
 	--------------
 	Copper Plates.
 	--------------
 	*/
-	<ore:plateCopperTier1To5>: [
+	<ore:plateCopperTier1To4>: [
 		<ore:plateCopperTier1>,
 		<ore:plateCopperTier2>,
 		<ore:plateCopperTier3>,
-		<ore:plateCopperTier4>,
-		<ore:plateCopperTier5>
+		<ore:plateCopperTier4>
 	],
-	<ore:plateCopperTier2To5>: [
+	<ore:plateCopperTier2To4>: [
 		<ore:plateCopperTier2>,
 		<ore:plateCopperTier3>,
-		<ore:plateCopperTier4>,
-		<ore:plateCopperTier5>
+		<ore:plateCopperTier4>
 	],
-	<ore:plateCopperTier3To5>: [
+	<ore:plateCopperTier3To4>: [
 		<ore:plateCopperTier3>,
-		<ore:plateCopperTier4>,
-		<ore:plateCopperTier5>
-	],
-	<ore:plateCopperTier4To5>: [
-		<ore:plateCopperTier4>,
-		<ore:plateCopperTier5>
+		<ore:plateCopperTier4>
 	]	
 };
 
@@ -237,7 +265,13 @@ static removeModID as IOreDictEntry[][string] = {
 	Mirror an Oredict.
 	------------------
 */
-static mirror as IOreDictEntry[][IOreDictEntry] = {	
+static mirror as IOreDictEntry[IOreDictEntry] = {
+	<ore:blockCopperTier1To5>: 	<ore:blockCopper>,
+	<ore:dustCopperTier1To2>: 	<ore:dustCopper>,
+	<ore:ingotCopperTier1To4>: 	<ore:ingotCopper>,
+	<ore:gearCopperTier1>: 		<ore:gearCopper>,
+	<ore:nuggetCopperTier1To3>: <ore:nuggetCopper>,
+	<ore:plateCopperTier1To4>: 	<ore:plateCopper>		
 };
 
 function init() {
