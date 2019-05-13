@@ -11,7 +11,7 @@ import crafttweaker.item.IItemStack;
 	First [IItemStack] is the output item.
 	Second [IItemStack[]] is the input items.
 	int is the required heat for combustion. 
-	----------------------------------------------------------------------------------------------
+	----------------------------------------------s------------------------------------------------
 */	
 
 
@@ -21,11 +21,24 @@ static combustionAdd as int[IItemStack[]][IItemStack] = {
 		---------------------------------------------
 		Stage: Basic Resources
 		---------------------------------------------
-	*/	
+	*/
+	<exnihilocreatio:item_ore_aluminum:0>: {[
+		<exnihilocreatio:item_ore_aluminum:1>,
+		<charcoal_pit:item_ash:0> * 2]: 40
+	},	
 	<exnihilocreatio:item_ore_iron:0>: {[
 		<exnihilocreatio:item_ore_iron:1> * 2,
 		<charcoal_pit:item_ash:0> * 5]: 50
 	},
+	<exnihilocreatio:item_ore_lead:0>: {[
+		<exnihilocreatio:item_ore_lead:1>,
+		<charcoal_pit:item_ash:0> * 4]: 100
+	},
+	<exnihilocreatio:item_ore_nickel:0>: {[
+		<exnihilocreatio:item_ore_nickel:1>,
+		<charcoal_pit:item_ash:0>]: 20
+	},
+
 	<minecraft:iron_ingot:0>: {[
 		<minecraft:iron_nugget:0> * 5]: 500
 	},

@@ -7,6 +7,13 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
+	<minecraft:bucket:0>: [
+		[	
+			[<ore:ingotIronTier1To2>, null, <ore:ingotIronTier1To2>],
+			[<ore:ingotIronTier1To2>, null, <ore:ingotIronTier1To2>],
+			[null, <ore:ingotIronTier1To2>, null]
+		]
+	],
 	<minecraft:chest:0>: [
 		[
 			[<ore:woodPlanksTier1To3>, <ore:woodPlanksTier1To3>, <ore:woodPlanksTier1To3>],

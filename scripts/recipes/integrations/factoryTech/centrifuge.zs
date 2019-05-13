@@ -16,7 +16,7 @@ import crafttweaker.liquid.ILiquidStack;
 
 
 static centrifugeAdd as bool[IItemStack][IItemStack[]] = { 
-	[<minecraft:sand:0>, <exnihilocreatio:item_pebble:0>]: { <minecraft:gravel:0>: true } 
+	[<minecraft:sand:0>, <exnihilocreatio:item_pebble:0>, <charcoal_pit:item_ash:0>]: { <minecraft:gravel:0>: true} 
 
 };
 

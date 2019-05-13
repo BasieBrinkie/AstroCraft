@@ -7,39 +7,10 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<skyresources:crucible:0>: [
+	<chisel:chisel_iron>: [
 		[
-			[<minecraft:stone:0>, null, <minecraft:stone:0>], 
-			[<minecraft:stone:0>, null, <minecraft:stone:0>],
-			[<minecraft:stone:0>,<ore:ingotIronTier1To2>,<minecraft:stone:0>]
-		]
-	],
-	<skyresources:casing>: [
-		[
-			[<ore:stickTier1To3>, <ore:stickTier1To3>, <ore:stickTier1To3>],
-			[<ore:stickTier1To3>, null, <ore:stickTier1To3>],
-			[<ore:stickTier1To3>, <ore:stickTier1To3>, <ore:stickTier1To3>]
-		]
-	],
-	<skyresources:combustionheater>: [
-		[
-			[<ore:woodLogTier1to3>, <ore:woodLogTier1to3>, <ore:woodLogTier1to3>],
-			[<ore:woodLogTier1to3>, <skyresources:heat>, <ore:woodLogTier1to3>],
-			[<ore:woodLogTier1to3>, <ore:woodLogTier1to3>, <ore:woodLogTier1to3>]
-		]
-	],
-	<skyresources:heat>: [
-		[
-			[<ore:woodPlanksTier1To3>, <ore:woodPlanksTier1To3>, <ore:woodPlanksTier1To3>],
-			[<ore:woodPlanksTier1To3>, <minecraft:stone:0>, <ore:woodPlanksTier1To3>],
-			[<ore:woodPlanksTier1To3>, <ore:woodPlanksTier1To3>, <ore:woodPlanksTier1To3>]
-		]
-	],
-	<skyresources:stonecuttingknife:0>: [
-		[
-			[<minecraft:stone:0>, null, null],
-			[<minecraft:stone:0>, <ore:stickTier1To3>, null], 
-			[null, <minecraft:stone:0>, <ore:stickTier1To3>]
+			[<ore:nuggetAluminum>, null],
+			[null, <ore:stickWood>]
 		]
 	]
 };
@@ -53,13 +24,6 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
     -----------------
 */
 static mirroredRecipes as IIngredient[][][][IItemStack] = {
-	<skyresources:stonegrinder:0>: [
-		[
-			[<minecraft:stone:0>, null, null],
-			[null, <ore:stickTier1>, null],
-			[null, null, <ore:stickTier1>]
-		]
-	]
 };
 
 static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
@@ -106,5 +70,4 @@ function init() {
 		----------------
 	*/
 	recipeBuilder.processFurnace(furnaceRecipes);
-
 }
