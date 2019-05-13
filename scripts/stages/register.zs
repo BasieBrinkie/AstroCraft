@@ -9,6 +9,14 @@ import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
 /*
+	----------
+	Gamemodes.
+	----------
+*/
+static gameModeAbnormal as Stage = ZenStager.initStage("gamemode_abnormal");
+static gameModeGenius as Stage = ZenStager.initStage("gamemode_genius");
+
+/*
 	-------------------
 	Progression Stages.
 	-------------------
