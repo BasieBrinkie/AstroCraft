@@ -29,7 +29,15 @@ static centrifugeAdd as bool[IItemStack][IItemStack[]] = {
 */	
 
 static centrifugeRemove as IItemStack[IItemStack[]] = {
-	
+	[<factorytech:ore_dust:5>, <factorytech:ore_dust:6>, null]: <factorytech:ore_dust:0>,
+	[<factorytech:ore_dust:4>, <factorytech:ore_dust:7>, null]: <factorytech:ore_dust:1>,
+	[<minecraft:gold_nugget:0>, <factorytech:ore_dust:8>, null]:	<factorytech:ore_dust:2>,
+	[<minecraft:iron_nugget:0>, <factorytech:ore_dust:9>, null]: <factorytech:ore_dust:3>,
+	[<factorytech:ore_dust:9>, <factorytech:ore_dust:8> * 3, null]: <factorytech:ore_dust:10> * 4,
+	[<factorytech:ore_dust:9>, <factorytech:ore_dust:6> * 2, null]: <factorytech:ore_dust:11>,
+	[<factorytech:ore_dust:9>, <factorytech:ore_dust:6>, null]: <factorytech:mined_ore:4>,
+	[<minecraft:redstone:0>, <minecraft:sand:0> * 4, null]: <minecraft:sand:0> * 4,
+	[<factorytech:ore_dust:9>, <factorytech:ore_dust:6> * 2, null]: <thermalfoundation:material:98>
 };
 
 /*	

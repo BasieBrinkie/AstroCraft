@@ -1,22 +1,29 @@
 <galaxy>
-    <star name="ToBeSetWIP" temp="100" x="0" y="0" size="1.8" numPlanets="0" numGasGiants="0" blackHole="true">
-        <planet name="Asteroid Belt" DIMID="3">
-        	<isKnown>True</isKnown>
-        	<genType>2</genType>
-            <atmosphereDensity>0</atmosphereDensity>
-            <gravitationalMultiplier>5</gravitationalMultiplier>
-            <biomeIds>advancedrocketry:space</biomeIds>
+    <star name="Arcturus" temp="100" x="0" y="0" size="1.8" numPlanets="0" numGasGiants="0" blackHole="false">
+        <planet name="Glacidus" DIMID="84" dimMapping="" customIcon="EarthLike">
+            <isKnown>true</isKnown>
+            <hasRings>true</hasRings>
+            <atmosphereDensity>90</atmosphereDensity>
+            <gravitationalMultiplier>85</gravitationalMultiplier>
             <orbitalDistance>20</orbitalDistance>
-            <orbitalTheta>0</orbitalTheta>
-            <orbitalPhi>45</orbitalPhi>
-            
-            <fillerBlock>contenttweaker:astrostone</fillerBlock>
-            <OreGen>
-                
-            </OreGen>
-            <oceanBlock></oceanBlock>
-            <seaLevel></seaLevel>
-            <rotationalPeriod>24000</rotationalPeriod>
+            <orbitalTheta>120</orbitalTheta>
+            <orbitalPhi>210</orbitalPhi>
+            <rotationalPeriod>20000</rotationalPeriod>
+                <planet name="Asteroid Belt" DIMID="3">
+        	       <isKnown>true</isKnown>
+                   <genType>2</genType>
+                   <atmosphereDensity>0</atmosphereDensity>
+                   <gravitationalMultiplier>5</gravitationalMultiplier>
+                   <orbitalDistance>120</orbitalDistance>
+                   <orbitalTheta>48</orbitalTheta>
+                   <orbitalPhi>63</orbitalPhi>
+                   <biomeIds>advancedrocketry:space</biomeIds>
+                   <fillerBlock>contenttweaker:astrostone</fillerBlock>
+                   <OreGen></OreGen>
+                   <oceanBlock></oceanBlock>
+                   <seaLevel></seaLevel>
+                   <rotationalPeriod>72000</rotationalPeriod>
+                </planet>
         </planet>
     </star>
 </galaxy>

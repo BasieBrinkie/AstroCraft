@@ -57,14 +57,25 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 	--------------
 	*/
 	<ore:nuggetCopperTier1>: [
-		<tconstruct:shard>.withTag({Material: "copper"}),
-		<mekanism:clump:3>
+		<mekanism:nugget:5>
 	],
 	<ore:nuggetCopperTier2>: [
 		<immersiveengineering:metal:20>
 	],
 	<ore:nuggetCopperTier3>: [
 		<factorytech:ore_dust:4>
+	],
+	
+	/*	
+	--------------
+	Copper Clumps.
+	--------------
+	*/
+	<ore:clumpCopperTier1>: [
+		<mekanism:clump:3>
+	],
+	<ore:clumpCopperTier2>: [
+		<tconstruct:shard>.withTag({Material: "copper"}),
 	],
 
 	/*	
@@ -197,6 +208,16 @@ static createOredictsToOredict as IOreDictEntry[][IOreDictEntry] = {
 	],
 
 	/*	
+	--------------
+	Copper Clumps.
+	--------------
+	*/
+	<ore:clumpCopperTier1To2>: [
+		<ore:clumpCopperTier1>,
+		<ore:clumpCopperTier2>
+	],
+
+	/*	
 	-------------
 	Copper Dusts.
 	-------------
@@ -206,6 +227,7 @@ static createOredictsToOredict as IOreDictEntry[][IOreDictEntry] = {
 		<ore:dustCopperTier2>
 
 	],
+	
 	/*	
 	--------------
 	Copper Plates.
@@ -267,6 +289,7 @@ static removeModID as IOreDictEntry[][string] = {
 */
 static mirror as IOreDictEntry[IOreDictEntry] = {
 	<ore:blockCopperTier1To5>: 	<ore:blockCopper>,
+	<ore:clumpCopperTier1To2>:	<ore:clumpCopper>,
 	<ore:dustCopperTier1To2>: 	<ore:dustCopper>,
 	<ore:ingotCopperTier1To4>: 	<ore:ingotCopper>,
 	<ore:gearCopperTier1>: 		<ore:gearCopper>,
@@ -278,9 +301,9 @@ function init() {
 	oredictBuilder.create(createItemsToOredict);
 	tooltipGen.oredictIterator(createItemsToOredict, unlocalizedNames, extraTooltips);
 	oredictBuilder.createOredict(createOredictsToOredict);
+	oredictBuilder.mirror(mirror);
 	oredictBuilder.process(addItemsToOredict);
 	oredictBuilder.processOredict(addOredictsToOredict);
 	oredictBuilder.remove(removeItemsFromOredict);
 	oredictBuilder.removeModID(removeModID);
-	oredictBuilder.mirror(mirror);
 }

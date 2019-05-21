@@ -1,5 +1,6 @@
 #priority 9000
 #modloaded zenstages mobstages
+import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.mods.ILoadedMods;
@@ -25,10 +26,20 @@ zenClass stager {
 		}
 	}
 
+	function setStageOredict(map as IOreDictEntry[][string]) {
+		for stageName, oredictArray in map {
+			for oredictEntry in oredictArray {
+				for item in oredictEntry.items {
+					ZenStager.getStage(stageName).addIngredient(item);
+				}
+			}
+		}
+	}
+
 	function disable(map as IIngredient[]) {
 		ZenStager.getStage("disabled_items").addIngredients(map);
 	}
-/* TEMP DISABLED DUE TO A BUG IN 4.1.15
+
 	function addLeftovers() {
 		if(devNonStagedItems | !dev) {
 			print("----------------------- Stages: Non Staged Items -----------------------");
@@ -39,13 +50,13 @@ zenClass stager {
 					}
 				}
 			}
+			ZenStager.buildAll();
 		}
 	}
-*/
+
 	function build() {
 		ZenStager.buildAll();
-		//addLeftovers();
-		ZenStager.buildAll();
+		addLeftovers();	
 	}
 
 	/*
@@ -65,7 +76,7 @@ zenClass stager {
 		for dimension, stageArray in map {
 			for stage, mobArray in stageArray {
 				for mob in mobArray {
-					MobStages.addStage(stage, mob);
+					MobStages.addStage(stage, mob, dimension);
 				}
 			}
 		}
@@ -93,16 +104,6 @@ zenClass stager {
 		for range, mobArray in map {
 			for mob in mobArray {
 				MobStages.addRange(mob, range);
-			}
-		}
-	}
-
-	function mobRangeDim(map as string[][int][int]) {
-		for dimension, rangeArray in map {
-			for range, mobArray in rangeArray {
-				for mob in mobArray {
-					MobStages.addRange(mob, range);
-				}
 			}
 		}
 	}

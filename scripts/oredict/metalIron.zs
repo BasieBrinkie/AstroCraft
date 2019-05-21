@@ -264,9 +264,9 @@ function init() {
 	oredictBuilder.create(createItemsToOredict);
 	tooltipGen.oredictIterator(createItemsToOredict, unlocalizedNames, extraTooltips);
 	oredictBuilder.createOredict(createOredictsToOredict);
+	oredictBuilder.mirror(mirror);
 	oredictBuilder.process(addItemsToOredict);
 	oredictBuilder.processOredict(addOredictsToOredict);
 	oredictBuilder.remove(removeItemsFromOredict);
 	oredictBuilder.removeModID(removeModID);
-	oredictBuilder.mirror(mirror);
 }

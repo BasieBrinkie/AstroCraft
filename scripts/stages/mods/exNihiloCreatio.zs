@@ -3,7 +3,7 @@ import crafttweaker.item.IIngredient;
 import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
-import scripts.stages.register.stageDawnOfANewDay;
+import scripts.stages.register.stageStart;
 import scripts.stages.register.stageOxygen1;
 import scripts.stages.register.stageResources1;
 import scripts.stages.register.stageDisabledItems;
@@ -25,7 +25,8 @@ static disabledItems as IIngredient[] = [
 	<exnihilocreatio:block_auto_sifter:0>,
 	<exnihilocreatio:block_axle_stone:0>,
 	<exnihilocreatio:block_grinder:0>,
-	<exnihilocreatio:block_waterwheel:0>
+	<exnihilocreatio:block_waterwheel:0>,
+	<exnihilocreatio:item_material:7>
 ];
 
 function init() {

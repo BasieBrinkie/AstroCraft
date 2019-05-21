@@ -9,16 +9,15 @@ import crafttweaker.item.IIngredient;
 static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<minecraft:bucket:0>: [
 		[	
-			[<ore:ingotIronTier1To2>, null, <ore:ingotIronTier1To2>],
-			[<ore:ingotIronTier1To2>, null, <ore:ingotIronTier1To2>],
-			[null, <ore:ingotIronTier1To2>, null]
+			[<ore:ingotIron>, null, <ore:ingotIron>],
+			[null, <ore:ingotIron>, null]
 		]
 	],
 	<minecraft:chest:0>: [
 		[
-			[<ore:woodPlanksTier1To3>, <ore:woodPlanksTier1To3>, <ore:woodPlanksTier1To3>],
-			[<ore:woodPlanksTier1To3>, <minecraft:iron_nugget>, <ore:woodPlanksTier1To3>],
-			[<ore:woodPlanksTier1To3>, <ore:woodPlanksTier1To3>, <ore:woodPlanksTier1To3>]
+			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+			[<ore:plankWood>, <ore:nuggetIron>, <ore:plankWood>],
+			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
 		]
 	],
 	<minecraft:cobblestone:0>: [
@@ -35,12 +34,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<actuallyadditions:item_misc:11>, <actuallyadditions:item_misc:11>, <actuallyadditions:item_misc:11>]
 		]
 	],
-	<minecraft:lever:0>: [
-		[
-			[<ore:stickTier1To3>],
-			[<minecraft:stone:0>]
-		]
-	],
 	<minecraft:furnace:0>: [
 		[
 			[<minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>],
@@ -49,32 +42,43 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 
 		]
 	],
+	<minecraft:lever:0>: [
+		[
+			[<ore:stickWood>],
+			[<minecraft:stone:0>]
+		]
+	],
 	<minecraft:stone_axe>: [
 		[
 			[<minecraft:stone:0>, <minecraft:stone:0>, null],
-			[<minecraft:stone:0>, <ore:woodstickTier1To3>, null],
-			[null, <ore:stickTier1To3>, null]
+			[<minecraft:stone:0>, <ore:stickWood>, null],
+			[null, <ore:stickWood>, null]
 
 		]
 	],
 	<minecraft:stone_hoe>: [
 		[
-			[<ore:stickTier1To3>, null, null],
-			[<exnihilocreatio:item_pebble>, <ore:stickTier1To3>, null],
-			[null, null, <ore:stickTier1To3>]
+			[<ore:stickWood>, null, null],
+			[<exnihilocreatio:item_pebble>, <ore:stickWood>, null],
+			[null, null, <ore:stickWood>]
+		]
+	],
+	<minecraft:stone_pressure_plate:0>: [
+		[
+			[<ore:stone>, <ore:stone>]
 		]
 	],
 	<minecraft:stone_shovel>: [
 		[
-			[<ore:stickTier1To3>],
-			[<ore:stickTier1To3>],
+			[<ore:stickWood>],
+			[<ore:stickWood>],
 			[<minecraft:stone:0>]
 		]
 	],
-	<minecraft:stick:0>: [ //Tier 1 Stick
+	<minecraft:stick:0> * 2: [ //Tier 1 Stick
 		[
-			[<advancedrocketry:charcoallog:0>], 
-			[<advancedrocketry:charcoallog:0>]
+			[<ore:plankWood>], 
+			[<ore:plankWood>]
 		]
 	],
 	<minecraft:torch:0>: [
@@ -85,15 +89,20 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<minecraft:trapdoor>: [
 		[
-			[<ore:woodPlanksTier1To3>, <ore:woodPlanksTier1To3>, <ore:woodPlanksTier1To3>],
-			[<ore:woodPlanksTier1To3>, <ore:woodPlanksTier1To3>, <ore:woodPlanksTier1To3>]
+			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
 		]
 	],
 	<minecraft:wooden_pickaxe>: [
 		[
-			[<advancedrocketry:charcoallog:0>, <advancedrocketry:charcoallog:0>, <advancedrocketry:charcoallog:0>],
-			[null, <ore:stickTier1To3>, null],
-			[null, <ore:stickTier1To3>, null]
+			[<ore:logWood>, <ore:logWood>, <ore:logWood>],
+			[null, <ore:stickWood>, null],
+			[null, <ore:stickWood>, null]
+		]
+	],
+	<minecraft:wooden_pressure_plate:0>: [
+		[
+			[<ore:plankWood>, <ore:plankWood>]
 		]
 	] 
 };
@@ -118,6 +127,15 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
     ------------------
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
+	<minecraft:planks:0> * 2: [
+		[<minecraft:log:0>]
+	],
+	<minecraft:stone_button:0>: [
+		[<ore:stone>]
+	],
+	<minecraft:wooden_button:0>: [
+		[<ore:plankWood>]
+	]
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {

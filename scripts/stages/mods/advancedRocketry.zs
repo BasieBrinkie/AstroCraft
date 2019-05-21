@@ -3,7 +3,7 @@ import crafttweaker.item.IIngredient;
 import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
-import scripts.stages.register.stageDawnOfANewDay;
+import scripts.stages.register.stageStart;
 import scripts.stages.register.stageOxygen1;
 import scripts.stages.register.stageResources1;
 import scripts.stages.register.stageDisabledItems;
@@ -25,6 +25,16 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static disabledItems as IIngredient[] = [
+	<libvulpes:productdust:0>,
+	<libvulpes:productdust:1>,
+	<libvulpes:productdust:2>,
+	<libvulpes:productdust:3>,
+	<libvulpes:productdust:4>,
+	<libvulpes:productdust:5>,
+	<libvulpes:productdust:6>,
+	<libvulpes:productdust:7>,
+	<libvulpes:productdust:9>,
+	<libvulpes:productdust:10>
 ];
 
 function init() {

@@ -14,24 +14,24 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:stone:0>,<ore:ingotIronTier1To2>,<minecraft:stone:0>]
 		]
 	],
-	<skyresources:casing>: [
+	<skyresources:casing:0>: [
 		[
 			[<ore:stickTier1To3>, <ore:stickTier1To3>, <ore:stickTier1To3>],
 			[<ore:stickTier1To3>, null, <ore:stickTier1To3>],
 			[<ore:stickTier1To3>, <ore:stickTier1To3>, <ore:stickTier1To3>]
 		]
 	],
-	<skyresources:combustionheater>: [
+	<skyresources:combustionheater:1>: [
 		[
-			[<ore:woodLogTier1to3>, <ore:woodLogTier1to3>, <ore:woodLogTier1to3>],
-			[<ore:woodLogTier1to3>, <skyresources:heat>, <ore:woodLogTier1to3>],
-			[<ore:woodLogTier1to3>, <ore:woodLogTier1to3>, <ore:woodLogTier1to3>]
+			[<ore:stone>, <ore:stone>, <ore:stone>],
+			[<ore:stone>, <skyresources:heat>, <ore:stone>],
+			[<ore:stone>, <ore:stone>, <ore:stone>]
 		]
 	],
 	<skyresources:heat>: [
 		[
 			[<ore:woodPlanksTier1To3>, <ore:woodPlanksTier1To3>, <ore:woodPlanksTier1To3>],
-			[<ore:woodPlanksTier1To3>, <minecraft:stone:0>, <ore:woodPlanksTier1To3>],
+			[<ore:woodPlanksTier1To3>, <ore:stone>, <ore:woodPlanksTier1To3>],
 			[<ore:woodPlanksTier1To3>, <ore:woodPlanksTier1To3>, <ore:woodPlanksTier1To3>]
 		]
 	],

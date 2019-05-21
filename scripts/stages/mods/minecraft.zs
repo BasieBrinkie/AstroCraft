@@ -3,10 +3,11 @@ import crafttweaker.item.IIngredient;
 import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
-import scripts.stages.register.stageDawnOfANewDay;
+import scripts.stages.register.stageStart;
 import scripts.stages.register.stageOxygen1;
 import scripts.stages.register.stageResources1;
 import scripts.stages.register.stageDisabledItems;
+import scripts.stages.register.stageDecoration;
 
 static stagedItems as IIngredient[][string] = {
 	stageOxygen1.stage: [
@@ -25,6 +26,23 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:wheat_seeds:0>,
 		<minecraft:wooden_pickaxe:*>,
 		<minecraft:wool:0>
+	],
+	stageResources1.stage: [
+		<minecraft:bucket:0>,
+		<minecraft:packed_ice:0>,
+		<minecraft:stone_button:0>,
+		<minecraft:stone_pressure_plate:0>,
+		<minecraft:trapdoor:0>,
+		<minecraft:wooden_button:0>,
+		<minecraft:wooden_pressure_plate:0>
+	],
+
+	stageDecoration.stage: [
+		<minecraft:planks:1>,
+		<minecraft:planks:2>,
+		<minecraft:planks:3>,
+		<minecraft:planks:4>,
+		<minecraft:planks:5>,
 	]
 };
 

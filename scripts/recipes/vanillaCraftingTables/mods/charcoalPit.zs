@@ -7,16 +7,18 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
+	<charcoal_pit:fire_starter:0>: [
+		[
+			[null, null, <ore:stickWood>],
+			[null, <ore:stickWood>, <ore:coal> | <ore:charcoal>],
+			[<ore:stickWood>, <ore:stickWood>, <ore:stone>]
+		]
+	],
 	<charcoal_pit:log_pile:0>: [
 		[
-			[<advancedrocketry:charcoallog:0>, <advancedrocketry:charcoallog:0>, <advancedrocketry:charcoallog:0>], 
-			[<advancedrocketry:charcoallog:0>, <advancedrocketry:charcoallog:0>, <advancedrocketry:charcoallog:0>],
-			[<advancedrocketry:charcoallog:0>, <advancedrocketry:charcoallog:0>, <advancedrocketry:charcoallog:0>]
-		],
-		[
-			[<minecraft:log:0>, <minecraft:log:0>, <minecraft:log:0>], 
-			[<minecraft:log:0>, <minecraft:log:0>, <minecraft:log:0>],
-			[<minecraft:log:0>, <minecraft:log:0>, <minecraft:log:0>]
+			[<ore:logWood> | <advancedrocketry:charcoallog:0>, <ore:logWood> | <advancedrocketry:charcoallog:0>, <ore:logWood> | <advancedrocketry:charcoallog:0>], 
+			[<ore:logWood> | <advancedrocketry:charcoallog:0>, <ore:logWood> | <advancedrocketry:charcoallog:0>, <ore:logWood> | <advancedrocketry:charcoallog:0>],
+			[<ore:logWood> | <advancedrocketry:charcoallog:0>, <ore:logWood> | <advancedrocketry:charcoallog:0>, <ore:logWood> | <advancedrocketry:charcoallog:0>]
 		]
 	]
 };

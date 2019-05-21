@@ -215,15 +215,16 @@ static removeModID as IOreDictEntry[][string] = {
 	Mirror an Oredict.
 	------------------
 */
-static mirror as IOreDictEntry[][IOreDictEntry] = {	
+static mirror as IOreDictEntry[IOreDictEntry] = {	
+	<ore:woodPlanksTier1To3>: <ore:plankWood>
 };
 
 function init() {
 	oredictBuilder.create(createItemsToOredict);
 	oredictBuilder.createOredict(createOredictsToOredict);
+	oredictBuilder.mirror(mirror);
 	oredictBuilder.process(addItemsToOredict);
 	oredictBuilder.processOredict(addOredictsToOredict);
 	oredictBuilder.remove(removeItemsFromOredict);
 	oredictBuilder.removeModID(removeModID);
-	oredictBuilder.mirror(mirror);
 }

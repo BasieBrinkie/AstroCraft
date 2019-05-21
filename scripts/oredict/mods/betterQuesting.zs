@@ -51,14 +51,14 @@ static removeModID as IOreDictEntry[][string] = {
 	------------------
 */
 
-static mirrorOredict as IOreDictEntry[][IOreDictEntry] = {	
+static mirrorOredict as IOreDictEntry[IOreDictEntry] = {	
 };
 
 
 function init() {
+	oredictBuilder.mirror(mirrorOredict);
 	oredictBuilder.process(addItemsToOredict);
 	oredictBuilder.processOredict(addOredictsToOredict);
 	oredictBuilder.remove(removeItemsFromOredict);
 	oredictBuilder.removeModID(removeModID);
-	oredictBuilder.mirror(mirrorOredict);
 }

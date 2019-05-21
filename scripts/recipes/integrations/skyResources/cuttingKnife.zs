@@ -15,12 +15,7 @@ import crafttweaker.item.IItemStack;
 
 
 static cuttingKnifeAdd as IItemStack[IItemStack] = {
-	<minecraft:stick:0> * 2: <minecraft:planks:0>,
-	<minecraft:stick:0> * 2: <minecraft:planks:1>
-	//<minecraft:stick:0> * 2: <minecraft:planks:2>,
-	//<minecraft:stick:0> * 2: <minecraft:planks:3>,
-	//<minecraft:stick:0> * 2: <minecraft:planks:4>,
-	//<minecraft:stick:0> * 2: <minecraft:planks:5>
+	<minecraft:stick:0> * 2: <minecraft:planks:0>
 };
 
 /*	

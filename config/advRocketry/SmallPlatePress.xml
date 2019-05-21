@@ -23,7 +23,7 @@
 <Recipes useDefault="false">
 	<Recipe timeRequired="0" power="0">
 		<input>
-			<oreDict>blockCopperTier1To5</oreDict>
+			<oreDict>blockCopperTier1</oreDict>
 		</input>
 		<output>
 			<itemStack>libvulpes:productplate 2 4</itemStack>

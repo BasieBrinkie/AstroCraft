@@ -63,6 +63,15 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 		<thermalfoundation:material:196>
 	],
 	
+	/*	
+	----------------
+	Aluminum Clumps.
+	----------------
+	*/
+	<ore:clumpAluminumTier1>: [
+		<mekanism:clump:0>
+	],
+
 	/*
 	--------------
 	Aluminum Dust.
@@ -241,6 +250,7 @@ static removeModID as IOreDictEntry[][string] = {
 */
 static mirror as IOreDictEntry[IOreDictEntry] = {
 	<ore:blockAluminumTier1To4>: 	<ore:blockAluminum>,
+	<ore:clumpAluminumTier1>:		<ore:clumpAluminum>,
 	<ore:dustAluminumTier1To2>: 	<ore:dustAluminum>,
 	<ore:ingotAluminumTier1To4>: 	<ore:ingotAluminum>,
 	<ore:gearAluminumTier1>: 		<ore:gearAluminum>,
@@ -252,9 +262,9 @@ function init() {
 	oredictBuilder.create(createItemsToOredict);
 	tooltipGen.oredictIterator(createItemsToOredict, unlocalizedNames, extraTooltips);
 	oredictBuilder.createOredict(createOredictsToOredict);
+	oredictBuilder.mirror(mirror);
 	oredictBuilder.process(addItemsToOredict);
 	oredictBuilder.processOredict(addOredictsToOredict);
 	oredictBuilder.remove(removeItemsFromOredict);
 	oredictBuilder.removeModID(removeModID);
-	oredictBuilder.mirror(mirror);
 }

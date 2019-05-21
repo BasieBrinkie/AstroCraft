@@ -1,4 +1,5 @@
 #priority 8500
+#modloaded zenstages
 /* 	
 	-------------------------------------------------------------------------
 	This script will build all classes so it can be used inside every script.

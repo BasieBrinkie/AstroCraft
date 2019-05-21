@@ -90,7 +90,7 @@ key_Misc Caster Toggle:2
 key_keybind.baublesinventory:48
 key_key.staff_mode.desc:50
 key_key.use_cage.desc:49
-key_key.betterquesting.quests:41
+key_key.betterquesting.quests:0
 key_keybind.hammercorerenderstack:77
 key_enderutilities.key.activate_unselected:34
 key_enderutilities.key.togglemode:34
@@ -99,8 +99,10 @@ key_key.erebus.poweredglide:35
 key_key.erebus.beetleram:19
 key_key.erebus.beetlemine:56
 key_key.xu2.searchforitems:20
+key_key.ftbguides.guide:0
 key_key.ftbutilities.nbt:49:ALT
 key_key.ftbutilities.trash:211
+key_key.ftbquests.quests:41
 key_key.open_menu:19
 key_key.moreoverlays.lightoverlay.desc:65
 key_key.moreoverlays.chunkbounds.desc:67
@@ -188,6 +190,12 @@ key_key.toggleFlight:0
 key_key.toggleDislocator:0
 key_key.cycleDigAOE:0
 key_key.cycleAttackAOE:0
+key_key.effortlessbuilding.hud.desc:78
+key_key.effortlessbuilding.replace.desc:74
+key_key.effortlessbuilding.creative.desc:0
+key_key.effortlessbuilding.mode.desc:56
+key_key.effortlessbuilding.undo.desc:44:CONTROL
+key_key.effortlessbuilding.redo.desc:21:CONTROL
 key_FpsReducer.key.guiOpen:207
 key_key.dragon_fireAttack:19
 key_key.dragon_strike:34
