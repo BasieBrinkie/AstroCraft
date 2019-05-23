@@ -22,7 +22,7 @@
                    <OreGen></OreGen>
                    <oceanBlock></oceanBlock>
                    <seaLevel></seaLevel>
-                   <rotationalPeriod>72000</rotationalPeriod>
+                   <rotationalPeriod>12000</rotationalPeriod>
                 </planet>
         </planet>
     </star>

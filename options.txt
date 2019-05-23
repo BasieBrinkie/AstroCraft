@@ -99,7 +99,6 @@ key_key.erebus.poweredglide:35
 key_key.erebus.beetleram:19
 key_key.erebus.beetlemine:56
 key_key.xu2.searchforitems:20
-key_key.ftbguides.guide:0
 key_key.ftbutilities.nbt:49:ALT
 key_key.ftbutilities.trash:211
 key_key.ftbquests.quests:41
@@ -117,9 +116,9 @@ key_psimisc.keybind:46
 key_key.toggleFoVChanges:51:SHIFT
 key_key.reloadSoundSystem:66:SHIFT
 key_key.toggleTimeOfDayOverlay:43:CONTROL
-key_schematica.key.load:13
+key_schematica.key.load:181
 key_schematica.key.save:55
-key_schematica.key.control:13:SHIFT
+key_schematica.key.control:74
 key_schematica.key.layerInc:0
 key_schematica.key.layerDec:0
 key_schematica.key.layerToggle:0
@@ -191,7 +190,7 @@ key_key.toggleDislocator:0
 key_key.cycleDigAOE:0
 key_key.cycleAttackAOE:0
 key_key.effortlessbuilding.hud.desc:78
-key_key.effortlessbuilding.replace.desc:74
+key_key.effortlessbuilding.replace.desc:0
 key_key.effortlessbuilding.creative.desc:0
 key_key.effortlessbuilding.mode.desc:56
 key_key.effortlessbuilding.undo.desc:44:CONTROL
@@ -206,8 +205,6 @@ key_key.toggleVisible:0
 key_key.immersiveengineering.magnetEquip:31
 key_key.immersiveengineering.chemthrowerSwitch:0
 key_invtweaks.key.sort:19
-key_jecalculation.key.gui_craft:0
-key_jecalculation.key.gui_math:0
 key_key.rotateup:200
 key_key.rotatedown:208
 key_key.rotateright:205

@@ -75,8 +75,8 @@ zenClass skyRes {
 	}
 
 	function condenserRemoveRecipe(map as IItemStack[]) {
-		for item in map {
-			mods.skyresources.condenser.removeRecipe(item);
+		for output in map {
+			mods.skyresources.condenser.removeRecipe(output);
 		}
 	}
 

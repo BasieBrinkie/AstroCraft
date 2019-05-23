@@ -1,6 +1,9 @@
 import crafttweaker.item.IItemStack;
 
 static grindstoneAdd as bool[IItemStack][IItemStack] = {
+	<factorytech:machinepart:0>: {
+		<factorytech:machinepart:10>: true
+	},
 	<factorytech:machinepart:1>: {
 		<factorytech:machinepart:11>: true
 	},

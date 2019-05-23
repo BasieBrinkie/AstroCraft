@@ -86,8 +86,10 @@ zenClass itemProperties {
 		
 			if (dev) {
 				item.addTooltip(format.darkGray(item.definition.id ~ ":" ~ item.metadata));
-				for oredict in item.definition.ores {
-					item.addTooltip(format.gray(oredict.name));
+				if(item.definition.owner != "thermalfoundation" & item.definition.owner != "tconstruct") {
+					for oredict in item.ores {
+						item.addTooltip(format.gray(oredict.name));
+					}
 				}
 			}
 		}
@@ -113,8 +115,10 @@ zenClass itemProperties {
 			
 			if (dev) {
 				item.addTooltip(format.darkGray(item.definition.id ~ ":" ~ item.metadata));
-				for oredict in item.definition.ores {
-					item.addTooltip(format.gray(oredict.name));
+				if(item.definition.owner != "thermalfoundation" & item.definition.owner != "tconstruct") {
+					for oredict in item.ores {
+						item.addTooltip(format.gray(oredict.name));
+					}
 				}
 			}
 		}
@@ -141,8 +145,10 @@ zenClass itemProperties {
 			
 				if (dev) {
 					item.addTooltip(format.darkGray(item.definition.id ~ ":" ~ item.metadata));
-					for oredict in item.definition.ores {
-						item.addTooltip(format.gray(oredict.name));
+					if(item.definition.owner != "thermalfoundation" & item.definition.owner != "tconstruct") {
+						for oredict in item.ores {
+							item.addTooltip(format.gray(oredict.name));
+						}
 					}
 				}
 			}
