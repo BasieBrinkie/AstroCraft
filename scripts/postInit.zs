@@ -65,6 +65,8 @@ function initIntegrations() {
 	scripts.recipes.integrations.appliedEnergistics2.grinder.init();
 
 	scripts.recipes.integrations.factoryTech.centrifuge.init();
+	scripts.recipes.integrations.factoryTech.chopSaw.init();
+	scripts.recipes.integrations.factoryTech.grindStone.init();
 
 	scripts.recipes.integrations.skyResources.alchemicalFusion.init();
 	scripts.recipes.integrations.skyResources.catalysts.init();
@@ -87,6 +89,7 @@ function initStages() {
 	scripts.stages.mods.abyssalCraft.init();
 	scripts.stages.mods.actuallyAdditions.init();	
 	scripts.stages.mods.advancedRocketry.init();
+	scripts.stages.mods.buildingGadgets.init();
 	scripts.stages.mods.charcoalPit.init();
 	scripts.stages.mods.exCompressum.init();
 	scripts.stages.mods.exNihiloCreatio.init();
@@ -95,7 +98,6 @@ function initStages() {
 	scripts.stages.mods.minecraft.init();
 	scripts.stages.mods.skyResources.init();
 	scripts.stages.mods.thermalFoundation.init();
-
 
 	scripts.stages.mobs.chickens.init();
 

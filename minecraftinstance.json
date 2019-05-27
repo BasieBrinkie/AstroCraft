@@ -29,7 +29,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2019-05-23T18:36:21.6125753Z",
+  "lastPlayed": "2019-05-26T22:19:19.8460204Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -4074,21 +4074,6 @@
       "fileSize": 21603
     },
     {
-      "folderName": "DefaultOptions_1.12.2-9.2.8.jar",
-      "fingerprint": 1590672741,
-      "fileDateHash": 3173075252,
-      "sectionID": 6,
-      "individualFingerprints": [
-        1590672741
-      ],
-      "status": 1,
-      "timestamp": "2019-04-21T20:30:55.0178058Z",
-      "lastWriteTimeUtc": "2019-04-21T00:24:20.1567744Z",
-      "queryTimestamp": "2019-05-21T21:40:16.4220334Z",
-      "fileCount": 1,
-      "fileSize": 15056
-    },
-    {
       "folderName": "MatterOverdrive-1.12.2-0.7.1.0-universal.jar",
       "fingerprint": 3368764801,
       "fileDateHash": 2760098421,
@@ -6605,14 +6590,14 @@
       "addonID": 59621,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2713404,
-        "displayName": "Atum-1.12.2-2.0.7.jar",
-        "fileName": "Atum-1.12.2-2.0.7.jar",
-        "fileDate": "2019-05-19T21:38:18.253Z",
-        "fileLength": 2663362,
+        "id": 2715629,
+        "displayName": "Atum-1.12.2-2.0.8.jar",
+        "fileName": "Atum-1.12.2-2.0.8.jar",
+        "fileDate": "2019-05-25T15:26:01.7Z",
+        "fileLength": 2663367,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2713/404/Atum-1.12.2-2.0.7.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2715/629/Atum-1.12.2-2.0.8.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -6627,17 +6612,17 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2352848321,
+            "fingerprint": 955821232,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 1511336510,
+            "fingerprint": 3351318167,
             "type": 0
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 2409153115,
+            "fingerprint": 3999204230,
             "type": 0
           },
           {
@@ -6651,7 +6636,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 1128228050,
+        "packageFingerprint": 40405489,
         "gameVersion": [
           "1.12.2"
         ],
@@ -6662,12 +6647,12 @@
         "projectStatus": 0,
         "projectId": 0,
         "gameId": 0,
-        "FileNameOnDisk": "Atum-1.12.2-2.0.7.jar"
+        "FileNameOnDisk": "Atum-1.12.2-2.0.8.jar"
       },
       "dateInstalled": "2019-04-20T23:22:13.7623521Z",
-      "dateUpdated": "2019-05-21T21:42:54.4155844Z",
-      "dateLastUpdateAttempted": "2019-05-21T21:42:54.4155844Z",
-      "status": 5,
+      "dateUpdated": "2019-05-26T20:38:21.783121Z",
+      "dateLastUpdateAttempted": "2019-05-26T20:38:21.783121Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8147,26 +8132,27 @@
       "addonID": 222880,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2669258,
-        "fileName": "ThermalFoundation-1.12.2-2.6.2.26-universal.jar",
-        "fileDate": "2019-02-05T01:36:19.07",
-        "fileLength": 2305489,
+        "id": 2715788,
+        "displayName": "ThermalFoundation-1.12.2-2.6.3.27-universal.jar",
+        "fileName": "ThermalFoundation-1.12.2-2.6.3.27-universal.jar",
+        "fileDate": "2019-05-25T22:41:39.057Z",
+        "fileLength": 2312713,
         "releaseType": 1,
-        "fileStatus": 2,
-        "downloadUrl": "https://files.forgecdn.net/files/2669/258/ThermalFoundation-1.12.2-2.6.2.26-universal.jar",
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2715/788/ThermalFoundation-1.12.2-2.6.3.27-universal.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
             "id": 0,
             "addonId": 69162,
-            "type": 1,
+            "type": 3,
             "fileId": 0
           },
           {
             "id": 0,
             "addonId": 271384,
-            "type": 1,
+            "type": 3,
             "fileId": 0
           }
         ],
@@ -8174,26 +8160,26 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 0,
+            "fingerprint": 3463579793,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 0,
+            "fingerprint": 830566626,
             "type": 0
           },
           {
             "foldername": "cofh",
-            "fingerprint": 0,
+            "fingerprint": 1729665018,
             "type": 0
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 0,
+            "fingerprint": 229339766,
             "type": 0
           }
         ],
-        "packageFingerprint": 433801934,
+        "packageFingerprint": 3994542571,
         "gameVersion": [
           "1.12.2"
         ],
@@ -8204,12 +8190,12 @@
         "projectStatus": 0,
         "projectId": 0,
         "gameId": 0,
-        "FileNameOnDisk": "ThermalFoundation-1.12.2-2.6.2.26-universal.jar"
+        "FileNameOnDisk": "ThermalFoundation-1.12.2-2.6.3.27-universal.jar"
       },
       "dateInstalled": "2019-03-14T23:01:35.4659535Z",
-      "dateUpdated": "2019-03-14T23:01:35.4749506Z",
-      "dateLastUpdateAttempted": "2019-03-14T23:01:35.4749506Z",
-      "status": 5,
+      "dateUpdated": "2019-05-26T20:38:56.326172Z",
+      "dateLastUpdateAttempted": "2019-05-26T20:38:56.326172Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8785,25 +8771,26 @@
       "addonID": 69162,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2669253,
-        "fileName": "CoFHCore-1.12.2-4.6.2.25-universal.jar",
-        "fileDate": "2019-02-05T01:36:06.21",
-        "fileLength": 844166,
+        "id": 2716100,
+        "displayName": "CoFHCore-1.12.2-4.6.3.27-universal.jar",
+        "fileName": "CoFHCore-1.12.2-4.6.3.27-universal.jar",
+        "fileDate": "2019-05-26T17:26:27.603Z",
+        "fileLength": 847938,
         "releaseType": 1,
-        "fileStatus": 2,
-        "downloadUrl": "https://files.forgecdn.net/files/2669/253/CoFHCore-1.12.2-4.6.2.25-universal.jar",
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2716/100/CoFHCore-1.12.2-4.6.3.27-universal.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
             "id": 0,
-            "addonId": 220333,
+            "addonId": 270789,
             "type": 3,
             "fileId": 0
           },
           {
             "id": 0,
-            "addonId": 270789,
+            "addonId": 220333,
             "type": 1,
             "fileId": 0
           }
@@ -8812,26 +8799,26 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 0,
+            "fingerprint": 150514077,
             "type": 0
           },
           {
             "foldername": "cofh",
-            "fingerprint": 0,
+            "fingerprint": 954900270,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 0,
+            "fingerprint": 2657493796,
             "type": 0
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 0,
+            "fingerprint": 518646742,
             "type": 0
           }
         ],
-        "packageFingerprint": 1877767350,
+        "packageFingerprint": 3521813500,
         "gameVersion": [
           "1.12.2"
         ],
@@ -8842,12 +8829,12 @@
         "projectStatus": 0,
         "projectId": 0,
         "gameId": 0,
-        "FileNameOnDisk": "CoFHCore-1.12.2-4.6.2.25-universal.jar"
+        "FileNameOnDisk": "CoFHCore-1.12.2-4.6.3.27-universal.jar"
       },
       "dateInstalled": "2018-08-20T10:29:24.5500936Z",
-      "dateUpdated": "2019-02-06T20:53:08.23656Z",
-      "dateLastUpdateAttempted": "2019-02-06T20:53:08.23656Z",
-      "status": 5,
+      "dateUpdated": "2019-05-26T20:38:29.4081957Z",
+      "dateLastUpdateAttempted": "2019-05-26T20:38:29.4081957Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9359,13 +9346,14 @@
       "addonID": 271384,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2623091,
-        "fileName": "CoFHWorld-1.12.2-1.3.0.6-universal.jar",
-        "fileDate": "2018-10-01T21:05:46.827",
-        "fileLength": 531831,
+        "id": 2715784,
+        "displayName": "CoFHWorld-1.12.2-1.3.1.7-universal.jar",
+        "fileName": "CoFHWorld-1.12.2-1.3.1.7-universal.jar",
+        "fileDate": "2019-05-25T22:39:58.397Z",
+        "fileLength": 532040,
         "releaseType": 1,
-        "fileStatus": 2,
-        "downloadUrl": "https://files.forgecdn.net/files/2623/91/CoFHWorld-1.12.2-1.3.0.6-universal.jar",
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2715/784/CoFHWorld-1.12.2-1.3.1.7-universal.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -9373,26 +9361,26 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 0,
+            "fingerprint": 2656344569,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 0,
+            "fingerprint": 2250746207,
             "type": 0
           },
           {
             "foldername": "cofh",
-            "fingerprint": 0,
+            "fingerprint": 3610141356,
             "type": 0
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 0,
+            "fingerprint": 2048161318,
             "type": 0
           }
         ],
-        "packageFingerprint": 2557865424,
+        "packageFingerprint": 288882860,
         "gameVersion": [
           "1.12.2"
         ],
@@ -9403,12 +9391,12 @@
         "projectStatus": 0,
         "projectId": 0,
         "gameId": 0,
-        "FileNameOnDisk": "CoFHWorld-1.12.2-1.3.0.6-universal.jar"
+        "FileNameOnDisk": "CoFHWorld-1.12.2-1.3.1.7-universal.jar"
       },
       "dateInstalled": "2018-08-20T10:29:42.4259261Z",
-      "dateUpdated": "2018-10-03T18:29:20.8990095Z",
-      "dateLastUpdateAttempted": "2018-10-03T18:29:20.8990095Z",
-      "status": 5,
+      "dateUpdated": "2019-05-26T20:38:30.9152186Z",
+      "dateLastUpdateAttempted": "2019-05-26T20:38:30.9152186Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10706,26 +10694,27 @@
       "addonID": 227443,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2669256,
-        "fileName": "ThermalDynamics-1.12.2-2.5.4.18-universal.jar",
-        "fileDate": "2019-02-05T01:36:13.65",
-        "fileLength": 761920,
+        "id": 2716138,
+        "displayName": "ThermalDynamics-1.12.2-2.5.5.21-universal.jar",
+        "fileName": "ThermalDynamics-1.12.2-2.5.5.21-universal.jar",
+        "fileDate": "2019-05-26T18:30:34.963Z",
+        "fileLength": 762980,
         "releaseType": 1,
-        "fileStatus": 2,
-        "downloadUrl": "https://files.forgecdn.net/files/2669/256/ThermalDynamics-1.12.2-2.5.4.18-universal.jar",
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2716/138/ThermalDynamics-1.12.2-2.5.5.21-universal.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
             "id": 0,
-            "addonId": 222880,
-            "type": 1,
+            "addonId": 242818,
+            "type": 3,
             "fileId": 0
           },
           {
             "id": 0,
-            "addonId": 242818,
-            "type": 1,
+            "addonId": 222880,
+            "type": 3,
             "fileId": 0
           }
         ],
@@ -10733,26 +10722,26 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 0,
+            "fingerprint": 1258846226,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 0,
+            "fingerprint": 2748581361,
             "type": 0
           },
           {
             "foldername": "cofh",
-            "fingerprint": 0,
+            "fingerprint": 2948030040,
             "type": 0
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 0,
+            "fingerprint": 3448963317,
             "type": 0
           }
         ],
-        "packageFingerprint": 2440492480,
+        "packageFingerprint": 4045651351,
         "gameVersion": [
           "1.12.2"
         ],
@@ -10763,12 +10752,12 @@
         "projectStatus": 0,
         "projectId": 0,
         "gameId": 0,
-        "FileNameOnDisk": "ThermalDynamics-1.12.2-2.5.4.18-universal.jar"
+        "FileNameOnDisk": "ThermalDynamics-1.12.2-2.5.5.21-universal.jar"
       },
       "dateInstalled": "2019-04-25T18:14:17.1799822Z",
-      "dateUpdated": "2019-04-25T18:14:17.183981Z",
-      "dateLastUpdateAttempted": "2019-04-25T18:14:17.183981Z",
-      "status": 5,
+      "dateUpdated": "2019-05-26T20:38:53.7804681Z",
+      "dateLastUpdateAttempted": "2019-05-26T20:38:53.7804681Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10983,13 +10972,14 @@
       "addonID": 238590,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2483466,
-        "fileName": "flatcoloredblocks-mc1.12-6.6.jar",
-        "fileDate": "2017-09-24T03:32:58.683",
-        "fileLength": 0,
+        "id": 2715827,
+        "displayName": "flatcoloredblocks-mc1.12-6.8.jar",
+        "fileName": "flatcoloredblocks-mc1.12-6.8.jar",
+        "fileDate": "2019-05-25T23:52:38.243Z",
+        "fileLength": 139609,
         "releaseType": 1,
-        "fileStatus": 1,
-        "downloadUrl": "https://files.forgecdn.net/files/2483/466/flatcoloredblocks-mc1.12-6.6.jar",
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2715/827/flatcoloredblocks-mc1.12-6.8.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -11004,35 +10994,35 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 0,
+            "fingerprint": 163704675,
             "type": 0
           },
           {
             "foldername": "mod",
-            "fingerprint": 0,
+            "fingerprint": 765554658,
             "type": 0
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 0,
+            "fingerprint": 2265993452,
             "type": 0
           },
           {
             "foldername": "pack.mcmeta",
-            "fingerprint": 0,
+            "fingerprint": 215510763,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 0,
+            "fingerprint": 3297451825,
             "type": 0
           }
         ],
-        "packageFingerprint": 1046128117,
+        "packageFingerprint": 2044644304,
         "gameVersion": [
-          "1.12.2",
+          "1.12",
           "1.12.1",
-          "1.12"
+          "1.12.2"
         ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
@@ -11041,16 +11031,16 @@
         "projectStatus": 0,
         "projectId": 0,
         "gameId": 0,
-        "FileNameOnDisk": "flatcoloredblocks-mc1.12-6.6.jar"
+        "FileNameOnDisk": "flatcoloredblocks-mc1.12-6.8.jar"
       },
       "dateInstalled": "2018-08-20T10:33:45.6152826Z",
-      "dateUpdated": "2018-08-20T10:33:45.6172818Z",
-      "dateLastUpdateAttempted": "2018-08-20T10:33:45.6172818Z",
-      "status": 5,
+      "dateUpdated": "2019-05-26T20:38:36.9832957Z",
+      "dateLastUpdateAttempted": "2019-05-26T20:38:36.9832957Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
-      "isModified": true,
+      "isModified": false,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
@@ -13311,14 +13301,14 @@
       "addonID": 250363,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2711582,
-        "displayName": "AutoRegLib-1.3-29.jar",
-        "fileName": "AutoRegLib-1.3-29.jar",
-        "fileDate": "2019-05-15T20:42:02.347Z",
-        "fileLength": 105520,
+        "id": 2715657,
+        "displayName": "AutoRegLib-1.3-30.jar",
+        "fileName": "AutoRegLib-1.3-30.jar",
+        "fileDate": "2019-05-25T17:08:33.033Z",
+        "fileLength": 106291,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2711/582/AutoRegLib-1.3-29.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2715/657/AutoRegLib-1.3-30.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -13326,12 +13316,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1291430687,
+            "fingerprint": 3133541353,
             "type": 0
           },
           {
             "foldername": "vazkii",
-            "fingerprint": 2600037348,
+            "fingerprint": 2767820311,
             "type": 0
           },
           {
@@ -13341,11 +13331,11 @@
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 4206623178,
+            "fingerprint": 3372020730,
             "type": 0
           }
         ],
-        "packageFingerprint": 3690656471,
+        "packageFingerprint": 2264349137,
         "gameVersion": [
           "1.12.2"
         ],
@@ -13356,12 +13346,12 @@
         "projectStatus": 0,
         "projectId": 0,
         "gameId": 0,
-        "FileNameOnDisk": "AutoRegLib-1.3-29.jar"
+        "FileNameOnDisk": "AutoRegLib-1.3-30.jar"
       },
       "dateInstalled": "2018-08-20T10:35:24.0740706Z",
-      "dateUpdated": "2019-05-16T19:04:25.0196518Z",
-      "dateLastUpdateAttempted": "2019-05-16T19:04:25.0196518Z",
-      "status": 5,
+      "dateUpdated": "2019-05-26T20:38:24.4462692Z",
+      "dateLastUpdateAttempted": "2019-05-26T20:38:24.4462692Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13540,7 +13530,7 @@
       "dateInstalled": "2018-08-20T10:28:31.1100325Z",
       "dateUpdated": "2019-05-23T13:30:51.0230829Z",
       "dateLastUpdateAttempted": "2019-05-23T13:30:51.0230829Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14100,22 +14090,22 @@
       "addonID": 258205,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2708185,
-        "displayName": "RandomTweaks 1.12.2-2.5.0.5",
-        "fileName": "randomtweaks-1.12.2-2.5.0.5.jar",
-        "fileDate": "2019-05-07T05:56:18.97Z",
-        "fileLength": 258298,
+        "id": 2715934,
+        "displayName": "RandomTweaks 1.12.2-2.5.0.6",
+        "fileName": "randomtweaks-1.12.2-2.5.0.6.jar",
+        "fileDate": "2019-05-26T07:10:18.413Z",
+        "fileLength": 258358,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2708/185/randomtweaks-1.12.2-2.5.0.5.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2715/934/randomtweaks-1.12.2-2.5.0.6.jar",
         "isAlternate": false,
-        "alternateFileId": 2708186,
+        "alternateFileId": 2715935,
         "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2468820197,
+            "fingerprint": 1657759470,
             "type": 0
           },
           {
@@ -14125,12 +14115,12 @@
           },
           {
             "foldername": "com",
-            "fingerprint": 327763182,
+            "fingerprint": 1607026718,
             "type": 0
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 2392514664,
+            "fingerprint": 636739469,
             "type": 0
           },
           {
@@ -14139,7 +14129,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 2676894920,
+        "packageFingerprint": 549688586,
         "gameVersion": [
           "1.12",
           "1.12.1",
@@ -14152,12 +14142,12 @@
         "projectStatus": 0,
         "projectId": 0,
         "gameId": 0,
-        "FileNameOnDisk": "randomtweaks-1.12.2-2.5.0.5.jar"
+        "FileNameOnDisk": "randomtweaks-1.12.2-2.5.0.6.jar"
       },
       "dateInstalled": "2018-08-28T19:26:59.3546953Z",
-      "dateUpdated": "2019-05-07T09:14:49.2818693Z",
-      "dateLastUpdateAttempted": "2019-05-07T09:14:49.2818693Z",
-      "status": 5,
+      "dateUpdated": "2019-05-26T20:38:45.7365198Z",
+      "dateLastUpdateAttempted": "2019-05-26T20:38:45.7365198Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14172,20 +14162,20 @@
       "addonID": 244844,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2714147,
-        "displayName": "ForgeEndertech-1.12.2-4.4.19.0-build.0341.jar",
-        "fileName": "ForgeEndertech-1.12.2-4.4.19.0-build.0341.jar",
-        "fileDate": "2019-05-21T18:21:19.46Z",
-        "fileLength": 883152,
+        "id": 2715060,
+        "displayName": "ForgeEndertech-1.12.2-4.4.19.1-build.0353.jar",
+        "fileName": "ForgeEndertech-1.12.2-4.4.19.1-build.0353.jar",
+        "fileDate": "2019-05-23T23:47:01.893Z",
+        "fileLength": 883184,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2714/147/ForgeEndertech-1.12.2-4.4.19.0-build.0341.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2715/60/ForgeEndertech-1.12.2-4.4.19.1-build.0353.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
             "id": 0,
-            "addonId": 305122,
+            "addonId": 269973,
             "type": 2,
             "fileId": 0
           },
@@ -14197,13 +14187,13 @@
           },
           {
             "id": 0,
-            "addonId": 269973,
+            "addonId": 244849,
             "type": 2,
             "fileId": 0
           },
           {
             "id": 0,
-            "addonId": 244849,
+            "addonId": 272190,
             "type": 2,
             "fileId": 0
           },
@@ -14215,7 +14205,7 @@
           },
           {
             "id": 0,
-            "addonId": 272190,
+            "addonId": 305122,
             "type": 2,
             "fileId": 0
           },
@@ -14230,12 +14220,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1609184642,
+            "fingerprint": 1280007823,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 1204743175,
+            "fingerprint": 3343291653,
             "type": 0
           },
           {
@@ -14245,16 +14235,16 @@
           },
           {
             "foldername": "CHANGELOG.md",
-            "fingerprint": 3974873941,
+            "fingerprint": 1235657238,
             "type": 0
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 2467834770,
+            "fingerprint": 4249668709,
             "type": 0
           }
         ],
-        "packageFingerprint": 4026055293,
+        "packageFingerprint": 3676369222,
         "gameVersion": [
           "1.12.2"
         ],
@@ -14265,11 +14255,11 @@
         "projectStatus": 0,
         "projectId": 0,
         "gameId": 0,
-        "FileNameOnDisk": "ForgeEndertech-1.12.2-4.4.19.0-build.0341.jar"
+        "FileNameOnDisk": "ForgeEndertech-1.12.2-4.4.19.1-build.0353.jar"
       },
       "dateInstalled": "2018-08-27T10:12:05.4318245Z",
-      "dateUpdated": "2019-05-21T21:43:10.7563331Z",
-      "dateLastUpdateAttempted": "2019-05-21T21:43:10.7563331Z",
+      "dateUpdated": "2019-05-24T20:09:17.7995509Z",
+      "dateLastUpdateAttempted": "2019-05-24T20:09:17.7995509Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -16749,6 +16739,97 @@
       "installedTargets": null
     },
     {
+      "addonID": 311201,
+      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
+      "installedFile": {
+        "id": 2663543,
+        "displayName": "powerchisels-1.0.0-beta-3.jar",
+        "fileName": "powerchisels-1.0.0-beta-3.jar",
+        "fileDate": "2019-01-22T18:14:36.103Z",
+        "fileLength": 21393,
+        "releaseType": 2,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2663/543/powerchisels-1.0.0-beta-3.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 242942,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 242638,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 235279,
+            "type": 3,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2329156725,
+            "type": 0
+          },
+          {
+            "foldername": "trinsdar",
+            "fingerprint": 2711973377,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 258021302,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 381753421,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2114681445,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 3576874297,
+        "gameVersion": [
+          "1.12",
+          "1.12.1",
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameId": 0,
+        "FileNameOnDisk": "powerchisels-1.0.0-beta-3.jar"
+      },
+      "dateInstalled": "2019-05-26T21:24:46.7612718Z",
+      "dateUpdated": "2019-05-26T21:24:46.8292495Z",
+      "dateLastUpdateAttempted": "2019-05-26T21:24:46.8292495Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
+    },
+    {
       "addonID": 245480,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
@@ -17141,65 +17222,6 @@
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
       "isModified": true,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 232131,
-      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
-      "installedFile": {
-        "id": 2624732,
-        "fileName": "DefaultOptions_1.12.2-9.2.8.jar",
-        "fileDate": "2018-10-05T21:44:14.44",
-        "fileLength": 15056,
-        "releaseType": 1,
-        "fileStatus": 2,
-        "downloadUrl": "https://files.forgecdn.net/files/2624/732/DefaultOptions_1.12.2-9.2.8.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 0,
-            "type": 0
-          },
-          {
-            "foldername": "net",
-            "fingerprint": 0,
-            "type": 0
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 0,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 1590672741,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameId": 0,
-        "FileNameOnDisk": "DefaultOptions_1.12.2-9.2.8.jar"
-      },
-      "dateInstalled": "2019-04-21T00:24:20.2237532Z",
-      "dateUpdated": "2019-04-21T00:24:20.2707382Z",
-      "dateLastUpdateAttempted": "2019-04-21T00:24:20.2707382Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
@@ -17884,20 +17906,20 @@
       "addonID": 293425,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2708262,
-        "displayName": "alchemistry-1.0.14.jar",
-        "fileName": "alchemistry-1.0.14.jar",
-        "fileDate": "2019-05-07T15:35:43.89Z",
-        "fileLength": 772836,
+        "id": 2715290,
+        "displayName": "alchemistry-1.0.19.jar",
+        "fileName": "alchemistry-1.0.19.jar",
+        "fileDate": "2019-05-24T17:15:17.317Z",
+        "fileLength": 775387,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2708/262/alchemistry-1.0.14.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2715/290/alchemistry-1.0.19.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
             "id": 0,
-            "addonId": 238222,
+            "addonId": 306770,
             "type": 2,
             "fileId": 0
           },
@@ -17915,7 +17937,7 @@
           },
           {
             "id": 0,
-            "addonId": 306770,
+            "addonId": 238222,
             "type": 2,
             "fileId": 0
           },
@@ -17930,22 +17952,22 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2002277348,
+            "fingerprint": 1493051497,
             "type": 0
           },
           {
             "foldername": "al132",
-            "fingerprint": 428530807,
+            "fingerprint": 2658737977,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 3202660916,
+            "fingerprint": 3647272218,
             "type": 0
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 2699582576,
+            "fingerprint": 195489936,
             "type": 0
           },
           {
@@ -17954,7 +17976,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 3678289549,
+        "packageFingerprint": 989227616,
         "gameVersion": [
           "1.12.2"
         ],
@@ -17965,11 +17987,11 @@
         "projectStatus": 0,
         "projectId": 0,
         "gameId": 0,
-        "FileNameOnDisk": "alchemistry-1.0.14.jar"
+        "FileNameOnDisk": "alchemistry-1.0.19.jar"
       },
       "dateInstalled": "2019-03-15T00:14:18.0099805Z",
-      "dateUpdated": "2019-05-07T21:42:39.2588321Z",
-      "dateLastUpdateAttempted": "2019-05-07T21:42:39.2588321Z",
+      "dateUpdated": "2019-05-24T20:09:06.6745649Z",
+      "dateLastUpdateAttempted": "2019-05-24T20:09:06.6745649Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -20724,6 +20746,93 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 278493,
+      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
+      "installedFile": {
+        "id": 2705883,
+        "displayName": "Unlimited Chisel Works 0.2.1",
+        "fileName": "UnlimitedChiselWorks-0.2.1.jar",
+        "fileDate": "2019-05-01T09:23:03.677Z",
+        "fileLength": 99196,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2705/883/UnlimitedChiselWorks-0.2.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 235279,
+            "type": 2,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1496993388,
+            "type": 0
+          },
+          {
+            "foldername": "pl",
+            "fingerprint": 1688700398,
+            "type": 0
+          },
+          {
+            "foldername": "compiletime_at.cfg",
+            "fingerprint": 3289536313,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1922410934,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 2079191184,
+            "type": 0
+          },
+          {
+            "foldername": "licenses",
+            "fingerprint": 3036337807,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3273911401,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 2269324784,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameId": 0,
+        "FileNameOnDisk": "UnlimitedChiselWorks-0.2.1.jar"
+      },
+      "dateInstalled": "2019-05-26T21:24:15.8580812Z",
+      "dateUpdated": "2019-05-26T21:24:15.86008Z",
+      "dateLastUpdateAttempted": "2019-05-26T21:24:15.86008Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 278494,

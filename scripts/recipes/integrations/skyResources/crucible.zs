@@ -22,7 +22,7 @@ static crucibleAdd as IItemStack[ILiquidStack] = {
 		---------------------------------------------
 	*/	
 	<liquid:oxygen> * 50: <skyresources:alchemyitemcomponent:1>,
-	<liquid:water> * 100: <minecraft:packed_ice:0> 
+	<liquid:preheated_water> * 250: <minecraft:packed_ice:0> 
 	
 };
 

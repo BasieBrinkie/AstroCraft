@@ -26,7 +26,10 @@ static disabledItems as IIngredient[] = [
 	<exnihilocreatio:block_axle_stone:0>,
 	<exnihilocreatio:block_grinder:0>,
 	<exnihilocreatio:block_waterwheel:0>,
-	<exnihilocreatio:item_material:7>
+	<exnihilocreatio:item_material:7>,
+	<exnihilocreatio:item_pebble:1>,
+	<exnihilocreatio:item_pebble:2>,
+	<exnihilocreatio:item_pebble:3>
 ];
 
 function init() {

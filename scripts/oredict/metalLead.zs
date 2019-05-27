@@ -48,19 +48,28 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 	--------------
 	*/
 	<ore:nuggetLeadTier1>: [
-		<tconstruct:shard>.withTag({Material: "lead"}),
-		<thaumcraft:nugget:4>
+		<thaumcraft:nugget:4>,
+		<tconstruct:shard>.withTag({Material: "lead"})
 	],
 	<ore:nuggetLeadTier2>: [
 		<techguns:itemshared:87>
 	],
 	<ore:nuggetLeadTier3>: [
 		<immersiveengineering:metal:22>
+	],
+
+	/*	
+	------------
+	Lead Clumps.
+	------------
+	*/
+	<ore:clumpLeadTier1>: [
+		<mekanism:clump:6>
 	],		
 	
 	/*
 	------------
-	Steel Dusts.
+	Lead Dusts.
 	------------
 	*/
 	<ore:dustLeadTier1>: [

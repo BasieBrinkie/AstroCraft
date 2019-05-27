@@ -14,11 +14,12 @@ static grindstoneAdd as bool[IItemStack][IItemStack] = {
 	<factorytech:machinepart:71>: {
 		<minecraft:iron_ingot:0>: true
 	},
-	
-
-
 	<factorytech:machinepart:150>: {
 		<minecraft:glass:0>: false
+	},
+
+	<thaumcraft:nugget:4>: {
+		<mekanism:clump:6>: true
 	}
 
 };
@@ -32,7 +33,7 @@ static grindstoneRemove as IItemStack[] = [
 	<factorytech:machinepart:20>,
 	<factorytech:machinepart:21>,
 	<factorytech:machinepart:22>,
-	<factorytech:machinepart:150>,
+	<factorytech:machinepart:150>
 ];
 
 function init() {
