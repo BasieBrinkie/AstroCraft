@@ -7,6 +7,13 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
+	<minecraft:book:0>: [
+		[
+			[<tconstruct:materials:15>, <minecraft:paper:0>, <tconstruct:materials:15>],
+			[<tconstruct:materials:15>, <minecraft:paper:0>, <tconstruct:materials:15>],
+			[<tconstruct:materials:15>, <minecraft:paper:0>, <tconstruct:materials:15>]
+		]
+	],
 	<minecraft:bucket:0>: [
 		[	
 			[<ore:ingotIron>, null, <ore:ingotIron>],
@@ -48,12 +55,16 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:stone:0>]
 		]
 	],
+	<minecraft:paper:0> * 2: [
+		[
+			[<mekanism:sawdust:0>, <mekanism:sawdust:0>, <mekanism:sawdust:0>]
+		]
+	],
 	<minecraft:stone_axe>: [
 		[
 			[<minecraft:stone:0>, <minecraft:stone:0>, null],
 			[<minecraft:stone:0>, <ore:stickWood>, null],
 			[null, <ore:stickWood>, null]
-
 		]
 	],
 	<minecraft:stone_hoe>: [
@@ -91,6 +102,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		[
 			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
 			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+		]
+	],
+	<minecraft:wooden_hoe>: [
+		[
+			[<ore:plankWood>, <ore:plankWood>],
+			[null, <ore:stickWood>],
+			[null, <ore:stickWood>]
 		]
 	],
 	<minecraft:wooden_pickaxe>: [
@@ -146,7 +164,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 	Furnace Recipes.
 	----------------
 */
-static furnaceRecipes as IIngredient[IItemStack] = {};
+static furnaceRecipes as IIngredient[][IItemStack] = {};
 
 
 function init() {

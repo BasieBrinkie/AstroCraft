@@ -14,6 +14,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
 		]
 	],
+	<factorytech:intermediate:4>: [
+		[
+			[<ore:nuggetIron>, <ore:nuggetIron>, null],
+			[<ore:nuggetLead>, <ore:nuggetIron>, <ore:factoryTechShaft>],
+			[<ore:nuggetIron>, <ore:nuggetIron>, null]
+		]
+	],
 	<factorytech:machinepart:10>: [
 		[
 			[null, <minecraft:cobblestone:0>, null],
@@ -21,11 +28,32 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <minecraft:cobblestone:0>, null]
 		]
 	],
+	<factorytech:machinepart:20>: [
+		[
+			[<minecraft:string:0>, <minecraft:string:0>, <minecraft:glowstone_dust:0>],
+			[<minecraft:glowstone_dust:0>, <minecraft:string:0>, <minecraft:glowstone_dust:0>],
+			[<minecraft:glowstone_dust:0>, <minecraft:string:0>, <minecraft:string:0>]
+		]
+	],
 	<factorytech:machinepart:60>: [
 		[
 			[<ore:nuggetIron>, <ore:nuggetIron>, null],
 			[<ore:clumpCopper>, <ore:nuggetIron>, <ore:factoryTechShaft>],
 			[<ore:nuggetIron>, <ore:nuggetIron>, null]
+		],
+	],
+	<factorytech:oredrill:0>: [
+		[
+			[<ore:plankwood>, <factorytech:intermediate:4>, <ore:plankWood>],
+			[<ore:stone>, <ore:factoryTechDrill>, <ore:stone>],
+			[<ore:stone>, <ore:stone>, <ore:stone>]
+		]
+	],
+	<factorytech:saw:0>: [
+		[
+			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+			[<ore:factoryTechShaft>, <ore:gear>, null],
+			[<ore:stone>, <ore:stone>, <ore:stone>]
 		]
 	]
 };
@@ -50,6 +78,9 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
     ------------------
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
+	<factorytech:machinepart:60>: [
+		[<factorytech:intermediate:4> | <factorytech:salvagepart:60>, <factorytech:machinepart:20>]
+	]
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
@@ -60,8 +91,9 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 	Furnace Recipes.
 	----------------
 */
-static furnaceRecipes as IIngredient[][IItemStack] = {};
-
+static furnaceRecipes as IIngredient[][IItemStack] = {
+	<factorytech:ore_dust:5>: [<factorytech:ore_dust:9>]
+};
 
 function init() {
 	/* 	----------------

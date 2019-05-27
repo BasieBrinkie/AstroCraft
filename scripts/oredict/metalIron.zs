@@ -66,10 +66,10 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 	Aluminum Dust.
 	--------------
 	*/
-	<ore:dustAluminumTier1>: [
+	<ore:dustIronTier1>: [
 		<mekanism:dirtydust:0>
 	],
-	<ore:dustAluminumTier2>: [
+	<ore:dustIronTier2>: [
 		<mekanism:dust:0>
 	],
 

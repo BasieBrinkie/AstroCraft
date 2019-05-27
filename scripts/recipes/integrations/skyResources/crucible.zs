@@ -21,6 +21,8 @@ static crucibleAdd as IItemStack[ILiquidStack] = {
 		Stage: 1 - Basic Resources
 		---------------------------------------------
 	*/	
+	<liquid:iron> * 100: <mekanism:dirtydust:0>,
+	<liquid:nickel> * 100: <factorytech:ore_dust:5>,
 	<liquid:oxygen> * 50: <skyresources:alchemyitemcomponent:1>,
 	<liquid:preheated_water> * 250: <minecraft:packed_ice:0> 
 	

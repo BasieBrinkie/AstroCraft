@@ -1,21 +1,22 @@
+import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
-import crafttweaker.liquid.ILiquidStack;
 
 /*	
 	----------------------------------------------------------------------------------------------
-	You can change the recipes of the skyresources2 alchemical fusion using the skyresources wrapper
+	You can change the recipes of the factorytech centrifuge using the factorytech wrapper
 	possible actions: 
 	- add new recipes.
 	- remove existing recipes.
 
 	Add method:
-	First [IItemStack[]] is the array with all items that need to become a catalyst.
-	float is the amount it adds. (consistent with usage in alchemical fusion) 
+	First [IItemStack[]] is the array with all items that need to be outputted by centrifuging the input.
+	[IIngredient] is input item.
+	bool is whether stone parts work with this particular recipe. 
 	----------------------------------------------------------------------------------------------
 */	
 
 
-static centrifugeAdd as bool[IItemStack][IItemStack[]] = { 
+static centrifugeAdd as bool[IIngredient][IItemStack[]] = { 
 	[<minecraft:sand:0>, <exnihilocreatio:item_pebble:0>, <charcoal_pit:item_ash:0>]: { <minecraft:gravel:0>: true} 
 
 };

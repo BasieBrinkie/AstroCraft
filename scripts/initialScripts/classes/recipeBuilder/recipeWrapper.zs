@@ -145,9 +145,11 @@ zenClass recipeBuilder {
 		--------------------------------------------
 	*/
 
-	function processFurnace(map as IIngredient[IItemStack]) {
-		for output, input in map {
+	function processFurnace(map as IIngredient[][IItemStack]) {
+		for output, array in map {
+			for input in array {
 				furnace.addRecipe(output, input);
+			}
 		}
 	}
 

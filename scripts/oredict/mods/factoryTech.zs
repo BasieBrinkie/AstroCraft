@@ -6,6 +6,17 @@ import crafttweaker.oredict.IOreDictEntry;
 	----------------------
 */
 static createItemsToOredict as IItemStack[][IOreDictEntry] = { 
+	<ore:factoryTechBlade>: [
+		<factorytech:machinepart:31>,
+		<factorytech:machinepart:32>,
+		<factorytech:machinepart:33>,				
+	],
+	<ore:factoryTechDrill>: [
+		<factorytech:machinepart:70>,
+		<factorytech:machinepart:71>,
+		<factorytech:machinepart:72>,
+		<factorytech:machinepart:73>,
+	],
 	<ore:factoryTechGear>: [
 		<factorytech:machinepart:10>,
 		<factorytech:machinepart:11>,

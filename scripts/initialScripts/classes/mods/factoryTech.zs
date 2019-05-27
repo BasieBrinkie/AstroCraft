@@ -1,5 +1,6 @@
 #priority 9500
 #modloaded factorytech
+import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 
@@ -25,7 +26,7 @@ zenClass facTech {
 		}
 	}
 
-	function centrifugeAdd(map as bool[IItemStack][IItemStack[]]) {
+	function centrifugeAdd(map as bool[IIngredient][IItemStack[]]) {
 		for outputarray, array in map {
 			for input, stonePart in array {
 				mods.factorytech.Centrifuge.addRecipe(input, outputarray[0], outputarray[1], outputarray[2], stonePart);
@@ -39,7 +40,7 @@ zenClass facTech {
 		}
 	}
 	
-	function chopSawAdd(map as bool[IItemStack][IItemStack]) {
+	function chopSawAdd(map as bool[IIngredient][IItemStack]) {
 		for output, array in map {
 			for input, stonePart in array {
 				mods.factorytech.ChopSaw.addRecipe(output, input, stonePart);

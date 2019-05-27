@@ -39,8 +39,8 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 	Furnace Recipes.
 	----------------
 */
-static furnaceRecipes as IIngredient[IItemStack] = {
-	<mekanism:clump:3>: <exnihilocreatio:item_ore_copper:1>
+static furnaceRecipes as IIngredient[][IItemStack] = {
+	<mekanism:clump:3>: [<exnihilocreatio:item_ore_copper:1>]
 };
 
 

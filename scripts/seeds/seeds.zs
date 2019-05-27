@@ -3,7 +3,6 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
 static removeSeedDrops as IItemStack[] = [
-	<item.actuallyadditions.item_coffee_seed:0>
 ];
 
 static newSeedList as WeightedItemStack[] = [

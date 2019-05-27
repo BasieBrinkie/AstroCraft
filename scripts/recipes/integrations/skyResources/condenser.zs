@@ -26,12 +26,17 @@ static condenserAdd as int[ILiquidStack][IItemStack][IItemStack] = {
 	
 	<libvulpes:productnugget:9>: {
 		<exnihilocreatio:item_ore_aluminum:0>: {
-			<liquid:preheated_water>: 240
+			<liquid:preheated_water>: 400
 		}
 	},
 	<mekanism:clump:6>: {
 		<exnihilocreatio:item_pebble:0>: {
-			<liquid:lead>: 400
+			<liquid:lead>: 840
+		}
+	},
+	<minecraft:paper:0>: {
+		<mekanism:sawdust:0>: {
+			<liquid:preheated_water>: 300
 		}
 	}
 	

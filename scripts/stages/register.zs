@@ -40,3 +40,25 @@ static stageNonStaged as Stage = ZenStager.initStage("non_staged_items");
 	-----------
 */
 static stageChickens1 as Stage = ZenStager.initStage("chickens_one");
+
+/*
+var allStages as string[] = [
+"insert",
+"all",
+"your",
+"stages",
+"here"
+];
+
+//AE Crafting Terminal
+mods.recipestages.Recipes.setPackageStage("appeng", allStages);
+
+//RS Crafting Grid
+mods.recipestages.Recipes.setPackageStage("com.raoulvdberge.refinedstorage", allStages);
+
+//RFtools Crafters
+mods.recipestages.Recipes.setPackageStage("mcjty", allStages);
+
+//Thermal Expansion
+mods.recipestages.Recipes.setPackageStage("cofh", allStages);
+*/

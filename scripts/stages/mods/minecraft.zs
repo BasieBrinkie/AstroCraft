@@ -28,8 +28,10 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:wool:0>
 	],
 	stageResources1.stage: [
+		<minecraft:book:0>,
 		<minecraft:bucket:0>,
 		<minecraft:packed_ice:0>,
+		<minecraft:paper:0>,
 		<minecraft:stone_button:0>,
 		<minecraft:stone_pressure_plate:0>,
 		<minecraft:wooden_button:0>,
