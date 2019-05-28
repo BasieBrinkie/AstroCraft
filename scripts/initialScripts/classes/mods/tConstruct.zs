@@ -32,21 +32,13 @@ zenClass tConstruct {
 		}
 	}
 
-	function castingAdd(map as int[ILiquidStack][IIngredient][IItemStack]) {
+	function castingAdd(map as int[int][ILiquidStack][IIngredient][IItemStack], consume as bool) {
 		for output, array in map {
 			for cast, array2 in array {
-				for inputFluid, fluidAmount in array2 {
-					Casting.addTableRecipe(output, cast, inputFluid, fluidAmount);
-				}
-			}
-		}
-	}
-
-	function castingAdd(map as int[ILiquidStack][IIngredient][IItemStack], consume as bool) {
-		for output, array in map {
-			for cast, array2 in array {
-				for inputFluid, fluidAmount in array2 {
-					Casting.addTableRecipe(output, cast, inputFluid, fluidAmount, consume);
+				for inputFluid, array3 in array2 {
+					for fluidAmount, time in array3 {
+						Casting.addTableRecipe(output, cast, inputFluid, fluidAmount, consume, time);
+					}
 				}
 			}
 		}
@@ -64,21 +56,13 @@ zenClass tConstruct {
 		}
 	}
 
-	function basinAdd(map as int[ILiquidStack][IIngredient][IItemStack]) {
+	function basinAdd(map as int[int][ILiquidStack][IIngredient][IItemStack], consume as bool) {
 		for output, array in map {
 			for cast, array2 in array {
-				for inputFluid, fluidAmount in array2 {
-					Casting.addBasinRecipe(output, cast, inputFluid, fluidAmount);
-				}
-			}
-		}
-	}
-
-	function basinAdd(map as int[ILiquidStack][IIngredient][IItemStack], consume as bool) {
-		for output, array in map {
-			for cast, array2 in array {
-				for inputFluid, fluidAmount in array2 {
-					Casting.addBasinRecipe(output, cast, inputFluid, fluidAmount, consume);
+				for inputFluid, array3 in array2 {
+					for fluidAmount, time in array3 {
+						Casting.addBasinRecipe(output, cast, inputFluid, fluidAmount, consume, time);
+					}
 				}
 			}
 		}

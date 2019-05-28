@@ -7,13 +7,6 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<skyresources:crucible:0>: [
-		[
-			[<minecraft:stone:0>, null, <minecraft:stone:0>], 
-			[<minecraft:stone:0>, null, <minecraft:stone:0>],
-			[<minecraft:stone:0>,<ore:ingotIronTier1To2>,<minecraft:stone:0>]
-		]
-	],
 	<skyresources:casing:0>: [
 		[
 			[<ore:stickTier1To3>, <ore:stickTier1To3>, <ore:stickTier1To3>],
@@ -24,22 +17,50 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<skyresources:combustionheater:1>: [
 		[
 			[<ore:stone>, <ore:stone>, <ore:stone>],
-			[<ore:stone>, <skyresources:heat>, <ore:stone>],
+			[<ore:stone>, <skyresources:heat:0>, <ore:stone>],
 			[<ore:stone>, <ore:stone>, <ore:stone>]
 		]
 	],
-	<skyresources:heat>: [
+	<skyresources:condenser:1>: [
+		[
+			[<ore:stone>, null, <ore:stone>],
+			[<ore:stone>, <skyresources:heat:0>, <ore:stone>],
+			[<ore:stone>, <ore:stone>, <ore:stone>]
+		]
+	],
+	<skyresources:crucible:0>: [
+		[
+			[<ore:stone>, null, <ore:stone>], 
+			[<ore:stone>, null, <ore:stone>],
+			[<ore:stone>,<ore:ìngotIron>,<ore:stone>]
+		]
+	],
+	<skyresources:fusiontable:0>: [
+		[
+			[<skyresources:alchemyitemcomponent:1>, <skyresources:alchemyitemcomponent:1>, <skyresources:alchemyitemcomponent:1>],
+			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+		]
+	],
+	<skyresources:heat:0>: [
 		[
 			[<ore:woodPlanksTier1To3>, <ore:woodPlanksTier1To3>, <ore:woodPlanksTier1To3>],
 			[<ore:woodPlanksTier1To3>, <ore:stone>, <ore:woodPlanksTier1To3>],
 			[<ore:woodPlanksTier1To3>, <ore:woodPlanksTier1To3>, <ore:woodPlanksTier1To3>]
 		]
 	],
+	<skyresources:heatprovider:1>: [
+		[
+			[<ore:stone>, <skyresources:heat:0>, <ore:stone>],
+			[<ore:stone>, <skyresources:heat:0>, <ore:stone>],
+			[<ore:stone>, <ore:stone>, <ore:stone>]
+		]
+	],
 	<skyresources:stonecuttingknife:0>: [
 		[
-			[<minecraft:stone:0>, null, null],
-			[<minecraft:stone:0>, <ore:stickTier1To3>, null], 
-			[null, <minecraft:stone:0>, <ore:stickTier1To3>]
+			[<ore:stone>, null, null],
+			[<ore:stone>, <ore:stickTier1To3>, null], 
+			[null, <ore:stone>, <ore:stickTier1To3>]
 		]
 	]
 };
@@ -55,7 +76,7 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 static mirroredRecipes as IIngredient[][][][IItemStack] = {
 	<skyresources:stonegrinder:0>: [
 		[
-			[<minecraft:stone:0>, null, null],
+			[<ore:stone>, null, null],
 			[null, <ore:stickTier1>, null],
 			[null, null, <ore:stickTier1>]
 		]

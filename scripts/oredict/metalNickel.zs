@@ -75,7 +75,7 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 		<factorytech:ore_dust:9>
 	],
 	<ore:dustNickelTier2>: [
-		<exnihilocreatio:item_ore_nickel:2>
+		<thermalfoundation:material:69>
 	],
 
 	/*
@@ -98,6 +98,7 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 */	
 static unlocalizedNames as string[IItemStack] = {
 	<thermalfoundation:storage:5>: "tile.thermalfoundation.storage.nickel.name",
+	<thermalfoundation:material:69>: "item.thermalfoundation.material.dustNickel.name",
 	<thermalfoundation:material:133>: "item.thermalfoundation.material.ingotNickel.name",
 	<thermalfoundation:material:261>: "item.thermalfoundation.material.gearNickel.name",
 	<thermalfoundation:material:197>: "item.thermalfoundation.material.nuggetNickel.name",

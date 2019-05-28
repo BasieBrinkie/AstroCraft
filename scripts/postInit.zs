@@ -64,6 +64,8 @@ function initRecipes() {
 function initIntegrations() {
 	if (!devDisableIntegrations | !dev) {
 	print("----------------------- Integrations -----------------------");
+	scripts.recipes.integrations.actuallyAdditions.compost.init();
+
 	scripts.recipes.integrations.appliedEnergistics2.grinder.init();
 
 	scripts.recipes.integrations.factoryTech.centrifuge.init();

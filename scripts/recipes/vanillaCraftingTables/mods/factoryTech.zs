@@ -7,6 +7,13 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
+	<factorytech:centrifuge:0>: [
+		[
+			[<ore:ingotIron>, <ore:factoryTechShaft>, <ore:ingotIron>],
+			[<factorytech:intermediate:4>, <ore:factoryTechGear>, null],
+			[<ore:stone>, <ore:stone>, <ore:stone>]
+		]
+	],
 	<factorytech:grindstone:0>: [
 		[
 			[<ore:stone>, null, null], 
@@ -17,7 +24,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<factorytech:intermediate:4>: [
 		[
 			[<ore:nuggetIron>, <ore:nuggetIron>, null],
-			[<ore:nuggetLead>, <ore:nuggetIron>, <ore:factoryTechShaft>],
+			[<ore:clumpCopper>, <ore:nuggetIron>, <ore:factoryTechShaft>],
 			[<ore:nuggetIron>, <ore:nuggetIron>, null]
 		]
 	],
@@ -37,9 +44,14 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<factorytech:machinepart:60>: [
 		[
-			[<ore:nuggetIron>, <ore:nuggetIron>, null],
-			[<ore:clumpCopper>, <ore:nuggetIron>, <ore:factoryTechShaft>],
-			[<ore:nuggetIron>, <ore:nuggetIron>, null]
+			[<ore:ingotIron>, <ore:ingotIron>, null],
+			[<ore:clumpCopper>, <ore:ingotIron>, <ore:factoryTechShaft>],
+			[<ore:ingotIron>, <ore:ingotIron>, null]
+		],
+		[
+			[<ore:nuggetIron>, <ore:nuggetIron>, <factorytech:machinepart:20>],
+			[<ore:nuggetlead>, <ore:nuggetIron>, <ore:factoryTechShaft>],
+			[<ore:nuggetIron>, <ore:nuggetIron>, <factorytech:machinepart:20>]
 		],
 	],
 	<factorytech:oredrill:0>: [
@@ -52,8 +64,8 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<factorytech:saw:0>: [
 		[
 			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
-			[<ore:factoryTechShaft>, <ore:gear>, null],
-			[<ore:stone>, <ore:stone>, <ore:stone>]
+			[<ore:factoryTechShaft>, <ore:factoryTechGear>, null],
+			[<ore:stone>, <factorytech:intermediate:4>, <ore:stone>]
 		]
 	]
 };
@@ -78,6 +90,7 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
     ------------------
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
+	<factorytech:handbook:0>: [<factorytech:machinepart:50>.reuse() | <factorytech:machinepart:51>.reuse()]
 	<factorytech:machinepart:60>: [
 		[<factorytech:intermediate:4> | <factorytech:salvagepart:60>, <factorytech:machinepart:20>]
 	]

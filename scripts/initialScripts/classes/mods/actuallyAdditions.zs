@@ -24,9 +24,13 @@ zenClass aa {
 		}
 	}
 
-	function compostAdd(map as IItemStack[IItemStack]) {
-		for output, input in map {
-			Compost.addRecipe(output, output, input, input);
+	function compostAdd(map as IItemStack[IItemStack][IItemStack][IItemStack]) {
+		for output, array in map {
+			for outputDisplay, array2 in array {
+				for input, inputDisplay in array2 {
+					Compost.addRecipe(output, outputDisplay, input, inputDisplay);	
+				}
+			}
 		}
 	}
 

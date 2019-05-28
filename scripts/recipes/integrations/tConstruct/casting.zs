@@ -2,11 +2,11 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 
-static castingAddConsume as int[ILiquidStack][IIngredient][IItemStack] = {
+static castingAddConsume as int[int][ILiquidStack][IIngredient][IItemStack] = {
 
 };
 
-static castingAdd as int[ILiquidStack][IIngredient][IItemStack] = {
+static castingAdd as int[int][ILiquidStack][IIngredient][IItemStack] = {
 	
 };
 

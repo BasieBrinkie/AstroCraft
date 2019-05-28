@@ -6,6 +6,14 @@ import mods.zenstages.Stage;
 import scripts.stages.register.stageStart;
 import scripts.stages.register.stageOxygen1;
 import scripts.stages.register.stageResources1;
+import scripts.stages.register.stageRocketBuilder;
+import scripts.stages.register.stageDecorator;
+import scripts.stages.register.stageFarmer1;
+import scripts.stages.register.stageMoldMaker;
+import scripts.stages.register.stageAstronomer;
+import scripts.stages.register.stageBlackSmith;
+import scripts.stages.register.stageNuclearPhysicist;
+
 import scripts.stages.register.stageDisabledItems;
 
 static stagedItems as IIngredient[][string] = {
@@ -17,7 +25,17 @@ static stagedItems as IIngredient[][string] = {
 		<exnihilocreatio:item_mesh:1>,
 		<exnihilocreatio:item_ore_copper:0>,
 		<exnihilocreatio:item_ore_copper:1>,
+		<exnihilocreatio:item_ore_iron:0>,
+		<exnihilocreatio:item_ore_iron:1>,
 		<exnihilocreatio:item_pebble:0>
+	],
+	stageRocketBuilder.stage: [
+		<exnihilocreatio:item_ore_aluminum:0>,
+		<exnihilocreatio:item_ore_aluminum:1>,
+		<exnihilocreatio:item_ore_lead:0>,
+		<exnihilocreatio:item_ore_lead:1>,
+		<exnihilocreatio:item_ore_nickel:0>,
+		<exnihilocreatio:item_ore_nickel:1>,
 	]
 };
 

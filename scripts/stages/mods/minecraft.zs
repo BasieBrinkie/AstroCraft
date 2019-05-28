@@ -6,6 +6,14 @@ import mods.zenstages.Stage;
 import scripts.stages.register.stageStart;
 import scripts.stages.register.stageOxygen1;
 import scripts.stages.register.stageResources1;
+import scripts.stages.register.stageRocketBuilder;
+import scripts.stages.register.stageDecorator;
+import scripts.stages.register.stageFarmer1;
+import scripts.stages.register.stageMoldMaker;
+import scripts.stages.register.stageAstronomer;
+import scripts.stages.register.stageBlackSmith;
+import scripts.stages.register.stageNuclearPhysicist;
+
 import scripts.stages.register.stageDisabledItems;
 import scripts.stages.register.stageDecoration;
 
@@ -30,10 +38,17 @@ static stagedItems as IIngredient[][string] = {
 	stageResources1.stage: [
 		<minecraft:book:0>,
 		<minecraft:bucket:0>,
+		<minecraft:chest:0>,
+		<minecraft:glass:0>,
+		<minecraft:glowstone_dust:0>,
+		<minecraft:iron_ore:0>,
 		<minecraft:packed_ice:0>,
 		<minecraft:paper:0>,
+		<minecraft:sand:0>,
 		<minecraft:stone_button:0>,
+		<minecraft:stone_hoe:*>,
 		<minecraft:stone_pressure_plate:0>,
+		<minecraft:wheat:0>,
 		<minecraft:wooden_button:0>,
 		<minecraft:wooden_pressure_plate:0>
 	],

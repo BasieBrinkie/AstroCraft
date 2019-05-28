@@ -6,21 +6,33 @@ import mods.zenstages.Stage;
 import scripts.stages.register.stageStart;
 import scripts.stages.register.stageOxygen1;
 import scripts.stages.register.stageResources1;
+import scripts.stages.register.stageRocketBuilder;
+import scripts.stages.register.stageDecorator;
+import scripts.stages.register.stageFarmer1;
+import scripts.stages.register.stageMoldMaker;
+import scripts.stages.register.stageAstronomer;
+import scripts.stages.register.stageBlackSmith;
+import scripts.stages.register.stageNuclearPhysicist;
+
 import scripts.stages.register.stageDisabledItems;
+import scripts.stages.register.stageDecoration;
 
 static stagedItems as IIngredient[][string] = {
 	stageResources1.stage: [
 		<factorytech:grindstone:0>,
 		<factorytech:intermediate:4>,
+		<factorytech:machinepart:0>,
 		<factorytech:machinepart:10>,
 		<factorytech:machinepart:20>,
 		<factorytech:machinepart:50>,
 		<factorytech:machinepart:60>,
 		<factorytech:machinepart:72>,
-		<factorytech:ore_dust:5>,
-		<factorytech:ore_dust:9>,
 		<factorytech:oredrill:0>,
+		<factorytech:salvagepart:60>,
 		<factorytech:saw:0>
+	],
+	stageRocketBuilder.stage: [
+		<factorytech:ore_dust:9>,
 	]
 };
 

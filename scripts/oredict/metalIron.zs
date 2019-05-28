@@ -42,10 +42,10 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 		<factorytech:ingot:5>
 	],
 	<ore:ingotIronTier3>: [
-		<exnihilocreatio:item_ore_silver:3>
+		<erebus:materials:42>
 	],
 	<ore:ingotIronTier4>: [
-		<erebus:materials:42>
+		<exnihilocreatio:item_ore_silver:3>
 	],
 	
 	/*	
@@ -54,8 +54,7 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 	--------------
 	*/
 	<ore:nuggetIronTier1>: [
-		<minecraft:iron_nugget:0>,
-		<thaumcraft:nugget:0>
+		<minecraft:iron_nugget:0>
 	],
 	<ore:nuggetIronTier2>: [
 		<immersiveengineering:metal:29>

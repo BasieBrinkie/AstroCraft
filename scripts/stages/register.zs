@@ -17,22 +17,51 @@ static gameModeAbnormal as Stage = ZenStager.initStage("gamemode_abnormal");
 static gameModeGenius as Stage = ZenStager.initStage("gamemode_genius");
 
 /*
-	-------------------
-	Progression Stages.
-	-------------------
+	----------------------
+	Progression Stages: 0.
+	----------------------
 */
 static stageStart as Stage = ZenStager.initStage("start");
 static stageOxygen1 as Stage = ZenStager.initStage("oxygen_one");
 static stageResources1 as Stage = ZenStager.initStage("resources_one");
+static stageRocketBuilder as Stage = ZenStager.initStage("rocket_builder");
+
+/*
+	----------------------
+	Progression Stages: 1.
+	----------------------
+*/
 static stageDecorator as Stage = ZenStager.initStage("decorator");
-/*static stage1C as Stage = ZenStager.initStage("1c");
-static stage2A as Stage = ZenStager.initStage("2a");
-static stage2B as Stage = ZenStager.initStage("2b");
-static stage2C as Stage = ZenStager.initStage("2c");
-static stage3 as Stage = ZenStager.initStage("3");*/
-static stageDecoration as Stage = ZenStager.initStage("decoration");
-static stageDisabledItems as Stage = ZenStager.initStage("disabled_items");
-static stageNonStaged as Stage = ZenStager.initStage("non_staged_items");
+static stageFarmer1 as Stage = ZenStager.initStage("farmer_one");
+static stageMoldMaker as Stage = ZenStager.initStage("mold_maker");
+static stageAstronomer as Stage = ZenStager.initStage("astronomer");
+
+/*
+	----------------------
+	Progression Stages: 2.
+	----------------------
+*/
+static stageBlackSmith as Stage = ZenStager.initStage("black_smith");
+
+/*
+	----------------------
+	Progression Stages: 3.
+	----------------------
+*/
+static stageNuclearPhysicist as Stage = ZenStager.initStage("nuclear_physicist");
+
+/*
+	----------------------
+	Progression Stages: 4.
+	----------------------
+*/
+
+/*
+	----------------------
+	Progression Stages: 5.
+	----------------------
+*/
+
 
 /*
 	-----------
@@ -41,6 +70,14 @@ static stageNonStaged as Stage = ZenStager.initStage("non_staged_items");
 */
 static stageChickens1 as Stage = ZenStager.initStage("chickens_one");
 
+/*
+	------------
+	Misc Stages.
+	------------
+*/
+static stageDecoration as Stage = ZenStager.initStage("decoration");
+static stageDisabledItems as Stage = ZenStager.initStage("disabled_items");
+static stageNonStaged as Stage = ZenStager.initStage("non_staged_items");
 /*
 var allStages as string[] = [
 "insert",

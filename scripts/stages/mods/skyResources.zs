@@ -6,15 +6,28 @@ import mods.zenstages.Stage;
 import scripts.stages.register.stageStart;
 import scripts.stages.register.stageOxygen1;
 import scripts.stages.register.stageResources1;
+import scripts.stages.register.stageRocketBuilder;
+import scripts.stages.register.stageDecorator;
+import scripts.stages.register.stageFarmer1;
+import scripts.stages.register.stageMoldMaker;
+import scripts.stages.register.stageAstronomer;
+import scripts.stages.register.stageBlackSmith;
+import scripts.stages.register.stageNuclearPhysicist;
+
 import scripts.stages.register.stageDisabledItems;
+import scripts.stages.register.stageDecoration;
 
 static stagedItems as IIngredient[][string] = {
 	stageResources1.stage: [
-		<skyresources:fusiontable:0>,
 		<skyresources:casing:0>,
+		<skyresources:combustionheater:1>,
+		<skyresources:crucible:0>,
+		<skyresources:fusiontable:0>,
 		<skyresources:heat:0>,
 		<skyresources:heatprovider:1>,
-		<skyresources:combustionheater:1>,
+		<skyresources:stonegrinder:*>,
+	],
+	stageRocketBuilder.stage: [
 		<skyresources:condenser:1>
 	]
 };

@@ -7,15 +7,27 @@ import mods.zenstages.Stage;
 import scripts.stages.register.stageStart;
 import scripts.stages.register.stageOxygen1;
 import scripts.stages.register.stageResources1;
+import scripts.stages.register.stageRocketBuilder;
+import scripts.stages.register.stageDecorator;
+import scripts.stages.register.stageFarmer1;
+import scripts.stages.register.stageMoldMaker;
+import scripts.stages.register.stageAstronomer;
+import scripts.stages.register.stageBlackSmith;
+import scripts.stages.register.stageNuclearPhysicist;
+
 import scripts.stages.register.stageDisabledItems;
+import scripts.stages.register.stageDecoration;
 
 static stagedItems as IIngredient[][string] = {
 };
 
 static stagedItemsOredict as IOreDictEntry[][string] = {
 	stageResources1.stage: [
+		<ore:blockIronTier1>,
+		<ore:dustIronTier1>,
 		<ore:ingotIronTier1>,
-		<ore:nuggetIronTier1>
+		<ore:nuggetIronTier1>,
+		<ore:plateIronTier1>
 	]
 };
 

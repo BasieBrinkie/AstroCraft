@@ -7,7 +7,19 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	
+	<tconstruct:casting:1>: [
+		[
+			[<tconstruct:materials:0>, null, <tconstruct:materials:0>],
+			[<tconstruct:materials:0>, null, <tconstruct:materials:0>],
+			[<tconstruct:materials:0>, <tconstruct:materials:0>, <tconstruct:materials:0>]
+		]
+	],
+	<tconstruct:faucet:0>: [
+		[
+			[<tconstruct:materials:0>, null, <tconstruct:materials:0>],
+			[null, <tconstruct:materials:0>, null]
+		]
+	],
 	<tconstruct:tooltables:0>: [
 		[
 			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
@@ -42,12 +54,18 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 };
 
+
+
 /*
 	----------------
 	Furnace Recipes.
 	----------------
 */
-static furnaceRecipes as IIngredient[][IItemStack] = {};
+static furnaceRecipes as IIngredient[][IItemStack] = {
+	<tconstruct:materials:0> * 2: [
+		<tconstruct:soil:0>
+	]
+};
 
 
 function init() {
