@@ -50,6 +50,7 @@ function initRecipes() {
 	scripts.recipes.vanillaCraftingTables.mods.exCompressum.init();
 	scripts.recipes.vanillaCraftingTables.mods.exNihiloCreatio.init();
 	scripts.recipes.vanillaCraftingTables.mods.factoryTech.init();
+	scripts.recipes.vanillaCraftingTables.mods.grapplemod.init();
 
 	scripts.recipes.vanillaCraftingTables.mods.mekanism.init();
 	scripts.recipes.vanillaCraftingTables.mods.minecraft.init();
@@ -95,24 +96,32 @@ function initStages() {
 	print("----------------------- Stages -----------------------");
 
 	scripts.stages.liquids.init();
+	scripts.stages.metalAluminum.init();
 	scripts.stages.metalCopper.init();
 	scripts.stages.metalIron.init();
+	scripts.stages.metalLead.init();
+	scripts.stages.metalNickel.init();
+	scripts.stages.stagesResearchTable.init();
 
 	scripts.stages.mods.abyssalCraft.init();
 	scripts.stages.mods.actuallyAdditions.init();	
 	scripts.stages.mods.advancedRocketry.init();
+	scripts.stages.mods.appliedEnergistics2.init();
 	scripts.stages.mods.buildingGadgets.init();
 	scripts.stages.mods.charcoalPit.init();
 	scripts.stages.mods.chisel.init();
+	scripts.stages.mods.contenttweaker.init();
 	scripts.stages.mods.exCompressum.init();
 	scripts.stages.mods.exNihiloCreatio.init();
 	scripts.stages.mods.factoryTech.init();
+	scripts.stages.mods.grapplemod.init();
 	scripts.stages.mods.libVulpes.init();
 	scripts.stages.mods.mekanism.init();
 	scripts.stages.mods.minecraft.init();
 	scripts.stages.mods.researchTable.init();
 	scripts.stages.mods.skyResources.init();
 	scripts.stages.mods.tConstruct.init();
+	scripts.stages.mods.thaumcraft.init();
 	scripts.stages.mods.thermalFoundation.init();
 
 	scripts.stages.mobs.chickens.init();
@@ -130,12 +139,12 @@ function initOredict() {
 	scripts.oredict.metalNickel.init();
 	scripts.oredict.metalSteel.init();
 
+	scripts.oredict.sand.init();
 	scripts.oredict.sticks.init();
 	scripts.oredict.stone.init();
 	scripts.oredict.woodLog.init();
 	scripts.oredict.woodPlanks.init();
 	scripts.oredict.woodSlabs.init();
-
 	
 	scripts.oredict.mods.betterQuesting.init();
 	scripts.oredict.mods.factoryTech.init();
@@ -160,6 +169,7 @@ function initItemProperties() {
 	scripts.items.mods.abyssalCraft.init();
 	scripts.items.mods.advancedRocketry.init();
 	scripts.items.mods.alchemistry.init();
+	scripts.items.mods.appliedEnergistics2.init();
 	scripts.items.mods.exCompressum.init();
 	scripts.items.mods.factoryTech.init();
 	scripts.items.mods.minecraft.init();

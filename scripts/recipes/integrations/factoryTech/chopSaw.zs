@@ -12,7 +12,16 @@ static chopSawAdd as bool[IIngredient][IItemStack] = {
 };
 
 static chopSawRemove as IItemStack[] = [
-	<minecraft:log:0>
+	<factorytech:circuit_intermediate:8>,
+	<minecraft:log:0>,
+	<minecraft:planks:0>,
+	<minecraft:planks:1>,
+	<minecraft:planks:2>,
+	<minecraft:planks:3>,
+	<minecraft:planks:4>,
+	<minecraft:planks:5>,
+	<minecraft:planks:6>,
+	<minecraft:stick:0>,
 ];
 
 function init() {

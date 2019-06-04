@@ -90,7 +90,9 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
     ------------------
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
-	<factorytech:handbook:0>: [<factorytech:machinepart:50>.reuse() | <factorytech:machinepart:51>.reuse()]
+	<factorytech:handbook:0>: [
+		[<factorytech:machinepart:50>.reuse() | <factorytech:machinepart:51>.reuse()]
+	],
 	<factorytech:machinepart:60>: [
 		[<factorytech:intermediate:4> | <factorytech:salvagepart:60>, <factorytech:machinepart:20>]
 	]

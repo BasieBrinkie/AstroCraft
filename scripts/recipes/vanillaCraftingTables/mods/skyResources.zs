@@ -32,7 +32,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		[
 			[<ore:stone>, null, <ore:stone>], 
 			[<ore:stone>, null, <ore:stone>],
-			[<ore:stone>,<ore:ìngotIron>,<ore:stone>]
+			[<ore:stone>, <ore:ingotIron>, <ore:stone>]
 		]
 	],
 	<skyresources:fusiontable:0>: [
