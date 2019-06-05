@@ -60,7 +60,7 @@ zenClass researchTable {
     }
   }
 
-  function addResearchScore(map as int[string[][][int]][string[]][string[]][string][IItemStack][string]) {
+  function addResearchScore(map as int[string[][]][int][string[]][string[]][string][IItemStack][string]) {
     for name, array in map {
       for icon, array2 in array {
         for description, array3 in array2 {
@@ -70,11 +70,11 @@ zenClass researchTable {
               for requiredStage in requiredStagesArray {
                 requiredStages += requiredStage;
               }
-              for optionalStagesArray, rPoints in array5 {
-                for minStages, optionalStagesArray2 in optionalStagesArray {
+              for rPoints, array6 in array5 {
+                for optionalStagesArray, minStages in array6 {
                   var optionalStages as string[] = [];
-                  for i, optionalStagesArray3 in optionalStagesArray2 {
-                    for optionalStage in optionalStagesArray3 {
+                  for i, optionalStagesArray2 in optionalStagesArray {
+                    for optionalStage in optionalStagesArray2 {
                       optionalStages += optionalStage;
                     }
                   }
@@ -83,7 +83,7 @@ zenClass researchTable {
                     .setIcons(icon)
                     .setTitle(name)
                     .setDescription(description)
-                    .setRequiredScore("researchPoints", "ERROR!!!", rPoints)
+                    .setRequiredScore("researchPoints", "", rPoints, 2147483647)
                     .setRewardCommands("/scoreboard players remove @p researchPoints " ~ rPoints, "/say @s unlocked the research for ' " ~ name ~ " '")
                     .setOptionalStages(minStages, optionalStages)
                     .setRequiredStages(requiredStages)
@@ -122,7 +122,7 @@ zenClass researchTable {
     }
   }
 
-  function addResearch(map as string[][int]) {
+  function addResearch(map as string[][]) {
     var rewardStages as string[] = [];
     for i, rewardStagesArray in map {
       for rewardStage in rewardStagesArray {

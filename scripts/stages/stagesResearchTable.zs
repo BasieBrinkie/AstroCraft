@@ -24,65 +24,65 @@ import scripts.stages.register.stageNuclearPhysicist;
 import scripts.stages.register.stageDecorationEnable;
 import scripts.stages.register.stageDecorationDisable;
 
-static allStages as string[][int] = {
-	0: [
+static allStages as string[][] = [
+	[	//0
 		stageResources1.stage,
 		stageRocketBuilder.stage,
 	],
-	1: [
+	[	//1
 		stageProfessionsStage1.stage,
 		stageDecorator.stage,
 		stageFarmer1.stage,
 		stageMoldMaker.stage,
 		stageAstronomer.stage
 	],
-	2: [
+	[	//2
 		stageProfessionsStage2.stage,
 		stageBlackSmith.stage
 	],
-	3: [
+	[	//3
 		stageProfessionsStage3.stage,
 		stageNuclearPhysicist.stage
 	],
-	4: [
+	[	//4
 		stageProfessionsStage4.stage
 	],
-	5: [
+	[	//5
 		stageProfessionsStage5.stage
 	]
-};
+];
 
-static addResearchAbnormal as int[string[][][int]][string[]][string[]][string][IItemStack][string] = {
+static addResearchAbnormal as int[string[][]][int][string[]][string[]][string][IItemStack][string] = {
 	"Professions - Stage: 1": {<minecraft:flint_and_steel:0>: { 
 		"Learn about the basics of automation, new materials and faster machinery. This research will also unlock more professions like, Decorator, Farmer, Mold Maker and Astronomer": {
 			[allStages[0][0]]: {[stageProfessionsStage1.stage]: {
-				{0: [[]]}: 1
-				}}}}
+				1: { [[allStages[0][0]]]: 1
+				}}}}}
 	},
 	"Professions - Stage: 2": {<minecraft:flint_and_steel:0>: { 
 		"WIP": {
-			[allStages[0][1]]: {[stageProfessionsStage2.stage]: {
-				{2: [[allStages[1][0]], allStages[1]]}: 2
-			}}}}
+			[allStages[1][0]]: {[stageProfessionsStage2.stage]: {
+				2: { [[allStages[0][1]], allStages[1]]: 2
+			}}}}}
 	},
 	"Professions - Stage: 3": {<minecraft:flint_and_steel:0>: { 
 		"WIP2": {
-			[allStages[0][2]]: {[stageProfessionsStage3.stage]: {
-				{0: [[]]}: 3
-			}}}}
+			[allStages[2][0]]: {[stageProfessionsStage3.stage]: {
+				1: { [[allStages[0][1]]]: 3
+			}}}}}
 	},
 	"Professions - Stage: 4": {<minecraft:flint_and_steel:0>: { 
 		"WIP3": {
-			[allStages[0][3]]: {[stageProfessionsStage4.stage]: {
-				{0: [[]]}: 4
-			}}}}
+			[allStages[3][0]]: {[stageProfessionsStage4.stage]: {
+				1: { [[allStages[0][1]]]: 4
+			}}}}}
 	},
 	"Professions - Stage: 5": {<minecraft:flint_and_steel:0>: { 
 		"WIP4": {
-			[allStages[0][4]]: {[stageProfessionsStage5.stage]: {
-				{0: [[]]}: 5
-			}}}}
-	},
+			[allStages[4][0]]: {[stageProfessionsStage5.stage]: {
+				1: { [[allStages[0][1]]]: 5
+			}}}}}
+	}
 
 };
 
@@ -95,8 +95,7 @@ static addResearchGenius as string[][string[]][string][IItemStack][string] = {
 
 	"Professions - Stage: 2": {<extrautils2:machine>.withTag({Type: "extrautils2:generator_culinary"}): {
 		"": {
-			allStages[1]: 
-			[stageProfessionsStage2.stage]
+			allStages[1]: [stageProfessionsStage2.stage]
 		}}
 	},
 
