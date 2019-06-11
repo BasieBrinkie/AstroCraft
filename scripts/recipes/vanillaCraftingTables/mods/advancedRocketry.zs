@@ -7,6 +7,19 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
+	<advancedrocketry:fueltank:0>: [
+		[
+			[<ore:stickAluminum>, <ore:plateSteel>, <ore:stickAluminum>],
+			[<ore:stickAluminum>, <ore:plateSteel>, <ore:stickAluminum>],
+			[<ore:stickAluminum>, <ore:plateSteel>, <ore:stickAluminum>]
+		]
+	],
+	<advancedrocketry:launchpad:0> * 3: [
+		[
+			[<charcoal_pit:item_ash:0>, <charcoal_pit:item_ash:0>, <charcoal_pit:item_ash:0>],
+			[<minecraft:sand:0>, <minecraft:sand:0>, <minecraft:sand:0>]
+		]
+	],
 	<advancedrocketry:platepress:0>: [
 		[
 			[<minecraft:planks:0>, <minecraft:planks:0>, <minecraft:planks:0>], 
@@ -19,6 +32,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <skyresources:alchemyitemcomponent:1>, null],
 			[<minecraft:stone:0>, <libvulpes:productplate:4>, <minecraft:stone:0>],
 			[<minecraft:stone:0>, <minecraft:stone:0>, <minecraft:stone:0>]
+		]
+	],
+	<advancedrocketry:structuretower:0> * 5: [
+		[
+			[<ore:stickAluminum>, <ore:stickAluminum>, <ore:stickAluminum>],
+			[null, <ore:stickAluminum>, null],
+			[<ore:stickAluminum>, <ore:stickAluminum>, <ore:stickAluminum>]
 		]
 	]
 };

@@ -1,0 +1,50 @@
+{
+  "block_pools": [
+    {
+      "name": "PowerGenerator",
+      "type": {
+        "type": "block",
+        "name": "immersiveengineering:metal_device1",
+        "meta": 2
+      },
+      "clicktype": "rightclick",
+      "properties": [
+      {
+      	  "type": "require_item",
+      	  "name": "appliedenergistics2:crank"
+      	},
+	  {
+          "type": "require_sneak"
+        },
+      {
+          "type": "play_sound",
+          "name": "minecraft:block.wood_button.click_on",
+          "volume": 0.4
+        },
+      {
+          "type": "swing_hand"
+        },
+		  {
+          "type": "spawn_particles",
+          "name": "fireworksSpark",
+          "xOffset": 0.2,
+          "zOffset": 0.2,
+          "amount": 9,
+          "speed": 0.1
+        },
+		{
+          "type": "modify_Block_FE",
+          "consume": false,
+          "amount": 1000
+        }
+      ],
+      "drops": [
+        {
+          "name": "minecraft:air",
+          "meta": 0,
+          "chance": 0.0
+        }
+      ]
+    }
+  ]
+}

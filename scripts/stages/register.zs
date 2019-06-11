@@ -83,6 +83,7 @@ static stageChickens1 as Stage = ZenStager.initStage("chickens_one");
 static stageDecorationEnable as Stage = ZenStager.initStage("decoration_enable");
 static stageDecorationDisable as Stage = ZenStager.initStage("decoration_disable");
 static stageDisabledItems as Stage = ZenStager.initStage("disabled_items");
+static stageRecurrentComplex as Stage = ZenStager.initStage("reccomplex");
 static stageNonStaged as Stage = ZenStager.initStage("non_staged_items");
 /*
 var allStages as string[] = [

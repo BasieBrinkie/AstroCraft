@@ -16,9 +16,6 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 
 	],
 	<ore:woodLogTier2>: [
-		<abyssalcraft:dltlog:0>,
-		<abyssalcraft:dreadlog:0>,
-
 		<advancedrocketry:alienwood:0>,
 
 		<aether_legacy:aether_log:0>,

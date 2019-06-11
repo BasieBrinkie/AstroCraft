@@ -107,9 +107,6 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 		<chisel:planks-dark-oak:14>
 	],
 	<ore:woodPlanksTier2>: [
-		<abyssalcraft:dltplank:0>,
-		<abyssalcraft:dreadplanks:0>,
-
 		<advancedrocketry:planks:0>,
 		
 		<astralsorcery:blockinfusedwood:1>,

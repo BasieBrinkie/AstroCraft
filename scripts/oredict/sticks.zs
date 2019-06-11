@@ -13,7 +13,9 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 		<fp:spaceship:12>
 	],
 	<ore:stickTier3>: [
-		<immersiveengineering:material:0>,
+		<immersiveengineering:material:0>
+	],
+	<ore:stickAluminum>: [
 		<mysticalagriculture:crafting:22>
 	] 
 };

@@ -13,18 +13,6 @@ static grinderAdd as int[IItemStack][IItemStack] = {
 };
 
 static grinderRemove as IItemStack[] = [
-	<abyssalcraft:copperingot:0>,
-	<abyssalcraft:abycopore:0>,
-	<abyssalcraft:abyiroore:0>,
-	<abyssalcraft:abygolore:0>,
-	<abyssalcraft:abytinore:0>,
-	<abyssalcraft:crystal:0>,
-	<abyssalcraft:crystal:1>,
-	<abyssalcraft:crystal:16>,
-	<abyssalcraft:crystal:17>,
-	<abyssalcraft:crystal:20>,
-	<abyssalcraft:crystal:24>,
-	<abyssalcraft:tiningot:0>,
 	<alchemistry:ingot:28>,
 	<alchemistry:ingot:29>,
 	<alchemistry:ingot:30>,

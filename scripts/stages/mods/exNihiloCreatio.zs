@@ -42,12 +42,31 @@ static stagedItems as IIngredient[][string] = {
 static disabledItems as IIngredient[] = [
 	<exnihilocreatio:block_auto_sifter:0>,
 	<exnihilocreatio:block_axle_stone:0>,
+	<exnihilocreatio:block_crucible_wood:0>,
 	<exnihilocreatio:block_grinder:0>,
 	<exnihilocreatio:block_waterwheel:0>,
+	<exnihilocreatio:crook_andesite>,
+	<exnihilocreatio:crook_blaze:0>,
+	<exnihilocreatio:crook_bone:0>,
+	<exnihilocreatio:crook_clay:0>,
+	<exnihilocreatio:crook_clay_uncooked:0>,
+	<exnihilocreatio:crook_diorite:0>,
+	<exnihilocreatio:crook_gold:0>,
+	<exnihilocreatio:crook_granite:0>,
+	<exnihilocreatio:crook_netherrack:0>,
+	<exnihilocreatio:crook_prismarine:0>,
+	<exnihilocreatio:crook_purpur:0>,
+	<exnihilocreatio:hammer_gold:0>,
 	<exnihilocreatio:item_material:7>,
 	<exnihilocreatio:item_pebble:1>,
 	<exnihilocreatio:item_pebble:2>,
-	<exnihilocreatio:item_pebble:3>
+	<exnihilocreatio:item_pebble:3>,
+	<exnihilocreatio:item_doll:0>,
+	<exnihilocreatio:item_doll:2>,
+	<exnihilocreatio:item_doll:3>,
+	<exnihilocreatio:item_doll:5>,
+	<exnihilocreatio:item_doll:6>,
+	<exnihilocreatio:item_doll:7>
 ];
 
 function init() {

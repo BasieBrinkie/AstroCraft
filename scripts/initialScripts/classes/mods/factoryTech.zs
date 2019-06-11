@@ -34,8 +34,8 @@ zenClass facTech {
 		}
 	}
 
-	function centrifugeRemove(map as IItemStack[]) {
-		for output in map {
+	function centrifugeRemove(map as IItemStack[][]) {
+		for i, output in map {
 			mods.factorytech.Centrifuge.removeRecipe(output);
 		}
 	}

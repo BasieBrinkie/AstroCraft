@@ -41,7 +41,6 @@ function initRecipes() {
 	if (!devDisableAddRecipes | !dev) {
 	print("----------------------- Recipes: Additions -----------------------");
 	
-	scripts.recipes.vanillaCraftingTables.mods.abyssalCraft.init();
 	scripts.recipes.vanillaCraftingTables.mods.actuallyAdditions.init();
 	scripts.recipes.vanillaCraftingTables.mods.advancedRocketry.init();
 	scripts.recipes.vanillaCraftingTables.mods.charcoalPit.init();
@@ -51,6 +50,7 @@ function initRecipes() {
 	scripts.recipes.vanillaCraftingTables.mods.exNihiloCreatio.init();
 	scripts.recipes.vanillaCraftingTables.mods.factoryTech.init();
 	scripts.recipes.vanillaCraftingTables.mods.grapplemod.init();
+	scripts.recipes.vanillaCraftingTables.mods.libVulpes.init();
 
 	scripts.recipes.vanillaCraftingTables.mods.mekanism.init();
 	scripts.recipes.vanillaCraftingTables.mods.minecraft.init();
@@ -103,7 +103,6 @@ function initStages() {
 	scripts.stages.metalNickel.init();
 	scripts.stages.stagesResearchTable.init();
 
-	scripts.stages.mods.abyssalCraft.init();
 	scripts.stages.mods.actuallyAdditions.init();	
 	scripts.stages.mods.advancedRocketry.init();
 	scripts.stages.mods.appliedEnergistics2.init();
@@ -118,6 +117,8 @@ function initStages() {
 	scripts.stages.mods.libVulpes.init();
 	scripts.stages.mods.mekanism.init();
 	scripts.stages.mods.minecraft.init();
+	scripts.stages.mods.mysticalAgriculture.init();
+	scripts.stages.mods.recurrentComplex.init();
 	scripts.stages.mods.researchTable.init();
 	scripts.stages.mods.skyResources.init();
 	scripts.stages.mods.tConstruct.init();
@@ -166,13 +167,13 @@ function initItemProperties() {
 		Item Properties per Mod.
 		------------------------
 	*/
-	scripts.items.mods.abyssalCraft.init();
 	scripts.items.mods.advancedRocketry.init();
 	scripts.items.mods.alchemistry.init();
 	scripts.items.mods.appliedEnergistics2.init();
 	scripts.items.mods.exCompressum.init();
 	scripts.items.mods.factoryTech.init();
 	scripts.items.mods.minecraft.init();
+	scripts.items.mods.mysticalAgriculture.init();
 	scripts.items.mods.skyResources.init();
 
 	}

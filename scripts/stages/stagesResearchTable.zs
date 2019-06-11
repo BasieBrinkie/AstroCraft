@@ -56,31 +56,36 @@ static addResearchAbnormal as int[string[][]][int][string[]][string[]][string][I
 	"Professions - Stage: 1": {<minecraft:flint_and_steel:0>: { 
 		"Learn about the basics of automation, new materials and faster machinery. This research will also unlock more professions like, Decorator, Farmer, Mold Maker and Astronomer": {
 			[allStages[0][0]]: {[stageProfessionsStage1.stage]: {
-				1: { [[allStages[0][0]]]: 1
+				0: { 
+					[[allStages[0][0]]]: 1
 				}}}}}
 	},
-	"Professions - Stage: 2": {<minecraft:flint_and_steel:0>: { 
+	"Professions - Stage: 2": {<extrautils2:machine:0>.withTag({Type: "extrautils2:generator_culinary"}): { 
 		"WIP": {
 			[allStages[1][0]]: {[stageProfessionsStage2.stage]: {
-				2: { [[allStages[0][1]], allStages[1]]: 2
+				2: { 
+					[[allStages[0][1]], allStages[1]]: 2
 			}}}}}
 	},
-	"Professions - Stage: 3": {<minecraft:flint_and_steel:0>: { 
+	"Professions - Stage: 3": {<nuclearcraft:decay_generator:0>: { 
 		"WIP2": {
 			[allStages[2][0]]: {[stageProfessionsStage3.stage]: {
-				1: { [[allStages[0][1]]]: 3
+				1: { 
+					[[allStages[0][1]]]: 3
 			}}}}}
 	},
-	"Professions - Stage: 4": {<minecraft:flint_and_steel:0>: { 
+	"Professions - Stage: 4": {<matteroverdrive:gravitational_anomaly:0>: { 
 		"WIP3": {
 			[allStages[3][0]]: {[stageProfessionsStage4.stage]: {
-				1: { [[allStages[0][1]]]: 4
+				1: { 
+					[[allStages[0][1]]]: 4
 			}}}}}
 	},
-	"Professions - Stage: 5": {<minecraft:flint_and_steel:0>: { 
+	"Professions - Stage: 5": {<thermaldynamics:duct_0:5>: { 
 		"WIP4": {
 			[allStages[4][0]]: {[stageProfessionsStage5.stage]: {
-				1: { [[allStages[0][1]]]: 5
+				1: { 
+					[[allStages[0][1]]]: 5
 			}}}}}
 	}
 
@@ -93,7 +98,7 @@ static addResearchGenius as string[][string[]][string][IItemStack][string] = {
 	},
 	
 
-	"Professions - Stage: 2": {<extrautils2:machine>.withTag({Type: "extrautils2:generator_culinary"}): {
+	"Professions - Stage: 2": {<extrautils2:machine:0>.withTag({Type: "extrautils2:generator_culinary"}): {
 		"": {
 			allStages[1]: [stageProfessionsStage2.stage]
 		}}
