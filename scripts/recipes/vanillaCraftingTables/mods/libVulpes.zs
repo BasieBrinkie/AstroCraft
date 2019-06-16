@@ -15,6 +15,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 
 		]
 	],
+	<libvulpes:linker:0>: [
+		[
+			[null, null, <mysticalagriculture:crafting:22>],
+			[<ore:ingotIron>, <factorytech:circuit_intermediate:4>, <mysticalagriculture:crafting:22>],
+			[null, <ore:ingotIron>, null]
+		]
+	],
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {

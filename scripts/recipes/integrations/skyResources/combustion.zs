@@ -34,7 +34,6 @@ static combustionAdd as int[IItemStack[]][IItemStack] = {
 		<exnihilocreatio:item_ore_nickel:1>,
 		<charcoal_pit:item_ash:0>]: 20
 	},
-
 	<minecraft:iron_ingot:0>: {[
 		<minecraft:iron_nugget:0> * 5]: 500
 	},

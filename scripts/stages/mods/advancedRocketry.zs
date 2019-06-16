@@ -33,6 +33,7 @@ static stagedItems as IIngredient[][string] = {
 	stageRocketBuilder.stage: [
 		<advancedrocketry:fueltank:0>,
 		<advancedrocketry:launchpad:0>,
+		<advancedrocketry:spacestation>,
 		<advancedrocketry:structuretower:0>
 
 	]

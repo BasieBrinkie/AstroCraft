@@ -22,6 +22,9 @@ static grindstoneAdd as bool[IItemStack][IItemStack] = {
 	},
 	<thaumcraft:nugget:4>: {
 		<mekanism:clump:6>: true
+	},
+	<thermalfoundation:material:199>: {
+		<thermailfoundation:ore:7>: false
 	}
 
 };
