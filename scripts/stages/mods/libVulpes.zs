@@ -17,6 +17,9 @@ import scripts.stages.register.stageDisabledItems;
 import scripts.stages.register.stageDecorationEnable;
 
 static stagedItems as IIngredient[][string] = {
+	stageRocketBuilder.stage: [
+		<libvulpes:linker:0>
+	]
 };
 
 static disabledItems as IIngredient[] = [

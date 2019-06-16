@@ -56,7 +56,7 @@ static addResearchAbnormal as int[string[][]][int][string[]][string[]][string][I
 	"Professions - Stage: 1": {<minecraft:flint_and_steel:0>: { 
 		"Learn about the basics of automation, new materials and faster machinery. This research will also unlock more professions like, Decorator, Farmer, Mold Maker and Astronomer": {
 			[allStages[0][0]]: {[stageProfessionsStage1.stage]: {
-				0: { 
+				1: { 
 					[[allStages[0][0]]]: 1
 				}}}}}
 	},
@@ -70,21 +70,21 @@ static addResearchAbnormal as int[string[][]][int][string[]][string[]][string][I
 	"Professions - Stage: 3": {<nuclearcraft:decay_generator:0>: { 
 		"WIP2": {
 			[allStages[2][0]]: {[stageProfessionsStage3.stage]: {
-				1: { 
+				3: { 
 					[[allStages[0][1]]]: 3
 			}}}}}
 	},
 	"Professions - Stage: 4": {<matteroverdrive:gravitational_anomaly:0>: { 
 		"WIP3": {
 			[allStages[3][0]]: {[stageProfessionsStage4.stage]: {
-				1: { 
+				4: { 
 					[[allStages[0][1]]]: 4
 			}}}}}
 	},
 	"Professions - Stage: 5": {<thermaldynamics:duct_0:5>: { 
 		"WIP4": {
 			[allStages[4][0]]: {[stageProfessionsStage5.stage]: {
-				1: { 
+				5: { 
 					[[allStages[0][1]]]: 5
 			}}}}}
 	}
@@ -123,14 +123,14 @@ static addResearchGenius as string[][string[]][string][IItemStack][string] = {
 	},
 };
 
-static addResearchToggles as string[string][string][IItemStack][string] = {
+static addResearchToggles as string[string[]][string][IItemStack][string] = {
 	"Decorational Blocks - Enable": {<chisel:chisel_iron:0>: {
 		"Enable decorational blocks to be visible in JEI.": {
-			stageDecorationDisable.stage: stageDecorationEnable.stage}}
+			[stageDecorationDisable.stage, stageDecorator.stage]: stageDecorationEnable.stage}}
 	},
 	"Decorational Blocks - Disable": {<chisel:chisel_iron:0>: {
 		"Disable decorational blocks to be visible in JEI.": {
-			stageDecorationEnable.stage: stageDecorationDisable.stage}}
+			[stageDecorationEnable.stage, stageDecorator.stage]: stageDecorationDisable.stage}}
 	},
 };
 

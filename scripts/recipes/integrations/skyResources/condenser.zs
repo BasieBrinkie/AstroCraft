@@ -55,8 +55,6 @@ static condenserRemove as IItemStack[] = [
 	<draconicevolution:draconium_ore:2>,
 	<erebus:materials:44>,
 	<exnihilocreatio:item_ore_copper:3>,
-	<fp:itemerze:1>,
-	<fp:erze:1>,
 	<libvulpes:ore0:8>,
 	<libvulpes:productingot:7>,
 	<libvulpes:productingot:9>,

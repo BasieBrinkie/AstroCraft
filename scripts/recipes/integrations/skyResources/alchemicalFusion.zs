@@ -15,6 +15,10 @@ import crafttweaker.item.IItemStack;
 
 
 static fusionAdd as float[IItemStack[]][IItemStack] = { 
+	<libvulpes:productingot:9>: {[
+		<libvulpes:productnugget:9> * 3,
+		<exnihilocreatio:item_ore_iron:0>]: 0.05
+	},
 	<minecraft:iron_nugget:0>: {[
 		<exnihilocreatio:item_ore_iron:0> * 2]: 0.25 
 	}

@@ -53,14 +53,10 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 		<tropicraft:slab:4>	
 	],
 	<ore:woodSlabsTier3>: [
-
-		<thaumcraft:slab_greatwood:0>,
-
-		<defiledlands:tenebra_planks:0>,
 		<extrautils2:decorativesolidwood:0>,
 		<immersiveengineering:treated_wood:0>,
-		<thaumcraft:plank_greatwood:0>
-
+		<thaumcraft:plank_greatwood:0>,
+		<thaumcraft:slab_greatwood:0>
 	] 
 };
 

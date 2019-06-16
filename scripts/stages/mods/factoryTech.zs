@@ -31,12 +31,20 @@ static stagedItems as IIngredient[][string] = {
 		<factorytech:saw:0>
 	],
 	stageRocketBuilder.stage: [
+		<factorytech:circuit_intermediate:0>,
+		<factorytech:circuit_intermediate:1>,
+		<factorytech:circuit_intermediate:2>,
+		<factorytech:circuit_intermediate:3>,
+		<factorytech:circuit_intermediate:8>,
 		<factorytech:ore_dust:9>,
 	]
 };
 
 static disabledItems as IIngredient[] = [
+	<factorytech:blockbreaker:0>,
 	<factorytech:fluiddrill:0>,
+	<factorytech:machinepart:30>,
+	<factorytech:planeshifter:0>,
 	<factorytech:salvage:0>,	
 	<factorytech:salvage:1>,
 	<factorytech:salvage:2>,

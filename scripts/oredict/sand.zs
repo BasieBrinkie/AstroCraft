@@ -9,7 +9,6 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 	<ore:sand>: [
 		<minecraft:sand:0>,
 		<minecraft:sand:1>,
-		<fp:sand:0>,
 		<tropicraft:sand:0>,
 		<tropicraft:sand:1>,
 		<tropicraft:sand:2>,

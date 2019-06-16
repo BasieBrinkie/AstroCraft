@@ -38,6 +38,9 @@ static combustionAdd as int[IItemStack[]][IItemStack] = {
 	<minecraft:iron_ingot:0>: {[
 		<minecraft:iron_nugget:0> * 5]: 500
 	},
+	<skyresources:orealchdust:17>: {[
+		<thermalfoundation:material:199>]: 850
+	},
 	<tconstruct:soil:0>: {[
 		<minecraft:stone:0>, 
 		<minecraft:coal:1>]: 20

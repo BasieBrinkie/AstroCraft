@@ -54,6 +54,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:nuggetIron>, <ore:nuggetIron>, <factorytech:machinepart:20>]
 		],
 	],
+	<factorytech:metalcutter:0>: [
+		[
+			[<ore:ingotIron>, <ore:factoryTechBlade>, <ore:ingotIron>],
+			[<ore:ingotIron>, <ore:factoryTechMotor>, <ore:ingotIron>],
+			[<ore:stone>, null, <ore:stone>]
+		]
+	],
 	<factorytech:oredrill:0>: [
 		[
 			[<ore:plankwood>, <factorytech:intermediate:4>, <ore:plankWood>],

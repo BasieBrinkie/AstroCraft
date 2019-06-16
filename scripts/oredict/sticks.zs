@@ -10,7 +10,7 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 		<minecraft:stick:0>
 	],
 	<ore:stickTier2>: [
-		<fp:spaceship:12>
+		<mekanism:polyethene:3>
 	],
 	<ore:stickTier3>: [
 		<immersiveengineering:material:0>

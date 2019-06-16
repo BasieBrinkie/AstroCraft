@@ -83,7 +83,7 @@ zenClass researchTable {
                     .setIcons(icon)
                     .setTitle(name)
                     .setDescription(description)
-                    .setRequiredScore("researchPoints", "You need more ResearchPoints", rPoints, 2147483647)
+                    .setRequiredScore("researchPoints", "You need more researchPoints: " ~ rPoints, rPoints, 2147483647)
                     .setRewardCommands("/scoreboard players remove @p researchPoints " ~ rPoints, "/tell @s unlocked the research for ' " ~ name ~ " '")
                     .setOptionalStages(minStages, optionalStages)
                     .setRequiredStages(requiredStages)
@@ -99,20 +99,24 @@ zenClass researchTable {
     }
   }
 
-  function addResearchToggles(map as string[string][string][IItemStack][string], gamemodeStageArray as string[]) {
+  function addResearchToggles(map as string[string[]][string][IItemStack][string], gamemodeStageArray as string[]) {
     for gamemodeStage in gamemodeStageArray {
       for name, array in map {
         for icon, array2 in array {
           for description, array3 in array2 {
-            for requiredStage, rewardStage in array3 {
+            for requiredStagesArray, rewardStage in array3 {
+              var requiredStages as string[] = [gamemodeStage];
+              for requiredStage in requiredStagesArray {
+                requiredStages += requiredStage;
+              }
               var category = ResearchTable.addCategory(icon);
               ResearchTable.builder("research " ~ name, category)
                 .setIcons(icon)
                 .setTitle(name)
                 .setDescription(description)
-                .setRewardCommands("/tell @s toggled '" ~ name ~ " '", "/gamestage silentremove @p " ~ requiredStage)
+                .setRewardCommands("/tell @s toggled '" ~ name ~ " '", "/gamestage silentremove @p " ~ requiredStages[1])
                 .setNoMaxCount()
-                .setRequiredStages(requiredStage, gamemodeStage)
+                .setRequiredStages(requiredStages)
                 .setRewardStages(rewardStage)
                 .build();
             }

@@ -43,6 +43,7 @@ function initRecipes() {
 	
 	scripts.recipes.vanillaCraftingTables.mods.actuallyAdditions.init();
 	scripts.recipes.vanillaCraftingTables.mods.advancedRocketry.init();
+	scripts.recipes.vanillaCraftingTables.mods.appliedEnergistics2.init();
 	scripts.recipes.vanillaCraftingTables.mods.charcoalPit.init();
 	scripts.recipes.vanillaCraftingTables.mods.chisel.init();
 
@@ -72,6 +73,7 @@ function initIntegrations() {
 	scripts.recipes.integrations.factoryTech.centrifuge.init();
 	scripts.recipes.integrations.factoryTech.chopSaw.init();
 	scripts.recipes.integrations.factoryTech.grindStone.init();
+	scripts.recipes.integrations.factoryTech.metalCutter.init();
 
 	scripts.recipes.integrations.skyResources.alchemicalFusion.init();
 	scripts.recipes.integrations.skyResources.catalysts.init();

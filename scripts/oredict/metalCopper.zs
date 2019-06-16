@@ -21,15 +21,12 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 		<nuclearcraft:ingot_block:0>
 	],
 	<ore:blockCopperTier2>: [
-		<fp:erz_blocke:2>
-	],
-	<ore:blockCopperTier3>: [
 		<mekanism:basicblock:12>
 	],
-	<ore:blockCopperTier4>: [
+	<ore:blockCopperTier3>: [
 		<libvulpes:metal0:4>
 	],
-	<ore:blockCopperTier5>: [
+	<ore:blockCopperTier4>: [
 		<thermalfoundation:storage:0>
 	],
 
@@ -151,8 +148,7 @@ static createOredictsToOredict as IOreDictEntry[][IOreDictEntry] = {
 		<ore:blockCopperTier1>,
 		<ore:blockCopperTier2>,
 		<ore:blockCopperTier3>,
-		<ore:blockCopperTier4>,
-		<ore:blockCopperTier5>
+		<ore:blockCopperTier4>
 	],
 	<ore:blockCopperTier2To5>: [
 		<ore:blockCopperTier2>,

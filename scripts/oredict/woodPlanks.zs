@@ -132,9 +132,6 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 		<extrautils2:ironwood_planks:0>,
 		<extrautils2:ironwood_planks:1>,
 		
-		<fp:planks:0>,
-		<fp:planks:1>,
-		
 		<glacidus:underground_planks:0>,
 		
 		<thebetweenlands:weedwood_planks:0>,
@@ -153,7 +150,6 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 		<tropicraft:plank:1>		
 	],
 	<ore:woodPlanksTier3>: [
-		<defiledlands:tenebra_planks:0>,
 		<extrautils2:decorativesolidwood:0>,
 		<immersiveengineering:treated_wood:0>,
 		<skyresources:petrifiedplanks:0>,

@@ -36,9 +36,6 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 		<erebus:log_marshwood:0>,
 		<erebus:log_scorched:0>,
 
-		<fp:wood:0>,
-		<fp:wood:1>,
-
 		<thebetweenlands:log_weedwood:0>,
 		<thebetweenlands:log_weedwood:12>,
 		<thebetweenlands:log_rubber:0>,
@@ -69,7 +66,6 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 		
 	],
 	<ore:woodLogTier3>: [
-		<defiledlands:tenebra_log:0>,
 		<extrautils2:ironwood_log:0>,
 		<extrautils2:ironwood_log:1>,
 		<skyresources:petrifiedwood:0>,
