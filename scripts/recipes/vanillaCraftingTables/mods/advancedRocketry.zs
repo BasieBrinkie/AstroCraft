@@ -20,6 +20,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:sand:0>, <minecraft:sand:0>, <minecraft:sand:0>]
 		]
 	],
+	<advancedrocketry:loader:0>: [
+		[
+			[null, <ore:plateIron>, null],
+			[<ore:plateIron>, <minecraft:chest:0>, <ore:plateIron>],
+			[null, <ore:plateIron>, null]
+		]
+	],
 	<advancedrocketry:platepress:0>: [
 		[
 			[<minecraft:planks:0>, <minecraft:planks:0>, <minecraft:planks:0>], 
@@ -32,6 +39,20 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <skyresources:alchemyitemcomponent:1>, null],
 			[<minecraft:stone:0>, <libvulpes:productplate:4>, <minecraft:stone:0>],
 			[<minecraft:stone:0>, <minecraft:stone:0>, <minecraft:stone:0>]
+		]
+	],
+	<advancedrocketry:rocketbuilder:0>: [
+		[
+			[<ore:ingotIron>, <ore:factoryTechWire>, <ore:ingotIron>],
+			[<factorytech:circuit_intermediate:2>, <ore:blockIron>, <factorytech:circuit_intermediate:2>],
+			[<ore:blockIron>, <ore:stone>, <ore:blockIron>]
+		]
+	],
+	<advancedrocketry:stationbuilder:0>: [
+		[
+			[null, <ore:factoryTechCircuit>, null],
+			[<ore:ingotAluminum>, <advancedrocketry:rocketbuilder:0>.reuse(), <ore:ingotAluminum>],
+			[<ore:stone>, <ore:stone>, <ore:stone>]
 		]
 	],
 	<advancedrocketry:structuretower:0> * 5: [
@@ -63,6 +84,9 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
     ------------------
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
+	<advancedrocketry:spacestationchip:0>: [
+		[<factorytech:circuit_intermediate:8>, <ore:nuggetNickel>, <libvulpes:linker:0>.reuse()]
+	],
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {

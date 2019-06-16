@@ -22,6 +22,7 @@ static crucibleAdd as IItemStack[ILiquidStack] = {
 		---------------------------------------------
 	*/	
 	<liquid:iron> * 100: <mekanism:dirtydust:0>,
+	<liquid:iridium> * 100: <skyresources:orealchdust:17>,
 	<liquid:lead> * 200: <exnihilocreatio:item_ore_lead:0>,
 	<liquid:nickel> * 100: <factorytech:ore_dust:5>,
 	<liquid:oxygen> * 50: <skyresources:alchemyitemcomponent:1>,

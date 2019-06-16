@@ -24,7 +24,7 @@ static grindstoneAdd as bool[IItemStack][IItemStack] = {
 		<mekanism:clump:6>: true
 	},
 	<thermalfoundation:material:199>: {
-		<thermailfoundation:ore:7>: false
+		<thermalfoundation:ore:7>: false
 	}
 
 };
