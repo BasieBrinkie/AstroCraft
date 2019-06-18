@@ -12,8 +12,10 @@ zenClass facTech {
 		for output, array in map {
 			for outputFluid, array2 in array {
 				for inputFluid, array3 in array2 {
-					for inputFluid2, input in array3 {
-						mods.factorytech.Agitator.addRecipe(inputFluid, inputFluid2, input, outputFluid, output);
+					for inputFluid2, inputIIngredient in array3 {
+						for input in inputIIngredient.itemArray {
+							mods.factorytech.Agitator.addRecipe(inputFluid, inputFluid2, input, outputFluid, output);
+						}
 					}
 				}
 			}

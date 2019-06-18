@@ -4,7 +4,7 @@ import crafttweaker.liquid.ILiquidStack;
 
 static agitatorAdd as IIngredient[ILiquidStack][ILiquidStack][ILiquidStack][IItemStack] = {
 	<factorytech:circuit_intermediate:8>: { null: {
-		<liquid:iridium>: {<liquid:nickel>: <ore:dustLead>}
+		<liquid:iridium> * 100: {<liquid:nickel> * 250: <ore:dustLead>}
 	}}
 };
 

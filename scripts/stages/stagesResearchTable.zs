@@ -93,7 +93,7 @@ static addResearchAbnormal as int[string[][]][int][string[]][string[]][string][I
 
 static addResearchGenius as string[][string[]][string][IItemStack][string] = {
 	"Professions - Stage: 1": {<minecraft:flint_and_steel:0>: {
-		"Learn about the basics of automation, new materials and faster machinery. This research will also unlock more professions like, Decorator, Farmer, Mold Maker and Astronomer": {
+		"Learn about the basics of automation, new materials and faster machinery. This research will also unlock more professions like, Decorator, Farmer, Mold Maker and Astronomer.": {
 			[allStages[0][0]]: [stageProfessionsStage1.stage]}}
 	},
 	
@@ -136,6 +136,7 @@ static addResearchToggles as string[string[]][string][IItemStack][string] = {
 
 
 function init() {
+	ResearchTable.scoreIndicator("Research Points: %d", "researchPoints");
 	researchTable.addResearchScore(addResearchAbnormal);
 	researchTable.addResearch(addResearchGenius, [gameModeGenius.stage] as string[]);
 	researchTable.addResearch(allStages);

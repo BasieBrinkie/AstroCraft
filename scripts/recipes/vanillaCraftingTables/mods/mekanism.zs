@@ -7,6 +7,13 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
+	<mekanism:transmitter:1>.withTag({tier: 0}) * 4: [
+		[
+			[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
+			[null, null, null],
+			[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]
+		]
+	],
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
@@ -29,6 +36,9 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
     ------------------
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
+	<mekanism:configurator:0>: [
+		[<thermalfoundation:material:199>, <ore:stickAluminum>]
+	],
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {

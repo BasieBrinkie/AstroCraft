@@ -101,6 +101,7 @@ static disabledItems as IIngredient[] = [
 	<factorytech:magnetizer:0>,
 	<factorytech:planeshifter:0>,
 	<factorytech:planter:0>,
+	<factorytech:pipe:0>,
 	<factorytech:potionmixer:0>,
 	<factorytech:probe:0>,
 	<factorytech:propfurnace:0>,
@@ -132,6 +133,7 @@ static disabledItems as IIngredient[] = [
 	<factorytech:smokestack:6>,
 	<factorytech:smokestack:7>,
 	<factorytech:smokestack:8>,
+	<factorytech:spawner:0>,
 	<factorytech:stabilizer:0>,
 	<factorytech:stackmover:0>,
 	<factorytech:steeltoeboots:0>,
@@ -142,6 +144,7 @@ static disabledItems as IIngredient[] = [
 	<factorytech:upgrade:2>,
 	<factorytech:upgrade:3>,
 	<factorytech:upgrade:4>,
+	<factorytech:valve:0>,
 	<factorytech:woodcutter:0>,
 	<factorytech:workpants:0>
 ];

@@ -11,7 +11,6 @@ static cauldronRemove as IItemStack[] = [
 	<draconicevolution:draconium_dust:0>,
 	<exnihilocreatio:item_ore_aluminum:2>,
 	<exnihilocreatio:item_ore_ardite:2>,
-
 	<exnihilocreatio:item_ore_cobalt:2>,
 	<factorytech:ore_dust:9>,
 	<iceandfire:sapphire_gem:0>,
