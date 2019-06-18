@@ -7,11 +7,25 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
+	<advancedrocketry:fuelingstation:0>: [
+		[
+			[null, <ore:ingotAluminum>, null],
+			[<ore:ingotIron>, <advancedrocketry:liquidtank:0>, <ore:ingotIron>],
+			[<ore:stone>, <ore:stone>, <ore:stone>]
+		]
+	],
 	<advancedrocketry:fueltank:0>: [
 		[
 			[<ore:stickAluminum>, <ore:plateSteel>, <ore:stickAluminum>],
 			[<ore:stickAluminum>, <ore:plateSteel>, <ore:stickAluminum>],
 			[<ore:stickAluminum>, <ore:plateSteel>, <ore:stickAluminum>]
+		]
+	],
+	<advancedrocketry:guidancecomputer:0>: [
+		[
+			[<factorytech:circuit_intermediate:0>, <ore:plateCopper>, <factorytech:circuit_intermediate:0>],
+			[<factorytech:circuit_intermediate:1>, <ore:nuggetNickel>, <factorytech:circuit_intermediate:1>],
+			[<ore:plateCopper>,<skyresources:orealchdust:17>,<ore:plateCopper>]
 		]
 	],
 	<advancedrocketry:launchpad:0> * 3: [
@@ -48,10 +62,17 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:blockIron>, <ore:stone>, <ore:blockIron>]
 		]
 	],
+	<advancedrocketry:seat:0>: [
+		[
+			[<ore:blockWool>, null, null],
+			[<ore:blockWool>, null ,null],
+			[<ore:blockWool>, <ore:blockWool>, <ore:blockWool>]
+		]
+	],
 	<advancedrocketry:stationbuilder:0>: [
 		[
 			[null, <ore:factoryTechCircuit>, null],
-			[<ore:ingotAluminum>, <advancedrocketry:rocketbuilder:0>.reuse(), <ore:ingotAluminum>],
+			[<ore:ingotAluminum>, <ore:nuggetLead>, <ore:ingotAluminum>],
 			[<ore:stone>, <ore:stone>, <ore:stone>]
 		]
 	],

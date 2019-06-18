@@ -1,9 +1,11 @@
 import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 
-static metalCutterAdd as bool[IItemStack][IItemStack] = {
-	<mysticalagriculture:crafting:22>: {
-		<libvulpes:productingot:9>: true
-	}
+static metalCutterAdd as IIngredient[][IItemStack] = {
+	//RocketBuilder
+	<matteroverdrive:tritanium_nugget:0> * 9: [<ore:blockTritanium>],
+	<mysticalagriculture:crafting:22>: [<libvulpes:productingot:9>],
+
 };
 
 static metalCutterRemove as IItemStack[] = [

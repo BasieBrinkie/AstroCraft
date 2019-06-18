@@ -9,6 +9,9 @@ static grinderAdd as int[IItemStack][IItemStack] = {
 	},
 	<mekanism:dirtydust:0>: {
 		<minecraft:iron_ingot:0>: 6
+	},
+	<mekanism:dirtydust:6>: {
+		<thaumcraft:nugget:4>: 3
 	}
 };
 

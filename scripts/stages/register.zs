@@ -18,6 +18,15 @@ static gameModeGenius as Stage = ZenStager.initStage("gamemode_genius");
 static gameModeKitchenSink as Stage = ZenStager.initStage("gamemode_kitchensink");
 
 /*
+	-----------
+	Dimensions.
+	-----------
+*/
+static dimensionSpaceStation as Stage = ZenStager.initStage("dim_spacestation");
+static dimensionAsteroids as Stage = ZenStager.initStage("dim_asteroids");
+static dimensionGlacidus as Stage = ZenStager.initStage("dim_glacidus");
+
+/*
 	----------------------
 	Progression Stages: 0.
 	----------------------

@@ -9,25 +9,37 @@ import crafttweaker.liquid.ILiquidStack;
 
 	Add method:
 	First [ILiquidStack] is the output liquid.
-	Second IItemStack is the input item. 
+	Second IItemStack[] is the input item in an array. 
 	----------------------------------------------------------------------------------------------
 */	
 
 
-static crucibleAdd as IItemStack[ILiquidStack] = {
+static crucibleAdd as IItemStack[][ILiquidStack] = {
 	
 	/*	
 		---------------------------------------------
-		Stage: 1 - Basic Resources
+		Stage: 0 - The Dawn of a New Age
+		---------------------------------------------
+	*/
+	<liquid:oxygen> * 50: [<skyresources:alchemyitemcomponent:1>],
+	
+	/*	
+		---------------------------------------------
+		Stage: 0 - Basic Resources
 		---------------------------------------------
 	*/	
-	<liquid:iron> * 100: <mekanism:dirtydust:0>,
-	<liquid:iridium> * 100: <skyresources:orealchdust:17>,
-	<liquid:lead> * 200: <exnihilocreatio:item_ore_lead:0>,
-	<liquid:nickel> * 100: <factorytech:ore_dust:5>,
-	<liquid:oxygen> * 50: <skyresources:alchemyitemcomponent:1>,
-	<liquid:preheated_water> * 250: <minecraft:packed_ice:0> 
+	<liquid:iron> * 100: [<mekanism:dirtydust:0>, <factorytech:salvagepart:50>],
+	<liquid:preheated_water> * 250: [<minecraft:packed_ice:0>], 
 	
+	/*	
+		---------------------------------------------
+		Stage: 0 - Rocket Builder
+		---------------------------------------------
+	*/
+	<liquid:iridium> * 100: [<skyresources:orealchdust:17>],
+	<liquid:iron> * 50: [<factorytech:salvagepart:1>, <factorytech:salvagepart:11>, <factorytech:salvagepart:31>],
+	<liquid:lead> * 200: [<exnihilocreatio:item_ore_lead:0>],
+	<liquid:nickel> * 100: [<factorytech:ore_dust:5>],
 };
 
 /*	

@@ -28,7 +28,8 @@ static stagedItems as IIngredient[][string] = {
 		<skyresources:stonegrinder:*>,
 	],
 	stageRocketBuilder.stage: [
-		<skyresources:condenser:1>
+		<skyresources:condenser:1>,
+		<skyresources:orealchdust:17>
 	]
 };
 
@@ -103,6 +104,8 @@ static disabledItems as IIngredient[] = [
 	<skyresources:heat:10>,
 	<skyresources:heat:11>,
 	<skyresources:heat:14>,
+
+	<skyresources:rockcleaner:0>,
 ];
 
 function init() {

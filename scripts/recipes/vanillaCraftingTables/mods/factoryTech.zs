@@ -14,6 +14,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:stone>, <ore:stone>, <ore:stone>]
 		]
 	],
+	<factorytech:circuitscribe:0>: [
+		[
+			[<ore:stickAluminum>, <ore:factoryTechBlade>, null],
+			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+			[null, <ore:blockIron>, null]
+		]
+	],
 	<factorytech:grindstone:0>: [
 		[
 			[<ore:stone>, null, null], 
@@ -35,11 +42,25 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <minecraft:cobblestone:0>, null]
 		]
 	],
+	<factorytech:machinepart:11>: [
+		[
+			[null, <ore:nuggetIron>, null],
+			[<ore:nuggetIron>, <ore:ingotIron>, <ore:nuggetIron>],
+			[null, <ore:nuggetIron>, null]
+		]
+	],
 	<factorytech:machinepart:20>: [
 		[
 			[<minecraft:string:0>, <minecraft:string:0>, <minecraft:glowstone_dust:0>],
 			[<minecraft:glowstone_dust:0>, <minecraft:string:0>, <minecraft:glowstone_dust:0>],
 			[<minecraft:glowstone_dust:0>, <minecraft:string:0>, <minecraft:string:0>]
+		]
+	],
+	<factorytech:machinepart:40>: [
+		[
+			[null, <ore:nuggetIron>, null],
+			[<ore:nuggetIron>, <ore:nuggetNickel>, <ore:nuggetIron>],
+			[null, <ore:nuggetIron>, null]
 		]
 	],
 	<factorytech:machinepart:60>: [
@@ -53,6 +74,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:nuggetlead>, <ore:nuggetIron>, <ore:factoryTechShaft>],
 			[<ore:nuggetIron>, <ore:nuggetIron>, <factorytech:machinepart:20>]
 		],
+	],
+	<factorytech:machinepart:80>: [
+		[
+			[null, <ore:stickWood>, null],
+			[<ore:stickWood>, null, <ore:stickWood>],
+			[<ore:clumpCopper>, null, <ore:clumpCopper>]
+		]
 	],
 	<factorytech:metalcutter:0>: [
 		[
@@ -100,9 +128,19 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 	<factorytech:handbook:0>: [
 		[<factorytech:machinepart:50>.reuse() | <factorytech:machinepart:51>.reuse()]
 	],
+	<factorytech:machinepart:20>: [
+		[<factorytech:salvagepart:20>, <minecraft:glowstone_dust:0> * 4]
+	],
 	<factorytech:machinepart:60>: [
 		[<factorytech:intermediate:4> | <factorytech:salvagepart:60>, <factorytech:machinepart:20>]
-	]
+	],
+	<factorytech:machinepart:80>: [
+		[<factorytech:salvagepart:80>, <ore:clumpCopper> * 2]
+	],
+	<factorytech:machinepart:120>: [
+		[<factorytech:circuit_intermediate:3>, <matteroverdrive:tritanium_nugget:0>],
+		[<factorytech:salvagepart:120>, <matteroverdrive:tritanium_nugget:0>]
+	],
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {

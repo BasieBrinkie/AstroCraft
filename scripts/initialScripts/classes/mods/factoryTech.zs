@@ -8,7 +8,7 @@ zenClass facTech {
 	
 	zenConstructor() {}
 
-	function agitatorAdd(map as IItemStack[ILiquidStack][ILiquidStack][ILiquidStack][IItemStack]) {
+	function agitatorAdd(map as IIngredient[ILiquidStack][ILiquidStack][ILiquidStack][IItemStack]) {
 		for output, array in map {
 			for outputFluid, array2 in array {
 				for inputFluid, array3 in array2 {
@@ -23,6 +23,18 @@ zenClass facTech {
 	function agitatorRemove(map as ILiquidStack[IItemStack]) {
 		for output, outputFluid in map {
 			mods.factorytech.Agitator.removeRecipe(output, outputFluid);
+		}
+	}
+
+	function agitatorRemove(map as ILiquidStack[]) {
+		for outputFluid in map {
+			mods.factorytech.Agitator.removeRecipe(null, outputFluid);
+		}
+	}
+
+	function agitatorRemove(map as IItemStack[]) {
+		for output in map {
+			mods.factorytech.Agitator.removeRecipe(output);
 		}
 	}
 
@@ -162,10 +174,10 @@ zenClass facTech {
 		}
 	}
 
-	function metalCutterAdd(map as bool[IItemStack][IItemStack]) {
+	function metalCutterAdd(map as IIngredient[][IItemStack]) {
 		for output, array in map {
-			for input, stonePart in array {
-				mods.factorytech.MetalCutter.addRecipe(output, input, stonePart);
+			for i, input in array {
+				mods.factorytech.MetalCutter.addRecipe(output, input, true);
 			}
 		}
 	}

@@ -29,7 +29,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2019-06-16T17:09:11.3380232Z",
+  "lastPlayed": "2019-06-17T18:57:50.2719499Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -55,7 +55,7 @@
       "status": 1,
       "timestamp": "2019-06-11T16:38:28.8014502Z",
       "lastWriteTimeUtc": "2019-06-05T22:52:50.8276628Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0601119Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4127332Z",
       "fileCount": 1,
       "fileSize": 899204
     },
@@ -70,7 +70,7 @@
       "status": 1,
       "timestamp": "2019-03-30T23:02:35.5149298Z",
       "lastWriteTimeUtc": "2019-03-30T22:35:58.1644268Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0611114Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4127332Z",
       "fileCount": 1,
       "fileSize": 153197
     },
@@ -85,9 +85,24 @@
       "status": 1,
       "timestamp": "2018-09-16T20:35:11.7180543Z",
       "lastWriteTimeUtc": "2018-09-12T14:25:13.4224434Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0611114Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4137329Z",
       "fileCount": 1,
       "fileSize": 304571
+    },
+    {
+      "folderName": "zenscroll-1.4.0.jar",
+      "fingerprint": 3807063587,
+      "fileDateHash": 4124781755,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3807063587
+      ],
+      "status": 1,
+      "timestamp": "2019-06-17T18:54:21.4444767Z",
+      "lastWriteTimeUtc": "2019-06-17T18:52:05.9223362Z",
+      "queryTimestamp": "2019-06-17T18:54:22.0417895Z",
+      "fileCount": 1,
+      "fileSize": 37457
     },
     {
       "folderName": "AcademyCraft-1.1.2.jar",
@@ -100,7 +115,7 @@
       "status": 1,
       "timestamp": "2019-06-16T17:07:23.117543Z",
       "lastWriteTimeUtc": "2019-06-16T16:40:56.3693763Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0611114Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4137329Z",
       "fileCount": 1,
       "fileSize": 29767858
     },
@@ -115,7 +130,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.5782516Z",
       "lastWriteTimeUtc": "2018-08-20T10:35:54.111056Z",
-      "queryTimestamp": "2019-06-16T17:07:26.062111Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4137329Z",
       "fileCount": 1,
       "fileSize": 96859
     },
@@ -130,7 +145,7 @@
       "status": 1,
       "timestamp": "2019-03-15T21:11:37.2895996Z",
       "lastWriteTimeUtc": "2019-03-14T22:31:52.3399741Z",
-      "queryTimestamp": "2019-06-16T17:07:26.062111Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4137329Z",
       "fileCount": 1,
       "fileSize": 30002
     },
@@ -145,7 +160,7 @@
       "status": 1,
       "timestamp": "2019-05-02T11:32:56.7247785Z",
       "lastWriteTimeUtc": "2019-05-02T11:10:15.8580157Z",
-      "queryTimestamp": "2019-06-16T17:07:26.062111Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4147328Z",
       "fileCount": 1,
       "fileSize": 226187
     },
@@ -160,7 +175,7 @@
       "status": 1,
       "timestamp": "2019-05-13T15:10:28.6247246Z",
       "lastWriteTimeUtc": "2019-05-13T12:58:07.4787342Z",
-      "queryTimestamp": "2019-06-16T17:07:26.062111Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4147328Z",
       "fileCount": 1,
       "fileSize": 519079
     },
@@ -175,7 +190,7 @@
       "status": 1,
       "timestamp": "2019-06-11T16:38:28.7284739Z",
       "lastWriteTimeUtc": "2019-06-05T19:45:02.2985008Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0631109Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4147328Z",
       "fileCount": 1,
       "fileSize": 11676422
     },
@@ -190,7 +205,7 @@
       "status": 1,
       "timestamp": "2019-06-11T23:40:03.7880593Z",
       "lastWriteTimeUtc": "2019-06-11T21:56:59.276942Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0631109Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4147328Z",
       "fileCount": 1,
       "fileSize": 28271
     },
@@ -205,7 +220,7 @@
       "status": 1,
       "timestamp": "2019-04-25T12:35:32.2107142Z",
       "lastWriteTimeUtc": "2019-04-24T22:39:48.2176339Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0631109Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4157329Z",
       "fileCount": 1,
       "fileSize": 880226
     },
@@ -220,7 +235,7 @@
       "status": 1,
       "timestamp": "2019-01-28T21:28:40.0261247Z",
       "lastWriteTimeUtc": "2019-01-27T22:15:18.4724187Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0641108Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4157329Z",
       "fileCount": 1,
       "fileSize": 83909
     },
@@ -235,7 +250,7 @@
       "status": 1,
       "timestamp": "2019-02-06T20:55:49.3394802Z",
       "lastWriteTimeUtc": "2019-02-06T20:54:46.8959552Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0641108Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4157329Z",
       "fileCount": 1,
       "fileSize": 118935
     },
@@ -250,7 +265,7 @@
       "status": 1,
       "timestamp": "2019-06-11T16:38:29.2343114Z",
       "lastWriteTimeUtc": "2019-06-05T19:49:04.2866506Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0651106Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4167326Z",
       "fileCount": 1,
       "fileSize": 199395
     },
@@ -265,7 +280,7 @@
       "status": 1,
       "timestamp": "2019-01-07T21:28:24.2302723Z",
       "lastWriteTimeUtc": "2019-01-07T21:21:16.2640654Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0651106Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4167326Z",
       "fileCount": 1,
       "fileSize": 2563518
     },
@@ -280,7 +295,7 @@
       "status": 1,
       "timestamp": "2019-04-07T20:00:11.9301918Z",
       "lastWriteTimeUtc": "2019-03-31T20:13:53.3028397Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0651106Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4167326Z",
       "fileCount": 1,
       "fileSize": 16086478
     },
@@ -295,7 +310,7 @@
       "status": 1,
       "timestamp": "2019-05-02T11:32:56.8717324Z",
       "lastWriteTimeUtc": "2019-05-02T11:10:23.0812621Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0651106Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4177324Z",
       "fileCount": 1,
       "fileSize": 1536124
     },
@@ -310,7 +325,7 @@
       "status": 1,
       "timestamp": "2018-09-23T15:06:05.255785Z",
       "lastWriteTimeUtc": "2018-09-19T17:47:02.1051433Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0661098Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4177324Z",
       "fileCount": 1,
       "fileSize": 700785
     },
@@ -325,7 +340,7 @@
       "status": 1,
       "timestamp": "2019-03-17T18:52:43.6121245Z",
       "lastWriteTimeUtc": "2019-03-17T18:50:21.768998Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0661098Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4177324Z",
       "fileCount": 1,
       "fileSize": 885359
     },
@@ -340,7 +355,7 @@
       "status": 1,
       "timestamp": "2019-04-20T23:22:12.2413311Z",
       "lastWriteTimeUtc": "2019-04-20T20:58:16.9276048Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0661098Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4177324Z",
       "fileCount": 1,
       "fileSize": 24741096
     },
@@ -355,7 +370,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.6199481Z",
       "lastWriteTimeUtc": "2018-08-20T11:05:20.5665014Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0671097Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4187318Z",
       "fileCount": 1,
       "fileSize": 81332
     },
@@ -370,7 +385,7 @@
       "status": 1,
       "timestamp": "2019-05-27T12:39:25.156357Z",
       "lastWriteTimeUtc": "2019-05-21T21:43:35.4114098Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0671097Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4187318Z",
       "fileCount": 1,
       "fileSize": 25343542
     },
@@ -385,7 +400,7 @@
       "status": 1,
       "timestamp": "2019-04-18T21:15:57.4750238Z",
       "lastWriteTimeUtc": "2019-04-16T20:55:34.4287927Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0671097Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4187318Z",
       "fileCount": 1,
       "fileSize": 2191205
     },
@@ -400,7 +415,7 @@
       "status": 1,
       "timestamp": "2019-06-11T23:40:03.789059Z",
       "lastWriteTimeUtc": "2019-06-11T23:33:23.2720701Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0681096Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4197316Z",
       "fileCount": 1,
       "fileSize": 7013799
     },
@@ -415,7 +430,7 @@
       "status": 1,
       "timestamp": "2019-05-28T18:25:14.7270276Z",
       "lastWriteTimeUtc": "2019-05-27T16:43:44.9136964Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0681096Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4197316Z",
       "fileCount": 1,
       "fileSize": 357492
     },
@@ -430,7 +445,7 @@
       "status": 1,
       "timestamp": "2018-12-02T17:01:44.3570387Z",
       "lastWriteTimeUtc": "2018-12-02T16:43:40.0642148Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0681096Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4197316Z",
       "fileCount": 1,
       "fileSize": 194281
     },
@@ -445,24 +460,9 @@
       "status": 1,
       "timestamp": "2019-04-23T19:27:43.7896431Z",
       "lastWriteTimeUtc": "2019-04-22T13:11:45.714101Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0681096Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4197316Z",
       "fileCount": 1,
       "fileSize": 335854
-    },
-    {
-      "folderName": "CD4017BE_lib-1.12.2-6.4.3.jar",
-      "fingerprint": 4279335431,
-      "fileDateHash": 2843532976,
-      "sectionID": 8,
-      "individualFingerprints": [
-        4279335431
-      ],
-      "status": 1,
-      "timestamp": "2019-06-16T17:07:23.2894883Z",
-      "lastWriteTimeUtc": "2019-06-16T16:49:56.4393473Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0691092Z",
-      "fileCount": 1,
-      "fileSize": 563407
     },
     {
       "folderName": "GameStages-1.12.2-2.0.115.jar",
@@ -475,7 +475,7 @@
       "status": 1,
       "timestamp": "2019-05-28T18:25:14.743022Z",
       "lastWriteTimeUtc": "2019-05-28T18:24:08.1887967Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0691092Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4207307Z",
       "fileCount": 1,
       "fileSize": 56291
     },
@@ -490,7 +490,7 @@
       "status": 1,
       "timestamp": "2019-03-28T15:34:26.6560151Z",
       "lastWriteTimeUtc": "2019-03-28T13:36:34.4394951Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0691092Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4217303Z",
       "fileCount": 1,
       "fileSize": 13837078
     },
@@ -505,7 +505,7 @@
       "status": 1,
       "timestamp": "2019-04-07T20:02:33.4193859Z",
       "lastWriteTimeUtc": "2019-04-07T20:01:34.7379691Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0701089Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4217303Z",
       "fileCount": 1,
       "fileSize": 346166
     },
@@ -520,7 +520,7 @@
       "status": 1,
       "timestamp": "2018-09-11T19:28:09.7869612Z",
       "lastWriteTimeUtc": "2018-08-20T10:32:04.2599466Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0701089Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4217303Z",
       "fileCount": 1,
       "fileSize": 906018
     },
@@ -535,7 +535,7 @@
       "status": 1,
       "timestamp": "2019-04-20T23:22:12.3632921Z",
       "lastWriteTimeUtc": "2019-04-20T20:58:26.6985106Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0701089Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4217303Z",
       "fileCount": 1,
       "fileSize": 180481
     },
@@ -550,7 +550,7 @@
       "status": 1,
       "timestamp": "2018-12-16T13:33:04.8310279Z",
       "lastWriteTimeUtc": "2018-12-12T22:25:42.2374748Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0701089Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4227299Z",
       "fileCount": 1,
       "fileSize": 169528
     },
@@ -565,7 +565,7 @@
       "status": 1,
       "timestamp": "2019-06-16T17:07:23.3014848Z",
       "lastWriteTimeUtc": "2019-06-13T10:49:59.7833467Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0711087Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4227299Z",
       "fileCount": 1,
       "fileSize": 883780
     },
@@ -580,7 +580,7 @@
       "status": 1,
       "timestamp": "2019-04-20T23:22:12.2273358Z",
       "lastWriteTimeUtc": "2019-04-20T20:57:24.4847107Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0711087Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4227299Z",
       "fileCount": 1,
       "fileSize": 2654845
     },
@@ -595,7 +595,7 @@
       "status": 1,
       "timestamp": "2018-08-21T17:58:57.7577508Z",
       "lastWriteTimeUtc": "2018-08-20T10:47:31.6854888Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0711087Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4237296Z",
       "fileCount": 1,
       "fileSize": 24645
     },
@@ -610,7 +610,7 @@
       "status": 1,
       "timestamp": "2018-12-02T17:01:44.3880286Z",
       "lastWriteTimeUtc": "2018-12-02T16:44:26.7776253Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0721084Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4237296Z",
       "fileCount": 1,
       "fileSize": 596220
     },
@@ -625,7 +625,7 @@
       "status": 1,
       "timestamp": "2019-06-11T16:38:28.7944525Z",
       "lastWriteTimeUtc": "2019-06-05T19:37:56.0551667Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0721084Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4237296Z",
       "fileCount": 1,
       "fileSize": 457662
     },
@@ -640,24 +640,9 @@
       "status": 1,
       "timestamp": "2018-11-17T23:48:19.381607Z",
       "lastWriteTimeUtc": "2018-11-16T23:24:14.6298002Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0721084Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4237296Z",
       "fileCount": 1,
       "fileSize": 177791
-    },
-    {
-      "folderName": "TheBetweenlands-3.4.8-universal.jar",
-      "fingerprint": 3352922690,
-      "fileDateHash": 1821992683,
-      "sectionID": 8,
-      "individualFingerprints": [
-        3352922690
-      ],
-      "status": 1,
-      "timestamp": "2019-06-16T17:07:23.4294439Z",
-      "lastWriteTimeUtc": "2019-06-16T16:40:50.0253803Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0721084Z",
-      "fileCount": 1,
-      "fileSize": 80712942
     },
     {
       "folderName": "AppleCore-mc1.12.2-3.2.0.jar",
@@ -670,7 +655,7 @@
       "status": 1,
       "timestamp": "2019-06-11T23:40:03.7870596Z",
       "lastWriteTimeUtc": "2019-06-11T23:36:58.7034772Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0731079Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4247294Z",
       "fileCount": 1,
       "fileSize": 88308
     },
@@ -685,7 +670,7 @@
       "status": 1,
       "timestamp": "2018-09-11T21:18:05.9919178Z",
       "lastWriteTimeUtc": "2018-08-20T10:50:21.3476769Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0731079Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4247294Z",
       "fileCount": 1,
       "fileSize": 8943
     },
@@ -700,7 +685,7 @@
       "status": 1,
       "timestamp": "2019-06-03T10:40:58.7920985Z",
       "lastWriteTimeUtc": "2019-06-03T10:36:03.9880318Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0741074Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4247294Z",
       "fileCount": 1,
       "fileSize": 346779
     },
@@ -715,7 +700,7 @@
       "status": 1,
       "timestamp": "2018-08-30T13:09:49.6003477Z",
       "lastWriteTimeUtc": "2018-08-30T10:36:05.5637751Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0741074Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4257292Z",
       "fileCount": 1,
       "fileSize": 534420
     },
@@ -730,7 +715,7 @@
       "status": 1,
       "timestamp": "2019-02-06T20:55:50.3303965Z",
       "lastWriteTimeUtc": "2019-02-06T20:55:09.5517798Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0741074Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4257292Z",
       "fileCount": 1,
       "fileSize": 301893
     },
@@ -745,7 +730,7 @@
       "status": 1,
       "timestamp": "2019-05-02T11:32:56.5758259Z",
       "lastWriteTimeUtc": "2019-05-02T11:09:20.7118707Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0741074Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4257292Z",
       "fileCount": 1,
       "fileSize": 1128657
     },
@@ -760,7 +745,7 @@
       "status": 1,
       "timestamp": "2019-04-11T15:39:19.0714968Z",
       "lastWriteTimeUtc": "2019-04-11T14:06:26.4757048Z",
-      "queryTimestamp": "2019-06-16T17:07:26.075107Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4267288Z",
       "fileCount": 1,
       "fileSize": 43129
     },
@@ -775,7 +760,7 @@
       "status": 1,
       "timestamp": "2019-05-27T12:39:24.0976977Z",
       "lastWriteTimeUtc": "2019-05-23T13:30:51.0100863Z",
-      "queryTimestamp": "2019-06-16T17:07:26.075107Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4267288Z",
       "fileCount": 1,
       "fileSize": 544583
     },
@@ -790,7 +775,7 @@
       "status": 1,
       "timestamp": "2019-01-23T09:22:41.4911256Z",
       "lastWriteTimeUtc": "2019-01-22T21:58:54.3506804Z",
-      "queryTimestamp": "2019-06-16T17:07:26.075107Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4267288Z",
       "fileCount": 1,
       "fileSize": 21748
     },
@@ -1132,7 +1117,7 @@
       "status": 1,
       "timestamp": "2019-05-28T18:25:16.2090581Z",
       "lastWriteTimeUtc": "2019-05-27T16:43:21.1107893Z",
-      "queryTimestamp": "2019-06-16T17:07:26.075107Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4267288Z",
       "fileCount": 51,
       "fileSize": 0
     },
@@ -1147,7 +1132,7 @@
       "status": 1,
       "timestamp": "2019-05-13T15:10:28.5977332Z",
       "lastWriteTimeUtc": "2019-05-13T12:58:02.7012626Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0761068Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4277286Z",
       "fileCount": 1,
       "fileSize": 5697129
     },
@@ -1162,7 +1147,7 @@
       "status": 1,
       "timestamp": "2019-01-23T09:22:41.3331763Z",
       "lastWriteTimeUtc": "2019-01-22T21:58:38.5653696Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0761068Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4277286Z",
       "fileCount": 1,
       "fileSize": 406772
     },
@@ -1177,7 +1162,7 @@
       "status": 1,
       "timestamp": "2018-09-16T20:35:11.933986Z",
       "lastWriteTimeUtc": "2018-09-02T22:34:06.821195Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0761068Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4277286Z",
       "fileCount": 1,
       "fileSize": 39764
     },
@@ -1192,7 +1177,7 @@
       "status": 1,
       "timestamp": "2018-10-12T18:53:42.8876146Z",
       "lastWriteTimeUtc": "2018-10-11T21:13:37.0687187Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0771067Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4287281Z",
       "fileCount": 1,
       "fileSize": 1040272
     },
@@ -1207,24 +1192,9 @@
       "status": 1,
       "timestamp": "2019-05-02T11:32:57.2781068Z",
       "lastWriteTimeUtc": "2019-05-02T11:10:27.4103965Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0771067Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4287281Z",
       "fileCount": 1,
       "fileSize": 466011
-    },
-    {
-      "folderName": "Atum-1.12.2-2.0.9.jar",
-      "fingerprint": 3850083740,
-      "fileDateHash": 306976756,
-      "sectionID": 8,
-      "individualFingerprints": [
-        3850083740
-      ],
-      "status": 1,
-      "timestamp": "2019-06-04T20:35:41.3839124Z",
-      "lastWriteTimeUtc": "2019-06-04T16:35:24.4398573Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0771067Z",
-      "fileCount": 1,
-      "fileSize": 2664849
     },
     {
       "folderName": "llibrary-1.7.19-1.12.2.jar",
@@ -1237,7 +1207,7 @@
       "status": 1,
       "timestamp": "2019-05-02T11:32:56.7057845Z",
       "lastWriteTimeUtc": "2019-05-02T11:10:03.0519148Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0771067Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4297277Z",
       "fileCount": 1,
       "fileSize": 884837
     },
@@ -1252,7 +1222,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.5762529Z",
       "lastWriteTimeUtc": "2018-08-20T10:20:23.2819533Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0781063Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4297277Z",
       "fileCount": 1,
       "fileSize": 108450
     },
@@ -1267,7 +1237,7 @@
       "status": 1,
       "timestamp": "2019-04-11T15:39:19.0724969Z",
       "lastWriteTimeUtc": "2019-04-11T14:07:26.0473451Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0781063Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4297277Z",
       "fileCount": 1,
       "fileSize": 1845450
     },
@@ -1282,7 +1252,7 @@
       "status": 1,
       "timestamp": "2019-04-23T19:27:43.7886434Z",
       "lastWriteTimeUtc": "2019-04-22T13:11:37.9215878Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0781063Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4297277Z",
       "fileCount": 1,
       "fileSize": 82508
     },
@@ -1297,7 +1267,7 @@
       "status": 1,
       "timestamp": "2019-06-03T10:40:58.7541108Z",
       "lastWriteTimeUtc": "2019-06-03T10:35:59.1915688Z",
-      "queryTimestamp": "2019-06-16T17:07:26.079106Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4307281Z",
       "fileCount": 1,
       "fileSize": 6678071
     },
@@ -1312,7 +1282,7 @@
       "status": 1,
       "timestamp": "2019-04-14T20:59:46.9634649Z",
       "lastWriteTimeUtc": "2019-04-14T15:54:10.8812028Z",
-      "queryTimestamp": "2019-06-16T17:07:26.079106Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4307281Z",
       "fileCount": 1,
       "fileSize": 430890
     },
@@ -1327,7 +1297,7 @@
       "status": 1,
       "timestamp": "2019-02-19T21:33:25.0952294Z",
       "lastWriteTimeUtc": "2019-02-13T17:01:35.4495307Z",
-      "queryTimestamp": "2019-06-16T17:07:26.079106Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4307281Z",
       "fileCount": 1,
       "fileSize": 15545293
     },
@@ -1342,7 +1312,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.3940199Z",
       "lastWriteTimeUtc": "2018-08-22T14:52:21.1105621Z",
-      "queryTimestamp": "2019-06-16T17:07:26.079106Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4307281Z",
       "fileCount": 1,
       "fileSize": 157747
     },
@@ -1357,9 +1327,24 @@
       "status": 1,
       "timestamp": "2019-05-27T12:39:25.2873152Z",
       "lastWriteTimeUtc": "2019-05-26T21:24:15.6561454Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0801059Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4317274Z",
       "fileCount": 1,
       "fileSize": 99196
+    },
+    {
+      "folderName": "StandardExpansion-3.4.159.jar",
+      "fingerprint": 3836564112,
+      "fileDateHash": 676046002,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3836564112
+      ],
+      "status": 1,
+      "timestamp": "2019-06-17T18:54:21.0516018Z",
+      "lastWriteTimeUtc": "2019-06-17T18:50:40.4714653Z",
+      "queryTimestamp": "2019-06-17T18:54:22.0587838Z",
+      "fileCount": 1,
+      "fileSize": 606068
     },
     {
       "folderName": "nonetherPortals_v1.0.0formc1.12.2.jar",
@@ -1372,7 +1357,7 @@
       "status": 1,
       "timestamp": "2018-08-23T21:10:20.7666208Z",
       "lastWriteTimeUtc": "2018-08-23T18:24:02.4240484Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0801059Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4317274Z",
       "fileCount": 1,
       "fileSize": 2194
     },
@@ -1387,7 +1372,7 @@
       "status": 1,
       "timestamp": "2019-03-19T14:25:51.0960188Z",
       "lastWriteTimeUtc": "2019-03-18T00:09:22.0882787Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0801059Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4317274Z",
       "fileCount": 1,
       "fileSize": 225881
     },
@@ -1402,7 +1387,7 @@
       "status": 1,
       "timestamp": "2019-04-25T12:35:32.1977188Z",
       "lastWriteTimeUtc": "2019-04-24T22:39:37.4770616Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0811062Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4327271Z",
       "fileCount": 1,
       "fileSize": 647117
     },
@@ -1417,7 +1402,7 @@
       "status": 1,
       "timestamp": "2019-04-25T13:20:28.7493898Z",
       "lastWriteTimeUtc": "2019-04-25T12:35:56.1726656Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0811062Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4327271Z",
       "fileCount": 1,
       "fileSize": 515731
     },
@@ -1432,7 +1417,7 @@
       "status": 1,
       "timestamp": "2019-06-04T16:35:14.2665687Z",
       "lastWriteTimeUtc": "2019-06-03T19:55:38.3667031Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0811062Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4327271Z",
       "fileCount": 1,
       "fileSize": 568155
     },
@@ -1447,7 +1432,7 @@
       "status": 1,
       "timestamp": "2019-04-07T20:02:33.8052624Z",
       "lastWriteTimeUtc": "2019-04-07T20:01:55.4194238Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0821053Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4337273Z",
       "fileCount": 1,
       "fileSize": 255364
     },
@@ -1462,7 +1447,7 @@
       "status": 1,
       "timestamp": "2019-06-16T17:07:23.4274444Z",
       "lastWriteTimeUtc": "2019-06-16T16:50:26.438364Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0821053Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4337273Z",
       "fileCount": 1,
       "fileSize": 262288
     },
@@ -1477,7 +1462,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.3970188Z",
       "lastWriteTimeUtc": "2018-08-20T10:38:49.4904934Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0821053Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4337273Z",
       "fileCount": 1,
       "fileSize": 7863
     },
@@ -1492,7 +1477,7 @@
       "status": 1,
       "timestamp": "2018-09-27T15:05:02.2776969Z",
       "lastWriteTimeUtc": "2018-09-27T14:46:10.529733Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0831048Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4347266Z",
       "fileCount": 1,
       "fileSize": 216277
     },
@@ -1507,7 +1492,7 @@
       "status": 1,
       "timestamp": "2018-10-07T12:35:32.5095327Z",
       "lastWriteTimeUtc": "2018-10-07T11:29:33.4135004Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0831048Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4347266Z",
       "fileCount": 1,
       "fileSize": 910239
     },
@@ -1522,7 +1507,7 @@
       "status": 1,
       "timestamp": "2019-05-27T12:39:24.1046955Z",
       "lastWriteTimeUtc": "2019-05-27T12:29:16.011944Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0831048Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4347266Z",
       "fileCount": 1,
       "fileSize": 27237
     },
@@ -1537,7 +1522,7 @@
       "status": 1,
       "timestamp": "2018-09-17T19:48:35.9023211Z",
       "lastWriteTimeUtc": "2018-09-12T14:25:26.47179Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0831048Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4347266Z",
       "fileCount": 1,
       "fileSize": 173426
     },
@@ -1552,7 +1537,7 @@
       "status": 1,
       "timestamp": "2019-04-07T20:02:33.753279Z",
       "lastWriteTimeUtc": "2019-04-07T20:01:46.7071828Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0841047Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4357259Z",
       "fileCount": 1,
       "fileSize": 76902
     },
@@ -1567,7 +1552,7 @@
       "status": 1,
       "timestamp": "2018-12-16T13:33:04.7690479Z",
       "lastWriteTimeUtc": "2018-12-12T22:25:29.9734859Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0841047Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4357259Z",
       "fileCount": 1,
       "fileSize": 18251
     },
@@ -1582,7 +1567,7 @@
       "status": 1,
       "timestamp": "2019-01-15T23:31:39.6408782Z",
       "lastWriteTimeUtc": "2019-01-15T21:06:23.4312154Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0841047Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4357259Z",
       "fileCount": 1,
       "fileSize": 1683525
     },
@@ -1597,7 +1582,7 @@
       "status": 1,
       "timestamp": "2019-03-15T21:11:38.1775462Z",
       "lastWriteTimeUtc": "2019-03-14T22:32:09.5770409Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0851042Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4367256Z",
       "fileCount": 1,
       "fileSize": 169483
     },
@@ -1612,7 +1597,7 @@
       "status": 1,
       "timestamp": "2019-03-30T23:02:35.5439201Z",
       "lastWriteTimeUtc": "2019-03-30T22:35:45.8913166Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0851042Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4367256Z",
       "fileCount": 1,
       "fileSize": 25338813
     },
@@ -1627,7 +1612,7 @@
       "status": 1,
       "timestamp": "2019-05-27T12:39:24.1006969Z",
       "lastWriteTimeUtc": "2019-05-21T21:43:21.3849174Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0851042Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4367256Z",
       "fileCount": 1,
       "fileSize": 654742
     },
@@ -1642,7 +1627,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.3990182Z",
       "lastWriteTimeUtc": "2018-08-20T10:40:08.3254927Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0851042Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4367256Z",
       "fileCount": 1,
       "fileSize": 76753
     },
@@ -1657,7 +1642,7 @@
       "status": 1,
       "timestamp": "2018-10-03T18:38:23.1423723Z",
       "lastWriteTimeUtc": "2018-10-03T18:29:20.8920114Z",
-      "queryTimestamp": "2019-06-16T17:07:26.086104Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4377251Z",
       "fileCount": 1,
       "fileSize": 531831
     },
@@ -1672,7 +1657,7 @@
       "status": 1,
       "timestamp": "2018-08-20T19:53:41.9086779Z",
       "lastWriteTimeUtc": "2018-08-20T10:23:26.8359953Z",
-      "queryTimestamp": "2019-06-16T17:07:26.086104Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4377251Z",
       "fileCount": 1,
       "fileSize": 263258
     },
@@ -1687,7 +1672,7 @@
       "status": 1,
       "timestamp": "2019-02-24T14:27:41.8770517Z",
       "lastWriteTimeUtc": "2019-02-24T14:27:03.6012031Z",
-      "queryTimestamp": "2019-06-16T17:07:26.086104Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4377251Z",
       "fileCount": 1,
       "fileSize": 3226408
     },
@@ -1702,7 +1687,7 @@
       "status": 1,
       "timestamp": "2019-03-15T21:11:39.4495213Z",
       "lastWriteTimeUtc": "2019-03-14T23:01:35.1380585Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0871035Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4387252Z",
       "fileCount": 1,
       "fileSize": 2305489
     },
@@ -1717,7 +1702,7 @@
       "status": 1,
       "timestamp": "2019-04-07T20:02:33.3114201Z",
       "lastWriteTimeUtc": "2019-04-07T20:01:06.7953341Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0871035Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4387252Z",
       "fileCount": 1,
       "fileSize": 11408661
     },
@@ -1732,7 +1717,7 @@
       "status": 1,
       "timestamp": "2019-04-11T15:39:19.0714968Z",
       "lastWriteTimeUtc": "2019-04-11T14:15:51.3100369Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0871035Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4387252Z",
       "fileCount": 1,
       "fileSize": 56293
     },
@@ -1747,7 +1732,7 @@
       "status": 1,
       "timestamp": "2018-11-28T19:12:51.8019741Z",
       "lastWriteTimeUtc": "2018-11-26T21:47:58.410067Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0881033Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4397245Z",
       "fileCount": 1,
       "fileSize": 342423
     },
@@ -1762,7 +1747,7 @@
       "status": 1,
       "timestamp": "2019-04-23T19:27:43.7446583Z",
       "lastWriteTimeUtc": "2019-04-22T13:11:23.221279Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0881033Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4397245Z",
       "fileCount": 1,
       "fileSize": 1303407
     },
@@ -1777,7 +1762,7 @@
       "status": 1,
       "timestamp": "2019-03-17T18:52:43.6111249Z",
       "lastWriteTimeUtc": "2019-03-17T18:50:19.6192179Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0881033Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4397245Z",
       "fileCount": 1,
       "fileSize": 163338
     },
@@ -1792,7 +1777,7 @@
       "status": 1,
       "timestamp": "2018-11-04T23:29:03.0586686Z",
       "lastWriteTimeUtc": "2018-11-04T20:51:59.3699062Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0891024Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4407242Z",
       "fileCount": 1,
       "fileSize": 22262
     },
@@ -1807,7 +1792,7 @@
       "status": 1,
       "timestamp": "2019-05-27T12:39:24.1056956Z",
       "lastWriteTimeUtc": "2019-05-26T21:24:46.6693008Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0891024Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4407242Z",
       "fileCount": 1,
       "fileSize": 21393
     },
@@ -1822,7 +1807,7 @@
       "status": 1,
       "timestamp": "2018-09-11T19:28:09.7919597Z",
       "lastWriteTimeUtc": "2018-08-20T10:37:41.0092052Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0891024Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4407242Z",
       "fileCount": 1,
       "fileSize": 522502
     },
@@ -1837,7 +1822,7 @@
       "status": 1,
       "timestamp": "2019-03-15T21:11:37.3985646Z",
       "lastWriteTimeUtc": "2019-03-14T22:31:54.8986855Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0901022Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4407242Z",
       "fileCount": 1,
       "fileSize": 1559340
     },
@@ -1852,7 +1837,7 @@
       "status": 1,
       "timestamp": "2019-06-11T23:40:03.789059Z",
       "lastWriteTimeUtc": "2019-06-11T23:36:59.6111858Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0901022Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4417239Z",
       "fileCount": 1,
       "fileSize": 48734
     },
@@ -1867,7 +1852,7 @@
       "status": 1,
       "timestamp": "2019-04-25T13:20:28.7433915Z",
       "lastWriteTimeUtc": "2019-04-25T12:35:49.0968977Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0901022Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4417239Z",
       "fileCount": 1,
       "fileSize": 885546
     },
@@ -1882,7 +1867,7 @@
       "status": 1,
       "timestamp": "2018-09-16T20:35:12.0979328Z",
       "lastWriteTimeUtc": "2018-08-23T18:13:09.1026875Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0911018Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4417239Z",
       "fileCount": 1,
       "fileSize": 1023807
     },
@@ -1897,7 +1882,7 @@
       "status": 1,
       "timestamp": "2019-04-25T13:20:28.7593865Z",
       "lastWriteTimeUtc": "2019-04-25T12:36:06.5913836Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0911018Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4427236Z",
       "fileCount": 1,
       "fileSize": 6555091
     },
@@ -1912,7 +1897,7 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.4070162Z",
       "lastWriteTimeUtc": "2018-08-27T10:12:21.8841245Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0911018Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4427236Z",
       "fileCount": 1,
       "fileSize": 16887
     },
@@ -1927,7 +1912,7 @@
       "status": 1,
       "timestamp": "2019-06-11T16:38:28.814446Z",
       "lastWriteTimeUtc": "2019-06-05T19:43:04.6892098Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0911018Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4427236Z",
       "fileCount": 1,
       "fileSize": 6466425
     },
@@ -1942,7 +1927,7 @@
       "status": 1,
       "timestamp": "2019-02-19T21:33:25.0902311Z",
       "lastWriteTimeUtc": "2019-02-13T17:01:14.0048957Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0921019Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4427236Z",
       "fileCount": 1,
       "fileSize": 134062
     },
@@ -1957,7 +1942,7 @@
       "status": 1,
       "timestamp": "2019-05-27T12:39:24.0637087Z",
       "lastWriteTimeUtc": "2019-05-26T20:38:29.3932003Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0921019Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4437235Z",
       "fileCount": 1,
       "fileSize": 847938
     },
@@ -1972,7 +1957,7 @@
       "status": 1,
       "timestamp": "2018-08-20T19:53:42.7359469Z",
       "lastWriteTimeUtc": "2018-08-20T10:30:03.1638511Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0921019Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4437235Z",
       "fileCount": 1,
       "fileSize": 30446
     },
@@ -1987,7 +1972,7 @@
       "status": 1,
       "timestamp": "2019-04-07T20:02:33.2954254Z",
       "lastWriteTimeUtc": "2019-04-07T20:00:35.6661824Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0931016Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4437235Z",
       "fileCount": 1,
       "fileSize": 1124675
     },
@@ -2002,7 +1987,7 @@
       "status": 1,
       "timestamp": "2019-04-07T20:02:33.3054223Z",
       "lastWriteTimeUtc": "2019-04-07T20:00:56.4481028Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0931016Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4437235Z",
       "fileCount": 1,
       "fileSize": 211210
     },
@@ -2017,7 +2002,7 @@
       "status": 1,
       "timestamp": "2019-05-27T12:39:24.0817028Z",
       "lastWriteTimeUtc": "2019-05-21T21:43:06.4037316Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0931016Z",
+      "queryTimestamp": "2019-06-17T18:47:39.444723Z",
       "fileCount": 1,
       "fileSize": 1037940
     },
@@ -2032,7 +2017,7 @@
       "status": 1,
       "timestamp": "2019-03-15T21:11:33.5445733Z",
       "lastWriteTimeUtc": "2019-03-14T22:29:37.1323394Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0931016Z",
+      "queryTimestamp": "2019-06-17T18:47:39.444723Z",
       "fileCount": 1,
       "fileSize": 2928174
     },
@@ -2047,7 +2032,7 @@
       "status": 1,
       "timestamp": "2018-11-28T19:12:51.855957Z",
       "lastWriteTimeUtc": "2018-11-26T21:48:44.7468342Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0941019Z",
+      "queryTimestamp": "2019-06-17T18:47:39.444723Z",
       "fileCount": 1,
       "fileSize": 1117860
     },
@@ -2062,7 +2047,7 @@
       "status": 1,
       "timestamp": "2018-10-03T18:38:23.1963542Z",
       "lastWriteTimeUtc": "2018-10-03T18:29:34.0173324Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0941019Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4457227Z",
       "fileCount": 1,
       "fileSize": 36278
     },
@@ -2077,7 +2062,7 @@
       "status": 1,
       "timestamp": "2018-09-16T20:35:12.5487886Z",
       "lastWriteTimeUtc": "2018-09-14T21:09:47.8949807Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0941019Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4457227Z",
       "fileCount": 1,
       "fileSize": 520550
     },
@@ -2092,7 +2077,7 @@
       "status": 1,
       "timestamp": "2018-09-11T19:28:10.0573786Z",
       "lastWriteTimeUtc": "2018-08-20T10:47:56.5955913Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0951016Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4457227Z",
       "fileCount": 1,
       "fileSize": 20887
     },
@@ -2107,7 +2092,7 @@
       "status": 1,
       "timestamp": "2019-05-19T20:31:49.3865811Z",
       "lastWriteTimeUtc": "2019-05-19T18:17:30.5489797Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0951016Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4457227Z",
       "fileCount": 1,
       "fileSize": 2938509
     },
@@ -2122,7 +2107,7 @@
       "status": 1,
       "timestamp": "2019-03-17T15:30:38.8150255Z",
       "lastWriteTimeUtc": "2019-03-17T15:16:44.3386266Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0951016Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4467225Z",
       "fileCount": 1,
       "fileSize": 730321
     },
@@ -2137,7 +2122,7 @@
       "status": 1,
       "timestamp": "2019-04-09T18:36:08.9671764Z",
       "lastWriteTimeUtc": "2019-04-09T18:33:06.6669753Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0951016Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4467225Z",
       "fileCount": 1,
       "fileSize": 110618
     },
@@ -2827,7 +2812,7 @@
       "status": 1,
       "timestamp": "2018-10-15T12:25:17.9600954Z",
       "lastWriteTimeUtc": "2018-10-14T13:26:56.8254719Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0961008Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4477219Z",
       "fileCount": 51,
       "fileSize": 0
     },
@@ -2842,7 +2827,7 @@
       "status": 1,
       "timestamp": "2019-03-21T23:11:28.3956301Z",
       "lastWriteTimeUtc": "2019-03-21T22:55:58.141209Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0961008Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4477219Z",
       "fileCount": 1,
       "fileSize": 112130
     },
@@ -2857,46 +2842,17 @@
       "status": 1,
       "timestamp": "2019-04-07T20:02:33.807262Z",
       "lastWriteTimeUtc": "2019-04-07T20:02:05.6181894Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0961008Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4477219Z",
       "fileCount": 1,
       "fileSize": 133234
     },
     {
-      "folderName": "Decocraft-2.6.2_1.12.2.jar",
-      "fingerprint": 2005757757,
-      "fileDateHash": 2656349014,
-      "sectionID": 6,
-      "individualFingerprints": [
-        2005757757
-      ],
-      "status": 1,
-      "timestamp": "2018-09-27T14:28:29.494635Z",
-      "lastWriteTimeUtc": "2018-09-26T13:41:17.3958386Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0971005Z",
-      "fileCount": 1,
-      "fileSize": 16304269
-    },
-    {
-      "folderName": "xnet-1.12-1.7.6.jar",
-      "fingerprint": 1960869677,
-      "fileDateHash": 1566545563,
-      "sectionID": 6,
-      "individualFingerprints": [
-        1960869677
-      ],
-      "status": 1,
-      "timestamp": "2019-01-15T23:31:39.6618718Z",
-      "lastWriteTimeUtc": "2019-01-15T21:06:37.357078Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0971005Z",
-      "fileCount": 1,
-      "fileSize": 490136
-    },
-    {
       "folderName": "New World---",
-      "fingerprint": 4042857551,
-      "fileDateHash": 4220230738,
+      "fingerprint": 3694597584,
+      "fileDateHash": 3925856387,
       "sectionID": 10,
       "individualFingerprints": [
+        89253205,
         162380324,
         188103123,
         232349390,
@@ -2904,6 +2860,7 @@
         232349390,
         232349390,
         281736825,
+        285869852,
         359459996,
         359459996,
         482304240,
@@ -2937,9 +2894,9 @@
         489458212,
         493877642,
         494048630,
-        563348340,
         609307178,
         640549859,
+        699578116,
         755737027,
         758054953,
         758054953,
@@ -3016,18 +2973,18 @@
         857138164,
         862878015,
         913716336,
-        1004822297,
         1039846587,
         1068447471,
         1068447471,
+        1081757981,
+        1120216158,
         1188471276,
         1239883630,
         1254400901,
         1254400901,
-        1273358882,
         1327368365,
         1349454912,
-        1363247328,
+        1372726032,
         1398948019,
         1400600785,
         1413126885,
@@ -3075,14 +3032,18 @@
         1669137588,
         1700811538,
         1703815151,
+        1730094669,
+        1730094669,
+        1730094669,
+        1730094669,
         1790549620,
         1795008697,
+        1873415062,
         1951635313,
         2006003091,
         2039760382,
-        2052706587,
+        2050937773,
         2109902643,
-        2140741522,
         2154005147,
         2155785570,
         2155785570,
@@ -3094,33 +3055,31 @@
         2266790850,
         2325125830,
         2329593959,
+        2402934170,
         2430003878,
+        2513584267,
         2619784979,
+        2659130807,
         2699624886,
+        2701053599,
         2713900992,
         2713900992,
         2713900992,
-        2713900992,
-        2713900992,
-        2713900992,
-        2713900992,
-        2759568384,
         2811687351,
-        2881738330,
         2962316391,
         2982407331,
-        3027180478,
+        3000688321,
         3028428630,
         3028428630,
         3029036527,
         3098803565,
         3134755400,
         3144597196,
-        3224219448,
         3246348693,
         3351669562,
         3356247750,
-        3479296777,
+        3440710421,
+        3483674727,
         3489913928,
         3553861632,
         3553861632,
@@ -3160,17 +3119,14 @@
         3553861632,
         3553861632,
         3582932549,
-        3667181829,
+        3649920577,
         3678728655,
-        3766027041,
         3771282984,
         3771282984,
         3771282984,
         3802535821,
         3804305111,
-        3834738283,
         3861216518,
-        3897166115,
         3903531766,
         3903531766,
         3903531766,
@@ -3210,11 +3166,41 @@
         4287276362
       ],
       "status": 1,
-      "timestamp": "2019-06-13T10:49:38.6789219Z",
-      "lastWriteTimeUtc": "2019-06-12T13:44:53.1587042Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0971005Z",
+      "timestamp": "2019-06-17T18:47:37.7967454Z",
+      "lastWriteTimeUtc": "2019-06-16T21:04:32.0438468Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4477219Z",
       "fileCount": 58,
       "fileSize": 0
+    },
+    {
+      "folderName": "Decocraft-2.6.2_1.12.2.jar",
+      "fingerprint": 2005757757,
+      "fileDateHash": 2656349014,
+      "sectionID": 6,
+      "individualFingerprints": [
+        2005757757
+      ],
+      "status": 1,
+      "timestamp": "2018-09-27T14:28:29.494635Z",
+      "lastWriteTimeUtc": "2018-09-26T13:41:17.3958386Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4487218Z",
+      "fileCount": 1,
+      "fileSize": 16304269
+    },
+    {
+      "folderName": "xnet-1.12-1.7.6.jar",
+      "fingerprint": 1960869677,
+      "fileDateHash": 1566545563,
+      "sectionID": 6,
+      "individualFingerprints": [
+        1960869677
+      ],
+      "status": 1,
+      "timestamp": "2019-01-15T23:31:39.6618718Z",
+      "lastWriteTimeUtc": "2019-01-15T21:06:37.357078Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4487218Z",
+      "fileCount": 1,
+      "fileSize": 490136
     },
     {
       "folderName": "IvToolkit-1.3.3-1.12.jar",
@@ -3227,7 +3213,7 @@
       "status": 1,
       "timestamp": "2018-11-26T21:44:20.6321166Z",
       "lastWriteTimeUtc": "2018-11-19T18:22:03.8326553Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0971005Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4487218Z",
       "fileCount": 1,
       "fileSize": 455763
     },
@@ -3242,7 +3228,7 @@
       "status": 1,
       "timestamp": "2019-04-25T20:23:25.3259307Z",
       "lastWriteTimeUtc": "2019-04-25T18:14:16.7221285Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0981001Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4487218Z",
       "fileCount": 1,
       "fileSize": 761920
     },
@@ -3257,7 +3243,7 @@
       "status": 1,
       "timestamp": "2019-05-27T12:39:24.068707Z",
       "lastWriteTimeUtc": "2019-05-26T20:38:30.8992236Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0981001Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4497214Z",
       "fileCount": 1,
       "fileSize": 532040
     },
@@ -3272,7 +3258,7 @@
       "status": 1,
       "timestamp": "2019-03-15T21:11:34.1116253Z",
       "lastWriteTimeUtc": "2019-03-14T22:29:54.5914009Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0981001Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4497214Z",
       "fileCount": 1,
       "fileSize": 63035
     },
@@ -3287,9 +3273,24 @@
       "status": 1,
       "timestamp": "2019-04-18T21:15:57.4880357Z",
       "lastWriteTimeUtc": "2019-04-16T20:55:38.594474Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0990997Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4497214Z",
       "fileCount": 1,
       "fileSize": 104488
+    },
+    {
+      "folderName": "CD4017BE_lib-1.12.2-6.4.4.jar",
+      "fingerprint": 4190862560,
+      "fileDateHash": 2148867264,
+      "sectionID": 8,
+      "individualFingerprints": [
+        4190862560
+      ],
+      "status": 1,
+      "timestamp": "2019-06-17T18:54:21.0466036Z",
+      "lastWriteTimeUtc": "2019-06-17T18:50:42.5523039Z",
+      "queryTimestamp": "2019-06-17T18:54:22.0767781Z",
+      "fileCount": 1,
+      "fileSize": 564080
     },
     {
       "folderName": "tesla-core-lib-1.12.2-1.0.15.jar",
@@ -3302,7 +3303,7 @@
       "status": 1,
       "timestamp": "2018-09-11T17:04:49.4107835Z",
       "lastWriteTimeUtc": "2018-08-20T10:30:42.2799497Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0990997Z",
+      "queryTimestamp": "2019-06-17T18:47:39.450722Z",
       "fileCount": 1,
       "fileSize": 1140374
     },
@@ -3317,7 +3318,7 @@
       "status": 1,
       "timestamp": "2019-03-15T21:11:33.3936216Z",
       "lastWriteTimeUtc": "2019-03-15T00:08:51.5235934Z",
-      "queryTimestamp": "2019-06-16T17:07:26.0990997Z",
+      "queryTimestamp": "2019-06-17T18:47:39.450722Z",
       "fileCount": 1,
       "fileSize": 29229319
     },
@@ -3332,7 +3333,7 @@
       "status": 1,
       "timestamp": "2019-05-02T11:32:56.598819Z",
       "lastWriteTimeUtc": "2019-05-02T11:09:59.4109662Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1000995Z",
+      "queryTimestamp": "2019-06-17T18:47:39.450722Z",
       "fileCount": 1,
       "fileSize": 119062
     },
@@ -3347,7 +3348,7 @@
       "status": 1,
       "timestamp": "2019-05-06T17:40:18.3561237Z",
       "lastWriteTimeUtc": "2019-05-06T13:30:08.2810487Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1000995Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4517214Z",
       "fileCount": 1,
       "fileSize": 1682421
     },
@@ -3362,9 +3363,24 @@
       "status": 1,
       "timestamp": "2019-02-20T20:36:11.8431038Z",
       "lastWriteTimeUtc": "2019-02-19T21:33:52.1561466Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1000995Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4517214Z",
       "fileCount": 1,
       "fileSize": 105356
+    },
+    {
+      "folderName": "Atum-1.12.2-2.0.10.jar",
+      "fingerprint": 1579601108,
+      "fileDateHash": 3700795976,
+      "sectionID": 8,
+      "individualFingerprints": [
+        1579601108
+      ],
+      "status": 1,
+      "timestamp": "2019-06-17T18:54:21.0336077Z",
+      "lastWriteTimeUtc": "2019-06-17T18:50:45.9207413Z",
+      "queryTimestamp": "2019-06-17T18:54:22.0787773Z",
+      "fileCount": 1,
+      "fileSize": 2678247
     },
     {
       "folderName": "modtweaker-4.0.17.jar",
@@ -3377,7 +3393,7 @@
       "status": 1,
       "timestamp": "2019-04-07T20:00:12.0211632Z",
       "lastWriteTimeUtc": "2019-03-31T20:25:41.3680135Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1010991Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4517214Z",
       "fileCount": 1,
       "fileSize": 447874
     },
@@ -3392,7 +3408,7 @@
       "status": 1,
       "timestamp": "2019-03-15T21:11:34.1576107Z",
       "lastWriteTimeUtc": "2019-03-14T22:30:04.1928587Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1010991Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4517214Z",
       "fileCount": 1,
       "fileSize": 263529
     },
@@ -3407,7 +3423,7 @@
       "status": 1,
       "timestamp": "2018-08-22T10:07:25.9594254Z",
       "lastWriteTimeUtc": "2018-08-20T10:29:35.6620741Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1010991Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4527215Z",
       "fileCount": 1,
       "fileSize": 26034
     },
@@ -3422,7 +3438,7 @@
       "status": 1,
       "timestamp": "2019-06-11T16:38:28.7904537Z",
       "lastWriteTimeUtc": "2019-06-11T16:30:44.1086094Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1010991Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4527215Z",
       "fileCount": 1,
       "fileSize": 737407
     },
@@ -3437,7 +3453,7 @@
       "status": 1,
       "timestamp": "2019-06-16T17:07:23.2984855Z",
       "lastWriteTimeUtc": "2019-06-16T16:50:07.0119901Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1020989Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4527215Z",
       "fileCount": 1,
       "fileSize": 619611
     },
@@ -3452,7 +3468,7 @@
       "status": 1,
       "timestamp": "2019-03-28T16:08:49.5267405Z",
       "lastWriteTimeUtc": "2019-03-28T16:03:23.9543077Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1020989Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4537204Z",
       "fileCount": 1,
       "fileSize": 882483
     },
@@ -3467,7 +3483,7 @@
       "status": 1,
       "timestamp": "2019-04-23T19:27:43.7416591Z",
       "lastWriteTimeUtc": "2019-04-22T13:11:18.6737297Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1020989Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4537204Z",
       "fileCount": 1,
       "fileSize": 639522
     },
@@ -3482,7 +3498,7 @@
       "status": 1,
       "timestamp": "2019-04-14T20:59:46.7635289Z",
       "lastWriteTimeUtc": "2019-04-14T15:52:25.6050416Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1030984Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4537204Z",
       "fileCount": 1,
       "fileSize": 14129163
     },
@@ -3497,7 +3513,7 @@
       "status": 1,
       "timestamp": "2019-04-25T13:20:28.7383935Z",
       "lastWriteTimeUtc": "2019-04-25T12:35:44.8667289Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1030984Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4537204Z",
       "fileCount": 1,
       "fileSize": 1128295
     },
@@ -3512,7 +3528,7 @@
       "status": 1,
       "timestamp": "2019-05-02T11:32:56.569828Z",
       "lastWriteTimeUtc": "2019-05-02T11:09:00.3049278Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1030984Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4547198Z",
       "fileCount": 1,
       "fileSize": 84159
     },
@@ -3527,7 +3543,7 @@
       "status": 1,
       "timestamp": "2019-06-11T16:38:28.7074805Z",
       "lastWriteTimeUtc": "2019-06-11T16:30:09.8396094Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1030984Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4547198Z",
       "fileCount": 1,
       "fileSize": 685028
     },
@@ -3542,7 +3558,7 @@
       "status": 1,
       "timestamp": "2018-09-23T15:49:27.0535804Z",
       "lastWriteTimeUtc": "2018-09-23T15:06:58.5600174Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1040981Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4547198Z",
       "fileCount": 1,
       "fileSize": 4310011
     },
@@ -3557,9 +3573,24 @@
       "status": 1,
       "timestamp": "2019-05-28T18:25:14.7400228Z",
       "lastWriteTimeUtc": "2019-05-27T18:50:53.5910898Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1040981Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4547198Z",
       "fileCount": 1,
       "fileSize": 422786
+    },
+    {
+      "folderName": "TheBetweenlands-3.4.9-universal.jar",
+      "fingerprint": 3221314708,
+      "fileDateHash": 1251479979,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3221314708
+      ],
+      "status": 1,
+      "timestamp": "2019-06-17T18:54:21.054601Z",
+      "lastWriteTimeUtc": "2019-06-17T18:50:29.7648598Z",
+      "queryTimestamp": "2019-06-17T18:54:22.0827763Z",
+      "fileCount": 1,
+      "fileSize": 80712403
     },
     {
       "folderName": "mekanica-tools-1.12.2-1.2.0.jar",
@@ -3572,7 +3603,7 @@
       "status": 1,
       "timestamp": "2019-04-07T20:02:33.6932982Z",
       "lastWriteTimeUtc": "2019-04-07T20:01:37.2381783Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1040981Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4557194Z",
       "fileCount": 1,
       "fileSize": 165031
     },
@@ -3587,7 +3618,7 @@
       "status": 1,
       "timestamp": "2018-10-15T12:25:17.879121Z",
       "lastWriteTimeUtc": "2018-10-14T13:28:52.1994653Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1040981Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4557194Z",
       "fileCount": 1,
       "fileSize": 44033
     },
@@ -3602,7 +3633,7 @@
       "status": 1,
       "timestamp": "2019-05-27T12:39:24.1046955Z",
       "lastWriteTimeUtc": "2019-05-27T12:28:07.6412703Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1050975Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4567191Z",
       "fileCount": 1,
       "fileSize": 86772
     },
@@ -3617,7 +3648,7 @@
       "status": 1,
       "timestamp": "2019-03-15T21:11:35.8526748Z",
       "lastWriteTimeUtc": "2019-03-14T22:30:50.0758997Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1050975Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4567191Z",
       "fileCount": 1,
       "fileSize": 133848
     },
@@ -3632,7 +3663,7 @@
       "status": 1,
       "timestamp": "2019-05-27T12:39:24.0926994Z",
       "lastWriteTimeUtc": "2019-05-21T21:43:16.6104517Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1050975Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4567191Z",
       "fileCount": 1,
       "fileSize": 843486
     },
@@ -3647,7 +3678,7 @@
       "status": 1,
       "timestamp": "2019-04-07T20:00:11.5283205Z",
       "lastWriteTimeUtc": "2019-03-31T20:13:32.5359067Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1060972Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4567191Z",
       "fileCount": 1,
       "fileSize": 352040
     },
@@ -3662,7 +3693,7 @@
       "status": 1,
       "timestamp": "2019-03-30T23:02:35.5039328Z",
       "lastWriteTimeUtc": "2019-03-30T22:28:19.7912476Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1060972Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4577191Z",
       "fileCount": 1,
       "fileSize": 2213864
     },
@@ -3677,7 +3708,7 @@
       "status": 1,
       "timestamp": "2019-04-07T20:00:12.0481541Z",
       "lastWriteTimeUtc": "2019-03-31T20:29:27.3748814Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1060972Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4577191Z",
       "fileCount": 1,
       "fileSize": 3997455
     },
@@ -3915,7 +3946,7 @@
       "status": 1,
       "timestamp": "2019-02-24T18:51:58.5735329Z",
       "lastWriteTimeUtc": "2019-02-24T18:44:53.40679Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1060972Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4577191Z",
       "fileCount": 45,
       "fileSize": 0
     },
@@ -4183,7 +4214,7 @@
       "status": 1,
       "timestamp": "2018-08-26T19:26:43.4707967Z",
       "lastWriteTimeUtc": "2018-08-26T19:25:36.139669Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1070975Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4587189Z",
       "fileCount": 42,
       "fileSize": 0
     },
@@ -4198,24 +4229,9 @@
       "status": 1,
       "timestamp": "2019-06-16T17:07:23.3114813Z",
       "lastWriteTimeUtc": "2019-06-13T13:27:06.0048387Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1070975Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4587189Z",
       "fileCount": 1,
       "fileSize": 22673033
-    },
-    {
-      "folderName": "LambdaLib2-0.1.8.jar",
-      "fingerprint": 1311494388,
-      "fileDateHash": 2783627662,
-      "sectionID": 6,
-      "individualFingerprints": [
-        1311494388
-      ],
-      "status": 1,
-      "timestamp": "2019-03-15T21:11:36.2595447Z",
-      "lastWriteTimeUtc": "2019-03-15T00:08:45.7029338Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1070975Z",
-      "fileCount": 1,
-      "fileSize": 522369
     },
     {
       "folderName": "astralsorcery-1.12.2-1.10.17.jar",
@@ -4228,7 +4244,7 @@
       "status": 1,
       "timestamp": "2019-04-20T23:22:12.1053744Z",
       "lastWriteTimeUtc": "2019-04-20T20:57:22.7417635Z",
-      "queryTimestamp": "2019-06-16T17:07:26.108097Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4587189Z",
       "fileCount": 1,
       "fileSize": 24925036
     },
@@ -4243,7 +4259,7 @@
       "status": 1,
       "timestamp": "2019-04-07T20:02:33.3014234Z",
       "lastWriteTimeUtc": "2019-04-07T20:00:50.5629619Z",
-      "queryTimestamp": "2019-06-16T17:07:26.108097Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4587189Z",
       "fileCount": 1,
       "fileSize": 509114
     },
@@ -4258,7 +4274,7 @@
       "status": 1,
       "timestamp": "2019-04-11T15:39:19.0804941Z",
       "lastWriteTimeUtc": "2019-04-11T14:07:27.20348Z",
-      "queryTimestamp": "2019-06-16T17:07:26.108097Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4597182Z",
       "fileCount": 1,
       "fileSize": 21603
     },
@@ -4273,7 +4289,7 @@
       "status": 1,
       "timestamp": "2019-04-16T14:58:11.1092806Z",
       "lastWriteTimeUtc": "2019-04-15T20:44:20.4506801Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1090964Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4597182Z",
       "fileCount": 1,
       "fileSize": 18220530
     },
@@ -4288,7 +4304,7 @@
       "status": 1,
       "timestamp": "2019-04-14T20:59:47.0034522Z",
       "lastWriteTimeUtc": "2019-04-14T16:25:16.9900413Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1090964Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4597182Z",
       "fileCount": 1,
       "fileSize": 1479104
     },
@@ -4303,7 +4319,7 @@
       "status": 1,
       "timestamp": "2019-04-16T14:58:10.9215811Z",
       "lastWriteTimeUtc": "2019-04-15T20:43:57.0465778Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1090964Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4607182Z",
       "fileCount": 1,
       "fileSize": 12259178
     },
@@ -4318,7 +4334,7 @@
       "status": 1,
       "timestamp": "2019-05-09T21:40:35.6913903Z",
       "lastWriteTimeUtc": "2019-05-09T20:31:06.8612662Z",
-      "queryTimestamp": "2019-06-16T17:07:26.110096Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4607182Z",
       "fileCount": 1,
       "fileSize": 247172
     },
@@ -4333,7 +4349,7 @@
       "status": 1,
       "timestamp": "2019-06-03T10:40:58.7531112Z",
       "lastWriteTimeUtc": "2019-06-03T10:35:50.1984492Z",
-      "queryTimestamp": "2019-06-16T17:07:26.110096Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4607182Z",
       "fileCount": 1,
       "fileSize": 142671
     },
@@ -4348,7 +4364,7 @@
       "status": 1,
       "timestamp": "2019-04-07T20:02:33.7542788Z",
       "lastWriteTimeUtc": "2019-04-07T20:01:51.3532118Z",
-      "queryTimestamp": "2019-06-16T17:07:26.110096Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4607182Z",
       "fileCount": 1,
       "fileSize": 9254699
     },
@@ -4363,7 +4379,7 @@
       "status": 1,
       "timestamp": "2019-04-25T13:20:28.7473903Z",
       "lastWriteTimeUtc": "2019-04-25T12:35:50.1275702Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1110957Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4617176Z",
       "fileCount": 1,
       "fileSize": 422863
     },
@@ -4378,7 +4394,7 @@
       "status": 1,
       "timestamp": "2019-04-14T20:59:46.9854583Z",
       "lastWriteTimeUtc": "2019-04-14T15:56:42.8720511Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1110957Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4617176Z",
       "fileCount": 1,
       "fileSize": 1081692
     },
@@ -4393,7 +4409,7 @@
       "status": 1,
       "timestamp": "2019-01-23T09:22:41.3651666Z",
       "lastWriteTimeUtc": "2019-01-22T21:58:48.1920125Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1110957Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4617176Z",
       "fileCount": 1,
       "fileSize": 25436097
     },
@@ -4408,7 +4424,7 @@
       "status": 1,
       "timestamp": "2018-09-09T20:49:31.577252Z",
       "lastWriteTimeUtc": "2018-08-30T10:37:02.2718397Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1110957Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4627173Z",
       "fileCount": 1,
       "fileSize": 210042
     },
@@ -4423,7 +4439,7 @@
       "status": 1,
       "timestamp": "2019-04-14T20:59:47.001453Z",
       "lastWriteTimeUtc": "2019-04-14T15:59:45.8970645Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1120954Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4627173Z",
       "fileCount": 1,
       "fileSize": 244342
     },
@@ -4438,7 +4454,7 @@
       "status": 1,
       "timestamp": "2019-05-07T11:38:37.0728286Z",
       "lastWriteTimeUtc": "2019-05-07T09:15:07.2356845Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1120954Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4627173Z",
       "fileCount": 1,
       "fileSize": 63867
     },
@@ -4453,7 +4469,7 @@
       "status": 1,
       "timestamp": "2019-03-28T15:34:27.7731642Z",
       "lastWriteTimeUtc": "2019-03-28T13:37:39.3554276Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1120954Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4627173Z",
       "fileCount": 1,
       "fileSize": 12559819
     },
@@ -4468,7 +4484,7 @@
       "status": 1,
       "timestamp": "2018-08-26T16:41:28.1268178Z",
       "lastWriteTimeUtc": "2018-08-20T10:30:25.0359203Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1120954Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4637171Z",
       "fileCount": 1,
       "fileSize": 155196
     },
@@ -4483,7 +4499,7 @@
       "status": 1,
       "timestamp": "2018-09-23T15:06:05.2857755Z",
       "lastWriteTimeUtc": "2018-09-19T17:47:14.8281138Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1130951Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4637171Z",
       "fileCount": 1,
       "fileSize": 7296016
     },
@@ -4498,7 +4514,7 @@
       "status": 1,
       "timestamp": "2019-02-19T21:33:25.1921982Z",
       "lastWriteTimeUtc": "2019-02-13T17:05:31.5672932Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1130951Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4637171Z",
       "fileCount": 1,
       "fileSize": 2901691
     },
@@ -4513,7 +4529,7 @@
       "status": 1,
       "timestamp": "2018-11-04T23:29:03.0586686Z",
       "lastWriteTimeUtc": "2018-11-04T20:52:01.7941289Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1130951Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4637171Z",
       "fileCount": 1,
       "fileSize": 31806
     },
@@ -4528,7 +4544,7 @@
       "status": 1,
       "timestamp": "2019-05-27T12:39:24.8134677Z",
       "lastWriteTimeUtc": "2019-05-26T20:38:55.994264Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1140948Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4647168Z",
       "fileCount": 1,
       "fileSize": 2312713
     },
@@ -4543,7 +4559,7 @@
       "status": 1,
       "timestamp": "2019-04-25T12:35:32.9989668Z",
       "lastWriteTimeUtc": "2019-04-24T22:39:40.4741054Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1140948Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4647168Z",
       "fileCount": 1,
       "fileSize": 606930
     },
@@ -4558,7 +4574,7 @@
       "status": 1,
       "timestamp": "2019-01-15T23:31:39.6218841Z",
       "lastWriteTimeUtc": "2019-01-15T21:06:14.0389935Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1140948Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4657167Z",
       "fileCount": 1,
       "fileSize": 493473
     },
@@ -4573,7 +4589,7 @@
       "status": 1,
       "timestamp": "2019-04-21T20:30:55.0188062Z",
       "lastWriteTimeUtc": "2018-08-20T11:13:36.9037472Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1150947Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4657167Z",
       "fileCount": 1,
       "fileSize": 31082
     },
@@ -4588,7 +4604,7 @@
       "status": 1,
       "timestamp": "2019-05-02T11:32:57.8039392Z",
       "lastWriteTimeUtc": "2019-05-02T11:12:04.5932843Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1150947Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4657167Z",
       "fileCount": 1,
       "fileSize": 495985
     },
@@ -4603,7 +4619,7 @@
       "status": 1,
       "timestamp": "2019-06-16T17:07:23.4294439Z",
       "lastWriteTimeUtc": "2019-06-16T16:50:32.8363479Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1150947Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4657167Z",
       "fileCount": 1,
       "fileSize": 120492
     },
@@ -4618,7 +4634,7 @@
       "status": 1,
       "timestamp": "2019-03-28T15:34:28.6713831Z",
       "lastWriteTimeUtc": "2019-03-28T13:37:43.1072378Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1150947Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4667168Z",
       "fileCount": 1,
       "fileSize": 733580
     },
@@ -4633,7 +4649,7 @@
       "status": 1,
       "timestamp": "2019-03-15T21:11:35.9896312Z",
       "lastWriteTimeUtc": "2019-03-14T22:31:03.3978373Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1160946Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4667168Z",
       "fileCount": 1,
       "fileSize": 647239
     },
@@ -4648,7 +4664,7 @@
       "status": 1,
       "timestamp": "2019-06-11T16:38:28.8004505Z",
       "lastWriteTimeUtc": "2019-06-11T16:30:50.5685359Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1160946Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4667168Z",
       "fileCount": 1,
       "fileSize": 10522
     },
@@ -4663,7 +4679,7 @@
       "status": 1,
       "timestamp": "2019-01-07T21:28:24.1840363Z",
       "lastWriteTimeUtc": "2019-01-07T21:20:36.587327Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1160946Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4667168Z",
       "fileCount": 1,
       "fileSize": 274895
     },
@@ -4678,7 +4694,7 @@
       "status": 1,
       "timestamp": "2018-11-28T21:44:49.8060639Z",
       "lastWriteTimeUtc": "2018-11-28T19:14:24.4847811Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1160946Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4677161Z",
       "fileCount": 1,
       "fileSize": 43430
     },
@@ -4693,7 +4709,7 @@
       "status": 1,
       "timestamp": "2019-05-27T12:39:24.0867012Z",
       "lastWriteTimeUtc": "2019-05-26T20:38:36.7793609Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1170938Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4677161Z",
       "fileCount": 1,
       "fileSize": 139609
     },
@@ -4916,7 +4932,7 @@
       "status": 1,
       "timestamp": "2019-04-25T15:32:20.0412357Z",
       "lastWriteTimeUtc": "2019-04-25T13:31:39.6317159Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1170938Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4677161Z",
       "fileCount": 46,
       "fileSize": 0
     },
@@ -4931,7 +4947,7 @@
       "status": 1,
       "timestamp": "2019-04-25T20:23:25.3239316Z",
       "lastWriteTimeUtc": "2019-04-25T20:11:02.2428123Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1170938Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4687156Z",
       "fileCount": 1,
       "fileSize": 336150
     },
@@ -4946,7 +4962,7 @@
       "status": 1,
       "timestamp": "2019-02-20T20:36:11.9570675Z",
       "lastWriteTimeUtc": "2019-02-19T21:36:45.6706398Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1180935Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4687156Z",
       "fileCount": 1,
       "fileSize": 6542920
     },
@@ -4961,7 +4977,7 @@
       "status": 1,
       "timestamp": "2018-09-16T20:35:11.8150238Z",
       "lastWriteTimeUtc": "2018-08-20T10:33:45.6152826Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1180935Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4687156Z",
       "fileCount": 1,
       "fileSize": 136082
     },
@@ -4976,7 +4992,7 @@
       "status": 1,
       "timestamp": "2019-06-16T17:07:23.2924874Z",
       "lastWriteTimeUtc": "2019-06-16T16:50:01.1158667Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1180935Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4697154Z",
       "fileCount": 1,
       "fileSize": 1368377
     },
@@ -4991,7 +5007,7 @@
       "status": 1,
       "timestamp": "2019-03-15T21:11:36.8677343Z",
       "lastWriteTimeUtc": "2019-03-14T22:31:49.2541824Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1190931Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4697154Z",
       "fileCount": 1,
       "fileSize": 631457
     },
@@ -5006,7 +5022,7 @@
       "status": 1,
       "timestamp": "2019-05-19T20:31:49.4105734Z",
       "lastWriteTimeUtc": "2019-05-19T18:17:55.5879334Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1190931Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4697154Z",
       "fileCount": 1,
       "fileSize": 879720
     },
@@ -5021,7 +5037,7 @@
       "status": 1,
       "timestamp": "2019-03-28T15:34:27.7611682Z",
       "lastWriteTimeUtc": "2019-03-28T13:37:07.0716585Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1190931Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4707152Z",
       "fileCount": 1,
       "fileSize": 1001848
     },
@@ -5036,9 +5052,24 @@
       "status": 1,
       "timestamp": "2019-05-28T18:25:14.7420223Z",
       "lastWriteTimeUtc": "2019-05-27T16:43:49.8381115Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1190931Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4707152Z",
       "fileCount": 1,
       "fileSize": 42092
+    },
+    {
+      "folderName": "p455w0rdslib-1.12.2-2.2.134.jar",
+      "fingerprint": 3362492344,
+      "fileDateHash": 973531487,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3362492344
+      ],
+      "status": 1,
+      "timestamp": "2019-06-17T18:54:21.0496025Z",
+      "lastWriteTimeUtc": "2019-06-17T18:51:49.6970003Z",
+      "queryTimestamp": "2019-06-17T18:54:22.0977713Z",
+      "fileCount": 1,
+      "fileSize": 380729
     },
     {
       "folderName": "LagGoggles-FORGE-1.12.2-4.3-HOTFIX.jar",
@@ -5051,7 +5082,7 @@
       "status": 1,
       "timestamp": "2019-04-25T12:35:32.6245829Z",
       "lastWriteTimeUtc": "2019-04-24T22:39:54.1327464Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1200931Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4707152Z",
       "fileCount": 1,
       "fileSize": 1173698
     },
@@ -5066,7 +5097,7 @@
       "status": 1,
       "timestamp": "2018-09-12T14:33:58.053336Z",
       "lastWriteTimeUtc": "2018-09-12T14:25:35.405439Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1200931Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4707152Z",
       "fileCount": 1,
       "fileSize": 398642
     },
@@ -5081,7 +5112,7 @@
       "status": 1,
       "timestamp": "2019-06-11T16:38:28.811447Z",
       "lastWriteTimeUtc": "2019-06-11T16:31:12.124617Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1200931Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4717147Z",
       "fileCount": 1,
       "fileSize": 179849
     },
@@ -5096,7 +5127,7 @@
       "status": 1,
       "timestamp": "2019-06-11T23:40:03.7880593Z",
       "lastWriteTimeUtc": "2019-06-11T21:55:04.8249123Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1210927Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4717147Z",
       "fileCount": 1,
       "fileSize": 70745
     },
@@ -5111,7 +5142,7 @@
       "status": 1,
       "timestamp": "2019-03-17T18:53:50.9482331Z",
       "lastWriteTimeUtc": "2019-03-17T18:52:54.6154139Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1210927Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4717147Z",
       "fileCount": 1,
       "fileSize": 880001
     },
@@ -5126,7 +5157,7 @@
       "status": 1,
       "timestamp": "2019-04-11T15:39:19.028511Z",
       "lastWriteTimeUtc": "2019-04-11T14:06:02.8506838Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1210927Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4727146Z",
       "fileCount": 1,
       "fileSize": 896497
     },
@@ -5141,7 +5172,7 @@
       "status": 1,
       "timestamp": "2019-05-19T20:31:49.4105734Z",
       "lastWriteTimeUtc": "2019-05-19T19:19:23.7505654Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1220924Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4727146Z",
       "fileCount": 1,
       "fileSize": 5744
     },
@@ -5156,7 +5187,7 @@
       "status": 1,
       "timestamp": "2019-03-30T23:02:35.515929Z",
       "lastWriteTimeUtc": "2019-03-30T22:55:53.089134Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1220924Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4727146Z",
       "fileCount": 1,
       "fileSize": 841425
     },
@@ -5171,7 +5202,7 @@
       "status": 1,
       "timestamp": "2019-05-28T18:25:14.6030672Z",
       "lastWriteTimeUtc": "2019-05-28T18:23:59.7789792Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1220924Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4737149Z",
       "fileCount": 1,
       "fileSize": 24931617
     },
@@ -5186,7 +5217,7 @@
       "status": 1,
       "timestamp": "2018-09-16T21:33:08.6350126Z",
       "lastWriteTimeUtc": "2018-08-20T10:52:56.2480448Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1230918Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4737149Z",
       "fileCount": 1,
       "fileSize": 225142
     },
@@ -5201,7 +5232,7 @@
       "status": 1,
       "timestamp": "2019-03-28T15:34:27.2763227Z",
       "lastWriteTimeUtc": "2019-03-28T13:36:54.8415331Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1230918Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4737149Z",
       "fileCount": 1,
       "fileSize": 622475
     },
@@ -5216,7 +5247,7 @@
       "status": 1,
       "timestamp": "2018-09-10T17:15:10.3963247Z",
       "lastWriteTimeUtc": "2018-08-20T10:41:32.2933698Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1230918Z",
+      "queryTimestamp": "2019-06-17T18:47:39.474714Z",
       "fileCount": 1,
       "fileSize": 449444
     },
@@ -5231,7 +5262,7 @@
       "status": 1,
       "timestamp": "2019-05-02T11:32:57.5250278Z",
       "lastWriteTimeUtc": "2019-05-02T11:10:30.8713047Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1230918Z",
+      "queryTimestamp": "2019-06-17T18:47:39.474714Z",
       "fileCount": 1,
       "fileSize": 9323596
     },
@@ -5246,7 +5277,7 @@
       "status": 1,
       "timestamp": "2019-05-06T17:40:18.3261325Z",
       "lastWriteTimeUtc": "2019-05-06T13:29:54.5844111Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1240918Z",
+      "queryTimestamp": "2019-06-17T18:47:39.474714Z",
       "fileCount": 1,
       "fileSize": 1034715
     },
@@ -5261,7 +5292,7 @@
       "status": 1,
       "timestamp": "2019-04-11T15:39:19.0325091Z",
       "lastWriteTimeUtc": "2019-04-11T14:06:12.1177501Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1240918Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4757137Z",
       "fileCount": 1,
       "fileSize": 5697014
     },
@@ -5276,7 +5307,7 @@
       "status": 1,
       "timestamp": "2019-05-13T15:10:28.5927345Z",
       "lastWriteTimeUtc": "2019-05-13T12:57:58.541594Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1240918Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4757137Z",
       "fileCount": 1,
       "fileSize": 899157
     },
@@ -5291,7 +5322,7 @@
       "status": 1,
       "timestamp": "2019-03-28T15:34:27.8471399Z",
       "lastWriteTimeUtc": "2019-03-28T13:37:08.0733381Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1250911Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4757137Z",
       "fileCount": 1,
       "fileSize": 63844
     },
@@ -5306,7 +5337,7 @@
       "status": 1,
       "timestamp": "2018-08-20T19:53:43.3947363Z",
       "lastWriteTimeUtc": "2018-08-20T11:02:21.9041877Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1250911Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4767133Z",
       "fileCount": 1,
       "fileSize": 66307
     },
@@ -5321,7 +5352,7 @@
       "status": 1,
       "timestamp": "2019-03-28T15:34:27.7101838Z",
       "lastWriteTimeUtc": "2019-03-28T13:37:05.6496085Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1250911Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4767133Z",
       "fileCount": 1,
       "fileSize": 486907
     },
@@ -5336,24 +5367,9 @@
       "status": 1,
       "timestamp": "2019-02-06T20:55:48.8666321Z",
       "lastWriteTimeUtc": "2019-02-06T20:53:08.2285614Z",
-      "queryTimestamp": "2019-06-16T17:07:26.126091Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4767133Z",
       "fileCount": 1,
       "fileSize": 844166
-    },
-    {
-      "folderName": "Bookshelf-1.12.2-2.3.584.jar",
-      "fingerprint": 244274784,
-      "fileDateHash": 3564932955,
-      "sectionID": 8,
-      "individualFingerprints": [
-        244274784
-      ],
-      "status": 1,
-      "timestamp": "2019-06-16T17:07:23.2884891Z",
-      "lastWriteTimeUtc": "2019-06-13T10:49:50.0788732Z",
-      "queryTimestamp": "2019-06-16T17:07:26.126091Z",
-      "fileCount": 1,
-      "fileSize": 266009
     },
     {
       "folderName": "MouseTweaks-2.10-mc1.12.2.jar",
@@ -5366,9 +5382,24 @@
       "status": 1,
       "timestamp": "2019-02-19T21:33:25.0832338Z",
       "lastWriteTimeUtc": "2019-02-13T17:01:12.8454969Z",
-      "queryTimestamp": "2019-06-16T17:07:26.126091Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4767133Z",
       "fileCount": 1,
       "fileSize": 75170
+    },
+    {
+      "folderName": "Bookshelf-1.12.2-2.3.584.jar",
+      "fingerprint": 244274784,
+      "fileDateHash": 3564932955,
+      "sectionID": 8,
+      "individualFingerprints": [
+        244274784
+      ],
+      "status": 1,
+      "timestamp": "2019-06-16T17:07:23.2884891Z",
+      "lastWriteTimeUtc": "2019-06-13T10:49:50.0788732Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4777126Z",
+      "fileCount": 1,
+      "fileSize": 266009
     },
     {
       "folderName": "ThermalDynamics-1.12.2-2.5.5.21-universal.jar",
@@ -5381,7 +5412,7 @@
       "status": 1,
       "timestamp": "2019-05-27T12:39:24.345618Z",
       "lastWriteTimeUtc": "2019-05-26T20:38:52.8632578Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1270911Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4777126Z",
       "fileCount": 1,
       "fileSize": 762980
     },
@@ -5396,7 +5427,7 @@
       "status": 1,
       "timestamp": "2019-06-11T16:38:28.8004505Z",
       "lastWriteTimeUtc": "2019-06-05T23:26:17.4960675Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1270911Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4777126Z",
       "fileCount": 1,
       "fileSize": 121107
     },
@@ -5411,7 +5442,7 @@
       "status": 1,
       "timestamp": "2019-05-06T17:40:18.3651206Z",
       "lastWriteTimeUtc": "2019-05-06T13:30:26.3253021Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1270911Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4787122Z",
       "fileCount": 1,
       "fileSize": 21668
     },
@@ -5426,7 +5457,7 @@
       "status": 1,
       "timestamp": "2018-09-11T17:04:49.4317767Z",
       "lastWriteTimeUtc": "2018-08-20T10:39:50.2232331Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1270911Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4787122Z",
       "fileCount": 1,
       "fileSize": 63756
     },
@@ -5441,7 +5472,7 @@
       "status": 1,
       "timestamp": "2019-03-28T16:08:49.5317389Z",
       "lastWriteTimeUtc": "2019-03-20T12:31:47.6272558Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1280905Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4787122Z",
       "fileCount": 1,
       "fileSize": 7076645
     },
@@ -5456,7 +5487,7 @@
       "status": 1,
       "timestamp": "2018-11-28T19:12:51.5670498Z",
       "lastWriteTimeUtc": "2018-11-26T21:48:39.2120976Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1280905Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4787122Z",
       "fileCount": 1,
       "fileSize": 5124663
     },
@@ -5471,7 +5502,7 @@
       "status": 1,
       "timestamp": "2018-10-18T14:03:24.7445475Z",
       "lastWriteTimeUtc": "2018-10-18T14:02:57.8731506Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1280905Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4797121Z",
       "fileCount": 1,
       "fileSize": 11360786
     },
@@ -5486,7 +5517,7 @@
       "status": 1,
       "timestamp": "2018-11-04T23:29:02.8387396Z",
       "lastWriteTimeUtc": "2018-11-04T20:50:39.7974253Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1280905Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4797121Z",
       "fileCount": 1,
       "fileSize": 1727216
     },
@@ -5501,7 +5532,7 @@
       "status": 1,
       "timestamp": "2018-09-11T19:28:09.9884006Z",
       "lastWriteTimeUtc": "2018-08-20T10:51:25.0469749Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1290898Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4797121Z",
       "fileCount": 1,
       "fileSize": 19322
     },
@@ -5516,7 +5547,7 @@
       "status": 1,
       "timestamp": "2019-05-28T22:58:49.8785009Z",
       "lastWriteTimeUtc": "2019-05-28T22:58:36.4658056Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1290898Z",
+      "queryTimestamp": "2019-06-17T18:47:39.480712Z",
       "fileCount": 1,
       "fileSize": 2177272
     },
@@ -5531,7 +5562,7 @@
       "status": 1,
       "timestamp": "2018-08-22T10:07:26.1743564Z",
       "lastWriteTimeUtc": "2018-08-20T10:46:15.2917012Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1290898Z",
+      "queryTimestamp": "2019-06-17T18:47:39.480712Z",
       "fileCount": 1,
       "fileSize": 42906
     },
@@ -5546,7 +5577,7 @@
       "status": 1,
       "timestamp": "2019-03-15T21:11:37.8726438Z",
       "lastWriteTimeUtc": "2019-03-14T22:31:59.6035819Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1300898Z",
+      "queryTimestamp": "2019-06-17T18:47:39.480712Z",
       "fileCount": 1,
       "fileSize": 465587
     },
@@ -5561,33 +5592,28 @@
       "status": 1,
       "timestamp": "2019-05-13T20:47:59.7997887Z",
       "lastWriteTimeUtc": "2019-05-13T19:26:14.6890113Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1300898Z",
+      "queryTimestamp": "2019-06-17T18:47:39.480712Z",
       "fileCount": 1,
       "fileSize": 78422
     },
     {
       "folderName": "Gameplay World",
-      "fingerprint": 2743278917,
-      "fileDateHash": 1524027402,
+      "fingerprint": 416444683,
+      "fileDateHash": 1555195253,
       "sectionID": 10,
       "individualFingerprints": [
-        21818778,
         45879398,
         111319679,
         126550563,
         150470549,
-        157749243,
         171558066,
+        186633409,
         188103123,
-        229594390,
         235291336,
         237396625,
         263356324,
         268196090,
-        301729708,
-        330332502,
         399140307,
-        457446178,
         489458212,
         489458212,
         489458212,
@@ -5612,12 +5638,13 @@
         489458212,
         489458212,
         493877642,
+        494931991,
         539765444,
+        573140555,
         575915155,
         588998185,
         624275536,
         645185117,
-        647274549,
         660721495,
         691331620,
         702840208,
@@ -5658,10 +5685,10 @@
         758054953,
         758054953,
         758054953,
+        758054953,
         765520201,
         769073367,
         769989780,
-        773448588,
         779739883,
         784742223,
         797150396,
@@ -5707,6 +5734,7 @@
         901382682,
         914565958,
         920019268,
+        939375496,
         943340938,
         948934899,
         957657704,
@@ -5747,6 +5775,7 @@
         1034511999,
         1034511999,
         1034511999,
+        1052851894,
         1068447471,
         1094142570,
         1109817779,
@@ -5763,17 +5792,16 @@
         1254828436,
         1265578228,
         1274539062,
-        1295073075,
         1312425758,
-        1325525266,
+        1322170405,
+        1323794249,
         1338067617,
         1340339810,
         1343646515,
         1349454912,
+        1356391631,
         1357359451,
-        1365835369,
         1377784913,
-        1394428534,
         1417684784,
         1444893181,
         1505869710,
@@ -5789,16 +5817,15 @@
         1540447798,
         1546461486,
         1586719623,
-        1586899516,
         1607633487,
         1627326833,
+        1631614494,
         1671096957,
         1699822111,
         1721637336,
         1769277480,
         1791029519,
         1802946310,
-        1812865154,
         1841975885,
         1875153467,
         1884864239,
@@ -5824,29 +5851,34 @@
         2188286689,
         2197090190,
         2202046158,
-        2214658566,
         2218632099,
         2236426166,
         2246982197,
+        2284153501,
         2287029048,
         2294401923,
         2322364373,
         2329593959,
         2335789138,
         2340259261,
+        2380713597,
+        2381808148,
         2409323968,
         2430003878,
         2430003878,
         2432517233,
         2448053126,
+        2453751366,
+        2480255107,
         2482061115,
+        2491589086,
         2501462159,
         2505004907,
         2533126648,
         2555533554,
-        2557098662,
         2619784979,
         2648543508,
+        2665925200,
         2683432851,
         2683830416,
         2691672680,
@@ -5855,15 +5887,18 @@
         2767614556,
         2787855678,
         2795110305,
+        2844769364,
         2845684718,
         2857089687,
+        2861815413,
         2891098767,
         2920516946,
         2920516946,
         2920516946,
         2937716921,
-        2988144514,
+        2947709006,
         2991101402,
+        2991147647,
         2995448625,
         3028428630,
         3028428630,
@@ -5874,16 +5909,13 @@
         3126629071,
         3134755400,
         3158240386,
+        3192917317,
         3246291423,
         3246932652,
         3255469635,
-        3260074232,
         3269786816,
         3271017772,
         3278097606,
-        3281557021,
-        3281557021,
-        3281557021,
         3281631387,
         3291375402,
         3296633098,
@@ -5891,10 +5923,8 @@
         3321902086,
         3322044290,
         3324933785,
-        3342213568,
         3372428752,
         3373865843,
-        3377020446,
         3384896261,
         3392661087,
         3402586374,
@@ -5905,9 +5935,7 @@
         3472198748,
         3472198748,
         3472198748,
-        3485483193,
         3494480209,
-        3528700547,
         3531464520,
         3546463252,
         3553861632,
@@ -5948,18 +5976,21 @@
         3553861632,
         3553861632,
         3556733623,
-        3557310705,
         3571211938,
         3582932549,
+        3599564643,
         3623878227,
         3625793254,
-        3625823111,
         3629301957,
         3629301957,
+        3633422578,
         3641523619,
         3659308713,
         3679606532,
         3681977405,
+        3705484994,
+        3705484994,
+        3705484994,
         3711209879,
         3717805389,
         3730316457,
@@ -5971,7 +6002,6 @@
         3771282984,
         3771282984,
         3786165365,
-        3798383171,
         3804305111,
         3830363595,
         3876853279,
@@ -5982,6 +6012,7 @@
         3957967905,
         3957967905,
         3961933008,
+        3993413382,
         3996104477,
         4006976643,
         4011514604,
@@ -5994,7 +6025,6 @@
         4109403879,
         4109403879,
         4109403879,
-        4119266876,
         4161930778,
         4190976656,
         4196134588,
@@ -6002,12 +6032,13 @@
         4222689312,
         4224327535,
         4245910612,
-        4264214306
+        4264214306,
+        4272091120
       ],
       "status": 1,
-      "timestamp": "2019-06-16T17:07:23.81932Z",
-      "lastWriteTimeUtc": "2019-06-13T18:50:56.0390229Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1300898Z",
+      "timestamp": "2019-06-17T18:47:36.0478001Z",
+      "lastWriteTimeUtc": "2019-06-16T21:59:57.4827558Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4817116Z",
       "fileCount": 59,
       "fileSize": 0
     },
@@ -6022,7 +6053,7 @@
       "status": 1,
       "timestamp": "2019-06-16T17:07:23.2704947Z",
       "lastWriteTimeUtc": "2019-06-16T16:49:51.3419609Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1300898Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4817116Z",
       "fileCount": 1,
       "fileSize": 3721563
     },
@@ -6037,7 +6068,7 @@
       "status": 1,
       "timestamp": "2019-03-19T14:25:51.1380055Z",
       "lastWriteTimeUtc": "2019-03-19T00:15:20.1342598Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1310894Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4817116Z",
       "fileCount": 1,
       "fileSize": 101036
     },
@@ -6052,7 +6083,7 @@
       "status": 1,
       "timestamp": "2019-04-25T13:20:28.752389Z",
       "lastWriteTimeUtc": "2019-04-25T12:35:59.8844913Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1310894Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4827113Z",
       "fileCount": 1,
       "fileSize": 1417090
     },
@@ -6067,24 +6098,9 @@
       "status": 1,
       "timestamp": "2018-08-27T10:14:01.9710401Z",
       "lastWriteTimeUtc": "2018-08-27T10:11:18.6916102Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1310894Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4827113Z",
       "fileCount": 1,
       "fileSize": 14693
-    },
-    {
-      "folderName": "mekanica-1.12.2-1.2.0.jar",
-      "fingerprint": 1089633965,
-      "fileDateHash": 1285301298,
-      "sectionID": 6,
-      "individualFingerprints": [
-        1089633965
-      ],
-      "status": 1,
-      "timestamp": "2019-04-07T20:02:33.3744003Z",
-      "lastWriteTimeUtc": "2019-04-07T20:01:32.1932779Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1310894Z",
-      "fileCount": 1,
-      "fileSize": 7826202
     },
     {
       "folderName": "ResourceLoader-MC1.12.1-1.5.3.jar",
@@ -6097,9 +6113,24 @@
       "status": 1,
       "timestamp": "2018-09-10T13:32:39.776898Z",
       "lastWriteTimeUtc": "2018-08-27T10:12:21.091872Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1320894Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4827113Z",
       "fileCount": 1,
       "fileSize": 16612
+    },
+    {
+      "folderName": "mekanica-1.12.2-1.2.0.jar",
+      "fingerprint": 1089633965,
+      "fileDateHash": 1285301298,
+      "sectionID": 6,
+      "individualFingerprints": [
+        1089633965
+      ],
+      "status": 1,
+      "timestamp": "2019-04-07T20:02:33.3744003Z",
+      "lastWriteTimeUtc": "2019-04-07T20:01:32.1932779Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4827113Z",
+      "fileCount": 1,
+      "fileSize": 7826202
     },
     {
       "folderName": "CraftTweaker2-1.12-4.1.17.jar",
@@ -6112,7 +6143,7 @@
       "status": 1,
       "timestamp": "2019-04-07T20:00:11.8132294Z",
       "lastWriteTimeUtc": "2019-03-31T20:13:35.6549203Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1320894Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4837111Z",
       "fileCount": 1,
       "fileSize": 1360499
     },
@@ -6127,7 +6158,7 @@
       "status": 1,
       "timestamp": "2019-04-20T23:22:12.2403313Z",
       "lastWriteTimeUtc": "2019-04-20T20:57:36.5029052Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1320894Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4837111Z",
       "fileCount": 1,
       "fileSize": 10558
     },
@@ -6142,7 +6173,7 @@
       "status": 1,
       "timestamp": "2019-05-06T17:40:18.3421274Z",
       "lastWriteTimeUtc": "2019-05-06T13:30:05.3439841Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1330893Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4837111Z",
       "fileCount": 1,
       "fileSize": 2895608
     },
@@ -6157,7 +6188,7 @@
       "status": 1,
       "timestamp": "2019-04-14T15:51:26.2223515Z",
       "lastWriteTimeUtc": "2019-03-28T13:37:00.1803408Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1330893Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4847113Z",
       "fileCount": 1,
       "fileSize": 981360
     },
@@ -6172,7 +6203,7 @@
       "status": 1,
       "timestamp": "2019-06-11T16:38:28.7944525Z",
       "lastWriteTimeUtc": "2019-06-05T23:09:42.8618694Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1330893Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4847113Z",
       "fileCount": 1,
       "fileSize": 19736
     },
@@ -6187,24 +6218,9 @@
       "status": 1,
       "timestamp": "2018-09-16T20:35:11.7200543Z",
       "lastWriteTimeUtc": "2018-08-20T10:51:36.4798485Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1330893Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4847113Z",
       "fileCount": 1,
       "fileSize": 247347
-    },
-    {
-      "folderName": "Avaritia-1.12.2-3.3.0.33-universal.jar",
-      "fingerprint": 2271638472,
-      "fileDateHash": 3613260380,
-      "sectionID": 6,
-      "individualFingerprints": [
-        2271638472
-      ],
-      "status": 1,
-      "timestamp": "2019-01-23T09:22:41.1462355Z",
-      "lastWriteTimeUtc": "2019-01-22T21:56:59.297796Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1340888Z",
-      "fileCount": 1,
-      "fileSize": 972581
     },
     {
       "folderName": "Chunk Pregenerator V1.12-2.1.jar",
@@ -6217,9 +6233,24 @@
       "status": 1,
       "timestamp": "2019-02-20T20:36:11.8570991Z",
       "lastWriteTimeUtc": "2019-02-19T21:34:03.2659092Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1340888Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4847113Z",
       "fileCount": 1,
       "fileSize": 512843
+    },
+    {
+      "folderName": "Avaritia-1.12.2-3.3.0.33-universal.jar",
+      "fingerprint": 2271638472,
+      "fileDateHash": 3613260380,
+      "sectionID": 6,
+      "individualFingerprints": [
+        2271638472
+      ],
+      "status": 1,
+      "timestamp": "2019-01-23T09:22:41.1462355Z",
+      "lastWriteTimeUtc": "2019-01-22T21:56:59.297796Z",
+      "queryTimestamp": "2019-06-17T18:47:39.48571Z",
+      "fileCount": 1,
+      "fileSize": 972581
     },
     {
       "folderName": "alib-1.0.9.jar",
@@ -6232,7 +6263,7 @@
       "status": 1,
       "timestamp": "2019-04-18T21:51:55.0992773Z",
       "lastWriteTimeUtc": "2019-04-18T21:51:46.4020278Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1340888Z",
+      "queryTimestamp": "2019-06-17T18:47:39.48571Z",
       "fileCount": 1,
       "fileSize": 69397
     },
@@ -6247,7 +6278,7 @@
       "status": 1,
       "timestamp": "2019-01-07T21:28:24.1490465Z",
       "lastWriteTimeUtc": "2019-01-07T21:20:30.4538454Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1350881Z",
+      "queryTimestamp": "2019-06-17T18:47:39.48571Z",
       "fileCount": 1,
       "fileSize": 563280
     },
@@ -6262,24 +6293,9 @@
       "status": 1,
       "timestamp": "2018-12-16T13:33:04.7640495Z",
       "lastWriteTimeUtc": "2018-12-12T22:25:26.7141277Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1350881Z",
+      "queryTimestamp": "2019-06-17T18:47:39.48571Z",
       "fileCount": 1,
       "fileSize": 126699
-    },
-    {
-      "folderName": "unloader-1.2.0.jar",
-      "fingerprint": 977612349,
-      "fileDateHash": 4292006016,
-      "sectionID": 6,
-      "individualFingerprints": [
-        977612349
-      ],
-      "status": 1,
-      "timestamp": "2019-03-17T18:52:43.6171228Z",
-      "lastWriteTimeUtc": "2019-03-17T18:51:24.3144202Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1350881Z",
-      "fileCount": 1,
-      "fileSize": 6396
     },
     {
       "folderName": "appliedenergistics2-rv6-stable-6.jar",
@@ -6292,9 +6308,24 @@
       "status": 1,
       "timestamp": "2019-01-07T21:28:23.968105Z",
       "lastWriteTimeUtc": "2019-01-07T21:19:05.4889806Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1360878Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4867102Z",
       "fileCount": 1,
       "fileSize": 4062132
+    },
+    {
+      "folderName": "unloader-1.2.0.jar",
+      "fingerprint": 977612349,
+      "fileDateHash": 4292006016,
+      "sectionID": 6,
+      "individualFingerprints": [
+        977612349
+      ],
+      "status": 1,
+      "timestamp": "2019-03-17T18:52:43.6171228Z",
+      "lastWriteTimeUtc": "2019-03-17T18:51:24.3144202Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4867102Z",
+      "fileCount": 1,
+      "fileSize": 6396
     },
     {
       "folderName": "MysticalAgradditions-1.12.2-1.3.2.jar",
@@ -6307,24 +6338,9 @@
       "status": 1,
       "timestamp": "2019-05-02T11:32:56.7947561Z",
       "lastWriteTimeUtc": "2019-05-02T11:10:21.5742377Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1360878Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4877092Z",
       "fileCount": 1,
       "fileSize": 134055
-    },
-    {
-      "folderName": "FTBQuests-1.6.0.157.jar",
-      "fingerprint": 2725934778,
-      "fileDateHash": 2466756138,
-      "sectionID": 8,
-      "individualFingerprints": [
-        2725934778
-      ],
-      "status": 1,
-      "timestamp": "2019-06-16T17:07:23.3074831Z",
-      "lastWriteTimeUtc": "2019-06-16T16:50:12.8861325Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1360878Z",
-      "fileCount": 1,
-      "fileSize": 923819
     },
     {
       "folderName": "FactoryTech-1.6.7.jar",
@@ -6337,24 +6353,24 @@
       "status": 1,
       "timestamp": "2019-06-03T10:40:58.6071579Z",
       "lastWriteTimeUtc": "2019-06-03T10:35:11.5878188Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1360878Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4877092Z",
       "fileCount": 1,
       "fileSize": 2510571
     },
     {
-      "folderName": "zenscroll-1.3.0.jar",
-      "fingerprint": 1295339736,
-      "fileDateHash": 2253030532,
+      "folderName": "FTBQuests-1.6.0.157.jar",
+      "fingerprint": 2725934778,
+      "fileDateHash": 2466756138,
       "sectionID": 8,
       "individualFingerprints": [
-        1295339736
+        2725934778
       ],
       "status": 1,
-      "timestamp": "2019-05-02T18:49:53.244293Z",
-      "lastWriteTimeUtc": "2019-05-02T18:49:20.9056104Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1370873Z",
+      "timestamp": "2019-06-16T17:07:23.3074831Z",
+      "lastWriteTimeUtc": "2019-06-16T16:50:12.8861325Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4877092Z",
       "fileCount": 1,
-      "fileSize": 32438
+      "fileSize": 923819
     },
     {
       "folderName": "FTBUtilitiesBackups-1.0.0.3.jar",
@@ -6367,24 +6383,9 @@
       "status": 1,
       "timestamp": "2019-04-07T20:02:33.3114201Z",
       "lastWriteTimeUtc": "2019-04-07T20:01:02.9510489Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1370873Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4887089Z",
       "fileCount": 1,
       "fileSize": 41822
-    },
-    {
-      "folderName": "badwithernocookiereloaded-1.12.2-3.3.16.jar",
-      "fingerprint": 154371963,
-      "fileDateHash": 2891297935,
-      "sectionID": 6,
-      "individualFingerprints": [
-        154371963
-      ],
-      "status": 1,
-      "timestamp": "2018-11-17T23:48:19.324625Z",
-      "lastWriteTimeUtc": "2018-11-16T23:24:05.2308146Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1370873Z",
-      "fileCount": 1,
-      "fileSize": 11034
     },
     {
       "folderName": "p455w0rdslib-1.12.2-2.1.44.jar",
@@ -6397,9 +6398,24 @@
       "status": 1,
       "timestamp": "2019-04-16T14:58:11.2051267Z",
       "lastWriteTimeUtc": "2019-04-15T20:44:30.8693822Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1380872Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4887089Z",
       "fileCount": 1,
       "fileSize": 321326
+    },
+    {
+      "folderName": "badwithernocookiereloaded-1.12.2-3.3.16.jar",
+      "fingerprint": 154371963,
+      "fileDateHash": 2891297935,
+      "sectionID": 6,
+      "individualFingerprints": [
+        154371963
+      ],
+      "status": 1,
+      "timestamp": "2018-11-17T23:48:19.324625Z",
+      "lastWriteTimeUtc": "2018-11-16T23:24:05.2308146Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4887089Z",
+      "fileCount": 1,
+      "fileSize": 11034
     },
     {
       "folderName": "Clumps-3.1.2.jar",
@@ -6412,7 +6428,7 @@
       "status": 1,
       "timestamp": "2019-02-06T20:55:48.8016523Z",
       "lastWriteTimeUtc": "2019-02-06T20:53:06.0407872Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1380872Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4887089Z",
       "fileCount": 1,
       "fileSize": 13792
     },
@@ -6427,7 +6443,7 @@
       "status": 1,
       "timestamp": "2019-03-28T15:34:27.8861279Z",
       "lastWriteTimeUtc": "2019-03-28T13:37:09.5473719Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1380872Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4897086Z",
       "fileCount": 1,
       "fileSize": 931257
     },
@@ -6442,13 +6458,13 @@
       "status": 1,
       "timestamp": "2019-06-16T17:07:23.2664958Z",
       "lastWriteTimeUtc": "2019-06-16T16:49:41.7669809Z",
-      "queryTimestamp": "2019-06-16T17:07:26.1380872Z",
+      "queryTimestamp": "2019-06-17T18:47:39.4897086Z",
       "fileCount": 1,
       "fileSize": 792642
     }
   ],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2019-06-16T17:07:27.0817871Z",
+  "lastPreviousMatchUpdate": "2019-06-17T18:47:40.4159176Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.12.2",
@@ -7017,7 +7033,7 @@
       "dateInstalled": "2019-03-15T00:08:51.5285922Z",
       "dateUpdated": "2019-06-16T16:40:56.3943689Z",
       "dateLastUpdateAttempted": "2019-06-16T16:40:56.3943689Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7328,14 +7344,14 @@
       "addonID": 59621,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2720023,
-        "displayName": "Atum-1.12.2-2.0.9.jar",
-        "fileName": "Atum-1.12.2-2.0.9.jar",
-        "fileDate": "2019-06-04T15:34:41.307Z",
-        "fileLength": 2664849,
+        "id": 2725760,
+        "displayName": "Atum-1.12.2-2.0.10.jar",
+        "fileName": "Atum-1.12.2-2.0.10.jar",
+        "fileDate": "2019-06-17T09:34:45.43Z",
+        "fileLength": 2678247,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2720/23/Atum-1.12.2-2.0.9.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2725/760/Atum-1.12.2-2.0.10.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -7350,22 +7366,22 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 273731554,
+            "fingerprint": 2918392139,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 469583531,
+            "fingerprint": 2446870030,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 3444051346,
+            "fingerprint": 2408798754,
             "type": 0
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 950997605,
+            "fingerprint": 1455490954,
             "type": 0
           },
           {
@@ -7374,7 +7390,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 3850083740,
+        "packageFingerprint": 1579601108,
         "gameVersion": [
           "1.12.2"
         ],
@@ -7385,12 +7401,12 @@
         "projectStatus": 0,
         "projectId": 0,
         "gameId": 0,
-        "FileNameOnDisk": "Atum-1.12.2-2.0.9.jar"
+        "FileNameOnDisk": "Atum-1.12.2-2.0.10.jar"
       },
       "dateInstalled": "2019-04-20T23:22:13.7623521Z",
-      "dateUpdated": "2019-06-04T16:35:24.4558527Z",
-      "dateLastUpdateAttempted": "2019-06-04T16:35:24.4558527Z",
-      "status": 5,
+      "dateUpdated": "2019-06-17T18:50:45.9327378Z",
+      "dateLastUpdateAttempted": "2019-06-17T18:50:45.9327378Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8069,75 +8085,6 @@
       "installedTargets": null
     },
     {
-      "addonID": 237321,
-      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
-      "installedFile": {
-        "id": 2683855,
-        "fileName": "LambdaLib2 v0.1.8",
-        "fileDate": "2019-03-06T03:39:11.063",
-        "fileLength": 522369,
-        "releaseType": 1,
-        "fileStatus": 2,
-        "downloadUrl": "https://files.forgecdn.net/files/2683/855/LambdaLib2-0.1.8.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 0,
-            "type": 0
-          },
-          {
-            "foldername": "cn",
-            "fingerprint": 0,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 0,
-            "type": 0
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 0,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 0,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 1311494388,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameId": 0,
-        "FileNameOnDisk": "LambdaLib2-0.1.8.jar"
-      },
-      "dateInstalled": "2019-03-15T00:08:45.7119312Z",
-      "dateUpdated": "2019-03-15T00:08:45.7199288Z",
-      "dateLastUpdateAttempted": "2019-03-15T00:08:45.7199288Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
       "addonID": 254602,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
@@ -8273,7 +8220,7 @@
       "dateInstalled": "2019-06-05T23:01:44.6841814Z",
       "dateUpdated": "2019-06-16T16:49:51.5708885Z",
       "dateLastUpdateAttempted": "2019-06-16T16:49:51.5708885Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10193,12 +10140,13 @@
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
         "id": 2699293,
+        "displayName": "p455w0rdslib-1.12.2-2.1.44.jar",
         "fileName": "p455w0rdslib-1.12.2-2.1.44.jar",
-        "fileDate": "2019-04-14T21:32:22.99",
+        "fileDate": "2019-04-14T21:32:22.99Z",
         "fileLength": 321326,
         "releaseType": 1,
-        "fileStatus": 2,
-        "downloadUrl": "https://files.forgecdn.net/files/2699/293/p455w0rdslib-1.12.2-2.1.44.jar",
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2699/293/p455w0rdslib-1.12.2-2.1.44.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -10219,27 +10167,27 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 0,
+            "fingerprint": 2177849753,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 0,
+            "fingerprint": 4005035856,
             "type": 0
           },
           {
             "foldername": "moze_intel",
-            "fingerprint": 0,
+            "fingerprint": 128185411,
             "type": 0
           },
           {
             "foldername": "p455w0rdslib",
-            "fingerprint": 0,
+            "fingerprint": 783866931,
             "type": 0
           },
           {
             "foldername": "pack.mcmeta",
-            "fingerprint": 0,
+            "fingerprint": 4168755349,
             "type": 0
           }
         ],
@@ -10257,9 +10205,9 @@
         "FileNameOnDisk": "p455w0rdslib-1.12.2-2.1.44.jar"
       },
       "dateInstalled": "2018-08-20T10:33:41.7719994Z",
-      "dateUpdated": "2019-04-15T20:44:31.3417368Z",
-      "dateLastUpdateAttempted": "2019-04-15T20:44:31.3417368Z",
-      "status": 5,
+      "dateUpdated": "2019-06-17T18:57:00.2152284Z",
+      "dateLastUpdateAttempted": "2019-06-17T18:57:00.2152284Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10817,88 +10765,75 @@
       "addonID": 317645,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2691879,
-        "displayName": "zenscroll-1.3.0.jar",
-        "fileName": "zenscroll-1.3.0.jar",
-        "fileDate": "2019-03-26T07:31:05.73Z",
-        "fileLength": 32438,
+        "id": 2725737,
+        "displayName": "zenscroll-1.4.0.jar",
+        "fileName": "zenscroll-1.4.0.jar",
+        "fileDate": "2019-06-17T07:41:47.523Z",
+        "fileLength": 37457,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2691/879/zenscroll-1.3.0.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2725/737/zenscroll-1.4.0.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 24777207,
-            "addonId": 238222,
-            "type": 2,
-            "fileId": 2691879
-          },
-          {
-            "id": 24777208,
+            "id": 0,
             "addonId": 239197,
             "type": 3,
-            "fileId": 2691879
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 238222,
+            "type": 2,
+            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3280576916,
-            "type": 3
+            "fingerprint": 393325893,
+            "type": 0
           },
           {
             "foldername": "quaternary",
-            "fingerprint": 1911910090,
-            "type": 3
+            "fingerprint": 314039300,
+            "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 2345182264,
-            "type": 3
+            "fingerprint": 3049790054,
+            "type": 0
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 1266309183,
-            "type": 3
+            "fingerprint": 2085193036,
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 2238035894,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 1295339736,
+        "packageFingerprint": 3807063587,
         "gameVersion": [
           "1.12.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000012.0000000002",
-            "gameVersion": "1.12.2",
-            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
-            "gameVersionName": "1.12.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1536996,
-        "projectId": 317645,
-        "packageFingerprintId": 303387271,
-        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
-        "gameVersionMappingId": 1779407,
-        "gameVersionId": 6756,
-        "gameId": 432,
-        "FileNameOnDisk": "zenscroll-1.3.0.jar"
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameId": 0,
+        "FileNameOnDisk": "zenscroll-1.4.0.jar"
       },
       "dateInstalled": "2019-05-02T18:49:54.5508764Z",
-      "dateUpdated": "2018-05-02T18:49:54.5508764Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
+      "dateUpdated": "2019-06-17T18:52:06.1532625Z",
+      "dateLastUpdateAttempted": "2019-06-17T18:52:06.1532625Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13708,7 +13643,7 @@
       "dateInstalled": "2018-08-20T10:20:18.5019685Z",
       "dateUpdated": "2019-06-16T16:50:01.1348603Z",
       "dateLastUpdateAttempted": "2019-06-16T16:50:01.1348603Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14403,7 +14338,7 @@
       "dateInstalled": "2019-06-05T23:26:04.7841176Z",
       "dateUpdated": "2019-06-16T16:50:07.4358553Z",
       "dateLastUpdateAttempted": "2019-06-16T16:50:07.4358553Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14496,14 +14431,14 @@
       "addonID": 229208,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2724472,
-        "displayName": "CD4017BE_lib-1.12.2-6.4.3.jar",
-        "fileName": "CD4017BE_lib-1.12.2-6.4.3.jar",
-        "fileDate": "2019-06-14T10:35:07.413Z",
-        "fileLength": 563407,
+        "id": 2725581,
+        "displayName": "CD4017BE_lib-1.12.2-6.4.4.jar",
+        "fileName": "CD4017BE_lib-1.12.2-6.4.4.jar",
+        "fileDate": "2019-06-16T22:01:46.527Z",
+        "fileLength": 564080,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2724/472/CD4017BE_lib-1.12.2-6.4.3.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2725/581/CD4017BE_lib-1.12.2-6.4.4.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -14516,21 +14451,21 @@
           },
           {
             "foldername": "cd4017be",
-            "fingerprint": 1374094207,
+            "fingerprint": 775932345,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 3642357333,
+            "fingerprint": 1425625839,
             "type": 0
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 1292481967,
+            "fingerprint": 2324359745,
             "type": 0
           }
         ],
-        "packageFingerprint": 4279335431,
+        "packageFingerprint": 4190862560,
         "gameVersion": [
           "1.12.2"
         ],
@@ -14541,11 +14476,11 @@
         "projectStatus": 0,
         "projectId": 0,
         "gameId": 0,
-        "FileNameOnDisk": "CD4017BE_lib-1.12.2-6.4.3.jar"
+        "FileNameOnDisk": "CD4017BE_lib-1.12.2-6.4.4.jar"
       },
       "dateInstalled": "2019-06-05T19:49:03.4808643Z",
-      "dateUpdated": "2019-06-16T16:49:56.4553421Z",
-      "dateLastUpdateAttempted": "2019-06-16T16:49:56.4553421Z",
+      "dateUpdated": "2019-06-17T18:50:42.5662994Z",
+      "dateLastUpdateAttempted": "2019-06-17T18:50:42.5662994Z",
       "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -15229,7 +15164,7 @@
       "dateInstalled": "2018-08-28T19:26:59.3546953Z",
       "dateUpdated": "2019-06-16T16:50:26.8682275Z",
       "dateLastUpdateAttempted": "2019-06-16T16:50:26.8682275Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -15971,7 +15906,7 @@
       "dateInstalled": "2019-05-13T19:26:15.0359002Z",
       "dateUpdated": "2019-06-16T16:50:12.8961294Z",
       "dateLastUpdateAttempted": "2019-06-16T16:50:12.8961294Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17189,19 +17124,32 @@
       "installedTargets": null
     },
     {
-      "addonID": 238222,
+      "addonID": 280554,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2682936,
-        "fileName": "jei_1.12.2-4.15.0.268.jar",
-        "fileDate": "2019-03-03T22:32:47.17",
-        "fileLength": 647239,
+        "id": 2561297,
+        "fileName": "RecipeStages-1.1.1",
+        "fileDate": "2018-05-12T16:20:31.967",
+        "fileLength": 0,
         "releaseType": 1,
         "fileStatus": 2,
-        "downloadUrl": "https://files.forgecdn.net/files/2682/936/jei_1.12.2-4.15.0.268.jar",
+        "downloadUrl": "https://files.forgecdn.net/files/2561/297/RecipeStages-1.1.1.jar",
         "isAlternate": false,
         "alternateFileId": 0,
-        "dependencies": [],
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 239197,
+            "type": 1,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 268655,
+            "type": 1,
+            "fileId": 0
+          }
+        ],
         "isAvailable": true,
         "modules": [
           {
@@ -17210,7 +17158,7 @@
             "type": 0
           },
           {
-            "foldername": "mezz",
+            "foldername": "com",
             "fingerprint": 0,
             "type": 0
           },
@@ -17220,19 +17168,21 @@
             "type": 0
           },
           {
-            "foldername": "pack.mcmeta",
+            "foldername": "mcmod.info",
             "fingerprint": 0,
             "type": 0
           },
           {
-            "foldername": "mcmod.info",
+            "foldername": "recipestages_at.cfg",
             "fingerprint": 0,
             "type": 0
           }
         ],
-        "packageFingerprint": 1053776633,
+        "packageFingerprint": 1579334713,
         "gameVersion": [
-          "1.12.2"
+          "1.12.2",
+          "1.12.1",
+          "1.12"
         ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
@@ -17241,16 +17191,16 @@
         "projectStatus": 0,
         "projectId": 0,
         "gameId": 0,
-        "FileNameOnDisk": "jei_1.12.2-4.15.0.268.jar"
+        "FileNameOnDisk": "RecipeStages-1.1.1.jar"
       },
-      "dateInstalled": "2018-08-20T10:23:01.6757374Z",
-      "dateUpdated": "2019-03-14T22:31:03.406835Z",
-      "dateLastUpdateAttempted": "2019-03-14T22:31:03.406835Z",
+      "dateInstalled": "2018-08-20T10:46:15.2917012Z",
+      "dateUpdated": "2018-08-20T10:46:15.2937009Z",
+      "dateLastUpdateAttempted": "2018-08-20T10:46:15.2937009Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
-      "isModified": false,
+      "isModified": true,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
@@ -17376,32 +17326,19 @@
       "installedTargets": null
     },
     {
-      "addonID": 280554,
+      "addonID": 238222,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2561297,
-        "fileName": "RecipeStages-1.1.1",
-        "fileDate": "2018-05-12T16:20:31.967",
-        "fileLength": 0,
+        "id": 2682936,
+        "fileName": "jei_1.12.2-4.15.0.268.jar",
+        "fileDate": "2019-03-03T22:32:47.17",
+        "fileLength": 647239,
         "releaseType": 1,
         "fileStatus": 2,
-        "downloadUrl": "https://files.forgecdn.net/files/2561/297/RecipeStages-1.1.1.jar",
+        "downloadUrl": "https://files.forgecdn.net/files/2682/936/jei_1.12.2-4.15.0.268.jar",
         "isAlternate": false,
         "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 0,
-            "addonId": 239197,
-            "type": 1,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 268655,
-            "type": 1,
-            "fileId": 0
-          }
-        ],
+        "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
@@ -17410,7 +17347,7 @@
             "type": 0
           },
           {
-            "foldername": "com",
+            "foldername": "mezz",
             "fingerprint": 0,
             "type": 0
           },
@@ -17420,21 +17357,19 @@
             "type": 0
           },
           {
-            "foldername": "mcmod.info",
+            "foldername": "pack.mcmeta",
             "fingerprint": 0,
             "type": 0
           },
           {
-            "foldername": "recipestages_at.cfg",
+            "foldername": "mcmod.info",
             "fingerprint": 0,
             "type": 0
           }
         ],
-        "packageFingerprint": 1579334713,
+        "packageFingerprint": 1053776633,
         "gameVersion": [
-          "1.12.2",
-          "1.12.1",
-          "1.12"
+          "1.12.2"
         ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
@@ -17443,16 +17378,16 @@
         "projectStatus": 0,
         "projectId": 0,
         "gameId": 0,
-        "FileNameOnDisk": "RecipeStages-1.1.1.jar"
+        "FileNameOnDisk": "jei_1.12.2-4.15.0.268.jar"
       },
-      "dateInstalled": "2018-08-20T10:46:15.2917012Z",
-      "dateUpdated": "2018-08-20T10:46:15.2937009Z",
-      "dateLastUpdateAttempted": "2018-08-20T10:46:15.2937009Z",
+      "dateInstalled": "2018-08-20T10:23:01.6757374Z",
+      "dateUpdated": "2019-03-14T22:31:03.406835Z",
+      "dateLastUpdateAttempted": "2019-03-14T22:31:03.406835Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
-      "isModified": true,
+      "isModified": false,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
@@ -18507,6 +18442,76 @@
       "installedTargets": null
     },
     {
+      "addonID": 253874,
+      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
+      "installedFile": {
+        "id": 2708746,
+        "displayName": "Guidebook-1.12.2-2.9.1.jar",
+        "fileName": "Guidebook-1.12.2-2.9.1.jar",
+        "fileDate": "2019-05-08T23:16:49.35Z",
+        "fileLength": 247172,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2708/746/Guidebook-1.12.2-2.9.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2442981774,
+            "type": 0
+          },
+          {
+            "foldername": "gigaherz",
+            "fingerprint": 2883739210,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3895558624,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 1570036438,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3273911401,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 2118517475,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameId": 0,
+        "FileNameOnDisk": "Guidebook-1.12.2-2.9.1.jar"
+      },
+      "dateInstalled": "2018-09-27T14:46:10.5337317Z",
+      "dateUpdated": "2019-05-09T20:31:07.1561715Z",
+      "dateLastUpdateAttempted": "2019-05-09T20:31:07.1561715Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 307346,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
@@ -18596,146 +18601,6 @@
       "dateInstalled": "2018-11-28T21:44:57.5704793Z",
       "dateUpdated": "2019-06-16T16:50:32.936317Z",
       "dateLastUpdateAttempted": "2019-06-16T16:50:32.936317Z",
-      "status": 4,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 253874,
-      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
-      "installedFile": {
-        "id": 2708746,
-        "displayName": "Guidebook-1.12.2-2.9.1.jar",
-        "fileName": "Guidebook-1.12.2-2.9.1.jar",
-        "fileDate": "2019-05-08T23:16:49.35Z",
-        "fileLength": 247172,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2708/746/Guidebook-1.12.2-2.9.1.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2442981774,
-            "type": 0
-          },
-          {
-            "foldername": "gigaherz",
-            "fingerprint": 2883739210,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 3895558624,
-            "type": 0
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 1570036438,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 3273911401,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 2118517475,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameId": 0,
-        "FileNameOnDisk": "Guidebook-1.12.2-2.9.1.jar"
-      },
-      "dateInstalled": "2018-09-27T14:46:10.5337317Z",
-      "dateUpdated": "2019-05-09T20:31:07.1561715Z",
-      "dateLastUpdateAttempted": "2019-05-09T20:31:07.1561715Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 237167,
-      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
-      "installedFile": {
-        "id": 2720472,
-        "displayName": "FTBLib-5.4.3.103.jar",
-        "fileName": "FTBLib-5.4.3.103.jar",
-        "fileDate": "2019-06-05T18:35:27.267Z",
-        "fileLength": 899204,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2720/472/FTBLib-5.4.3.103.jar",
-        "isAlternate": false,
-        "alternateFileId": 2720473,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 3395006807,
-            "type": 0
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 2904854084,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 305302355,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 1468686229,
-            "type": 0
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 1994142393,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 3992088938,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameId": 0,
-        "FileNameOnDisk": "FTBLib-5.4.3.103.jar"
-      },
-      "dateInstalled": "2018-08-30T13:09:52.008588Z",
-      "dateUpdated": "2019-06-05T22:52:50.8446577Z",
-      "dateLastUpdateAttempted": "2019-06-05T22:52:50.8446577Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -18829,54 +18694,49 @@
       "installedTargets": null
     },
     {
-      "addonID": 298995,
+      "addonID": 237167,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2698172,
-        "displayName": "SCP Lockdown-1.12.2-2.1.1-beta.jar",
-        "fileName": "SCP Lockdown-1.12.2-2.1.1-beta.jar",
-        "fileDate": "2019-04-12T06:27:48.077Z",
-        "fileLength": 6466425,
+        "id": 2720472,
+        "displayName": "FTBLib-5.4.3.103.jar",
+        "fileName": "FTBLib-5.4.3.103.jar",
+        "fileDate": "2019-06-05T18:35:27.267Z",
+        "fileLength": 899204,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2698/172/SCP Lockdown-1.12.2-2.1.1-beta.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2720/472/FTBLib-5.4.3.103.jar",
         "isAlternate": false,
-        "alternateFileId": 0,
+        "alternateFileId": 2720473,
         "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2592678707,
+            "fingerprint": 3395006807,
             "type": 0
           },
           {
-            "foldername": "alexiy",
-            "fingerprint": 2729204363,
+            "foldername": "com",
+            "fingerprint": 2904854084,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 3272669936,
-            "type": 0
-          },
-          {
-            "foldername": "changelog.txt",
-            "fingerprint": 4003369813,
-            "type": 0
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 911459505,
+            "fingerprint": 305302355,
             "type": 0
           },
           {
             "foldername": "pack.mcmeta",
-            "fingerprint": 3720278957,
+            "fingerprint": 1468686229,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 1994142393,
             "type": 0
           }
         ],
-        "packageFingerprint": 1806297429,
+        "packageFingerprint": 3992088938,
         "gameVersion": [
           "1.12.2"
         ],
@@ -18887,11 +18747,11 @@
         "projectStatus": 0,
         "projectId": 0,
         "gameId": 0,
-        "FileNameOnDisk": "SCP Lockdown-1.12.2-2.1.1-beta.jar"
+        "FileNameOnDisk": "FTBLib-5.4.3.103.jar"
       },
-      "dateInstalled": "2019-06-05T19:43:04.6962083Z",
-      "dateUpdated": "2019-06-05T19:43:04.7022063Z",
-      "dateLastUpdateAttempted": "2019-06-05T19:43:04.7022063Z",
+      "dateInstalled": "2018-08-30T13:09:52.008588Z",
+      "dateUpdated": "2019-06-05T22:52:50.8446577Z",
+      "dateLastUpdateAttempted": "2019-06-05T22:52:50.8446577Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -18999,7 +18859,143 @@
       "dateInstalled": "2019-03-15T00:14:18.0099805Z",
       "dateUpdated": "2019-06-16T16:49:42.2503319Z",
       "dateLastUpdateAttempted": "2019-06-16T16:49:42.2503319Z",
-      "status": 4,
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 298995,
+      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
+      "installedFile": {
+        "id": 2698172,
+        "displayName": "SCP Lockdown-1.12.2-2.1.1-beta.jar",
+        "fileName": "SCP Lockdown-1.12.2-2.1.1-beta.jar",
+        "fileDate": "2019-04-12T06:27:48.077Z",
+        "fileLength": 6466425,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2698/172/SCP Lockdown-1.12.2-2.1.1-beta.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2592678707,
+            "type": 0
+          },
+          {
+            "foldername": "alexiy",
+            "fingerprint": 2729204363,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3272669936,
+            "type": 0
+          },
+          {
+            "foldername": "changelog.txt",
+            "fingerprint": 4003369813,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 911459505,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3720278957,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 1806297429,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameId": 0,
+        "FileNameOnDisk": "SCP Lockdown-1.12.2-2.1.1-beta.jar"
+      },
+      "dateInstalled": "2019-06-05T19:43:04.6962083Z",
+      "dateUpdated": "2019-06-05T19:43:04.7022063Z",
+      "dateLastUpdateAttempted": "2019-06-05T19:43:04.7022063Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 293426,
+      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
+      "installedFile": {
+        "id": 2700516,
+        "fileName": "alib-1.0.9.jar",
+        "fileDate": "2019-04-17T19:41:20.93",
+        "fileLength": 69397,
+        "releaseType": 1,
+        "fileStatus": 2,
+        "downloadUrl": "https://files.forgecdn.net/files/2700/516/alib-1.0.9.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 248453,
+            "type": 1,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 0,
+            "type": 0
+          },
+          {
+            "foldername": "al132",
+            "fingerprint": 0,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 142604457,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameId": 0,
+        "FileNameOnDisk": "alib-1.0.9.jar"
+      },
+      "dateInstalled": "2019-03-15T00:14:17.3451929Z",
+      "dateUpdated": "2019-04-18T21:51:46.4640082Z",
+      "dateLastUpdateAttempted": "2019-04-18T21:51:46.4640082Z",
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -19101,40 +19097,51 @@
       "installedTargets": null
     },
     {
-      "addonID": 293426,
+      "addonID": 246640,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2700516,
-        "fileName": "alib-1.0.9.jar",
-        "fileDate": "2019-04-17T19:41:20.93",
-        "fileLength": 69397,
+        "id": 2704562,
+        "displayName": "MysticalAgriculture-1.12.2-1.7.5.jar",
+        "fileName": "MysticalAgriculture-1.12.2-1.7.5.jar",
+        "fileDate": "2019-04-28T00:58:23.31Z",
+        "fileLength": 1536124,
         "releaseType": 1,
-        "fileStatus": 2,
-        "downloadUrl": "https://files.forgecdn.net/files/2700/516/alib-1.0.9.jar",
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2704/562/MysticalAgriculture-1.12.2-1.7.5.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
             "id": 0,
-            "addonId": 248453,
-            "type": 1,
+            "addonId": 272335,
+            "type": 3,
             "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
-            "foldername": "META-INF",
-            "fingerprint": 0,
+            "foldername": "assets",
+            "fingerprint": 1898012259,
             "type": 0
           },
           {
-            "foldername": "al132",
-            "fingerprint": 0,
+            "foldername": "com",
+            "fingerprint": 2792896349,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 3301088284,
+            "type": 0
+          },
+          {
+            "foldername": "META-INF",
+            "fingerprint": 4024306704,
             "type": 0
           }
         ],
-        "packageFingerprint": 142604457,
+        "packageFingerprint": 47304130,
         "gameVersion": [
           "1.12.2"
         ],
@@ -19145,11 +19152,11 @@
         "projectStatus": 0,
         "projectId": 0,
         "gameId": 0,
-        "FileNameOnDisk": "alib-1.0.9.jar"
+        "FileNameOnDisk": "MysticalAgriculture-1.12.2-1.7.5.jar"
       },
-      "dateInstalled": "2019-03-15T00:14:17.3451929Z",
-      "dateUpdated": "2019-04-18T21:51:46.4640082Z",
-      "dateLastUpdateAttempted": "2019-04-18T21:51:46.4640082Z",
+      "dateInstalled": "2018-08-20T10:34:24.8053473Z",
+      "dateUpdated": "2019-05-02T11:10:23.9069987Z",
+      "dateLastUpdateAttempted": "2019-05-02T11:10:23.9069987Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -19220,78 +19227,6 @@
       "dateInstalled": "2019-03-28T16:03:23.9603057Z",
       "dateUpdated": "2019-05-02T11:10:03.0699082Z",
       "dateLastUpdateAttempted": "2019-05-02T11:10:03.0699082Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 246640,
-      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
-      "installedFile": {
-        "id": 2704562,
-        "displayName": "MysticalAgriculture-1.12.2-1.7.5.jar",
-        "fileName": "MysticalAgriculture-1.12.2-1.7.5.jar",
-        "fileDate": "2019-04-28T00:58:23.31Z",
-        "fileLength": 1536124,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2704/562/MysticalAgriculture-1.12.2-1.7.5.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 0,
-            "addonId": 272335,
-            "type": 3,
-            "fileId": 0
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "assets",
-            "fingerprint": 1898012259,
-            "type": 0
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 2792896349,
-            "type": 0
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 3301088284,
-            "type": 0
-          },
-          {
-            "foldername": "META-INF",
-            "fingerprint": 4024306704,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 47304130,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameId": 0,
-        "FileNameOnDisk": "MysticalAgriculture-1.12.2-1.7.5.jar"
-      },
-      "dateInstalled": "2018-08-20T10:34:24.8053473Z",
-      "dateUpdated": "2019-05-02T11:10:23.9069987Z",
-      "dateLastUpdateAttempted": "2019-05-02T11:10:23.9069987Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -19526,45 +19461,46 @@
       "addonID": 238857,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2702543,
-        "fileName": "StandardExpansion-3.4.158.jar",
-        "fileDate": "2019-04-23T04:31:37.317",
-        "fileLength": 606930,
+        "id": 2725790,
+        "displayName": "StandardExpansion-3.4.159.jar",
+        "fileName": "StandardExpansion-3.4.159.jar",
+        "fileDate": "2019-06-17T12:05:03.793Z",
+        "fileLength": 606068,
         "releaseType": 1,
-        "fileStatus": 2,
-        "downloadUrl": "https://files.forgecdn.net/files/2702/543/StandardExpansion-3.4.158.jar",
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2725/790/StandardExpansion-3.4.159.jar",
         "isAlternate": false,
-        "alternateFileId": 0,
+        "alternateFileId": 2725792,
         "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 0,
+            "fingerprint": 4173811084,
             "type": 0
           },
           {
             "foldername": "bq_standard",
-            "fingerprint": 0,
+            "fingerprint": 484711600,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 0,
+            "fingerprint": 4135620716,
             "type": 0
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 0,
+            "fingerprint": 677643123,
             "type": 0
           },
           {
             "foldername": "title.png",
-            "fingerprint": 0,
+            "fingerprint": 2032662626,
             "type": 0
           }
         ],
-        "packageFingerprint": 3418370162,
+        "packageFingerprint": 3836564112,
         "gameVersion": [
           "1.12.2"
         ],
@@ -19575,12 +19511,12 @@
         "projectStatus": 0,
         "projectId": 0,
         "gameId": 0,
-        "FileNameOnDisk": "StandardExpansion-3.4.158.jar"
+        "FileNameOnDisk": "StandardExpansion-3.4.159.jar"
       },
       "dateInstalled": "2018-08-20T10:36:56.396345Z",
-      "dateUpdated": "2019-04-24T22:39:40.8489859Z",
-      "dateLastUpdateAttempted": "2019-04-24T22:39:40.8489859Z",
-      "status": 5,
+      "dateUpdated": "2019-06-17T18:50:41.2067335Z",
+      "dateLastUpdateAttempted": "2019-06-17T18:50:41.2067335Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -19859,83 +19795,6 @@
       "installedTargets": null
     },
     {
-      "addonID": 257815,
-      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
-      "installedFile": {
-        "id": 2702216,
-        "fileName": "OnlinePicFrame_v1.4.24_mc1.12.2.jar",
-        "fileDate": "2019-04-22T09:45:58.663",
-        "fileLength": 82508,
-        "releaseType": 1,
-        "fileStatus": 2,
-        "downloadUrl": "https://files.forgecdn.net/files/2702/216/OnlinePicFrame_v1.4.24_mc1.12.2.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 0,
-            "addonId": 257814,
-            "type": 1,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 257818,
-            "type": 2,
-            "fileId": 0
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "assets",
-            "fingerprint": 0,
-            "type": 0
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 0,
-            "type": 0
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 0,
-            "type": 0
-          },
-          {
-            "foldername": "at",
-            "fingerprint": 0,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 3759556140,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameId": 0,
-        "FileNameOnDisk": "OnlinePicFrame_v1.4.24_mc1.12.2.jar"
-      },
-      "dateInstalled": "2018-08-20T11:27:36.2998521Z",
-      "dateUpdated": "2019-04-22T13:11:38.0015625Z",
-      "dateLastUpdateAttempted": "2019-04-22T13:11:38.0015625Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
       "addonID": 271740,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
@@ -20001,6 +19860,83 @@
       "dateInstalled": "2018-08-27T12:36:47.2923794Z",
       "dateUpdated": "2019-05-06T13:30:26.4262701Z",
       "dateLastUpdateAttempted": "2019-05-06T13:30:26.4262701Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 257815,
+      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
+      "installedFile": {
+        "id": 2702216,
+        "fileName": "OnlinePicFrame_v1.4.24_mc1.12.2.jar",
+        "fileDate": "2019-04-22T09:45:58.663",
+        "fileLength": 82508,
+        "releaseType": 1,
+        "fileStatus": 2,
+        "downloadUrl": "https://files.forgecdn.net/files/2702/216/OnlinePicFrame_v1.4.24_mc1.12.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 257814,
+            "type": 1,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 257818,
+            "type": 2,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "assets",
+            "fingerprint": 0,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 0,
+            "type": 0
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 0,
+            "type": 0
+          },
+          {
+            "foldername": "at",
+            "fingerprint": 0,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 3759556140,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameId": 0,
+        "FileNameOnDisk": "OnlinePicFrame_v1.4.24_mc1.12.2.jar"
+      },
+      "dateInstalled": "2018-08-20T11:27:36.2998521Z",
+      "dateUpdated": "2019-04-22T13:11:38.0015625Z",
+      "dateLastUpdateAttempted": "2019-04-22T13:11:38.0015625Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -20237,6 +20173,65 @@
       "installedTargets": null
     },
     {
+      "addonID": 286230,
+      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
+      "installedFile": {
+        "id": 2572528,
+        "fileName": "unloader-1.2.0.jar",
+        "fileDate": "2018-06-14T02:59:29.313",
+        "fileLength": 6396,
+        "releaseType": 1,
+        "fileStatus": 2,
+        "downloadUrl": "https://files.forgecdn.net/files/2572/528/unloader-1.2.0.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 0,
+            "type": 0
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 0,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 0,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 977612349,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameId": 0,
+        "FileNameOnDisk": "unloader-1.2.0.jar"
+      },
+      "dateInstalled": "2019-03-17T18:51:24.3514081Z",
+      "dateUpdated": "2019-03-17T18:51:24.352408Z",
+      "dateLastUpdateAttempted": "2019-03-17T18:51:24.352408Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 232758,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
@@ -20295,65 +20290,6 @@
       "dateInstalled": "2019-04-11T15:39:23.0647333Z",
       "dateUpdated": "2019-05-21T21:43:06.4197267Z",
       "dateLastUpdateAttempted": "2019-05-21T21:43:06.4197267Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 286230,
-      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
-      "installedFile": {
-        "id": 2572528,
-        "fileName": "unloader-1.2.0.jar",
-        "fileDate": "2018-06-14T02:59:29.313",
-        "fileLength": 6396,
-        "releaseType": 1,
-        "fileStatus": 2,
-        "downloadUrl": "https://files.forgecdn.net/files/2572/528/unloader-1.2.0.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 0,
-            "type": 0
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 0,
-            "type": 0
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 0,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 977612349,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameId": 0,
-        "FileNameOnDisk": "unloader-1.2.0.jar"
-      },
-      "dateInstalled": "2019-03-17T18:51:24.3514081Z",
-      "dateUpdated": "2019-03-17T18:51:24.352408Z",
-      "dateLastUpdateAttempted": "2019-03-17T18:51:24.352408Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -20585,65 +20521,6 @@
       "installedTargets": null
     },
     {
-      "addonID": 256717,
-      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
-      "installedFile": {
-        "id": 2666198,
-        "fileName": "Clumps-3.1.2",
-        "fileDate": "2019-01-28T22:56:57.45",
-        "fileLength": 13792,
-        "releaseType": 1,
-        "fileStatus": 2,
-        "downloadUrl": "https://files.forgecdn.net/files/2666/198/Clumps-3.1.2.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 0,
-            "type": 0
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 0,
-            "type": 0
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 0,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 1290884162,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameId": 0,
-        "FileNameOnDisk": "Clumps-3.1.2.jar"
-      },
-      "dateInstalled": "2018-08-20T10:31:03.7201537Z",
-      "dateUpdated": "2019-02-06T20:53:06.0967692Z",
-      "dateLastUpdateAttempted": "2019-02-06T20:53:06.0967692Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
       "addonID": 231095,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
@@ -20729,6 +20606,65 @@
       "installedTargets": null
     },
     {
+      "addonID": 256717,
+      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
+      "installedFile": {
+        "id": 2666198,
+        "fileName": "Clumps-3.1.2",
+        "fileDate": "2019-01-28T22:56:57.45",
+        "fileLength": 13792,
+        "releaseType": 1,
+        "fileStatus": 2,
+        "downloadUrl": "https://files.forgecdn.net/files/2666/198/Clumps-3.1.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 0,
+            "type": 0
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 0,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 0,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 1290884162,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameId": 0,
+        "FileNameOnDisk": "Clumps-3.1.2.jar"
+      },
+      "dateInstalled": "2018-08-20T10:31:03.7201537Z",
+      "dateUpdated": "2019-02-06T20:53:06.0967692Z",
+      "dateLastUpdateAttempted": "2019-02-06T20:53:06.0967692Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 277890,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
@@ -20797,46 +20733,46 @@
       "addonID": 243363,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2724537,
-        "displayName": "The Betweenlands v3.4.8",
-        "fileName": "TheBetweenlands-3.4.8-universal.jar",
-        "fileDate": "2019-06-14T15:22:20.387Z",
-        "fileLength": 80712942,
+        "id": 2725834,
+        "displayName": "The Betweenlands v3.4.9",
+        "fileName": "TheBetweenlands-3.4.9-universal.jar",
+        "fileDate": "2019-06-17T14:00:45.293Z",
+        "fileLength": 80712403,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2724/537/TheBetweenlands-3.4.8-universal.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2725/834/TheBetweenlands-3.4.9-universal.jar",
         "isAlternate": false,
-        "alternateFileId": 2724538,
+        "alternateFileId": 2725836,
         "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2541014808,
+            "fingerprint": 1781873395,
             "type": 0
           },
           {
-            "foldername": "TheBetweenlands-3.4.8-core.jar",
-            "fingerprint": 2072070625,
+            "foldername": "TheBetweenlands-3.4.9-core.jar",
+            "fingerprint": 1150493639,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 1110922549,
+            "fingerprint": 2360938010,
             "type": 0
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 3648298277,
+            "fingerprint": 1480012756,
             "type": 0
           },
           {
             "foldername": "thebetweenlands",
-            "fingerprint": 2562474820,
+            "fingerprint": 1853940640,
             "type": 0
           }
         ],
-        "packageFingerprint": 3352922690,
+        "packageFingerprint": 3221314708,
         "gameVersion": [
           "1.12.2"
         ],
@@ -20847,11 +20783,11 @@
         "projectStatus": 0,
         "projectId": 0,
         "gameId": 0,
-        "FileNameOnDisk": "TheBetweenlands-3.4.8-universal.jar"
+        "FileNameOnDisk": "TheBetweenlands-3.4.9-universal.jar"
       },
       "dateInstalled": "2018-10-18T14:03:26.5649649Z",
-      "dateUpdated": "2019-06-16T16:40:50.08936Z",
-      "dateLastUpdateAttempted": "2019-06-16T16:40:50.08936Z",
+      "dateUpdated": "2019-06-17T18:50:29.819843Z",
+      "dateLastUpdateAttempted": "2019-06-17T18:50:29.819843Z",
       "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -20997,16 +20933,16 @@
       "installedTargets": null
     },
     {
-      "addonID": 296289,
+      "addonID": 232791,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2626479,
-        "fileName": "JustEnoughIDs 1.0.2-26",
-        "fileDate": "2018-10-10T17:16:35.233",
-        "fileLength": 1040272,
+        "id": 2432201,
+        "fileName": "itlt-1.12-1.0.0.jar",
+        "fileDate": "2017-06-11T10:43:50.793",
+        "fileLength": 0,
         "releaseType": 1,
-        "fileStatus": 2,
-        "downloadUrl": "https://files.forgecdn.net/files/2626/479/JustEnoughIDs-1.0.2-26.jar",
+        "fileStatus": 1,
+        "downloadUrl": "https://files.forgecdn.net/files/2432/201/itlt-1.12-1.0.0.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -21018,22 +20954,7 @@
             "type": 0
           },
           {
-            "foldername": "org",
-            "fingerprint": 0,
-            "type": 0
-          },
-          {
-            "foldername": "mixins.jeid.modsupport.json",
-            "fingerprint": 0,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 0,
-            "type": 0
-          },
-          {
-            "foldername": "mixins.jeid.init.json",
+            "foldername": "dk",
             "fingerprint": 0,
             "type": 0
           },
@@ -21041,28 +20962,13 @@
             "foldername": "mcmod.info",
             "fingerprint": 0,
             "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 0,
-            "type": 0
-          },
-          {
-            "foldername": "mixins.jeid.core.json",
-            "fingerprint": 0,
-            "type": 0
-          },
-          {
-            "foldername": "mixins.jeid.refmap.json",
-            "fingerprint": 0,
-            "type": 0
           }
         ],
-        "packageFingerprint": 2315591809,
+        "packageFingerprint": 1280263856,
         "gameVersion": [
+          "1.12.2",
           "1.12.1",
-          "1.12",
-          "1.12.2"
+          "1.12"
         ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
@@ -21071,11 +20977,11 @@
         "projectStatus": 0,
         "projectId": 0,
         "gameId": 0,
-        "FileNameOnDisk": "JustEnoughIDs-1.0.2-26.jar"
+        "FileNameOnDisk": "itlt-1.12-1.0.0.jar"
       },
-      "dateInstalled": "2018-09-07T22:59:24.1600569Z",
-      "dateUpdated": "2018-10-11T21:13:37.0787153Z",
-      "dateLastUpdateAttempted": "2018-10-11T21:13:37.0787153Z",
+      "dateInstalled": "2018-08-27T10:11:18.7575895Z",
+      "dateUpdated": "2018-08-27T10:11:18.7585892Z",
+      "dateLastUpdateAttempted": "2018-08-27T10:11:18.7585892Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -21157,16 +21063,16 @@
       "installedTargets": null
     },
     {
-      "addonID": 232791,
+      "addonID": 296289,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2432201,
-        "fileName": "itlt-1.12-1.0.0.jar",
-        "fileDate": "2017-06-11T10:43:50.793",
-        "fileLength": 0,
+        "id": 2626479,
+        "fileName": "JustEnoughIDs 1.0.2-26",
+        "fileDate": "2018-10-10T17:16:35.233",
+        "fileLength": 1040272,
         "releaseType": 1,
-        "fileStatus": 1,
-        "downloadUrl": "https://files.forgecdn.net/files/2432/201/itlt-1.12-1.0.0.jar",
+        "fileStatus": 2,
+        "downloadUrl": "https://files.forgecdn.net/files/2626/479/JustEnoughIDs-1.0.2-26.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -21178,7 +21084,22 @@
             "type": 0
           },
           {
-            "foldername": "dk",
+            "foldername": "org",
+            "fingerprint": 0,
+            "type": 0
+          },
+          {
+            "foldername": "mixins.jeid.modsupport.json",
+            "fingerprint": 0,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 0,
+            "type": 0
+          },
+          {
+            "foldername": "mixins.jeid.init.json",
             "fingerprint": 0,
             "type": 0
           },
@@ -21186,13 +21107,28 @@
             "foldername": "mcmod.info",
             "fingerprint": 0,
             "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 0,
+            "type": 0
+          },
+          {
+            "foldername": "mixins.jeid.core.json",
+            "fingerprint": 0,
+            "type": 0
+          },
+          {
+            "foldername": "mixins.jeid.refmap.json",
+            "fingerprint": 0,
+            "type": 0
           }
         ],
-        "packageFingerprint": 1280263856,
+        "packageFingerprint": 2315591809,
         "gameVersion": [
-          "1.12.2",
           "1.12.1",
-          "1.12"
+          "1.12",
+          "1.12.2"
         ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
@@ -21201,11 +21137,11 @@
         "projectStatus": 0,
         "projectId": 0,
         "gameId": 0,
-        "FileNameOnDisk": "itlt-1.12-1.0.0.jar"
+        "FileNameOnDisk": "JustEnoughIDs-1.0.2-26.jar"
       },
-      "dateInstalled": "2018-08-27T10:11:18.7575895Z",
-      "dateUpdated": "2018-08-27T10:11:18.7585892Z",
-      "dateLastUpdateAttempted": "2018-08-27T10:11:18.7585892Z",
+      "dateInstalled": "2018-09-07T22:59:24.1600569Z",
+      "dateUpdated": "2018-10-11T21:13:37.0787153Z",
+      "dateLastUpdateAttempted": "2018-10-11T21:13:37.0787153Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -21678,6 +21614,87 @@
       "installedTargets": null
     },
     {
+      "addonID": 74072,
+      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
+      "installedFile": {
+        "id": 2693496,
+        "fileName": "TConstruct-1.12.2-2.12.0.135.jar",
+        "fileDate": "2019-03-30T22:04:06.023",
+        "fileLength": 3997455,
+        "releaseType": 1,
+        "fileStatus": 2,
+        "downloadUrl": "https://files.forgecdn.net/files/2693/496/TConstruct-1.12.2-2.12.0.135.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 74924,
+            "type": 1,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 0,
+            "type": 0
+          },
+          {
+            "foldername": "slimeknights",
+            "fingerprint": 0,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 0,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 0,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 0,
+            "type": 0
+          },
+          {
+            "foldername": "logo.png",
+            "fingerprint": 0,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 2741857549,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameId": 0,
+        "FileNameOnDisk": "TConstruct-1.12.2-2.12.0.135.jar"
+      },
+      "dateInstalled": "2018-08-20T10:23:04.1599535Z",
+      "dateUpdated": "2019-03-31T20:29:27.3868774Z",
+      "dateLastUpdateAttempted": "2019-03-31T20:29:27.3868774Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 282947,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
@@ -21756,87 +21773,6 @@
       "dateInstalled": "2018-08-20T11:13:59.5575606Z",
       "dateUpdated": "2019-03-14T22:29:54.6356683Z",
       "dateLastUpdateAttempted": "2019-03-14T22:29:54.6356683Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 74072,
-      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
-      "installedFile": {
-        "id": 2693496,
-        "fileName": "TConstruct-1.12.2-2.12.0.135.jar",
-        "fileDate": "2019-03-30T22:04:06.023",
-        "fileLength": 3997455,
-        "releaseType": 1,
-        "fileStatus": 2,
-        "downloadUrl": "https://files.forgecdn.net/files/2693/496/TConstruct-1.12.2-2.12.0.135.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 0,
-            "addonId": 74924,
-            "type": 1,
-            "fileId": 0
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 0,
-            "type": 0
-          },
-          {
-            "foldername": "slimeknights",
-            "fingerprint": 0,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 0,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 0,
-            "type": 0
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 0,
-            "type": 0
-          },
-          {
-            "foldername": "logo.png",
-            "fingerprint": 0,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 2741857549,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameId": 0,
-        "FileNameOnDisk": "TConstruct-1.12.2-2.12.0.135.jar"
-      },
-      "dateInstalled": "2018-08-20T10:23:04.1599535Z",
-      "dateUpdated": "2019-03-31T20:29:27.3868774Z",
-      "dateLastUpdateAttempted": "2019-03-31T20:29:27.3868774Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,

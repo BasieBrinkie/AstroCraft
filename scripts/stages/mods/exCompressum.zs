@@ -33,7 +33,12 @@ static disabledItems as IIngredient[] = [
 	<excompressum:bait:9>,
 	<excompressum:bait:10>,
 	<excompressum:bait:11>,
-	<excompressum:bait:12>
+	<excompressum:bait:12>,
+	<excompressum:wooden_crucible:1>,
+	<excompressum:wooden_crucible:2>,
+	<excompressum:wooden_crucible:3>,
+	<excompressum:wooden_crucible:4>,
+	<excompressum:wooden_crucible:5>
 ];
 
 function init() {

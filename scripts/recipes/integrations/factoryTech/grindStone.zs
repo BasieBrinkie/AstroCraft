@@ -1,32 +1,40 @@
 import crafttweaker.item.IItemStack;
 
 static grindstoneAdd as bool[IItemStack][IItemStack] = {
+	//Basic Resources
 	<factorytech:machinepart:0>: {
 		<factorytech:machinepart:10>: true
-	},
-	<factorytech:machinepart:1>: {
-		<factorytech:machinepart:11>: true
-	},
-	<factorytech:machinepart:2>: {
-		<factorytech:machinepart:12>: true
 	},
 	<factorytech:machinepart:31>: {
 		<factorytech:machinepart:50>: true,
 		<factorytech:machinepart:51>: true
 	},
-	<factorytech:machinepart:71>: {
-		<minecraft:iron_ingot:0>: true
-	},
-	<factorytech:machinepart:150>: {
-		<minecraft:glass:0>: false
-	},
+	
+	//Rocket Builder
 	<thaumcraft:nugget:4>: {
 		<mekanism:clump:6>: true
 	},
 	<thermalfoundation:material:199>: {
 		<thermalfoundation:ore:7>: false
-	}
+	},
+	<factorytech:machinepart:1>: {
+		<factorytech:machinepart:11>: true
+	},
+	
+	//Professions Stage 1
+	<factorytech:machinepart:71>: {
+		<minecraft:iron_ingot:0>: true
+	},
 
+
+
+
+	<factorytech:machinepart:2>: {
+		<factorytech:machinepart:12>: true
+	},
+	<factorytech:machinepart:150>: {
+		<minecraft:glass:0>: false
+	},
 };
 
 static grindstoneRemove as IItemStack[] = [

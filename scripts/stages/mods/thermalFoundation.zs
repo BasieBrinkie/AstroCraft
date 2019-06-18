@@ -17,8 +17,9 @@ import scripts.stages.register.stageDisabledItems;
 import scripts.stages.register.stageDecorationEnable;
 
 static stagedItems as IIngredient[][string] = {
-	stageResources1.stage: [
-
+	stageRocketBuilder.stage: [
+		<thermalfoundation:ore:7>,
+		<thermalfoundation:material:199>
 	]
 };
 

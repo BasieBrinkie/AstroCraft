@@ -53,6 +53,7 @@ function initRecipes() {
 	scripts.recipes.vanillaCraftingTables.mods.grapplemod.init();
 	scripts.recipes.vanillaCraftingTables.mods.libVulpes.init();
 
+	scripts.recipes.vanillaCraftingTables.mods.matterOverdrive.init();
 	scripts.recipes.vanillaCraftingTables.mods.mekanism.init();
 	scripts.recipes.vanillaCraftingTables.mods.minecraft.init();
 	scripts.recipes.vanillaCraftingTables.mods.nuclearCraft.init();
@@ -70,6 +71,7 @@ function initIntegrations() {
 
 	scripts.recipes.integrations.appliedEnergistics2.grinder.init();
 
+	scripts.recipes.integrations.factoryTech.agitator.init();
 	scripts.recipes.integrations.factoryTech.centrifuge.init();
 	scripts.recipes.integrations.factoryTech.chopSaw.init();
 	scripts.recipes.integrations.factoryTech.grindStone.init();
@@ -77,6 +79,7 @@ function initIntegrations() {
 
 	scripts.recipes.integrations.skyResources.alchemicalFusion.init();
 	scripts.recipes.integrations.skyResources.catalysts.init();
+	scripts.recipes.integrations.skyResources.cauldron.init();
 	scripts.recipes.integrations.skyResources.combustion.init();
 	scripts.recipes.integrations.skyResources.condenser.init();
 	scripts.recipes.integrations.skyResources.crucible.init();
@@ -117,6 +120,7 @@ function initStages() {
 	scripts.stages.mods.factoryTech.init();
 	scripts.stages.mods.grapplemod.init();
 	scripts.stages.mods.libVulpes.init();
+	scripts.stages.mods.matterOverdrive.init();
 	scripts.stages.mods.mekanism.init();
 	scripts.stages.mods.minecraft.init();
 	scripts.stages.mods.mysticalAgriculture.init();
@@ -148,9 +152,11 @@ function initOredict() {
 	scripts.oredict.woodLog.init();
 	scripts.oredict.woodPlanks.init();
 	scripts.oredict.woodSlabs.init();
+	scripts.oredict.wool.init();
 	
 	scripts.oredict.mods.betterQuesting.init();
 	scripts.oredict.mods.factoryTech.init();
+	scripts.oredict.mods.matterOverdrive.init();
 	scripts.oredict.mods.skyResources.init();
 }
 

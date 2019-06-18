@@ -21,7 +21,13 @@ static stagedItems as IIngredient[][string] = {
 		<liquid:oxygen>
 	],
 	stageResources1.stage: [
+		<liquid:iron>,
 		<liquid:preheated_water>
+	],
+	stageRocketBuilder.stage: [
+		<liquid:iridium>,
+		<liquid:lead>,
+		<liquid:nickel>
 	]
 };
 

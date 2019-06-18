@@ -5,7 +5,7 @@ import crafttweaker.block.IBlockDefinition;
 import crafttweaker.formatting.IFormattedText;
 
 static itemNames as string[IItemStack] = {
-	<appliedenergistics2:grindstone>: "Manual Grindstone",
+	<appliedenergistics2:grindstone>: "Manual Crusher",
 };
 
 static unlocalizedNames as string[string] = {

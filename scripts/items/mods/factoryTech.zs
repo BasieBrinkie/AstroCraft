@@ -7,6 +7,7 @@ import crafttweaker.formatting.IFormattedText;
 static itemNames as string[IItemStack] = {
 	<factorytech:machinepart:1>: "Poor Iron Saw Blade",
 	<factorytech:machinepart:11>: "Poor Iron Gear",
+	<factorytech:machinepart:31>: "Poor Iron Blade",
 	<factorytech:machinepart:50>: "Poor Iron Shaft",
 	<factorytech:machinepart:71>: "Poor Iron Drillbit"
 };
