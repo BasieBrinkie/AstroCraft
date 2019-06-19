@@ -1,4 +1,5 @@
 import crafttweaker.item.IItemStack;
+import mods.ResearchTable;
 import mods.zenstages.Stage;
 
 import scripts.stages.register.gameModeAbnormal;

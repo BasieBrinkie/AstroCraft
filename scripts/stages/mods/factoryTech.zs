@@ -19,6 +19,7 @@ import scripts.stages.register.stageDecorationEnable;
 static stagedItems as IIngredient[][string] = {
 	stageResources1.stage: [
 		<factorytech:grindstone:0>,
+		<factorytech:handbook:0>,
 		<factorytech:intermediate:4>,
 		<factorytech:machinepart:0>,
 		<factorytech:machinepart:10>,
