@@ -44,7 +44,7 @@ zenClass researchTable {
                 requiredStages += requiredStage;
               }  
               var category = ResearchTable.addCategory(icon);
-              ResearchTable.builder("research " ~ name, category)
+              ResearchTable.builder("research" ~ gamemodeStage ~ name, category)
                 .setIcons(icon)
                 .setTitle(name)
                 .setDescription(description)
@@ -79,7 +79,7 @@ zenClass researchTable {
                     }
                   }
                   var category = ResearchTable.addCategory(icon);
-                  ResearchTable.builder("research " ~ name, category)
+                  ResearchTable.builder("research" ~ gameModeAbnormal.stage ~ name, category)
                     .setIcons(icon)
                     .setTitle(name)
                     .setDescription("This research costs: " ~ rPoints ~ " Research Points. " ~ description)
@@ -111,7 +111,7 @@ zenClass researchTable {
                 requiredStages += requiredStage;
               }
               var category = ResearchTable.addCategory(icon);
-              ResearchTable.builder("research " ~ name, category)
+              ResearchTable.builder("research" ~ gamemodeStage ~ name, category)
                 .setIcons(icon)
                 .setTitle(name)
                 .setDescription(description)

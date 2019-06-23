@@ -3,6 +3,12 @@ import crafttweaker.item.IIngredient;
 import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
+import scripts.stages.register.stageProfessionsStage1;
+import scripts.stages.register.stageProfessionsStage2;
+import scripts.stages.register.stageProfessionsStage3;
+import scripts.stages.register.stageProfessionsStage4;
+import scripts.stages.register.stageProfessionsStage5;
+
 import scripts.stages.register.stageOxygen1;
 import scripts.stages.register.stageResources1;
 import scripts.stages.register.stageRocketBuilder;
@@ -50,6 +56,9 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:wheat:0>,
 		<minecraft:wooden_button:0>,
 		<minecraft:wooden_pressure_plate:0>
+	],
+	stageProfessionsStage1.stage: [
+		<minecraft:stonebrick:0>,
 	],
 
 	stageDecorationEnable.stage: [

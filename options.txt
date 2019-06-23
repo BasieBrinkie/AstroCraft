@@ -85,13 +85,14 @@ key_key.hotbar.6:7
 key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
-key_Change Caster Focus:33
+key_Change Caster Focus:36
 key_Misc Caster Toggle:2
 key_keybind.baublesinventory:48
 key_key.betterquesting.quests:0
 key_key.cavern.miningAssist:0
 key_key.cavern.miningRecords:88
 key_key.cavern.magicBook:46
+key_cos.key.opencosarmorinventory:0
 key_key.redraw:19
 key_key.settings:25
 key_enderutilities.key.activate_unselected:34
@@ -104,12 +105,12 @@ key_key.xu2.searchforitems:20
 key_key.ftbutilities.nbt:49:ALT
 key_key.ftbutilities.trash:211
 key_key.ftbquests.quests:41
-key_keybind.hammercorerenderstack:77
 key_key.open_menu:19
 key_key.moreoverlays.lightoverlay.desc:65
 key_key.moreoverlays.chunkbounds.desc:67
 key_oreexcavation.key.excavate:47
 key_oreexcavation.key.shape:47
+key_key.toggle_shaders:0
 key_pneumaticcraft.armor.options:22
 key_pneumaticcraft.helmet.hack:35
 key_pneumaticcraft.helmet.debugging.drone:21
@@ -132,12 +133,21 @@ key_translationKey.scp.nightvision_toggle:49
 key_Rotate stored structure:47
 key_key.toastcontrol.clear:36
 key_zenscroll.options.modifier_key:56
+key_key.microraptor_dismount:46
+key_key.vehicle_helicopter.up:57
+key_key.vehicle_helicopter.down:29
+key_key.vehicle_0.switch:2:CONTROL
+key_key.vehicle_1.switch:3:CONTROL
+key_key.vehicle_2.switch:4:CONTROL
+key_key.vehicle_3.switch:5:CONTROL
+key_key.vehicle_4.switch:6:CONTROL
+key_key.vehicle_5.switch:7:CONTROL
+key_key.vehicle_6.switch:8:CONTROL
+key_key.vehicle_7.switch:9:CONTROL
+key_key.vehicle_8.switch:10:CONTROL
 key_key.xtones.scroll:42
 key_key.narrator:48:CONTROL
 key_key.cofh.multimode:47
-key_key.fp.compositearmor:46
-key_key.fp.gleiter:57
-key_key.fp.modul_magnet:34
 key_key.toggle_focus.desc:15
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL

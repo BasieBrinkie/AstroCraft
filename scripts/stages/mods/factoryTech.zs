@@ -3,6 +3,12 @@ import crafttweaker.item.IIngredient;
 import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
+import scripts.stages.register.stageProfessionsStage1;
+import scripts.stages.register.stageProfessionsStage2;
+import scripts.stages.register.stageProfessionsStage3;
+import scripts.stages.register.stageProfessionsStage4;
+import scripts.stages.register.stageProfessionsStage5;
+
 import scripts.stages.register.stageOxygen1;
 import scripts.stages.register.stageResources1;
 import scripts.stages.register.stageRocketBuilder;
@@ -52,7 +58,10 @@ static stagedItems as IIngredient[][string] = {
 		<factorytech:salvagepart:11>,	
 		<factorytech:salvagepart:31>,
 		<factorytech:salvagepart:80>
-	]
+	],
+	stageProfessionsStage1.stage: [
+		
+	],
 };
 
 static disabledItems as IIngredient[] = [
