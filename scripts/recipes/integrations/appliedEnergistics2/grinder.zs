@@ -1,14 +1,17 @@
 import crafttweaker.item.IItemStack;
 
 static grinderAdd as int[IItemStack][IItemStack] = {
+	//Basic Resources
+	<mekanism:dirtydust:0>: {
+		<minecraft:iron_ingot:0>: 6
+	},
+
+	//Rocket Builder
 	<exnihilocreatio:item_ore_lead:0>: {
 		<exnihilocreatio:item_ore_lead:1>: 8
 	},
 	<factorytech:ore_dust:9>: {
 		<exnihilocreatio:item_ore_nickel:0>: 5
-	},
-	<mekanism:dirtydust:0>: {
-		<minecraft:iron_ingot:0>: 6
 	},
 	<mekanism:dirtydust:6>: {
 		<thaumcraft:nugget:4>: 3

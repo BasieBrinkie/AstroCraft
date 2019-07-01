@@ -22,11 +22,9 @@ zenClass skyRes {
 		}
 	}
 
-	function catalystAddRecipe(map as float[IItemStack[]]) {
-		for itemArray, catalystAmount in map {
-			for outputItem in itemArray {
-				mods.skyresources.catalysts.add(outputItem, catalystAmount);
-			}
+	function catalystAddRecipe(map as float[IItemStack]) {
+		for item, catalystAmount in map {
+			mods.skyresources.catalysts.add(item, catalystAmount);
 		}
 	}
 

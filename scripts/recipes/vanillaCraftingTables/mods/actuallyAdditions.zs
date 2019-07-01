@@ -14,6 +14,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
 		]
 	],
+	<actuallyadditions:item_knife:0>: [
+		[
+			[<ore:ingotIron>, null, null],
+			[<ore:ingotIron>, <ore:stickWood>, null],
+			[null, <ore:ingotIron>, <ore:stickWood>]
+		]
+	],
 	<actuallyadditions:item_misc:11>: [
 		[
 			[<excompressum:uncompressed_coal:0>, <excompressum:uncompressed_coal:0>, <excompressum:uncompressed_coal:0>],

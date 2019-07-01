@@ -175,10 +175,10 @@ zenClass tooltipGen {
 			return "16"; 
 		}
 		if (tier == 4) {
-			return "4"; 
+			return "8"; 
 		}
 		if (tier == 5) {
-			return "0.8"; 
+			return "4"; 
 		}
 		else {
 			return "ERROR, Wrong Tier!!!";

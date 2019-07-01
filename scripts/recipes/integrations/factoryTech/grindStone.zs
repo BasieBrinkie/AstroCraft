@@ -5,30 +5,26 @@ static grindstoneAdd as bool[IItemStack][IItemStack] = {
 	<factorytech:machinepart:0>: {
 		<factorytech:machinepart:10>: true
 	},
+	
+	//Rocket Builder
+	<factorytech:machinepart:1>: {
+		<factorytech:machinepart:11>: true
+	},	
 	<factorytech:machinepart:31>: {
 		<factorytech:machinepart:50>: true,
 		<factorytech:machinepart:51>: true
 	},
-	
-	//Rocket Builder
 	<thaumcraft:nugget:4>: {
 		<mekanism:clump:6>: true
 	},
 	<thermalfoundation:material:199>: {
 		<thermalfoundation:ore:7>: false
 	},
-	<factorytech:machinepart:1>: {
-		<factorytech:machinepart:11>: true
-	},
 	
 	//Professions Stage 1
 	<factorytech:machinepart:71>: {
 		<minecraft:iron_ingot:0>: true
 	},
-
-
-
-
 	<factorytech:machinepart:2>: {
 		<factorytech:machinepart:12>: true
 	},
@@ -42,6 +38,7 @@ static grindstoneRemove as IItemStack[] = [
 	<factorytech:intermediate:6>,
 	<factorytech:machinepart:0>,
 	<factorytech:machinepart:1>,
+	<factorytech:machinepart:2>,
 	<factorytech:machinepart:3>,
 	<factorytech:machinepart:11>,
 	<factorytech:machinepart:12>,

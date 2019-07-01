@@ -2,13 +2,19 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 
 static chopSawAdd as bool[IIngredient][IItemStack] = {
-	<minecraft:planks:0> * 4: {
-		<ore:logWood>: true,
-		<advancedrocketry:charcoallog:0>: true
-	},
+	//Basic Resources
 	<mekanism:sawdust:0> * 2: {
 		<ore:plankWood>: true
-	}
+	},
+	<minecraft:planks:0> * 4: {
+		<advancedrocketry:charcoallog:0>: true,
+		<ore:logWood>: true,
+	},
+
+	//Pofession Stage 1
+	<factorytech:crate:0> * 4: {
+		<minecraft:chest:0>: true
+	},
 };
 
 static chopSawRemove as IItemStack[] = [

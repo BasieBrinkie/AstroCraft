@@ -44,9 +44,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<skyresources:heat:0>: [
 		[
-			[<ore:woodPlanksTier1To3>, <ore:woodPlanksTier1To3>, <ore:woodPlanksTier1To3>],
-			[<ore:woodPlanksTier1To3>, <ore:stone>, <ore:woodPlanksTier1To3>],
-			[<ore:woodPlanksTier1To3>, <ore:woodPlanksTier1To3>, <ore:woodPlanksTier1To3>]
+			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+			[<ore:plankWood>, <ore:stone>, <ore:plankWood>],
+			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
 		]
 	],
 	<skyresources:heatprovider:1>: [

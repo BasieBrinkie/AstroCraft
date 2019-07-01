@@ -23,7 +23,14 @@ static condenserAdd as int[ILiquidStack][IItemStack][IItemStack] = {
 		Stage: 1 - Basic Resources
 		---------------------------------------------
 	*/	
+	//Basic Resources
+	<minecraft:paper:0>: {
+		<mekanism:sawdust:0>: {
+			<liquid:preheated_water>: 300
+		}
+	},
 	
+	//Rocket Builder
 	<libvulpes:productnugget:9>: {
 		<exnihilocreatio:item_ore_aluminum:0>: {
 			<liquid:preheated_water>: 400
@@ -34,11 +41,6 @@ static condenserAdd as int[ILiquidStack][IItemStack][IItemStack] = {
 			<liquid:lead>: 840
 		}
 	},
-	<minecraft:paper:0>: {
-		<mekanism:sawdust:0>: {
-			<liquid:preheated_water>: 300
-		}
-	}
 	
 };
 
@@ -50,6 +52,7 @@ static condenserAdd as int[ILiquidStack][IItemStack][IItemStack] = {
 */	
 
 static condenserRemove as IItemStack[] = [
+	<alchemistry:ingot:30>,
 	<alchemistry:ingot:74>,
 	<draconicevolution:draconium_ingot:0>,
 	<draconicevolution:draconium_ore:2>,

@@ -6,13 +6,16 @@ import crafttweaker.item.IIngredient;
 
 	[int] - How many items can it burn.
 	IIngredient[] - all items that burn with its defined int.
-	NOTE: don't specify the int in burn ticks but in amount of items that require 200 burn ticks to burn!!!
+	NOTE: don't specify the int in burn ticks but in amount of items, that require 200 burn ticks, to burn!!!
 	-------------------------------------------------------------------------------------------------------
 */
 
 static setBurnTime as IIngredient[][int] = {
 	0: 	[
-		<excompressum:uncompressed_coal:0>
+		<excompressum:uncompressed_coal:0>,
+		<exnihilocreatio:block_barrel0:0>,
+		<exnihilocreatio:block_sieve:0>,
+		<skyresources:fusiontable:0>,
 		]
 };
 

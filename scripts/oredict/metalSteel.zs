@@ -73,8 +73,12 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 	-------------
 	*/
 	<ore:gearSteelTier1>: [
+		<factorytech:machinepart:14>
+	],
+	<ore:gearSteelTier2>: [
 		<thermalfoundation:material:288>
 	],
+
 
 	/*	
 	-------------

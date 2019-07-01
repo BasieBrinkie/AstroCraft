@@ -21,6 +21,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <ore:blockIron>, null]
 		]
 	],
+	<factorytech:fridge:0>: [
+		[
+			[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
+			[<ore:plateCopper>, <minecraft:packed_ice:0>, <ore:plateCopper>],
+			[<ore:stone>, <ore:blockIron>, <ore:stone>]
+		]
+	],
 	<factorytech:grindstone:0>: [
 		[
 			[<ore:stone>, null, null], 
@@ -102,7 +109,14 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:factoryTechShaft>, <ore:factoryTechGear>, null],
 			[<ore:stone>, <factorytech:intermediate:4>, <ore:stone>]
 		]
-	]
+	],
+	<factorytech:temperer:0>: [
+		[
+			[],
+			[],
+			[]
+		]
+	],
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {

@@ -12,6 +12,7 @@ import scripts.stages.register.stageProfessionsStage5;
 import scripts.stages.register.stageOxygen1;
 import scripts.stages.register.stageResources1;
 import scripts.stages.register.stageRocketBuilder;
+import scripts.stages.register.stageOxygenExtractor;
 import scripts.stages.register.stageDecorator;
 import scripts.stages.register.stageFarmer1;
 import scripts.stages.register.stageMoldMaker;
@@ -24,6 +25,7 @@ import scripts.stages.register.stageDecorationEnable;
 
 static stagedItems as IIngredient[][string] = {
 	stageResources1.stage: [
+		<factorytech:centrifuge:0>,
 		<factorytech:grindstone:0>,
 		<factorytech:handbook:0>,
 		<factorytech:intermediate:4>,
@@ -50,6 +52,8 @@ static stagedItems as IIngredient[][string] = {
 		<factorytech:circuitscribe:0>,
 		<factorytech:machinepart:1>,
 		<factorytech:machinepart:11>,
+		<factorytech:machinepart:31>,
+		<factorytech:machinepart:32>,
 		<factorytech:machinepart:40>,
 		<factorytech:machinepart:80>,
 		<factorytech:metalcutter:0>,
@@ -60,7 +64,11 @@ static stagedItems as IIngredient[][string] = {
 		<factorytech:salvagepart:80>
 	],
 	stageProfessionsStage1.stage: [
-		
+		<factorytech:fridge:0>,
+		<factorytech:machinepart:2>,
+		<factorytech:machinepart:4>,
+		<factorytech:machinepart:130>,
+		<factorytech:machinepart:150>,
 	],
 };
 
@@ -90,6 +98,7 @@ static disabledItems as IIngredient[] = [
 	<factorytech:deepdrill:0>,
 	<factorytech:disassembler:0>,
 	<factorytech:disruptor:0>,
+	<factorytech:electroplater:0>,
 	<factorytech:elementsword:0>,
 	<factorytech:elevator:0>,
 	<factorytech:energizer:0>,
@@ -102,6 +111,9 @@ static disabledItems as IIngredient[] = [
 	<factorytech:intermediate:2>,
 	<factorytech:iondisperser:0>,
 	<factorytech:itempusher:0>,
+	<factorytech:itemredis:0>,
+	<factorytech:machinepart:3>,
+	<factorytech:machinepart:13>,
 	<factorytech:machinepart:30>,
 	<factorytech:machinepart:140>,
 	<factorytech:machinepart:141>,
@@ -117,6 +129,7 @@ static disabledItems as IIngredient[] = [
 	<factorytech:propfurnace:0>,
 	<factorytech:realelevator:0>,
 	<factorytech:reclaimer:0>,
+	<factorytech:rednotifier:0>,
 	<factorytech:redwatcher:0>,
 	<factorytech:safetyvest:0>,
 	<factorytech:salvage:0>,	

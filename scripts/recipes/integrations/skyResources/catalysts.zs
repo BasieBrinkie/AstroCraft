@@ -9,14 +9,15 @@ import crafttweaker.item.IItemStack;
 	- remove existing recipes.
 
 	Add method:
-	First [IItemStack[]] is the array with all items that need to become a catalyst.
+	First [IItemStack] is the item that need to become a catalyst.
 	float is the amount it adds. (consistent with usage in alchemical fusion) 
 	----------------------------------------------------------------------------------------------
 */	
 
 
-static catalystAdd as float[IItemStack[]] = { [
-	<mekanism:clump:3>]: 1.00
+static catalystAdd as float[IItemStack] = { 
+	//Dawn of a New Age
+	<mekanism:clump:3>: 1.00
 };
 
 /*	

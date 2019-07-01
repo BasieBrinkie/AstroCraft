@@ -1,7 +1,7 @@
 [
   {
-    "inputFluid": "water",
-    "reactant": "exnihilocreatio:item_material:3",
-    "output": "witchwater"
+    "inputFluid": "preheated_water",
+    "reactant": "minecraft:wheat_seeds:0",
+    "output": "seed_oil"
   }
 ]

@@ -122,9 +122,11 @@ zenClass facTech {
 		}
 	}
 
-	function electroplaterAdd(map as IItemStack[IItemStack]) {
-		for output, input in map {
-			mods.factorytech.Electroplater.addRecipe(output, input);
+	function electroplaterAdd(map as IItemStack[][IItemStack]) {
+		for output, array in map {
+			for input in array {
+				mods.factorytech.Electroplater.addRecipe(output, input);
+			}
 		}
 	}
 
@@ -184,7 +186,7 @@ zenClass facTech {
 		}
 	}
 
-	function metalCutterRemove(map as IItemStack[]) {
+	function metalCutterRemove(map as IIngredient[]) {
 		for output in map {
 			mods.factorytech.MetalCutter.removeRecipe(output);
 		}
@@ -202,9 +204,11 @@ zenClass facTech {
 		}
 	}
 
-	function refrigeratorAdd(map as ILiquidStack[IItemStack]) {
-		for output, inputFluid in map {
-			mods.factorytech.Refrigerator.addRecipe(output, inputFluid, true);
+	function refrigeratorAdd(map as ILiquidStack[][IItemStack]) {
+		for output, array in map {
+			for inputFluid in array {
+				mods.factorytech.Refrigerator.addRecipe(output, inputFluid, true);
+			}
 		}
 	}
 
@@ -226,15 +230,16 @@ zenClass facTech {
 		}
 	}
 
-	function tempererOvenAdd(map as int[IItemStack][IItemStack]) {
+	function tempererAdd(map as float[IItemStack][IItemStack]) {
 		for output, array in map {
-			for input, ticks in array {
-				mods.factorytech.Temperer.addRecipe(output, input, ticks);
-			}
+			for input, seconds in array {
+				var ticks as int = seconds * 20;
+					mods.factorytech.Temperer.addRecipe(output, input, ticks);
+			}			
 		}
 	}
 
-	function tempererOvenRemove(map as IItemStack[]) {
+	function tempererRemove(map as IItemStack[]) {
 		for output in map {
 			mods.factorytech.Temperer.removeRecipe(output);
 		}

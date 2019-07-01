@@ -15,13 +15,16 @@ import crafttweaker.item.IItemStack;
 
 
 static fusionAdd as float[IItemStack[]][IItemStack] = { 
+	//Basic Resources
+	<minecraft:iron_nugget:0>: {[
+		<exnihilocreatio:item_ore_iron:0> * 2]: 0.25 
+	},
+
+	//Rocket Builder
 	<libvulpes:productingot:9>: {[
 		<libvulpes:productnugget:9> * 3,
 		<exnihilocreatio:item_ore_iron:0>]: 0.05
 	},
-	<minecraft:iron_nugget:0>: {[
-		<exnihilocreatio:item_ore_iron:0> * 2]: 0.25 
-	}
 };
 
 /*	
@@ -60,6 +63,7 @@ static fusionRemove as IItemStack[] = [
 	<skyresources:orealchdust:12>,
 	<skyresources:orealchdust:13>,
 	<skyresources:orealchdust:14>,
+	<skyresources:orealchdust:15>,
 	<skyresources:orealchdust:17>,
 	<skyresources:orealchdust:18>,
 	<skyresources:orealchdust:19>,

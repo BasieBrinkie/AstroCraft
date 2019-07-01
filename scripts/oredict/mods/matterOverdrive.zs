@@ -31,6 +31,25 @@ static addItemsToOredict as IItemStack[][IOreDictEntry] = {
 		<matteroverdrive:decorative.tritanium_plate_colored:14>,
 		<matteroverdrive:decorative.tritanium_plate_colored:15>
 	],
+	<ore:crateTritanium>: [
+		<matteroverdrive:tritanium_crate:0>,
+		<matteroverdrive:tritanium_crate_black:0>,
+		<matteroverdrive:tritanium_crate_blue:0>,
+		<matteroverdrive:tritanium_crate_brown:0>,
+		<matteroverdrive:tritanium_crate_cyan:0>,
+		<matteroverdrive:tritanium_crate_gray:0>,
+		<matteroverdrive:tritanium_crate_green:0>,
+		<matteroverdrive:tritanium_crate_light_blue:0>,
+		<matteroverdrive:tritanium_crate_lime:0>,
+		<matteroverdrive:tritanium_crate_magenta:0>,
+		<matteroverdrive:tritanium_crate_orange:0>,
+		<matteroverdrive:tritanium_crate_pink:0>,
+		<matteroverdrive:tritanium_crate_purple:0>,
+		<matteroverdrive:tritanium_crate_red:0>,
+		<matteroverdrive:tritanium_crate_silver:0>,
+		<matteroverdrive:tritanium_crate_white:0>,
+		<matteroverdrive:tritanium_crate_yellow:0>
+	]
 };
 
 /*	-------------------------------------------------

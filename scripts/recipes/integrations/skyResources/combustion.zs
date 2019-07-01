@@ -22,28 +22,34 @@ static combustionAdd as int[IItemStack[]][IItemStack] = {
 		Stage: Basic Resources
 		---------------------------------------------
 	*/
-	<exnihilocreatio:item_ore_aluminum:0>: {[
-		<exnihilocreatio:item_ore_aluminum:1>,
-		<charcoal_pit:item_ash:0> * 2]: 40
-	},	
+	//Oxygen - 1
 	<exnihilocreatio:item_ore_iron:0>: {[
 		<exnihilocreatio:item_ore_iron:1> * 2,
 		<charcoal_pit:item_ash:0> * 5]: 50
 	},
+
+	//Basic Resources
+	<minecraft:iron_ingot:0>: {[
+		<minecraft:iron_nugget:0> * 5]: 500
+	},	
+	<tconstruct:soil:0>: {[
+		<minecraft:stone:0>, 
+		<minecraft:coal:1>]: 20
+	},
+
+	//Rocket Builder	
+	<exnihilocreatio:item_ore_aluminum:0>: {[
+		<exnihilocreatio:item_ore_aluminum:1>,
+		<charcoal_pit:item_ash:0> * 2]: 40
+	},	
 	<exnihilocreatio:item_ore_nickel:0>: {[
 		<exnihilocreatio:item_ore_nickel:1>,
 		<charcoal_pit:item_ash:0>]: 20
 	},
-	<minecraft:iron_ingot:0>: {[
-		<minecraft:iron_nugget:0> * 5]: 500
-	},
 	<skyresources:orealchdust:17>: {[
 		<thermalfoundation:material:199>]: 850
 	},
-	<tconstruct:soil:0>: {[
-		<minecraft:stone:0>, 
-		<minecraft:coal:1>]: 20
-	}
+
 
 };
 

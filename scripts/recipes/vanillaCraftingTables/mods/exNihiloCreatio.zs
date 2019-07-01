@@ -14,7 +14,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		[
 			[<ore:woodPlanksTier1>, null, <ore:woodPlanksTier1>],
 			[<ore:woodPlanksTier1>, null, <ore:woodPlanksTier1>],
-			[<ore:slabsTier1>, <ore:slabsTier1>, <ore:slabsTier1>]
+			[<ore:slabsWood>, <ore:slabsWood>, <ore:slabsWood>]
 		]
 	],
 	<exnihilocreatio:item_ore_copper:1>: [

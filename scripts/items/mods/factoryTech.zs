@@ -9,7 +9,9 @@ static itemNames as string[IItemStack] = {
 	<factorytech:machinepart:11>: "Poor Iron Gear",
 	<factorytech:machinepart:31>: "Poor Iron Blade",
 	<factorytech:machinepart:50>: "Poor Iron Shaft",
-	<factorytech:machinepart:71>: "Poor Iron Drillbit"
+	<factorytech:machinepart:71>: "Poor Iron Drillbit",
+
+	<factorytech:machinepart:4>: "Steel Saw Blade",
 };
 
 static unlocalizedNames as string[string] = {

@@ -132,7 +132,6 @@ key_schematica.key.pickBlock:-98:SHIFT
 key_translationKey.scp.nightvision_toggle:49
 key_Rotate stored structure:47
 key_key.toastcontrol.clear:36
-key_zenscroll.options.modifier_key:56
 key_key.microraptor_dismount:46
 key_key.vehicle_helicopter.up:57
 key_key.vehicle_helicopter.down:29
@@ -148,7 +147,6 @@ key_key.vehicle_8.switch:10:CONTROL
 key_key.xtones.scroll:42
 key_key.narrator:48:CONTROL
 key_key.cofh.multimode:47
-key_key.toggle_focus.desc:15
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.toggleCheatMode:0
@@ -159,6 +157,7 @@ key_key.jei.previousPage:201
 key_key.jei.nextPage:209
 key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
+key_key.toggle_focus.desc:15
 key_Dive down:46
 key_key.settings_menu:34
 key_key.range:19
@@ -255,10 +254,10 @@ key_key.connect_caving_rope:47
 key_Toggle Jetpack:45
 key_Open Rocket GUI:46
 key_Toggle RCS:19
-key_Rotate Rocket Right:32
-key_Rotate Rocket Left:30
-key_Move Rocket Up:44
-key_Move Rocket Down:45
+key_Rotate Vehicle Right:32
+key_Rotate Vehicle Left:30
+key_Move Vehicle Up:44
+key_Move Vehicle Down:45
 key_key.journeymap.zoom_in:13
 key_key.journeymap.zoom_out:12
 key_key.journeymap.minimap_type:26
