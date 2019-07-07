@@ -8,7 +8,7 @@ static metalCutterAdd as IIngredient[][IItemStack] = {
 
 };
 
-static metalCutterRemove as IIngredient[] = [
+static metalCutterRemove as IItemStack[] = [
 	<factorytech:intermediate:5>,
 	<factorytech:intermediate:6>,
 	<factorytech:machinepart:20>,

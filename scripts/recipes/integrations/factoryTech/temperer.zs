@@ -16,13 +16,16 @@ import crafttweaker.item.IItemStack;
 */	
 
 
-static tempererAdd as float[IItemStack][IItemStack] = { 
+static tempererAdd as int[IItemStack][IItemStack] = { 
 	//Profession Stage 1
 	<enderutilities:storage_0:7>: {
 		<factorytech:crate:0>: 6
 	},
 	<factorytech:machinepart:22>: {
 		<factorytech:machinepart:21>: 20
+	},
+	<factorytech:machinepart:72>: {
+		<factorytech:machinepart:71>: 12
 	},
 	<skyresources:ironcuttingknife:0>: {
 		<actuallyadditions:item_knife:0>: 16

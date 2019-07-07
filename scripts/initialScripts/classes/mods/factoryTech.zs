@@ -94,7 +94,7 @@ zenClass facTech {
 		}
 	}
 
-	function drillGrinderAdd(map as bool[IItemStack][IItemStack]) {
+	function drillAdd(map as bool[IIngredient][IItemStack]) {
 		for output, array in map {
 			for input, stonePart in array {
 				mods.factorytech.DrillGrinder.addRecipe(output, input, stonePart);
@@ -102,13 +102,13 @@ zenClass facTech {
 		}
 	}
 
-	function drillGrinderRemove(map as IItemStack[]) {
+	function drillRemove(map as IItemStack[]) {
 		for output in map {
 			mods.factorytech.DrillGrinder.removeRecipe(output);
 		}
 	}
 
-	function electricFurnaceAdd(map as bool[IItemStack][IItemStack]) {
+	function electricFurnaceAdd(map as bool[IIngredient][IItemStack]) {
 		for output, array in map {
 			for input, stonePart in array {
 				mods.factorytech.ElectricFurnace.addRecipe(output, input, stonePart);
@@ -150,7 +150,7 @@ zenClass facTech {
 		}
 	}
 	
-	function magneticCentrifugeAdd(map as bool[IItemStack][IItemStack[]]) {
+	function magneticCentrifugeAdd(map as bool[IIngredient][IItemStack[]]) {
 		for outputarray, array in map {
 			for input, stonePart in array {
 				mods.factorytech.MagCent.addRecipe(input, outputarray[0], outputarray[1], outputarray[2], stonePart);
@@ -158,9 +158,9 @@ zenClass facTech {
 		}
 	}
 
-	function magneticCentrifugeRemove(map as IItemStack[IItemStack[]]) {
-		for outputarray, input in map {
-			mods.factorytech.MagCent.removeRecipe(input, outputarray[0], outputarray[1], outputarray[2]);
+	function magneticCentrifugeRemove(map as IItemStack[][]) {
+		for i, outputArray in map {
+			mods.factorytech.MagCent.removeRecipe(outputArray);
 		}
 	}
 
@@ -186,7 +186,7 @@ zenClass facTech {
 		}
 	}
 
-	function metalCutterRemove(map as IIngredient[]) {
+	function metalCutterRemove(map as IItemStack[]) {
 		for output in map {
 			mods.factorytech.MetalCutter.removeRecipe(output);
 		}
@@ -230,7 +230,7 @@ zenClass facTech {
 		}
 	}
 
-	function tempererAdd(map as float[IItemStack][IItemStack]) {
+	function tempererAdd(map as int[IItemStack][IItemStack]) {
 		for output, array in map {
 			for input, seconds in array {
 				var ticks as int = seconds * 20;

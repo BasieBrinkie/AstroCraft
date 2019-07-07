@@ -4,6 +4,12 @@ import crafttweaker.oredict.IOreDictEntry;
 import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
+import scripts.stages.register.stageProfessionsStage1;
+import scripts.stages.register.stageProfessionsStage2;
+import scripts.stages.register.stageProfessionsStage3;
+import scripts.stages.register.stageProfessionsStage4;
+import scripts.stages.register.stageProfessionsStage5;
+
 import scripts.stages.register.stageOxygen1;
 import scripts.stages.register.stageResources1;
 import scripts.stages.register.stageRocketBuilder;
@@ -25,7 +31,10 @@ static stagedItemsOredict as IOreDictEntry[][string] = {
 		<ore:clumpCopperTier1>,
 		<ore:blockCopperTier1>,
 		<ore:plateCopperTier1>
-	]
+	],
+	stageProfessionsStage1.stage: [
+		<ore:ingotCopperTier1>,
+	],
 };
 
 static disabledItems as IIngredient[] = [

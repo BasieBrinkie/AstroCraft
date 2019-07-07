@@ -63,6 +63,11 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:glowstone_dust:0>, <minecraft:string:0>, <minecraft:string:0>]
 		]
 	],
+	<factorytech:machinepart:21>: [
+		[
+			[<minecraft:flint:0>, <ore:ingotCopper>, <minecraft:flint:0>],
+		]
+	],
 	<factorytech:machinepart:40>: [
 		[
 			[null, <ore:nuggetIron>, null],
@@ -89,6 +94,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:clumpCopper>, null, <ore:clumpCopper>]
 		]
 	],
+	<factorytech:magcent:0>: [
+		[
+			[<ore:ingotIron>, <ore:factoryTechShaft>, <ore:ingotIron>],
+			[<ore:factoryTechMotor>, <ore:factoryTechGear>, null],
+			[<ore:blockIron>, <factorytech:machinepart:130>, <ore:blockIron>]
+		]
+	],
 	<factorytech:metalcutter:0>: [
 		[
 			[<ore:ingotIron>, <ore:factoryTechBlade>, <ore:ingotIron>],
@@ -110,11 +122,17 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:stone>, <factorytech:intermediate:4>, <ore:stone>]
 		]
 	],
+	<factorytech:scaffold:0> * 4: [
+		[
+			[<enderutilities:floor:0>, <enderutilities:floor:0>, <enderutilities:floor:0>],
+			[<ore:ingotIron>, null, <ore:ingorIron>]
+		]
+	],
 	<factorytech:temperer:0>: [
 		[
-			[],
-			[],
-			[]
+			[null, <ore:factoryTechWire>, null],
+			[<ore:blockIron>, <ore:blockCopper>, <ore:blockIron>],
+			[<ore:stickWood>, null,<ore:stickWood>]
 		]
 	],
 };

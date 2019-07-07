@@ -11,10 +11,11 @@ zenClass charPit {
 		mods.charcoalpit.flushAlloyRecipes();
 	}
 
-	function bloomeryAdd(map as IIngredient[][][IIngredient]) {
+	function bloomeryAdd(map as IItemStack[][IItemStack]) {
 		for output, array in map {
-			for i, inputArray in array {
-				mods.charcoalpit.addAlloyRecipe(output, 1, true, false, inputArray);
+			for inputItem in array {
+				mods.charcoalpit.addAlloyRecipe(output, 1, true, false, [inputItem]);
+				mods.jei.JEI.addDescription(<charcoal_pit:bloomery_hatch:0>, ["The Bloomery can transform the following items:", "", inputItem.amount ~ " " ~ inputItem.displayName ~ " ==> " ~ output.amount ~ " " ~ output.displayName]);
 			}
 		}
 	}

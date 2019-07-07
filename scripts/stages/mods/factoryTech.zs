@@ -34,8 +34,6 @@ static stagedItems as IIngredient[][string] = {
 		<factorytech:machinepart:20>,
 		<factorytech:machinepart:50>,
 		<factorytech:machinepart:60>,
-		<factorytech:machinepart:72>,
-		<factorytech:oredrill:0>,
 		<factorytech:salvagepart:20>,
 
 		<factorytech:salvagepart:0>,
@@ -67,8 +65,14 @@ static stagedItems as IIngredient[][string] = {
 		<factorytech:fridge:0>,
 		<factorytech:machinepart:2>,
 		<factorytech:machinepart:4>,
+		<factorytech:machinepart:71>,	
+		<factorytech:machinepart:72>,
 		<factorytech:machinepart:130>,
 		<factorytech:machinepart:150>,
+		<factorytech:magcent:0>,
+		<factorytech:oredrill:0>,
+		<factorytech:scaffold:0>,
+		<factorytech:temperer:0>,
 	],
 };
 

@@ -17,6 +17,7 @@ static gameModeAbnormal as Stage = ZenStager.initStage("gamemode_abnormal");
 static gameModeGenius as Stage = ZenStager.initStage("gamemode_genius");
 static gameModeKitchenSink as Stage = ZenStager.initStage("gamemode_kitchensink");
 
+
 /*
 	-----------
 	Dimensions.
@@ -26,6 +27,7 @@ static dimensionSpaceStation as Stage = ZenStager.initStage("dim_spacestation");
 static dimensionAsteroids as Stage = ZenStager.initStage("dim_asteroids");
 static dimensionGlacidus as Stage = ZenStager.initStage("dim_glacidus");
 
+
 /*
 	----------------------
 	Progression Stages: 0.
@@ -34,6 +36,7 @@ static dimensionGlacidus as Stage = ZenStager.initStage("dim_glacidus");
 static stageOxygen1 as Stage = ZenStager.initStage("oxygen_one");
 static stageResources1 as Stage = ZenStager.initStage("resources_one");
 static stageRocketBuilder as Stage = ZenStager.initStage("rocket_builder");
+
 
 /*
 	----------------------
@@ -48,6 +51,7 @@ static stageFarmer1 as Stage = ZenStager.initStage("farmer_one");
 static stageMoldMaker as Stage = ZenStager.initStage("mold_maker");
 static stageAstronomer as Stage = ZenStager.initStage("astronomer");
 
+
 /*
 	----------------------
 	Progression Stages: 2.
@@ -55,7 +59,9 @@ static stageAstronomer as Stage = ZenStager.initStage("astronomer");
 */
 static stageProfessionsStage2 as Stage = ZenStager.initStage("professions_two");
 
+static stageOxygenManager as Stage = ZenStager.initStage("oxygen_manager");
 static stageBlackSmith as Stage = ZenStager.initStage("black_smith");
+
 
 /*
 	----------------------
@@ -66,18 +72,36 @@ static stageProfessionsStage3 as Stage = ZenStager.initStage("professions_three"
 
 static stageNuclearPhysicist as Stage = ZenStager.initStage("nuclear_physicist");
 
+
 /*
 	----------------------
 	Progression Stages: 4.
 	----------------------
 */
 static stageProfessionsStage4 as Stage = ZenStager.initStage("professions_four");
+
+static stageNuclearPhysicistMaster as Stage = ZenStager.initStage("nuclear_physicist_master");
+
+
 /*
 	----------------------
 	Progression Stages: 5.
 	----------------------
 */
 static stageProfessionsStage5 as Stage = ZenStager.initStage("professions_five");
+
+static stageGunSmithMaster as Stage = ZenStager.initStage("gunsmith_master");
+
+/*
+	--------------
+	Planet Stages.
+	--------------
+*/
+static planetAetherThaumcraft1 as Stage = ZenStager.initStage("aetherleg_thaumcraft_one");
+
+static planetAetherIIAcademy as Stage = ZenStager.initStage("aether_academy");
+
+static planetGlacidusStockFarmer as Stage = ZenStager.initStage("glacidus_stockfarmer");
 /*
 	-----------
 	Mob Stages.

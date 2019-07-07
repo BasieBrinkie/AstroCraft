@@ -59,6 +59,9 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:wooden_pressure_plate:0>
 	],
 	stageProfessionsStage1.stage: [
+		<minecraft:comparator:0>,
+		<minecraft:redstone_torch:0>,
+		<minecraft:repeater:0>,
 		<minecraft:stonebrick:0>,
 	],
 

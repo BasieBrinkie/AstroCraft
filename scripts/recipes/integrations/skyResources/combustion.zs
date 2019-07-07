@@ -30,14 +30,14 @@ static combustionAdd as int[IItemStack[]][IItemStack] = {
 
 	//Basic Resources
 	<minecraft:iron_ingot:0>: {[
-		<minecraft:iron_nugget:0> * 5]: 500
+		<minecraft:iron_nugget:0> * 3]: 500
 	},	
 	<tconstruct:soil:0>: {[
 		<minecraft:stone:0>, 
 		<minecraft:coal:1>]: 20
 	},
 
-	//Rocket Builder	
+	//Rocket Builder
 	<exnihilocreatio:item_ore_aluminum:0>: {[
 		<exnihilocreatio:item_ore_aluminum:1>,
 		<charcoal_pit:item_ash:0> * 2]: 40
@@ -50,6 +50,10 @@ static combustionAdd as int[IItemStack[]][IItemStack] = {
 		<thermalfoundation:material:199>]: 850
 	},
 
+	//Professions Stage 1
+	<mekanism:dirtydust:3>: {[
+		<mekanism:nugget:5>]: 100
+	}
 
 };
 

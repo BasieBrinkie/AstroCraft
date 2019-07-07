@@ -1,6 +1,7 @@
+import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 
-static grindstoneAdd as bool[IItemStack][IItemStack] = {
+static grindstoneAdd as bool[IIngredient][IItemStack] = {
 	//Basic Resources
 	<factorytech:machinepart:0>: {
 		<factorytech:machinepart:10>: true
@@ -22,6 +23,9 @@ static grindstoneAdd as bool[IItemStack][IItemStack] = {
 	},
 	
 	//Professions Stage 1
+	<mekanism:nugget:5> * 3: {
+		<exnihilocreatio:item_ore_copper:3>: true
+	},
 	<factorytech:machinepart:71>: {
 		<minecraft:iron_ingot:0>: true
 	},

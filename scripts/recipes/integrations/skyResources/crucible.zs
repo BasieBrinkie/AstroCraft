@@ -40,6 +40,13 @@ static crucibleAdd as IItemStack[][ILiquidStack] = {
 	<liquid:iron> * 50: [<factorytech:salvagepart:1>, <factorytech:salvagepart:11>, <factorytech:salvagepart:31>],
 	<liquid:lead> * 200: [<exnihilocreatio:item_ore_lead:0>],
 	<liquid:nickel> * 100: [<factorytech:ore_dust:5>],
+
+	/*	
+		---------------------------------------------
+		Stage: 1 - Professions Stage
+		---------------------------------------------
+	*/
+	<liquid:copper> * 150: [<mekanism:clump:3>],
 };
 
 /*	

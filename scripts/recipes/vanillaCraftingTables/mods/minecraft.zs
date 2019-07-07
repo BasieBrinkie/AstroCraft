@@ -27,6 +27,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
 		]
 	],
+	<minecraft:coal:1>: [
+		[
+			[<actuallyadditions:item_misc:11>, <actuallyadditions:item_misc:11>, <actuallyadditions:item_misc:11>],
+			[<actuallyadditions:item_misc:11>, null, <actuallyadditions:item_misc:11>],
+			[<actuallyadditions:item_misc:11>, <actuallyadditions:item_misc:11>, <actuallyadditions:item_misc:11>]
+		]
+	],
 	<minecraft:cobblestone:0>: [
 		[
 			[<exnihilocreatio:item_pebble:0>, <exnihilocreatio:item_pebble:0>, <exnihilocreatio:item_pebble:0>], 
@@ -34,11 +41,11 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<exnihilocreatio:item_pebble:0>, <exnihilocreatio:item_pebble:0>, <exnihilocreatio:item_pebble:0>]
 		]
 	],
-	<minecraft:coal:1>: [
+	<minecraft:comparator:0>: [
 		[
-			[<actuallyadditions:item_misc:11>, <actuallyadditions:item_misc:11>, <actuallyadditions:item_misc:11>],
-			[<actuallyadditions:item_misc:11>, null, <actuallyadditions:item_misc:11>],
-			[<actuallyadditions:item_misc:11>, <actuallyadditions:item_misc:11>, <actuallyadditions:item_misc:11>]
+			[null, <minecraft:redstone_torch:0>, null],
+			[<minecraft:redstone_torch:0>, <ore:plateCopper>, <minecraft:redstone_torch:0>],
+			[<ore:stone>, <ore:stone>, <ore:stone>]
 		]
 	],
 	<minecraft:furnace:0>: [
@@ -58,6 +65,18 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<minecraft:paper:0> * 2: [
 		[
 			[<mekanism:sawdust:0>, <mekanism:sawdust:0>, <mekanism:sawdust:0>]
+		]
+	],
+	<minecraft:redstone_torch:0>: [
+		[
+			[<minecraft:redstone:0>],
+			[<ore:stickWood>]
+		]
+	],
+	<minecraft:repeater:0>: [
+		[
+			[<minecraft:redstone_torch:0>, <minecraft:redstone:0>, <minecraft:redstone_torch:0>],
+			[<ore:stone>, <ore:stone>, <ore:stone>]
 		]
 	],
 	<minecraft:stone_axe>: [

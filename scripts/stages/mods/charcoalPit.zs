@@ -28,7 +28,10 @@ static stagedItems as IIngredient[][string] = {
 		<charcoal_pit:fire_starter:0>,
 		<charcoal_pit:item_ash:0>,
 		<charcoal_pit:log_pile:0>
-	]
+	],
+	stageProfessionsStage1.stage: [
+		<charcoal_pit:bloomery_hatch:0>,
+	],
 };
 
 static disabledItems as IIngredient[] = [

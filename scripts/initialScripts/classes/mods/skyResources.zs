@@ -190,12 +190,10 @@ zenClass skyRes {
 		}
 	}
 
-	function catalystYield(map as float[IItemStack[]], inputItem as IItemStack) as IFormattedText {
-		for itemArray, catalystYield in map {
-			for item in itemArray {
-				if (item.definition.id == inputItem.definition.id) {
-					return format.aqua("Catalyst Yield: " ~ (catalystYield * 100) ~ "%");
-				}
+	function catalystYield(map as float[IItemStack], inputItem as IItemStack) as IFormattedText {
+		for item, catalystYield in map {
+			if (item.definition.id == inputItem.definition.id) {
+				return format.aqua("Catalyst Yield: " ~ (catalystYield * 100) ~ "%");
 			}
 		}
 	}

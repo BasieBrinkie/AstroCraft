@@ -80,7 +80,9 @@ function initIntegrations() {
 	scripts.recipes.integrations.factoryTech.agitator.init();
 	scripts.recipes.integrations.factoryTech.centrifuge.init();
 	scripts.recipes.integrations.factoryTech.chopSaw.init();
+	scripts.recipes.integrations.factoryTech.drill.init();
 	scripts.recipes.integrations.factoryTech.grindStone.init();
+	scripts.recipes.integrations.factoryTech.magneticCentrifuge.init();
 	scripts.recipes.integrations.factoryTech.metalCutter.init();
 	scripts.recipes.integrations.factoryTech.refrigerator.init();
 	scripts.recipes.integrations.factoryTech.temperer.init();
@@ -125,6 +127,7 @@ function initStages() {
 	scripts.stages.mods.contenttweaker.init();
 	scripts.stages.mods.exCompressum.init();
 	scripts.stages.mods.exNihiloCreatio.init();
+	scripts.stages.mods.extraUtils2.init();
 	scripts.stages.mods.factoryTech.init();
 	scripts.stages.mods.ftbQuests.init();
 	scripts.stages.mods.grapplemod.init();

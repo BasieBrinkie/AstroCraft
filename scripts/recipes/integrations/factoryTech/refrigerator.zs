@@ -21,6 +21,9 @@ static refrigeratorAdd as ILiquidStack[][IItemStack] = {
 	<factorytech:machinepart:130>: [
 		<liquid:iron> * 500
 	],
+	<exnihilocreatio:item_ore_copper:3>: [
+		<liquid:copper> * 144
+	],
 };
 
 /*	

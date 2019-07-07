@@ -15,7 +15,9 @@ static grinderAdd as int[IItemStack][IItemStack] = {
 	},
 	<mekanism:dirtydust:6>: {
 		<thaumcraft:nugget:4>: 3
-	}
+	},
+
+	//Professions Stage 1
 };
 
 static grinderRemove as IItemStack[] = [
