@@ -31,6 +31,7 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static disabledItems as IIngredient[] = [
+	<mysticalagriculture:coal:0>
 ];
 
 function init() {

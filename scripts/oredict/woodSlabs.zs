@@ -37,12 +37,6 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 		
 		<glacidus:underground_slab:0>,
 		
-		<immersiveengineering:treated_wood_slab:0>,
-		<immersiveengineering:treated_wood_slab:1>,
-		<immersiveengineering:treated_wood_slab:2>,	
-		
-		<thaumcraft:slab_silverwood:0>,
-		
 		<thebetweenlands:weedwood_plank_slab:0>,
 		<thebetweenlands:rubber_tree_plank_slab:0>,
 		<thebetweenlands:giant_root_plank_slab:0>,
@@ -53,10 +47,11 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 		<tropicraft:slab:4>	
 	],
 	<ore:woodSlabsTier3>: [
-		<extrautils2:decorativesolidwood:0>,
-		<immersiveengineering:treated_wood:0>,
-		<thaumcraft:plank_greatwood:0>,
-		<thaumcraft:slab_greatwood:0>
+		<immersiveengineering:treated_wood_slab:0>,
+		<immersiveengineering:treated_wood_slab:1>,
+		<immersiveengineering:treated_wood_slab:2>,	
+		<thaumcraft:slab_greatwood:0>,
+		<thaumcraft:slab_silverwood:0>,
 	] 
 };
 

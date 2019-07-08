@@ -79,7 +79,8 @@ function initIntegrations() {
 
 	scripts.recipes.integrations.factoryTech.agitator.init();
 	scripts.recipes.integrations.factoryTech.centrifuge.init();
-	scripts.recipes.integrations.factoryTech.chopSaw.init();
+	scripts.recipes.integrations.factoryTech.chopSaw.init(); 
+	scripts.recipes.integrations.factoryTech.compressionChamber.init();
 	scripts.recipes.integrations.factoryTech.drill.init();
 	scripts.recipes.integrations.factoryTech.grindStone.init();
 	scripts.recipes.integrations.factoryTech.magneticCentrifuge.init();
@@ -111,12 +112,13 @@ function initStages() {
 	print("----------------------- Stages -----------------------");
 
 	scripts.stages.liquids.init();
-	scripts.stages.metalAluminum.init();
-	scripts.stages.metalCopper.init();
-	scripts.stages.metalIron.init();
-	scripts.stages.metalLead.init();
-	scripts.stages.metalNickel.init();
 	scripts.stages.stagesResearchTable.init();
+	
+	scripts.stages.metals.metalAluminum.init();
+	scripts.stages.metals.metalCopper.init();
+	scripts.stages.metals.metalIron.init();
+	scripts.stages.metals.metalLead.init();
+	scripts.stages.metals.metalNickel.init();
 
 	scripts.stages.mods.actuallyAdditions.init();	
 	scripts.stages.mods.advancedRocketry.init();
@@ -131,11 +133,14 @@ function initStages() {
 	scripts.stages.mods.factoryTech.init();
 	scripts.stages.mods.ftbQuests.init();
 	scripts.stages.mods.grapplemod.init();
+	scripts.stages.mods.immersiveEngineering.init();
 	scripts.stages.mods.libVulpes.init();
 	scripts.stages.mods.matterOverdrive.init();
 	scripts.stages.mods.mekanism.init();
 	scripts.stages.mods.minecraft.init();
+	scripts.stages.mods.mysticalAgradditions.init();
 	scripts.stages.mods.mysticalAgriculture.init();
+	scripts.stages.mods.nuclearCraft.init();
 	scripts.stages.mods.recurrentComplex.init();
 	scripts.stages.mods.researchTable.init();
 	scripts.stages.mods.skyResources.init();
@@ -151,13 +156,15 @@ function initStages() {
 function initOredict() {
 	print("----------------------- OreDict -----------------------");
 
-	scripts.oredict.metalAluminum.init();
-	scripts.oredict.metalCopper.init();
-	scripts.oredict.metalIron.init();
-	scripts.oredict.metalLead.init();
-	scripts.oredict.metalNickel.init();
-	scripts.oredict.metalSteel.init();
+	scripts.oredict.metals.metalAluminum.init();
+	scripts.oredict.metals.metalCopper.init();
+	scripts.oredict.metals.metalIron.init();
+	scripts.oredict.metals.metalLead.init();
+	scripts.oredict.metals.metalNickel.init();
+	scripts.oredict.metals.metalSteel.init();
+	scripts.oredict.metals.metalUranium.init();
 
+	scripts.oredict.coal.init();
 	scripts.oredict.sand.init();
 	scripts.oredict.sticks.init();
 	scripts.oredict.stone.init();

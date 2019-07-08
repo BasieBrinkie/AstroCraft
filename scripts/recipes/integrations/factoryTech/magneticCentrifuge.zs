@@ -20,10 +20,10 @@ import crafttweaker.liquid.ILiquidStack;
 
 static magneticCentrifugeAdd as bool[IIngredient][IItemStack[]] = { 
 	//Profession Stage 1
-	[<mekanism:dirtydust:0>, <exnihilocreatio:item_pebble:0> * 3]: {
+	[<mekanism:dirtydust:0>, <exnihilocreatio:item_pebble:0> * 3, null]: {
 		<minecraft:gravel:0>: true
 	},
-	[<minecraft:redstone:0>, <minecraft:sand:0>]: {
+	[<minecraft:redstone:0>, <minecraft:sand:0>, null]: {
 		<ore:dustCopper>: true
 	},
 };
@@ -38,8 +38,8 @@ static magneticCentrifugeAdd as bool[IIngredient][IItemStack[]] = {
 
 static magneticCentrifugeRemove as IItemStack[][] = [
 	[<minecraft:iron_nugget:0> * 2, <minecraft:flint:0> * 2, <factorytech:ore_dust:5> * 2],
-	[<factorytech:mined_ore:4>, <minecraft:gravel:0>],
-	[<minecraft:dye:4> * 2, <minecraft:redstone:0> * 6],
+	[<factorytech:mined_ore:4>, <minecraft:gravel:0>, null],
+	[<minecraft:dye:4> * 2, <minecraft:redstone:0> * 6, null],
 ];
 
 /*	

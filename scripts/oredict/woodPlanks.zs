@@ -153,7 +153,8 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 		<extrautils2:decorativesolidwood:0>,
 		<immersiveengineering:treated_wood:0>,
 		<skyresources:petrifiedplanks:0>,
-		<thaumcraft:plank_greatwood:0>
+		<thaumcraft:plank_greatwood:0>,
+		<thaumcraft:plank_silverwood:0>,
 
 	] 
 };

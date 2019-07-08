@@ -21,6 +21,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <ore:blockIron>, null]
 		]
 	],
+	<factorytech:compressor:0>: [
+		[
+			[null, <advancedrocketry:platepress:0>, null],
+			[<ore:ingotIron>, <skyresources:casing:3>, <ore:ingotIron>],
+			[<ore:stone>, <ore:blockIron>, <ore:stone>]
+		]
+	],
 	<factorytech:fridge:0>: [
 		[
 			[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
@@ -33,6 +40,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:stone>, null, null], 
 			[<ore:plankWood>, <ore:factoryTechShaft>, <ore:stone>],
 			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+		]
+	],
+	<factorytech:htfurnace:0>: [
+		[
+			[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
+			[<ore:ingotIron>, <minecraft:furnace:0>, <ore:ingotIron>],
+			[<ore:plateCopper>, <ore:allCoal>, <ore:plateCopper>]
 		]
 	],
 	<factorytech:intermediate:4>: [
@@ -125,7 +139,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<factorytech:scaffold:0> * 4: [
 		[
 			[<enderutilities:floor:0>, <enderutilities:floor:0>, <enderutilities:floor:0>],
-			[<ore:ingotIron>, null, <ore:ingorIron>]
+			[<ore:ingotIron>, null, <ore:ingotIron>]
 		]
 	],
 	<factorytech:temperer:0>: [
@@ -173,6 +187,9 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 		[<factorytech:circuit_intermediate:3>, <matteroverdrive:tritanium_nugget:0>],
 		[<factorytech:salvagepart:120>, <matteroverdrive:tritanium_nugget:0>]
 	],
+	<factorytech:machinepart:161>: [
+		[<factorytech:salvagepart:161>, <ore:factoryTechShaft>]
+	]
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {

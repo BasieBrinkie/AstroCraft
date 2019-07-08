@@ -41,9 +41,9 @@ zenClass facTech {
 	}
 
 	function centrifugeAdd(map as bool[IIngredient][IItemStack[]]) {
-		for outputarray, array in map {
+		for outputArray, array in map {
 			for input, stonePart in array {
-				mods.factorytech.Centrifuge.addRecipe(input, outputarray[0], outputarray[1], outputarray[2], stonePart);
+				mods.factorytech.Centrifuge.addRecipe(input, outputArray[0], outputArray[1], outputArray[2], stonePart);
 			}
 		}
 	}
@@ -68,7 +68,7 @@ zenClass facTech {
 		}
 	}
 
-	function compressionChamberAdd(map as ILiquidStack[IItemStack][IItemStack]) {
+	function compressionChamberAdd(map as ILiquidStack[IIngredient][IItemStack]) {
 		for output, array in map {
 			for input, inputFluid in array {
 				mods.factorytech.CompressionChamber.addRecipe(output, input, inputFluid);
@@ -151,9 +151,9 @@ zenClass facTech {
 	}
 	
 	function magneticCentrifugeAdd(map as bool[IIngredient][IItemStack[]]) {
-		for outputarray, array in map {
+		for outputArray, array in map {
 			for input, stonePart in array {
-				mods.factorytech.MagCent.addRecipe(input, outputarray[0], outputarray[1], outputarray[2], stonePart);
+				mods.factorytech.MagCent.addRecipe(input, outputArray[0], outputArray[1], outputArray[2], stonePart);
 			}
 		}
 	}

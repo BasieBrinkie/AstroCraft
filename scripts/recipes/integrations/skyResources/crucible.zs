@@ -21,7 +21,7 @@ static crucibleAdd as IItemStack[][ILiquidStack] = {
 		Stage: 0 - The Dawn of a New Age
 		---------------------------------------------
 	*/
-	<liquid:oxygen> * 50: [<skyresources:alchemyitemcomponent:1>],
+	<liquid:oxygen> * 100: [<skyresources:alchemyitemcomponent:1>],
 	
 	/*	
 		---------------------------------------------
@@ -46,7 +46,8 @@ static crucibleAdd as IItemStack[][ILiquidStack] = {
 		Stage: 1 - Professions Stage
 		---------------------------------------------
 	*/
-	<liquid:copper> * 150: [<mekanism:clump:3>],
+	<liquid:copper> * 16: [<mekanism:nugget:5>, <immersiveengineering:metal:20>, <factorytech:ore_dust:4>],
+	<liquid:copper> * 250: [<mekanism:clump:3>, <tconstruct:shard>.withTag({Material: "copper"})],
 };
 
 /*	

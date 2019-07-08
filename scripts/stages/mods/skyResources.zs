@@ -36,6 +36,9 @@ static stagedItems as IIngredient[][string] = {
 	stageRocketBuilder.stage: [
 		<skyresources:condenser:1>,
 		<skyresources:orealchdust:17>
+	],
+	stageProfessionsStage1.stage: [
+		<skyresources:ironcuttingknife:0>,
 	]
 };
 
@@ -57,6 +60,7 @@ static disabledItems as IIngredient[] = [
 	<skyresources:alchemy:14>,
 	<skyresources:alchemy:15>,
 
+	<skyresources:alchemyitemcomponent:6>,
 	//Casings
 	<skyresources:casing:2>,
 	<skyresources:casing:6>,
@@ -67,6 +71,7 @@ static disabledItems as IIngredient[] = [
 	<skyresources:casing:11>,
 	<skyresources:casing:14>,
 
+	<skyresources:coalinfusedblock:0>,
 	//Combustion
 	<skyresources:combustionheater:0>,
 	<skyresources:combustionheater:2>,
@@ -78,6 +83,7 @@ static disabledItems as IIngredient[] = [
 	<skyresources:combustionheater:11>,
 	<skyresources:combustionheater:14>,
 	
+	<skyresources:compressedcoalblock:0>,
 	//Condenser
 	<skyresources:condenser:0>,
 	<skyresources:condenser:2>,

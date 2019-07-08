@@ -29,11 +29,15 @@ static stagedItems as IIngredient[][string] = {
 		<actuallyadditions:item_worm:0>
 	],
 	stageResources1.stage: [
-		<actuallyadditions:block_compost:0>	
-	]
+		<actuallyadditions:block_compost:0>,
+	],
+	stageProfessionsStage1.stage: [
+		<actuallyadditions:item_knife:0>,
+	],
 };
 
 static disabledItems as IIngredient[] = [
+	<actuallyadditions:item_dust:6>
 ];
 
 function init() {

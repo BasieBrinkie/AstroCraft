@@ -14,6 +14,20 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:stickTier1To3>, <ore:stickTier1To3>, <ore:stickTier1To3>]
 		]
 	],
+	<skyresources:casing:3>: [
+		[
+			[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
+			[<ore:ingotIron>, null, <ore:ingotIron>],
+			[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]
+		]
+	],
+	<skyresources:casing:4>: [
+		[
+			[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
+			[<ore:ingotSteel>, null, <ore:ingotSteel>],
+			[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]
+		]
+	],
 	<skyresources:combustionheater:1>: [
 		[
 			[<ore:stone>, <ore:stone>, <ore:stone>],
@@ -21,11 +35,39 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:stone>, <ore:stone>, <ore:stone>]
 		]
 	],
+	<skyresources:combustionheater:3>: [
+		[
+			[<ore:blockIron>, <ore:blockIron>, <ore:blockIron>],
+			[<ore:blockIron>, <skyresources:heat:3>, <ore:blockIron>],
+			[<ore:blockIron>, <ore:blockIron>, <ore:blockIron>]
+		]
+	],
+	<skyresources:combustionheater:4>: [
+		[
+			[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
+			[<ore:ingotSteel>, <skyresources:heat:4>, <ore:ingotSteel>],
+			[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]
+		]
+	],
 	<skyresources:condenser:1>: [
 		[
 			[<ore:stone>, null, <ore:stone>],
 			[<ore:stone>, <skyresources:heat:0>, <ore:stone>],
 			[<ore:stone>, <ore:stone>, <ore:stone>]
+		]
+	],
+	<skyresources:condenser:3>: [
+		[
+			[<ore:blockIron>, null, <ore:blockIron>],
+			[<ore:blockIron>, <skyresources:heat:3>, <ore:blockIron>],
+			[<ore:blockIron>, <ore:blockIron>, <ore:blockIron>]
+		]
+	],
+	<skyresources:condenser:4>: [
+		[
+			[<ore:ingotSteel>, null, <ore:ingotSteel>],
+			[<ore:ingotSteel>, <skyresources:heat:4>, <ore:ingotSteel>],
+			[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]
 		]
 	],
 	<skyresources:crucible:0>: [
@@ -49,11 +91,39 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
 		]
 	],
+	<skyresources:heat:3>: [
+		[
+			[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
+			[<ore:ingotIron>, <ore:coal>, <ore:ingotIron>],
+			[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]
+		]
+	],
+	<skyresources:heat:4>: [
+		[
+			[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
+			[<ore:ingotSteel>, <ore:coke>, <ore:ingotSteel>],
+			[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]
+		]
+	],
 	<skyresources:heatprovider:1>: [
 		[
 			[<ore:stone>, <skyresources:heat:0>, <ore:stone>],
 			[<ore:stone>, <skyresources:heat:0>, <ore:stone>],
 			[<ore:stone>, <ore:stone>, <ore:stone>]
+		]
+	],
+	<skyresources:heatprovider:3>: [
+		[
+			[<ore:blockIron>, <skyresources:heat:3>, <ore:blockIron>],
+			[<ore:blockIron>, <skyresources:heat:3>, <ore:blockIron>],
+			[<ore:blockIron>, <ore:blockIron>, <ore:blockIron>]
+		]
+	],
+	<skyresources:heatprovider:4>: [
+		[
+			[<ore:ingotSteel>, <skyresources:heat:4>, <ore:ingotSteel>],
+			[<ore:ingotSteel>, <skyresources:heat:4>, <ore:ingotSteel>],
+			[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]
 		]
 	],
 	<skyresources:stonecuttingknife:0>: [

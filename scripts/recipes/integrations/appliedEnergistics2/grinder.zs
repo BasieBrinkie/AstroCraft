@@ -18,6 +18,9 @@ static grinderAdd as int[IItemStack][IItemStack] = {
 	},
 
 	//Professions Stage 1
+	<immersiveengineering:material:17>: {
+		<thermalfoundation:material:802>: 10
+	}
 };
 
 static grinderRemove as IItemStack[] = [

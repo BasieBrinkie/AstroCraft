@@ -56,6 +56,10 @@ static normalFortuneDrops as IItemStack[][string][int] = {
 		//Minecraft
 		"minecraft:packed_ice": [
 			<minecraft:packed_ice:0>
+		],
+		//Techguns
+		"techguns:basicore:4": [
+			<nuclearcraft:uranium:10>
 		]
 	}
 };

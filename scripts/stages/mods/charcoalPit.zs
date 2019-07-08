@@ -35,6 +35,7 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static disabledItems as IIngredient[] = [
+	<charcoal_pit:item_coke:0>,
 ];
 
 function init() {

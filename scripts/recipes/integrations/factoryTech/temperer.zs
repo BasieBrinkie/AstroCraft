@@ -21,6 +21,9 @@ static tempererAdd as int[IItemStack][IItemStack] = {
 	<enderutilities:storage_0:7>: {
 		<factorytech:crate:0>: 6
 	},
+	<factorytech:machinepart:12>: {
+		<factorytech:machinepart:11>: 14
+	},
 	<factorytech:machinepart:22>: {
 		<factorytech:machinepart:21>: 20
 	},

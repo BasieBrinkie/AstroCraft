@@ -6,6 +6,9 @@ static drillAdd as bool[IIngredient][IItemStack] = {
 	<enderutilities:floor:0>: {
 		<ore:slabWood>: true
 	},
+	<factorytech:salvagepart:161>: {
+		<ore:ingotIron>: false
+	},
 	<minecraft:coal:0>: {
 		<minecraft:flint:0>: true
 	}
@@ -83,6 +86,6 @@ static drillRemove as IItemStack[] = [
 ];
 
 function init() {
-	facTech.drillRemove(drillRemove);
+	//facTech.drillRemove(drillRemove);
 	facTech.drillAdd(drillAdd);
 }

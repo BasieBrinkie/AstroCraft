@@ -17,12 +17,6 @@ import crafttweaker.liquid.ILiquidStack;
 
 
 static condenserAdd as int[ILiquidStack][IItemStack][IItemStack] = {
-	
-	/*	
-		---------------------------------------------
-		Stage: 1 - Basic Resources
-		---------------------------------------------
-	*/	
 	//Basic Resources
 	<minecraft:paper:0>: {
 		<mekanism:sawdust:0>: {
