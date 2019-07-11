@@ -19,7 +19,7 @@ import crafttweaker.item.IItemStack;
 static tempererAdd as int[IItemStack][IItemStack] = { 
 	//Profession Stage 1
 	<enderutilities:storage_0:7>: {
-		<factorytech:crate:0>: 6
+		<factorytech:crate:0>: 80
 	},
 	<factorytech:machinepart:12>: {
 		<factorytech:machinepart:11>: 14

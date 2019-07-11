@@ -6,6 +6,12 @@ import crafttweaker.oredict.IOreDictEntry;
 	----------------------
 */
 static createItemsToOredict as IItemStack[][IOreDictEntry] = { 
+	<ore:allStick>: [
+		<minecraft:stick:0>,
+		<mekanism:polyethene:3>,
+		<immersiveengineering:material:0>,
+		<mysticalagriculture:crafting:22>,
+	],
 	<ore:stickTier1>: [
 		<minecraft:stick:0>
 	],
@@ -15,6 +21,7 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 	<ore:stickTier3>: [
 		<immersiveengineering:material:0>
 	],
+	
 	<ore:stickAluminum>: [
 		<mysticalagriculture:crafting:22>
 	] 
@@ -49,6 +56,7 @@ static addItemsToOredict as IItemStack[][IOreDictEntry] = {
 	-------------------------------------------------
 */
 static addOredictsToOredict as IOreDictEntry[][IOreDictEntry] = {
+
 };
 
 /*	---------------------------

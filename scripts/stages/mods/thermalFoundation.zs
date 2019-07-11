@@ -27,8 +27,10 @@ static stagedItems as IIngredient[][string] = {
 	stageRocketBuilder.stage: [
 		<thermalfoundation:ore:7>,
 		<thermalfoundation:material:199>,
+	],
+	stageProfessionsStage1.stage: [
 		<thermalfoundation:material:802>,
-	]
+	],
 };
 
 static disabledItems as IIngredient[] = [

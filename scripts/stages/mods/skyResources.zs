@@ -38,6 +38,12 @@ static stagedItems as IIngredient[][string] = {
 		<skyresources:orealchdust:17>
 	],
 	stageProfessionsStage1.stage: [
+		<skyresources:casing:3>,
+		<skyresources:casing:4>,
+		<skyresources:combustionheater:3>,
+		<skyresources:combustionheater:4>,
+		<skyresources:condenser:3>,
+		<skyresources:condenser:4>,
 		<skyresources:ironcuttingknife:0>,
 	]
 };
@@ -107,7 +113,7 @@ static disabledItems as IIngredient[] = [
 	<skyresources:heatprovider:14>,
 
 	//Heat Components
-	<skyresources:heat:0>,
+	<skyresources:heat:1>,
 	<skyresources:heat:2>,
 	<skyresources:heat:6>,
 	<skyresources:heat:7>,

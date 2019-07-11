@@ -32,6 +32,9 @@ static grindstoneAdd as bool[IIngredient][IItemStack] = {
 	<factorytech:machinepart:2>: {
 		<factorytech:machinepart:12>: true
 	},
+	<factorytech:machinepart:4>: {
+		<factorytech:machinepart:14>: false
+	},
 	<factorytech:machinepart:150>: {
 		<minecraft:glass:0>: false
 	},

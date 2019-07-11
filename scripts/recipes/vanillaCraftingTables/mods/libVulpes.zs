@@ -10,15 +10,15 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<libvulpes:coalgenerator:0>: [
 		[
 			[<ore:stone>, <ore:plateCopper>, <ore:stone>],
-			[<ore:stone>, <ore:charcoal> | <ore:coal>, <ore:stone>],
+			[<ore:stone>, <ore:allCoal>, <ore:stone>],
 			[<ore:stone>, <ore:stone>, <ore:stone>]
 
 		]
 	],
 	<libvulpes:linker:0>: [
 		[
-			[null, null, <mysticalagriculture:crafting:22>],
-			[<ore:ingotIron>, <factorytech:circuit_intermediate:4>, <mysticalagriculture:crafting:22>],
+			[null, null, <ore:stickAluminum>],
+			[<ore:ingotIron>, <factorytech:circuit_intermediate:3>, <ore:stickAluminum>],
 			[null, <ore:ingotIron>, null]
 		]
 	],

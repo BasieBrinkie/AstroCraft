@@ -34,6 +34,10 @@ static stagedItems as IIngredient[][string] = {
 		<liquid:iridium>,
 		<liquid:lead>,
 		<liquid:nickel>
+	],
+	stageProfessionsStage1.stage: [
+		<liquid:copper>,
+		<liquid:lava>,
 	]
 };
 

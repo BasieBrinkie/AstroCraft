@@ -25,6 +25,7 @@ zenClass skyRes {
 	function catalystAddRecipe(map as float[IItemStack]) {
 		for item, catalystAmount in map {
 			mods.skyresources.catalysts.add(item, catalystAmount);
+			item.addTooltip(format.aqua("Catalyst Yield: " ~ (catalystAmount * 100) ~ "%"));
 		}
 	}
 
@@ -187,14 +188,6 @@ zenClass skyRes {
 	function waterExtractorInsertRemove(map as IItemStack[]) {
 		for item in map {
 			mods.skyresources.waterextractor.insert.removeRecipe(item);
-		}
-	}
-
-	function catalystYield(map as float[IItemStack], inputItem as IItemStack) as IFormattedText {
-		for item, catalystYield in map {
-			if (item.definition.id == inputItem.definition.id) {
-				return format.aqua("Catalyst Yield: " ~ (catalystYield * 100) ~ "%");
-			}
 		}
 	}
 }

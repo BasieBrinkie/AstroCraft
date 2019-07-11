@@ -59,7 +59,16 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:wooden_pressure_plate:0>
 	],
 	stageProfessionsStage1.stage: [
+		<minecraft:coal:0>,
 		<minecraft:comparator:0>,
+		<minecraft:flint:0>,
+		<minecraft:iron_axe:*>,
+		<minecraft:iron_hoe:*>,
+		<minecraft:iron_pickaxe:*>,
+		<minecraft:iron_shovel:*>,
+		<minecraft:magma:0>,
+		<minecraft:obsidian:0>,
+		<minecraft:redstone:0>,
 		<minecraft:redstone_torch:0>,
 		<minecraft:repeater:0>,
 		<minecraft:stonebrick:0>,

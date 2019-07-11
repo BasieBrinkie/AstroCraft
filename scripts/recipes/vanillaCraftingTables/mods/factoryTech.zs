@@ -70,6 +70,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <ore:nuggetIron>, null]
 		]
 	],
+	<factorytech:machinepart:14>: [
+		[
+			[null, <ore:nuggetSteel>, null],
+			[<ore:nuggetSteel>, <ore:ingotSteel>, <ore:nuggetSteel>],
+			[null, <ore:nuggetSteel>, null]
+		]
+	],
 	<factorytech:machinepart:20>: [
 		[
 			[<minecraft:string:0>, <minecraft:string:0>, <minecraft:glowstone_dust:0>],
@@ -182,6 +189,10 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 	],
 	<factorytech:machinepart:80>: [
 		[<factorytech:salvagepart:80>, <ore:clumpCopper> * 2]
+	],
+	<factorytech:machinepart:110>: [
+		[<factorytech:circuit_intermediate:2>, <matteroverdrive:tritanium_nugget:0>],
+		[<factorytech:salvagepart:110>, <matteroverdrive:tritanium_nugget:0>]
 	],
 	<factorytech:machinepart:120>: [
 		[<factorytech:circuit_intermediate:3>, <matteroverdrive:tritanium_nugget:0>],

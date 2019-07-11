@@ -24,21 +24,13 @@ import scripts.stages.register.stageDisabledItems;
 import scripts.stages.register.stageDecorationEnable;
 
 static stagedItems as IIngredient[][string] = {
-	stageResources1.stage: [
-		<grapplemod:baseupgradeitem:0>,
-		<grapplemod:block_grapple_modifier:0>,
-		<grapplemod:doubleupgradeitem:0>,
-		<grapplemod:grapplinghook:0>,
-		<grapplemod:limitsupgradeitem:0>,
-		<grapplemod:magnetupgradeitem:0>,
-		<grapplemod:motorupgradeitem:0>,
-		<grapplemod:ropeupgradeitem:0>,
-		<grapplemod:swingupgradeitem:0>,
-		<grapplemod:throwupgradeitem:0>,
+	stageProfessionsStage1.stage: [
+		<enderutilities:storage_0:7>
 	]
 };
 
 static disabledItems as IIngredient[] = [
+
 ];
 
 function init() {

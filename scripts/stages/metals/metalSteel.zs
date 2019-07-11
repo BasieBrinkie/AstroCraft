@@ -29,6 +29,7 @@ static stagedItems as IIngredient[][string] = {
 static stagedItemsOredict as IOreDictEntry[][string] = {
 	stageProfessionsStage1.stage: [
 		<ore:ingotSteelTier1>,
+		<ore:nuggetSteelTier1>,
 	]
 };
 

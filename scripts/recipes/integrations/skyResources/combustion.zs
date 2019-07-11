@@ -22,7 +22,7 @@ static combustionAdd as int[IItemStack[]][IItemStack] = {
 		Stage: Basic Resources
 		---------------------------------------------
 	*/
-	//Oxygen - 1
+	//Oxygen
 	<exnihilocreatio:item_ore_iron:0>: {[
 		<exnihilocreatio:item_ore_iron:1> * 2,
 		<charcoal_pit:item_ash:0> * 5]: 50
@@ -30,7 +30,7 @@ static combustionAdd as int[IItemStack[]][IItemStack] = {
 
 	//Basic Resources
 	<minecraft:iron_ingot:0>: {[
-		<minecraft:iron_nugget:0> * 3]: 500
+		<minecraft:iron_nugget:0> * 3]: 80
 	},	
 	<tconstruct:soil:0>: {[
 		<minecraft:stone:0>, 
@@ -47,13 +47,23 @@ static combustionAdd as int[IItemStack[]][IItemStack] = {
 		<charcoal_pit:item_ash:0>]: 20
 	},
 	<skyresources:orealchdust:17>: {[
-		<thermalfoundation:material:199>]: 850
+		<thermalfoundation:material:199>]: 100
 	},
 
 	//Professions Stage 1
 	<mekanism:dirtydust:3>: {[
 		<mekanism:nugget:5>]: 100
-	}
+	},
+	<grapplemod:baseupgradeitem:0>: {[
+		<minecraft:paper:0> * 3,
+		<factorytech:ore_dust:5>]: 320,
+	[
+		<minecraft:paper:0> * 3,
+		<immersiveengineering:metal:24>]: 320,
+	[
+		<minecraft:paper:0> * 3,
+		<thermalfoundation:material:197>]: 320,
+	},
 
 };
 

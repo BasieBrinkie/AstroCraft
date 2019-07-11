@@ -4,9 +4,17 @@ import crafttweaker.liquid.ILiquidStack;
 
 static agitatorAdd as IIngredient[ILiquidStack][ILiquidStack][ILiquidStack][IItemStack] = {
 	//Rocket Builder
-	<factorytech:circuit_intermediate:8>: { null: {
-		<liquid:iridium> * 100: {<liquid:nickel> * 250: <ore:dustLead>}
-	}}
+	<factorytech:circuit_intermediate:8>: {null: {
+		<liquid:iridium> * 100: {<liquid:nickel> * 250: <ore:dustLead>
+	}}},
+
+	//Professions Stage 1
+	<exnihilocreatio:item_pebble:0> * 4: {<liquid:lava> * 720: {
+		null: {null: <minecraft:magma:0>
+	}}},
+	<nuclearcraft:radaway_slow:0>: {null : { 
+		null: {<liquid:preheated_water> * 1000: <minecraft:redstone:0>
+	}}},
 };
 
 static agitatorRemove as IItemStack[] = [

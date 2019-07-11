@@ -24,7 +24,9 @@ import scripts.stages.register.stageDisabledItems;
 import scripts.stages.register.stageDecorationEnable;
 
 static stagedItems as IIngredient[][string] = {
-
+	stageProfessionsStage1.stage: [
+		<nuclearcraft:uranium:10>,
+	],
 };
 
 static disabledItems as IIngredient[] = [

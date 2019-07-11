@@ -28,7 +28,6 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 		<factorytech:machinepart:10>,
 		<factorytech:machinepart:11>,
 		<factorytech:machinepart:12>,
-		<factorytech:machinepart:13>,
 		<factorytech:machinepart:14>
 	],
 	<ore:factoryTechMotor>: [

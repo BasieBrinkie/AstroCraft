@@ -29,7 +29,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2019-07-08T18:34:49.9804618Z",
+  "lastPlayed": "2019-07-10T21:32:40.5512583Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -8315,14 +8315,14 @@
       "addonID": 228404,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2713315,
-        "displayName": "ActuallyAdditions-1.12.2-r148.jar",
-        "fileName": "ActuallyAdditions-1.12.2-r148.jar",
-        "fileDate": "2019-05-19T18:14:16.513Z",
-        "fileLength": 2938509,
+        "id": 2737969,
+        "displayName": "ActuallyAdditions-1.12.2-r149.jar",
+        "fileName": "ActuallyAdditions-1.12.2-r149.jar",
+        "fileDate": "2019-07-09T05:43:07.16Z",
+        "fileLength": 2938815,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2713/315/ActuallyAdditions-1.12.2-r148.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2737/969/ActuallyAdditions-1.12.2-r149.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -8330,12 +8330,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3934842238,
+            "fingerprint": 116146918,
             "type": 0
           },
           {
             "foldername": "de",
-            "fingerprint": 1339745357,
+            "fingerprint": 3486953921,
             "type": 0
           },
           {
@@ -8350,11 +8350,11 @@
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 3411068049,
+            "fingerprint": 1715292261,
             "type": 0
           }
         ],
-        "packageFingerprint": 312891873,
+        "packageFingerprint": 4152885956,
         "gameVersion": [
           "1.12.2"
         ],
@@ -8364,12 +8364,13 @@
         "restrictProjectFileAccess": 0,
         "projectStatus": 0,
         "projectId": 0,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
         "gameId": 0,
-        "FileNameOnDisk": "ActuallyAdditions-1.12.2-r148.jar"
+        "FileNameOnDisk": "ActuallyAdditions-1.12.2-r149.jar"
       },
       "dateInstalled": "2018-08-20T10:29:33.1738617Z",
-      "dateUpdated": "2019-05-19T18:17:30.5749717Z",
-      "dateLastUpdateAttempted": "2019-05-19T18:17:30.5749717Z",
+      "dateUpdated": "2019-07-09T20:36:29.9075678Z",
+      "dateLastUpdateAttempted": "2019-07-09T20:36:29.9075678Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -13467,14 +13468,14 @@
       "addonID": 302113,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2720456,
-        "displayName": "Effortless Building 2.12 (1.12.2)",
-        "fileName": "effortlessbuilding-1.12.2-2.12.jar",
-        "fileDate": "2019-06-05T18:02:53.167Z",
-        "fileLength": 457662,
+        "id": 2737853,
+        "displayName": "Effortless Building 2.13 (1.12.2)",
+        "fileName": "effortlessbuilding-1.12.2-2.13.jar",
+        "fileDate": "2019-07-09T00:26:51.41Z",
+        "fileLength": 462032,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2720/456/effortlessbuilding-1.12.2-2.12.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2737/853/effortlessbuilding-1.12.2-2.13.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -13482,12 +13483,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2620142505,
+            "fingerprint": 1780146645,
             "type": 0
           },
           {
             "foldername": "nl",
-            "fingerprint": 2668820703,
+            "fingerprint": 2043482370,
             "type": 0
           },
           {
@@ -13497,7 +13498,7 @@
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 2157600478,
+            "fingerprint": 1520932984,
             "type": 0
           },
           {
@@ -13506,7 +13507,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 3555222022,
+        "packageFingerprint": 2816586173,
         "gameVersion": [
           "1.12.2"
         ],
@@ -13516,12 +13517,13 @@
         "restrictProjectFileAccess": 0,
         "projectStatus": 0,
         "projectId": 0,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
         "gameId": 0,
-        "FileNameOnDisk": "effortlessbuilding-1.12.2-2.12.jar"
+        "FileNameOnDisk": "effortlessbuilding-1.12.2-2.13.jar"
       },
       "dateInstalled": "2019-05-12T21:35:06.7994097Z",
-      "dateUpdated": "2019-06-05T19:37:56.2860941Z",
-      "dateLastUpdateAttempted": "2019-06-05T19:37:56.2860941Z",
+      "dateUpdated": "2019-07-09T20:36:40.9340743Z",
+      "dateLastUpdateAttempted": "2019-07-09T20:36:40.9340743Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -15189,7 +15191,7 @@
       "dateInstalled": "2019-06-05T23:26:04.7841176Z",
       "dateUpdated": "2019-07-08T18:16:48.9630894Z",
       "dateLastUpdateAttempted": "2019-07-08T18:16:48.9630894Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -16783,64 +16785,52 @@
       "addonID": 269359,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2558109,
-        "displayName": "TickDynamic-1.12.2-1.0.1",
-        "fileName": "TickDynamic-1.12.2-1.0.1.jar",
-        "fileDate": "2018-05-03T17:17:55.253Z",
-        "fileLength": 112130,
+        "id": 2737879,
+        "displayName": "TickDynamic-1.12.2-1.0.2",
+        "fileName": "TickDynamic-1.12.2-1.0.2.jar",
+        "fileDate": "2019-07-09T01:36:35.767Z",
+        "fileLength": 107039,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2558/109/TickDynamic-1.12.2-1.0.1.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2737/879/TickDynamic-1.12.2-1.0.2.jar",
         "isAlternate": false,
-        "alternateFileId": 2558110,
+        "alternateFileId": 2737880,
         "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3326316004,
-            "type": 3
+            "fingerprint": 492191521,
+            "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 606725129,
-            "type": 3
+            "fingerprint": 468383295,
+            "type": 0
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 909809579,
-            "type": 3
+            "fingerprint": 2528920248,
+            "type": 0
           }
         ],
-        "packageFingerprint": 563904658,
+        "packageFingerprint": 793764421,
         "gameVersion": [
           "1.12.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000012.0000000002",
-            "gameVersion": "1.12.2",
-            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
-            "gameVersionName": "1.12.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1378829,
-        "projectId": 269359,
-        "packageFingerprintId": 238994712,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 1576127,
-        "gameVersionId": 4458,
-        "gameId": 432,
-        "FileNameOnDisk": "TickDynamic-1.12.2-1.0.1.jar"
+        "gameId": 0,
+        "FileNameOnDisk": "TickDynamic-1.12.2-1.0.2.jar"
       },
       "dateInstalled": "2019-07-01T01:53:47.4503209Z",
-      "dateUpdated": "2018-07-01T01:53:47.4503209Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "dateUpdated": "2019-07-09T20:36:56.0437831Z",
+      "dateLastUpdateAttempted": "2019-07-09T20:36:56.0437831Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -16856,26 +16846,26 @@
       "addonID": 289412,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2737343,
-        "displayName": "FTBQuests-1.7.2.186.jar",
-        "fileName": "FTBQuests-1.7.2.186.jar",
-        "fileDate": "2019-07-07T23:44:17.943Z",
-        "fileLength": 951986,
+        "id": 2738432,
+        "displayName": "FTBQuests-1.7.2.187.jar",
+        "fileName": "FTBQuests-1.7.2.187.jar",
+        "fileDate": "2019-07-10T00:19:49.963Z",
+        "fileLength": 952561,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2737/343/FTBQuests-1.7.2.186.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2738/432/FTBQuests-1.7.2.187.jar",
         "isAlternate": false,
-        "alternateFileId": 2737344,
+        "alternateFileId": 2738433,
         "dependencies": [
           {
             "id": 0,
-            "addonId": 309674,
+            "addonId": 237167,
             "type": 3,
             "fileId": 0
           },
           {
             "id": 0,
-            "addonId": 237167,
+            "addonId": 309674,
             "type": 3,
             "fileId": 0
           }
@@ -16884,17 +16874,17 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 249829404,
+            "fingerprint": 1303918748,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 4170118516,
+            "fingerprint": 1281690753,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 2413866600,
+            "fingerprint": 1049094794,
             "type": 0
           },
           {
@@ -16904,11 +16894,11 @@
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 2515506382,
+            "fingerprint": 418071916,
             "type": 0
           }
         ],
-        "packageFingerprint": 3285904362,
+        "packageFingerprint": 1989803748,
         "gameVersion": [
           "1.12.2"
         ],
@@ -16920,11 +16910,11 @@
         "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
-        "FileNameOnDisk": "FTBQuests-1.7.2.186.jar"
+        "FileNameOnDisk": "FTBQuests-1.7.2.187.jar"
       },
       "dateInstalled": "2019-05-13T19:26:15.0359002Z",
-      "dateUpdated": "2019-07-08T18:17:08.5474003Z",
-      "dateLastUpdateAttempted": "2019-07-08T18:17:08.5474003Z",
+      "dateUpdated": "2019-07-10T21:32:19.9278553Z",
+      "dateLastUpdateAttempted": "2019-07-10T21:32:19.9278553Z",
       "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -17537,7 +17527,7 @@
         "gameVersionMappingId": 1700921,
         "gameVersionId": 4458,
         "gameId": 432,
-        "FileNameOnDisk": "VanillaFix-1.0.10-99.jar.disabled"
+        "FileNameOnDisk": "VanillaFix-1.0.10-99.jar"
       },
       "dateInstalled": "2019-07-01T01:53:47.4483215Z",
       "dateUpdated": "2018-07-01T01:53:47.4483215Z",
@@ -19298,7 +19288,7 @@
         "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
-        "FileNameOnDisk": "UpAndDownAndAllAround-1.12.2-2.9.1.jar"
+        "FileNameOnDisk": "UpAndDownAndAllAround-1.12.2-2.9.1.jar.disabled"
       },
       "dateInstalled": "2019-07-06T22:27:13.1131563Z",
       "dateUpdated": "2019-07-07T13:05:02.085422Z",
@@ -20191,7 +20181,7 @@
       "dateInstalled": "2018-11-28T21:44:57.5704793Z",
       "dateUpdated": "2019-07-08T18:18:20.0452287Z",
       "dateLastUpdateAttempted": "2019-07-08T18:18:20.0452287Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -20332,7 +20322,7 @@
       "dateInstalled": "2018-08-30T13:09:52.008588Z",
       "dateUpdated": "2019-07-08T18:17:06.8754296Z",
       "dateLastUpdateAttempted": "2019-07-08T18:17:06.8754296Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -21411,14 +21401,14 @@
       "addonID": 257814,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2736022,
-        "displayName": "CreativeCore_v1.9.52_mc1.12.2.jar",
-        "fileName": "CreativeCore_v1.9.52_mc1.12.2.jar",
-        "fileDate": "2019-07-05T17:40:15.063Z",
-        "fileLength": 1133510,
+        "id": 2738762,
+        "displayName": "CreativeCore_v1.9.54_mc1.12.2.jar",
+        "fileName": "CreativeCore_v1.9.54_mc1.12.2.jar",
+        "fileDate": "2019-07-10T15:11:11.943Z",
+        "fileLength": 1128417,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2736/22/CreativeCore_v1.9.52_mc1.12.2.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2738/762/CreativeCore_v1.9.54_mc1.12.2.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -21436,7 +21426,7 @@
           },
           {
             "foldername": "com",
-            "fingerprint": 3735000175,
+            "fingerprint": 4011356280,
             "type": 0
           },
           {
@@ -21445,7 +21435,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 1398499874,
+        "packageFingerprint": 352616951,
         "gameVersion": [
           "1.12.2"
         ],
@@ -21457,12 +21447,12 @@
         "projectId": 0,
         "gameVersionDateReleased": "2017-09-18T05:00:00Z",
         "gameId": 0,
-        "FileNameOnDisk": "CreativeCore_v1.9.52_mc1.12.2.jar"
+        "FileNameOnDisk": "CreativeCore_v1.9.54_mc1.12.2.jar"
       },
       "dateInstalled": "2018-09-06T13:40:07.4686692Z",
-      "dateUpdated": "2019-07-05T20:12:09.0132315Z",
-      "dateLastUpdateAttempted": "2019-07-05T20:12:09.0132315Z",
-      "status": 5,
+      "dateUpdated": "2019-07-10T21:32:14.7865002Z",
+      "dateLastUpdateAttempted": "2019-07-10T21:32:14.7865002Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -21536,7 +21526,7 @@
       "dateInstalled": "2019-07-01T01:53:47.4363253Z",
       "dateUpdated": "2019-07-08T18:17:18.1043739Z",
       "dateLastUpdateAttempted": "2019-07-08T18:17:18.1043739Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -21711,14 +21701,14 @@
       "addonID": 257818,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2736125,
-        "displayName": "LittleTiles_v1.5.0-pre146_mc1.12.2.jar",
-        "fileName": "LittleTiles_v1.5.0-pre146_mc1.12.2.jar",
-        "fileDate": "2019-07-05T21:11:03.19Z",
-        "fileLength": 1567951,
+        "id": 2738761,
+        "displayName": "LittleTiles_v1.5.0-pre149_mc1.12.2.jar",
+        "fileName": "LittleTiles_v1.5.0-pre149_mc1.12.2.jar",
+        "fileDate": "2019-07-10T15:10:32.097Z",
+        "fileLength": 1584106,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2736/125/LittleTiles_v1.5.0-pre146_mc1.12.2.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2738/761/LittleTiles_v1.5.0-pre149_mc1.12.2.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -21748,11 +21738,11 @@
           },
           {
             "foldername": "com",
-            "fingerprint": 3072278339,
+            "fingerprint": 710415025,
             "type": 0
           }
         ],
-        "packageFingerprint": 2928067689,
+        "packageFingerprint": 2899463689,
         "gameVersion": [
           "1.12.2"
         ],
@@ -21764,12 +21754,12 @@
         "projectId": 0,
         "gameVersionDateReleased": "2017-09-18T05:00:00Z",
         "gameId": 0,
-        "FileNameOnDisk": "LittleTiles_v1.5.0-pre146_mc1.12.2.jar"
+        "FileNameOnDisk": "LittleTiles_v1.5.0-pre149_mc1.12.2.jar"
       },
       "dateInstalled": "2019-07-01T01:53:47.4713141Z",
-      "dateUpdated": "2019-07-06T22:23:00.4201915Z",
-      "dateLastUpdateAttempted": "2019-07-06T22:23:00.4201915Z",
-      "status": 5,
+      "dateUpdated": "2019-07-10T21:32:25.8609582Z",
+      "dateLastUpdateAttempted": "2019-07-10T21:32:25.8609582Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,

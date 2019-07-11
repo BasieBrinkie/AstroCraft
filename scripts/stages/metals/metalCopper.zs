@@ -34,6 +34,7 @@ static stagedItemsOredict as IOreDictEntry[][string] = {
 	],
 	stageProfessionsStage1.stage: [
 		<ore:ingotCopperTier1>,
+		<ore:nuggetCopperTier1>,
 	],
 };
 

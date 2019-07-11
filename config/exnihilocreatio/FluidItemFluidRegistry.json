@@ -3,5 +3,10 @@
     "inputFluid": "preheated_water",
     "reactant": "minecraft:wheat_seeds:0",
     "output": "seed_oil"
+  },
+  {
+  	"inputFluid": "preheated_water",
+  	"reactant": "nuclearcraft:uranium:10",
+  	"output": "heavywater"
   }
 ]

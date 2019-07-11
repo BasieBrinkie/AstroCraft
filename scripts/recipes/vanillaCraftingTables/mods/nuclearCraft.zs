@@ -7,13 +7,27 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
+	<nuclearcraft:geiger_counter:0>: [
+		[
+			[<ore:nuggetIridium>, <ore:ingotIron>, <ore:ingotIron>],
+			[<ore:ingotCopper>, <minecraft:redstone:0>, <minecraft:redstone:0>],
+			[<ore:factoryTechWire>, <ore:ingotIron>, <ore:ingotIron>]
+		]
+	],
 	<nuclearcraft:ingot_block:0>: [	//Tier 1 Copper Block
 		[
 			[<mekanism:clump:3>, <mekanism:clump:3>, <mekanism:clump:3>],
 			[<mekanism:clump:3>, <mekanism:clump:3>, <mekanism:clump:3>],
 			[<mekanism:clump:3>, <mekanism:clump:3>, <mekanism:clump:3>]
 		]
-	]
+	],
+	<nuclearcraft:radiation_badge:0>: [
+		[
+			[null, <ore:nuggetIron>, null],
+			[<ore:nuggetIron>, <minecraft:redstone:0>, <ore:nuggetIron>],
+			[null, <ore:nuggetIron>, null]
+		]
+	],
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {

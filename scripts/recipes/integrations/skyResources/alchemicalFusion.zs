@@ -25,6 +25,12 @@ static fusionAdd as float[IItemStack[]][IItemStack] = {
 		<libvulpes:productnugget:9> * 3,
 		<exnihilocreatio:item_ore_iron:0>]: 0.05
 	},
+
+	//Professions Stage 1
+	<minecraft:magma:0>: {[
+		<nuclearcraft:uranium:10>,
+		<minecraft:cobblestone:0> * 4]: 0.8
+	},
 };
 
 /*	

@@ -128,7 +128,7 @@ static unlocalizedNames as string[IItemStack] = {
 };
 
 static extraTooltips as IFormattedText[][IItemStack] = {
-	<mekanism:clump:3>: [skyRes.catalystYield(catalystAdd, <mekanism:clump:3>)]
+
 };
 
 /*	

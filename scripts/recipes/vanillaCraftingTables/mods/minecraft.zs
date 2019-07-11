@@ -51,9 +51,37 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<minecraft:furnace:0>: [
 		[
 			[<minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>],
-			[<minecraft:cobblestone:0>, <ore:charcoal> | <ore:coal>, <minecraft:cobblestone:0>],
+			[<minecraft:cobblestone:0>, <ore:allCoal>, <minecraft:cobblestone:0>],
 			[<minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>]
 
+		]
+	],
+	<minecraft:iron_axe:0>: [
+		[
+			[<ore:ingotSteel>, <ore:ingotSteel>],
+			[<ore:ingotSteel>, <ore:allStick>],
+			[null, <ore:allStick>]
+		]
+	],
+	<minecraft:iron_hoe:0>: [
+		[
+			[<ore:ingotSteel>, <ore:ingotSteel>],
+			[null, <ore:allStick>],
+			[null, <ore:allStick>]
+		]
+	],	
+	<minecraft:iron_pickaxe:0>: [
+		[
+			[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
+			[null, <ore:allStick>, null],
+			[null, <ore:allStick>, null]
+		]
+	],
+	<minecraft:iron_shovel:0>: [
+		[
+			[<ore:ingotSteel>],
+			[<ore:allStick>],
+			[<ore:allStick>]
 		]
 	],
 	<minecraft:lever:0>: [
