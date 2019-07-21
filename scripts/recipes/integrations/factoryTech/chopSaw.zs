@@ -15,6 +15,11 @@ static chopSawAdd as bool[IIngredient][IItemStack] = {
 	<factorytech:crate:0> * 4: {
 		<minecraft:chest:0>: true
 	},
+
+	//Farmer One
+	<minecraft:melon:0> * 3: {
+		<minecraft:melon_block:0>: true
+	},
 };
 
 static chopSawRemove as IItemStack[] = [

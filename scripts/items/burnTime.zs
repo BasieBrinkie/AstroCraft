@@ -12,6 +12,8 @@ import crafttweaker.item.IIngredient;
 
 static setBurnTime as IIngredient[][int] = {
 	0: 	[
+		<actuallyadditions:block_compost:0>,
+		<actuallyadditions:block_fermenting_barrel:0>,
 		<excompressum:uncompressed_coal:0>,
 		<exnihilocreatio:block_barrel0:0>,
 		<exnihilocreatio:block_sieve:0>,

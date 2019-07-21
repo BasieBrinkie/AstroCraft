@@ -139,7 +139,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:stone>, <ore:stone>]
 		]
 	],
-	<minecraft:stick:0> * 2: [ //Tier 1 Stick
+	<minecraft:stick:0> * 2: [
 		[
 			[<ore:plankWood>], 
 			[<ore:plankWood>]
@@ -201,6 +201,9 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 	<minecraft:planks:0> * 2: [
 		[<minecraft:log:0>]
 	],
+	<minecraft:pumpkin_pie:0> * 2: [
+		[<minecraft:pumpkin:0>, <ore:flour>]
+	],
 	<minecraft:stone_button:0>: [
 		[<ore:stone>]
 	],
@@ -217,8 +220,10 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 	Furnace Recipes.
 	----------------
 */
-static furnaceRecipes as IIngredient[][IItemStack] = {};
-
+static furnaceRecipes as IIngredient[][IItemStack] = {
+	<minecraft:stone:0>: [<minecraft:cobblestone:0>],
+	<minecraft:glass:0>: [<ore:sand>]
+};
 
 function init() {
 	/* 	----------------

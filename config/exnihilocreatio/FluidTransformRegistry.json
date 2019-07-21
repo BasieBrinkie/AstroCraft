@@ -1,14 +1,11 @@
 [
   {
-    "inputFluid": "water",
-    "outputFluid": "witchwater",
+    "inputFluid": "canolaoil",
+    "outputFluid": "kerosene",
     "transformingBlocks": [
-      "minecraft:mycelium:0"
+      "techguns:basicore:4"
     ],
-    "blocksToSpawn": [
-      "minecraft:brown_mushroom:0",
-      "minecraft:red_mushroom:0"
-    ],
-    "duration": 12000
+    "blocksToSpawn": [],
+    "duration": 1200
   }
 ]

@@ -14,7 +14,35 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		[
 			[<ore:woodPlanksTier1>, null, <ore:woodPlanksTier1>],
 			[<ore:woodPlanksTier1>, null, <ore:woodPlanksTier1>],
-			[<ore:slabsWood>, <ore:slabsWood>, <ore:slabsWood>]
+			[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]
+		]
+	],
+	<exnihilocreatio:crook_iron:*>: [
+		[
+			[<actuallyadditions:item_knife:0>, <ore:ingotIron>],
+			[null, <ore:ingotIron>],
+			[null, <ore:ingotIron>]
+		]
+	],
+	<exnihilocreatio:crook_wood>: [
+		[
+			[<actuallyadditions:item_knife:0>, <ore:stickWood>],
+			[null, <ore:stickWood>],
+			[null, <ore:stickWood>]
+		]
+	],
+	<exnihilocreatio:hammer_stone>: [
+		[
+			[null, <ore:stone>, null],
+			[null, <ore:stickWood>, <ore:stone>],
+			[<ore:stickWood>, null, null]
+		]
+	],
+	<exnihilocreatio:hammer_wood>: [
+		[
+			[null, <ore:plankWood>, null],
+			[null, <ore:stickWood>, <ore:plankWood>],
+			[<ore:stickWood>, null, null]
 		]
 	],
 	<exnihilocreatio:item_ore_copper:1>: [
@@ -22,7 +50,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<exnihilocreatio:item_ore_copper:0>, <exnihilocreatio:item_ore_copper:0>],
 			[<exnihilocreatio:item_ore_copper:0>, <exnihilocreatio:item_ore_copper:0>]
 		]
-	]
+	],
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {

@@ -24,6 +24,11 @@ static refrigeratorAdd as ILiquidStack[][IItemStack] = {
 	<exnihilocreatio:item_ore_copper:3>: [
 		<liquid:copper> * 144
 	],
+
+	//Farmer
+	<minecraft:emerald:0>: [
+		<liquid:canolaoil> * 100
+	]
 };
 
 /*	

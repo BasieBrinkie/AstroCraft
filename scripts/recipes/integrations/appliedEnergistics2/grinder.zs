@@ -20,7 +20,12 @@ static grinderAdd as int[IItemStack][IItemStack] = {
 	//Professions Stage 1
 	<immersiveengineering:material:17>: {
 		<thermalfoundation:material:802>: 10
-	}
+	},
+
+	//Farmer One
+	<nuclearcraft:flour:0>: {
+		<minecraft:wheat:0>: 2
+	},
 };
 
 static grinderRemove as IItemStack[] = [
@@ -40,6 +45,9 @@ static grinderRemove as IItemStack[] = [
 	<atum:coal_ore:0>,
 	<atum:gold_ore:0>,
 	<atum:iron_ore:0>,
+	<better_diving:silver_ore:0>,
+	<better_diving:copper_ore:0>,
+	<better_diving:lead:0>,
 	<buildinggadgets:construction_chunk_dense:0>,
 	<buildinggadgets:constructionblock_dense:0>,
 	<erebus:ore_coal:0>,

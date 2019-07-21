@@ -75,7 +75,12 @@ function initIntegrations() {
 	scripts.recipes.integrations.charcoalPit.fuels.init();
 	scripts.recipes.integrations.charcoalPit.kiln.init();
 
-	scripts.recipes.integrations.chisel.matterOverdrive.init();
+	scripts.recipes.integrations.chisel.mods.matterOverdrive.init();
+
+	scripts.recipes.integrations.exNihiloCreatio.compost.init();
+	scripts.recipes.integrations.exNihiloCreatio.crook.init();
+	scripts.recipes.integrations.exNihiloCreatio.hammer.init();
+	scripts.recipes.integrations.exNihiloCreatio.sieve.init();
 
 	scripts.recipes.integrations.factoryTech.agitator.init();
 	scripts.recipes.integrations.factoryTech.centrifuge.init();
@@ -127,6 +132,7 @@ function initStages() {
 	scripts.stages.mods.charcoalPit.init();
 	scripts.stages.mods.chisel.init();
 	scripts.stages.mods.contenttweaker.init();
+	scripts.stages.mods.enderUtilities.init();
 	scripts.stages.mods.exCompressum.init();
 	scripts.stages.mods.exNihiloCreatio.init();
 	scripts.stages.mods.extraUtils2.init();
@@ -145,6 +151,7 @@ function initStages() {
 	scripts.stages.mods.researchTable.init();
 	scripts.stages.mods.skyResources.init();
 	scripts.stages.mods.tConstruct.init();
+	scripts.stages.mods.techGuns.init();
 	scripts.stages.mods.thaumcraft.init();
 	scripts.stages.mods.thermalFoundation.init();
 

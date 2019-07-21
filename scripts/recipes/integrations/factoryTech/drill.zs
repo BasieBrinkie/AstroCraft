@@ -3,7 +3,7 @@ import crafttweaker.item.IItemStack;
 
 static drillAdd as bool[IIngredient][IItemStack] = {
 	//Professions Stage 1
-	<enderutilities:floor:0>: {
+	<enderutilities:floor:0> * 2: {
 		<ore:slabWood>: true
 	},
 	<factorytech:salvagepart:161>: {

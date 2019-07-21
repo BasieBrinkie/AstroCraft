@@ -15,6 +15,11 @@ static agitatorAdd as IIngredient[ILiquidStack][ILiquidStack][ILiquidStack][IIte
 	<nuclearcraft:radaway_slow:0>: {null : { 
 		null: {<liquid:preheated_water> * 1000: <minecraft:redstone:0>
 	}}},
+
+	//Farmer One
+	null: {<liquid:canolaoil> * 100: {
+		null: {<liquid:preheated_water> * 100: <actuallyadditions:item_misc:13>
+	}}},
 };
 
 static agitatorRemove as IItemStack[] = [

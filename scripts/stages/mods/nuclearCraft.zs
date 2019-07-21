@@ -27,6 +27,10 @@ static stagedItems as IIngredient[][string] = {
 	stageProfessionsStage1.stage: [
 		<nuclearcraft:uranium:10>,
 	],
+
+	stageFarmer1.stage: [
+		<nuclearcraft:flour:0>
+	]
 };
 
 static disabledItems as IIngredient[] = [

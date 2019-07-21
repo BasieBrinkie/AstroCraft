@@ -29,6 +29,7 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:coal:1>,
 		<minecraft:crafting_table:0>,
 		<minecraft:dirt:0>,
+		<minecraft:dirt:1>,
 		<minecraft:furnace:0>,
 		<minecraft:lever:0>,
 		<minecraft:log:0>,
@@ -38,6 +39,7 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:stone_shovel:*>,
 		<minecraft:string:0>,
 		<minecraft:wheat_seeds:0>,
+		<minecraft:wheat:0>,
 		<minecraft:wooden_pickaxe:*>,
 		<minecraft:wool:0>
 	],
@@ -73,6 +75,15 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:repeater:0>,
 		<minecraft:stonebrick:0>,
 	],
+	stageFarmer1.stage: [
+		<minecraft:melon:0>,
+		<minecraft:melon_block:0>,
+		<minecraft:melon_seeds:0>,
+		<minecraft:pumpkin:0>,
+		<minecraft:pumpkin_pie:0>,
+		<minecraft:pumpkin_seeds:0>,
+		<minecraft:dye:2>,
+	],
 
 	stageDecorationEnable.stage: [
 		<minecraft:planks:1>,
@@ -81,6 +92,21 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:planks:4>,
 		<minecraft:planks:5>,
 		<minecraft:trapdoor:0>,
+		<minecraft:wool:1>,
+		<minecraft:wool:2>,
+		<minecraft:wool:3>,
+		<minecraft:wool:4>,
+		<minecraft:wool:5>,
+		<minecraft:wool:6>,
+		<minecraft:wool:7>,
+		<minecraft:wool:8>,
+		<minecraft:wool:9>,
+		<minecraft:wool:10>,
+		<minecraft:wool:11>,
+		<minecraft:wool:12>,
+		<minecraft:wool:13>,
+		<minecraft:wool:14>,
+		<minecraft:wool:15>,
 	]
 };
 

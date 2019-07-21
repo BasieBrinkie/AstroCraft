@@ -27,6 +27,7 @@ static stagedItems as IIngredient[][string] = {
 		<exnihilocreatio:block_barrel0:0>,
 		<exnihilocreatio:block_sieve:0>,
 		<exnihilocreatio:hammer_stone:*>,
+		<exnihilocreatio:hammer_wood:*>,
 		<exnihilocreatio:item_material:2>,
 		<exnihilocreatio:item_mesh:1>,
 		<exnihilocreatio:item_ore_copper:0>,
@@ -41,8 +42,13 @@ static stagedItems as IIngredient[][string] = {
 		<exnihilocreatio:item_ore_lead:0>,
 		<exnihilocreatio:item_ore_lead:1>,
 		<exnihilocreatio:item_ore_nickel:0>,
-		<exnihilocreatio:item_ore_nickel:1>,
-	]
+		<exnihilocreatio:item_ore_nickel:1>
+	],
+	stageFarmer1.stage: [
+		<exnihilocreatio:crook_iron:*>,
+		<exnihilocreatio:crook_wood:*>,
+		<exnihilocreatio:item_material:4>,
+	],
 };
 
 static disabledItems as IIngredient[] = [

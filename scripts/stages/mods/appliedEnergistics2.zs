@@ -31,6 +31,7 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static disabledItems as IIngredient[] = [
+	<appliedenergistics2:material:4>,
 ];
 
 function init() {

@@ -18,7 +18,10 @@ import crafttweaker.item.IItemStack;
 
 static centrifugeAdd as bool[IIngredient][IItemStack[]] = { 
 	//Basic Resources
-	[<minecraft:sand:0>, <exnihilocreatio:item_pebble:0>, <charcoal_pit:item_ash:0>]: { <minecraft:gravel:0>: false} 
+	[<minecraft:sand:0>, <exnihilocreatio:item_pebble:0>, <charcoal_pit:item_ash:0>]: { <minecraft:gravel:0>: true},
+
+	//Farmer One
+	[<minecraft:dye:2>, <exnihilocreatio:item_material:4>, <actuallyadditions:item_crystal_shard:4>]: { <minecraft:wheat:0>: true}
 };
 
 /*	

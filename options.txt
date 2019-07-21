@@ -135,6 +135,12 @@ key_key.toastcontrol.clear:36
 key_key.microraptor_dismount:46
 key_key.vehicle_helicopter.up:57
 key_key.vehicle_helicopter.down:29
+key_key.vehicle_helicopter.third_person_view_zoom_in:209
+key_key.vehicle_helicopter.third_person_view_zoom_out:201
+key_key.vehicle_helicopter.autopilot:30:CONTROL
+key_key.vehicle_helicopter.lock:32:CONTROL
+key_key.vehicle_helicopter.rotate_left:203
+key_key.vehicle_helicopter.rotate_right:205
 key_key.vehicle_0.switch:2:CONTROL
 key_key.vehicle_1.switch:3:CONTROL
 key_key.vehicle_2.switch:4:CONTROL
@@ -247,7 +253,7 @@ key_WorldEdit Reference:38
 key_Open Matter Scanner GUI:46
 key_Android Ability key:45
 key_Android Switch Ability key:19
-key_key.radial_menu:46
+key_key.radial_menu:80
 key_key.use_ring:19
 key_key.open_pouch:34
 key_key.connect_caving_rope:47

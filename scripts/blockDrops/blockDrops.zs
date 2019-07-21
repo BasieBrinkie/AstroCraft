@@ -20,6 +20,8 @@ static normalDrops as IItemStack[][string] = {
 	"minecraft:iron_ore": [
 		<minecraft:iron_ore:0>
 	],
+
+	
 	"minecraft:log": [
 		<minecraft:planks:0> * 2
 	],
@@ -29,6 +31,27 @@ static normalDrops as IItemStack[][string] = {
 	"minecraft:log:8": [
 		<minecraft:planks:0> * 2
 	],
+
+
+	"minecraft:melon_block": [
+		<minecraft:melon_block:0>
+	],
+
+
+	"minecraft:pumpkin": [
+		<minecraft:pumpkin:0>
+	],
+	"minecraft:pumpkin:1": [
+		<minecraft:pumpkin:0>
+	],
+	"minecraft:pumpkin:2": [
+		<minecraft:pumpkin:0>
+	],
+	"minecraft:pumpkin:3": [
+		<minecraft:pumpkin:0>
+	],
+
+
 	"minecraft:wool": [
 		<minecraft:string:0> * 3
 	]

@@ -25,6 +25,7 @@ import scripts.stages.register.stageDecorationEnable;
 
 static stagedItems as IIngredient[][string] = {
 	stageProfessionsStage1.stage: [
+		<enderutilities:floor:0>,
 		<enderutilities:storage_0:7>
 	]
 };

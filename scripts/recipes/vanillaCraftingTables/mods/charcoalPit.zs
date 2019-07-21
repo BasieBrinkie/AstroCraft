@@ -17,7 +17,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<charcoal_pit:fire_starter:0>: [
 		[
 			[null, null, <ore:stickWood>],
-			[null, <ore:stickWood>, <ore:allCoal>],
+			[null, <ore:stickWood>, <ore:itemCoal>],
 			[<ore:stickWood>, <ore:stickWood>, <ore:stone>]
 		]
 	],

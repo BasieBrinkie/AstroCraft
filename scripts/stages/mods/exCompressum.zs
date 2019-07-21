@@ -24,6 +24,9 @@ import scripts.stages.register.stageDisabledItems;
 import scripts.stages.register.stageDecorationEnable;
 
 static stagedItems as IIngredient[][string] = {
+	stageOxygen1.stage: [
+		<excompressum:wooden_crucible:0>,
+	]
 };
 
 static disabledItems as IIngredient[] = [
