@@ -21,7 +21,7 @@ import scripts.stages.register.stageBlackSmith;
 import scripts.stages.register.stageNuclearPhysicist;
 
 import scripts.stages.register.stageDisabledItems;
-import scripts.stages.register.stageDecorationEnable;
+import scripts.stages.register.stageDecoration1Enable;
 
 static stagedItems as IIngredient[][string] = {
 	stageOxygen1.stage: [
@@ -64,10 +64,6 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:coal:0>,
 		<minecraft:comparator:0>,
 		<minecraft:flint:0>,
-		<minecraft:iron_axe:*>,
-		<minecraft:iron_hoe:*>,
-		<minecraft:iron_pickaxe:*>,
-		<minecraft:iron_shovel:*>,
 		<minecraft:magma:0>,
 		<minecraft:obsidian:0>,
 		<minecraft:redstone:0>,
@@ -85,7 +81,7 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:dye:2>,
 	],
 
-	stageDecorationEnable.stage: [
+	stageDecoration1Enable.stage: [
 		<minecraft:planks:1>,
 		<minecraft:planks:2>,
 		<minecraft:planks:3>,
@@ -111,6 +107,10 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static disabledItems as IIngredient[] = [
+	<minecraft:iron_axe:*>,
+	<minecraft:iron_hoe:*>,
+	<minecraft:iron_pickaxe:*>,
+	<minecraft:iron_shovel:*>,
 ];
 
 function init() {

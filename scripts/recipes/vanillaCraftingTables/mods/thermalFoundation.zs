@@ -7,20 +7,34 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<grapplemod:block_grapple_modifier:0>: [
+	<thermalfoundation:tool.axe_steel:0>: [
 		[
-			[<ore:plankWood>, <ore:ingotCopper>, <ore:plankWood>],
-			[<ore:ingotIron>, <minecraft:redstone:0>, <ore:ingotIron>],
-			[<ore:plankWood>, <ore:ingotCopper>, <ore:plankWood>]
+			[<ore:ingotSteel>, <ore:ingotSteel>],
+			[<ore:ingotSteel>, <ore:allStick>],
+			[null, <ore:allStick>]
 		]
 	],
-	<grapplemod:grapplinghook:0>: [
+	<thermalfoundation:tool.hoe_steel:0>: [
 		[
-			[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
-			[null, <ore:factoryTechWire>, null],
-			[null, <ore:factoryTechWire>, null]
+			[<ore:ingotSteel>, <ore:ingotSteel>],
+			[null, <ore:allStick>],
+			[null, <ore:allStick>]
 		]
-	]
+	],	
+	<thermalfoundation:tool.pickaxe_steel:0>: [
+		[
+			[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
+			[null, <ore:allStick>, null],
+			[null, <ore:allStick>, null]
+		]
+	],
+	<thermalfoundation:tool.shovel_steel:0>: [
+		[
+			[<ore:ingotSteel>],
+			[<ore:allStick>],
+			[<ore:allStick>]
+		]
+	],
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
@@ -43,28 +57,6 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
     ------------------
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
-	<grapplemod:doubleupgradeitem:0>: [
-		[<grapplemod:baseupgradeitem:0>, <thermalfoundation:tool.pickaxe_steel:0>]
-	],
-	<grapplemod:limitsupgradeitem:0>: [
-		[<grapplemod:baseupgradeitem:0>, <minecraft:diamond_ore:0>]
-	],
-	<grapplemod:magnetupgradeitem:0>: [
-		[<grapplemod:baseupgradeitem:0>, <factorytech:machinepart:130>]
-	],
-	<grapplemod:motorupgradeitem:0>: [
-		[<grapplemod:baseupgradeitem:0>, <ore:factoryTechMotor>]
-	],
-	<grapplemod:ropeupgradeitem:0>: [
-		[<grapplemod:baseupgradeitem:0>, <factorytech:machinepart:22>]
-	],
-	<grapplemod:swingupgradeitem:0>: [
-		[<grapplemod:baseupgradeitem:0>, <exnihilocreatio:item_material:2>]
-	],
-	<grapplemod:throwupgradeitem:0>: [
-		[<grapplemod:baseupgradeitem:0>, <minecraft:wheat:0>]
-	]
-
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {

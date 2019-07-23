@@ -21,14 +21,14 @@ import scripts.stages.register.stageBlackSmith;
 import scripts.stages.register.stageNuclearPhysicist;
 
 import scripts.stages.register.stageDisabledItems;
-import scripts.stages.register.stageDecorationEnable;
+import scripts.stages.register.stageDecoration1Enable;
 
 static stagedItems as IIngredient[][string] = {
 	stageProfessionsStage1.stage: [
 
 	],
 	
-	stageDecorationEnable.stage: [
+	stageDecoration1Enable.stage: [
 
 	]
 };

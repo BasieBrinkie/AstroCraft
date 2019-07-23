@@ -45,6 +45,8 @@ static stageRocketBuilder as Stage = ZenStager.initStage("rocket_builder");
 */
 static stageProfessionsStage1 as Stage = ZenStager.initStage("professions_one");
 
+static stageScavenger as Stage = ZenStager.initStage("scavenger");
+static stageMiner1 as Stage = ZenStager.initStage("miner_one");
 static stageOxygenExtractor as Stage = ZenStager.initStage("oxygen_extractor");
 static stageDecorator as Stage = ZenStager.initStage("decorator");
 static stageFarmer1 as Stage = ZenStager.initStage("farmer_one");
@@ -114,8 +116,8 @@ static stageChickens1 as Stage = ZenStager.initStage("chickens_one");
 	Misc Stages.
 	------------
 */
-static stageDecorationEnable as Stage = ZenStager.initStage("decoration_enable");
-static stageDecorationDisable as Stage = ZenStager.initStage("decoration_disable");
+static stageDecoration1Enable as Stage = ZenStager.initStage("decoration_one_enable");
+static stageDecoration1Disable as Stage = ZenStager.initStage("decoration_one_disable");
 static stageDisabledItems as Stage = ZenStager.initStage("disabled_items");
 static stageRecurrentComplex as Stage = ZenStager.initStage("reccomplex");
 static stageNonStaged as Stage = ZenStager.initStage("non_staged_items");

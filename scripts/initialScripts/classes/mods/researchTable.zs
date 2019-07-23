@@ -26,7 +26,7 @@ import scripts.stages.register.stageAstronomer;
 import scripts.stages.register.stageBlackSmith;
 import scripts.stages.register.stageNuclearPhysicist;
 
-import scripts.stages.register.stageDecorationEnable;
+import scripts.stages.register.stageDecoration1Enable;
 import scripts.stages.register.stageDecorationDisable;
 
 zenClass researchTable {

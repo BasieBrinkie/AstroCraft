@@ -23,8 +23,8 @@ import scripts.stages.register.stageAstronomer;
 import scripts.stages.register.stageBlackSmith;
 import scripts.stages.register.stageNuclearPhysicist;
 
-import scripts.stages.register.stageDecorationEnable;
-import scripts.stages.register.stageDecorationDisable;
+import scripts.stages.register.stageDecoration1Enable;
+import scripts.stages.register.stageDecoration1Disable;
 
 static allStages as string[][] = [
 	[	//0
@@ -128,11 +128,11 @@ static addResearchGenius as string[][string[]][string][IItemStack][string] = {
 static addResearchToggles as string[string[]][string][IItemStack][string] = {
 	"Decorational Blocks - Enable": {<chisel:chisel_iron:0>: {
 		"Enable decorational blocks to be visible in JEI.": {
-			[stageDecorationDisable.stage, stageDecorator.stage]: stageDecorationEnable.stage}}
+			[stageDecoration1Disable.stage, stageDecorator.stage]: stageDecoration1Enable.stage}}
 	},
 	"Decorational Blocks - Disable": {<chisel:chisel_iron:0>: {
 		"Disable decorational blocks to be visible in JEI.": {
-			[stageDecorationEnable.stage, stageDecorator.stage]: stageDecorationDisable.stage}}
+			[stageDecoration1Enable.stage, stageDecorator.stage]: stageDecoration1Disable.stage}}
 	},
 };
 

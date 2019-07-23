@@ -56,6 +56,7 @@ function initRecipes() {
 	scripts.recipes.vanillaCraftingTables.mods.matterOverdrive.init();
 	scripts.recipes.vanillaCraftingTables.mods.mekanism.init();
 	scripts.recipes.vanillaCraftingTables.mods.minecraft.init();
+	scripts.recipes.vanillaCraftingTables.mods.pneumaticCraft.init();
 	scripts.recipes.vanillaCraftingTables.mods.nuclearCraft.init();
 	scripts.recipes.vanillaCraftingTables.mods.researchTable.init();
 	scripts.recipes.vanillaCraftingTables.mods.skyResources.init();
@@ -67,7 +68,9 @@ function initRecipes() {
 function initIntegrations() {
 	if (!devDisableIntegrations | !dev) {
 	print("----------------------- Integrations -----------------------");
+	scripts.recipes.integrations.actuallyAdditions.atomicReconstructor.init();
 	scripts.recipes.integrations.actuallyAdditions.compost.init();
+	scripts.recipes.integrations.actuallyAdditions.empowerer.init();
 
 	scripts.recipes.integrations.appliedEnergistics2.grinder.init();
 
@@ -76,10 +79,12 @@ function initIntegrations() {
 	scripts.recipes.integrations.charcoalPit.kiln.init();
 
 	scripts.recipes.integrations.chisel.mods.matterOverdrive.init();
+	//scripts.recipes.integrations.chisel.wool.init();
 
 	scripts.recipes.integrations.exNihiloCreatio.compost.init();
 	scripts.recipes.integrations.exNihiloCreatio.crook.init();
 	scripts.recipes.integrations.exNihiloCreatio.hammer.init();
+	scripts.recipes.integrations.exNihiloCreatio.heat.init();
 	scripts.recipes.integrations.exNihiloCreatio.sieve.init();
 
 	scripts.recipes.integrations.factoryTech.agitator.init();
@@ -124,6 +129,7 @@ function initStages() {
 	scripts.stages.metals.metalIron.init();
 	scripts.stages.metals.metalLead.init();
 	scripts.stages.metals.metalNickel.init();
+	scripts.stages.metals.metalSteel.init();
 
 	scripts.stages.mods.actuallyAdditions.init();	
 	scripts.stages.mods.advancedRocketry.init();
@@ -147,6 +153,7 @@ function initStages() {
 	scripts.stages.mods.mysticalAgradditions.init();
 	scripts.stages.mods.mysticalAgriculture.init();
 	scripts.stages.mods.nuclearCraft.init();
+	scripts.stages.mods.pneumaticCraft.init();
 	scripts.stages.mods.recurrentComplex.init();
 	scripts.stages.mods.researchTable.init();
 	scripts.stages.mods.skyResources.init();
@@ -172,6 +179,7 @@ function initOredict() {
 	scripts.oredict.metals.metalUranium.init();
 
 	scripts.oredict.coal.init();
+	scripts.oredict.food.init();
 	scripts.oredict.sand.init();
 	scripts.oredict.sticks.init();
 	scripts.oredict.stone.init();
