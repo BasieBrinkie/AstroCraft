@@ -126,13 +126,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]
 		]
 	],
-	<skyresources:stonecuttingknife:0>: [
+	<skyresources:ironcuttingknife:0>: [
 		[
-			[<ore:stone>, null, null],
-			[<ore:stone>, <ore:stickTier1To3>, null], 
-			[null, <ore:stone>, <ore:stickTier1To3>]
+			[<ore:ironIngot>, null, null],
+			[<ore:ironIngot>, <ore:stickTier1To3>, null], 
+			[null, <ore:ironIngot>, <ore:stickTier1To3>]
 		]
-	]
+	],
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {

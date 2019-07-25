@@ -18,8 +18,8 @@ import crafttweaker.oredict.IOreDictEntry;
 
 
 static sieveAdd as IItemStack[][float][IIngredient][int] = { 
-	//Oxygen One
 	0: {
+		//Oxygen One
 		<ore:dirt>: {
 			0.02: [<minecraft:wheat_seeds:0>],
 			0.4: [<actuallyadditions:item_worm:0>]
@@ -27,10 +27,19 @@ static sieveAdd as IItemStack[][float][IIngredient][int] = {
 		<ore:gravel>: {
 			0.2: [<exnihilocreatio:item_ore_copper:0>]
 		},
+		
 		//Professions One
 		<ore:sand>: {
 			0.33: [<minecraft:glowstone_dust:0>]
 		} 
+	},
+	2: {
+		//Oxygen Extractor
+		<ore:dirt>: {
+			0.2: [<thebetweenlands:fallen_leaves:0>],
+			0.005: [<minecraft:wheat_seeds:0>],
+			0.1: [<actuallyadditions:item_worm:0>]
+		}
 	},
 };
 

@@ -20,6 +20,11 @@ static agitatorAdd as IIngredient[ILiquidStack][ILiquidStack][ILiquidStack][IIte
 	null: {<liquid:canolaoil> * 100: {
 		null: {<liquid:preheated_water> * 100: <actuallyadditions:item_misc:13>
 	}}},
+
+	//Oxygen Extractor
+	<minecraft:sapling:0>: {null: {
+		<liquid:lava> * 1000: {<liquid:nickel> * 1296: <minecraft:leaves:0>}
+	}}
 };
 
 static agitatorRemove as IItemStack[] = [

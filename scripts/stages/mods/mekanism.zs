@@ -27,6 +27,9 @@ static stagedItems as IIngredient[][string] = {
 	stageResources1.stage: [
 		<mekanism:sawdust:0>
 	],
+	stageRocketBuilder.stage: [
+		<mekanism:configurator:0>
+	],
 };
 
 static disabledItems as IIngredient[] = [

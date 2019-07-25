@@ -3285,36 +3285,6 @@
     "3pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}"
   },
   {
-    "name": "appliedenergistics2:charged_quartz_ore",
-    "meta": 0,
-    "length": 1,
-    "name0": "appliedenergistics2:material",
-    "meta0": 1,
-    "0chance0": 147.975,
-    "1chance0": 200.275,
-    "2chance0": 259.625,
-    "3chance0": 324.65,
-    "0pair0": "{\n  \"left\": 1,\n  \"right\": 2\n}",
-    "1pair0": "{\n  \"left\": 1,\n  \"right\": 4\n}",
-    "2pair0": "{\n  \"left\": 1,\n  \"right\": 6\n}",
-    "3pair0": "{\n  \"left\": 1,\n  \"right\": 8\n}"
-  },
-  {
-    "name": "appliedenergistics2:quartz_ore",
-    "meta": 0,
-    "length": 1,
-    "name0": "appliedenergistics2:material",
-    "meta0": 0,
-    "0chance0": 150.15,
-    "1chance0": 196.775,
-    "2chance0": 264.1,
-    "3chance0": 326.44998,
-    "0pair0": "{\n  \"left\": 1,\n  \"right\": 2\n}",
-    "1pair0": "{\n  \"left\": 1,\n  \"right\": 4\n}",
-    "2pair0": "{\n  \"left\": 1,\n  \"right\": 6\n}",
-    "3pair0": "{\n  \"left\": 1,\n  \"right\": 8\n}"
-  },
-  {
     "name": "thaumcraft:golem_builder",
     "meta": 0,
     "length": 1,
@@ -23490,21 +23460,6 @@
     "3pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}"
   },
   {
-    "name": "buildinggadgets:constructionblock",
-    "meta": 0,
-    "length": 1,
-    "name0": "buildinggadgets:constructionpaste",
-    "meta0": 0,
-    "0chance0": 100.0,
-    "1chance0": 100.0,
-    "2chance0": 100.0,
-    "3chance0": 100.0,
-    "0pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}",
-    "1pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}",
-    "2pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}",
-    "3pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}"
-  },
-  {
     "name": "thebetweenlands:coarse_swamp_dirt",
     "meta": 0,
     "length": 1,
@@ -23925,21 +23880,6 @@
     "3pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}"
   },
   {
-    "name": "buildinggadgets:constructionblock_dense",
-    "meta": 0,
-    "length": 1,
-    "name0": "buildinggadgets:constructionpaste",
-    "meta0": 0,
-    "0chance0": 197.75,
-    "1chance0": 200.37502,
-    "2chance0": 201.45,
-    "3chance0": 200.79999,
-    "0pair0": "{\n  \"left\": 1,\n  \"right\": 3\n}",
-    "1pair0": "{\n  \"left\": 1,\n  \"right\": 3\n}",
-    "2pair0": "{\n  \"left\": 1,\n  \"right\": 3\n}",
-    "3pair0": "{\n  \"left\": 1,\n  \"right\": 3\n}"
-  },
-  {
     "name": "thebetweenlands:root",
     "meta": 0,
     "length": 1,
@@ -24028,5 +23968,65 @@
     "1pair0": "{\n  \"left\": 2,\n  \"right\": 8\n}",
     "2pair0": "{\n  \"left\": 2,\n  \"right\": 12\n}",
     "3pair0": "{\n  \"left\": 2,\n  \"right\": 16\n}"
+  },
+  {
+    "name": "buildinggadgets:constructionblock",
+    "meta": 0,
+    "length": 1,
+    "name0": "buildinggadgets:constructionpaste",
+    "meta0": 0,
+    "0chance0": 100.0,
+    "1chance0": 100.0,
+    "2chance0": 100.0,
+    "3chance0": 100.0,
+    "0pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}",
+    "1pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}",
+    "2pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}",
+    "3pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}"
+  },
+  {
+    "name": "appliedenergistics2:charged_quartz_ore",
+    "meta": 0,
+    "length": 1,
+    "name0": "appliedenergistics2:material",
+    "meta0": 1,
+    "0chance0": 149.6,
+    "1chance0": 202.825,
+    "2chance0": 262.65,
+    "3chance0": 329.125,
+    "0pair0": "{\n  \"left\": 1,\n  \"right\": 2\n}",
+    "1pair0": "{\n  \"left\": 1,\n  \"right\": 4\n}",
+    "2pair0": "{\n  \"left\": 1,\n  \"right\": 6\n}",
+    "3pair0": "{\n  \"left\": 1,\n  \"right\": 8\n}"
+  },
+  {
+    "name": "buildinggadgets:constructionblock_dense",
+    "meta": 0,
+    "length": 1,
+    "name0": "buildinggadgets:constructionpaste",
+    "meta0": 0,
+    "0chance0": 201.92499,
+    "1chance0": 201.20001,
+    "2chance0": 200.75,
+    "3chance0": 200.90001,
+    "0pair0": "{\n  \"left\": 1,\n  \"right\": 3\n}",
+    "1pair0": "{\n  \"left\": 1,\n  \"right\": 3\n}",
+    "2pair0": "{\n  \"left\": 1,\n  \"right\": 3\n}",
+    "3pair0": "{\n  \"left\": 1,\n  \"right\": 3\n}"
+  },
+  {
+    "name": "appliedenergistics2:quartz_ore",
+    "meta": 0,
+    "length": 1,
+    "name0": "appliedenergistics2:material",
+    "meta0": 0,
+    "0chance0": 149.4,
+    "1chance0": 198.075,
+    "2chance0": 257.425,
+    "3chance0": 329.5,
+    "0pair0": "{\n  \"left\": 1,\n  \"right\": 2\n}",
+    "1pair0": "{\n  \"left\": 1,\n  \"right\": 4\n}",
+    "2pair0": "{\n  \"left\": 1,\n  \"right\": 6\n}",
+    "3pair0": "{\n  \"left\": 1,\n  \"right\": 8\n}"
   }
 ]

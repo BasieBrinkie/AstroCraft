@@ -76,7 +76,7 @@
   "crafttweaker": "4.1.19",
   "immersivepetroleum": "1.1.9",
   "forge": "14.23.5.2838",
-  "phosphor-lighting": "1.12.2-0.2.5",
+  "phosphor-lighting": "1.12.2-0.2.6",
   "ftbutilities": "5.4.0.100",
   "alchemistry": "1.0.31",
   "minecraft": "1.12.2",
@@ -126,7 +126,7 @@
   "controlling": "3.0.7",
   "placebo": "1.6.0",
   "bookshelf": "2.3.585",
-  "buildinggadgets": "2.7.0",
+  "buildinggadgets": "2.7.1",
   "cofhworld": "1.3.1",
   "mekanismgenerators": "1.12.2-1.2.0",
   "props": "2.6.2",
@@ -179,7 +179,7 @@
   "clumps": "3.1.2",
   "journeymap": "1.12.2-5.5.4",
   "vimmersion": "2.0.3.3",
-  "appliedenergistics2": "rv6-stable-6",
+  "appliedenergistics2": "rv6-stable-7",
   "nuclearcraft": "2.17b",
   "jeid": "1.0.2-26",
   "foamfixcore": "7.7.4",
@@ -213,5 +213,5 @@
   "tickdynamic": "1.0.2",
   "chiselsandbits": "14.33",
   "littletiles": "1.5.0",
-  "unlimitedchiselworks": "0.2.2"
+  "unlimitedchiselworks": "0.2.3"
 }

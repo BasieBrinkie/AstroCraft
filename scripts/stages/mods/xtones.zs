@@ -24,29 +24,13 @@ import scripts.stages.register.stageDisabledItems;
 import scripts.stages.register.stageDecoration1Enable;
 
 static stagedItems as IIngredient[][string] = {
-	stageOxygen1.stage: [
-		<actuallyadditions:item_worm:0>
-	],
-	stageResources1.stage: [
-		<actuallyadditions:block_compost:0>,
-	],
-	stageProfessionsStage1.stage: [
-		<actuallyadditions:item_knife:0>,
-	],
-	stageFarmer1.stage: [
-		<actuallyadditions:item_canola_seed:0>,
-		<actuallyadditions:item_crystal_shard:4>,
-		<actuallyadditions:item_misc:13>,
-	],
 	stageDecorator.stage: [
-		<actuallyadditions:block_crystal_cluster_redstone:0>,
-		<actuallyadditions:item_crystal_shard:0>
+		<xtones:base:0>,
 	],
 };
 
 static disabledItems as IIngredient[] = [
-	<actuallyadditions:block_fermenting_barrel:0>,
-	<actuallyadditions:item_dust:6>
+	<charcoal_pit:item_coke:0>,
 ];
 
 function init() {

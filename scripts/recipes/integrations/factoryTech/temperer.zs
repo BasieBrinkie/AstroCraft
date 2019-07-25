@@ -32,7 +32,13 @@ static tempererAdd as int[IItemStack][IItemStack] = {
 	},
 	<skyresources:ironcuttingknife:0>: {
 		<actuallyadditions:item_knife:0>: 16
-	}	
+	},
+
+	//Decorator
+	<actuallyadditions:block_crystal_cluster_redstone:0>: {
+		<minecraft:redstone:0>: 120
+	},	
+
 
 };
 

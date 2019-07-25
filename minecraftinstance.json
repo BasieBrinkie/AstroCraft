@@ -29,7 +29,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2019-07-22T23:23:53.6521185Z",
+  "lastPlayed": "2019-07-24T23:03:27.0406371Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -615,19 +615,19 @@
       "fileSize": 169528
     },
     {
-      "folderName": "xnet-1.12-1.8.2.jar",
-      "fingerprint": 1881973158,
-      "fileDateHash": 304613159,
-      "sectionID": 8,
+      "folderName": "Atum-1.12.2-2.0.4.jar",
+      "fingerprint": 2908043661,
+      "fileDateHash": 1321541904,
+      "sectionID": 6,
       "individualFingerprints": [
-        1881973158
+        2908043661
       ],
       "status": 1,
-      "timestamp": "2019-07-22T23:06:08.3318576Z",
-      "lastWriteTimeUtc": "2019-07-22T22:29:01.0100543Z",
+      "timestamp": "2019-04-20T23:22:12.2273358Z",
+      "lastWriteTimeUtc": "2019-04-20T20:57:24.4847107Z",
       "queryTimestamp": "2019-07-22T23:06:11.6028881Z",
       "fileCount": 1,
-      "fileSize": 496307
+      "fileSize": 2654845
     },
     {
       "folderName": "p455w0rdslib-1.12.2-2.2.156.jar",
@@ -645,19 +645,19 @@
       "fileSize": 373855
     },
     {
-      "folderName": "Atum-1.12.2-2.0.4.jar",
-      "fingerprint": 2908043661,
-      "fileDateHash": 1321541904,
-      "sectionID": 6,
+      "folderName": "xnet-1.12-1.8.2.jar",
+      "fingerprint": 1881973158,
+      "fileDateHash": 304613159,
+      "sectionID": 8,
       "individualFingerprints": [
-        2908043661
+        1881973158
       ],
       "status": 1,
-      "timestamp": "2019-04-20T23:22:12.2273358Z",
-      "lastWriteTimeUtc": "2019-04-20T20:57:24.4847107Z",
+      "timestamp": "2019-07-22T23:06:08.3318576Z",
+      "lastWriteTimeUtc": "2019-07-22T22:29:01.0100543Z",
       "queryTimestamp": "2019-07-22T23:06:11.6028881Z",
       "fileCount": 1,
-      "fileSize": 2654845
+      "fileSize": 496307
     },
     {
       "folderName": "CyclopsCore-1.12.2-1.4.0.jar",
@@ -825,21 +825,6 @@
       "fileSize": 534420
     },
     {
-      "folderName": "blockdetectors-1.0.jar",
-      "fingerprint": 3931645934,
-      "fileDateHash": 1235076429,
-      "sectionID": 8,
-      "individualFingerprints": [
-        3931645934
-      ],
-      "status": 1,
-      "timestamp": "2019-07-22T23:06:06.1489962Z",
-      "lastWriteTimeUtc": "2019-07-17T19:42:41.3947387Z",
-      "queryTimestamp": "2019-07-22T23:06:11.6058882Z",
-      "fileCount": 1,
-      "fileSize": 16050
-    },
-    {
       "folderName": "theoneprobe-1.12-1.4.28.jar",
       "fingerprint": 2094495496,
       "fileDateHash": 3278734720,
@@ -853,6 +838,21 @@
       "queryTimestamp": "2019-07-22T23:06:11.6068878Z",
       "fileCount": 1,
       "fileSize": 301893
+    },
+    {
+      "folderName": "blockdetectors-1.0.jar",
+      "fingerprint": 3931645934,
+      "fileDateHash": 1235076429,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3931645934
+      ],
+      "status": 1,
+      "timestamp": "2019-07-22T23:06:06.1489962Z",
+      "lastWriteTimeUtc": "2019-07-17T19:42:41.3947387Z",
+      "queryTimestamp": "2019-07-22T23:06:11.6058882Z",
+      "fileCount": 1,
+      "fileSize": 16050
     },
     {
       "folderName": "ItemStages-1.12.2-2.0.49.jar",
@@ -3848,21 +3848,6 @@
       "fileSize": 352040
     },
     {
-      "folderName": "FactoryTech-1.6.8c.jar",
-      "fingerprint": 2195422477,
-      "fileDateHash": 1077617337,
-      "sectionID": 8,
-      "individualFingerprints": [
-        2195422477
-      ],
-      "status": 1,
-      "timestamp": "2019-07-22T23:06:06.165991Z",
-      "lastWriteTimeUtc": "2019-07-21T20:56:09.57374Z",
-      "queryTimestamp": "2019-07-22T23:06:11.639877Z",
-      "fileCount": 1,
-      "fileSize": 2513950
-    },
-    {
       "folderName": "HammerCore-1.12.2-2.0.4.4.jar",
       "fingerprint": 3269081255,
       "fileDateHash": 3502447446,
@@ -3876,6 +3861,21 @@
       "queryTimestamp": "2019-07-22T23:06:11.639877Z",
       "fileCount": 1,
       "fileSize": 2213864
+    },
+    {
+      "folderName": "FactoryTech-1.6.8c.jar",
+      "fingerprint": 2195422477,
+      "fileDateHash": 1077617337,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2195422477
+      ],
+      "status": 1,
+      "timestamp": "2019-07-22T23:06:06.165991Z",
+      "lastWriteTimeUtc": "2019-07-21T20:56:09.57374Z",
+      "queryTimestamp": "2019-07-22T23:06:11.639877Z",
+      "fileCount": 1,
+      "fileSize": 2513950
     },
     {
       "folderName": "TConstruct-1.12.2-2.12.0.135.jar",
@@ -4639,21 +4639,6 @@
       "fileSize": 244342
     },
     {
-      "folderName": "JurassiCraft-1.12.2-2.1.23.jar",
-      "fingerprint": 1435984346,
-      "fileDateHash": 1925617988,
-      "sectionID": 8,
-      "individualFingerprints": [
-        1435984346
-      ],
-      "status": 1,
-      "timestamp": "2019-07-22T23:06:06.1809868Z",
-      "lastWriteTimeUtc": "2019-07-15T13:51:42.6809059Z",
-      "queryTimestamp": "2019-07-22T23:06:11.6468739Z",
-      "fileCount": 1,
-      "fileSize": 22860704
-    },
-    {
       "folderName": "YNot-0.2.4.jar",
       "fingerprint": 447109612,
       "fileDateHash": 1322248778,
@@ -4667,6 +4652,21 @@
       "queryTimestamp": "2019-07-22T23:06:11.6468739Z",
       "fileCount": 1,
       "fileSize": 63867
+    },
+    {
+      "folderName": "JurassiCraft-1.12.2-2.1.23.jar",
+      "fingerprint": 1435984346,
+      "fileDateHash": 1925617988,
+      "sectionID": 8,
+      "individualFingerprints": [
+        1435984346
+      ],
+      "status": 1,
+      "timestamp": "2019-07-22T23:06:06.1809868Z",
+      "lastWriteTimeUtc": "2019-07-15T13:51:42.6809059Z",
+      "queryTimestamp": "2019-07-22T23:06:11.6468739Z",
+      "fileCount": 1,
+      "fileSize": 22860704
     },
     {
       "folderName": "UnlimitedChiselWorks-0.2.2.jar",
@@ -7394,6 +7394,99 @@
       "installedTargets": null
     },
     {
+      "addonID": 236188,
+      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
+      "installedFile": {
+        "id": 2724775,
+        "displayName": "AcademyCraft 1.1.2",
+        "fileName": "AcademyCraft-1.1.2.jar",
+        "fileDate": "2019-06-15T02:33:29.987Z",
+        "fileLength": 29767858,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2724/775/AcademyCraft-1.1.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 239197,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 238222,
+            "type": 2,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 729023320,
+            "type": 0
+          },
+          {
+            "foldername": "cn",
+            "fingerprint": 2165892500,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1566193928,
+            "type": 0
+          },
+          {
+            "foldername": "changelog",
+            "fingerprint": 3013736232,
+            "type": 0
+          },
+          {
+            "foldername": "logo.png",
+            "fingerprint": 618390647,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 1585175410,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 1167222980,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 1929192247,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameId": 0,
+        "FileNameOnDisk": "AcademyCraft-1.1.2.jar"
+      },
+      "dateInstalled": "2019-03-15T00:08:51.5285922Z",
+      "dateUpdated": "2019-06-16T16:40:56.3943689Z",
+      "dateLastUpdateAttempted": "2019-06-16T16:40:56.3943689Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 226719,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
@@ -7479,99 +7572,6 @@
       "dateInstalled": "2019-07-22T23:06:12.7055625Z",
       "dateUpdated": "2018-07-22T23:06:12.7055625Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": []
-    },
-    {
-      "addonID": 236188,
-      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
-      "installedFile": {
-        "id": 2724775,
-        "displayName": "AcademyCraft 1.1.2",
-        "fileName": "AcademyCraft-1.1.2.jar",
-        "fileDate": "2019-06-15T02:33:29.987Z",
-        "fileLength": 29767858,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2724/775/AcademyCraft-1.1.2.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 0,
-            "addonId": 239197,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 238222,
-            "type": 2,
-            "fileId": 0
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 729023320,
-            "type": 0
-          },
-          {
-            "foldername": "cn",
-            "fingerprint": 2165892500,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 1566193928,
-            "type": 0
-          },
-          {
-            "foldername": "changelog",
-            "fingerprint": 3013736232,
-            "type": 0
-          },
-          {
-            "foldername": "logo.png",
-            "fingerprint": 618390647,
-            "type": 0
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 1585175410,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 1167222980,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 1929192247,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameId": 0,
-        "FileNameOnDisk": "AcademyCraft-1.1.2.jar"
-      },
-      "dateInstalled": "2019-03-15T00:08:51.5285922Z",
-      "dateUpdated": "2019-06-16T16:40:56.3943689Z",
-      "dateLastUpdateAttempted": "2019-06-16T16:40:56.3943689Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -7981,7 +7981,7 @@
       "dateInstalled": "2018-08-20T10:44:25.1466284Z",
       "dateUpdated": "2019-07-22T22:28:29.5049396Z",
       "dateLastUpdateAttempted": "2019-07-22T22:28:29.5049396Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11959,7 +11959,7 @@
       "dateInstalled": "2018-08-20T15:50:07.6342141Z",
       "dateUpdated": "2019-07-22T22:28:53.6297565Z",
       "dateLastUpdateAttempted": "2019-07-22T22:28:53.6297565Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12708,26 +12708,44 @@
       "addonID": 298187,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2744758,
-        "displayName": "BuildingGadgets-2.7.0.jar",
-        "fileName": "BuildingGadgets-2.7.0.jar",
-        "fileDate": "2019-07-20T11:40:26.203Z",
-        "fileLength": 705018,
+        "id": 2746982,
+        "displayName": "BuildingGadgets-2.7.1.jar",
+        "fileName": "BuildingGadgets-2.7.1.jar",
+        "fileDate": "2019-07-23T16:56:05.993Z",
+        "fileLength": 705026,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2744/758/BuildingGadgets-2.7.0.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2746/982/BuildingGadgets-2.7.1.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
             "id": 0,
-            "addonId": 59751,
+            "addonId": 239286,
             "type": 2,
             "fileId": 0
           },
           {
             "id": 0,
-            "addonId": 231951,
+            "addonId": 267602,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 228404,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 223794,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 59751,
             "type": 2,
             "fileId": 0
           },
@@ -12745,7 +12763,13 @@
           },
           {
             "id": 0,
-            "addonId": 239286,
+            "addonId": 231951,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 69163,
             "type": 2,
             "fileId": 0
           },
@@ -12757,31 +12781,7 @@
           },
           {
             "id": 0,
-            "addonId": 223794,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 228404,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
             "addonId": 268495,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 267602,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 69163,
             "type": 2,
             "fileId": 0
           }
@@ -12790,17 +12790,17 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1112786927,
+            "fingerprint": 1495205460,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 2369029338,
+            "fingerprint": 3807657581,
             "type": 0
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 2136378755,
+            "fingerprint": 551661840,
             "type": 0
           },
           {
@@ -12814,7 +12814,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 1531855994,
+        "packageFingerprint": 2467871234,
         "gameVersion": [
           "1.12.2"
         ],
@@ -12826,11 +12826,11 @@
         "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
-        "FileNameOnDisk": "BuildingGadgets-2.7.0.jar"
+        "FileNameOnDisk": "BuildingGadgets-2.7.1.jar"
       },
       "dateInstalled": "2019-07-01T01:53:47.4643163Z",
-      "dateUpdated": "2019-07-21T20:55:25.8321258Z",
-      "dateLastUpdateAttempted": "2019-07-21T20:55:25.8321258Z",
+      "dateUpdated": "2019-07-23T19:41:05.0613255Z",
+      "dateLastUpdateAttempted": "2019-07-23T19:41:05.0613255Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -13343,14 +13343,14 @@
       "addonID": 318255,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2746357,
-        "displayName": "Phosphor 0.2.5",
-        "fileName": "phosphor-1.12.2-0.2.5+build48-universal.jar",
-        "fileDate": "2019-07-22T20:51:27.59Z",
-        "fileLength": 1082543,
+        "id": 2747710,
+        "displayName": "Phosphor 0.2.6",
+        "fileName": "phosphor-1.12.2-0.2.6+build50-universal.jar",
+        "fileDate": "2019-07-24T18:34:13.063Z",
+        "fileLength": 1082311,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2746/357/phosphor-1.12.2-0.2.5+build48-universal.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2747/710/phosphor-1.12.2-0.2.6+build50-universal.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -13358,7 +13358,7 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1826278898,
+            "fingerprint": 3932390318,
             "type": 0
           },
           {
@@ -13368,12 +13368,12 @@
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 2209639326,
+            "fingerprint": 789403603,
             "type": 0
           },
           {
             "foldername": "me",
-            "fingerprint": 2845076774,
+            "fingerprint": 4283331785,
             "type": 0
           },
           {
@@ -13392,7 +13392,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 1809193914,
+        "packageFingerprint": 229203232,
         "gameVersion": [
           "1.12.2"
         ],
@@ -13404,11 +13404,11 @@
         "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
-        "FileNameOnDisk": "phosphor-1.12.2-0.2.5+build48-universal.jar"
+        "FileNameOnDisk": "phosphor-1.12.2-0.2.6+build50-universal.jar"
       },
       "dateInstalled": "2019-03-30T22:10:18.8853133Z",
-      "dateUpdated": "2019-07-22T22:28:41.8967588Z",
-      "dateLastUpdateAttempted": "2019-07-22T22:28:41.8967588Z",
+      "dateUpdated": "2019-07-24T22:00:36.995387Z",
+      "dateLastUpdateAttempted": "2019-07-24T22:00:36.995387Z",
       "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -14499,7 +14499,7 @@
       "dateInstalled": "2018-09-09T22:02:52.4933597Z",
       "dateUpdated": "2019-07-22T22:29:01.8568113Z",
       "dateLastUpdateAttempted": "2019-07-22T22:29:01.8568113Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -15667,7 +15667,7 @@
       "dateInstalled": "2018-08-20T10:28:31.1100325Z",
       "dateUpdated": "2019-07-22T22:28:35.5516544Z",
       "dateLastUpdateAttempted": "2019-07-22T22:28:35.5516544Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -20405,14 +20405,14 @@
       "addonID": 223794,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2652453,
-        "displayName": "appliedenergistics2-rv6-stable-6.jar",
-        "fileName": "appliedenergistics2-rv6-stable-6.jar",
-        "fileDate": "2018-12-25T23:40:02.66Z",
-        "fileLength": 4062132,
+        "id": 2747063,
+        "displayName": "appliedenergistics2-rv6-stable-7.jar",
+        "fileName": "appliedenergistics2-rv6-stable-7.jar",
+        "fileDate": "2019-07-23T19:19:12.153Z",
+        "fileLength": 4062630,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2652/453/appliedenergistics2-rv6-stable-6.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2747/63/appliedenergistics2-rv6-stable-7.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -20420,59 +20420,47 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3217099966,
-            "type": 3
+            "fingerprint": 1829397695,
+            "type": 0
           },
           {
             "foldername": "appeng",
-            "fingerprint": 765218384,
-            "type": 3
+            "fingerprint": 3294819869,
+            "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 333321442,
-            "type": 3
+            "fingerprint": 1197970359,
+            "type": 0
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 2467825020,
-            "type": 3
+            "fingerprint": 847802481,
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 2679328301,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 3164930968,
+        "packageFingerprint": 3112664858,
         "gameVersion": [
           "1.12.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000012.0000000002",
-            "gameVersion": "1.12.2",
-            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
-            "gameVersionName": "1.12.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1489220,
-        "projectId": 223794,
-        "packageFingerprintId": 282521503,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2017-09-18T05:00:00Z",
-        "gameVersionMappingId": 1720708,
-        "gameVersionId": 6756,
-        "gameId": 432,
-        "FileNameOnDisk": "appliedenergistics2-rv6-stable-6.jar"
+        "gameId": 0,
+        "FileNameOnDisk": "appliedenergistics2-rv6-stable-7.jar"
       },
       "dateInstalled": "2019-07-01T01:53:47.4743131Z",
-      "dateUpdated": "2018-07-01T01:53:47.4743131Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "dateUpdated": "2019-07-23T19:35:39.4575897Z",
+      "dateLastUpdateAttempted": "2019-07-23T19:35:39.4575897Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -24183,14 +24171,14 @@
       "addonID": 278493,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2728014,
-        "displayName": "Unlimited Chisel Works 0.2.2",
-        "fileName": "UnlimitedChiselWorks-0.2.2.jar",
-        "fileDate": "2019-06-22T09:13:47.453Z",
-        "fileLength": 102817,
+        "id": 2746990,
+        "displayName": "Unlimited Chisel Works 0.2.3",
+        "fileName": "UnlimitedChiselWorks-0.2.3.jar",
+        "fileDate": "2019-07-23T17:07:25.847Z",
+        "fileLength": 104448,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2728/14/UnlimitedChiselWorks-0.2.2.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2746/990/UnlimitedChiselWorks-0.2.3.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -24205,27 +24193,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3972446545,
+            "fingerprint": 3497821299,
             "type": 0
           },
           {
             "foldername": "pl",
-            "fingerprint": 1876259794,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 708929710,
-            "type": 0
-          },
-          {
-            "foldername": "licenses",
-            "fingerprint": 3036337807,
-            "type": 0
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 1537842203,
+            "fingerprint": 3799984811,
             "type": 0
           },
           {
@@ -24234,12 +24207,27 @@
             "type": 0
           },
           {
+            "foldername": "assets",
+            "fingerprint": 4022066453,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 670265557,
+            "type": 0
+          },
+          {
+            "foldername": "licenses",
+            "fingerprint": 3036337807,
+            "type": 0
+          },
+          {
             "foldername": "pack.mcmeta",
             "fingerprint": 3273911401,
             "type": 0
           }
         ],
-        "packageFingerprint": 721556972,
+        "packageFingerprint": 4270825833,
         "gameVersion": [
           "1.12.2"
         ],
@@ -24249,12 +24237,13 @@
         "restrictProjectFileAccess": 0,
         "projectStatus": 0,
         "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
-        "FileNameOnDisk": "UnlimitedChiselWorks-0.2.2.jar"
+        "FileNameOnDisk": "UnlimitedChiselWorks-0.2.3.jar"
       },
       "dateInstalled": "2019-05-26T21:24:15.8580812Z",
-      "dateUpdated": "2019-06-23T20:12:17.4781523Z",
-      "dateLastUpdateAttempted": "2019-06-23T20:12:17.4781523Z",
+      "dateUpdated": "2019-07-23T19:41:18.6730238Z",
+      "dateLastUpdateAttempted": "2019-07-23T19:41:18.6730238Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,

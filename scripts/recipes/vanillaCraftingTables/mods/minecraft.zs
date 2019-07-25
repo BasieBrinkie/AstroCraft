@@ -56,6 +56,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 
 		]
 	],
+	<minecraft:leaves:0>: [
+		[
+			[<thebetweenlands:fallen_leaves:0>, <thebetweenlands:fallen_leaves:0>, <thebetweenlands:fallen_leaves:0>],
+			[<thebetweenlands:fallen_leaves:0>, <thebetweenlands:fallen_leaves:0>, <thebetweenlands:fallen_leaves:0>]
+			[<thebetweenlands:fallen_leaves:0>, <thebetweenlands:fallen_leaves:0>, <thebetweenlands:fallen_leaves:0>]
+		]
+	],
 	<minecraft:lever:0>: [
 		[
 			[<ore:stickWood>],

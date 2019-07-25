@@ -7,7 +7,19 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-
+	<props:props:508>: [
+		[
+			[null, <ore:hammer>, null],
+			[<ore:stickWood>, <tconstruct:tooltables:0>, <ore:stickWood>]
+		]
+	],
+	<props:tool:0>: [
+		[
+			[<actuallyadditions:item_crystal_shard:0>],
+			[<minecraft:string:0>],
+			[<ore:stickWood>]
+		]
+	],
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
@@ -18,20 +30,7 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
     Mirrored Recipes.
     -----------------
 */
-static mirroredRecipes as IIngredient[][][][IItemStack] = {	
-	<chisel:chisel_iron>: [
-		[
-			[<ore:nuggetAluminum>, null],
-			[null, <actuallyadditions:item_crystal_shard:0>]
-		]
-	],
-	<chisel:chisel_diamond>: [
-		[
-			[<minecraft:diamond:0>, null],
-			[null, <actuallyadditions:item_crystal_shard:0>]
-		]
-	],
-
+static mirroredRecipes as IIngredient[][][][IItemStack] = {
 };
 
 static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
