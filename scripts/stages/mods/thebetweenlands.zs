@@ -9,8 +9,6 @@ import scripts.stages.register.stageProfessionsStage3;
 import scripts.stages.register.stageProfessionsStage4;
 import scripts.stages.register.stageProfessionsStage5;
 
-import scripts.stages.register.stageTank1;
-
 import scripts.stages.register.stageOxygen1;
 import scripts.stages.register.stageResources1;
 import scripts.stages.register.stageRocketBuilder;
@@ -26,18 +24,11 @@ import scripts.stages.register.stageDisabledItems;
 import scripts.stages.register.stageDecoration1Enable;
 
 static stagedItems as IIngredient[][string] = {
-	stageResources1.stage: [
-		<mekanism:sawdust:0>
-	],
-	stageRocketBuilder.stage: [
-		<mekanism:configurator:0>
-	],
 	stageOxygenExtractor.stage: [
-		<mekanism:shard:4>
+		<thebetweenlands:compost_block:0>,
+		<thebetweenlands:fallen_leaves:0>,
+		<thebetweenlands:item_misc:2>
 	],
-	stageTank1.stage: [
-		<mekanism:machineblock2:11>.withTag({tier: 0})
-	]
 };
 
 static disabledItems as IIngredient[] = [

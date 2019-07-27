@@ -65,6 +65,11 @@ static combustionAdd as int[IItemStack[]][IItemStack] = {
 		<thermalfoundation:material:197>]: 320,
 	},
 
+	//Oxygen Extractor
+	<skyresources:alchemyitemcomponent:1>: {[
+		<mekanism:shard:4>]: 240
+	},
+
 };
 
 /*	

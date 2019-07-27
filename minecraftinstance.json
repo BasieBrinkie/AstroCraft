@@ -29,7 +29,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2019-07-24T23:03:27.0406371Z",
+  "lastPlayed": "2019-07-26T18:31:25.4186302Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -6353,21 +6353,6 @@
       "fileSize": 14693
     },
     {
-      "folderName": "ResourceLoader-MC1.12.1-1.5.3.jar",
-      "fingerprint": 699442863,
-      "fileDateHash": 2882616237,
-      "sectionID": 8,
-      "individualFingerprints": [
-        699442863
-      ],
-      "status": 1,
-      "timestamp": "2019-07-15T13:51:45.9468615Z",
-      "lastWriteTimeUtc": "2018-08-27T10:12:21.091872Z",
-      "queryTimestamp": "2019-07-22T23:06:11.6678675Z",
-      "fileCount": 1,
-      "fileSize": 16612
-    },
-    {
       "folderName": "mekanica-1.12.2-1.2.0.jar",
       "fingerprint": 1089633965,
       "fileDateHash": 1285301298,
@@ -6381,6 +6366,21 @@
       "queryTimestamp": "2019-07-22T23:06:11.6678675Z",
       "fileCount": 1,
       "fileSize": 7826202
+    },
+    {
+      "folderName": "ResourceLoader-MC1.12.1-1.5.3.jar",
+      "fingerprint": 699442863,
+      "fileDateHash": 2882616237,
+      "sectionID": 8,
+      "individualFingerprints": [
+        699442863
+      ],
+      "status": 1,
+      "timestamp": "2019-07-15T13:51:45.9468615Z",
+      "lastWriteTimeUtc": "2018-08-27T10:12:21.091872Z",
+      "queryTimestamp": "2019-07-22T23:06:11.6678675Z",
+      "fileCount": 1,
+      "fileSize": 16612
     },
     {
       "folderName": "CraftTweaker2-1.12-4.1.17.jar",
@@ -6443,21 +6443,6 @@
       "fileSize": 981360
     },
     {
-      "folderName": "Customdebug_1.12_1.3.jar",
-      "fingerprint": 1767481845,
-      "fileDateHash": 2774135751,
-      "sectionID": 8,
-      "individualFingerprints": [
-        1767481845
-      ],
-      "status": 1,
-      "timestamp": "2019-07-15T13:51:35.4492204Z",
-      "lastWriteTimeUtc": "2019-06-05T23:09:42.8618694Z",
-      "queryTimestamp": "2019-07-22T23:06:11.6688666Z",
-      "fileCount": 1,
-      "fileSize": 19736
-    },
-    {
       "folderName": "Bookshelf-1.12.2-2.3.585.jar",
       "fingerprint": 332600218,
       "fileDateHash": 4010083569,
@@ -6471,6 +6456,21 @@
       "queryTimestamp": "2019-07-22T23:06:11.6698666Z",
       "fileCount": 1,
       "fileSize": 266512
+    },
+    {
+      "folderName": "Customdebug_1.12_1.3.jar",
+      "fingerprint": 1767481845,
+      "fileDateHash": 2774135751,
+      "sectionID": 8,
+      "individualFingerprints": [
+        1767481845
+      ],
+      "status": 1,
+      "timestamp": "2019-07-15T13:51:35.4492204Z",
+      "lastWriteTimeUtc": "2019-06-05T23:09:42.8618694Z",
+      "queryTimestamp": "2019-07-22T23:06:11.6688666Z",
+      "fileCount": 1,
+      "fileSize": 19736
     },
     {
       "folderName": "chickens-6.0.4.jar",
@@ -6488,21 +6488,6 @@
       "fileSize": 247347
     },
     {
-      "folderName": "Chunk Pregenerator V1.12-2.1.jar",
-      "fingerprint": 624642367,
-      "fileDateHash": 642631870,
-      "sectionID": 8,
-      "individualFingerprints": [
-        624642367
-      ],
-      "status": 1,
-      "timestamp": "2019-07-15T13:51:34.3775623Z",
-      "lastWriteTimeUtc": "2019-02-19T21:34:03.2659092Z",
-      "queryTimestamp": "2019-07-22T23:06:11.6698666Z",
-      "fileCount": 1,
-      "fileSize": 512843
-    },
-    {
       "folderName": "Avaritia-1.12.2-3.3.0.33-universal.jar",
       "fingerprint": 2271638472,
       "fileDateHash": 3613260380,
@@ -6516,6 +6501,21 @@
       "queryTimestamp": "2019-07-22T23:06:11.6698666Z",
       "fileCount": 1,
       "fileSize": 972581
+    },
+    {
+      "folderName": "Chunk Pregenerator V1.12-2.1.jar",
+      "fingerprint": 624642367,
+      "fileDateHash": 642631870,
+      "sectionID": 8,
+      "individualFingerprints": [
+        624642367
+      ],
+      "status": 1,
+      "timestamp": "2019-07-15T13:51:34.3775623Z",
+      "lastWriteTimeUtc": "2019-02-19T21:34:03.2659092Z",
+      "queryTimestamp": "2019-07-22T23:06:11.6698666Z",
+      "fileCount": 1,
+      "fileSize": 512843
     },
     {
       "folderName": "alib-1.0.9.jar",
@@ -6578,21 +6578,6 @@
       "fileSize": 126699
     },
     {
-      "folderName": "unloader-1.2.0.jar",
-      "fingerprint": 977612349,
-      "fileDateHash": 4292006016,
-      "sectionID": 8,
-      "individualFingerprints": [
-        977612349
-      ],
-      "status": 1,
-      "timestamp": "2019-07-15T13:51:49.5537071Z",
-      "lastWriteTimeUtc": "2019-03-17T18:51:24.3144202Z",
-      "queryTimestamp": "2019-07-22T23:06:11.671867Z",
-      "fileCount": 1,
-      "fileSize": 6396
-    },
-    {
       "folderName": "appliedenergistics2-rv6-stable-6.jar",
       "fingerprint": 3164930968,
       "fileDateHash": 607977100,
@@ -6606,6 +6591,21 @@
       "queryTimestamp": "2019-07-22T23:06:11.671867Z",
       "fileCount": 1,
       "fileSize": 4062132
+    },
+    {
+      "folderName": "unloader-1.2.0.jar",
+      "fingerprint": 977612349,
+      "fileDateHash": 4292006016,
+      "sectionID": 8,
+      "individualFingerprints": [
+        977612349
+      ],
+      "status": 1,
+      "timestamp": "2019-07-15T13:51:49.5537071Z",
+      "lastWriteTimeUtc": "2019-03-17T18:51:24.3144202Z",
+      "queryTimestamp": "2019-07-22T23:06:11.671867Z",
+      "fileCount": 1,
+      "fileSize": 6396
     },
     {
       "folderName": "MysticalAgradditions-1.12.2-1.3.2.jar",
@@ -8590,14 +8590,14 @@
       "addonID": 228404,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2737969,
+        "id": 2748483,
         "displayName": "ActuallyAdditions-1.12.2-r149.jar",
         "fileName": "ActuallyAdditions-1.12.2-r149.jar",
-        "fileDate": "2019-07-09T05:43:07.16Z",
-        "fileLength": 2938815,
+        "fileDate": "2019-07-25T23:16:02.29Z",
+        "fileLength": 2938988,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2737/969/ActuallyAdditions-1.12.2-r149.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2748/483/ActuallyAdditions-1.12.2-r149.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -8610,7 +8610,7 @@
           },
           {
             "foldername": "de",
-            "fingerprint": 3486953921,
+            "fingerprint": 2519577433,
             "type": 0
           },
           {
@@ -8629,7 +8629,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 4152885956,
+        "packageFingerprint": 2228470763,
         "gameVersion": [
           "1.12.2"
         ],
@@ -8644,9 +8644,9 @@
         "FileNameOnDisk": "ActuallyAdditions-1.12.2-r149.jar"
       },
       "dateInstalled": "2018-08-20T10:29:33.1738617Z",
-      "dateUpdated": "2019-07-09T20:36:29.9075678Z",
-      "dateLastUpdateAttempted": "2019-07-09T20:36:29.9075678Z",
-      "status": 5,
+      "dateUpdated": "2019-07-26T18:18:51.9532012Z",
+      "dateLastUpdateAttempted": "2019-07-26T18:18:51.9532012Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13409,7 +13409,7 @@
       "dateInstalled": "2019-03-30T22:10:18.8853133Z",
       "dateUpdated": "2019-07-24T22:00:36.995387Z",
       "dateLastUpdateAttempted": "2019-07-24T22:00:36.995387Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -15001,14 +15001,14 @@
       "addonID": 277631,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2624386,
-        "displayName": "Alpha 1.12-3.80",
-        "fileName": "architecturecraft-1.12-3.80.jar",
-        "fileDate": "2018-10-04T21:13:11.637Z",
-        "fileLength": 910239,
+        "id": 2747911,
+        "displayName": "Alpha 1.12-3.95",
+        "fileName": "architecturecraft-1.12-3.95.jar",
+        "fileDate": "2019-07-25T00:47:09.817Z",
+        "fileLength": 920876,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2624/386/architecturecraft-1.12-3.80.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2747/911/architecturecraft-1.12-3.95.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -15016,55 +15016,43 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1926435974,
-            "type": 3
+            "fingerprint": 2260832177,
+            "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 3108181243,
-            "type": 3
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 818318988,
-            "type": 3
+            "fingerprint": 4019136962,
+            "type": 0
           },
           {
             "foldername": "mcmod.info",
             "fingerprint": 3351180075,
-            "type": 3
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 818318988,
+            "type": 0
           }
         ],
-        "packageFingerprint": 535525317,
+        "packageFingerprint": 1208624645,
         "gameVersion": [
           "1.12.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000012.0000000002",
-            "gameVersion": "1.12.2",
-            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
-            "gameVersionName": "1.12.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1455616,
-        "projectId": 277631,
-        "packageFingerprintId": 268310658,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 1677423,
-        "gameVersionId": 4458,
-        "gameId": 432,
-        "FileNameOnDisk": "architecturecraft-1.12-3.80.jar"
+        "gameId": 0,
+        "FileNameOnDisk": "architecturecraft-1.12-3.95.jar"
       },
       "dateInstalled": "2019-07-01T01:53:47.440324Z",
-      "dateUpdated": "2018-07-01T01:53:47.440324Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
+      "dateUpdated": "2019-07-26T18:19:11.4225286Z",
+      "dateLastUpdateAttempted": "2019-07-26T18:19:11.4225286Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -16514,38 +16502,20 @@
       "addonID": 244844,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2740576,
-        "displayName": "ForgeEndertech-1.12.2-4.4.22.0-build.0384.jar",
-        "fileName": "ForgeEndertech-1.12.2-4.4.22.0-build.0384.jar",
-        "fileDate": "2019-07-13T14:07:29.047Z",
-        "fileLength": 886166,
+        "id": 2747975,
+        "displayName": "ForgeEndertech-1.12.2-4.4.22.1-build.0389.jar",
+        "fileName": "ForgeEndertech-1.12.2-4.4.22.1-build.0389.jar",
+        "fileDate": "2019-07-25T03:03:59.273Z",
+        "fileLength": 886356,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2740/576/ForgeEndertech-1.12.2-4.4.22.0-build.0384.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2747/975/ForgeEndertech-1.12.2-4.4.22.1-build.0389.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
             "id": 0,
-            "addonId": 305122,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
             "addonId": 272190,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 260925,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 269973,
             "type": 2,
             "fileId": 0
           },
@@ -16557,7 +16527,25 @@
           },
           {
             "id": 0,
-            "addonId": 322440,
+            "addonId": 260925,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 305122,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 244849,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 269973,
             "type": 2,
             "fileId": 0
           },
@@ -16569,7 +16557,7 @@
           },
           {
             "id": 0,
-            "addonId": 244849,
+            "addonId": 322440,
             "type": 2,
             "fileId": 0
           }
@@ -16578,12 +16566,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2352283076,
+            "fingerprint": 1888561675,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 4168080175,
+            "fingerprint": 1298776740,
             "type": 0
           },
           {
@@ -16593,16 +16581,16 @@
           },
           {
             "foldername": "CHANGELOG.md",
-            "fingerprint": 3474548720,
+            "fingerprint": 126292077,
             "type": 0
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 128306243,
+            "fingerprint": 3471010387,
             "type": 0
           }
         ],
-        "packageFingerprint": 4021329937,
+        "packageFingerprint": 4053738674,
         "gameVersion": [
           "1.12.2"
         ],
@@ -16614,12 +16602,12 @@
         "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
-        "FileNameOnDisk": "ForgeEndertech-1.12.2-4.4.22.0-build.0384.jar"
+        "FileNameOnDisk": "ForgeEndertech-1.12.2-4.4.22.1-build.0389.jar"
       },
       "dateInstalled": "2018-08-27T10:12:05.4318245Z",
-      "dateUpdated": "2019-07-14T18:39:25.5270367Z",
-      "dateLastUpdateAttempted": "2019-07-14T18:39:25.5270367Z",
-      "status": 5,
+      "dateUpdated": "2019-07-26T18:31:08.0516282Z",
+      "dateLastUpdateAttempted": "2019-07-26T18:31:08.0516282Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17245,16 +17233,16 @@
       "addonID": 289412,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2738432,
-        "displayName": "FTBQuests-1.7.2.187.jar",
-        "fileName": "FTBQuests-1.7.2.187.jar",
-        "fileDate": "2019-07-10T00:19:49.963Z",
-        "fileLength": 952561,
+        "id": 2747799,
+        "displayName": "FTBQuests-1.7.2.188.jar",
+        "fileName": "FTBQuests-1.7.2.188.jar",
+        "fileDate": "2019-07-24T21:16:51.397Z",
+        "fileLength": 953897,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2738/432/FTBQuests-1.7.2.187.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2747/799/FTBQuests-1.7.2.188.jar",
         "isAlternate": false,
-        "alternateFileId": 2738433,
+        "alternateFileId": 2747800,
         "dependencies": [
           {
             "id": 0,
@@ -17273,17 +17261,17 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1303918748,
+            "fingerprint": 2666103975,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 1281690753,
+            "fingerprint": 3694265253,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 1049094794,
+            "fingerprint": 4184687810,
             "type": 0
           },
           {
@@ -17293,11 +17281,11 @@
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 418071916,
+            "fingerprint": 1229133957,
             "type": 0
           }
         ],
-        "packageFingerprint": 1989803748,
+        "packageFingerprint": 4114047393,
         "gameVersion": [
           "1.12.2"
         ],
@@ -17309,11 +17297,91 @@
         "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
-        "FileNameOnDisk": "FTBQuests-1.7.2.187.jar"
+        "FileNameOnDisk": "FTBQuests-1.7.2.188.jar"
       },
       "dateInstalled": "2019-05-13T19:26:15.0359002Z",
-      "dateUpdated": "2019-07-10T21:32:19.9278553Z",
-      "dateLastUpdateAttempted": "2019-07-10T21:32:19.9278553Z",
+      "dateUpdated": "2019-07-26T18:31:12.6151793Z",
+      "dateLastUpdateAttempted": "2019-07-26T18:31:12.6151793Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 253211,
+      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
+      "installedFile": {
+        "id": 2684561,
+        "displayName": "MTLib-3.0.6",
+        "fileName": "MTLib-3.0.6.jar",
+        "fileDate": "2019-03-07T23:02:28.413Z",
+        "fileLength": 30002,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2684/561/MTLib-3.0.6.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 24228579,
+            "addonId": 239197,
+            "type": 3,
+            "fileId": 2684561
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3365396811,
+            "type": 3
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 2697108139,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 2935607937,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 396445966,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1528396,
+        "projectId": 253211,
+        "packageFingerprintId": 299049911,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 1768017,
+        "gameVersionId": 4458,
+        "gameId": 432,
+        "FileNameOnDisk": "MTLib-3.0.6.jar"
+      },
+      "dateInstalled": "2019-07-01T01:53:47.4263285Z",
+      "dateUpdated": "2018-07-01T01:53:47.4263285Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -17403,86 +17471,6 @@
       },
       "dateInstalled": "2019-07-01T01:53:47.4293276Z",
       "dateUpdated": "2018-07-01T01:53:47.4293276Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 253211,
-      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
-      "installedFile": {
-        "id": 2684561,
-        "displayName": "MTLib-3.0.6",
-        "fileName": "MTLib-3.0.6.jar",
-        "fileDate": "2019-03-07T23:02:28.413Z",
-        "fileLength": 30002,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2684/561/MTLib-3.0.6.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 24228579,
-            "addonId": 239197,
-            "type": 3,
-            "fileId": 2684561
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 3365396811,
-            "type": 3
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 2697108139,
-            "type": 3
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 2935607937,
-            "type": 3
-          }
-        ],
-        "packageFingerprint": 396445966,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000012.0000000002",
-            "gameVersion": "1.12.2",
-            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
-            "gameVersionName": "1.12.2"
-          }
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1528396,
-        "projectId": 253211,
-        "packageFingerprintId": 299049911,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 1768017,
-        "gameVersionId": 4458,
-        "gameId": 432,
-        "FileNameOnDisk": "MTLib-3.0.6.jar"
-      },
-      "dateInstalled": "2019-07-01T01:53:47.4263285Z",
-      "dateUpdated": "2018-07-01T01:53:47.4263285Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
@@ -17806,6 +17794,106 @@
       "installedTargets": null
     },
     {
+      "addonID": 247111,
+      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
+      "installedFile": {
+        "id": 2698796,
+        "displayName": "topaddons-1.12.2-1.11.0.jar",
+        "fileName": "topaddons-1.12.2-1.11.0.jar",
+        "fileDate": "2019-04-13T21:26:30.217Z",
+        "fileLength": 244342,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2698/796/topaddons-1.12.2-1.11.0.jar",
+        "isAlternate": false,
+        "alternateFileId": 2698797,
+        "dependencies": [
+          {
+            "id": 25280103,
+            "addonId": 245211,
+            "type": 3,
+            "fileId": 2698796
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2021150649,
+            "type": 3
+          },
+          {
+            "foldername": "io",
+            "fingerprint": 2465567597,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3449926384,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 2740156072,
+            "type": 3
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 2508079726,
+            "type": 3
+          },
+          {
+            "foldername": "topaddonslogo.png",
+            "fingerprint": 4209097068,
+            "type": 3
+          },
+          {
+            "foldername": "LICENSE",
+            "fingerprint": 697443232,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 3089378494,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1545131,
+        "projectId": 247111,
+        "packageFingerprintId": 307653573,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 1791099,
+        "gameVersionId": 4458,
+        "gameId": 432,
+        "FileNameOnDisk": "topaddons-1.12.2-1.11.0.jar"
+      },
+      "dateInstalled": "2019-07-01T01:53:47.4583183Z",
+      "dateUpdated": "2018-07-01T01:53:47.4583183Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 292785,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
@@ -17930,106 +18018,6 @@
       },
       "dateInstalled": "2019-07-01T01:53:47.4483215Z",
       "dateUpdated": "2018-07-01T01:53:47.4483215Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 247111,
-      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
-      "installedFile": {
-        "id": 2698796,
-        "displayName": "topaddons-1.12.2-1.11.0.jar",
-        "fileName": "topaddons-1.12.2-1.11.0.jar",
-        "fileDate": "2019-04-13T21:26:30.217Z",
-        "fileLength": 244342,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2698/796/topaddons-1.12.2-1.11.0.jar",
-        "isAlternate": false,
-        "alternateFileId": 2698797,
-        "dependencies": [
-          {
-            "id": 25280103,
-            "addonId": 245211,
-            "type": 3,
-            "fileId": 2698796
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2021150649,
-            "type": 3
-          },
-          {
-            "foldername": "io",
-            "fingerprint": 2465567597,
-            "type": 3
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 3449926384,
-            "type": 3
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 2740156072,
-            "type": 3
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 2508079726,
-            "type": 3
-          },
-          {
-            "foldername": "topaddonslogo.png",
-            "fingerprint": 4209097068,
-            "type": 3
-          },
-          {
-            "foldername": "LICENSE",
-            "fingerprint": 697443232,
-            "type": 3
-          }
-        ],
-        "packageFingerprint": 3089378494,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000012.0000000002",
-            "gameVersion": "1.12.2",
-            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
-            "gameVersionName": "1.12.2"
-          }
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1545131,
-        "projectId": 247111,
-        "packageFingerprintId": 307653573,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 1791099,
-        "gameVersionId": 4458,
-        "gameId": 432,
-        "FileNameOnDisk": "topaddons-1.12.2-1.11.0.jar"
-      },
-      "dateInstalled": "2019-07-01T01:53:47.4583183Z",
-      "dateUpdated": "2018-07-01T01:53:47.4583183Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
@@ -18370,72 +18358,6 @@
       "installedTargets": null
     },
     {
-      "addonID": 236541,
-      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
-      "installedFile": {
-        "id": 2741279,
-        "displayName": "LibVulpes 1.12.2-0.4.1-60-UNSTABLE build -60 for 1.12.2",
-        "fileName": "LibVulpes-1.12.2-0.4.1-60-universal.jar",
-        "fileDate": "2019-07-14T17:34:39.72Z",
-        "fileLength": 521211,
-        "releaseType": 3,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2741/279/LibVulpes-1.12.2-0.4.1-60-universal.jar",
-        "isAlternate": false,
-        "alternateFileId": 2741280,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 1365320177,
-            "type": 0
-          },
-          {
-            "foldername": "zmaster587",
-            "fingerprint": 452897206,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 3439937744,
-            "type": 0
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 2681301733,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 1317671495,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "FileNameOnDisk": "LibVulpes-1.12.2-0.4.1-60-universal.jar"
-      },
-      "dateInstalled": "2019-07-16T23:24:40.307617Z",
-      "dateUpdated": "2019-07-16T23:24:40.3146151Z",
-      "dateLastUpdateAttempted": "2019-07-16T23:24:40.3146151Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
       "addonID": 245453,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
@@ -18525,6 +18447,72 @@
       "dateInstalled": "2019-07-01T01:53:47.4633167Z",
       "dateUpdated": "2018-07-01T01:53:47.4633167Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 236541,
+      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
+      "installedFile": {
+        "id": 2741279,
+        "displayName": "LibVulpes 1.12.2-0.4.1-60-UNSTABLE build -60 for 1.12.2",
+        "fileName": "LibVulpes-1.12.2-0.4.1-60-universal.jar",
+        "fileDate": "2019-07-14T17:34:39.72Z",
+        "fileLength": 521211,
+        "releaseType": 3,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2741/279/LibVulpes-1.12.2-0.4.1-60-universal.jar",
+        "isAlternate": false,
+        "alternateFileId": 2741280,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1365320177,
+            "type": 0
+          },
+          {
+            "foldername": "zmaster587",
+            "fingerprint": 452897206,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3439937744,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 2681301733,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 1317671495,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "FileNameOnDisk": "LibVulpes-1.12.2-0.4.1-60-universal.jar"
+      },
+      "dateInstalled": "2019-07-16T23:24:40.307617Z",
+      "dateUpdated": "2019-07-16T23:24:40.3146151Z",
+      "dateLastUpdateAttempted": "2019-07-16T23:24:40.3146151Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -18791,53 +18779,80 @@
       "installedTargets": null
     },
     {
-      "addonID": 238222,
+      "addonID": 280554,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2682936,
-        "displayName": "jei_1.12.2-4.15.0.268.jar",
-        "fileName": "jei_1.12.2-4.15.0.268.jar",
-        "fileDate": "2019-03-03T22:32:47.17Z",
-        "fileLength": 647239,
+        "id": 2561297,
+        "displayName": "RecipeStages-1.1.1",
+        "fileName": "RecipeStages-1.1.1.jar",
+        "fileDate": "2018-05-12T16:20:31.967Z",
+        "fileLength": 42906,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2682/936/jei_1.12.2-4.15.0.268.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2561/297/RecipeStages-1.1.1.jar",
         "isAlternate": false,
         "alternateFileId": 0,
-        "dependencies": [],
+        "dependencies": [
+          {
+            "id": 16955674,
+            "addonId": 239197,
+            "type": 3,
+            "fileId": 2561297
+          },
+          {
+            "id": 16955675,
+            "addonId": 268655,
+            "type": 3,
+            "fileId": 2561297
+          }
+        ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 57471944,
+            "fingerprint": 3743801972,
             "type": 3
           },
           {
-            "foldername": "mezz",
-            "fingerprint": 165539291,
+            "foldername": "com",
+            "fingerprint": 1203780615,
             "type": 3
           },
           {
             "foldername": "assets",
-            "fingerprint": 1907260012,
-            "type": 3
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 1488642189,
+            "fingerprint": 4100133293,
             "type": 3
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 1886998053,
+            "fingerprint": 3197411401,
+            "type": 3
+          },
+          {
+            "foldername": "recipestages_at.cfg",
+            "fingerprint": 672544080,
             "type": 3
           }
         ],
-        "packageFingerprint": 1053776633,
+        "packageFingerprint": 1579334713,
         "gameVersion": [
+          "1.12",
+          "1.12.1",
           "1.12.2"
         ],
         "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012",
+            "gameVersion": "1.12",
+            "gameVersionReleaseDate": "2017-06-07T05:00:00Z",
+            "gameVersionName": "1.12"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000001",
+            "gameVersion": "1.12.1",
+            "gameVersionReleaseDate": "2017-08-03T05:00:00Z",
+            "gameVersionName": "1.12.1"
+          },
           {
             "gameVersionPadded": "0000000001.0000000012.0000000002",
             "gameVersion": "1.12.2",
@@ -18850,17 +18865,17 @@
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 1526404,
-        "projectId": 238222,
-        "packageFingerprintId": 298161156,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 1765883,
-        "gameVersionId": 4458,
+        "renderCacheId": 1382609,
+        "projectId": 280554,
+        "packageFingerprintId": 240807999,
+        "gameVersionDateReleased": "2017-06-07T05:00:00Z",
+        "gameVersionMappingId": 1581194,
+        "gameVersionId": 6580,
         "gameId": 432,
-        "FileNameOnDisk": "jei_1.12.2-4.15.0.268.jar"
+        "FileNameOnDisk": "RecipeStages-1.1.1.jar"
       },
-      "dateInstalled": "2019-07-01T01:53:47.4613179Z",
-      "dateUpdated": "2018-07-01T01:53:47.4613179Z",
+      "dateInstalled": "2019-07-01T01:53:47.4703148Z",
+      "dateUpdated": "2018-07-01T01:53:47.4703148Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
@@ -19006,80 +19021,53 @@
       "installedTargets": null
     },
     {
-      "addonID": 280554,
+      "addonID": 238222,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2561297,
-        "displayName": "RecipeStages-1.1.1",
-        "fileName": "RecipeStages-1.1.1.jar",
-        "fileDate": "2018-05-12T16:20:31.967Z",
-        "fileLength": 42906,
+        "id": 2682936,
+        "displayName": "jei_1.12.2-4.15.0.268.jar",
+        "fileName": "jei_1.12.2-4.15.0.268.jar",
+        "fileDate": "2019-03-03T22:32:47.17Z",
+        "fileLength": 647239,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2561/297/RecipeStages-1.1.1.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2682/936/jei_1.12.2-4.15.0.268.jar",
         "isAlternate": false,
         "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 16955674,
-            "addonId": 239197,
-            "type": 3,
-            "fileId": 2561297
-          },
-          {
-            "id": 16955675,
-            "addonId": 268655,
-            "type": 3,
-            "fileId": 2561297
-          }
-        ],
+        "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3743801972,
+            "fingerprint": 57471944,
             "type": 3
           },
           {
-            "foldername": "com",
-            "fingerprint": 1203780615,
+            "foldername": "mezz",
+            "fingerprint": 165539291,
             "type": 3
           },
           {
             "foldername": "assets",
-            "fingerprint": 4100133293,
+            "fingerprint": 1907260012,
+            "type": 3
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 1488642189,
             "type": 3
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 3197411401,
-            "type": 3
-          },
-          {
-            "foldername": "recipestages_at.cfg",
-            "fingerprint": 672544080,
+            "fingerprint": 1886998053,
             "type": 3
           }
         ],
-        "packageFingerprint": 1579334713,
+        "packageFingerprint": 1053776633,
         "gameVersion": [
-          "1.12",
-          "1.12.1",
           "1.12.2"
         ],
         "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000012",
-            "gameVersion": "1.12",
-            "gameVersionReleaseDate": "2017-06-07T05:00:00Z",
-            "gameVersionName": "1.12"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000012.0000000001",
-            "gameVersion": "1.12.1",
-            "gameVersionReleaseDate": "2017-08-03T05:00:00Z",
-            "gameVersionName": "1.12.1"
-          },
           {
             "gameVersionPadded": "0000000001.0000000012.0000000002",
             "gameVersion": "1.12.2",
@@ -19092,17 +19080,17 @@
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 1382609,
-        "projectId": 280554,
-        "packageFingerprintId": 240807999,
-        "gameVersionDateReleased": "2017-06-07T05:00:00Z",
-        "gameVersionMappingId": 1581194,
-        "gameVersionId": 6580,
+        "renderCacheId": 1526404,
+        "projectId": 238222,
+        "packageFingerprintId": 298161156,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 1765883,
+        "gameVersionId": 4458,
         "gameId": 432,
-        "FileNameOnDisk": "RecipeStages-1.1.1.jar"
+        "FileNameOnDisk": "jei_1.12.2-4.15.0.268.jar"
       },
-      "dateInstalled": "2019-07-01T01:53:47.4703148Z",
-      "dateUpdated": "2018-07-01T01:53:47.4703148Z",
+      "dateInstalled": "2019-07-01T01:53:47.4613179Z",
+      "dateUpdated": "2018-07-01T01:53:47.4613179Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
@@ -20473,6 +20461,76 @@
       "installedTargets": null
     },
     {
+      "addonID": 253874,
+      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
+      "installedFile": {
+        "id": 2727861,
+        "displayName": "Guidebook-1.12.2-2.9.2.jar",
+        "fileName": "Guidebook-1.12.2-2.9.2.jar",
+        "fileDate": "2019-06-21T23:34:14.817Z",
+        "fileLength": 248725,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2727/861/Guidebook-1.12.2-2.9.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3446027911,
+            "type": 0
+          },
+          {
+            "foldername": "gigaherz",
+            "fingerprint": 3986805996,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3895558624,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 1117911455,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3273911401,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 3174633892,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameId": 0,
+        "FileNameOnDisk": "Guidebook-1.12.2-2.9.2.jar"
+      },
+      "dateInstalled": "2018-09-27T14:46:10.5337317Z",
+      "dateUpdated": "2019-06-23T20:10:32.6107692Z",
+      "dateLastUpdateAttempted": "2019-06-23T20:10:32.6107692Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 307346,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
@@ -20581,100 +20639,30 @@
       "installedTargets": null
     },
     {
-      "addonID": 253874,
-      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
-      "installedFile": {
-        "id": 2727861,
-        "displayName": "Guidebook-1.12.2-2.9.2.jar",
-        "fileName": "Guidebook-1.12.2-2.9.2.jar",
-        "fileDate": "2019-06-21T23:34:14.817Z",
-        "fileLength": 248725,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2727/861/Guidebook-1.12.2-2.9.2.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 3446027911,
-            "type": 0
-          },
-          {
-            "foldername": "gigaherz",
-            "fingerprint": 3986805996,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 3895558624,
-            "type": 0
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 1117911455,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 3273911401,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 3174633892,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameId": 0,
-        "FileNameOnDisk": "Guidebook-1.12.2-2.9.2.jar"
-      },
-      "dateInstalled": "2018-09-27T14:46:10.5337317Z",
-      "dateUpdated": "2019-06-23T20:10:32.6107692Z",
-      "dateLastUpdateAttempted": "2019-06-23T20:10:32.6107692Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
       "addonID": 237167,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2739267,
-        "displayName": "FTBLib-5.4.3.129.jar",
-        "fileName": "FTBLib-5.4.3.129.jar",
-        "fileDate": "2019-07-11T08:39:29.26Z",
-        "fileLength": 915634,
+        "id": 2747793,
+        "displayName": "FTBLib-5.4.3.130.jar",
+        "fileName": "FTBLib-5.4.3.130.jar",
+        "fileDate": "2019-07-24T21:14:37.067Z",
+        "fileLength": 915679,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2739/267/FTBLib-5.4.3.129.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2747/793/FTBLib-5.4.3.130.jar",
         "isAlternate": false,
-        "alternateFileId": 2739268,
+        "alternateFileId": 2747794,
         "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3598782397,
+            "fingerprint": 3907336999,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 1973897393,
+            "fingerprint": 961581727,
             "type": 0
           },
           {
@@ -20689,11 +20677,11 @@
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 2762700054,
+            "fingerprint": 723834280,
             "type": 0
           }
         ],
-        "packageFingerprint": 2662350030,
+        "packageFingerprint": 3699627156,
         "gameVersion": [
           "1.12.2"
         ],
@@ -20705,87 +20693,12 @@
         "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
-        "FileNameOnDisk": "FTBLib-5.4.3.129.jar"
+        "FileNameOnDisk": "FTBLib-5.4.3.130.jar"
       },
       "dateInstalled": "2018-08-30T13:09:52.008588Z",
-      "dateUpdated": "2019-07-14T18:39:27.4334267Z",
-      "dateLastUpdateAttempted": "2019-07-14T18:39:27.4334267Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 298995,
-      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
-      "installedFile": {
-        "id": 2698172,
-        "displayName": "SCP Lockdown-1.12.2-2.1.1-beta.jar",
-        "fileName": "SCP Lockdown-1.12.2-2.1.1-beta.jar",
-        "fileDate": "2019-04-12T06:27:48.077Z",
-        "fileLength": 6466425,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2698/172/SCP Lockdown-1.12.2-2.1.1-beta.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2592678707,
-            "type": 0
-          },
-          {
-            "foldername": "alexiy",
-            "fingerprint": 2729204363,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 3272669936,
-            "type": 0
-          },
-          {
-            "foldername": "changelog.txt",
-            "fingerprint": 4003369813,
-            "type": 0
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 911459505,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 3720278957,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 1806297429,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameId": 0,
-        "FileNameOnDisk": "SCP Lockdown-1.12.2-2.1.1-beta.jar"
-      },
-      "dateInstalled": "2019-06-05T19:43:04.6962083Z",
-      "dateUpdated": "2019-06-05T19:43:04.7022063Z",
-      "dateLastUpdateAttempted": "2019-06-05T19:43:04.7022063Z",
-      "status": 5,
+      "dateUpdated": "2019-07-26T18:31:11.2846046Z",
+      "dateLastUpdateAttempted": "2019-07-26T18:31:11.2846046Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -20905,6 +20818,144 @@
       "installedTargets": null
     },
     {
+      "addonID": 298995,
+      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
+      "installedFile": {
+        "id": 2698172,
+        "displayName": "SCP Lockdown-1.12.2-2.1.1-beta.jar",
+        "fileName": "SCP Lockdown-1.12.2-2.1.1-beta.jar",
+        "fileDate": "2019-04-12T06:27:48.077Z",
+        "fileLength": 6466425,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2698/172/SCP Lockdown-1.12.2-2.1.1-beta.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2592678707,
+            "type": 0
+          },
+          {
+            "foldername": "alexiy",
+            "fingerprint": 2729204363,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3272669936,
+            "type": 0
+          },
+          {
+            "foldername": "changelog.txt",
+            "fingerprint": 4003369813,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 911459505,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3720278957,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 1806297429,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameId": 0,
+        "FileNameOnDisk": "SCP Lockdown-1.12.2-2.1.1-beta.jar"
+      },
+      "dateInstalled": "2019-06-05T19:43:04.6962083Z",
+      "dateUpdated": "2019-06-05T19:43:04.7022063Z",
+      "dateLastUpdateAttempted": "2019-06-05T19:43:04.7022063Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 293426,
+      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
+      "installedFile": {
+        "id": 2732741,
+        "displayName": "alib-1.0.11.jar",
+        "fileName": "alib-1.0.11.jar",
+        "fileDate": "2019-06-29T14:59:31.067Z",
+        "fileLength": 75227,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2732/741/alib-1.0.11.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 248453,
+            "type": 3,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2758866220,
+            "type": 0
+          },
+          {
+            "foldername": "al132",
+            "fingerprint": 3149941688,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 2723601910,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameId": 0,
+        "FileNameOnDisk": "alib-1.0.11.jar"
+      },
+      "dateInstalled": "2019-03-15T00:14:17.3451929Z",
+      "dateUpdated": "2019-06-30T21:10:48.640637Z",
+      "dateLastUpdateAttempted": "2019-06-30T21:10:48.640637Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 285628,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
@@ -20995,23 +21046,23 @@
       "installedTargets": null
     },
     {
-      "addonID": 293426,
+      "addonID": 246640,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2732741,
-        "displayName": "alib-1.0.11.jar",
-        "fileName": "alib-1.0.11.jar",
-        "fileDate": "2019-06-29T14:59:31.067Z",
-        "fileLength": 75227,
+        "id": 2704562,
+        "displayName": "MysticalAgriculture-1.12.2-1.7.5.jar",
+        "fileName": "MysticalAgriculture-1.12.2-1.7.5.jar",
+        "fileDate": "2019-04-28T00:58:23.31Z",
+        "fileLength": 1536124,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2732/741/alib-1.0.11.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2704/562/MysticalAgriculture-1.12.2-1.7.5.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
             "id": 0,
-            "addonId": 248453,
+            "addonId": 272335,
             "type": 3,
             "fileId": 0
           }
@@ -21019,17 +21070,27 @@
         "isAvailable": true,
         "modules": [
           {
-            "foldername": "META-INF",
-            "fingerprint": 2758866220,
+            "foldername": "assets",
+            "fingerprint": 1898012259,
             "type": 0
           },
           {
-            "foldername": "al132",
-            "fingerprint": 3149941688,
+            "foldername": "com",
+            "fingerprint": 2792896349,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 3301088284,
+            "type": 0
+          },
+          {
+            "foldername": "META-INF",
+            "fingerprint": 4024306704,
             "type": 0
           }
         ],
-        "packageFingerprint": 2723601910,
+        "packageFingerprint": 47304130,
         "gameVersion": [
           "1.12.2"
         ],
@@ -21039,13 +21100,12 @@
         "restrictProjectFileAccess": 0,
         "projectStatus": 0,
         "projectId": 0,
-        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
         "gameId": 0,
-        "FileNameOnDisk": "alib-1.0.11.jar"
+        "FileNameOnDisk": "MysticalAgriculture-1.12.2-1.7.5.jar"
       },
-      "dateInstalled": "2019-03-15T00:14:17.3451929Z",
-      "dateUpdated": "2019-06-30T21:10:48.640637Z",
-      "dateLastUpdateAttempted": "2019-06-30T21:10:48.640637Z",
+      "dateInstalled": "2018-08-20T10:34:24.8053473Z",
+      "dateUpdated": "2019-05-02T11:10:23.9069987Z",
+      "dateLastUpdateAttempted": "2019-05-02T11:10:23.9069987Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -21116,78 +21176,6 @@
       "dateInstalled": "2019-03-28T16:03:23.9603057Z",
       "dateUpdated": "2019-05-02T11:10:03.0699082Z",
       "dateLastUpdateAttempted": "2019-05-02T11:10:03.0699082Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 246640,
-      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
-      "installedFile": {
-        "id": 2704562,
-        "displayName": "MysticalAgriculture-1.12.2-1.7.5.jar",
-        "fileName": "MysticalAgriculture-1.12.2-1.7.5.jar",
-        "fileDate": "2019-04-28T00:58:23.31Z",
-        "fileLength": 1536124,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2704/562/MysticalAgriculture-1.12.2-1.7.5.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 0,
-            "addonId": 272335,
-            "type": 3,
-            "fileId": 0
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "assets",
-            "fingerprint": 1898012259,
-            "type": 0
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 2792896349,
-            "type": 0
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 3301088284,
-            "type": 0
-          },
-          {
-            "foldername": "META-INF",
-            "fingerprint": 4024306704,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 47304130,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameId": 0,
-        "FileNameOnDisk": "MysticalAgriculture-1.12.2-1.7.5.jar"
-      },
-      "dateInstalled": "2018-08-20T10:34:24.8053473Z",
-      "dateUpdated": "2019-05-02T11:10:23.9069987Z",
-      "dateLastUpdateAttempted": "2019-05-02T11:10:23.9069987Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -21841,80 +21829,6 @@
       "installedTargets": null
     },
     {
-      "addonID": 257815,
-      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
-      "installedFile": {
-        "id": 2737669,
-        "displayName": "OnlinePicFrame_v1.4.26_mc1.12.2.jar",
-        "fileName": "OnlinePicFrame_v1.4.26_mc1.12.2.jar",
-        "fileDate": "2019-07-08T17:58:49.03Z",
-        "fileLength": 79047,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2737/669/OnlinePicFrame_v1.4.26_mc1.12.2.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 0,
-            "addonId": 257814,
-            "type": 3,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 257818,
-            "type": 2,
-            "fileId": 0
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "assets",
-            "fingerprint": 3577287398,
-            "type": 0
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 4292929229,
-            "type": 0
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 1097408909,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 2335385084,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
-        "gameId": 0,
-        "FileNameOnDisk": "OnlinePicFrame_v1.4.26_mc1.12.2.jar"
-      },
-      "dateInstalled": "2019-07-01T01:53:47.4363253Z",
-      "dateUpdated": "2019-07-08T18:17:18.1043739Z",
-      "dateLastUpdateAttempted": "2019-07-08T18:17:18.1043739Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
       "addonID": 271740,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
@@ -21980,6 +21894,80 @@
       "dateInstalled": "2018-08-27T12:36:47.2923794Z",
       "dateUpdated": "2019-05-06T13:30:26.4262701Z",
       "dateLastUpdateAttempted": "2019-05-06T13:30:26.4262701Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 257815,
+      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
+      "installedFile": {
+        "id": 2737669,
+        "displayName": "OnlinePicFrame_v1.4.26_mc1.12.2.jar",
+        "fileName": "OnlinePicFrame_v1.4.26_mc1.12.2.jar",
+        "fileDate": "2019-07-08T17:58:49.03Z",
+        "fileLength": 79047,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2737/669/OnlinePicFrame_v1.4.26_mc1.12.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 257814,
+            "type": 3,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 257818,
+            "type": 2,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "assets",
+            "fingerprint": 3577287398,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 4292929229,
+            "type": 0
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 1097408909,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 2335385084,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameId": 0,
+        "FileNameOnDisk": "OnlinePicFrame_v1.4.26_mc1.12.2.jar"
+      },
+      "dateInstalled": "2019-07-01T01:53:47.4363253Z",
+      "dateUpdated": "2019-07-08T18:17:18.1043739Z",
+      "dateLastUpdateAttempted": "2019-07-08T18:17:18.1043739Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -22218,77 +22206,6 @@
       "installedTargets": null
     },
     {
-      "addonID": 232758,
-      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
-      "installedFile": {
-        "id": 2732736,
-        "displayName": "CyclopsCore-1.12.2-1.4.0.jar",
-        "fileName": "CyclopsCore-1.12.2-1.4.0.jar",
-        "fileDate": "2019-06-29T14:58:28.39Z",
-        "fileLength": 1039104,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2732/736/CyclopsCore-1.12.2-1.4.0.jar",
-        "isAlternate": false,
-        "alternateFileId": 2732737,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2259906611,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 1343902205,
-            "type": 0
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 1862259111,
-            "type": 0
-          },
-          {
-            "foldername": "org",
-            "fingerprint": 443510315,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 2761376034,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 250804210,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "FileNameOnDisk": "CyclopsCore-1.12.2-1.4.0.jar"
-      },
-      "dateInstalled": "2019-04-11T15:39:23.0647333Z",
-      "dateUpdated": "2019-06-30T21:12:11.3382331Z",
-      "dateLastUpdateAttempted": "2019-06-30T21:12:11.3382331Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
       "addonID": 286230,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
@@ -22350,6 +22267,77 @@
       "dateInstalled": "2019-07-01T01:53:47.4743131Z",
       "dateUpdated": "2018-07-01T01:53:47.4743131Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 232758,
+      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
+      "installedFile": {
+        "id": 2732736,
+        "displayName": "CyclopsCore-1.12.2-1.4.0.jar",
+        "fileName": "CyclopsCore-1.12.2-1.4.0.jar",
+        "fileDate": "2019-06-29T14:58:28.39Z",
+        "fileLength": 1039104,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2732/736/CyclopsCore-1.12.2-1.4.0.jar",
+        "isAlternate": false,
+        "alternateFileId": 2732737,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2259906611,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1343902205,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 1862259111,
+            "type": 0
+          },
+          {
+            "foldername": "org",
+            "fingerprint": 443510315,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 2761376034,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 250804210,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "FileNameOnDisk": "CyclopsCore-1.12.2-1.4.0.jar"
+      },
+      "dateInstalled": "2019-04-11T15:39:23.0647333Z",
+      "dateUpdated": "2019-06-30T21:12:11.3382331Z",
+      "dateLastUpdateAttempted": "2019-06-30T21:12:11.3382331Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -22621,79 +22609,6 @@
       "installedTargets": null
     },
     {
-      "addonID": 256717,
-      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
-      "installedFile": {
-        "id": 2666198,
-        "displayName": "Clumps-3.1.2",
-        "fileName": "Clumps-3.1.2.jar",
-        "fileDate": "2019-01-28T22:56:57.45Z",
-        "fileLength": 13792,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2666/198/Clumps-3.1.2.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 1241217930,
-            "type": 3
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 1263363311,
-            "type": 3
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 2536839976,
-            "type": 3
-          }
-        ],
-        "packageFingerprint": 1290884162,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000012.0000000002",
-            "gameVersion": "1.12.2",
-            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
-            "gameVersionName": "1.12.2"
-          }
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1505816,
-        "projectId": 256717,
-        "packageFingerprintId": 289935575,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 1742943,
-        "gameVersionId": 4458,
-        "gameId": 432,
-        "FileNameOnDisk": "Clumps-3.1.2.jar"
-      },
-      "dateInstalled": "2019-07-01T01:53:47.4753128Z",
-      "dateUpdated": "2018-07-01T01:53:47.4753128Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
       "addonID": 231095,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
@@ -22767,6 +22682,79 @@
       "dateInstalled": "2018-09-08T21:48:53.3860651Z",
       "dateUpdated": "2019-06-11T16:30:44.1176066Z",
       "dateLastUpdateAttempted": "2019-06-11T16:30:44.1176066Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 256717,
+      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
+      "installedFile": {
+        "id": 2666198,
+        "displayName": "Clumps-3.1.2",
+        "fileName": "Clumps-3.1.2.jar",
+        "fileDate": "2019-01-28T22:56:57.45Z",
+        "fileLength": 13792,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2666/198/Clumps-3.1.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1241217930,
+            "type": 3
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 1263363311,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 2536839976,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 1290884162,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1505816,
+        "projectId": 256717,
+        "packageFingerprintId": 289935575,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 1742943,
+        "gameVersionId": 4458,
+        "gameId": 432,
+        "FileNameOnDisk": "Clumps-3.1.2.jar"
+      },
+      "dateInstalled": "2019-07-01T01:53:47.4753128Z",
+      "dateUpdated": "2018-07-01T01:53:47.4753128Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -23076,6 +23064,183 @@
       "installedTargets": null
     },
     {
+      "addonID": 232791,
+      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
+      "installedFile": {
+        "id": 2432201,
+        "displayName": "itlt-1.12-1.0.0.jar",
+        "fileName": "itlt-1.12-1.0.0.jar",
+        "fileDate": "2017-06-11T10:43:50.793Z",
+        "fileLength": 14693,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2432/201/itlt-1.12-1.0.0.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2464251221,
+            "type": 3
+          },
+          {
+            "foldername": "dk",
+            "fingerprint": 1616508387,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 835461615,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 1280263856,
+        "gameVersion": [
+          "1.12",
+          "1.12.1",
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012",
+            "gameVersion": "1.12",
+            "gameVersionReleaseDate": "2017-06-07T05:00:00Z",
+            "gameVersionName": "1.12"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000001",
+            "gameVersion": "1.12.1",
+            "gameVersionReleaseDate": "2017-08-03T05:00:00Z",
+            "gameVersionName": "1.12.1"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": true,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 131344,
+        "projectId": 232791,
+        "packageFingerprintId": 181021030,
+        "gameVersionDateReleased": "2017-06-07T05:00:00Z",
+        "gameVersionMappingId": 1353289,
+        "gameVersionId": 6580,
+        "gameId": 432,
+        "FileNameOnDisk": "itlt-1.12-1.0.0.jar"
+      },
+      "dateInstalled": "2019-07-01T01:53:47.4713141Z",
+      "dateUpdated": "2018-07-01T01:53:47.4713141Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 79616,
+      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
+      "installedFile": {
+        "id": 2621015,
+        "displayName": "Decocraft-2.6.2_1.12.2.jar",
+        "fileName": "Decocraft-2.6.2_1.12.2.jar",
+        "fileDate": "2018-09-25T23:45:32.77Z",
+        "fileLength": 16304269,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2621/15/Decocraft-2.6.2_1.12.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 21477779,
+            "addonId": 291499,
+            "type": 3,
+            "fileId": 2621015
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3136263156,
+            "type": 3
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 1011728995,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 771302968,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 544873625,
+            "type": 3
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3273911401,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 2005757757,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1451707,
+        "projectId": 79616,
+        "packageFingerprintId": 266828070,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameVersionMappingId": 1671431,
+        "gameVersionId": 6756,
+        "gameId": 432,
+        "FileNameOnDisk": "Decocraft-2.6.2_1.12.2.jar"
+      },
+      "dateInstalled": "2019-07-01T01:53:47.4513205Z",
+      "dateUpdated": "2018-07-01T01:53:47.4513205Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 296289,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
@@ -23180,183 +23345,6 @@
       },
       "dateInstalled": "2019-07-01T01:53:47.4343259Z",
       "dateUpdated": "2018-07-01T01:53:47.4343259Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 79616,
-      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
-      "installedFile": {
-        "id": 2621015,
-        "displayName": "Decocraft-2.6.2_1.12.2.jar",
-        "fileName": "Decocraft-2.6.2_1.12.2.jar",
-        "fileDate": "2018-09-25T23:45:32.77Z",
-        "fileLength": 16304269,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2621/15/Decocraft-2.6.2_1.12.2.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 21477779,
-            "addonId": 291499,
-            "type": 3,
-            "fileId": 2621015
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 3136263156,
-            "type": 3
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 1011728995,
-            "type": 3
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 771302968,
-            "type": 3
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 544873625,
-            "type": 3
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 3273911401,
-            "type": 3
-          }
-        ],
-        "packageFingerprint": 2005757757,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000012.0000000002",
-            "gameVersion": "1.12.2",
-            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
-            "gameVersionName": "1.12.2"
-          }
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1451707,
-        "projectId": 79616,
-        "packageFingerprintId": 266828070,
-        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
-        "gameVersionMappingId": 1671431,
-        "gameVersionId": 6756,
-        "gameId": 432,
-        "FileNameOnDisk": "Decocraft-2.6.2_1.12.2.jar"
-      },
-      "dateInstalled": "2019-07-01T01:53:47.4513205Z",
-      "dateUpdated": "2018-07-01T01:53:47.4513205Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 232791,
-      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
-      "installedFile": {
-        "id": 2432201,
-        "displayName": "itlt-1.12-1.0.0.jar",
-        "fileName": "itlt-1.12-1.0.0.jar",
-        "fileDate": "2017-06-11T10:43:50.793Z",
-        "fileLength": 14693,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2432/201/itlt-1.12-1.0.0.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2464251221,
-            "type": 3
-          },
-          {
-            "foldername": "dk",
-            "fingerprint": 1616508387,
-            "type": 3
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 835461615,
-            "type": 3
-          }
-        ],
-        "packageFingerprint": 1280263856,
-        "gameVersion": [
-          "1.12",
-          "1.12.1",
-          "1.12.2"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000012",
-            "gameVersion": "1.12",
-            "gameVersionReleaseDate": "2017-06-07T05:00:00Z",
-            "gameVersionName": "1.12"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000012.0000000001",
-            "gameVersion": "1.12.1",
-            "gameVersionReleaseDate": "2017-08-03T05:00:00Z",
-            "gameVersionName": "1.12.1"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000012.0000000002",
-            "gameVersion": "1.12.2",
-            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
-            "gameVersionName": "1.12.2"
-          }
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": true,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 131344,
-        "projectId": 232791,
-        "packageFingerprintId": 181021030,
-        "gameVersionDateReleased": "2017-06-07T05:00:00Z",
-        "gameVersionMappingId": 1353289,
-        "gameVersionId": 6580,
-        "gameId": 432,
-        "FileNameOnDisk": "itlt-1.12-1.0.0.jar"
-      },
-      "dateInstalled": "2019-07-01T01:53:47.4713141Z",
-      "dateUpdated": "2018-07-01T01:53:47.4713141Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
@@ -23969,6 +23957,89 @@
       "installedTargets": null
     },
     {
+      "addonID": 74072,
+      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
+      "installedFile": {
+        "id": 2731543,
+        "displayName": "TConstruct-1.12.2-2.12.0.157.jar",
+        "fileName": "TConstruct-1.12.2-2.12.0.157.jar",
+        "fileDate": "2019-06-27T17:25:00.347Z",
+        "fileLength": 4004838,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2731/543/TConstruct-1.12.2-2.12.0.157.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 74924,
+            "type": 3,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1571435508,
+            "type": 0
+          },
+          {
+            "foldername": "slimeknights",
+            "fingerprint": 1330543430,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3034754873,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 219889385,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 1993418771,
+            "type": 0
+          },
+          {
+            "foldername": "logo.png",
+            "fingerprint": 3056415901,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 1498380413,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "FileNameOnDisk": "TConstruct-1.12.2-2.12.0.157.jar"
+      },
+      "dateInstalled": "2018-08-20T10:23:04.1599535Z",
+      "dateUpdated": "2019-06-27T19:42:58.7354867Z",
+      "dateLastUpdateAttempted": "2019-06-27T19:42:58.7354867Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 282947,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
@@ -24073,89 +24144,6 @@
       "dateInstalled": "2019-07-01T01:53:47.4523202Z",
       "dateUpdated": "2018-07-01T01:53:47.4523202Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 74072,
-      "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
-      "installedFile": {
-        "id": 2731543,
-        "displayName": "TConstruct-1.12.2-2.12.0.157.jar",
-        "fileName": "TConstruct-1.12.2-2.12.0.157.jar",
-        "fileDate": "2019-06-27T17:25:00.347Z",
-        "fileLength": 4004838,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2731/543/TConstruct-1.12.2-2.12.0.157.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 0,
-            "addonId": 74924,
-            "type": 3,
-            "fileId": 0
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 1571435508,
-            "type": 0
-          },
-          {
-            "foldername": "slimeknights",
-            "fingerprint": 1330543430,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 3034754873,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 219889385,
-            "type": 0
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 1993418771,
-            "type": 0
-          },
-          {
-            "foldername": "logo.png",
-            "fingerprint": 3056415901,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 1498380413,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "FileNameOnDisk": "TConstruct-1.12.2-2.12.0.157.jar"
-      },
-      "dateInstalled": "2018-08-20T10:23:04.1599535Z",
-      "dateUpdated": "2019-06-27T19:42:58.7354867Z",
-      "dateLastUpdateAttempted": "2019-06-27T19:42:58.7354867Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,

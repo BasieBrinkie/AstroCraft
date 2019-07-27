@@ -39,6 +39,10 @@ static tempererAdd as int[IItemStack][IItemStack] = {
 		<minecraft:redstone:0>: 120
 	},	
 
+	//Oxygen Extractor
+	<thebetweenlands:item_misc:2> * 2: {
+		<minecraft:leaves:0>: 45
+	}
 
 };
 

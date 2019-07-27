@@ -7,20 +7,13 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<mekanism:transmitter:1>.withTag({tier: 0}) * 4: [
+	<thebetweenlands:compost_block:0>: [
 		[
-			[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
-			[null, null, null],
-			[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]
+			[<thebetweenlands:item_misc:2>, <thebetweenlands:item_misc:2>, <thebetweenlands:item_misc:2>],
+			[<thebetweenlands:item_misc:2>, <thebetweenlands:item_misc:2>, <thebetweenlands:item_misc:2>],
+			[<thebetweenlands:item_misc:2>, <thebetweenlands:item_misc:2>, <thebetweenlands:item_misc:2>]
 		]
-	],
-	<mekanism:machineblock2:11>.withTag({tier: 0}): [
-		[
-			[<ore:stickAluminum>, <ore:plateIron>, <ore:stickAluminum>],
-			[<ore:stickAluminum>, <ore:glass>, <ore:stickAluminum>],
-			[<ore:stickAluminum>, <ore:plateIron>, <ore:stickAluminum>]
-		]
-	],
+	]
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
@@ -43,9 +36,6 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
     ------------------
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
-	<mekanism:configurator:0>: [
-		[<thermalfoundation:material:199>, <ore:stickAluminum>]
-	],
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
@@ -56,14 +46,11 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 	Furnace Recipes.
 	----------------
 */
-static furnaceRecipes as IIngredient[][IItemStack] = {
-	<mekanism:clump:3>: [<exnihilocreatio:item_ore_copper:1>]
-};
+static furnaceRecipes as IIngredient[][IItemStack] = {};
 
 
 function init() {
-	/* 	
-		----------------
+	/* 	----------------
 		Unnamed Recipes.
 		----------------
 	*/

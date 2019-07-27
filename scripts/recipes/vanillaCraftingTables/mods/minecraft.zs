@@ -59,7 +59,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<minecraft:leaves:0>: [
 		[
 			[<thebetweenlands:fallen_leaves:0>, <thebetweenlands:fallen_leaves:0>, <thebetweenlands:fallen_leaves:0>],
-			[<thebetweenlands:fallen_leaves:0>, <thebetweenlands:fallen_leaves:0>, <thebetweenlands:fallen_leaves:0>]
+			[<thebetweenlands:fallen_leaves:0>, <thebetweenlands:fallen_leaves:0>, <thebetweenlands:fallen_leaves:0>],
 			[<thebetweenlands:fallen_leaves:0>, <thebetweenlands:fallen_leaves:0>, <thebetweenlands:fallen_leaves:0>]
 		]
 	],
@@ -84,6 +84,12 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		[
 			[<minecraft:redstone_torch:0>, <minecraft:redstone:0>, <minecraft:redstone_torch:0>],
 			[<ore:stone>, <ore:stone>, <ore:stone>]
+		]
+	],
+	<minecraft:shears>: [
+		[
+			[null, <ore:ingotIron>],
+			[<ore:ingotIron>, null]
 		]
 	],
 	<minecraft:stone_axe>: [

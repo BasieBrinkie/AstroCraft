@@ -49,6 +49,9 @@ static stagedItems as IIngredient[][string] = {
 		<exnihilocreatio:crook_wood:*>,
 		<exnihilocreatio:item_material:4>,
 	],
+	stageOxygenExtractor.stage: [
+		<exnihilocreatio:item_mesh:3>,
+	],
 };
 
 static disabledItems as IIngredient[] = [

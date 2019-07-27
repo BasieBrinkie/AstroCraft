@@ -9,6 +9,8 @@ import scripts.stages.register.stageProfessionsStage3;
 import scripts.stages.register.stageProfessionsStage4;
 import scripts.stages.register.stageProfessionsStage5;
 
+import scripts.stages.register.stageTools1;
+
 import scripts.stages.register.stageOxygen1;
 import scripts.stages.register.stageResources1;
 import scripts.stages.register.stageRocketBuilder;
@@ -79,6 +81,10 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:pumpkin_pie:0>,
 		<minecraft:pumpkin_seeds:0>,
 		<minecraft:dye:2>,
+	],
+
+	stageTools1.stage: [
+		<minecraft:shears:*>
 	],
 
 	stageDecoration1Enable.stage: [

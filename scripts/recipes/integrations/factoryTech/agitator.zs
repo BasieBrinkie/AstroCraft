@@ -22,9 +22,16 @@ static agitatorAdd as IIngredient[ILiquidStack][ILiquidStack][ILiquidStack][IIte
 	}}},
 
 	//Oxygen Extractor
-	<minecraft:sapling:0>: {null: {
-		<liquid:lava> * 1000: {<liquid:nickel> * 1296: <minecraft:leaves:0>}
-	}}
+	<jurassicraft:plant_cells:0>: {<liquid:oxygen> * 250: {
+		<liquid:lava> * 1000: {<liquid:nickel> * 1296: <minecraft:leaves:0>
+	}}},
+	null: {<liquid:oxygen> * 1000: {
+		null: { null: <mekanism:shard:4>
+	}}},
+	null: {<liquid:oxygen> * 500: {
+		null: { null: <skyresources:alchemyitemcomponent:1>
+	}}},
+
 };
 
 static agitatorRemove as IItemStack[] = [

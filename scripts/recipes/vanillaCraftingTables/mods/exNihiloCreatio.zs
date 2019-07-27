@@ -45,6 +45,20 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:stickWood>, null, null]
 		]
 	],
+	<exnihilocreatio:item_mesh:1>: [
+		[
+			[<minecraft:string:0>, <minecraft:string:0>, <minecraft:string:0>],
+			[<minecraft:string:0>, <minecraft:string:0>, <minecraft:string:0>],
+			[<minecraft:string:0>, <minecraft:string:0>, <minecraft:string:0>]
+		]
+	],
+	<exnihilocreatio:item_mesh:3>: [
+		[
+			[<factorytech:machinepart:21>, <factorytech:machinepart:21>, <factorytech:machinepart:21>],
+			[<factorytech:machinepart:21>, <factorytech:machinepart:21>, <factorytech:machinepart:21>],
+			[<factorytech:machinepart:21>, <factorytech:machinepart:21>, <factorytech:machinepart:21>]
+		]
+	],
 	<exnihilocreatio:item_ore_copper:1>: [
 		[
 			[<exnihilocreatio:item_ore_copper:0>, <exnihilocreatio:item_ore_copper:0>],
