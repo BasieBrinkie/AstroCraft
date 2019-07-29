@@ -17,7 +17,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<mekanism:machineblock2:11>.withTag({tier: 0}): [
 		[
 			[<ore:stickAluminum>, <ore:plateIron>, <ore:stickAluminum>],
-			[<ore:stickAluminum>, <ore:glass>, <ore:stickAluminum>],
+			[<ore:stickAluminum>, <ore:blockGlass>, <ore:stickAluminum>],
 			[<ore:stickAluminum>, <ore:plateIron>, <ore:stickAluminum>]
 		]
 	],

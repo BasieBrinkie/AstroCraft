@@ -9,9 +9,9 @@ import crafttweaker.item.IIngredient;
 static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<thebetweenlands:compost_block:0>: [
 		[
-			[<thebetweenlands:item_misc:2>, <thebetweenlands:item_misc:2>, <thebetweenlands:item_misc:2>],
-			[<thebetweenlands:item_misc:2>, <thebetweenlands:item_misc:2>, <thebetweenlands:item_misc:2>],
-			[<thebetweenlands:item_misc:2>, <thebetweenlands:item_misc:2>, <thebetweenlands:item_misc:2>]
+			[<thebetweenlands:items_misc:2>, <thebetweenlands:items_misc:2>, <thebetweenlands:items_misc:2>],
+			[<thebetweenlands:items_misc:2>, <thebetweenlands:items_misc:2>, <thebetweenlands:items_misc:2>],
+			[<thebetweenlands:items_misc:2>, <thebetweenlands:items_misc:2>, <thebetweenlands:items_misc:2>]
 		]
 	]
 };

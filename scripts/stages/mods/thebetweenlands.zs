@@ -27,7 +27,7 @@ static stagedItems as IIngredient[][string] = {
 	stageOxygenExtractor.stage: [
 		<thebetweenlands:compost_block:0>,
 		<thebetweenlands:fallen_leaves:0>,
-		<thebetweenlands:item_misc:2>
+		<thebetweenlands:items_misc:2>
 	],
 };
 

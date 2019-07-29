@@ -2,35 +2,32 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 
-static agitatorAdd as IIngredient[ILiquidStack][ILiquidStack][ILiquidStack][IItemStack] = {
+static agitatorAdd as IIngredient[ILiquidStack][ILiquidStack][ILiquidStack[IItemStack]] = {
 	//Rocket Builder
-	<factorytech:circuit_intermediate:8>: {null: {
+	{<factorytech:circuit_intermediate:8>: null}: {
 		<liquid:iridium> * 100: {<liquid:nickel> * 250: <ore:dustLead>
-	}}},
+	}},
 
 	//Professions Stage 1
-	<exnihilocreatio:item_pebble:0> * 4: {<liquid:lava> * 720: {
+	{<exnihilocreatio:item_pebble:0> * 4: <liquid:lava> * 720}: {
 		null: {null: <minecraft:magma:0>
-	}}},
-	<nuclearcraft:radaway_slow:0>: {null : { 
+	}},
+	{<nuclearcraft:radaway_slow:0>: null}: { 
 		null: {<liquid:preheated_water> * 1000: <minecraft:redstone:0>
-	}}},
+	}},
 
 	//Farmer One
-	null: {<liquid:canolaoil> * 100: {
+	{null: <liquid:canolaoil> * 100}: {
 		null: {<liquid:preheated_water> * 100: <actuallyadditions:item_misc:13>
-	}}},
+	}},
 
 	//Oxygen Extractor
-	<jurassicraft:plant_cells:0>: {<liquid:oxygen> * 250: {
-		<liquid:lava> * 1000: {<liquid:nickel> * 1296: <minecraft:leaves:0>
-	}}},
-	null: {<liquid:oxygen> * 1000: {
+	{null: <liquid:oxygen> * 1000}: {
 		null: { null: <mekanism:shard:4>
-	}}},
-	null: {<liquid:oxygen> * 500: {
+	}},
+	{null: <liquid:oxygen> * 500}: {
 		null: { null: <skyresources:alchemyitemcomponent:1>
-	}}},
+	}},
 
 };
 

@@ -29,7 +29,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2019-07-26T18:31:25.4186302Z",
+  "lastPlayed": "2019-07-29T19:53:07.3636022Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -8646,7 +8646,7 @@
       "dateInstalled": "2018-08-20T10:29:33.1738617Z",
       "dateUpdated": "2019-07-26T18:18:51.9532012Z",
       "dateLastUpdateAttempted": "2019-07-26T18:18:51.9532012Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9844,14 +9844,14 @@
       "addonID": 270790,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2713714,
-        "displayName": "ModularMachinery-1.12.2-1.10.0.jar",
-        "fileName": "modularmachinery-1.12.2-1.10.0.jar",
-        "fileDate": "2019-05-20T18:30:54.99Z",
-        "fileLength": 654742,
+        "id": 2749555,
+        "displayName": "ModularMachinery-1.12.2-1.11.0.jar",
+        "fileName": "modularmachinery-1.12.2-1.11.0.jar",
+        "fileDate": "2019-07-27T18:29:06.54Z",
+        "fileLength": 683980,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2713/714/modularmachinery-1.12.2-1.10.0.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2749/555/modularmachinery-1.12.2-1.11.0.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -9859,26 +9859,26 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2723111113,
+            "fingerprint": 2347787206,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 833084559,
+            "fingerprint": 2475140385,
             "type": 0
           },
           {
             "foldername": "hellfirepvp",
-            "fingerprint": 2150249416,
+            "fingerprint": 1556574442,
             "type": 0
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 1404694884,
+            "fingerprint": 1079736299,
             "type": 0
           }
         ],
-        "packageFingerprint": 3728747585,
+        "packageFingerprint": 1134145631,
         "gameVersion": [
           "1.12.2"
         ],
@@ -9888,12 +9888,13 @@
         "restrictProjectFileAccess": 0,
         "projectStatus": 0,
         "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
-        "FileNameOnDisk": "modularmachinery-1.12.2-1.10.0.jar"
+        "FileNameOnDisk": "modularmachinery-1.12.2-1.11.0.jar"
       },
       "dateInstalled": "2018-08-24T20:42:25.3390097Z",
-      "dateUpdated": "2019-05-21T21:43:22.2736319Z",
-      "dateLastUpdateAttempted": "2019-05-21T21:43:22.2736319Z",
+      "dateUpdated": "2019-07-27T23:18:28.5266217Z",
+      "dateLastUpdateAttempted": "2019-07-27T23:18:28.5266217Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -10402,50 +10403,20 @@
       "addonID": 226254,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2742788,
-        "displayName": "NuclearCraft-2.17b-1.12.2",
-        "fileName": "NuclearCraft-2.17b-1.12.2.jar",
-        "fileDate": "2019-07-17T03:22:25.22Z",
-        "fileLength": 6679267,
+        "id": 2749843,
+        "displayName": "NuclearCraft-2.17c-1.12.2",
+        "fileName": "NuclearCraft-2.17c-1.12.2.jar",
+        "fileDate": "2019-07-28T02:34:57.617Z",
+        "fileLength": 6694193,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2742/788/NuclearCraft-2.17b-1.12.2.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2749/843/NuclearCraft-2.17c-1.12.2.jar",
         "isAlternate": false,
-        "alternateFileId": 2742789,
+        "alternateFileId": 2749845,
         "dependencies": [
           {
             "id": 0,
-            "addonId": 227083,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 223008,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 74072,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 69162,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
             "addonId": 287683,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 268560,
             "type": 2,
             "fileId": 0
           },
@@ -10469,7 +10440,43 @@
           },
           {
             "id": 0,
+            "addonId": 268560,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
             "addonId": 239197,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 74072,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 223008,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 226410,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 69162,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 227083,
             "type": 2,
             "fileId": 0
           }
@@ -10478,17 +10485,17 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2247771437,
+            "fingerprint": 681602216,
             "type": 0
           },
           {
             "foldername": "nc",
-            "fingerprint": 2916451304,
+            "fingerprint": 2334377267,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 3990526456,
+            "fingerprint": 1590807819,
             "type": 0
           },
           {
@@ -10498,7 +10505,7 @@
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 3729314574,
+            "fingerprint": 833155024,
             "type": 0
           },
           {
@@ -10507,7 +10514,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 342700505,
+        "packageFingerprint": 90141923,
         "gameVersion": [
           "1.12.2"
         ],
@@ -10519,12 +10526,12 @@
         "projectId": 0,
         "gameVersionDateReleased": "2017-09-18T05:00:00Z",
         "gameId": 0,
-        "FileNameOnDisk": "NuclearCraft-2.17b-1.12.2.jar"
+        "FileNameOnDisk": "NuclearCraft-2.17c-1.12.2.jar"
       },
       "dateInstalled": "2018-09-06T13:40:07.470669Z",
-      "dateUpdated": "2019-07-21T20:56:36.1732773Z",
-      "dateLastUpdateAttempted": "2019-07-21T20:56:36.1732773Z",
-      "status": 5,
+      "dateUpdated": "2019-07-29T19:51:09.2105483Z",
+      "dateLastUpdateAttempted": "2019-07-29T19:51:09.2105483Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12925,16 +12932,16 @@
       "addonID": 314904,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2716458,
-        "displayName": "FTBUtilitiesBackups-1.0.0.4.jar",
-        "fileName": "FTBUtilitiesBackups-1.0.0.4.jar",
-        "fileDate": "2019-05-27T14:31:48.39Z",
-        "fileLength": 42092,
+        "id": 2749104,
+        "displayName": "FTBUtilitiesBackups-1.0.0.5.jar",
+        "fileName": "FTBUtilitiesBackups-1.0.0.5.jar",
+        "fileDate": "2019-07-27T01:07:31.907Z",
+        "fileLength": 42104,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2716/458/FTBUtilitiesBackups-1.0.0.4.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2749/104/FTBUtilitiesBackups-1.0.0.5.jar",
         "isAlternate": false,
-        "alternateFileId": 2716459,
+        "alternateFileId": 2749105,
         "dependencies": [],
         "isAvailable": true,
         "modules": [
@@ -12950,7 +12957,7 @@
           },
           {
             "foldername": "assets",
-            "fingerprint": 2681097282,
+            "fingerprint": 2284000660,
             "type": 0
           },
           {
@@ -12960,11 +12967,11 @@
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 1144489633,
+            "fingerprint": 791809374,
             "type": 0
           }
         ],
-        "packageFingerprint": 3573654632,
+        "packageFingerprint": 2982510676,
         "gameVersion": [
           "1.12.2"
         ],
@@ -12974,12 +12981,13 @@
         "restrictProjectFileAccess": 0,
         "projectStatus": 0,
         "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
-        "FileNameOnDisk": "FTBUtilitiesBackups-1.0.0.4.jar"
+        "FileNameOnDisk": "FTBUtilitiesBackups-1.0.0.5.jar"
       },
       "dateInstalled": "2019-03-14T22:30:33.9687732Z",
-      "dateUpdated": "2019-05-27T16:43:50.0930299Z",
-      "dateLastUpdateAttempted": "2019-05-27T16:43:50.0930299Z",
+      "dateUpdated": "2019-07-27T23:18:03.9564745Z",
+      "dateLastUpdateAttempted": "2019-07-27T23:18:03.9564745Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -15001,14 +15009,14 @@
       "addonID": 277631,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2747911,
-        "displayName": "Alpha 1.12-3.95",
-        "fileName": "architecturecraft-1.12-3.95.jar",
-        "fileDate": "2019-07-25T00:47:09.817Z",
-        "fileLength": 920876,
+        "id": 2750633,
+        "displayName": "Alpha 1.12-3.98",
+        "fileName": "architecturecraft-1.12-3.98.jar",
+        "fileDate": "2019-07-29T04:48:50.383Z",
+        "fileLength": 921733,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2747/911/architecturecraft-1.12-3.95.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2750/633/architecturecraft-1.12-3.98.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -15021,7 +15029,7 @@
           },
           {
             "foldername": "com",
-            "fingerprint": 4019136962,
+            "fingerprint": 376484031,
             "type": 0
           },
           {
@@ -15035,8 +15043,10 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 1208624645,
+        "packageFingerprint": 946656900,
         "gameVersion": [
+          "1.12",
+          "1.12.1",
           "1.12.2"
         ],
         "hasInstallScript": false,
@@ -15047,11 +15057,11 @@
         "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
-        "FileNameOnDisk": "architecturecraft-1.12-3.95.jar"
+        "FileNameOnDisk": "architecturecraft-1.12-3.98.jar"
       },
       "dateInstalled": "2019-07-01T01:53:47.440324Z",
-      "dateUpdated": "2019-07-26T18:19:11.4225286Z",
-      "dateLastUpdateAttempted": "2019-07-26T18:19:11.4225286Z",
+      "dateUpdated": "2019-07-29T19:49:48.8040429Z",
+      "dateLastUpdateAttempted": "2019-07-29T19:49:48.8040429Z",
       "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -16607,7 +16617,7 @@
       "dateInstalled": "2018-08-27T10:12:05.4318245Z",
       "dateUpdated": "2019-07-26T18:31:08.0516282Z",
       "dateLastUpdateAttempted": "2019-07-26T18:31:08.0516282Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17302,7 +17312,7 @@
       "dateInstalled": "2019-05-13T19:26:15.0359002Z",
       "dateUpdated": "2019-07-26T18:31:12.6151793Z",
       "dateLastUpdateAttempted": "2019-07-26T18:31:12.6151793Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -18528,16 +18538,16 @@
       "addonID": 236542,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2743612,
-        "displayName": "AdvancedRocketry 1.12.2-1.6.0-160-UNSTABLE build -160 for 1.12.2",
-        "fileName": "AdvancedRocketry-1.12.2-1.6.0-160-universal.jar",
-        "fileDate": "2019-07-18T16:02:03.107Z",
-        "fileLength": 12583291,
+        "id": 2750376,
+        "displayName": "AdvancedRocketry 1.12.2-1.6.0-161-UNSTABLE build -161 for 1.12.2",
+        "fileName": "AdvancedRocketry-1.12.2-1.6.0-161-universal.jar",
+        "fileDate": "2019-07-28T20:00:55.48Z",
+        "fileLength": 12585895,
         "releaseType": 3,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2743/612/AdvancedRocketry-1.12.2-1.6.0-160-universal.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2750/376/AdvancedRocketry-1.12.2-1.6.0-161-universal.jar",
         "isAlternate": false,
-        "alternateFileId": 2743613,
+        "alternateFileId": 2750378,
         "dependencies": [
           {
             "id": 0,
@@ -18550,26 +18560,26 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 688359154,
+            "fingerprint": 1100840682,
             "type": 0
           },
           {
             "foldername": "zmaster587",
-            "fingerprint": 2015386378,
+            "fingerprint": 757990,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 2750588491,
+            "fingerprint": 1361147946,
             "type": 0
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 1423938309,
+            "fingerprint": 1075840614,
             "type": 0
           }
         ],
-        "packageFingerprint": 3164812385,
+        "packageFingerprint": 1425856662,
         "gameVersion": [
           "1.12.2"
         ],
@@ -18581,12 +18591,12 @@
         "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
-        "FileNameOnDisk": "AdvancedRocketry-1.12.2-1.6.0-160-universal.jar"
+        "FileNameOnDisk": "AdvancedRocketry-1.12.2-1.6.0-161-universal.jar"
       },
       "dateInstalled": "2018-09-06T13:40:07.4666702Z",
-      "dateUpdated": "2019-07-21T20:55:00.2662429Z",
-      "dateLastUpdateAttempted": "2019-07-21T20:55:00.2662429Z",
-      "status": 5,
+      "dateUpdated": "2019-07-29T19:49:26.3734839Z",
+      "dateLastUpdateAttempted": "2019-07-29T19:49:26.3734839Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -20534,23 +20544,17 @@
       "addonID": 307346,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2737423,
-        "displayName": "ResearchTable-0.9.0.jar",
-        "fileName": "ResearchTable-0.9.0.jar",
-        "fileDate": "2019-07-08T03:28:54.07Z",
-        "fileLength": 127385,
+        "id": 2750791,
+        "displayName": "ResearchTable-0.9.3.jar",
+        "fileName": "ResearchTable-0.9.3.jar",
+        "fileDate": "2019-07-29T12:41:21.98Z",
+        "fileLength": 129325,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2737/423/ResearchTable-0.9.0.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2750/791/ResearchTable-0.9.3.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
-          {
-            "id": 0,
-            "addonId": 286382,
-            "type": 2,
-            "fileId": 0
-          },
           {
             "id": 0,
             "addonId": 303657,
@@ -20559,13 +20563,13 @@
           },
           {
             "id": 0,
-            "addonId": 268655,
+            "addonId": 312141,
             "type": 2,
             "fileId": 0
           },
           {
             "id": 0,
-            "addonId": 312141,
+            "addonId": 239197,
             "type": 2,
             "fileId": 0
           },
@@ -20577,7 +20581,13 @@
           },
           {
             "id": 0,
-            "addonId": 239197,
+            "addonId": 286382,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 268655,
             "type": 2,
             "fileId": 0
           }
@@ -20586,22 +20596,22 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3477918630,
+            "fingerprint": 3373021578,
             "type": 0
           },
           {
             "foldername": "snownee",
-            "fingerprint": 243572255,
+            "fingerprint": 1581613019,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 2990760449,
+            "fingerprint": 3546664374,
             "type": 0
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 1931522051,
+            "fingerprint": 903082302,
             "type": 0
           },
           {
@@ -20610,7 +20620,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 756666252,
+        "packageFingerprint": 2282500674,
         "gameVersion": [
           "1.12.2"
         ],
@@ -20622,12 +20632,12 @@
         "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
-        "FileNameOnDisk": "ResearchTable-0.9.0.jar"
+        "FileNameOnDisk": "ResearchTable-0.9.3.jar"
       },
       "dateInstalled": "2018-11-28T21:44:57.5704793Z",
-      "dateUpdated": "2019-07-08T18:18:20.0452287Z",
-      "dateLastUpdateAttempted": "2019-07-08T18:18:20.0452287Z",
-      "status": 5,
+      "dateUpdated": "2019-07-29T19:51:20.4764877Z",
+      "dateLastUpdateAttempted": "2019-07-29T19:51:20.4764877Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -20698,7 +20708,7 @@
       "dateInstalled": "2018-08-30T13:09:52.008588Z",
       "dateUpdated": "2019-07-26T18:31:11.2846046Z",
       "dateLastUpdateAttempted": "2019-07-26T18:31:11.2846046Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -21766,14 +21776,14 @@
       "addonID": 257814,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2738762,
-        "displayName": "CreativeCore_v1.9.54_mc1.12.2.jar",
-        "fileName": "CreativeCore_v1.9.54_mc1.12.2.jar",
-        "fileDate": "2019-07-10T15:11:11.943Z",
-        "fileLength": 1128417,
+        "id": 2750961,
+        "displayName": "CreativeCore_v1.9.56_mc1.12.2.jar",
+        "fileName": "CreativeCore_v1.9.56_mc1.12.2.jar",
+        "fileDate": "2019-07-29T18:22:19.547Z",
+        "fileLength": 925543,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2738/762/CreativeCore_v1.9.54_mc1.12.2.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2750/961/CreativeCore_v1.9.56_mc1.12.2.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -21791,16 +21801,16 @@
           },
           {
             "foldername": "com",
-            "fingerprint": 4011356280,
+            "fingerprint": 2316727383,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 1191948081,
+            "fingerprint": 2386279131,
             "type": 0
           }
         ],
-        "packageFingerprint": 352616951,
+        "packageFingerprint": 3962020900,
         "gameVersion": [
           "1.12.2"
         ],
@@ -21812,12 +21822,12 @@
         "projectId": 0,
         "gameVersionDateReleased": "2017-09-18T05:00:00Z",
         "gameId": 0,
-        "FileNameOnDisk": "CreativeCore_v1.9.54_mc1.12.2.jar"
+        "FileNameOnDisk": "CreativeCore_v1.9.56_mc1.12.2.jar"
       },
       "dateInstalled": "2018-09-06T13:40:07.4686692Z",
-      "dateUpdated": "2019-07-10T21:32:14.7865002Z",
-      "dateLastUpdateAttempted": "2019-07-10T21:32:14.7865002Z",
-      "status": 5,
+      "dateUpdated": "2019-07-29T19:50:13.7706207Z",
+      "dateLastUpdateAttempted": "2019-07-29T19:50:13.7706207Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -22066,14 +22076,14 @@
       "addonID": 257818,
       "gameInstanceID": "961358db-0e6c-4ce7-8f5a-fc845f10e573",
       "installedFile": {
-        "id": 2741804,
-        "displayName": "LittleTiles_v1.5.0-pre150_mc1.12.2.jar",
-        "fileName": "LittleTiles_v1.5.0-pre150_mc1.12.2.jar",
-        "fileDate": "2019-07-15T14:30:36.557Z",
-        "fileLength": 1584419,
+        "id": 2750960,
+        "displayName": "LittleTiles_v1.5.0-pre152_mc1.12.2.jar",
+        "fileName": "LittleTiles_v1.5.0-pre152_mc1.12.2.jar",
+        "fileDate": "2019-07-29T18:22:07.173Z",
+        "fileLength": 1592190,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2741/804/LittleTiles_v1.5.0-pre150_mc1.12.2.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2750/960/LittleTiles_v1.5.0-pre152_mc1.12.2.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -22103,11 +22113,11 @@
           },
           {
             "foldername": "com",
-            "fingerprint": 2389954655,
+            "fingerprint": 15456323,
             "type": 0
           }
         ],
-        "packageFingerprint": 1655488907,
+        "packageFingerprint": 1195129156,
         "gameVersion": [
           "1.12.2"
         ],
@@ -22119,12 +22129,12 @@
         "projectId": 0,
         "gameVersionDateReleased": "2017-09-18T05:00:00Z",
         "gameId": 0,
-        "FileNameOnDisk": "LittleTiles_v1.5.0-pre150_mc1.12.2.jar"
+        "FileNameOnDisk": "LittleTiles_v1.5.0-pre152_mc1.12.2.jar"
       },
       "dateInstalled": "2019-07-01T01:53:47.4713141Z",
-      "dateUpdated": "2019-07-16T23:24:47.4053468Z",
-      "dateLastUpdateAttempted": "2019-07-16T23:24:47.4053468Z",
-      "status": 5,
+      "dateUpdated": "2019-07-29T19:50:50.0576215Z",
+      "dateLastUpdateAttempted": "2019-07-29T19:50:50.0576215Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,

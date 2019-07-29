@@ -6,6 +6,7 @@ static removeSeedDrops as IItemStack[] = [
 ];
 
 static newSeedList as WeightedItemStack[] = [
+	<minecraft:dye:15> % 44
 ];
 
 function init() {

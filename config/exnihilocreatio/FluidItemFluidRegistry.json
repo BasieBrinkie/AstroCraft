@@ -8,10 +8,5 @@
   	"inputFluid": "preheated_water",
   	"reactant": "nuclearcraft:uranium:10",
   	"output": "heavywater"
-  },
-  {
-  	"inputFluid": "canolaoil",
-  	"reactant": "minecraft:redstone",
-  	"output": "kerosene"
   }
 ]

@@ -1,4 +1,5 @@
 import crafttweaker.item.IIngredient;
+import crafttweaker.liquid.ILiquidStack;
 
 import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
@@ -22,7 +23,7 @@ import scripts.stages.register.stageNuclearPhysicist;
 import scripts.stages.register.stageDisabledItems;
 import scripts.stages.register.stageDecoration1Enable;
 
-static stagedItems as IIngredient[][string] = {
+static stagedLiquids as ILiquidStack[][string] = {
 	stageOxygen1.stage: [
 		<liquid:oxygen>
 	],
@@ -45,6 +46,6 @@ static disabledItems as IIngredient[] = [
 ];
 
 function init() {
-	stager.setStage(stagedItems);
+	stager.setLiquidStage(stagedLiquids);
 	stager.disable(disabledItems);
 }

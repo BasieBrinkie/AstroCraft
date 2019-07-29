@@ -3,6 +3,7 @@
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.mods.ILoadedMods;
 import crafttweaker.mods.IMod;
 
@@ -23,6 +24,19 @@ zenClass stager {
 	function setStage(map as IIngredient[][string]) {
 		for stageName, itemArray in map {
 			ZenStager.getStage(stageName).addIngredients(itemArray);
+		}
+	}
+
+	function setLiquidStage(map as ILiquidStack[][string]) {
+		for stageName, liquidArray in map {
+			ZenStager.getStage(stageName).addIngredients(liquidArray);
+			
+			for liquid in liquidArray {
+				if(liquid.name == "water" | liquid.name == "lava") {}
+				else {
+					ZenStager.getStage(stageName).addIngredient(<forge:bucketfilled>.withTag({FluidName: liquid.name, Amount: 1000}));
+				}
+			} 
 		}
 	}
 

@@ -45,6 +45,9 @@ static stagedItems as IIngredient[][string] = {
 		<skyresources:condenser:3>,
 		<skyresources:condenser:4>,
 		<skyresources:ironcuttingknife:0>,
+	],
+	stageFarmer1.stage: [
+		<skyresources:baseitemcomponent:4>
 	]
 };
 

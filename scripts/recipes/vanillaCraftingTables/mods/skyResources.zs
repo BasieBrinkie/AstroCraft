@@ -162,6 +162,9 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
     ------------------
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
+	<skyresources:baseitemcomponent:4> * 2: [
+			[<minecraft:dye:15> * 2, <actuallyadditions:item_crystal_shard:4>, <ore:flower>],
+	],
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {

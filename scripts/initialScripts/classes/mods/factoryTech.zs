@@ -8,12 +8,12 @@ zenClass facTech {
 	
 	zenConstructor() {}
 
-	function agitatorAdd(map as IIngredient[ILiquidStack][ILiquidStack][ILiquidStack][IItemStack]) {
-		for output, array in map {
-			for outputFluid, array2 in array {
-				for inputFluid, array3 in array2 {
-					for inputFluid2, inputIIngredient in array3 {
-						for input in inputIIngredient.itemArray {
+	function agitatorAdd(map as IIngredient[ILiquidStack][ILiquidStack][ILiquidStack[IItemStack]]) {
+		for outputArray, array in map {
+			for output, outputFluid in outputArray {
+				for inputFluid, array2 in array {
+					for inputFluid2, inputIngredient in array2 {
+						for input in inputIngredient.itemArray {
 							mods.factorytech.Agitator.addRecipe(inputFluid, inputFluid2, input, outputFluid, output);
 						}
 					}

@@ -9,6 +9,7 @@ import scripts.stages.register.stageProfessionsStage3;
 import scripts.stages.register.stageProfessionsStage4;
 import scripts.stages.register.stageProfessionsStage5;
 
+import scripts.stages.register.stageEmerald;
 import scripts.stages.register.stageTools1;
 
 import scripts.stages.register.stageOxygen1;
@@ -83,6 +84,9 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:dye:2>,
 	],
 
+	stageEmerald.stage: [
+		<minecraft:emerald:0>
+	],
 	stageTools1.stage: [
 		<minecraft:shears:*>
 	],
