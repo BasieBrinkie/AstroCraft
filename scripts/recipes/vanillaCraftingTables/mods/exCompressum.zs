@@ -20,6 +20,41 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<advancedrocketry:charcoallog:0>]
 		]
 	]*/
+	<excompressum:compressed_crook>: [
+		[	
+			[<exnihilocreatio:crook_iron>, <exnihilocreatio:crook_iron>],
+			[null, <exnihilocreatio:crook_iron>],
+			[null, <exnihilocreatio:crook_iron>]
+		]
+	],
+	<excompressum:compressed_hammer_diamond>: [
+		[
+			[<exnihilocreatio:hammer_diamond>, <exnihilocreatio:hammer_diamond>, <exnihilocreatio:hammer_diamond>],
+			[<exnihilocreatio:hammer_diamond>, null, <exnihilocreatio:hammer_diamond>],
+			[<exnihilocreatio:hammer_diamond>, <exnihilocreatio:hammer_diamond>, <exnihilocreatio:hammer_diamond>]
+		]
+	],
+	<excompressum:compressed_hammer_iron>: [
+		[
+			[<exnihilocreatio:hammer_iron>, <exnihilocreatio:hammer_iron>, <exnihilocreatio:hammer_iron>],
+			[<exnihilocreatio:hammer_iron>, null, <exnihilocreatio:hammer_iron>],
+			[<exnihilocreatio:hammer_iron>, <exnihilocreatio:hammer_iron>, <exnihilocreatio:hammer_iron>]
+		]
+	],
+	<excompressum:compressed_hammer_stone>: [
+		[
+			[<exnihilocreatio:hammer_stone>, <exnihilocreatio:hammer_stone>, <exnihilocreatio:hammer_stone>],
+			[<exnihilocreatio:hammer_stone>, null, <exnihilocreatio:hammer_stone>],
+			[<exnihilocreatio:hammer_stone>, <exnihilocreatio:hammer_stone>, <exnihilocreatio:hammer_stone>]
+		]
+	],
+	<excompressum:compressed_hammer_wood>: [
+		[
+			[<exnihilocreatio:hammer_wood>, <exnihilocreatio:hammer_wood>, <exnihilocreatio:hammer_wood>],
+			[<exnihilocreatio:hammer_wood>, null, <exnihilocreatio:hammer_wood>],
+			[<exnihilocreatio:hammer_wood>, <exnihilocreatio:hammer_wood>, <exnihilocreatio:hammer_wood>]
+		]
+	],
 	<excompressum:wooden_crucible>: [
 		[
 			[<ore:woodPlanksTier1>, null, <ore:woodPlanksTier1>],

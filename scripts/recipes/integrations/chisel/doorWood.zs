@@ -2,7 +2,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDictEntry;
 
 static chiselAdd as IOreDictEntry[][] = [
-	[<ore:wool>]
+	[<ore:doorWood>]
 ];
 
 function init() {

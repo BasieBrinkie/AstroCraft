@@ -15,6 +15,7 @@ import scripts.stages.register.stageRocketBuilder;
 import scripts.stages.register.stageOxygenExtractor;
 import scripts.stages.register.stageDecorator;
 import scripts.stages.register.stageFarmer1;
+import scripts.stages.register.stageMiner1;
 import scripts.stages.register.stageMoldMaker;
 import scripts.stages.register.stageAstronomer;
 import scripts.stages.register.stageBlackSmith;
@@ -26,7 +27,14 @@ import scripts.stages.register.stageDecoration1Enable;
 static stagedItems as IIngredient[][string] = {
 	stageOxygen1.stage: [
 		<excompressum:wooden_crucible:0>,
-	]
+	],
+
+	stageMiner1.stage: [
+		<excompressum:compressed_hammer_diamond:*>,
+		<excompressum:compressed_hammer_iron:*>,
+		<excompressum:compressed_hammer_stone:*>,
+		<excompressum:compressed_hammer_wood:*>,
+	],
 };
 
 static disabledItems as IIngredient[] = [

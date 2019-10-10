@@ -170,6 +170,10 @@ static createOredictsToOredict as IOreDictEntry[][IOreDictEntry] = {
 		<ore:woodPlanksTier2>,
 		<ore:woodPlanksTier3>
 	],
+	<ore:woodPlanksTier1To2>: [
+		<ore:woodPlanksTier1>,
+		<ore:woodPlanksTier2>
+	],
 	<ore:woodPlanksTier2To3>: [
 		<ore:woodPlanksTier2>,
 		<ore:woodPlanksTier3>

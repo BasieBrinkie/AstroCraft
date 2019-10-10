@@ -46,6 +46,8 @@ function initRecipes() {
 	scripts.recipes.vanillaCraftingTables.mods.appliedEnergistics2.init();
 	scripts.recipes.vanillaCraftingTables.mods.charcoalPit.init();
 	scripts.recipes.vanillaCraftingTables.mods.chisel.init();
+	scripts.recipes.vanillaCraftingTables.mods.chiselsAndBits.init();
+	scripts.recipes.vanillaCraftingTables.mods.decocraft.init();
 
 	scripts.recipes.vanillaCraftingTables.mods.exCompressum.init();
 	scripts.recipes.vanillaCraftingTables.mods.exNihiloCreatio.init();
@@ -56,11 +58,14 @@ function initRecipes() {
 	scripts.recipes.vanillaCraftingTables.mods.matterOverdrive.init();
 	scripts.recipes.vanillaCraftingTables.mods.mekanism.init();
 	scripts.recipes.vanillaCraftingTables.mods.minecraft.init();
-	scripts.recipes.vanillaCraftingTables.mods.pneumaticCraft.init();
 	scripts.recipes.vanillaCraftingTables.mods.nuclearCraft.init();
+	scripts.recipes.vanillaCraftingTables.mods.pneumaticCraft.init();
 	scripts.recipes.vanillaCraftingTables.mods.researchTable.init();
 	scripts.recipes.vanillaCraftingTables.mods.skyResources.init();
 	scripts.recipes.vanillaCraftingTables.mods.tConstruct.init();
+	scripts.recipes.vanillaCraftingTables.mods.theBetweenLands.init();
+	scripts.recipes.vanillaCraftingTables.mods.thermalFoundation.init();
+	scripts.recipes.vanillaCraftingTables.mods.xtones.init();
 
 	}
 }
@@ -79,7 +84,9 @@ function initIntegrations() {
 	scripts.recipes.integrations.charcoalPit.kiln.init();
 
 	scripts.recipes.integrations.chisel.mods.matterOverdrive.init();
-	//scripts.recipes.integrations.chisel.wool.init();
+	scripts.recipes.integrations.chisel.doorWood.init();
+	scripts.recipes.integrations.chisel.wood.init();
+	scripts.recipes.integrations.chisel.wool.init();
 
 	scripts.recipes.integrations.exNihiloCreatio.compost.init();
 	scripts.recipes.integrations.exNihiloCreatio.crook.init();
@@ -160,7 +167,9 @@ function initStages() {
 	scripts.stages.mods.tConstruct.init();
 	scripts.stages.mods.techGuns.init();
 	scripts.stages.mods.thaumcraft.init();
+	scripts.stages.mods.theBetweenLands.init();
 	scripts.stages.mods.thermalFoundation.init();
+	scripts.stages.mods.xtones.init();
 
 	scripts.stages.mobs.chickens.init();
 
@@ -179,6 +188,8 @@ function initOredict() {
 	scripts.oredict.metals.metalUranium.init();
 
 	scripts.oredict.coal.init();
+	scripts.oredict.doorWood.init();
+	scripts.oredict.flower.init();
 	scripts.oredict.food.init();
 	scripts.oredict.sand.init();
 	scripts.oredict.sticks.init();
@@ -189,6 +200,7 @@ function initOredict() {
 	scripts.oredict.wool.init();
 	
 	scripts.oredict.mods.betterQuesting.init();
+	scripts.oredict.mods.exNihiloCreatio.init();
 	scripts.oredict.mods.factoryTech.init();
 	scripts.oredict.mods.matterOverdrive.init();
 	scripts.oredict.mods.skyResources.init();
@@ -214,6 +226,7 @@ function initItemProperties() {
 	scripts.items.mods.appliedEnergistics2.init();
 	scripts.items.mods.exCompressum.init();
 	scripts.items.mods.factoryTech.init();
+	scripts.items.mods.mekanism.init();
 	scripts.items.mods.minecraft.init();
 	scripts.items.mods.mysticalAgriculture.init();
 	scripts.items.mods.skyResources.init();

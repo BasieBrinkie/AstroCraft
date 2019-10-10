@@ -9,8 +9,9 @@ import scripts.stages.register.stageProfessionsStage3;
 import scripts.stages.register.stageProfessionsStage4;
 import scripts.stages.register.stageProfessionsStage5;
 
+import scripts.stages.register.stageMiner1;
 import scripts.stages.register.stageEmerald;
-import scripts.stages.register.stageTools1;
+import scripts.stages.register.stageShears;
 
 import scripts.stages.register.stageOxygen1;
 import scripts.stages.register.stageResources1;
@@ -72,7 +73,7 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:redstone:0>,
 		<minecraft:redstone_torch:0>,
 		<minecraft:repeater:0>,
-		<minecraft:stonebrick:0>,
+		<minecraft:stonebrick:0>
 	],
 	stageFarmer1.stage: [
 		<minecraft:melon:0>,
@@ -81,13 +82,17 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:pumpkin:0>,
 		<minecraft:pumpkin_pie:0>,
 		<minecraft:pumpkin_seeds:0>,
-		<minecraft:dye:2>,
+		<minecraft:dye:2>
+	],
+	stageMiner1.stage: [
+		<minecraft:anvil:0>,
+		<minecraft:diamond_pickaxe:*>
 	],
 
 	stageEmerald.stage: [
 		<minecraft:emerald:0>
 	],
-	stageTools1.stage: [
+	stageShears.stage: [
 		<minecraft:shears:*>
 	],
 

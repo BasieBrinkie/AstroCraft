@@ -13,9 +13,9 @@ static unlocalizedNames as string[string] = {
 static itemTooltips as IFormattedText[][IFormattedText[]][string][IItemStack] = {
 	<alchemistry:obsidian_breaker>: {
 		"Emergency Pickaxe": {[
-			format.gray("In case of emergency this pickaxe will demolish Tier 1 Steel and Skystone"),
-			format.white("Left-click a block of Tier 1 Steel or Tritanium in order to tear it to shreds"),
-			format.yellow("Note it will consume the entire pickaxe at once")
+			format.gray("This pickaxe will demolish Tier 1 Steel"),
+			format.white("Left-click a block of Tier 1 Steel in order to tear it to shreds"),
+			format.yellow("Note: it will consume the pickaxe")
 			]: [null]
 		}		
 	}

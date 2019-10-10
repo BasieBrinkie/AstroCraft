@@ -172,6 +172,7 @@ key_key.anchor:35
 key_key.fuzzy:0
 key_key.connected_area:0
 key_key.rotate_mirror:0
+key_key.material_list:50
 key_mod.chiselsandbits.chiselmode.single:0
 key_mod.chiselsandbits.chiselmode.snap2:0
 key_mod.chiselsandbits.chiselmode.snap4:0
@@ -220,10 +221,6 @@ key_key.toggleVisible:0
 key_key.immersiveengineering.magnetEquip:31
 key_key.immersiveengineering.chemthrowerSwitch:0
 key_FpsReducer.key.guiOpen:207
-key_key.dragon_fireAttack:19
-key_key.dragon_strike:34
-key_key.dragon_down:45
-key_key.dragon_change_view:65
 key_invtweaks.key.sort:19
 key_key.rotateup:200
 key_key.rotatedown:208
@@ -234,9 +231,10 @@ key_key.little.mark:50
 key_key.little.config.item:46
 key_key.little.undo:44:CONTROL
 key_key.little.redo:21:CONTROL
-key_Mekanism Item Mode Switch:50
-key_Mekanism Armor Mode Switch:34
-key_Mekanism Feet Mode Switch:35
+key_mekanism.key.mode:50
+key_mekanism.key.armorMode:34
+key_mekanism.key.feetMode:35
+key_mekanism.key.voice:22
 key_key.nutrition:49
 key_key.clipboardPaste:210
 key_key.porterNextDestination:27
@@ -269,6 +267,7 @@ key_key.journeymap.zoom_out:12
 key_key.journeymap.minimap_type:26
 key_key.journeymap.minimap_preset:43
 key_key.journeymap.create_waypoint:48
+key_key.journeymap.toggle_waypoints:44
 key_key.journeymap.fullscreen_create_waypoint:48
 key_key.journeymap.fullscreen_chat_position:46
 key_key.journeymap.map_toggle_alt:36

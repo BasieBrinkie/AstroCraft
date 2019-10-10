@@ -1,8 +1,9 @@
 #priority 9500
 #modloaded nuclearcraft
+import crafttweaker.data.IData;
+import crafttweaker.entity.IEntityLivingBase;
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
-import crafttweaker.data.IData;
 import crafttweaker.liquid.ILiquidStack;
 
 zenClass nuclearCraft {
@@ -852,6 +853,32 @@ zenClass nuclearCraft {
 
 	function condenserRemoveAll() {
 		mods.nuclearcraft.condenser.removeAllRecipes();
+	}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	function radiationAddMutation(map as float[IIngredient][IIngredient]) {
+		for outputBlock, array in map {
+			for inputBlock, threshold in array {
+				mods.nuclearcraft.radiation.addBlockMutation(inputBlock, outputBlock, threshold);
+			}
+		}
+	}
+
+	function radiationImmunityStages(map as string[]) {
+		mods.nuclearcraft.radiation.setRadiationImmunityGameStages(true, map);
+	}
+
+	function radiationImmuneEntity(map as double[IEntityLivingBase]) {
+		for entity, radiation in map {
+			entity.setRadiation(radiation, true);
+		}
+	}
+
+	function radiationSetResistanceEntity(map as double[IEntityLivingBase]) {
+		for entity, radiationResistance in map {
+			entity.setRadiationResistance(radiationResistance);
+		}
 	}
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////

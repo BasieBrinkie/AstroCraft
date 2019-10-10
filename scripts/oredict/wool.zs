@@ -70,7 +70,9 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 		<minecraft:wool:12>,
 		<minecraft:wool:13>,
 		<minecraft:wool:14>,
-		<minecraft:wool:15>,
+		<minecraft:wool:15>
+	],
+	<ore:woolTier2>: [
 		<thermalfoundation:rockwool:0>,
 		<thermalfoundation:rockwool:1>,
 		<thermalfoundation:rockwool:2>,
@@ -87,7 +89,6 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 		<thermalfoundation:rockwool:13>,
 		<thermalfoundation:rockwool:14>,
 		<thermalfoundation:rockwool:15>
-
 	]
 };
 
@@ -112,6 +113,11 @@ static addItemsToOredict as IItemStack[][IOreDictEntry] = {
 	-------------------------------------------------
 */
 static addOredictsToOredict as IOreDictEntry[][IOreDictEntry] = {
+	<ore:woolTier1To2>: [
+		<ore:woolTier1>,
+		<ore:woolTier2>
+	]
+
 };
 
 /*	---------------------------

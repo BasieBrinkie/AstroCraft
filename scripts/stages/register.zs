@@ -46,7 +46,8 @@ static stageRocketBuilder as Stage = ZenStager.initStage("rocket_builder");
 static stageProfessionsStage1 as Stage = ZenStager.initStage("professions_one");
 
 static stageEmerald as Stage = ZenStager.initStage("emerald");
-static stageTools1 as Stage = ZenStager.initStage("tools_one");
+static stageCrook as Stage = ZenStager.initStage("crook");
+static stageShears as Stage = ZenStager.initStage("shears");
 static stageTank1 as Stage = ZenStager.initStage("tank_one");
 static stageResources2 as Stage = ZenStager.initStage("resources_two");
 

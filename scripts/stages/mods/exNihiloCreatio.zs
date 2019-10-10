@@ -9,12 +9,15 @@ import scripts.stages.register.stageProfessionsStage3;
 import scripts.stages.register.stageProfessionsStage4;
 import scripts.stages.register.stageProfessionsStage5;
 
+import scripts.stages.register.stageCrook;
+
 import scripts.stages.register.stageOxygen1;
 import scripts.stages.register.stageResources1;
 import scripts.stages.register.stageRocketBuilder;
 import scripts.stages.register.stageOxygenExtractor;
 import scripts.stages.register.stageDecorator;
 import scripts.stages.register.stageFarmer1;
+import scripts.stages.register.stageMiner1;
 import scripts.stages.register.stageMoldMaker;
 import scripts.stages.register.stageAstronomer;
 import scripts.stages.register.stageBlackSmith;
@@ -45,12 +48,19 @@ static stagedItems as IIngredient[][string] = {
 		<exnihilocreatio:item_ore_nickel:1>
 	],
 	stageFarmer1.stage: [
-		<exnihilocreatio:crook_iron:*>,
-		<exnihilocreatio:crook_wood:*>,
 		<exnihilocreatio:item_material:4>,
 	],
 	stageOxygenExtractor.stage: [
 		<exnihilocreatio:item_mesh:3>,
+	],
+	stageMiner1.stage: [
+		<exnihilocreatio:hammer_diamond:*>,
+		<exnihilocreatio:hammer_iron:*>
+	],
+
+	stageCrook.stage: [
+		<exnihilocreatio:crook_iron:*>,
+		<exnihilocreatio:crook_wood:*>,
 	],
 };
 
@@ -65,6 +75,7 @@ static disabledItems as IIngredient[] = [
 	<exnihilocreatio:crook_bone:0>,
 	<exnihilocreatio:crook_clay:0>,
 	<exnihilocreatio:crook_clay_uncooked:0>,
+	<exnihilocreatio:crook_diamond:0>,
 	<exnihilocreatio:crook_diorite:0>,
 	<exnihilocreatio:crook_gold:0>,
 	<exnihilocreatio:crook_granite:0>,

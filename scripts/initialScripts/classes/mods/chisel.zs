@@ -17,4 +17,14 @@ zenClass chisel {
 		}
 	}
 
+	function chiselAddTiered(map as IOreDictEntry[][IOreDictEntry]) {
+		for oredictEntryTier, oredictEntryArray in map {
+			for oredictEntryProduct in oredictEntryArray {
+				for item in oredictEntryTier.items {
+					mods.chisel.Carving.addVariation(oredictEntryProduct.name, item);
+				}
+			}
+		}
+	}
+
 }

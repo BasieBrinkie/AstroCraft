@@ -13,7 +13,6 @@ static cauldronRemove as IItemStack[] = [
 	<exnihilocreatio:item_ore_ardite:2>,
 	<exnihilocreatio:item_ore_cobalt:2>,
 	<factorytech:ore_dust:9>,
-	<iceandfire:sapphire_gem:0>,
 	<libvulpes:productdust:7>,
 	<mekanism:dirtydust:0>,
 	<mekanism:dirtydust:3>,

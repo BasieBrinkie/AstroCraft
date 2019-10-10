@@ -7,6 +7,13 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
+	<minecraft:anvil:0>: [
+		[
+			[<ore:blockSteel>, <ore:blockSteel>, <ore:blockSteel>],
+			[null, <ore:ingotIron>, null],
+			[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]
+		]
+	],
 	<minecraft:book:0>: [
 		[
 			[<tconstruct:materials:15>, <minecraft:paper:0>, <tconstruct:materials:15>],
@@ -46,6 +53,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <minecraft:redstone_torch:0>, null],
 			[<minecraft:redstone_torch:0>, <ore:plateCopper>, <minecraft:redstone_torch:0>],
 			[<ore:stone>, <ore:stone>, <ore:stone>]
+		]
+	],
+	<minecraft:diamond_pickaxe>: [
+		[
+			[<minecraft:diamond:0>, <minecraft:diamond:0>, <minecraft:diamond:0>],
+			[null, <ore:stickAluminum>, null],
+			[null, <ore:stickAluminum>, null]
 		]
 	],
 	<minecraft:furnace:0>: [

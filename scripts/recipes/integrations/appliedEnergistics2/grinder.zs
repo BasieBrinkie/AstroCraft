@@ -79,7 +79,6 @@ static grinderRemove as IItemStack[] = [
 	<factorytech:ore:0>,
 	<factorytech:ore:1>,
 	<icbmclassic:ingot:1>,
-	<iceandfire:silver_ingot:0>,
 	<immersiveengineering:metal:0>,
 	<immersiveengineering:metal:2>,
 	<immersiveengineering:metal:3>,
