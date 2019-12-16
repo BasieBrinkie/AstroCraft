@@ -36,7 +36,7 @@ static stagedItems as IIngredient[][string] = {
 	stageFarmer1.stage: [
 		<actuallyadditions:item_canola_seed:0>,
 		<actuallyadditions:item_crystal_shard:4>,
-		<actuallyadditions:item_misc:13>,
+		<actuallyadditions:item_misc:13>
 	],
 	stageDecorator.stage: [
 		<actuallyadditions:block_crystal_cluster_redstone:0>,

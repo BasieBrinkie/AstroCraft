@@ -42,6 +42,10 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
     ------------------
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
+	<props:clay:0>: [
+		[]
+	]
+
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {

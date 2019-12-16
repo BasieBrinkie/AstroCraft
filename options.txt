@@ -4,7 +4,7 @@ mouseSensitivity:0.5
 fov:0.0
 gamma:0.5
 saturation:0.0
-renderDistance:8
+renderDistance:10
 guiScale:2
 particles:0
 bobView:true
@@ -105,6 +105,7 @@ key_key.xu2.searchforitems:20
 key_key.ftbutilities.nbt:49:ALT
 key_key.ftbutilities.trash:211
 key_key.ftbquests.quests:41
+key_key.ftbmoney.shop:0
 key_key.open_menu:19
 key_key.moreoverlays.lightoverlay.desc:65
 key_key.moreoverlays.chunkbounds.desc:67
@@ -156,6 +157,7 @@ key_key.cofh.multimode:47
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.toggleCheatMode:0
+key_key.jei.toggleEditMode:0
 key_key.jei.showRecipe:19
 key_key.jei.showUses:22
 key_key.jei.recipeBack:14
@@ -164,7 +166,7 @@ key_key.jei.nextPage:209
 key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
 key_key.toggle_focus.desc:15
-key_Dive down:46
+key_Seamoth descend:46
 key_key.settings_menu:34
 key_key.range:19
 key_key.undo:22

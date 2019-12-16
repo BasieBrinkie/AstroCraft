@@ -24,7 +24,10 @@ static centrifugeAdd as bool[IIngredient][IItemStack[]] = {
 	[<minecraft:dye:2>, <exnihilocreatio:item_material:4>, <actuallyadditions:item_crystal_shard:4>]: { <minecraft:wheat:0>: true},
 
 	//Oxygen Extractor
-	[<mekanism:shard:4> * 2, <minecraft:sand:0>, null]: {<thebetweenlands:compost_block:0>: true}
+	[<mekanism:shard:4> * 2, <minecraft:sand:0>, null]: {<thebetweenlands:compost_block:0>: true},
+
+	//Decorator
+	[<props:clay:0> * 16, <props:clay:1> * 16, <props:clay:2> * 16]: {<minecraft:clay:0>: true}
 };
 
 /*	

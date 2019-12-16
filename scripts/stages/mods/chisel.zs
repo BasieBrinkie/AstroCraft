@@ -25,6 +25,8 @@ import scripts.stages.register.stageDecoration1Enable;
 
 static stagedItems as IIngredient[][string] = {
 	stageDecorator.stage: [
+		<chisel:chisel_iron>,
+		<chisel:chisel_diamond>,
 		<chisel:planks-oak:0>,
 		<chisel:planks-spruce:0>,
 		<chisel:planks-birch:0>,

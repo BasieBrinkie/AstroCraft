@@ -95,7 +95,9 @@ static stagedItems as IIngredient[][string] = {
 	stageShears.stage: [
 		<minecraft:shears:*>
 	],
-
+	stageDecorator.stage: [
+		<minecraft:clay:0>
+	],
 	stageDecoration1Enable.stage: [
 		<minecraft:planks:1>,
 		<minecraft:planks:2>,
