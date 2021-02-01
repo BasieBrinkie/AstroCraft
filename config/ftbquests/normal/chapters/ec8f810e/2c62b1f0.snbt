@@ -1,0 +1,11 @@
+{
+	x: 0.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "3eb42e27",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_furnace_solar"
+		}]
+	}]
+}

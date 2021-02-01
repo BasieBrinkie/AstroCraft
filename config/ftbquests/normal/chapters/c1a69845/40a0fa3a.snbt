@@ -1,0 +1,15 @@
+{
+	x: 5.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "172955e5",
+		type: "gamestage",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:diamond_pickaxe"
+		},
+		stage: "miner_one"
+	}]
+}

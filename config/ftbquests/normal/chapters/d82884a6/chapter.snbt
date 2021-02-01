@@ -1,0 +1,7 @@
+{
+	title: "Farmer II - Automation",
+	icon: "minecraft:wheat",
+	always_invisible: false,
+	group: -326139634,
+	default_quest_shape: ""
+}

@@ -1,0 +1,15 @@
+{
+	x: 11.0d,
+	y: 2.0d,
+	dependencies: [
+		"1b92988f",
+		"e82618d5"
+	],
+	tasks: [{
+		uid: "96ba0b23",
+		type: "item",
+		items: [{
+			item: "minecraft:book"
+		}]
+	}]
+}

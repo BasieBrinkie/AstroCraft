@@ -1,0 +1,24 @@
+{
+	title: "Tools",
+	x: 6.0d,
+	y: 0.0d,
+	description: "Let's make life easier by using tools",
+	text: [
+		"-JEI will always be your friend"
+	],
+	dependencies: [
+		"f4c715d5"
+	],
+	tasks: [{
+		uid: "316d1369",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:wooden_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

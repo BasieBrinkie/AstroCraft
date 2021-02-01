@@ -1,0 +1,14 @@
+{
+	x: 7.0d,
+	y: -3.0d,
+	dependencies: [
+		"e19c143d"
+	],
+	tasks: [{
+		uid: "2c66bb9b",
+		type: "item",
+		items: [{
+			item: "factorytech:machinepart 1 12"
+		}]
+	}]
+}

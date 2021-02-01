@@ -1,0 +1,14 @@
+{
+	x: 11.0d,
+	y: 1.0d,
+	dependencies: [
+		"bcfef164"
+	],
+	tasks: [{
+		uid: "dd1b41fd",
+		type: "item",
+		items: [{
+			item: "mekanism:sawdust"
+		}]
+	}]
+}

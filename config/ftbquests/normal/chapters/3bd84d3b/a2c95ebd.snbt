@@ -1,0 +1,17 @@
+{
+	x: 13.0d,
+	y: 0.0d,
+	shape: "gear",
+	dependencies: [
+		"64c3ec86",
+		"bc82f573",
+		"d24f7a48"
+	],
+	tasks: [{
+		uid: "15fd3aed",
+		type: "item",
+		items: [{
+			item: "researchtable:table"
+		}]
+	}]
+}

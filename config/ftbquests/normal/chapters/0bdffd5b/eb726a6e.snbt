@@ -1,0 +1,14 @@
+{
+	x: 1.0d,
+	y: 0.0d,
+	dependencies: [
+		"0bda5957"
+	],
+	tasks: [{
+		uid: "a29ee3a8",
+		type: "item",
+		items: [{
+			item: "factorytech:circuit_intermediate 1 3"
+		}]
+	}]
+}

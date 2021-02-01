@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	description: "Learn how to craft the basic machinery and materials. These items are the fundemental parts needed for lots of recipes.",
+	dependencies: [
+		"ca8a0ae1"
+	],
+	tasks: [{
+		uid: "e2ef0b0a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "skyresources:stonegrinder"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

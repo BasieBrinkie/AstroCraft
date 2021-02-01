@@ -2,7 +2,6 @@
 #modloaded nuclearcraft
 import crafttweaker.data.IData;
 import crafttweaker.entity.IEntityLivingBase;
-import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 
@@ -10,43 +9,13 @@ zenClass nuclearCraft {
 	
 	zenConstructor() {}
 
-	function manufactoryAddRecipe(map as double[double][double][IItemStack[]][IItemStack]) {
+	function manufactoryAddRecipe(map as double[double][double][IIngredient[]][IIngredient]) {
 		for outputItem, array1 in map {
-			for inputItem, array2 in array1 {
+			for inputItems, array2 in array1 {
 				for multiplierTime, array3 in array2 { 
 					for multiplierPower, radiationProcess in array3 {
-						mods.nuclearcraft.manufactory.addRecipe([inputItem, outputItem, multiplierTime, multiplierPower, radiationProcess]);
-					}
-				}
-			}
-		}
-	}
-
-	function manufactoryRemoveOutputRecipe(map as IItemStack[]) {
-		for outputItem in map {
-			mods.nuclearcraft.manufactory.removeRecipeWithOutput([outputItem]);
-		}
-	}
-
-	function manufactoryRemoveInputRecipe(map as IItemStack[]) {
-		for inputItem in map {
-			mods.nuclearcraft.manufactory.removeRecipeWithInput([inputItem]);
-		}
-	}
-
-	function manufactoryRemoveAll() {
-		mods.nuclearcraft.manufactory.removeAllRecipes();
-	}
-
-/////////////////////////////////////////////////////////////////////////////////////////////////
-
-	function isotopeSeparatorAddRecipe(map as double[double][double][IItemStack][IItemStack][IItemStack]) {
-		for inputItem, array1 in map {
-			for outputItem, array2 in array1 {
-				for outputItem2, array3 in array2 {
-					for multiplierTime, array4 in array3 { 
-						for multiplierPower, radiationProcess in array4 {
-							mods.nuclearcraft.isotope_separator.addRecipe([inputItem, outputItem, outputItem2, multiplierTime, multiplierPower, radiationProcess]);
+						for inputItem in inputItems {
+							mods.nuclearcraft.Manufactory.addRecipe(inputItem, outputItem, multiplierTime, multiplierPower, radiationProcess);
 						}
 					}
 				}
@@ -54,659 +23,101 @@ zenClass nuclearCraft {
 		}
 	}
 
-	function isotopeSeparatorRemoveOutputRecipe(map as IItemStack[IItemStack]) {
-		for outputItem, outputItem2 in map {
-			mods.nuclearcraft.isotope_separator.removeRecipeWithOutput([outputItem, outputItem2]);
+	function manufactoryRemoveOutputRecipe(map as IIngredient[]) {
+		for outputItem in map {
+			mods.nuclearcraft.Manufactory.removeRecipeWithOutput(outputItem);
 		}
 	}
 
-	function isotopeSeparatorRemoveInputRecipe(map as IItemStack[]) {
+	function manufactoryRemoveInputRecipe(map as IIngredient[]) {
 		for inputItem in map {
-			mods.nuclearcraft.isotope_separator.removeRecipeWithInput([inputItem]);
+			mods.nuclearcraft.Manufactory.removeRecipeWithInput(inputItem);
 		}
 	}
 
-	function isotopeRemoveAll() {
-		mods.nuclearcraft.isotope_separator.removeAllRecipes();
+	function manufactoryRemoveAll() {
+		mods.nuclearcraft.Manufactory.removeAllRecipes();
 	}
 
-//////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
 
-	function decayHastenerAddRecipe(map as double[double][double][IItemStack][IItemStack]) {
-		for outputItem, array1 in map {
-			for inputItem, array2 in array1 {
-				for multiplierTime, array3 in array2 {
-					for multiplierPower, radiationProcess in array3 { 
-						mods.nuclearcraft.decay_hastener.addRecipe([inputItem, outputItem, multiplierTime, multiplierPower, radiationProcess]);
+	function isotopeSeparatorAddRecipe(map as double[double][double][IIngredient][IIngredient][IIngredient]) {
+		for inputItem, array1 in map {
+			for outputItem, array2 in array1 {
+				for outputItem2, array3 in array2 {
+					for multiplierTime, array4 in array3 { 
+						for multiplierPower, radiationProcess in array4 {
+							mods.nuclearcraft.Separator.addRecipe(inputItem, outputItem, outputItem2, multiplierTime, multiplierPower, radiationProcess);
+						}
 					}
 				}
 			}
 		}
 	}
 
-	function decayHastenerRemoveOutputRecipe(map as IItemStack[IItemStack]) {
+	function isotopeSeparatorRemoveOutputRecipe(map as IIngredient[IIngredient]) {
 		for outputItem, outputItem2 in map {
-			mods.nuclearcraft.decay_hastener.removeRecipeWithOutput([outputItem, outputItem2]);
+			mods.nuclearcraft.Separator.removeRecipeWithOutput(outputItem, outputItem2);
 		}
 	}
 
-	function decayHastenerRemoveInputRecipe(map as IItemStack[]) {
+	function isotopeSeparatorRemoveInputRecipe(map as IIngredient[]) {
 		for inputItem in map {
-			mods.nuclearcraft.decay_hastener.removeRecipeWithInput([inputItem]);
+			mods.nuclearcraft.Separator.removeRecipeWithInput(inputItem);
+		}
+	}
+
+	function isotopeRemoveAll() {
+		mods.nuclearcraft.Separator.removeAllRecipes();
+	}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+	function decayHastenerAddRecipe(map as double[double][double][IIngredient][IIngredient]) {
+		for outputItem, array1 in map {
+			for inputItem, array2 in array1 {
+				for multiplierTime, array3 in array2 {
+					for multiplierPower, radiationProcess in array3 { 
+						mods.nuclearcraft.DecayHastener.addRecipe(inputItem, outputItem, multiplierTime, multiplierPower, radiationProcess);
+					}
+				}
+			}
+		}
+	}
+
+	function decayHastenerRemoveOutputRecipe(map as IIngredient[]) {
+		for outputItem in map {
+			mods.nuclearcraft.DecayHastener.removeRecipeWithOutput(outputItem);
+		}
+	}
+
+	function decayHastenerRemoveInputRecipe(map as IIngredient[]) {
+		for inputItem in map {
+			mods.nuclearcraft.DecayHastener.removeRecipeWithInput(inputItem);
 		}
 	}
 
 	function decayHastenerRemoveAll() {
-		mods.nuclearcraft.decay_hastener.removeAllRecipes();
+		mods.nuclearcraft.DecayHastener.removeAllRecipes();
 	}
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
-	function fuelReprocessorAddRecipe(map as double[double][double][IItemStack][IItemStack][IItemStack][IItemStack][IItemStack]) {
+	function fuelReprocessorAddRecipe(map as double[double][double][IIngredient][IIngredient][IIngredient][IIngredient][IIngredient][IIngredient][IIngredient][IIngredient][IIngredient]) {
 		for inputItem, array1 in map {
 			for outputItem, array2 in array1 {
 				for outputItem2, array3 in array2 {
 					for outputItem3, array4 in array3 {
 						for outputItem4, array5 in array4 {
-							for multiplierTime, array6 in array5 { 
-								for multiplierPower, radiationProcess in array6 {
-									mods.nuclearcraft.fuel_reprocessor.addRecipe([inputItem, outputItem, outputItem2, outputItem3, outputItem4, multiplierTime, multiplierPower, radiationProcess]);
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-
-	function fuelReprocessorRemoveOutputRecipe(map as IItemStack[IItemStack][IItemStack][IItemStack]) {
-		for outputItem, array1 in map {
-			for outputItem2, array2 in array1 {
-				for outputItem3, outputItem4 in array2 {
-					mods.nuclearcraft.fuel_reprocessor.removeRecipeWithOutput([outputItem, outputItem2, outputItem3, outputItem4]);
-				}
-			}
-		}
-	}
-
-	function fuelReprocessorRemoveInputRecipe(map as IItemStack[]) {
-		for inputItem in map {
-			mods.nuclearcraft.fuel_reprocessor.removeRecipeWithInput([inputItem]);
-		}
-	}
-
-	function fuelReprocessorRemoveAll() {
-		mods.nuclearcraft.fuel_reprocessor.removeAllRecipes();
-	}
-
-//////////////////////////////////////////////////////////////////////////////////////////////////	
-
-	function alloyFurnaceAddRecipe(map as double[double][double][IItemStack][IItemStack][IItemStack]) {
-		for inputItem, array1 in map {
-			for inputItem2, array2 in array1 {
-				for outputItem, array3 in array2 {
-					for multiplierTime, array4 in array3 { 
-						for multiplierPower, radiationProcess in array4 {
-							mods.nuclearcraft.alloy_furnace.addRecipe([inputItem, inputItem2, outputItem, multiplierTime, multiplierPower, radiationProcess]);
-						}
-					}
-				}
-			}
-		}
-	}
-
-	function alloyFurnaceRemoveInputRecipe(map as IItemStack[IItemStack]) {
-		for inputItem, inputItem2 in map {
-			mods.nuclearcraft.alloy_furnace.removeRecipeWithInput([inputItem, inputItem2]);
-		}
-	}
-
-	function alloyFurnaceRemoveOutputRecipe(map as IItemStack[]) {
-		for outputItem in map {
-			mods.nuclearcraft.alloy_furnace.removeRecipeWithOutput([outputItem]);
-		}
-	}
-
-	function alloyFurnaceRemoveAll() {
-		mods.nuclearcraft.alloy_furnace.removeAllRecipes();
-	}
-
-//////////////////////////////////////////////////////////////////////////////////////////////////
-
-	function infuserAddRecipe(map as double[double][double][IIngredient][IItemStack][IItemStack]) {
-		for outputItem, array1 in map {
-			for inputItem, array2 in array1 {
-				for inputFluid, array3 in array2 {
-					for multiplierTime, array4 in array3 {
-						for multiplierPower, radiationProcess in array4 {
-							mods.nuclearcraft.infuser.addRecipe([inputItem, inputFluid, outputItem, multiplierTime, multiplierPower, radiationProcess]);
-						}
-					}
-				}
-			}
-		}
-	}
-
-	function infuserRemoveInputRecipe(map as IItemStack[IItemStack]) {
-		for inputItem, inputItem2 in map {
-			mods.nuclearcraft.infuser.removeRecipeWithInput([inputItem, inputItem2]);
-		}
-	}
-
-	function infuserRemoveOutputRecipe(map as IItemStack[]) {
-		for outputItem in map {
-			mods.nuclearcraft.infuser.removeRecipeWithOutput([outputItem]);
-		}
-	}
-
-	function infuserRemoveAll() {
-		mods.nuclearcraft.infuser.removeAllRecipes();
-	}
-
-//////////////////////////////////////////////////////////////////////////////////////////////////
-
-	function melterAddRecipe(map as double[double][double][IIngredient][IItemStack]) {
-		for outputFluid, array1 in map {
-			for inputItem, array2 in array1 {
-				for multiplierTime, array3 in array2 {
-					for multiplierPower, radiationProcess in array3 {
-						mods.nuclearcraft.melter.addRecipe([inputItem, outputFluid, multiplierTime, multiplierPower, radiationProcess]);
-					}
-				}
-			}
-		}
-	}
-
-	function melterRemoveInputRecipe(map as IItemStack[]) {
-		for inputItem in map {
-			mods.nuclearcraft.melter.removeRecipeWithInput([inputItem]);
-		}
-	}
-
-	function melterRemoveOutputRecipe(map as IIngredient[]) {
-		for outputFluid in map {
-			mods.nuclearcraft.melter.removeRecipeWithOutput([outputFluid]);
-		}
-	}
-
-	function melterRemoveAll() {
-		mods.nuclearcraft.melter.removeAllRecipes();
-	}
-
-///////////////////////////////////////////////////////////////////////////////////////////////////
-
-	function supercoolerAddRecipe(map as double[double][double][IIngredient][IIngredient]) {
-		for outputFluid, array1 in map {
-			for inputFluid, array2 in array1 {
-				for multiplierTime, array3 in array2 {
-					for multiplierPower, radiationProcess in array3 {
-						mods.nuclearcraft.supercooler.addRecipe([inputFluid, outputFluid, multiplierTime, multiplierPower, radiationProcess]);
-					}
-				}
-			}
-		}
-	}
-
-	function supercoolerRemoveInputRecipe(map as IIngredient[]) {
-		for inputFluid in map {
-			mods.nuclearcraft.supercooler.removeRecipeWithInput([inputFluid]);
-		}
-	}
-
-	function supercoolerRemoveOutputRecipe(map as IIngredient[]) {
-		for outputFluid in map {
-			mods.nuclearcraft.supercooler.removeRecipeWithOutput([outputFluid]);
-		}
-	}
-
-	function supercoolerRemoveAll() {
-		mods.nuclearcraft.supercooler.removeAllRecipes();
-	}
-
-//////////////////////////////////////////////////////////////////////////////////////////////////
-
-	function electrolyserAddRecipe(map as double[double][double][IIngredient][IIngredient][IIngredient][IIngredient][IIngredient]) {
-		for inputFluid, array1 in map {
-			for outputFluid, array2 in array1 {
-				for outputFluid2, array3 in array2 {
-					for outputFluid3, array4 in array3 {
-						for outputFluid4, array5 in array4 {
-							for multiplierTime, array6 in array5 {
-								for multiplierPower, radiationProcess in array6 {
-									mods.nuclearcraft.electrolyser.addRecipe([inputFluid, outputFluid, outputFluid2, outputFluid3, outputFluid4, multiplierTime, multiplierPower, radiationProcess]);
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-
-	function electrolyserRemoveInputRecipe(map as IIngredient[]) {
-		for inputFluid in map {
-			mods.nuclearcraft.electrolyser.removeRecipeWithInput([inputFluid]);
-		}
-	}
-
-	function electrolyserRemoveOutputRecipe(map as IIngredient[IIngredient][IIngredient][IIngredient]) {
-		for outputFluid, array1 in map {
-			for outputFluid2, array2 in array1 {
-				for outputFluid3, outputFluid4 in array2 {
-					mods.nuclearcraft.electrolyser.removeRecipeWithOutput([outputFluid, outputFluid2, outputFluid3, outputFluid4]);					
-				}
-			}
-		}
-	}
-
-	function electrolyserRemoveAll() {
-		mods.nuclearcraft.electrolyser.removeAllRecipes();
-	}
-
-//////////////////////////////////////////////////////////////////////////////////////////////////
-
-	function irradiatorAddRecipe(map as double[double][double][IIngredient][IIngredient][IIngredient][IIngredient]) {
-		for inputFluid, array1 in map {
-			for inputFluid2, array2 in array1 {
-				for outputFluid, array3 in array2 {
-					for outputFluid2, array4 in array3 {
-						for multiplierTime, array5 in array4 {
-							for multiplierPower, radiationProcess in array5 {
-								mods.nuclearcraft.irradiator.addRecipe([inputFluid, inputFluid2, outputFluid, outputFluid2, multiplierTime, multiplierPower, radiationProcess]);
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-
-	function irradiatorRemoveInputRecipe(map as IIngredient[IIngredient]) {
-		for inputFluid, inputFluid2 in map {
-			mods.nuclearcraft.irradiator.removeRecipeWithInput([inputFluid, inputFluid2]);
-		}
-	}
-
-	function irradiatorRemoveOutputRecipe(map as IIngredient[IIngredient]) {
-		for outputFluid, outputFluid2 in map {
-			mods.nuclearcraft.irradiator.removeRecipeWithOutput([outputFluid, outputFluid2]);
-		}
-	}
-
-	function irradiatorRemoveAll() {
-		mods.nuclearcraft.irradiator.removeAllRecipes();
-	}
-
-//////////////////////////////////////////////////////////////////////////////////////////////////
-
-	function ingotFormerAddRecipe(map as double[double][double][IIngredient][IItemStack]) {
-		for outputItem, array1 in map {
-			for inputFluid, array2 in array1 {
-				for multiplierTime, array3 in array2{
-					for multiplierPower, radiationProcess in array3 {
-						mods.nuclearcraft.ingot_former.addRecipe([inputFluid, outputItem, multiplierTime, multiplierPower, radiationProcess]);
-					}
-				}
-			}
-		}
-	}
-
-	function ingotFormerRemoveInputRecipe(map as IIngredient[]) {
-		for inputFluid in map {
-			mods.nuclearcraft.ingot_former.removeRecipeWithInput([inputFluid]);
-		}
-	}
-
-	function ingotFormerRemoveOutputRecipe(map as IItemStack[]) {
-		for outputItem in map {
-				mods.nuclearcraft.ingot_former.removeRecipeWithOutput([outputItem]);	
-		}
-	}
-
-	function ingotFormerRemoveAll() {
-		mods.nuclearcraft.ingot_former.removeAllRecipes();
-	}
-
-//////////////////////////////////////////////////////////////////////////////////////////////////
-
-	function pressurizerAddRecipe(map as double[double][double][IItemStack][IItemStack]) {
-		for outputItem, array1 in map {
-			for inputItem, array2 in array1 {
-				for multiplierTime, array3 in array2 {
-					for multiplierPower, radiationProcess in array3 {
-						mods.nuclearcraft.pressurizer.addRecipe([inputItem, outputItem, multiplierTime, multiplierPower, radiationProcess]);
-					}
-				}
-			}
-		}
-	}
-
-	function pressurizerRemoveInputRecipe(map as IItemStack[]) {
-		for inputItem in map {
-			mods.nuclearcraft.pressurizer.removeRecipeWithInput([inputItem]);
-		}
-	}
-
-	function pressurizerRemoveOutputRecipe(map as IItemStack[]) {
-		for outputItem in map {
-			mods.nuclearcraft.pressurizer.removeRecipeWithOutput([outputItem]);	
-		}
-	}
-
-	function pressurizerRemoveAll() {
-		mods.nuclearcraft.pressurizer.removeAllRecipes();
-	}
-
-///////////////////////////////////////////////////////////////////////////////////////////////////
-
-	function chemicalReactorAddRecipe(map as double[double][double][IIngredient][IIngredient][IIngredient][IIngredient]) {
-		for inputFluid, array1 in map {
-			for inputFluid2, array2 in array1 {
-				for outputFluid, array3 in array2 {
-					for outputFluid2, array4 in array3 {
-						for multiplierTime, array5 in array4 {
-							for multiplierPower, radiationProcess in array5 {
-								mods.nuclearcraft.chemical_reactor.addRecipe([inputFluid, inputFluid2, outputFluid, outputFluid2, multiplierTime, multiplierPower, radiationProcess]);
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-
-	function chemicalReactorRemoveInputRecipe(map as IIngredient[IIngredient]) {
-		for inputFluid, inputFluid2 in map {
-			mods.nuclearcraft.chemical_reactor.removeRecipeWithInput([inputFluid, inputFluid2]);
-		}
-	}
-
-	function chemicalReactorRemoveOutputRecipe(map as IIngredient[IIngredient]) {
-		for outputFluid, outputFluid2 in map {
-				mods.nuclearcraft.chemical_reactor.removeRecipeWithOutput([outputFluid, outputFluid2]);
-		}
-	}
-
-	function chemicalReactorRemoveAll() {
-		mods.nuclearcraft.chemical_reactor.removeAllRecipes();
-	}
-
-///////////////////////////////////////////////////////////////////////////////////////////////////
-
-	function saltMixerAddRecipe(map as double[double][double][IIngredient][IIngredient][IIngredient]) {
-		for inputFluid, array1 in map {
-			for inputFluid2, array2 in array1 {
-				for outputFluid, array3 in array2 {
-					for multiplierTime, array4 in array3 {
-						for multiplierPower, radiationProcess in array4 {
-							mods.nuclearcraft.salt_mixer.addRecipe([inputFluid, inputFluid2, outputFluid, multiplierTime, multiplierPower, radiationProcess]);
-						}
-					}
-				}
-			}
-		}
-	}
-
-	function saltMixerRemoveInputRecipe(map as IIngredient[IIngredient]) {
-		for inputFluid, inputFluid2 in map {
-				mods.nuclearcraft.salt_mixer.removeRecipeWithInput([inputFluid, inputFluid2]);
-		}
-	}
-
-	function saltMixerRemoveOutputRecipe(map as IIngredient[]) {
-		for outputFluid in map {
-				mods.nuclearcraft.salt_mixer.removeRecipeWithOutput([outputFluid]);
-		}
-	}
-
-	function saltMixerRemoveAll() {	
-		mods.nuclearcraft.salt_mixer.removeAllRecipes();
-	}
-
-//////////////////////////////////////////////////////////////////////////////////////////////////
-
-	function crystallizerAddRecipe(map as double[double][double][IIngredient][IItemStack]) {
-		for outputItem, array1 in map {
-			for inputFluid, array2 in array1 {
-				for multiplierTime, array3 in array2 {
-					for multiplierPower, radiationProcess in array3 {
-						mods.nuclearcraft.crystallizer.addRecipe([inputFluid, outputItem, multiplierTime, multiplierPower, radiationProcess]);
-					}
-				}
-			}
-		}
-	}
-
-	function crystallizerRemoveInputRecipe(map as IIngredient[]) {
-		for inputFluid in map {
-			mods.nuclearcraft.crystallizer.removeRecipeWithInput([inputFluid]);
-		}
-	}
-
-	function crystallizerRemoveOutputRecipe(map as IItemStack[]) {
-		for outputItem in map {
-			mods.nuclearcraft.crystallizer.removeRecipeWithOutput([outputItem]);	
-		}
-	}
-
-	function crystallizerRemoveAll() {
-		mods.nuclearcraft.crystallizer.removeAllRecipes();
-	}
-
-/////////////////////////////////////////////////////////////////////////////////////////////////
-
-	function fluidEnricherAddRecipe(map as double[double][double][IIngredient][IItemStack][IIngredient]) {
-		for outputFluid, array1 in map {
-			for inputFluid, array2 in array1 {
-				for inputItem, array3 in array2 {
-					for multiplierTime, array4 in array3 {
-						for multiplierPower, radiationProcess in array4 {
-							mods.nuclearcraft.dissolver.addRecipe([inputItem, inputFluid, outputFluid, multiplierTime, multiplierPower, radiationProcess]);
-						}
-					}
-				}
-			}
-		}
-	}
-
-	function fluidEnricherRemoveInputRecipe(map as IIngredient[IItemStack]) {
-		for inputItem, inputFluid in map {
-			mods.nuclearcraft.dissolver.removeRecipeWithInput([inputItem, inputFluid]);
-		}
-	}
-
-	function fluidEnricherRemoveOutputRecipe(map as IIngredient[]) {
-		for outputFluid in map {
-			mods.nuclearcraft.dissolver.removeRecipeWithOutput([outputFluid]);	
-		}
-	}
-
-	function fluidEnricherRemoveAll() {
-		mods.nuclearcraft.dissolver.removeAllRecipes();
-	}
-
-/////////////////////////////////////////////////////////////////////////////////////////////////
-
-	function fluidExtractorAddRecipe(map as double[double][double][IIngredient][IItemStack][IItemStack]) {
-		for inputItem, array1 in map {
-			for outputItem, array2 in array1 {
-				for outputFluid, array3 in array2 {
-					for multiplierTime, array4 in array3 {
-						for multiplierPower, radiationProcess in array4 {
-							mods.nuclearcraft.extractor.addRecipe([inputItem, outputItem, outputFluid, multiplierTime, multiplierPower, radiationProcess]);
-						}
-					}
-				}
-			}
-		}
-	}
-
-	function fluidExtractorRemoveInputRecipe(map as IItemStack[]) {
-		for inputItem in map {
-			mods.nuclearcraft.extractor.removeRecipeWithInput([inputItem]);
-		}
-	}
-
-	function fluidExtractorRemoveOutputRecipe(map as IIngredient[IItemStack]) {
-		for outputItem, outputFluid in map {
-			mods.nuclearcraft.extractor.removeRecipeWithOutput([outputItem, outputFluid]);
-		}
-	}
-
-	function fluidExtractorRemoveAll() {
-		mods.nuclearcraft.extractor.removeAllRecipes();
-	}
-
-////////////////////////////////////////////////////////////////////////////////////////////////
-
-	function centrifugeAddRecipe(map as double[double][double][IIngredient][IIngredient][IIngredient][IIngredient][IIngredient]) {
-		for inputFluid, array1 in map {
-			for outputFluid, array2 in array1 {
-				for outputFluid2, array3 in array2 {
-					for outputFluid3, array4 in array3 {
-						for outputFluid4, array5 in array4 {
-							for multiplierTime, array6 in array5 {
-								for multiplierPower, radiationProcess in array6 {
-									mods.nuclearcraft.centrifuge.addRecipe([inputFluid, outputFluid, outputFluid2, outputFluid3, outputFluid4, multiplierTime, multiplierPower, radiationProcess]);
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-
-	function centrifugeRemoveInputRecipe(map as IIngredient[IIngredient]) {
-		for inputFluid, inputFluid2 in map {
-			mods.nuclearcraft.centrifuge.removeRecipeWithInput([inputFluid, inputFluid2]);
-		}
-	}
-
-	function centrifugeRemoveOutputRecipe(map as IIngredient[IIngredient]) {
-		for outputFluid, outputFluid2 in map {
-			mods.nuclearcraft.centrifuge.removeRecipeWithOutput([outputFluid, outputFluid2]);	
-		}
-	}
-
-	function centrifugeRemoveAll() {
-		mods.nuclearcraft.centrifuge.removeAllRecipes();
-	}
-
-/////////////////////////////////////////////////////////////////////////////////////////////////	
-
-	function rockCrusherAddRecipe(map as double[double][double][IItemStack][IItemStack][IItemStack][IItemStack][IItemStack]) {
-		for inputItem, array1 in map {
-			for outputItem, array2 in array1 {
-				for outputItem2, array3 in array2 {
-					for outputItem3, array4 in array3 {
-						for multiplierTime, array5 in array4 {
-							for multiplierPower, radiationProcess in array5 {
-								mods.nuclearcraft.rock_crusher.addRecipe([inputItem, outputItem, outputItem2, outputItem3, multiplierTime, multiplierPower, radiationProcess]);
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-
-	function rockCrusherRemoveInputRecipe(map as IItemStack[]) {
-		for inputItem in map {
-			mods.nuclearcraft.rock_crusher.removeRecipeWithInput([inputItem]);
-		}
-	}
-
-	function rockCrusherRemoveOutputRecipe(map as IItemStack[IItemStack][IItemStack]) {
-		for outputItem, array1 in map {
-			for outputItem2, outputItem3 in array1 {
-				mods.nuclearcraft.rock_crusher.removeRecipeWithOutput([outputItem, outputItem2, outputItem3]);
-			}
-		}
-	}
-
-	function rockCrusherRemoveAll() {
-		mods.nuclearcraft.rock_crusher.removeAllRecipes();
-	}
-
-/////////////////////////////////////////////////////////////////////////////////////////////////
-
-	function decayGeneratorAddRecipe(map as double[double][double][IItemStack][IItemStack]) {
-		for outputItem, array1 in map {
-			for inputItem, array2 in array1 {
-				for tickDuration, array3 in array2 {
-					for energyPerSecond, radiationProcess in array3 {
-						mods.nuclearcraft.decay_generator.addRecipe([inputItem, outputItem, tickDuration, energyPerSecond, radiationProcess]);
-					}
-				}
-			}
-		}
-	}
-
-	function decayGeneratorRemoveInputRecipe(map as IItemStack[]) {
-		for inputItem in map {
-			mods.nuclearcraft.decay_generator.removeRecipeWithInput([inputItem]);
-		}
-	}
-
-	function decayGeneratorRemoveOutputRecipe(map as IItemStack[]) {
-		for outputItem in map {
-			mods.nuclearcraft.decay_generator.removeRecipeWithOutput([outputItem]);
-		}
-	}
-
-	function decayGeneratorRemoveAll() {
-		mods.nuclearcraft.decay_generator.removeAllRecipes();
-	}
-
-//////////////////////////////////////////////////////////////////////////////////////////////////////
-
-	function fissionAddRecipe(map as string[double][double][double][double][IItemStack][IItemStack]) {
-		for inputItem, array1 in map {
-			for outputItem, array2 in array1 {
-				for baseTime, array3 in array2 {
-					for basePower, array4 in array3 {
-						for baseHeat, array5 in array4 {
-							for radiationProcess, guiName in array5 {
-								mods.nuclearcraft.fission.addRecipe([inputItem, outputItem, baseTime, basePower, baseHeat, guiName, radiationProcess]);
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-
-	function fissionRemoveInputRecipe(map as IItemStack[]) {
-		for inputItem in map {
-			mods.nuclearcraft.fission.removeRecipeWithInput([inputItem]);
-		}
-	}
-
-	function fissionRemoveOutputRecipe(map as IItemStack[]) {
-		for outputItem in map {
-			mods.nuclearcraft.fission.removeRecipeWithOutput([outputItem]);
-		}
-	}
-
-	function fissionRemoveAll() {
-		mods.nuclearcraft.fission.removeAllRecipes();
-	}
-
-/////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-	function fusionAddRecipe(map as double[double][double][double][IIngredient][IIngredient][IIngredient][IIngredient][IIngredient][IIngredient]) {
-		for inputFluid, array1 in map {
-			for inputFluid2, array2 in array1 {
-				for outputFluid, array3 in array2 {
-					for outputFluid2, array4 in array3 {
-						for outputFluid3, array5 in array4 {
-							for outputFluid4, array6 in array5 {
-								for baseTime, array7 in array6 {
-									for basePower, array8 in array7 {
-										for baseHeat, radiationProcess in array8 {
-											mods.nuclearcraft.fusion.addRecipe([inputFluid, inputFluid2, outputFluid, outputFluid2, outputFluid3, outputFluid4, baseTime, basePower, baseHeat, radiationProcess]);
+							for outputItem5, array6 in array5 {
+								for outputItem6, array7 in array6 {
+									for outputItem7, array8 in array7 {
+										for outputItem8, array9 in array8 {
+											for multiplierTime, array10 in array9 { 
+												for multiplierPower, radiationProcess in array10 {
+													mods.nuclearcraft.FuelReprocessor.addRecipe(inputItem, outputItem, outputItem2, outputItem3, outputItem4, outputItem5, outputItem6, outputItem7, outputItem8, multiplierTime, multiplierPower, radiationProcess);
+												}
+											}
 										}
 									}
 								}
@@ -718,34 +129,744 @@ zenClass nuclearCraft {
 		}
 	}
 
-	function fusionRemoveInputRecipe(map as IIngredient[]) {
-		for inputFluid in map {
-			mods.nuclearcraft.fusion.removeRecipeWithInput([inputFluid]);
-		}
-	}
-
-	function fusionRemoveOutputRecipe(map as IIngredient[IIngredient][IIngredient][IIngredient]) {
-		for outputFluid, array1 in map {
-			for outputFluid2, array2 in array1 {
-				for outputFluid3, outputFluid4 in array2 {
-					mods.nuclearcraft.fusion.removeRecipeWithOutput([outputFluid, outputFluid2, outputFluid3, outputFluid4]);
+	function fuelReprocessorRemoveOutputRecipe(map as IIngredient[IIngredient][IIngredient][IIngredient][IIngredient][IIngredient][IIngredient][IIngredient]) {
+		for outputItem, array2 in map {
+			for outputItem2, array3 in array2 {
+				for outputItem3, array4 in array3 {
+					for outputItem4, array5 in array4 {
+						for outputItem5, array6 in array5 {
+							for outputItem6, array7 in array6 {
+								for outputItem7, outputItem8 in array7 {
+									mods.nuclearcraft.FuelReprocessor.removeRecipeWithOutput(outputItem, outputItem2, outputItem3, outputItem4, outputItem5, outputItem6, outputItem7, outputItem8);
+								}
+							}
+						}
+					}
 				}
 			}
 		}
 	}
 
-	function fusionRemoveAll() {
-		mods.nuclearcraft.fusion.removeAllRecipes();
+	function fuelReprocessorRemoveInputRecipe(map as IIngredient[]) {
+		for inputItem in map {
+			mods.nuclearcraft.FuelReprocessor.removeRecipeWithInput(inputItem);
+		}
+	}
+
+	function fuelReprocessorRemoveAll() {
+		mods.nuclearcraft.FuelReprocessor.removeAllRecipes();
+	}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////	
+
+	function alloyFurnaceAddRecipe(map as double[double][double][IIngredient][IIngredient][IIngredient]) {
+		for inputItem, array1 in map {
+			for inputItem2, array2 in array1 {
+				for outputItem, array3 in array2 {
+					for multiplierTime, array4 in array3 { 
+						for multiplierPower, radiationProcess in array4 {
+							mods.nuclearcraft.AlloyFurnace.addRecipe(inputItem, inputItem2, outputItem, multiplierTime, multiplierPower, radiationProcess);
+						}
+					}
+				}
+			}
+		}
+	}
+
+	function alloyFurnaceRemoveInputRecipe(map as IIngredient[IIngredient]) {
+		for inputItem, inputItem2 in map {
+			mods.nuclearcraft.AlloyFurnace.removeRecipeWithInput(inputItem, inputItem2);
+		}
+	}
+
+	function alloyFurnaceRemoveOutputRecipe(map as IIngredient[]) {
+		for outputItem in map {
+			mods.nuclearcraft.AlloyFurnace.removeRecipeWithOutput(outputItem);
+		}
+	}
+
+	function alloyFurnaceRemoveAll() {
+		mods.nuclearcraft.AlloyFurnace.removeAllRecipes();
+	}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////	
+
+	function assemblerAddRecipe(map as double[double][double][IIngredient][IIngredient][IIngredient][IIngredient][IIngredient]) {
+		for inputItem, array1 in map {
+			for inputItem2, array2 in array1 {
+				for inputItem3, array3 in array2 {
+					for inputItem4, array4 in array3 {
+						for outputItem, array5 in array4 {
+							for multiplierTime, array6 in array5 { 
+								for multiplierPower, radiationProcess in array6 {
+									mods.nuclearcraft.Assembler.addRecipe(inputItem, inputItem2, inputItem3, inputItem4, outputItem, multiplierTime, multiplierPower, radiationProcess);
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	function assemblerRemoveInputRecipe(map as IIngredient[IIngredient][IIngredient][IIngredient]) {
+		for inputItem, array1 in map {
+			for inputItem2, array2 in array1 {
+				for inputItem3, inputItem4 in array2 {
+					mods.nuclearcraft.Assembler.removeRecipeWithInput(inputItem, inputItem2, inputItem3, inputItem4);
+				}
+			}
+		}
+	}
+
+	function assemblerRemoveOutputRecipe(map as IIngredient[]) {
+		for outputItem in map {
+			mods.nuclearcraft.Assembler.removeRecipeWithOutput(outputItem);
+		}
+	}
+
+	function assemblerRemoveAll() {
+		mods.nuclearcraft.Assembler.removeAllRecipes();
+	}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+	function infuserAddRecipe(map as double[double][double][ILiquidStack][IIngredient][IIngredient]) {
+		for outputItem, array1 in map {
+			for inputItem, array2 in array1 {
+				for inputFluid, array3 in array2 {
+					for multiplierTime, array4 in array3 {
+						for multiplierPower, radiationProcess in array4 {
+							mods.nuclearcraft.Infuser.addRecipe(inputItem, inputFluid, outputItem, multiplierTime, multiplierPower, radiationProcess);
+						}
+					}
+				}
+			}
+		}
+	}
+
+	function infuserRemoveInputRecipe(map as ILiquidStack[IIngredient]) {
+		for inputItem, inputFluid in map {
+			mods.nuclearcraft.Infuser.removeRecipeWithInput(inputItem, inputFluid);
+		}
+	}
+
+	function infuserRemoveOutputRecipe(map as IIngredient[]) {
+		for outputItem in map {
+			mods.nuclearcraft.Infuser.removeRecipeWithOutput(outputItem);
+		}
+	}
+
+	function infuserRemoveAll() {
+		mods.nuclearcraft.Infuser.removeAllRecipes();
+	}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+	function melterAddRecipe(map as double[double][double][ILiquidStack][IIngredient]) {
+		for outputFluid, array1 in map {
+			for inputItem, array2 in array1 {
+				for multiplierTime, array3 in array2 {
+					for multiplierPower, radiationProcess in array3 {
+						mods.nuclearcraft.Melter.addRecipe(inputItem, outputFluid, multiplierTime, multiplierPower, radiationProcess);
+					}
+				}
+			}
+		}
+	}
+
+	function melterRemoveInputRecipe(map as IIngredient[]) {
+		for inputItem in map {
+			mods.nuclearcraft.Melter.removeRecipeWithInput(inputItem);
+		}
+	}
+
+	function melterRemoveOutputRecipe(map as ILiquidStack[]) {
+		for outputFluid in map {
+			mods.nuclearcraft.Melter.removeRecipeWithOutput(outputFluid);
+		}
+	}
+
+	function melterRemoveAll() {
+		mods.nuclearcraft.Melter.removeAllRecipes();
+	}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+	function supercoolerAddRecipe(map as double[double][double][ILiquidStack][ILiquidStack]) {
+		for outputFluid, array1 in map {
+			for inputFluid, array2 in array1 {
+				for multiplierTime, array3 in array2 {
+					for multiplierPower, radiationProcess in array3 {
+						mods.nuclearcraft.Supercooler.addRecipe(inputFluid, outputFluid, multiplierTime, multiplierPower, radiationProcess);
+					}
+				}
+			}
+		}
+	}
+
+	function supercoolerRemoveInputRecipe(map as ILiquidStack[]) {
+		for inputFluid in map {
+			mods.nuclearcraft.Supercooler.removeRecipeWithInput(inputFluid);
+		}
+	}
+
+	function supercoolerRemoveOutputRecipe(map as ILiquidStack[]) {
+		for outputFluid in map {
+			mods.nuclearcraft.Supercooler.removeRecipeWithOutput(outputFluid);
+		}
+	}
+
+	function supercoolerRemoveAll() {
+		mods.nuclearcraft.Supercooler.removeAllRecipes();
+	}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+	function electrolyzerAddRecipe(map as double[double][double][IIngredient][IIngredient][IIngredient][IIngredient][IIngredient]) {
+		for inputFluid, array1 in map {
+			for outputFluid, array2 in array1 {
+				for outputFluid2, array3 in array2 {
+					for outputFluid3, array4 in array3 {
+						for outputFluid4, array5 in array4 {
+							for multiplierTime, array6 in array5 {
+								for multiplierPower, radiationProcess in array6 {
+									mods.nuclearcraft.Electrolyzer.addRecipe(inputFluid, outputFluid, outputFluid2, outputFluid3, outputFluid4, multiplierTime, multiplierPower, radiationProcess);
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	function electrolyserRemoveInputRecipe(map as IIngredient[]) {
+		for inputFluid in map {
+			mods.nuclearcraft.Electrolyzer.removeRecipeWithInput(inputFluid);
+		}
+	}
+
+	function electrolyzerRemoveOutputRecipe(map as IIngredient[IIngredient][IIngredient][IIngredient]) {
+		for outputFluid, array1 in map {
+			for outputFluid2, array2 in array1 {
+				for outputFluid3, outputFluid4 in array2 {
+					mods.nuclearcraft.Electrolyzer.removeRecipeWithOutput(outputFluid, outputFluid2, outputFluid3, outputFluid4);					
+				}
+			}
+		}
+	}
+
+	function electrolyzerRemoveAll() {
+		mods.nuclearcraft.Electrolyzer.removeAllRecipes();
+	}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+	function fissionEmergencyCoolingAddRecipe(map as double[ILiquidStack][ILiquidStack]) {
+		for inputFluid, array1 in map {
+			for outputFluid, coolingPerMB in array1 {
+				mods.nuclearcraft.FissionEmergencyCooling.addRecipe(inputFluid, outputFluid, coolingPerMB);
+			}
+		}
+	}
+
+	function fissionEmergencyCoolingRemoveInputRecipe(map as ILiquidStack[]) {
+		for inputFluid in map {
+			mods.nuclearcraft.FissionEmergencyCooling.removeRecipeWithInput(inputFluid);
+		}
+	}
+
+	function fissionEmergencyCoolingRemoveOutputRecipe(map as ILiquidStack[]) {
+		for outputFluid in map {
+			mods.nuclearcraft.FissionEmergencyCooling.removeRecipeWithOutput(outputFluid);
+		}
+	}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+	function ingotFormerAddRecipe(map as double[double][double][ILiquidStack][IIngredient]) {
+		for outputItem, array1 in map {
+			for inputFluid, array2 in array1 {
+				for multiplierTime, array3 in array2{
+					for multiplierPower, radiationProcess in array3 {
+						mods.nuclearcraft.IngotFormer.addRecipe(inputFluid, outputItem, multiplierTime, multiplierPower, radiationProcess);
+					}
+				}
+			}
+		}
+	}
+
+	function ingotFormerRemoveInputRecipe(map as ILiquidStack[]) {
+		for inputFluid in map {
+			mods.nuclearcraft.IngotFormer.removeRecipeWithInput(inputFluid);
+		}
+	}
+
+	function ingotFormerRemoveOutputRecipe(map as IIngredient[]) {
+		for outputItem in map {
+				mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(outputItem);	
+		}
+	}
+
+	function ingotFormerRemoveAll() {
+		mods.nuclearcraft.IngotFormer.removeAllRecipes();
+	}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+	function pressurizerAddRecipe(map as double[double][double][IIngredient][IIngredient]) {
+		for outputItem, array1 in map {
+			for inputItem, array2 in array1 {
+				for multiplierTime, array3 in array2 {
+					for multiplierPower, radiationProcess in array3 {
+						mods.nuclearcraft.Pressurizer.addRecipe(inputItem, outputItem, multiplierTime, multiplierPower, radiationProcess);
+					}
+				}
+			}
+		}
+	}
+
+	function pressurizerRemoveInputRecipe(map as IIngredient[]) {
+		for inputItem in map {
+			mods.nuclearcraft.Pressurizer.removeRecipeWithInput(inputItem);
+		}
+	}
+
+	function pressurizerRemoveOutputRecipe(map as IIngredient[]) {
+		for outputItem in map {
+			mods.nuclearcraft.Pressurizer.removeRecipeWithOutput(outputItem);	
+		}
+	}
+
+	function pressurizerRemoveAll() {
+		mods.nuclearcraft.Pressurizer.removeAllRecipes();
+	}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+	function chemicalReactorAddRecipe(map as double[double][double][IIngredient][IIngredient][IIngredient][IIngredient]) {
+		for inputFluid, array1 in map {
+			for inputFluid2, array2 in array1 {
+				for outputFluid, array3 in array2 {
+					for outputFluid2, array4 in array3 {
+						for multiplierTime, array5 in array4 {
+							for multiplierPower, radiationProcess in array5 {
+								mods.nuclearcraft.ChemicalReactor.addRecipe(inputFluid, inputFluid2, outputFluid, outputFluid2, multiplierTime, multiplierPower, radiationProcess);
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	function chemicalReactorRemoveInputRecipe(map as IIngredient[IIngredient]) {
+		for inputFluid, inputFluid2 in map {
+			mods.nuclearcraft.ChemicalReactor.removeRecipeWithInput(inputFluid, inputFluid2);
+		}
+	}
+
+	function chemicalReactorRemoveOutputRecipe(map as IIngredient[IIngredient]) {
+		for outputFluid, outputFluid2 in map {
+				mods.nuclearcraft.ChemicalReactor.removeRecipeWithOutput(outputFluid, outputFluid2);
+		}
+	}
+
+	function chemicalReactorRemoveAll() {
+		mods.nuclearcraft.ChemicalReactor.removeAllRecipes();
+	}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+	function saltMixerAddRecipe(map as double[double][double][ILiquidStack][ILiquidStack][ILiquidStack]) {
+		for inputFluid, array1 in map {
+			for inputFluid2, array2 in array1 {
+				for outputFluid, array3 in array2 {
+					for multiplierTime, array4 in array3 {
+						for multiplierPower, radiationProcess in array4 {
+							mods.nuclearcraft.SaltMixer.addRecipe(inputFluid, inputFluid2, outputFluid, multiplierTime, multiplierPower, radiationProcess);
+						}
+					}
+				}
+			}
+		}
+	}
+
+	function saltMixerRemoveInputRecipe(map as ILiquidStack[ILiquidStack]) {
+		for inputFluid, inputFluid2 in map {
+				mods.nuclearcraft.SaltMixer.removeRecipeWithInput(inputFluid, inputFluid2);
+		}
+	}
+
+	function saltMixerRemoveOutputRecipe(map as ILiquidStack[]) {
+		for outputFluid in map {
+				mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(outputFluid);
+		}
+	}
+
+	function saltMixerRemoveAll() {	
+		mods.nuclearcraft.SaltMixer.removeAllRecipes();
+	}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+	function crystallizerAddRecipe(map as double[double][double][ILiquidStack][IIngredient]) {
+		for outputItem, array1 in map {
+			for inputFluid, array2 in array1 {
+				for multiplierTime, array3 in array2 {
+					for multiplierPower, radiationProcess in array3 {
+						mods.nuclearcraft.Crystallizer.addRecipe(inputFluid, outputItem, multiplierTime, multiplierPower, radiationProcess);
+					}
+				}
+			}
+		}
+	}
+
+	function crystallizerRemoveInputRecipe(map as ILiquidStack[]) {
+		for inputFluid in map {
+			mods.nuclearcraft.Crystallizer.removeRecipeWithInput(inputFluid);
+		}
+	}
+
+	function crystallizerRemoveOutputRecipe(map as IIngredient[]) {
+		for outputItem in map {
+			mods.nuclearcraft.Crystallizer.removeRecipeWithOutput(outputItem);	
+		}
+	}
+
+	function crystallizerRemoveAll() {
+		mods.nuclearcraft.Crystallizer.removeAllRecipes();
+	}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+	function fluidEnricherAddRecipe(map as double[double][double][IIngredient][ILiquidStack][ILiquidStack]) {
+		for outputFluid, array1 in map {
+			for inputFluid, array2 in array1 {
+				for inputItem, array3 in array2 {
+					for multiplierTime, array4 in array3 {
+						for multiplierPower, radiationProcess in array4 {
+							mods.nuclearcraft.Enricher.addRecipe(inputItem, inputFluid, outputFluid, multiplierTime, multiplierPower, radiationProcess);
+						}
+					}
+				}
+			}
+		}
+	}
+
+	function fluidEnricherRemoveInputRecipe(map as ILiquidStack[IIngredient]) {
+		for inputItem, inputFluid in map {
+			mods.nuclearcraft.Enricher.removeRecipeWithInput(inputItem, inputFluid);
+		}
+	}
+
+	function fluidEnricherRemoveOutputRecipe(map as ILiquidStack[]) {
+		for outputFluid in map {
+			mods.nuclearcraft.Enricher.removeRecipeWithOutput(outputFluid);	
+		}
+	}
+
+	function fluidEnricherRemoveAll() {
+		mods.nuclearcraft.Enricher.removeAllRecipes();
+	}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+	function fluidExtractorAddRecipe(map as double[double][double][ILiquidStack][IIngredient][IIngredient]) {
+		for inputItem, array1 in map {
+			for outputItem, array2 in array1 {
+				for outputFluid, array3 in array2 {
+					for multiplierTime, array4 in array3 {
+						for multiplierPower, radiationProcess in array4 {
+							mods.nuclearcraft.Extractor.addRecipe(inputItem, outputItem, outputFluid, multiplierTime, multiplierPower, radiationProcess);
+						}
+					}
+				}
+			}
+		}
+	}
+
+	function fluidExtractorRemoveInputRecipe(map as IIngredient[]) {
+		for inputItem in map {
+			mods.nuclearcraft.Extractor.removeRecipeWithInput(inputItem);
+		}
+	}
+
+	function fluidExtractorRemoveOutputRecipe(map as ILiquidStack[IIngredient]) {
+		for outputItem, outputFluid in map {
+			mods.nuclearcraft.Extractor.removeRecipeWithOutput(outputItem, outputFluid);
+		}
+	}
+
+	function fluidExtractorRemoveAll() {
+		mods.nuclearcraft.Extractor.removeAllRecipes();
+	}
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+	function centrifugeAddRecipe(map as double[double][double][ILiquidStack][ILiquidStack][ILiquidStack][ILiquidStack][ILiquidStack][ILiquidStack][ILiquidStack]) {
+		for inputFluid, array1 in map {
+			for outputFluid, array2 in array1 {
+				for outputFluid2, array3 in array2 {
+					for outputFluid3, array4 in array3 {
+						for outputFluid4, array5 in array4 {
+							for outputFluid5, array6 in array5 {
+								for outputFluid6, array7 in array6 {
+									for multiplierTime, array8 in array7 {
+										for multiplierPower, radiationProcess in array8 {
+											mods.nuclearcraft.Centrifuge.addRecipe(inputFluid, outputFluid, outputFluid2, outputFluid3, outputFluid4, outputFluid5, outputFluid6, multiplierTime, multiplierPower, radiationProcess);
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	function centrifugeRemoveInputRecipe(map as ILiquidStack[]) {
+		for inputFluid in map {
+			mods.nuclearcraft.Centrifuge.removeRecipeWithInput(inputFluid);
+		}
+	}
+
+	function centrifugeRemoveOutputRecipe(map as ILiquidStack[ILiquidStack][ILiquidStack][ILiquidStack][ILiquidStack][ILiquidStack]) {
+		for outputFluid, array1 in map {
+			for outputFluid2, array2 in array1 {
+				for outputFluid3, array3 in array2 {
+					for outputFluid4, array4 in array3 {
+						for outputFluid5, outputFluid6 in array4 {
+							mods.nuclearcraft.Centrifuge.removeRecipeWithOutput(outputFluid, outputFluid2, outputFluid3, outputFluid4, outputFluid5, outputFluid6);
+						}
+					}
+				}
+			}	
+		}
+	}
+
+	function centrifugeRemoveAll() {
+		mods.nuclearcraft.Centrifuge.removeAllRecipes();
+	}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////	
+
+	function rockCrusherAddRecipe(map as double[double][double][IIngredient][IIngredient][IIngredient][IIngredient]) {
+		for inputItem, array1 in map {
+			for outputItem, array2 in array1 {
+				for outputItem2, array3 in array2 {
+					for outputItem3, array4 in array3 {
+						for multiplierTime, array5 in array4 {
+							for multiplierPower, radiationProcess in array5 {
+								mods.nuclearcraft.RockCrusher.addRecipe(inputItem, outputItem, outputItem2, outputItem3, multiplierTime, multiplierPower, radiationProcess);
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	function rockCrusherRemoveInputRecipe(map as IIngredient[]) {
+		for inputItem in map {
+			mods.nuclearcraft.RockCrusher.removeRecipeWithInput(inputItem);
+		}
+	}
+
+	function rockCrusherRemoveOutputRecipe(map as IIngredient[IIngredient][IIngredient]) {
+		for outputItem, array1 in map {
+			for outputItem2, outputItem3 in array1 {
+				mods.nuclearcraft.RockCrusher.removeRecipeWithOutput(outputItem, outputItem2, outputItem3);
+			}
+		}
+	}
+
+	function rockCrusherRemoveAll() {
+		mods.nuclearcraft.RockCrusher.removeAllRecipes();
+	}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+	function decayGeneratorAddRecipe(map as double[double][double][IIngredient][IIngredient]) {
+		for outputItem, array1 in map {
+			for inputItem, array2 in array1 {
+				for meanLifeTime, array3 in array2 {
+					for power, radiationProcess in array3 {
+						mods.nuclearcraft.DecayGenerator.addRecipe(inputItem, outputItem, meanLifeTime, power, radiationProcess);
+					}
+				}
+			}
+		}
+	}
+
+	function decayGeneratorRemoveInputRecipe(map as IIngredient[]) {
+		for inputItem in map {
+			mods.nuclearcraft.DecayGenerator.removeRecipeWithInput(inputItem);
+		}
+	}
+
+	function decayGeneratorRemoveOutputRecipe(map as IIngredient[]) {
+		for outputItem in map {
+			mods.nuclearcraft.DecayGenerator.removeRecipeWithOutput(outputItem);
+		}
+	}
+
+	function decayGeneratorRemoveAll() {
+		mods.nuclearcraft.DecayGenerator.removeAllRecipes();
+	}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	function fissionModeratorAddRecipe(map as double[int][IIngredient]) {
+		for inputItem, array1 in map {
+			for fluxFactor, efficiency in array1 {
+				mods.nuclearcraft.FissionModerator.add(inputItem, fluxFactor, efficiency);
+			}
+		}
+	}
+
+	function fissionModeratorRemove(map as IIngredient[]) {
+		for inputItem in map {
+			mods.nuclearcraft.FissionModerator.remove(inputItem);
+		}
+	}
+
+	function fissionModeratorRemoveAll() {
+		mods.nuclearcraft.FissionModerator.removeAll();
+	}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	function fissionReflectorAddRecipe(map as double[double][IIngredient]) {
+		for inputItem, array1 in map {
+			for reflectivity, efficiency in array1 {
+				mods.nuclearcraft.FissionReflector.add(inputItem, efficiency, reflectivity);
+			}
+		}
+	}
+
+	function fissionReflectorRemove(map as IIngredient[]) {
+		for inputItem in map {
+			mods.nuclearcraft.FissionReflector.remove(inputItem);
+		}
+	}
+
+	function fissionReflectorRemoveAll() {
+		mods.nuclearcraft.FissionReflector.removeAll();
+	}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	function fissionIrradiatorAddRecipe(map as double[double][double][int][IIngredient][IIngredient]) {
+		for inputItem, array1 in map {
+			for outputItem, array2 in array1 {
+				for fluxRequired, array3 in array2 {
+					for heatPerFlux, array4 in array3 {
+						for efficiency, reflectivity in array4 {
+							mods.nuclearcraft.FissionIrradiator.addRecipe(inputItem, outputItem, fluxRequired, heatPerFlux, efficiency, reflectivity);
+						}
+					}
+				}
+			}
+		}
+	}
+
+	function fissionIrradiatorRemoveInputRecipe(map as IIngredient[]) {
+		for inputItem in map {
+			mods.nuclearcraft.FissionIrradiator.removeRecipeWithInput(inputItem);
+		}
+	}
+
+	function fissionIrradiatorRemoveOutputRecipe(map as IIngredient[]) {
+		for outputItem in map {
+			mods.nuclearcraft.FissionIrradiator.removeRecipeWithOutput(outputItem);
+		}
+	}
+
+	function fissionIrradiatorRemoveAll() {
+		mods.nuclearcraft.FissionIrradiator.removeAllRecipes();
+	}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	function fissionSolidAddRecipe(map as double[bool][int][double][int][int][IIngredient][IIngredient]) {
+		for inputItem, array1 in map {
+			for outputItem, array2 in array1 {
+				for time, array3 in array2 {
+					for heat, array4 in array3 {
+						for efficiency, array5 in array4 {
+							for criticality, array6 in array5 {
+								for selfPriming, radiation in array6 {
+									mods.nuclearcraft.SolidFission.addRecipe(inputItem, outputItem, time, heat, efficiency, criticality, selfPriming, radiation);
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	function fissionSolidRemoveInputRecipe(map as IIngredient[]) {
+		for inputItem in map {
+			mods.nuclearcraft.SolidFission.removeRecipeWithInput(inputItem);
+		}
+	}
+
+	function fissionSolidRemoveOutputRecipe(map as IIngredient[]) {
+		for outputItem in map {
+			mods.nuclearcraft.SolidFission.removeRecipeWithOutput(outputItem);
+		}
+	}
+
+	function fissionSolidRemoveAll() {
+		mods.nuclearcraft.SolidFission.removeAllRecipes();
+	}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	function fissionHeatingAddRecipe(map as int[ILiquidStack][ILiquidStack]) {
+		for inputFluid, array1 in map {
+			for outputFluid, heatPerMB in array1 {
+				mods.nuclearcraft.FissionHeating.addRecipe(inputFluid, outputFluid, heatPerMB);
+			}
+		}
+	}
+
+	function fissionHeatingRemoveInputRecipe(map as ILiquidStack[]) {
+		for inputItem in map {
+			mods.nuclearcraft.FissionHeating.removeRecipeWithInput(inputItem);
+		}
+	}
+
+	function fissionHeatingRemoveOutputRecipe(map as ILiquidStack[]) {
+		for outputItem in map {
+			mods.nuclearcraft.FissionHeating.removeRecipeWithOutput(outputItem);
+		}
+	}
+
+	function fissionHeatingRemoveAll() {
+		mods.nuclearcraft.FissionHeating.removeAllRecipes();
 	}
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-	function saltFissionAddRecipe(map as double[double][double][IIngredient][IIngredient]) {
-		for inputFluid, array1 in map {
-			for outputFluid, array2 in array1 {
-				for baseTime, array3 in array2 {
-					for basePower, radiationProcess in array3 {
-						mods.nuclearcraft.salt_fission.addRecipe([inputFluid, outputFluid, baseTime, basePower, radiationProcess]);
+	function saltFissionAddRecipe(map as double[bool][double][int][double][int][double][IIngredient][IIngredient]) {
+		for inputItem, array1 in map {
+			for outputItem, array2 in array1 {
+				for time, array3 in array2 {
+					for heat, array4 in array3 {
+						for efficiency, array5 in array4 {
+							for criticality, array6 in array5 {
+								for decayfactor, array7 in array6 {
+									for selfPriming, radiation in array7 {
+										mods.nuclearcraft.SaltFission.addRecipe(inputItem, outputItem, time, heat, efficiency, criticality, selfPriming, radiation);
+									}
+								}
+							}
+						}
 					}
 				}
 			}
@@ -754,119 +875,167 @@ zenClass nuclearCraft {
 
 	function saltFissionRemoveInputRecipe(map as IIngredient[]) {
 		for inputFluid in map {
-			mods.nuclearcraft.salt_fission.removeRecipeWithInput([inputFluid]);
+			mods.nuclearcraft.SaltFission.removeRecipeWithInput(inputFluid);
 		}
 	}
 
 	function saltFissionRemoveOutputRecipe(map as IIngredient[]) {
 		for outputFluid in map {
-			mods.nuclearcraft.salt_fission.removeRecipeWithOutput([outputFluid]);
+			mods.nuclearcraft.SaltFission.removeRecipeWithOutput(outputFluid);
 		}
 	}
 
 	function saltFissionRemoveAll() {
-		mods.nuclearcraft.salt_fission.removeAllRecipes();
+		mods.nuclearcraft.SaltFission.removeAllRecipes();
 	}
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-	function heatExchangerAddRecipe(map as int[int][double][IIngredient][IIngredient]) {
+	function heatExchangerAddRecipe(map as int[int][double][ILiquidStack][ILiquidStack]) {
 		for inputFluid, array1 in map {
 			for outputFluid, array2 in array1 {
 				for requiredHeat, array3 in array2 {
 					for tempIn, tempOut in array3 {
-						mods.nuclearcraft.heat_exchanger.addRecipe([inputFluid, outputFluid, requiredHeat, tempIn, tempOut]);
+						mods.nuclearcraft.HeatExchanger.addRecipe([inputFluid, outputFluid, requiredHeat, tempIn, tempOut]);
 					}
 				}
 			}
 		}
 	}
 
-	function heatExchangerRemoveInputRecipe(map as IIngredient[]) {
-		for inputFluid in map {
-			mods.nuclearcraft.heat_exchanger.removeRecipeWithInput([inputFluid]);
-		}
+	function heatExchangerRemoveInputRecipe(map as ILiquidStack[]) {
+			mods.nuclearcraft.HeatExchanger.removeRecipeWithInput(map);
 	}
 
-	function heatExchangerRemoveOutputRecipe(map as IIngredient[]) {
-		for outputFluid in map {
-			mods.nuclearcraft.heat_exchanger.removeRecipeWithOutput([outputFluid]);
-		}
+	function heatExchangerRemoveOutputRecipe(map as ILiquidStack[]) {
+			mods.nuclearcraft.HeatExchanger.removeRecipeWithOutput(map);
 	}
 
 	function heatExchangerRemoveAll() {
-		mods.nuclearcraft.heat_exchanger.removeAllRecipes();
+		mods.nuclearcraft.HeatExchanger.removeAllRecipes();
 	}
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-	function steamTurbineAddRecipe(map as int[int][double][IIngredient][IIngredient]) {
-		for inputFluid, array1 in map {
-			for outputFluid, array2 in array1 {
-				for requiredHeat, array3 in array2 {
-					for tempIn, tempOut in array3 {
-						mods.nuclearcraft.turbine.addRecipe([inputFluid, outputFluid, requiredHeat, tempIn, tempOut]);
+	function steamTurbineAddRecipe(map as double[string][double][double][ILiquidStack][ILiquidStack]) {
+		for outputFluid, array1 in map {
+			for inputFluid, array2 in array1 {
+				for powerPerMB, array3 in array2 {
+					for expansionPerMB, array4 in array3 {
+						for particleName, particleSpeedMultiplier in array4 {
+							mods.nuclearcraft.Turbine.addRecipe(inputFluid, outputFluid, powerPerMB, particleName, particleSpeedMultiplier);
+						}
 					}
 				}
 			}
 		}
 	}
 
-	function steamTurbineRemoveInputRecipe(map as IIngredient[]) {
+	function steamTurbineRemoveInputRecipe(map as ILiquidStack[]) {
 		for inputFluid in map {
-			mods.nuclearcraft.turbine.removeRecipeWithInput([inputFluid]);
+			mods.nuclearcraft.Turbine.removeRecipeWithInput(inputFluid);
 		}
 	}
 
-	function steamTurbineRemoveOutputRecipe(map as IIngredient[]) {
+	function steamTurbineRemoveOutputRecipe(map as ILiquidStack[]) {
 		for outputFluid in map {
-			mods.nuclearcraft.turbine.removeRecipeWithOutput([outputFluid]);
+			mods.nuclearcraft.Turbine.removeRecipeWithOutput(outputFluid);
 		}
 	}
 
 	function steamTurbineRemoveAll() {
-		mods.nuclearcraft.turbine.removeAllRecipes();
+		mods.nuclearcraft.Turbine.removeAllRecipes();
 	}
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-	function condenserAddRecipe(map as double[IIngredient][IIngredient]) {
+	function condenserAddRecipe(map as int[double][ILiquidStack][ILiquidStack]) {
 		for outputFluid, array1 in map {
-			for inputFluid, multiplierTime in array1 {
-				mods.nuclearcraft.condenser.addRecipe([inputFluid, outputFluid, multiplierTime]);		
+			for inputFluid, array2 in array1 {
+				for condensTemp, coolingReq in array2 {
+					mods.nuclearcraft.Condenser.addRecipe([inputFluid, outputFluid, coolingReq, condensTemp]);
+				}		
 			}
 		}
 	}
 
-	function condenserRemoveInputRecipe(map as IIngredient[]) {
-		for inputFluid in map {
-			mods.nuclearcraft.condenser.removeRecipeWithInput([inputFluid]);
-		}
+	function condenserRemoveInputRecipe(map as ILiquidStack[]) {
+			mods.nuclearcraft.Condenser.removeRecipeWithInput(map);
 	}
 
-	function condenserRemoveOutputRecipe(map as IIngredient[]) {
-		for outputFluid in map {
-			mods.nuclearcraft.condenser.removeRecipeWithOutput([outputFluid]);
-		}
+	function condenserRemoveOutputRecipe(map as ILiquidStack[]) {
+			mods.nuclearcraft.Condenser.removeRecipeWithOutput(map);
 	}
 
 	function condenserRemoveAll() {
-		mods.nuclearcraft.condenser.removeAllRecipes();
+		mods.nuclearcraft.Condenser.removeAllRecipes();
 	}
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-	function radiationAddMutation(map as float[IIngredient][IIngredient]) {
-		for outputBlock, array in map {
-			for inputBlock, threshold in array {
-				mods.nuclearcraft.radiation.addBlockMutation(inputBlock, outputBlock, threshold);
+	function radiationScrubber(map as double[int][int][ILiquidStack][IIngredient][ILiquidStack][IIngredient]) {
+		for outputItem, array1 in map {
+			for outputFluid, array2 in array1 {
+				for inputItem, array3 in array2 {
+					for inputFluid, array4 in array3 {
+						for processTime, array5 in array4 {
+							for processPower, efficiency in array5 {
+								mods.nuclearcraft.RadiationScrubber.addRecipe(inputItem, inputFluid, outputItem, outputFluid, processTime, processPower, efficiency);
+							}
+						}
+					}
+				}
 			}
 		}
 	}
 
+	function radiationScruberRemoveInputRecipe(map as ILiquidStack[IIngredient]) {
+		for inputItem, inputFluid in map {
+			mods.nuclearcraft.RadiationScrubber.removeRecipeWithInput(inputItem, inputFluid);
+		}
+	}
+
+	function radiationScruberRemoveOutputRecipe(map as ILiquidStack[IIngredient]) {
+		for outputItem, outputFluid in map {
+			mods.nuclearcraft.RadiationScrubber.removeRecipeWithOutput(outputItem, outputFluid);
+		}
+	}
+
+	function radiationScruberRemoveAll() {
+		mods.nuclearcraft.RadiationScrubber.removeAllRecipes();
+	}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	function radiationBlockMutation(map as double[IIngredient][IIngredient]) {
+		for outputItem, array1 in map {
+			for inputItem, radiationThreshold in array1 {
+				mods.nuclearcraft.RadiationBlockMutation.addRecipe(inputItem, outputItem, radiationThreshold);
+			}
+		}
+	}
+
+	function radiationBlockMutationRemoveInputRecipe(map as ILiquidStack[IIngredient]) {
+		for inputItem, inputFluid in map {
+			mods.nuclearcraft.RadiationBlockMutation.removeRecipeWithInput(inputFluid);
+		}
+	}
+
+	function radiationBlockMutationRemoveOutputRecipe(map as ILiquidStack[IIngredient]) {
+		for outputItem, outputFluid in map {
+			mods.nuclearcraft.RadiationBlockMutation.removeRecipeWithOutput(outputFluid);
+		}
+	}
+
+	function radiationBlockMutationRemoveAll() {
+		mods.nuclearcraft.RadiationBlockMutation.removeAllRecipes();
+	}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 	function radiationImmunityStages(map as string[]) {
-		mods.nuclearcraft.radiation.setRadiationImmunityGameStages(true, map);
+		mods.nuclearcraft.Radiation.setRadiationImmunityGameStages(true, map);
 	}
 
 	function radiationImmuneEntity(map as double[IEntityLivingBase]) {
@@ -885,32 +1054,35 @@ zenClass nuclearCraft {
 
 	function removeAllRecipes() {
 		if (!dev) {
-			manufactoryRemoveAll();
-			isotopeRemoveAll();
-			decayHastenerRemoveAll();
-			fuelReprocessorRemoveAll();
 			alloyFurnaceRemoveAll();
-			infuserRemoveAll();
-			melterRemoveAll();
-			supercoolerRemoveAll();
-			electrolyserRemoveAll();
-			irradiatorRemoveAll();
-			ingotFormerRemoveAll();
-			pressurizerRemoveAll();
+			assemblerRemoveAll();
+			centrifugeRemoveAll();
 			chemicalReactorRemoveAll();
-			saltMixerRemoveAll();
+			condenserRemoveAll();
 			crystallizerRemoveAll();
+			decayGeneratorRemoveAll();
+			decayHastenerRemoveAll();
+			electrolyzerRemoveAll();
+			fissionIrradiatorRemoveAll();
+			fissionReflectorRemoveAll();
+			fissionHeatingRemoveAll();
+			fissionModeratorRemoveAll();
+			fissionSolidRemoveAll();
 			fluidEnricherRemoveAll();
 			fluidExtractorRemoveAll();
-			centrifugeRemoveAll();
-			rockCrusherRemoveAll();
-			decayGeneratorRemoveAll();
-			fissionRemoveAll();
-			fusionRemoveAll();
-			saltFissionRemoveAll();
+			fuelReprocessorRemoveAll();
 			heatExchangerRemoveAll();
+			infuserRemoveAll();
+			ingotFormerRemoveAll();
+			isotopeRemoveAll();
+			manufactoryRemoveAll();
+			melterRemoveAll();
+			pressurizerRemoveAll();
+			rockCrusherRemoveAll();
+			saltFissionRemoveAll();
+			saltMixerRemoveAll();
 			steamTurbineRemoveAll();
-			condenserRemoveAll();
+			supercoolerRemoveAll();
 		}
 	}
 }

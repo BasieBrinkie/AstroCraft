@@ -1,0 +1,15 @@
+{
+	x: 5.0d,
+	y: 0.0d,
+	shape: "diamond",
+	dependencies: [
+		"4ee9f4de"
+	],
+	tasks: [{
+		uid: "18a7ca23",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_nugget"
+		}]
+	}]
+}

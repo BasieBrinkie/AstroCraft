@@ -1,0 +1,14 @@
+{
+	x: 9.0d,
+	y: -1.0d,
+	dependencies: [
+		"0f54c3e4"
+	],
+	tasks: [{
+		uid: "54a03e44",
+		type: "item",
+		items: [{
+			item: "mekanism:dirtydust"
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: 6.0d,
+	y: 0.0d,
+	shape: "hexagon",
+	dependencies: [
+		"3f863bdb"
+	],
+	tasks: [{
+		uid: "5f565085",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	}]
+}

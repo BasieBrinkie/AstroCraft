@@ -1,0 +1,10 @@
+{
+	icon: "minecraft:leaves",
+	x: 4.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "ff2ccf6a",
+		type: "gamestage",
+		stage: "oxygen_extractor"
+	}]
+}

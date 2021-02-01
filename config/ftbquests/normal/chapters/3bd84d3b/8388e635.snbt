@@ -1,0 +1,15 @@
+{
+	x: 7.0d,
+	y: 2.0d,
+	dependencies: [
+		"053739df"
+	],
+	tasks: [{
+		uid: "f3e50b99",
+		type: "item",
+		items: [{
+			item: "minecraft:packed_ice"
+		}],
+		count: 4L
+	}]
+}

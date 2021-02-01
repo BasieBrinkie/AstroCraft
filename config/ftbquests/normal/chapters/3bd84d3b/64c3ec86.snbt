@@ -1,0 +1,16 @@
+{
+	x: 9.0d,
+	y: 0.0d,
+	dependencies: [
+		"67f71a53",
+		"c4952a47",
+		"e8f6f7a8"
+	],
+	tasks: [{
+		uid: "f76536bf",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_block"
+		}]
+	}]
+}

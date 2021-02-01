@@ -1,0 +1,14 @@
+{
+	x: 1.0d,
+	y: 5.0d,
+	dependencies: [
+		"64ef6ac0"
+	],
+	tasks: [{
+		uid: "708ebfb8",
+		type: "item",
+		items: [{
+			item: "libvulpes:coalgenerator"
+		}]
+	}]
+}

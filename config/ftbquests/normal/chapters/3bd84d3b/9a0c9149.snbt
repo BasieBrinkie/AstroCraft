@@ -1,0 +1,19 @@
+{
+	x: 8.0d,
+	y: 2.0d,
+	dependencies: [
+		"8388e635"
+	],
+	tasks: [{
+		uid: "726b68b1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:stone_hoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

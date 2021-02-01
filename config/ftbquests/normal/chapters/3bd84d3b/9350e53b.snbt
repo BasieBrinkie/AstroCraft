@@ -1,0 +1,14 @@
+{
+	x: 5.0d,
+	y: 1.0d,
+	dependencies: [
+		"3f863bdb"
+	],
+	tasks: [{
+		uid: "18120a03",
+		type: "item",
+		items: [{
+			item: "skyresources:heat"
+		}]
+	}]
+}

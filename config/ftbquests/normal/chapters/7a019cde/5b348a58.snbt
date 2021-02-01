@@ -1,0 +1,14 @@
+{
+	x: 2.0d,
+	y: -2.0d,
+	dependencies: [
+		"ae6d182c"
+	],
+	tasks: [{
+		uid: "783dfc3d",
+		type: "item",
+		items: [{
+			item: "props:props 1 508"
+		}]
+	}]
+}

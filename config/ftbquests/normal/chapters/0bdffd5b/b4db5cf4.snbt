@@ -1,0 +1,14 @@
+{
+	x: -3.0d,
+	y: 4.0d,
+	dependencies: [
+		"597fc8de"
+	],
+	tasks: [{
+		uid: "ac7246b2",
+		type: "item",
+		items: [{
+			item: "thaumcraft:nugget 1 4"
+		}]
+	}]
+}

@@ -1,0 +1,11 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "4d3d6c97",
+		type: "item",
+		items: [{
+			item: "factorytech:fridge"
+		}]
+	}]
+}

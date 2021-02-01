@@ -1,0 +1,14 @@
+{
+	x: 2.5d,
+	y: -4.0d,
+	dependencies: [
+		"b5716a14"
+	],
+	tasks: [{
+		uid: "7e394303",
+		type: "item",
+		items: [{
+			item: "props:clay"
+		}]
+	}]
+}

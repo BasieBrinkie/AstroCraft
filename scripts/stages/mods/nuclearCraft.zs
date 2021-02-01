@@ -34,10 +34,8 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static disabledItems as IIngredient[] = [
-	<nuclearcraft:dust_oxide:1>,
 	<nuclearcraft:gem_dust:7>,
 	<nuclearcraft:ingot:4>,
-	<nuclearcraft:ingot_oxide:1>,
 	<nuclearcraft:ore:4>,
 	<nuclearcraft:uranium:1>,
 	<nuclearcraft:uranium:3>,

@@ -1,0 +1,19 @@
+{
+	x: -3.0d,
+	y: 4.0d,
+	dependencies: [
+		"8f51abf2"
+	],
+	tasks: [{
+		uid: "3ab3a089",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "grapplemod:motorupgradeitem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

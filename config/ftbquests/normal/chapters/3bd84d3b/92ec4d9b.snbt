@@ -1,0 +1,46 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	dependencies: [
+		"cc5c15db"
+	],
+	tasks: [{
+		uid: "6a58f240",
+		type: "item",
+		items: [{
+			item: "skyresources:casing"
+		}]
+	},
+	{
+		uid: "9fc6996d",
+		type: "item",
+		items: [{
+			item: "skyresources:combustionheater 1 1"
+		}]
+	},
+	{
+		uid: "75840ea2",
+		type: "item",
+		title: "Stone",
+		items: [{
+			item: "minecraft:stone"
+		}],
+		count: 5L
+	},
+	{
+		uid: "49250fcb",
+		type: "item",
+		items: [{
+			item: "minecraft:wooden_button"
+		},
+		{
+			item: "minecraft:stone_button"
+		},
+		{
+			item: "minecraft:wooden_pressure_plate"
+		},
+		{
+			item: "minecraft:stone_pressure_plate"
+		}]
+	}]
+}

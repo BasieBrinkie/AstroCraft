@@ -1,0 +1,22 @@
+{
+	title: "Chef-Cook",
+	x: 10.0d,
+	y: 0.0d,
+	description: "Starting a fire with pebbles and cobblestone is a bit of pain in the ass, don't you think?",
+	text: [
+		"Luckily there is a solution",
+		"",
+		"- Craft a furnace",
+		""
+	],
+	dependencies: [
+		"a8d3ccf1"
+	],
+	tasks: [{
+		uid: "506b8d04",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}]
+}

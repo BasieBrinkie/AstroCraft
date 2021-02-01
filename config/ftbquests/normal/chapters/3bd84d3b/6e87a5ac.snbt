@@ -1,0 +1,15 @@
+{
+	icon: "skyresources:heatprovider 1 1",
+	x: 6.0d,
+	y: 1.0d,
+	dependencies: [
+		"9350e53b"
+	],
+	tasks: [{
+		uid: "4a15a485",
+		type: "item",
+		items: [{
+			item: "skyresources:heatprovider 1 1"
+		}]
+	}]
+}

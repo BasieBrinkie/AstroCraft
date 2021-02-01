@@ -2,8 +2,6 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.formatting.IFormattedText;
 
-import scripts.recipes.integrations.skyResources.catalysts.catalystAdd;
-
 /*	
 	-----------------------------------------
 	Create new Oredicts.

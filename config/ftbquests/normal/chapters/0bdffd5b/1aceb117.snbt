@@ -1,0 +1,14 @@
+{
+	x: -2.0d,
+	y: 7.0d,
+	dependencies: [
+		"a2c95ebd"
+	],
+	tasks: [{
+		uid: "2d7ec8e3",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_ore_aluminum 1 1"
+		}]
+	}]
+}

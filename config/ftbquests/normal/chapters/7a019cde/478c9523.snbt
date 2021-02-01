@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: -5.0d,
+	dependencies: [
+		"4d4dd156"
+	],
+	tasks: [{
+		uid: "a5a85848",
+		type: "item",
+		items: [{
+			item: "littletiles:recipe"
+		}]
+	}]
+}

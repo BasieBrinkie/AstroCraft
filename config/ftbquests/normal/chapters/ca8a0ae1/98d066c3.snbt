@@ -1,0 +1,26 @@
+{
+	title: "Flat Block == Plate",
+	x: 18.0d,
+	y: 0.0d,
+	shape: "hexagon",
+	description: "Just what the title says.",
+	text: [
+		"- Find a block of obsidian in an asteroid",
+		"- Place the 'Small Plate Presser' a block above the obsidian",
+		"- Place the block of 'Copper Block - Purity (8%)' between the obsidian and the small plate presser",
+		"",
+		"- Toggle the lever and collect the copper plate",
+		"",
+		"TIP: Place the Plate Presser in the most logical direction"
+	],
+	dependencies: [
+		"bb0e3981"
+	],
+	tasks: [{
+		uid: "46cd11aa",
+		type: "item",
+		items: [{
+			item: "libvulpes:productplate 1 4"
+		}]
+	}]
+}

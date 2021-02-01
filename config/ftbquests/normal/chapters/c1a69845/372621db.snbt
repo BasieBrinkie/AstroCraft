@@ -1,0 +1,15 @@
+{
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "minecraft:flint_and_steel"
+	},
+	x: -1.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "71b08e45",
+		type: "gamestage",
+		stage: "professions_one"
+	}]
+}

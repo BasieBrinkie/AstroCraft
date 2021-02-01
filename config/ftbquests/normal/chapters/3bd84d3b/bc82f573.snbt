@@ -1,0 +1,16 @@
+{
+	title: "`TODO until AdvRocketry uses CT2",
+	x: 10.0d,
+	y: 0.0d,
+	shape: "hexagon",
+	dependencies: [
+		"64c3ec86"
+	],
+	tasks: [{
+		uid: "78fc43cc",
+		type: "item",
+		items: [{
+			item: "libvulpes:productplate 1 1"
+		}]
+	}]
+}

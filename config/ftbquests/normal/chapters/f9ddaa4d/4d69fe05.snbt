@@ -1,0 +1,11 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "bea74a5b",
+		type: "item",
+		items: [{
+			item: "roost:roost"
+		}]
+	}]
+}

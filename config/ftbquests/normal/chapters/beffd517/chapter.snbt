@@ -1,0 +1,17 @@
+{
+	title: "Gun Smith - Master",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "techguns:tfg",
+		tag: {
+			ammo: 20s,
+			ammovariant: "default",
+			camo: 0b
+		}
+	},
+	always_invisible: false,
+	group: 173755826,
+	default_quest_shape: ""
+}

@@ -1,0 +1,14 @@
+{
+	x: 9.0d,
+	y: 3.0d,
+	dependencies: [
+		"d2fbe0cd"
+	],
+	tasks: [{
+		uid: "e15b2675",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_compost"
+		}]
+	}]
+}

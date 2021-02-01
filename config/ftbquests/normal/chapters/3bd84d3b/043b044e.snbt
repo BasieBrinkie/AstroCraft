@@ -1,0 +1,14 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	dependencies: [
+		"92ec4d9b"
+	],
+	tasks: [{
+		uid: "90045979",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_ore_iron"
+		}]
+	}]
+}

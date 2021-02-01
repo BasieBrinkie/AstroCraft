@@ -1,0 +1,15 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	dependencies: [
+		"1c8d21c4",
+		"ba4fe4d1"
+	],
+	tasks: [{
+		uid: "cc98cf70",
+		type: "item",
+		items: [{
+			item: "factorytech:magcent"
+		}]
+	}]
+}

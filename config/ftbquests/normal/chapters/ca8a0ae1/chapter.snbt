@@ -1,0 +1,7 @@
+{
+	title: "Dawn of a New Age - Stage: 0",
+	icon: "advancedrocketry:oxygencharger",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

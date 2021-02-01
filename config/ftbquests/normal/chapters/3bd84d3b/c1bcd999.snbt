@@ -1,0 +1,14 @@
+{
+	x: 9.0d,
+	y: -2.0d,
+	dependencies: [
+		"1dd78e21"
+	],
+	tasks: [{
+		uid: "acad86dc",
+		type: "item",
+		items: [{
+			item: "factorytech:machinepart 1 60"
+		}]
+	}]
+}

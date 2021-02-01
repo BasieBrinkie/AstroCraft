@@ -1,0 +1,29 @@
+{
+	title: "Sieve Work",
+	x: 15.0d,
+	y: 1.0d,
+	description: "Early game items come partially from the sieves.",
+	text: [
+		"you'll be able to gather more resources as you upgrade your mesh tier. With the basic string mesh the drops aren't all that great but know this it will get better.",
+		"",
+		"- Craft a 'String Mesh'",
+		"- Place the mesh in the 'Oak Sieve'",
+		"",
+		"- Collect 1 'Worm'",
+		"- Collect 1 'Seeds'",
+		"- Collect 1 'Coffee Seeds'",
+		"- Collect 4 'Copper Ore Piece'"
+	],
+	dependencies: [
+		"124f84df",
+		"56727dbe",
+		"16560671"
+	],
+	tasks: [{
+		uid: "6140b66e",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_mesh 1 1"
+		}]
+	}]
+}

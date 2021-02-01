@@ -1,0 +1,14 @@
+{
+	x: 4.0d,
+	y: 2.0d,
+	dependencies: [
+		"8212a496"
+	],
+	tasks: [{
+		uid: "0ec0918c",
+		type: "item",
+		items: [{
+			item: "techguns:basicore 1 4"
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: 1.0d,
+	y: 1.0d,
+	min_required_dependencies: 1,
+	dependencies: [
+		"5fa0f4b6"
+	],
+	tasks: [{
+		uid: "193e4145",
+		type: "item",
+		items: [{
+			item: "mekanism:nugget 1 5"
+		}]
+	}]
+}

@@ -1,0 +1,11 @@
+{
+	x: 5.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "b1ee9b36",
+		type: "item",
+		items: [{
+			item: "factorytech:machinepart 1 22"
+		}]
+	}]
+}

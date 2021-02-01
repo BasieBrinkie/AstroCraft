@@ -1,0 +1,28 @@
+{
+	title: "Free Gift",
+	icon: "extrautils2:pipe",
+	x: 18.0d,
+	y: -1.0d,
+	description: "It is a miracle that these items are even included in the standard emergency kit.",
+	text: [
+		"Find these two items in one of the cabinets. You will need this to transfer the oxygen in the crucible to the Oxygen Pad."
+	],
+	dependencies: [
+		"bc56a49a",
+		"98d066c3"
+	],
+	tasks: [{
+		uid: "11942185",
+		type: "item",
+		items: [{
+			item: "extrautils2:pipe"
+		}]
+	},
+	{
+		uid: "7a704604",
+		type: "item",
+		items: [{
+			item: "extrautils2:grocket 1 2"
+		}]
+	}]
+}

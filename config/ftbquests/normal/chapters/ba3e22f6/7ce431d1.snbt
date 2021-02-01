@@ -1,0 +1,14 @@
+{
+	x: 3.0d,
+	y: -2.0d,
+	dependencies: [
+		"1df151d3"
+	],
+	tasks: [{
+		uid: "16ea157d",
+		type: "item",
+		items: [{
+			item: "charcoal_pit:bloomery_hatch"
+		}]
+	}]
+}

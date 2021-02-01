@@ -1,0 +1,33 @@
+{
+	x: -4.0d,
+	y: 0.0d,
+	dependencies: [
+		"312e93f7"
+	],
+	tasks: [{
+		uid: "79a3f3b2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "chisel:chisel_iron"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "chisel:chisel_diamond",
+			tag: {
+				chiseldata: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2560cf4a",
+		type: "gamestage",
+		stage: "decoration_one_enable"
+	}]
+}

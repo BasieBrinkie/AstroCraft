@@ -1,0 +1,16 @@
+{
+	x: 8.0d,
+	y: 3.0d,
+	shape: "hexagon",
+	dependencies: [
+		"9a0c9149",
+		"adc61ae5"
+	],
+	tasks: [{
+		uid: "2bc35339",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat"
+		}]
+	}]
+}
