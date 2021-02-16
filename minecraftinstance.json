@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2021-01-31T22:22:03.9958131Z",
+  "lastPlayed": "2021-02-16T21:46:16.6844565Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -46,7 +46,7 @@
   "name": "Astrocraft 1.12 - DEV",
   "cachedScans": [],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2021-01-31T16:12:15.8633014Z",
+  "lastPreviousMatchUpdate": "2021-02-13T21:02:18.7877704Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.12.2",
@@ -173,11 +173,114 @@
         "gameVersionId": 4458,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "etlunar-1.12.2-2.0.20.1.jar"
+        "FileNameOnDisk": "etlunar-1.12.2-2.0.20.1.jar.disabled"
       },
       "dateInstalled": "2021-01-31T14:52:22.8564915Z",
       "dateUpdated": "2021-01-31T14:52:22.8564915Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 225643,
+      "gameInstanceID": "4839a036-32ff-4d00-9ab6-ae473e2276a7",
+      "installedFile": {
+        "id": 2846950,
+        "displayName": "Botania r1.10-363.jar",
+        "fileName": "Botania r1.10-363.jar",
+        "fileDate": "2019-12-22T18:40:54.207Z",
+        "fileLength": 13814617,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2846/950/Botania r1.10-363.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 243121,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 227083,
+            "type": 3,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 275300,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 238222,
+            "type": 2,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 156022543,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "vazkii",
+            "fingerprint": 498055877,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2001698494,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 582579411,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 1152924348,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 3763127432,
+        "gameVersion": [
+          "Forge",
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "Botania r1.10-363.jar"
+      },
+      "dateInstalled": "2021-02-16T21:33:22.5033836Z",
+      "dateUpdated": "2021-02-16T21:33:22.5508928Z",
+      "dateLastUpdateAttempted": "2021-02-16T21:33:22.5508928Z",
       "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -274,7 +377,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8589914Z",
       "dateUpdated": "2021-01-31T14:52:22.8589914Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -283,7 +386,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 224535,
@@ -365,7 +468,7 @@
       "dateInstalled": "2021-01-31T14:52:24.9853621Z",
       "dateUpdated": "2021-01-31T14:52:24.9853621Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -374,7 +477,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 293817,
@@ -496,7 +599,7 @@
       "dateInstalled": "2021-01-31T14:52:22.7909804Z",
       "dateUpdated": "2021-01-31T14:52:22.7909804Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -505,7 +608,85 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
+    },
+    {
+      "addonID": 277064,
+      "gameInstanceID": "4839a036-32ff-4d00-9ab6-ae473e2276a7",
+      "installedFile": {
+        "id": 3040592,
+        "displayName": "mysticallib-1.12.2-1.9.0.jar",
+        "fileName": "mysticallib-1.12.2-1.9.0.jar",
+        "fileDate": "2020-08-24T03:07:55.033Z",
+        "fileLength": 431560,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3040/592/mysticallib-1.12.2-1.9.0.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2152088629,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "epicsquid",
+            "fingerprint": 1762141733,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1140883170,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 2638231074,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3273911401,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 3663085419,
+        "gameVersion": [
+          "Forge",
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "mysticallib-1.12.2-1.9.0.jar"
+      },
+      "dateInstalled": "2021-01-31T15:12:37.8454716Z",
+      "dateUpdated": "2021-01-31T15:12:37.8514739Z",
+      "dateLastUpdateAttempted": "2021-01-31T15:12:37.8514739Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
     },
     {
       "addonID": 265894,
@@ -585,7 +766,7 @@
       "dateInstalled": "2021-01-31T15:29:47.7502287Z",
       "dateUpdated": "2021-01-31T15:29:47.7762333Z",
       "dateLastUpdateAttempted": "2021-01-31T15:29:47.7762333Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -594,85 +775,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
-    },
-    {
-      "addonID": 277064,
-      "gameInstanceID": "4839a036-32ff-4d00-9ab6-ae473e2276a7",
-      "installedFile": {
-        "id": 3040592,
-        "displayName": "mysticallib-1.12.2-1.9.0.jar",
-        "fileName": "mysticallib-1.12.2-1.9.0.jar",
-        "fileDate": "2020-08-24T03:07:55.033Z",
-        "fileLength": 431560,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3040/592/mysticallib-1.12.2-1.9.0.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2152088629,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "epicsquid",
-            "fingerprint": 1762141733,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 1140883170,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 2638231074,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 3273911401,
-            "type": 0,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 3663085419,
-        "gameVersion": [
-          "Forge",
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "mysticallib-1.12.2-1.9.0.jar"
-      },
-      "dateInstalled": "2021-01-31T15:12:37.8454716Z",
-      "dateUpdated": "2021-01-31T15:12:37.8514739Z",
-      "dateLastUpdateAttempted": "2021-01-31T15:12:37.8514739Z",
-      "status": 4,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 296057,
@@ -740,7 +843,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8689928Z",
       "dateUpdated": "2021-01-31T14:52:22.8689928Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -749,7 +852,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 74924,
@@ -836,7 +939,7 @@
       "dateInstalled": "2021-01-31T14:52:22.7869789Z",
       "dateUpdated": "2021-01-31T14:52:22.7869789Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -845,7 +948,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 222378,
@@ -907,7 +1010,7 @@
       "dateInstalled": "2021-01-31T14:52:22.811983Z",
       "dateUpdated": "2021-01-31T14:58:11.599337Z",
       "dateLastUpdateAttempted": "2021-01-31T14:58:11.599337Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -916,7 +1019,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 289412,
@@ -1069,7 +1172,7 @@
       "dateInstalled": "2021-01-31T14:52:22.7729763Z",
       "dateUpdated": "2021-01-31T14:57:10.28314Z",
       "dateLastUpdateAttempted": "2021-01-31T14:57:10.28314Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -1078,7 +1181,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 254794,
@@ -1164,7 +1267,7 @@
       "dateInstalled": "2021-01-31T14:52:22.7784776Z",
       "dateUpdated": "2021-01-31T14:52:22.7784776Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -1173,7 +1276,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 224641,
@@ -1266,7 +1369,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8089825Z",
       "dateUpdated": "2021-01-31T14:58:52.8080266Z",
       "dateLastUpdateAttempted": "2021-01-31T14:58:52.8080266Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -1275,7 +1378,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 292785,
@@ -1394,7 +1497,7 @@
       "dateInstalled": "2021-01-31T14:52:25.0073665Z",
       "dateUpdated": "2021-01-31T14:59:27.6971131Z",
       "dateLastUpdateAttempted": "2021-01-31T14:59:27.6971131Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -1403,7 +1506,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 246996,
@@ -1483,7 +1586,7 @@
       "dateInstalled": "2021-01-31T14:52:00.5876054Z",
       "dateUpdated": "2021-01-31T14:52:00.5876054Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -1492,7 +1595,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 224663,
@@ -1609,7 +1712,7 @@
       "dateInstalled": "2021-01-31T15:17:49.6318698Z",
       "dateUpdated": "2021-01-31T15:17:49.6373702Z",
       "dateLastUpdateAttempted": "2021-01-31T15:17:49.6373702Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -1618,20 +1721,20 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 362056,
       "gameInstanceID": "4839a036-32ff-4d00-9ab6-ae473e2276a7",
       "installedFile": {
-        "id": 3186221,
-        "displayName": "QMD-0.12.1-1.12.2.jar",
-        "fileName": "QMD-0.12.1-1.12.2.jar",
-        "fileDate": "2021-01-30T01:39:16.85Z",
-        "fileLength": 3161223,
+        "id": 3191950,
+        "displayName": "QMD-0.12.3-1.12.2.jar",
+        "fileName": "QMD-0.12.3-1.12.2.jar",
+        "fileDate": "2021-02-04T03:21:23.447Z",
+        "fileLength": 3169515,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3186/221/QMD-0.12.1-1.12.2.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3191/950/QMD-0.12.3-1.12.2.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -1652,25 +1755,25 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 536242914,
+            "fingerprint": 2548671119,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "lach_01298",
-            "fingerprint": 2232125526,
+            "fingerprint": 1822284474,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "assets",
-            "fingerprint": 3600022882,
+            "fingerprint": 1018024642,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 2560375012,
+            "fingerprint": 1237730091,
             "type": 0,
             "invalidFingerprint": false
           },
@@ -1681,7 +1784,7 @@
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 3869590115,
+        "packageFingerprint": 250934357,
         "gameVersion": [
           "1.12.2"
         ],
@@ -1694,11 +1797,11 @@
         "gameVersionDateReleased": "2017-09-18T05:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "QMD-0.12.1-1.12.2.jar"
+        "FileNameOnDisk": "QMD-0.12.3-1.12.2.jar"
       },
       "dateInstalled": "2021-01-31T15:20:57.938793Z",
-      "dateUpdated": "2021-01-31T15:20:57.9472926Z",
-      "dateLastUpdateAttempted": "2021-01-31T15:20:57.9472926Z",
+      "dateUpdated": "2021-02-16T20:39:56.6937731Z",
+      "dateLastUpdateAttempted": "2021-02-16T20:39:56.6937731Z",
       "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -1708,7 +1811,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 247007,
@@ -1790,7 +1893,7 @@
       "dateInstalled": "2021-01-31T14:52:00.5906062Z",
       "dateUpdated": "2021-01-31T14:54:35.1790778Z",
       "dateLastUpdateAttempted": "2021-01-31T14:54:35.1790778Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -1799,78 +1902,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
-    },
-    {
-      "addonID": 250363,
-      "gameInstanceID": "4839a036-32ff-4d00-9ab6-ae473e2276a7",
-      "installedFile": {
-        "id": 2746011,
-        "displayName": "AutoRegLib-1.3-32.jar",
-        "fileName": "AutoRegLib-1.3-32.jar",
-        "fileDate": "2019-07-22T11:42:20Z",
-        "fileLength": 108306,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2746/11/AutoRegLib-1.3-32.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2909822131,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "vazkii",
-            "fingerprint": 2108119070,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 1346084177,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 2714767204,
-            "type": 0,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 69589181,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "AutoRegLib-1.3-32.jar"
-      },
-      "dateInstalled": "2021-01-31T15:06:22.4479767Z",
-      "dateUpdated": "2021-01-31T15:06:22.451977Z",
-      "dateLastUpdateAttempted": "2021-01-31T15:06:22.451977Z",
-      "status": 4,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 239197,
@@ -1944,7 +1976,7 @@
       "dateInstalled": "2021-01-31T14:52:00.5961077Z",
       "dateUpdated": "2021-01-31T14:54:35.9332096Z",
       "dateLastUpdateAttempted": "2021-01-31T14:54:35.9332096Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -1953,7 +1985,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 269359,
@@ -2021,7 +2053,7 @@
       "dateInstalled": "2021-01-31T14:52:23.6561301Z",
       "dateUpdated": "2021-01-31T14:52:23.6561301Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2030,7 +2062,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 231382,
@@ -2105,7 +2137,7 @@
       "dateInstalled": "2021-01-31T14:52:00.5981074Z",
       "dateUpdated": "2021-01-31T14:54:15.8642076Z",
       "dateLastUpdateAttempted": "2021-01-31T14:54:15.8642076Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2114,7 +2146,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 238086,
@@ -2201,7 +2233,7 @@
       "dateInstalled": "2021-01-31T15:13:33.3271528Z",
       "dateUpdated": "2021-01-31T15:13:33.3311527Z",
       "dateLastUpdateAttempted": "2021-01-31T15:13:33.3311527Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2210,7 +2242,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 223565,
@@ -2309,7 +2341,7 @@
       "dateInstalled": "2021-01-31T14:52:24.9593593Z",
       "dateUpdated": "2021-01-31T14:55:37.875516Z",
       "dateLastUpdateAttempted": "2021-01-31T14:55:37.875516Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2318,7 +2350,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 268250,
@@ -2405,7 +2437,7 @@
       "dateInstalled": "2021-01-31T14:52:22.7649747Z",
       "dateUpdated": "2021-01-31T14:52:22.7649747Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2414,7 +2446,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 307346,
@@ -2525,7 +2557,7 @@
       "dateInstalled": "2021-01-31T14:52:22.7614738Z",
       "dateUpdated": "2021-01-31T14:53:06.3445784Z",
       "dateLastUpdateAttempted": "2021-01-31T14:53:06.3445784Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2534,7 +2566,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 258205,
@@ -2605,7 +2637,7 @@
       "dateInstalled": "2021-01-31T14:52:24.992364Z",
       "dateUpdated": "2021-01-31T14:58:46.5244309Z",
       "dateLastUpdateAttempted": "2021-01-31T14:58:46.5244309Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2614,34 +2646,34 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 280554,
       "gameInstanceID": "4839a036-32ff-4d00-9ab6-ae473e2276a7",
       "installedFile": {
-        "id": 3007873,
+        "id": 3200327,
         "displayName": "RecipeStages-1.1.3.jar",
         "fileName": "RecipeStages-1.1.3.jar",
-        "fileDate": "2020-07-18T02:26:59.913Z",
-        "fileLength": 45099,
+        "fileDate": "2021-02-11T13:29:01.75Z",
+        "fileLength": 45243,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3007/873/RecipeStages-1.1.3.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3200/327/RecipeStages-1.1.3.jar",
         "isAlternate": false,
-        "alternateFileId": 3007874,
+        "alternateFileId": 3200328,
         "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3567657500,
+            "fingerprint": 2415685006,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "com",
-            "fingerprint": 613022950,
+            "fingerprint": 3933797405,
             "type": 0,
             "invalidFingerprint": false
           },
@@ -2664,7 +2696,7 @@
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 3088901246,
+        "packageFingerprint": 1019603430,
         "gameVersion": [
           "Forge",
           "1.12.2"
@@ -2681,8 +2713,94 @@
         "FileNameOnDisk": "RecipeStages-1.1.3.jar"
       },
       "dateInstalled": "2021-01-31T14:52:24.9993653Z",
-      "dateUpdated": "2021-01-31T14:58:48.6498007Z",
-      "dateLastUpdateAttempted": "2021-01-31T14:58:48.6498007Z",
+      "dateUpdated": "2021-02-16T20:39:56.6847711Z",
+      "dateLastUpdateAttempted": "2021-02-16T20:39:56.6847711Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 291727,
+      "gameInstanceID": "4839a036-32ff-4d00-9ab6-ae473e2276a7",
+      "installedFile": {
+        "id": 2549332,
+        "displayName": "JustEnoughPetroleum-0.1.jar",
+        "fileName": "JustEnoughPetroleum-0.1.jar",
+        "fileDate": "2018-04-07T01:38:06.367Z",
+        "fileLength": 18945,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2549/332/JustEnoughPetroleum-0.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 268250,
+            "type": 3,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2694893671,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "justenoughpetroleum",
+            "fingerprint": 844216176,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2927094671,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 3282921947,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 1562473258,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 4082129566,
+        "gameVersion": [
+          "1.12",
+          "1.12.1",
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "JustEnoughPetroleum-0.1.jar"
+      },
+      "dateInstalled": "2021-02-16T21:45:05.9009233Z",
+      "dateUpdated": "2021-02-16T21:45:05.9929395Z",
+      "dateLastUpdateAttempted": "2021-02-16T21:45:05.9929395Z",
       "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -2754,7 +2872,7 @@
       "dateInstalled": "2021-01-31T14:52:00.5911068Z",
       "dateUpdated": "2021-01-31T14:54:32.6496367Z",
       "dateLastUpdateAttempted": "2021-01-31T14:54:32.6496367Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2763,7 +2881,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 269398,
@@ -2856,7 +2974,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8054819Z",
       "dateUpdated": "2021-01-31T14:52:22.8054819Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2865,7 +2983,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 244844,
@@ -2939,7 +3057,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8124829Z",
       "dateUpdated": "2021-01-31T14:56:13.6952654Z",
       "dateLastUpdateAttempted": "2021-01-31T14:56:13.6952654Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2948,7 +3066,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 229208,
@@ -3011,7 +3129,7 @@
       "dateInstalled": "2021-01-31T14:52:00.5791038Z",
       "dateUpdated": "2021-01-31T14:54:23.2434956Z",
       "dateLastUpdateAttempted": "2021-01-31T14:54:23.2434956Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3020,7 +3138,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 278359,
@@ -3101,7 +3219,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8794951Z",
       "dateUpdated": "2021-01-31T14:52:22.8794951Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3110,7 +3228,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 223628,
@@ -3227,7 +3345,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8199842Z",
       "dateUpdated": "2021-01-31T14:52:22.8199842Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3236,7 +3354,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 267193,
@@ -3286,7 +3404,7 @@
       "dateInstalled": "2021-01-31T14:52:00.6056089Z",
       "dateUpdated": "2021-01-31T14:54:30.7678077Z",
       "dateLastUpdateAttempted": "2021-01-31T14:54:30.7678077Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3295,7 +3413,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 229218,
@@ -3379,7 +3497,7 @@
       "dateInstalled": "2021-01-31T14:52:23.6546302Z",
       "dateUpdated": "2021-01-31T14:56:08.0447807Z",
       "dateLastUpdateAttempted": "2021-01-31T14:56:08.0447807Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3388,7 +3506,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 221418,
@@ -3457,12 +3575,12 @@
         "gameVersionId": 4456,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "PerfectSpawn-MC1.12.2-2.1.jar.disabled"
+        "FileNameOnDisk": "PerfectSpawn-MC1.12.2-2.1.jar"
       },
       "dateInstalled": "2021-01-31T14:52:24.9748606Z",
       "dateUpdated": "2021-01-31T14:52:24.9748606Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3471,7 +3589,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 247111,
@@ -3558,7 +3676,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8754942Z",
       "dateUpdated": "2021-01-31T14:59:21.3230031Z",
       "dateLastUpdateAttempted": "2021-01-31T14:59:21.3230031Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3567,7 +3685,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 237065,
@@ -3654,7 +3772,7 @@
       "dateInstalled": "2021-01-31T14:52:00.5771042Z",
       "dateUpdated": "2021-01-31T14:52:00.5771042Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3663,7 +3781,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 309674,
@@ -3731,7 +3849,7 @@
       "dateInstalled": "2021-01-31T14:52:22.7959806Z",
       "dateUpdated": "2021-01-31T14:57:31.7518852Z",
       "dateLastUpdateAttempted": "2021-01-31T14:57:31.7518852Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3740,7 +3858,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 220318,
@@ -3820,7 +3938,7 @@
       "dateInstalled": "2021-01-31T15:29:48.9729425Z",
       "dateUpdated": "2021-01-31T15:29:48.9839432Z",
       "dateLastUpdateAttempted": "2021-01-31T15:29:48.9839432Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3829,7 +3947,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 286230,
@@ -3897,7 +4015,7 @@
       "dateInstalled": "2021-01-31T14:52:24.9528562Z",
       "dateUpdated": "2021-01-31T14:52:24.9528562Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3906,7 +4024,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 296289,
@@ -4007,7 +4125,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8604917Z",
       "dateUpdated": "2021-01-31T14:57:43.2728962Z",
       "dateLastUpdateAttempted": "2021-01-31T14:57:43.2728962Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4016,7 +4134,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 310812,
@@ -4098,7 +4216,7 @@
       "dateInstalled": "2021-01-31T14:52:24.9623592Z",
       "dateUpdated": "2021-01-31T14:57:38.0214788Z",
       "dateLastUpdateAttempted": "2021-01-31T14:57:38.0214788Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4107,7 +4225,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 237102,
@@ -4194,7 +4312,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8724953Z",
       "dateUpdated": "2021-01-31T14:57:11.369328Z",
       "dateLastUpdateAttempted": "2021-01-31T14:57:11.369328Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4203,7 +4321,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 238222,
@@ -4271,7 +4389,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8514907Z",
       "dateUpdated": "2021-01-31T14:57:39.757282Z",
       "dateLastUpdateAttempted": "2021-01-31T14:57:39.757282Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4280,7 +4398,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 268387,
@@ -4355,7 +4473,7 @@
       "dateInstalled": "2021-01-31T14:52:22.7579736Z",
       "dateUpdated": "2021-01-31T14:56:09.3655102Z",
       "dateLastUpdateAttempted": "2021-01-31T14:56:09.3655102Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4364,7 +4482,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 79616,
@@ -4434,12 +4552,12 @@
         "gameVersionDateReleased": "2017-09-18T05:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "Decocraft-2.6.3_1.12.2.jar"
+        "FileNameOnDisk": "Decocraft-2.6.3_1.12.2.jar.disabled"
       },
       "dateInstalled": "2021-01-31T14:52:22.8469896Z",
       "dateUpdated": "2021-01-31T14:55:38.87519Z",
       "dateLastUpdateAttempted": "2021-01-31T14:55:38.87519Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4448,7 +4566,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 271740,
@@ -4535,7 +4653,7 @@
       "dateInstalled": "2021-01-31T14:52:24.9798613Z",
       "dateUpdated": "2021-01-31T14:52:24.9798613Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4544,7 +4662,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 325357,
@@ -4627,7 +4745,7 @@
       "dateInstalled": "2021-01-31T14:52:22.7829779Z",
       "dateUpdated": "2021-01-31T14:58:33.4751539Z",
       "dateLastUpdateAttempted": "2021-01-31T14:58:33.4751539Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4636,7 +4754,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 253874,
@@ -4705,7 +4823,7 @@
       "dateInstalled": "2021-01-31T14:52:22.7884796Z",
       "dateUpdated": "2021-01-31T14:57:17.2328516Z",
       "dateLastUpdateAttempted": "2021-01-31T14:57:17.2328516Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4714,7 +4832,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 227083,
@@ -4806,7 +4924,7 @@
       "dateInstalled": "2021-01-31T14:52:00.6031088Z",
       "dateUpdated": "2021-01-31T14:52:00.6031088Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4815,7 +4933,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 282940,
@@ -4903,7 +5021,7 @@
       "dateInstalled": "2021-01-31T15:13:45.4882731Z",
       "dateUpdated": "2021-01-31T15:13:45.4967746Z",
       "dateLastUpdateAttempted": "2021-01-31T15:13:45.4967746Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4912,7 +5030,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 282947,
@@ -5025,7 +5143,7 @@
       "dateInstalled": "2021-01-31T14:52:00.5691028Z",
       "dateUpdated": "2021-01-31T14:52:00.5691028Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -5034,7 +5152,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 74072,
@@ -5115,7 +5233,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8289859Z",
       "dateUpdated": "2021-01-31T14:59:19.4191701Z",
       "dateLastUpdateAttempted": "2021-01-31T14:59:19.4191701Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -5124,7 +5242,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 278493,
@@ -5218,7 +5336,7 @@
       "dateInstalled": "2021-01-31T14:52:24.9968641Z",
       "dateUpdated": "2021-01-31T14:59:25.9578105Z",
       "dateLastUpdateAttempted": "2021-01-31T14:59:25.9578105Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -5227,7 +5345,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 278494,
@@ -5302,7 +5420,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8649922Z",
       "dateUpdated": "2021-01-31T14:56:13.2661922Z",
       "dateLastUpdateAttempted": "2021-01-31T14:56:13.2661922Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -5311,7 +5429,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 237167,
@@ -5379,7 +5497,7 @@
       "dateInstalled": "2021-01-31T14:52:23.660131Z",
       "dateUpdated": "2021-01-31T14:57:09.5970206Z",
       "dateLastUpdateAttempted": "2021-01-31T14:57:09.5970206Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -5388,7 +5506,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 281849,
@@ -5463,7 +5581,7 @@
       "dateInstalled": "2021-01-31T14:52:24.9833615Z",
       "dateUpdated": "2021-01-31T14:58:41.2470099Z",
       "dateLastUpdateAttempted": "2021-01-31T14:58:41.2470099Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -5472,7 +5590,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 296384,
@@ -5590,7 +5708,7 @@
       "dateInstalled": "2021-01-31T14:52:22.7584738Z",
       "dateUpdated": "2021-01-31T14:59:34.9253748Z",
       "dateLastUpdateAttempted": "2021-01-31T14:59:34.9253748Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -5599,7 +5717,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 282988,
@@ -5681,7 +5799,7 @@
       "dateInstalled": "2021-01-31T14:52:22.7659762Z",
       "dateUpdated": "2021-01-31T14:52:22.7659762Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -5690,85 +5808,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
-    },
-    {
-      "addonID": 241665,
-      "gameInstanceID": "4839a036-32ff-4d00-9ab6-ae473e2276a7",
-      "installedFile": {
-        "id": 3085917,
-        "displayName": "Psi-r1.1-78.2.jar",
-        "fileName": "Psi-r1.1-78.2.jar",
-        "fileDate": "2020-10-18T21:57:37.063Z",
-        "fileLength": 1760320,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3085/917/Psi-r1.1-78.2.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 0,
-            "addonId": 250363,
-            "type": 3,
-            "fileId": 0
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2428172408,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "vazkii",
-            "fingerprint": 4146982609,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 1911962095,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 2352255815,
-            "type": 0,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 3594410772,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "Psi-r1.1-78.2.jar"
-      },
-      "dateInstalled": "2021-01-31T15:06:22.8245409Z",
-      "dateUpdated": "2021-01-31T15:06:22.830543Z",
-      "dateLastUpdateAttempted": "2021-01-31T15:06:22.830543Z",
-      "status": 4,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 239431,
@@ -5843,7 +5883,7 @@
       "dateInstalled": "2021-01-31T14:52:24.9738599Z",
       "dateUpdated": "2021-01-31T14:52:24.9738599Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -5852,7 +5892,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 223794,
@@ -5932,7 +5972,7 @@
       "dateInstalled": "2021-01-31T14:52:00.5941066Z",
       "dateUpdated": "2021-01-31T14:52:00.5941066Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -5941,7 +5981,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 230497,
@@ -6029,7 +6069,7 @@
       "dateInstalled": "2021-01-31T14:52:00.5971074Z",
       "dateUpdated": "2021-01-31T14:52:00.5971074Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6038,7 +6078,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 315391,
@@ -6113,7 +6153,7 @@
       "dateInstalled": "2021-01-31T14:52:00.5921069Z",
       "dateUpdated": "2021-01-31T14:52:00.5921069Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6122,7 +6162,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 59621,
@@ -6190,7 +6230,7 @@
       "dateInstalled": "2021-01-31T14:52:00.578604Z",
       "dateUpdated": "2021-01-31T14:53:59.485851Z",
       "dateLastUpdateAttempted": "2021-01-31T14:53:59.485851Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6199,7 +6239,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 284139,
@@ -6281,7 +6321,7 @@
       "dateInstalled": "2021-01-31T14:52:24.9948641Z",
       "dateUpdated": "2021-01-31T14:58:23.777481Z",
       "dateLastUpdateAttempted": "2021-01-31T14:58:23.777481Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6290,7 +6330,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 232758,
@@ -6359,7 +6399,7 @@
       "dateInstalled": "2021-01-31T14:52:22.7899801Z",
       "dateUpdated": "2021-01-31T14:55:39.0217161Z",
       "dateLastUpdateAttempted": "2021-01-31T14:55:39.0217161Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6368,7 +6408,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 242818,
@@ -6430,7 +6470,7 @@
       "dateInstalled": "2021-01-31T14:52:00.5741037Z",
       "dateUpdated": "2021-01-31T14:54:24.7817639Z",
       "dateLastUpdateAttempted": "2021-01-31T14:54:24.7817639Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6439,7 +6479,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 257356,
@@ -6502,7 +6542,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8594916Z",
       "dateUpdated": "2021-01-31T14:57:25.0017072Z",
       "dateLastUpdateAttempted": "2021-01-31T14:57:25.0017072Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6511,7 +6551,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 241721,
@@ -6593,7 +6633,7 @@
       "dateInstalled": "2021-01-31T14:52:00.5886054Z",
       "dateUpdated": "2021-01-31T14:53:57.9880895Z",
       "dateLastUpdateAttempted": "2021-01-31T14:53:57.9880895Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6602,7 +6642,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 223852,
@@ -6679,7 +6719,7 @@
       "dateInstalled": "2021-01-31T14:52:24.977861Z",
       "dateUpdated": "2021-01-31T14:59:01.1714859Z",
       "dateLastUpdateAttempted": "2021-01-31T14:59:01.1714859Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6688,7 +6728,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 256247,
@@ -6775,7 +6815,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8279861Z",
       "dateUpdated": "2021-01-31T14:52:22.8279861Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6784,7 +6824,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 232791,
@@ -6848,7 +6888,7 @@
       "dateInstalled": "2021-01-31T14:52:24.9693593Z",
       "dateUpdated": "2021-01-31T14:57:25.4222805Z",
       "dateLastUpdateAttempted": "2021-01-31T14:57:25.4222805Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6857,7 +6897,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 293110,
@@ -6939,7 +6979,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8579914Z",
       "dateUpdated": "2021-01-31T14:58:13.8192238Z",
       "dateLastUpdateAttempted": "2021-01-31T14:58:13.8192238Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6948,7 +6988,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 251786,
@@ -7035,7 +7075,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8574913Z",
       "dateUpdated": "2021-01-31T14:52:22.8574913Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7044,7 +7084,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 310992,
@@ -7114,7 +7154,7 @@
       "dateInstalled": "2021-01-31T14:52:24.9863627Z",
       "dateUpdated": "2021-01-31T14:59:29.1953746Z",
       "dateLastUpdateAttempted": "2021-01-31T14:59:29.1953746Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7123,7 +7163,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 270789,
@@ -7185,7 +7225,7 @@
       "dateInstalled": "2021-01-31T14:52:24.9983649Z",
       "dateUpdated": "2021-01-31T14:58:50.4776195Z",
       "dateLastUpdateAttempted": "2021-01-31T14:58:50.4776195Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7194,7 +7234,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 240630,
@@ -7281,7 +7321,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8394882Z",
       "dateUpdated": "2021-01-31T14:52:22.8394882Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7290,7 +7330,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 270790,
@@ -7353,7 +7393,7 @@
       "dateInstalled": "2021-01-31T14:52:25.0008653Z",
       "dateUpdated": "2021-01-31T14:58:21.7826138Z",
       "dateLastUpdateAttempted": "2021-01-31T14:58:21.7826138Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7362,7 +7402,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 248453,
@@ -7447,7 +7487,7 @@
       "dateInstalled": "2021-01-31T14:52:24.9633579Z",
       "dateUpdated": "2021-01-31T14:58:57.5883612Z",
       "dateLastUpdateAttempted": "2021-01-31T14:58:57.5883612Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7456,7 +7496,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 268560,
@@ -7603,7 +7643,7 @@
       "dateInstalled": "2021-01-31T14:58:12.9125666Z",
       "dateUpdated": "2021-01-31T14:58:12.9275686Z",
       "dateLastUpdateAttempted": "2021-01-31T14:58:12.9275686Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7612,7 +7652,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 268566,
@@ -7681,7 +7721,7 @@
       "dateInstalled": "2021-01-31T15:02:52.0322649Z",
       "dateUpdated": "2021-01-31T15:02:52.036765Z",
       "dateLastUpdateAttempted": "2021-01-31T15:02:52.036765Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7690,7 +7730,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 268567,
@@ -7759,7 +7799,7 @@
       "dateInstalled": "2021-01-31T15:02:52.1127783Z",
       "dateUpdated": "2021-01-31T15:02:52.1167786Z",
       "dateLastUpdateAttempted": "2021-01-31T15:02:52.1167786Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7768,7 +7808,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 299849,
@@ -7837,7 +7877,7 @@
       "dateInstalled": "2021-01-31T15:25:30.4893442Z",
       "dateUpdated": "2021-01-31T15:25:30.4983454Z",
       "dateLastUpdateAttempted": "2021-01-31T15:25:30.4983454Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7846,7 +7886,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 274159,
@@ -7920,7 +7960,7 @@
       "dateInstalled": "2021-01-31T14:52:22.79498Z",
       "dateUpdated": "2021-01-31T14:52:22.79498Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7929,7 +7969,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 306555,
@@ -8016,7 +8056,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8099826Z",
       "dateUpdated": "2021-01-31T14:52:22.8099826Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8025,7 +8065,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 264111,
@@ -8113,12 +8153,12 @@
         "gameVersionId": 4458,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "CharcoalPit-[1.12]-1.20.jar"
+        "FileNameOnDisk": "CharcoalPit-[1.12]-1.20.jar.disabled"
       },
       "dateInstalled": "2021-01-31T14:52:00.572603Z",
       "dateUpdated": "2021-01-31T14:52:00.572603Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8127,7 +8167,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 236188,
@@ -8220,7 +8260,7 @@
       "dateInstalled": "2021-01-31T14:51:55.860281Z",
       "dateUpdated": "2021-01-31T14:53:27.4497625Z",
       "dateLastUpdateAttempted": "2021-01-31T14:53:27.4497625Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8229,7 +8269,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 237307,
@@ -8298,7 +8338,7 @@
       "dateInstalled": "2021-01-31T14:52:00.5681042Z",
       "dateUpdated": "2021-01-31T14:55:34.2883904Z",
       "dateLastUpdateAttempted": "2021-01-31T14:55:34.2883904Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8307,7 +8347,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 282001,
@@ -8387,7 +8427,7 @@
       "dateInstalled": "2021-01-31T15:07:16.1428446Z",
       "dateUpdated": "2021-01-31T15:07:16.1488449Z",
       "dateLastUpdateAttempted": "2021-01-31T15:07:16.1488449Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8396,7 +8436,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 302113,
@@ -8465,7 +8505,7 @@
       "dateInstalled": "2021-01-31T14:52:22.7924805Z",
       "dateUpdated": "2021-01-31T14:56:03.7320281Z",
       "dateLastUpdateAttempted": "2021-01-31T14:56:03.7320281Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8474,7 +8514,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 74254,
@@ -8561,7 +8601,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8699932Z",
       "dateUpdated": "2021-01-31T14:52:22.8699932Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8570,7 +8610,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 228404,
@@ -8639,7 +8679,7 @@
       "dateInstalled": "2021-01-31T14:51:55.8502789Z",
       "dateUpdated": "2021-01-31T14:53:52.6191541Z",
       "dateLastUpdateAttempted": "2021-01-31T14:53:52.6191541Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8648,7 +8688,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 244049,
@@ -8729,7 +8769,7 @@
       "dateInstalled": "2021-01-31T14:52:23.6596311Z",
       "dateUpdated": "2021-01-31T14:52:23.6596311Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8738,7 +8778,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 363569,
@@ -8813,7 +8853,7 @@
       "dateInstalled": "2021-01-31T15:08:51.0268999Z",
       "dateUpdated": "2021-01-31T15:08:51.0314018Z",
       "dateLastUpdateAttempted": "2021-01-31T15:08:51.0314018Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8822,7 +8862,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 285385,
@@ -8910,7 +8950,7 @@
       "dateInstalled": "2021-01-31T14:52:22.7794775Z",
       "dateUpdated": "2021-01-31T14:52:22.7794775Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8919,7 +8959,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 255232,
@@ -9001,7 +9041,7 @@
       "dateInstalled": "2021-01-31T14:52:24.9703595Z",
       "dateUpdated": "2021-01-31T14:58:37.0932856Z",
       "dateLastUpdateAttempted": "2021-01-31T14:58:37.0932856Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9010,7 +9050,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 275343,
@@ -9109,7 +9149,7 @@
       "dateInstalled": "2021-01-31T14:52:22.7594739Z",
       "dateUpdated": "2021-01-31T14:52:22.7594739Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9118,7 +9158,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 268655,
@@ -9200,7 +9240,7 @@
       "dateInstalled": "2021-01-31T14:52:22.7714764Z",
       "dateUpdated": "2021-01-31T14:57:14.5588866Z",
       "dateLastUpdateAttempted": "2021-01-31T14:57:14.5588866Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9209,7 +9249,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 286530,
@@ -9289,7 +9329,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8249847Z",
       "dateUpdated": "2021-01-31T14:52:22.8249847Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9298,7 +9338,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 245211,
@@ -9397,7 +9437,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8714932Z",
       "dateUpdated": "2021-01-31T14:52:22.8714932Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9406,7 +9446,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 277631,
@@ -9494,7 +9534,7 @@
       "dateInstalled": "2021-01-31T14:52:00.5816046Z",
       "dateUpdated": "2021-01-31T14:52:00.5816046Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9503,7 +9543,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 264231,
@@ -9578,7 +9618,7 @@
       "dateInstalled": "2021-01-31T14:52:24.9898636Z",
       "dateUpdated": "2021-01-31T14:57:22.5937883Z",
       "dateLastUpdateAttempted": "2021-01-31T14:57:22.5937883Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9587,7 +9627,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 245247,
@@ -9680,7 +9720,7 @@
       "dateInstalled": "2021-01-31T14:52:24.9753601Z",
       "dateUpdated": "2021-01-31T14:52:24.9753601Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9689,7 +9729,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 255308,
@@ -9764,7 +9804,7 @@
       "dateInstalled": "2021-01-31T14:51:55.8557801Z",
       "dateUpdated": "2021-01-31T14:59:10.3365864Z",
       "dateLastUpdateAttempted": "2021-01-31T14:59:10.3365864Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9773,7 +9813,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 267602,
@@ -9830,7 +9870,7 @@
       "dateInstalled": "2021-01-31T14:52:00.5986078Z",
       "dateUpdated": "2021-01-31T14:54:35.1925796Z",
       "dateLastUpdateAttempted": "2021-01-31T14:54:35.1925796Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9839,7 +9879,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 220698,
@@ -9908,7 +9948,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8504901Z",
       "dateUpdated": "2021-01-31T14:59:12.9460412Z",
       "dateLastUpdateAttempted": "2021-01-31T14:59:12.9460412Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9917,7 +9957,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 260912,
@@ -10028,7 +10068,7 @@
       "dateInstalled": "2021-01-31T14:52:25.0043658Z",
       "dateUpdated": "2021-01-31T14:52:25.0043658Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10037,7 +10077,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 228525,
@@ -10106,7 +10146,7 @@
       "dateInstalled": "2021-01-31T14:52:00.5761043Z",
       "dateUpdated": "2021-01-31T14:54:15.2706047Z",
       "dateLastUpdateAttempted": "2021-01-31T14:54:15.2706047Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10115,7 +10155,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 257573,
@@ -10190,7 +10230,7 @@
       "dateInstalled": "2021-01-31T14:52:22.878495Z",
       "dateUpdated": "2021-01-31T14:59:32.7254912Z",
       "dateLastUpdateAttempted": "2021-01-31T14:59:32.7254912Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10199,7 +10239,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 324598,
@@ -10275,7 +10315,7 @@
       "dateInstalled": "2021-01-31T14:52:22.7604738Z",
       "dateUpdated": "2021-01-31T14:57:16.5427305Z",
       "dateLastUpdateAttempted": "2021-01-31T14:57:16.5427305Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10284,7 +10324,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 241941,
@@ -10383,7 +10423,7 @@
       "dateInstalled": "2021-01-31T14:52:00.5666019Z",
       "dateUpdated": "2021-01-31T14:52:00.5666019Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10392,7 +10432,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 238590,
@@ -10493,7 +10533,7 @@
       "dateInstalled": "2021-01-31T14:52:22.813483Z",
       "dateUpdated": "2021-01-31T14:52:22.813483Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10502,7 +10542,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 311201,
@@ -10615,7 +10655,7 @@
       "dateInstalled": "2021-01-31T14:52:22.7934795Z",
       "dateUpdated": "2021-01-31T14:52:22.7934795Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10624,7 +10664,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 244181,
@@ -10713,7 +10753,7 @@
       "dateInstalled": "2021-01-31T14:52:00.5966073Z",
       "dateUpdated": "2021-01-31T14:52:00.5966073Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10722,7 +10762,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 336895,
@@ -10797,7 +10837,7 @@
       "dateInstalled": "2021-01-31T15:20:57.3726933Z",
       "dateUpdated": "2021-01-31T15:20:57.3866952Z",
       "dateLastUpdateAttempted": "2021-01-31T15:20:57.3866952Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10806,7 +10846,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 296686,
@@ -10875,7 +10915,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8434886Z",
       "dateUpdated": "2021-01-31T14:57:13.4151858Z",
       "dateLastUpdateAttempted": "2021-01-31T14:57:13.4151858Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10884,7 +10924,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 278822,
@@ -10952,7 +10992,7 @@
       "dateInstalled": "2021-01-31T14:52:24.9713597Z",
       "dateUpdated": "2021-01-31T14:56:13.2656939Z",
       "dateLastUpdateAttempted": "2021-01-31T14:56:13.2656939Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10961,7 +11001,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 250898,
@@ -11029,7 +11069,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8344879Z",
       "dateUpdated": "2021-01-31T14:58:35.0879351Z",
       "dateLastUpdateAttempted": "2021-01-31T14:58:35.0879351Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11038,7 +11078,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 278825,
@@ -11126,12 +11166,12 @@
         "gameVersionId": 4458,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "environmentalmaterials-1.12.2-1.0.20.1.jar"
+        "FileNameOnDisk": "environmentalmaterials-1.12.2-1.0.20.1.jar.disabled"
       },
       "dateInstalled": "2021-01-31T14:52:22.8769938Z",
       "dateUpdated": "2021-01-31T14:52:22.8769938Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11140,7 +11180,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 268773,
@@ -11214,7 +11254,7 @@
       "dateInstalled": "2021-01-31T14:52:00.5996079Z",
       "dateUpdated": "2021-01-31T14:52:00.5996079Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11223,7 +11263,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 277711,
@@ -11316,7 +11356,7 @@
       "dateInstalled": "2021-01-31T14:52:24.9883648Z",
       "dateUpdated": "2021-01-31T14:52:24.9883648Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11325,7 +11365,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 271009,
@@ -11381,7 +11421,7 @@
       "dateInstalled": "2021-01-31T14:52:22.859992Z",
       "dateUpdated": "2021-01-31T14:56:17.8784975Z",
       "dateLastUpdateAttempted": "2021-01-31T14:56:17.8784975Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11390,7 +11430,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 244201,
@@ -11502,7 +11542,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8234844Z",
       "dateUpdated": "2021-01-31T14:59:05.6882749Z",
       "dateLastUpdateAttempted": "2021-01-31T14:59:05.6882749Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11511,7 +11551,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 241967,
@@ -11592,7 +11632,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8404883Z",
       "dateUpdated": "2021-01-31T14:56:10.1426463Z",
       "dateLastUpdateAttempted": "2021-01-31T14:56:10.1426463Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11601,7 +11641,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 291126,
@@ -11683,7 +11723,7 @@
       "dateInstalled": "2021-01-31T14:52:22.830486Z",
       "dateUpdated": "2021-01-31T14:56:05.3648122Z",
       "dateLastUpdateAttempted": "2021-01-31T14:56:05.3648122Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11692,7 +11732,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 235279,
@@ -11768,7 +11808,7 @@
       "dateInstalled": "2021-01-31T14:52:00.6041086Z",
       "dateUpdated": "2021-01-31T14:54:24.7927654Z",
       "dateLastUpdateAttempted": "2021-01-31T14:54:24.7927654Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11777,7 +11817,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 306770,
@@ -11840,7 +11880,7 @@
       "dateInstalled": "2021-01-31T14:52:22.7969805Z",
       "dateUpdated": "2021-01-31T14:58:38.6260528Z",
       "dateLastUpdateAttempted": "2021-01-31T14:58:38.6260528Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11849,7 +11889,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 223008,
@@ -11953,7 +11993,7 @@
       "dateInstalled": "2021-01-31T14:52:22.7624745Z",
       "dateUpdated": "2021-01-31T14:58:31.5963265Z",
       "dateLastUpdateAttempted": "2021-01-31T14:58:31.5963265Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11962,7 +12002,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 231951,
@@ -12037,7 +12077,7 @@
       "dateInstalled": "2021-01-31T14:52:24.9578577Z",
       "dateUpdated": "2021-01-31T14:57:25.236748Z",
       "dateLastUpdateAttempted": "2021-01-31T14:57:25.236748Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12046,7 +12086,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 321315,
@@ -12128,7 +12168,7 @@
       "dateInstalled": "2021-01-31T14:52:25.006366Z",
       "dateUpdated": "2021-01-31T14:57:25.2397486Z",
       "dateLastUpdateAttempted": "2021-01-31T14:57:25.2397486Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12137,7 +12177,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 257655,
@@ -12230,7 +12270,7 @@
       "dateInstalled": "2021-01-31T14:52:24.9728598Z",
       "dateUpdated": "2021-01-31T14:52:24.9728598Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12239,7 +12279,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 278882,
@@ -12314,7 +12354,7 @@
       "dateInstalled": "2021-01-31T15:12:38.0475076Z",
       "dateUpdated": "2021-01-31T15:12:38.051508Z",
       "dateLastUpdateAttempted": "2021-01-31T15:12:38.051508Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12323,336 +12363,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
-    },
-    {
-      "addonID": 286703,
-      "gameInstanceID": "4839a036-32ff-4d00-9ab6-ae473e2276a7",
-      "installedFile": {
-        "id": 3180272,
-        "displayName": "Immersive Vehicles-1.12.2-19.14.0.jar",
-        "fileName": "Immersive Vehicles-1.12.2-19.14.0.jar",
-        "fileDate": "2021-01-25T00:49:04.28Z",
-        "fileLength": 3980032,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3180/272/Immersive Vehicles-1.12.2-19.14.0.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 0,
-            "addonId": 385792,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 368018,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 345406,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 309911,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 309695,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 413788,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 302390,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 375129,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 305830,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 337416,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 292897,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 325297,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 368137,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 363180,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 305715,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 327245,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 307859,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 406056,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 387208,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 323304,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 367160,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 327247,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 292217,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 357497,
-            "type": 2,
-            "fileId": 0
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2778466523,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "minecrafttransportsimulator",
-            "fingerprint": 3628491305,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 1903316378,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "Logo.png",
-            "fingerprint": 694062930,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 3578963502,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "vingette.png",
-            "fingerprint": 2883280611,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "vingette_classic.png",
-            "fingerprint": 3389842471,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "vingette_old.png",
-            "fingerprint": 3418780387,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "vingette_wide.png",
-            "fingerprint": 3419256951,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "junit",
-            "fingerprint": 782208152,
-            "type": 0,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 3508239176,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "Immersive Vehicles-1.12.2-19.14.0.jar"
-      },
-      "dateInstalled": "2021-01-31T15:39:45.8135746Z",
-      "dateUpdated": "2021-01-31T15:39:45.8235748Z",
-      "dateLastUpdateAttempted": "2021-01-31T15:39:45.8235748Z",
-      "status": 4,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": []
-    },
-    {
-      "addonID": 298995,
-      "gameInstanceID": "4839a036-32ff-4d00-9ab6-ae473e2276a7",
-      "installedFile": {
-        "id": 2922833,
-        "displayName": "SCP Lockdown-1.12.2-2.3.1-release",
-        "fileName": "SCP Lockdown-1.12.2-2.3.1-dev.jar",
-        "fileDate": "2020-04-06T19:32:08.477Z",
-        "fileLength": 10674833,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2922/833/SCP Lockdown-1.12.2-2.3.1-dev.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 4136996455,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "alexiy",
-            "fingerprint": 3877475794,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 1234299275,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 631442399,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 3720278957,
-            "type": 0,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 1352927341,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "SCP Lockdown-1.12.2-2.3.1-dev.jar"
-      },
-      "dateInstalled": "2021-01-31T14:52:24.9938643Z",
-      "dateUpdated": "2021-01-31T14:58:55.420983Z",
-      "dateLastUpdateAttempted": "2021-01-31T14:58:55.420983Z",
-      "status": 4,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 254317,
@@ -12721,7 +12432,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8424887Z",
       "dateUpdated": "2021-01-31T14:57:36.0921421Z",
       "dateLastUpdateAttempted": "2021-01-31T14:57:36.0921421Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12730,7 +12441,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 253211,
@@ -12805,7 +12516,7 @@
       "dateInstalled": "2021-01-31T14:52:24.9958642Z",
       "dateUpdated": "2021-01-31T14:52:24.9958642Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12814,7 +12525,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 233105,
@@ -12901,7 +12612,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8314881Z",
       "dateUpdated": "2021-01-31T14:52:22.8314881Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12910,7 +12621,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 293425,
@@ -13016,7 +12727,7 @@
       "dateInstalled": "2021-01-31T14:51:55.8572802Z",
       "dateUpdated": "2021-01-31T14:53:58.1936253Z",
       "dateLastUpdateAttempted": "2021-01-31T14:53:58.1936253Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13025,72 +12736,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
-    },
-    {
-      "addonID": 377201,
-      "gameInstanceID": "4839a036-32ff-4d00-9ab6-ae473e2276a7",
-      "installedFile": {
-        "id": 3140670,
-        "displayName": "TickCentral-3.2.jar",
-        "fileName": "TickCentral-3.2.jar",
-        "fileDate": "2020-12-16T20:31:24.67Z",
-        "fileLength": 53554,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3140/670/TickCentral-3.2.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2698655042,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 3989322497,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 3580283270,
-            "type": 0,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 790351058,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "TickCentral-3.2.jar"
-      },
-      "dateInstalled": "2021-01-31T14:57:45.9588629Z",
-      "dateUpdated": "2021-01-31T14:57:45.9623653Z",
-      "dateLastUpdateAttempted": "2021-01-31T14:57:45.9623653Z",
-      "status": 4,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 293426,
@@ -13147,7 +12793,7 @@
       "dateInstalled": "2021-01-31T14:52:00.5981074Z",
       "dateUpdated": "2021-01-31T14:53:29.6206403Z",
       "dateLastUpdateAttempted": "2021-01-31T14:53:29.6206403Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13156,7 +12802,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 226406,
@@ -13224,7 +12870,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8359876Z",
       "dateUpdated": "2021-01-31T14:54:35.9292078Z",
       "dateLastUpdateAttempted": "2021-01-31T14:54:35.9292078Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13233,7 +12879,72 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
+    },
+    {
+      "addonID": 377201,
+      "gameInstanceID": "4839a036-32ff-4d00-9ab6-ae473e2276a7",
+      "installedFile": {
+        "id": 3140670,
+        "displayName": "TickCentral-3.2.jar",
+        "fileName": "TickCentral-3.2.jar",
+        "fileDate": "2020-12-16T20:31:24.67Z",
+        "fileLength": 53554,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3140/670/TickCentral-3.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2698655042,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3989322497,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 3580283270,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 790351058,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "TickCentral-3.2.jar"
+      },
+      "dateInstalled": "2021-01-31T14:57:45.9588629Z",
+      "dateUpdated": "2021-01-31T14:57:45.9623653Z",
+      "dateLastUpdateAttempted": "2021-01-31T14:57:45.9623653Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
     },
     {
       "addonID": 288959,
@@ -13326,7 +13037,7 @@
       "dateInstalled": "2021-01-31T14:52:24.9908639Z",
       "dateUpdated": "2021-01-31T14:52:24.9908639Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13335,7 +13046,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 254334,
@@ -13410,7 +13121,7 @@
       "dateInstalled": "2021-01-31T15:17:49.2878097Z",
       "dateUpdated": "2021-01-31T15:17:49.2918118Z",
       "dateLastUpdateAttempted": "2021-01-31T15:17:49.2918118Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13419,7 +13130,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 285612,
@@ -13499,7 +13210,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8264852Z",
       "dateUpdated": "2021-01-31T14:58:44.9376549Z",
       "dateLastUpdateAttempted": "2021-01-31T14:58:44.9376549Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13508,7 +13219,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 253230,
@@ -13603,7 +13314,7 @@
       "dateInstalled": "2021-01-31T14:52:25.0018657Z",
       "dateUpdated": "2021-01-31T14:52:25.0018657Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13612,7 +13323,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 274456,
@@ -13807,7 +13518,7 @@
       "dateInstalled": "2021-01-31T14:52:24.9483566Z",
       "dateUpdated": "2021-01-31T14:56:06.2744712Z",
       "dateLastUpdateAttempted": "2021-01-31T14:56:06.2744712Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13816,7 +13527,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 285628,
@@ -13890,7 +13601,7 @@
       "dateInstalled": "2021-01-31T14:52:00.5801047Z",
       "dateUpdated": "2021-01-31T14:54:18.8592317Z",
       "dateLastUpdateAttempted": "2021-01-31T14:54:18.8592317Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13899,7 +13610,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 240950,
@@ -14004,7 +13715,7 @@
       "dateInstalled": "2021-01-31T14:52:22.7704764Z",
       "dateUpdated": "2021-01-31T14:52:22.7704764Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14013,7 +13724,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 284523,
@@ -14100,7 +13811,7 @@
       "dateInstalled": "2021-01-31T14:52:00.5631016Z",
       "dateUpdated": "2021-01-31T14:54:23.7540849Z",
       "dateLastUpdateAttempted": "2021-01-31T14:54:23.7540849Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14109,7 +13820,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 316920,
@@ -14189,7 +13900,7 @@
       "dateInstalled": "2021-01-31T14:52:00.593107Z",
       "dateUpdated": "2021-01-31T14:52:00.593107Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14198,7 +13909,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 223094,
@@ -14296,7 +14007,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8629933Z",
       "dateUpdated": "2021-01-31T14:52:22.8629933Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14305,7 +14016,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 248787,
@@ -14382,7 +14093,7 @@
       "dateInstalled": "2021-01-31T14:52:00.5646019Z",
       "dateUpdated": "2021-01-31T14:53:58.297143Z",
       "dateLastUpdateAttempted": "2021-01-31T14:53:58.297143Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14391,7 +14102,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 226447,
@@ -14473,7 +14184,7 @@
       "dateInstalled": "2021-01-31T14:52:24.9813612Z",
       "dateUpdated": "2021-01-31T14:52:24.9813612Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14482,7 +14193,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 245453,
@@ -14576,12 +14287,12 @@
         "gameVersionId": 4458,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "environmentaltech-1.12.2-2.0.20.1.jar"
+        "FileNameOnDisk": "environmentaltech-1.12.2-2.0.20.1.jar.disabled"
       },
       "dateInstalled": "2021-01-31T14:52:22.8074828Z",
       "dateUpdated": "2021-01-31T14:52:22.8074828Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14590,7 +14301,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 296851,
@@ -14659,7 +14370,7 @@
       "dateInstalled": "2021-01-31T14:52:00.5851054Z",
       "dateUpdated": "2021-01-31T14:54:19.3993248Z",
       "dateLastUpdateAttempted": "2021-01-31T14:54:19.3993248Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14668,7 +14379,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 252175,
@@ -14755,7 +14466,7 @@
       "dateInstalled": "2021-01-31T14:52:24.9768614Z",
       "dateUpdated": "2021-01-31T14:52:24.9768614Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14764,7 +14475,90 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
+    },
+    {
+      "addonID": 236541,
+      "gameInstanceID": "4839a036-32ff-4d00-9ab6-ae473e2276a7",
+      "installedFile": {
+        "id": 2949886,
+        "displayName": "LibVulpes 1.12.2-0.4.2-75 build -75 for 1.12.2",
+        "fileName": "LibVulpes-1.12.2-0.4.2-75-universal.jar",
+        "fileDate": "2020-05-06T17:31:02.917Z",
+        "fileLength": 519241,
+        "releaseType": 2,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2949/886/LibVulpes-1.12.2-0.4.2-75-universal.jar",
+        "isAlternate": false,
+        "alternateFileId": 2949887,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2707120590,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "zmaster587",
+            "fingerprint": 347847603,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2831742762,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 1366471881,
+            "type": 3,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 2489241496,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1854034,
+        "projectId": 236541,
+        "packageFingerprintId": 453055735,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 2214706,
+        "gameVersionId": 4458,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "LibVulpes-1.12.2-0.4.2-75-universal.jar"
+      },
+      "dateInstalled": "2021-02-08T14:57:41.0007022Z",
+      "dateUpdated": "2021-02-08T14:57:41.0007022Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
     },
     {
       "addonID": 236542,
@@ -14833,7 +14627,7 @@
       "dateInstalled": "2021-01-31T16:14:39.7794116Z",
       "dateUpdated": "2021-01-31T16:14:39.8114162Z",
       "dateLastUpdateAttempted": "2021-01-31T16:14:39.8114162Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14842,7 +14636,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 245480,
@@ -14922,7 +14716,7 @@
       "dateInstalled": "2021-01-31T14:52:22.7684756Z",
       "dateUpdated": "2021-01-31T14:52:22.7684756Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14931,7 +14725,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 278993,
@@ -15001,7 +14795,7 @@
       "dateInstalled": "2021-01-31T14:52:00.5951071Z",
       "dateUpdated": "2021-01-31T14:54:10.7253116Z",
       "dateLastUpdateAttempted": "2021-01-31T14:54:10.7253116Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -15010,85 +14804,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
-    },
-    {
-      "addonID": 261124,
-      "gameInstanceID": "4839a036-32ff-4d00-9ab6-ae473e2276a7",
-      "installedFile": {
-        "id": 3186130,
-        "displayName": "uniquecrops-1.12.2-0.2.3.jar",
-        "fileName": "uniquecrops-1.12.2-0.2.3.jar",
-        "fileDate": "2021-01-29T23:12:33.74Z",
-        "fileLength": 5105917,
-        "releaseType": 2,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3186/130/uniquecrops-1.12.2-0.2.3.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 4054010954,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 1531068412,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 2730222876,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 291341731,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 3048663767,
-            "type": 0,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 1892321710,
-        "gameVersion": [
-          "Forge",
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "uniquecrops-1.12.2-0.2.3.jar"
-      },
-      "dateInstalled": "2021-01-31T15:21:12.9999193Z",
-      "dateUpdated": "2021-01-31T15:21:13.0119214Z",
-      "dateLastUpdateAttempted": "2021-01-31T15:21:13.0119214Z",
-      "status": 4,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 223150,
@@ -15207,7 +14923,7 @@
       "dateInstalled": "2021-01-31T14:52:22.785478Z",
       "dateUpdated": "2021-01-31T14:52:22.785478Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -15216,7 +14932,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 277890,
@@ -15290,7 +15006,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8334877Z",
       "dateUpdated": "2021-01-31T14:52:22.8334877Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -15299,7 +15015,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 60089,
@@ -15379,7 +15095,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8414882Z",
       "dateUpdated": "2021-01-31T14:52:22.8414882Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -15388,7 +15104,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 227639,
@@ -15512,7 +15228,7 @@
       "dateInstalled": "2021-01-31T14:52:24.9503566Z",
       "dateUpdated": "2021-01-31T14:59:17.2962995Z",
       "dateLastUpdateAttempted": "2021-01-31T14:59:17.2962995Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -15521,7 +15237,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 229876,
@@ -15595,7 +15311,7 @@
       "dateInstalled": "2021-01-31T14:52:00.5881057Z",
       "dateUpdated": "2021-01-31T14:52:00.5881057Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -15604,7 +15320,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 310303,
@@ -15672,7 +15388,7 @@
       "dateInstalled": "2021-01-31T14:52:00.6006078Z",
       "dateUpdated": "2021-01-31T14:54:09.425086Z",
       "dateLastUpdateAttempted": "2021-01-31T14:54:09.425086Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -15681,7 +15397,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 237701,
@@ -15763,7 +15479,7 @@
       "dateInstalled": "2021-01-31T14:52:25.0033658Z",
       "dateUpdated": "2021-01-31T14:52:25.0033658Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -15772,7 +15488,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 290201,
@@ -15859,7 +15575,7 @@
       "dateInstalled": "2021-01-31T14:52:22.766977Z",
       "dateUpdated": "2021-01-31T14:52:22.766977Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -15868,80 +15584,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
-    },
-    {
-      "addonID": 358340,
-      "gameInstanceID": "4839a036-32ff-4d00-9ab6-ae473e2276a7",
-      "installedFile": {
-        "id": 2859223,
-        "displayName": "ncradmetabolosis-1.12.2-1.0.0.0.jar",
-        "fileName": "ncradmetabolosis-1.12.2-1.0.0.0.jar",
-        "fileDate": "2020-01-12T20:28:31.063Z",
-        "fileLength": 9559,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2859/223/ncradmetabolosis-1.12.2-1.0.0.0.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 0,
-            "addonId": 226254,
-            "type": 3,
-            "fileId": 0
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 3160807098,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "somdudewillson",
-            "fingerprint": 2358675878,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 834179308,
-            "type": 0,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 13750013,
-        "gameVersion": [
-          "Forge",
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "ncradmetabolosis-1.12.2-1.0.0.0.jar"
-      },
-      "dateInstalled": "2021-01-31T16:16:37.3504233Z",
-      "dateUpdated": "2021-01-31T16:16:37.4389387Z",
-      "dateLastUpdateAttempted": "2021-01-31T16:16:37.4389387Z",
-      "status": 4,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 246640,
@@ -16022,6 +15665,77 @@
       "dateInstalled": "2021-01-31T14:52:24.9518565Z",
       "dateUpdated": "2021-01-31T14:52:24.9518565Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 257814,
+      "gameInstanceID": "4839a036-32ff-4d00-9ab6-ae473e2276a7",
+      "installedFile": {
+        "id": 3198625,
+        "displayName": "CreativeCore_v1.10.45_mc1.12.2.jar",
+        "fileName": "CreativeCore_v1.10.45_mc1.12.2.jar",
+        "fileDate": "2021-02-09T23:15:14.807Z",
+        "fileLength": 1210999,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3198/625/CreativeCore_v1.10.45_mc1.12.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 706250759,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2615324892,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 1935142706,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2386279131,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 3100804689,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "CreativeCore_v1.10.45_mc1.12.2.jar"
+      },
+      "dateInstalled": "2021-02-16T21:15:14.7637905Z",
+      "dateUpdated": "2021-02-16T21:15:14.7692924Z",
+      "dateLastUpdateAttempted": "2021-02-16T21:15:14.7692924Z",
       "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -16111,7 +15825,7 @@
       "dateInstalled": "2021-01-31T14:52:00.5896061Z",
       "dateUpdated": "2021-01-31T14:52:00.5896061Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -16120,156 +15834,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
-    },
-    {
-      "addonID": 257814,
-      "gameInstanceID": "4839a036-32ff-4d00-9ab6-ae473e2276a7",
-      "installedFile": {
-        "id": 3173840,
-        "displayName": "CreativeCore_v1.10.44_mc1.12.2.jar",
-        "fileName": "CreativeCore_v1.10.44_mc1.12.2.jar",
-        "fileDate": "2021-01-19T16:21:38.217Z",
-        "fileLength": 1193769,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3173/840/CreativeCore_v1.10.44_mc1.12.2.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 706250759,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2615324892,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 765886277,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 2386279131,
-            "type": 0,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 4148957158,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "CreativeCore_v1.10.44_mc1.12.2.jar"
-      },
-      "dateInstalled": "2021-01-31T14:52:00.5736032Z",
-      "dateUpdated": "2021-01-31T14:54:35.6991694Z",
-      "dateLastUpdateAttempted": "2021-01-31T14:54:35.6991694Z",
-      "status": 4,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": []
-    },
-    {
-      "addonID": 257815,
-      "gameInstanceID": "4839a036-32ff-4d00-9ab6-ae473e2276a7",
-      "installedFile": {
-        "id": 3047154,
-        "displayName": "OnlinePicFrame_v1.5.0-pre1_mc1.12.2.jar",
-        "fileName": "OnlinePicFrame_v1.5.0-pre1_mc1.12.2.jar",
-        "fileDate": "2020-09-01T09:30:42.713Z",
-        "fileLength": 79452,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3047/154/OnlinePicFrame_v1.5.0-pre1_mc1.12.2.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 0,
-            "addonId": 257818,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 257814,
-            "type": 3,
-            "fileId": 0
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "assets",
-            "fingerprint": 1078806175,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 4292929229,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 2045797732,
-            "type": 0,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 2002941006,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "OnlinePicFrame_v1.5.0-pre1_mc1.12.2.jar"
-      },
-      "dateInstalled": "2021-01-31T14:52:24.9603584Z",
-      "dateUpdated": "2021-01-31T14:58:28.4742805Z",
-      "dateLastUpdateAttempted": "2021-01-31T14:58:28.4742805Z",
-      "status": 4,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 220954,
@@ -16338,7 +15903,7 @@
       "dateInstalled": "2021-01-31T14:52:24.9788614Z",
       "dateUpdated": "2021-01-31T14:58:19.5967323Z",
       "dateLastUpdateAttempted": "2021-01-31T14:58:19.5967323Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -16347,20 +15912,20 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 257818,
       "gameInstanceID": "4839a036-32ff-4d00-9ab6-ae473e2276a7",
       "installedFile": {
-        "id": 3178353,
-        "displayName": "LittleTiles_v1.5.0-pre320_mc1.12.2.jar",
-        "fileName": "LittleTiles_v1.5.0-pre320_mc1.12.2.jar",
-        "fileDate": "2021-01-23T10:18:09.23Z",
-        "fileLength": 2045089,
+        "id": 3199056,
+        "displayName": "LittleTiles_v1.5.0-pre324_mc1.12.2.jar",
+        "fileName": "LittleTiles_v1.5.0-pre324_mc1.12.2.jar",
+        "fileDate": "2021-02-10T11:22:41.763Z",
+        "fileLength": 2053795,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3178/353/LittleTiles_v1.5.0-pre320_mc1.12.2.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3199/56/LittleTiles_v1.5.0-pre324_mc1.12.2.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -16387,18 +15952,18 @@
           },
           {
             "foldername": "com",
-            "fingerprint": 2894127396,
+            "fingerprint": 1178642524,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "assets",
-            "fingerprint": 106016153,
+            "fingerprint": 2556261800,
             "type": 0,
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 2876784369,
+        "packageFingerprint": 958463397,
         "gameVersion": [
           "1.12.2"
         ],
@@ -16411,11 +15976,11 @@
         "gameVersionDateReleased": "2017-09-18T05:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "LittleTiles_v1.5.0-pre320_mc1.12.2.jar"
+        "FileNameOnDisk": "LittleTiles_v1.5.0-pre324_mc1.12.2.jar"
       },
-      "dateInstalled": "2021-01-31T14:52:22.8064816Z",
-      "dateUpdated": "2021-01-31T14:58:08.8613585Z",
-      "dateLastUpdateAttempted": "2021-01-31T14:58:08.8613585Z",
+      "dateInstalled": "2021-02-16T21:15:16.1305333Z",
+      "dateUpdated": "2021-02-16T21:15:16.1385359Z",
+      "dateLastUpdateAttempted": "2021-02-16T21:15:16.1385359Z",
       "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -16493,6 +16058,78 @@
       "dateInstalled": "2021-01-31T14:52:25.0058662Z",
       "dateUpdated": "2021-01-31T14:58:09.6304931Z",
       "dateLastUpdateAttempted": "2021-01-31T14:58:09.6304931Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 270116,
+      "gameInstanceID": "4839a036-32ff-4d00-9ab6-ae473e2276a7",
+      "installedFile": {
+        "id": 2527645,
+        "displayName": "BiomeTweakerCore-1.12.2 1.0.39",
+        "fileName": "BiomeTweakerCore-1.12.2-1.0.39.jar",
+        "fileDate": "2018-02-03T18:28:41.67Z",
+        "fileLength": 45137,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2527/645/BiomeTweakerCore-1.12.2-1.0.39.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 228895,
+            "type": 2,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2653735935,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "me",
+            "fingerprint": 3290429647,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 2282471623,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 4074996266,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "BiomeTweakerCore-1.12.2-1.0.39.jar"
+      },
+      "dateInstalled": "2021-02-16T21:38:58.2988367Z",
+      "dateUpdated": "2021-02-16T21:38:58.3048406Z",
+      "dateLastUpdateAttempted": "2021-02-16T21:38:58.3048406Z",
       "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -16571,7 +16208,7 @@
       "dateInstalled": "2021-01-31T14:52:23.6581303Z",
       "dateUpdated": "2021-01-31T14:55:39.6393235Z",
       "dateLastUpdateAttempted": "2021-01-31T14:55:39.6393235Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -16580,7 +16217,84 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
+    },
+    {
+      "addonID": 256717,
+      "gameInstanceID": "4839a036-32ff-4d00-9ab6-ae473e2276a7",
+      "installedFile": {
+        "id": 2666198,
+        "displayName": "Clumps-3.1.2",
+        "fileName": "Clumps-3.1.2.jar",
+        "fileDate": "2019-01-28T22:56:57.45Z",
+        "fileLength": 13792,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2666/198/Clumps-3.1.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1241217930,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 1263363311,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 2536839976,
+            "type": 3,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 1290884162,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1505816,
+        "projectId": 256717,
+        "packageFingerprintId": 289935575,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 1742943,
+        "gameVersionId": 4458,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "Clumps-3.1.2.jar"
+      },
+      "dateInstalled": "2021-01-31T14:52:00.5826065Z",
+      "dateUpdated": "2021-01-31T14:52:00.5826065Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
     },
     {
       "addonID": 283525,
@@ -16662,7 +16376,7 @@
       "dateInstalled": "2021-01-31T14:52:24.9548568Z",
       "dateUpdated": "2021-01-31T14:57:46.2184078Z",
       "dateLastUpdateAttempted": "2021-01-31T14:57:46.2184078Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -16671,84 +16385,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
-    },
-    {
-      "addonID": 256717,
-      "gameInstanceID": "4839a036-32ff-4d00-9ab6-ae473e2276a7",
-      "installedFile": {
-        "id": 2666198,
-        "displayName": "Clumps-3.1.2",
-        "fileName": "Clumps-3.1.2.jar",
-        "fileDate": "2019-01-28T22:56:57.45Z",
-        "fileLength": 13792,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2666/198/Clumps-3.1.2.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 1241217930,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 1263363311,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 2536839976,
-            "type": 3,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 1290884162,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000012.0000000002",
-            "gameVersion": "1.12.2",
-            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
-            "gameVersionName": "1.12.2"
-          }
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1505816,
-        "projectId": 256717,
-        "packageFingerprintId": 289935575,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 1742943,
-        "gameVersionId": 4458,
-        "gameId": 432,
-        "isServerPack": false,
-        "FileNameOnDisk": "Clumps-3.1.2.jar"
-      },
-      "dateInstalled": "2021-01-31T14:52:00.5826065Z",
-      "dateUpdated": "2021-01-31T14:52:00.5826065Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 238856,
@@ -16816,7 +16453,7 @@
       "dateInstalled": "2021-01-31T14:52:00.5716028Z",
       "dateUpdated": "2021-01-31T14:54:09.5546067Z",
       "dateLastUpdateAttempted": "2021-01-31T14:54:09.5546067Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -16825,7 +16462,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 238857,
@@ -16893,7 +16530,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8154831Z",
       "dateUpdated": "2021-01-31T14:54:09.74464Z",
       "dateLastUpdateAttempted": "2021-01-31T14:54:09.74464Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -16902,7 +16539,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 244451,
@@ -16971,7 +16608,7 @@
       "dateInstalled": "2021-01-31T14:52:22.7764769Z",
       "dateUpdated": "2021-01-31T14:57:20.4859186Z",
       "dateLastUpdateAttempted": "2021-01-31T14:57:20.4859186Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -16980,7 +16617,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 303657,
@@ -17060,7 +16697,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8544909Z",
       "dateUpdated": "2021-01-31T14:52:22.8544909Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17069,7 +16706,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 228832,
@@ -17157,7 +16794,7 @@
       "dateInstalled": "2021-01-31T14:52:22.7979809Z",
       "dateUpdated": "2021-01-31T14:52:22.7979809Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17166,7 +16803,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 243363,
@@ -17235,7 +16872,7 @@
       "dateInstalled": "2021-01-31T14:52:22.756473Z",
       "dateUpdated": "2021-01-31T14:53:17.4365149Z",
       "dateLastUpdateAttempted": "2021-01-31T14:53:17.4365149Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17244,7 +16881,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 269054,
@@ -17339,7 +16976,7 @@
       "dateInstalled": "2021-01-31T14:52:23.65713Z",
       "dateUpdated": "2021-01-31T14:52:23.65713Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17348,7 +16985,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 266824,
@@ -17429,7 +17066,7 @@
       "dateInstalled": "2021-01-31T14:52:00.5861063Z",
       "dateUpdated": "2021-01-31T14:52:00.5861063Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17438,7 +17075,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 283589,
@@ -17543,7 +17180,7 @@
       "dateInstalled": "2021-01-31T14:52:22.7739764Z",
       "dateUpdated": "2021-01-31T14:52:22.7739764Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17552,7 +17189,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 238911,
@@ -17626,7 +17263,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8044816Z",
       "dateUpdated": "2021-01-31T14:52:22.8044816Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17635,7 +17272,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 261251,
@@ -17704,7 +17341,7 @@
       "dateInstalled": "2021-01-31T14:52:00.5926065Z",
       "dateUpdated": "2021-01-31T14:54:01.3046672Z",
       "dateLastUpdateAttempted": "2021-01-31T14:54:01.3046672Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17713,7 +17350,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 231095,
@@ -17820,7 +17457,7 @@
       "dateInstalled": "2021-01-31T14:52:00.5616007Z",
       "dateUpdated": "2021-01-31T14:52:00.5616007Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17829,7 +17466,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 32274,
@@ -17958,7 +17595,7 @@
       "dateInstalled": "2021-01-31T16:29:02.9270062Z",
       "dateUpdated": "2021-01-31T16:29:02.9550098Z",
       "dateLastUpdateAttempted": "2021-01-31T16:29:02.9550098Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17967,7 +17604,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 308192,
@@ -18053,6 +17690,103 @@
       "dateInstalled": "2021-01-31T14:52:24.9678593Z",
       "dateUpdated": "2021-01-31T14:52:24.9678593Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 228895,
+      "gameInstanceID": "4839a036-32ff-4d00-9ab6-ae473e2276a7",
+      "installedFile": {
+        "id": 3112142,
+        "displayName": "BiomeTweaker-1.12.2 3.2.369",
+        "fileName": "BiomeTweaker-1.12.2-3.2.369.jar",
+        "fileDate": "2020-11-15T09:17:13.447Z",
+        "fileLength": 571464,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3112/142/BiomeTweaker-1.12.2-3.2.369.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 270116,
+            "type": 2,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1237964566,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "me",
+            "fingerprint": 1572805750,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 1294925302,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1725062551,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "logo.png",
+            "fingerprint": 4047149370,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "LICENSE.txt",
+            "fingerprint": 1185419476,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "NOTICE.txt",
+            "fingerprint": 3411389661,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 478252670,
+        "gameVersion": [
+          "Forge",
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "BiomeTweaker-1.12.2-3.2.369.jar"
+      },
+      "dateInstalled": "2021-02-16T21:34:32.4667697Z",
+      "dateUpdated": "2021-02-16T21:34:32.4717707Z",
+      "dateLastUpdateAttempted": "2021-02-16T21:34:32.4717707Z",
       "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -18154,7 +17888,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8669926Z",
       "dateUpdated": "2021-01-31T14:52:22.8669926Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -18163,7 +17897,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 314904,
@@ -18231,7 +17965,7 @@
       "dateInstalled": "2021-01-31T14:52:22.7814781Z",
       "dateUpdated": "2021-01-31T14:57:07.4776491Z",
       "dateLastUpdateAttempted": "2021-01-31T14:57:07.4776491Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -18240,7 +17974,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 283644,
@@ -18308,7 +18042,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8664938Z",
       "dateUpdated": "2021-01-31T14:52:22.8664938Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -18317,7 +18051,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 254602,
@@ -18393,6 +18127,102 @@
       "dateInstalled": "2021-01-31T14:52:22.8109829Z",
       "dateUpdated": "2021-01-31T14:59:07.4815872Z",
       "dateLastUpdateAttempted": "2021-01-31T14:59:07.4815872Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 435557,
+      "gameInstanceID": "4839a036-32ff-4d00-9ab6-ae473e2276a7",
+      "installedFile": {
+        "id": 3174412,
+        "displayName": "LittleFrames_v1.0.3_mc1.12.2.jar",
+        "fileName": "LittleFrames_v1.0.3_mc1.12.2.jar",
+        "fileDate": "2021-01-20T00:24:56.783Z",
+        "fileLength": 583867,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3174/412/LittleFrames_v1.0.3_mc1.12.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 257814,
+            "type": 3,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 257818,
+            "type": 3,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "com",
+            "fingerprint": 3311591309,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "team",
+            "fingerprint": 749329440,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 1294448108,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "uk",
+            "fingerprint": 3726562313,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2375867636,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2124061557,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 1385066022,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "LittleFrames_v1.0.3_mc1.12.2.jar"
+      },
+      "dateInstalled": "2021-02-16T21:15:16.9851842Z",
+      "dateUpdated": "2021-02-16T21:15:16.9912762Z",
+      "dateLastUpdateAttempted": "2021-02-16T21:15:16.9912762Z",
       "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -18496,7 +18326,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8739947Z",
       "dateUpdated": "2021-01-31T14:52:22.8739947Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -18505,7 +18335,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 280294,
@@ -18574,7 +18404,7 @@
       "dateInstalled": "2021-01-31T14:52:22.7694759Z",
       "dateUpdated": "2021-01-31T14:57:06.2224323Z",
       "dateLastUpdateAttempted": "2021-01-31T14:57:06.2224323Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -18583,7 +18413,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 276951,
@@ -18664,7 +18494,7 @@
       "dateInstalled": "2021-01-31T15:04:57.1510945Z",
       "dateUpdated": "2021-01-31T15:04:57.1560948Z",
       "dateLastUpdateAttempted": "2021-01-31T15:04:57.1560948Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -18673,7 +18503,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 318283,
@@ -18755,7 +18585,7 @@
       "dateInstalled": "2021-01-31T15:29:51.149322Z",
       "dateUpdated": "2021-01-31T15:29:51.1803265Z",
       "dateLastUpdateAttempted": "2021-01-31T15:29:51.1803265Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -18764,7 +18594,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 298187,
@@ -18900,7 +18730,7 @@
       "dateInstalled": "2021-01-31T14:52:00.5836055Z",
       "dateUpdated": "2021-01-31T14:54:16.7873692Z",
       "dateLastUpdateAttempted": "2021-01-31T14:54:16.7873692Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -18909,7 +18739,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 280316,
@@ -19002,7 +18832,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8489906Z",
       "dateUpdated": "2021-01-31T14:52:22.8489906Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -19011,7 +18841,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 271384,
@@ -19073,7 +18903,7 @@
       "dateInstalled": "2021-01-31T14:52:00.5756045Z",
       "dateUpdated": "2021-01-31T14:54:25.7029255Z",
       "dateLastUpdateAttempted": "2021-01-31T14:54:25.7029255Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -19082,7 +18912,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 224472,
@@ -19145,7 +18975,7 @@
       "dateInstalled": "2021-01-31T14:52:00.586606Z",
       "dateUpdated": "2021-01-31T14:53:54.5059826Z",
       "dateLastUpdateAttempted": "2021-01-31T14:53:54.5059826Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -19154,7 +18984,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 291493,
@@ -19235,7 +19065,7 @@
       "dateInstalled": "2021-01-31T14:52:22.7804774Z",
       "dateUpdated": "2021-01-31T14:52:22.7804774Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -19244,7 +19074,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 416599,
@@ -19312,7 +19142,7 @@
       "dateInstalled": "2021-01-31T15:45:06.76557Z",
       "dateUpdated": "2021-01-31T15:45:06.7700708Z",
       "dateLastUpdateAttempted": "2021-01-31T15:45:06.7700708Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -19321,7 +19151,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 291499,
@@ -19390,12 +19220,12 @@
         "gameVersionId": 4458,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "PTRLib-1.0.4.jar"
+        "FileNameOnDisk": "PTRLib-1.0.4.jar.disabled"
       },
       "dateInstalled": "2021-01-31T14:52:25.0048656Z",
       "dateUpdated": "2021-01-31T14:52:25.0048656Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -19404,7 +19234,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 291502,
@@ -19479,7 +19309,7 @@
       "dateInstalled": "2021-01-31T14:52:22.837989Z",
       "dateUpdated": "2021-01-31T14:58:43.4548959Z",
       "dateLastUpdateAttempted": "2021-01-31T14:58:43.4548959Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -19488,7 +19318,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 226719,
@@ -19581,7 +19411,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8619917Z",
       "dateUpdated": "2021-01-31T14:52:22.8619917Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -19590,7 +19420,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 225603,
@@ -19677,7 +19507,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8554905Z",
       "dateUpdated": "2021-01-31T14:52:22.8554905Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -19686,7 +19516,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 261348,
@@ -19761,7 +19591,7 @@
       "dateInstalled": "2021-01-31T14:52:00.5776045Z",
       "dateUpdated": "2021-01-31T14:54:00.3444997Z",
       "dateLastUpdateAttempted": "2021-01-31T14:54:00.3444997Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -19770,7 +19600,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 225605,
@@ -19850,7 +19680,7 @@
       "dateInstalled": "2021-01-31T14:52:24.9818614Z",
       "dateUpdated": "2021-01-31T14:52:24.9818614Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -19859,7 +19689,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 243478,
@@ -19940,7 +19770,7 @@
       "dateInstalled": "2021-01-31T14:52:22.777477Z",
       "dateUpdated": "2021-01-31T14:52:22.777477Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -19949,7 +19779,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 225608,
@@ -20029,7 +19859,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8324872Z",
       "dateUpdated": "2021-01-31T14:59:31.1767211Z",
       "dateLastUpdateAttempted": "2021-01-31T14:59:31.1767211Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -20038,7 +19868,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 243482,
@@ -20227,7 +20057,7 @@
       "dateInstalled": "2021-01-31T14:52:25.0028654Z",
       "dateUpdated": "2021-01-31T14:58:59.5071963Z",
       "dateLastUpdateAttempted": "2021-01-31T14:58:59.5071963Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -20236,7 +20066,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 378646,
@@ -20311,7 +20141,7 @@
       "dateInstalled": "2021-01-31T15:08:42.6389361Z",
       "dateUpdated": "2021-01-31T15:08:42.6439363Z",
       "dateLastUpdateAttempted": "2021-01-31T15:08:42.6439363Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -20320,7 +20150,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 313866,
@@ -20407,7 +20237,7 @@
       "dateInstalled": "2021-01-31T14:52:24.9538569Z",
       "dateUpdated": "2021-01-31T14:55:41.032567Z",
       "dateLastUpdateAttempted": "2021-01-31T14:55:41.032567Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -20416,7 +20246,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 245733,
@@ -20490,7 +20320,7 @@
       "dateInstalled": "2021-01-31T14:52:22.8369904Z",
       "dateUpdated": "2021-01-31T14:52:22.8369904Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -20499,7 +20329,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     }
   ],
   "isMigrated": false,

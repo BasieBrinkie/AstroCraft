@@ -1,0 +1,6 @@
+
+{
+  "Name": "jurassicraft.goat",
+  "Registry ID": "jurassicraft:entities.goat",
+  "Class": "org.jurassicraft.server.entity.GoatEntity"
+}

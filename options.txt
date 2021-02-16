@@ -116,7 +116,6 @@ key_pneumaticcraft.helmet.hack:35
 key_pneumaticcraft.helmet.debugging.drone:21
 key_pneumaticcraft.boots.kick:45:CONTROL
 key_pneumaticcraft.chestplate.launcher:46:CONTROL
-key_psimisc.keybind:46
 key_key.toggleFoVChanges:51:SHIFT
 key_key.reloadSoundSystem:66:SHIFT
 key_key.toggleTimeOfDayOverlay:43:CONTROL
@@ -131,8 +130,6 @@ key_schematica.key.renderToggle:0
 key_schematica.key.printerToggle:0
 key_schematica.key.moveHere:0
 key_schematica.key.pickBlock:-98:SHIFT
-key_translationKey.scp.nightvision_toggle:49
-key_Rotate stored structure:47
 key_key.toastcontrol.clear:36
 key_key.microraptor_dismount:46
 key_key.vehicle_helicopter.up:57
@@ -169,6 +166,7 @@ key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
 key_key.toggle_focus.desc:15
 key_Seamoth descend:46
+key_nei.options.keys.gui.botania_corporea_request:46
 key_key.settings_menu:34
 key_key.range:19
 key_key.undo:22
@@ -259,7 +257,6 @@ key_techguns.key.toggleSafemode:48
 key_techguns.key.toggleStepassist:47
 key_techguns.key.forceReload:19
 key_techguns.key.toggleJetpack:36
-key_key.pixelglasses:47
 key_WorldEdit Reference:38
 key_Open Matter Scanner GUI:46
 key_Android Ability key:45
@@ -293,7 +290,6 @@ key_key.journeymap.fullscreen.south:208
 key_key.journeymap.fullscreen.east:205
 key_key.journeymap.fullscreen.west:203
 key_Profile GUI:72
-key_key.mts.config:25
 soundCategory_master:0.0
 soundCategory_music:0.0
 soundCategory_record:1.0

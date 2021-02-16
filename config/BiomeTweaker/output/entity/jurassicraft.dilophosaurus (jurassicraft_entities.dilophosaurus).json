@@ -1,0 +1,6 @@
+
+{
+  "Name": "jurassicraft.dilophosaurus",
+  "Registry ID": "jurassicraft:entities.dilophosaurus",
+  "Class": "org.jurassicraft.server.entity.dinosaur.DilophosaurusEntity"
+}
