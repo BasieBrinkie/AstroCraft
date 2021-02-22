@@ -83,6 +83,12 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:stone:0>]
 		]
 	],
+	<minecraft:log:0>: [
+		[
+			[<minecraft:planks:0>, <minecraft:planks:0>],
+			[<minecraft:planks:0>, <minecraft:planks:0>]
+		]
+	],
 	<minecraft:paper:0> * 2: [
 		[
 			[<mekanism:sawdust:0>, <mekanism:sawdust:0>, <mekanism:sawdust:0>]
@@ -127,9 +133,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<minecraft:stone_shovel>: [
 		[
+			[<ore:stone>],
 			[<ore:stickWood>],
-			[<ore:stickWood>],
-			[<minecraft:stone:0>]
+			[<ore:stickWood>]
 		]
 	],
 	<minecraft:stonebrick:0>: [
@@ -142,6 +148,11 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		[
 			[<ore:plankWood>], 
 			[<ore:plankWood>]
+		],
+		[
+			[<advancedrocketry:charcoallog:0>],
+			[<advancedrocketry:charcoallog:0>],
+			[<advancedrocketry:charcoallog:0>]
 		]
 	],
 	<minecraft:torch:0>: [
@@ -166,6 +177,11 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<minecraft:wooden_pickaxe>: [
 		[
 			[<ore:logWood>, <ore:logWood>, <ore:logWood>],
+			[null, <ore:stickWood>, null],
+			[null, <ore:stickWood>, null]
+		],
+		[
+			[<advancedrocketry:charcoallog:0>, <advancedrocketry:charcoallog:0>, <advancedrocketry:charcoallog:0>],
 			[null, <ore:stickWood>, null],
 			[null, <ore:stickWood>, null]
 		]
