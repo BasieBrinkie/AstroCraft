@@ -4,26 +4,4 @@
     "input": "minecraft:magma",
     "output": "minecraft:obsidian"
   }
-
-
-
-
-  {
-    "fluidName": "water",
-    "input": "ore:dust",
-    "output": "minecraft:clay:0"
-  },
-  {
-    "fluidName": "milk",
-    "input": "minecraft:brown_mushroom:0",
-    "output": "minecraft:slime:0",
-    "toSpawn": "Slime",
-    "spawnCount": 4,
-    "spawnRange": 4
-  },
-  {
-    "fluidName": "lava",
-    "input": "appliedenergistics2:material:45",
-    "output": "appliedenergistics2:sky_stone_block:0"
-  }
 ]
