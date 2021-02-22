@@ -5,7 +5,7 @@ import crafttweaker.block.IBlockDefinition;
 import crafttweaker.formatting.IFormattedText;
 
 static itemNames as string[IItemStack] = {
-	<skyresources:alchemyitemcomponent:1>: "Oxygenated Crystal Shard"
+	<skyresources:alchemyitemcomponent:1>: "Oxygen Crystal Shard"
 };
 
 static unlocalizedNames as string[string] = {

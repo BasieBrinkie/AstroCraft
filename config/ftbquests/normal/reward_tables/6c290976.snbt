@@ -16,7 +16,7 @@
 	},
 	{
 		title: "Kitchen-Sink",
-		icon: "props:props 1 343",
+		icon: "excompressum:wooden_crucible",
 		stage: "gamemode_kitchensink",
 		type: "gamestage"
 	}]

@@ -30,9 +30,8 @@
 		"",
 		"*** Genius ***",
 		"You'll be forced to progress through every mod. At the same time your study time is limited to learning a single profession.",
-		"If you need lot's of focus, this mode will guide you with that. Along with that you will keep exploring until you've stumbled across the borders of the universe.",
-		"Meanwhile your spaceship will have progressed into the Death Star of Star Wars filled all goodies this pack has to offer.",
-		""
+		"If you need lots of focus, this mode will guide you with that. Along with that you will keep exploring until you've stumbled upon the borders of the universe.",
+		"Meanwhile your spaceship will have containing all goodies this modpack has to offer."
 	],
 	tasks: [{
 		uid: "05c388de",
@@ -54,6 +53,13 @@
 		uid: "753369db",
 		type: "choice",
 		team_reward: false,
+		auto: "disabled",
 		table: 0
+	},
+	{
+		uid: "7ed0f7f8",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "oxygen_one"
 	}]
 }

@@ -19,6 +19,7 @@ static compressionChamberAdd as ILiquidStack[IIngredient][IItemStack] = {
 
 static compressionChamberRemove as IItemStack[] = [
 	<factorytech:core_unfinished:0>,
+	<factorytech:core_unfinished:99>,
 	<factorytech:machinepart:62>,
 	<factorytech:machinepart:140>,
 	<factorytech:machinepart:141>,

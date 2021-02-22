@@ -1,16 +1,13 @@
 {
 	"folders": [
 		{
-			"name": "config",
 			"path": "."
 		},
 		{
-			"name": "resources",
-			"path": "C:\\Users\\basie\\OneDrive\\Documents\\Curse\\Instances\\AstroCraft\\resources"
+			"path": "..\\resources"
 		},
 		{
-			"name": "scripts",
-			"path": "C:\\Users\\basie\\OneDrive\\Documents\\Curse\\Instances\\AstroCraft\\scripts"
+			"path": "..\\scripts"
 		}
 	],
 	"settings": {}

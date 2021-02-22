@@ -1,9 +1,9 @@
 {
 	"general": {
-		"initialSpawnDimension": 3
+		
 	},
 	"rules": [ {
-		"appliesTo": [3],
+		"appliesTo": ["*"],
 		"canRespawnHere": true,
 		"canSleepHere": true
 	} ]

@@ -1,6 +1,6 @@
 
 {
-  "ID": 116,
+  "ID": 119,
   "Name": "Deadwood Forest",
   "Resource Location": "atum:deadwood_forest",
   "Class": "com.teammetallurgy.atum.world.biome.BiomeDeadwoodForest",
@@ -23,9 +23,9 @@
     "HOT",
     "SANDY",
     "DRY",
-    "SPARSE",
     "FOREST",
-    "ATUM"
+    "ATUM",
+    "SPARSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

@@ -12,7 +12,11 @@
 		"",
 		"Tadaaa your first crafting table"
 	],
+	min_required_dependencies: 2,
 	dependencies: [
+		"e2c60067",
+		"f138a062",
+		"63ef18b5",
 		"19bab08f"
 	],
 	tasks: [{

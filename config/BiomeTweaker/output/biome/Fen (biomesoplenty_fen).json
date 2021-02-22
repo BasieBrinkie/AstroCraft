@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "COLD",
     "DENSE",
-    "DEAD",
     "SWAMP",
     "FOREST",
-    "COLD",
-    "WET"
+    "WET",
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -49,12 +49,6 @@
     },
     {
       "Entity Class": "net.minecraft.entity.passive.EntityCow",
-      "Weight": 8,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "com.robrit.moofluids.common.entity.EntityFluidCow",
       "Weight": 8,
       "Min Group Count": 4,
       "Max Group Count": 4

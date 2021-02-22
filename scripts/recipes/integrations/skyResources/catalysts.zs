@@ -32,10 +32,10 @@ static catalystAdd as float[IItemStack] = {
 */	
 
 static catalystRemove as IItemStack[] = [
-	<skyresources:alchemyitemcomponent:2>,
-	<skyresources:alchemyitemcomponent:3>,
-	<skyresources:alchemyitemcomponent:4>,
-	<skyresources:alchemyitemcomponent:5>
+	#<skyresources:alchemyitemcomponent:2>,
+	#<skyresources:alchemyitemcomponent:3>,
+	#<skyresources:alchemyitemcomponent:4>,
+	#<skyresources:alchemyitemcomponent:5>
 ];
 
 /*	

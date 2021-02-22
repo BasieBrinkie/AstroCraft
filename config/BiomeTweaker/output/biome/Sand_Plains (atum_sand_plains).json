@@ -1,6 +1,6 @@
 
 {
-  "ID": 123,
+  "ID": 126,
   "Name": "Sand Plains",
   "Resource Location": "atum:sand_plains",
   "Class": "com.teammetallurgy.atum.world.biome.BiomeSandPlains",
@@ -24,8 +24,8 @@
     "SANDY",
     "DRY",
     "PLAINS",
-    "SPARSE",
-    "ATUM"
+    "ATUM",
+    "SPARSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

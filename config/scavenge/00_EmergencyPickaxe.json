@@ -37,7 +37,7 @@
         {
           "type": "consume_item",
           "amount": 1,
-          "chance": 100.0
+          "chance": 0.0
         }
       ],
       "drops": [

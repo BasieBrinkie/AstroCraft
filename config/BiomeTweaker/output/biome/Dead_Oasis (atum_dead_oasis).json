@@ -1,6 +1,6 @@
 
 {
-  "ID": 115,
+  "ID": 118,
   "Name": "Dead Oasis",
   "Resource Location": "atum:dead_oasis",
   "Class": "com.teammetallurgy.atum.world.biome.BiomeDeadOasis",
@@ -21,12 +21,12 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "HOT",
+    "RARE",
     "SANDY",
     "DRY",
     "DEAD",
-    "SPARSE",
-    "RARE",
-    "ATUM"
+    "ATUM",
+    "SPARSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

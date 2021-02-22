@@ -47,7 +47,6 @@ function initRecipes() {
 	scripts.recipes.vanillaCraftingTables.mods.charcoalPit.init();
 	scripts.recipes.vanillaCraftingTables.mods.chisel.init();
 	scripts.recipes.vanillaCraftingTables.mods.chiselsAndBits.init();
-	scripts.recipes.vanillaCraftingTables.mods.decocraft.init();
 
 	scripts.recipes.vanillaCraftingTables.mods.exCompressum.init();
 	scripts.recipes.vanillaCraftingTables.mods.exNihiloCreatio.init();
@@ -61,7 +60,6 @@ function initRecipes() {
 	scripts.recipes.vanillaCraftingTables.mods.minecraft.init();
 	scripts.recipes.vanillaCraftingTables.mods.nuclearCraft.init();
 	scripts.recipes.vanillaCraftingTables.mods.pneumaticCraft.init();
-	scripts.recipes.vanillaCraftingTables.mods.researchTable.init();
 	scripts.recipes.vanillaCraftingTables.mods.skyResources.init();
 	scripts.recipes.vanillaCraftingTables.mods.tConstruct.init();
 	scripts.recipes.vanillaCraftingTables.mods.theBetweenLands.init();
@@ -141,7 +139,6 @@ function initStages() {
 
 	scripts.stages.doors.init();
 	scripts.stages.liquids.init();
-	scripts.stages.stagesResearchTable.init();
 	
 	scripts.stages.metals.metalAluminum.init();
 	scripts.stages.metals.metalCopper.init();
@@ -159,7 +156,6 @@ function initStages() {
 	scripts.stages.mods.chisel.init();
 	scripts.stages.mods.chiselsAndBits.init();
 	scripts.stages.mods.contenttweaker.init();
-	scripts.stages.mods.decocraft.init();
 	scripts.stages.mods.enderUtilities.init();
 	scripts.stages.mods.exCompressum.init();
 	scripts.stages.mods.exNihiloCreatio.init();
@@ -178,7 +174,6 @@ function initStages() {
 	scripts.stages.mods.nuclearCraft.init();
 	scripts.stages.mods.pneumaticCraft.init();
 	scripts.stages.mods.recurrentComplex.init();
-	scripts.stages.mods.researchTable.init();
 	scripts.stages.mods.skyResources.init();
 	scripts.stages.mods.tConstruct.init();
 	scripts.stages.mods.techGuns.init();

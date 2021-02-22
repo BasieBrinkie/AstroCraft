@@ -1,6 +1,6 @@
 
 {
-  "ID": 119,
+  "ID": 122,
   "Name": "Limestone Mountains",
   "Resource Location": "atum:limestone_mountains",
   "Class": "com.teammetallurgy.atum.world.biome.BiomeLimestoneMountains",
@@ -20,12 +20,12 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
+    "MOUNTAIN",
     "HOT",
     "SANDY",
     "DRY",
-    "SPARSE",
-    "MOUNTAIN",
-    "ATUM"
+    "ATUM",
+    "SPARSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

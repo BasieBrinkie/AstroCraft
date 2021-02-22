@@ -1,3 +1,4 @@
+#modloaded researchtable
 import crafttweaker.item.IItemStack;
 import mods.ResearchTable;
 import mods.zenstages.Stage;

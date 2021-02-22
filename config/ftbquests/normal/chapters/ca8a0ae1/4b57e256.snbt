@@ -7,10 +7,10 @@
 	text: [
 		"Since there isn't any other alternative get ready to make oxygen!",
 		"",
-		"- Gather 18 'Oxygenated Crystal Shards'",
+		"- Gather 18 'Oxygen Crystal Shards'",
 		"",
 		"Once you have converted a charcoal log to oak log, left-click the log once again while sneaking. ",
-		"The log will now break down into 'Oxygenated Crystal Shards'."
+		"The log will now break down into 'Oxygen Crystal Shards'."
 	],
 	dependencies: [
 		"eb5bd3fc"

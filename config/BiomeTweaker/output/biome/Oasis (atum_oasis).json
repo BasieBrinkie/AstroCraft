@@ -1,6 +1,6 @@
 
 {
-  "ID": 120,
+  "ID": 123,
   "Name": "Oasis",
   "Resource Location": "atum:oasis",
   "Class": "com.teammetallurgy.atum.world.biome.BiomeOasis",
@@ -21,8 +21,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "LUSH",
-    "OASIS",
     "RARE",
+    "OASIS",
     "WET"
   ],
   "BiomeManager Entries": {},
