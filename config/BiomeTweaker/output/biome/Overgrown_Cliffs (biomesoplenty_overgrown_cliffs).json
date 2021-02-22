@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HILLS",
-    "MOUNTAIN",
-    "LUSH",
     "DENSE",
     "JUNGLE",
-    "WET"
+    "MOUNTAIN",
+    "LUSH",
+    "WET",
+    "HILLS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -82,6 +82,12 @@
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.robrit.moofluids.common.entity.EntityFluidCow",
+      "Weight": 8,
+      "Min Group Count": 4,
+      "Max Group Count": 4
     },
     {
       "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",

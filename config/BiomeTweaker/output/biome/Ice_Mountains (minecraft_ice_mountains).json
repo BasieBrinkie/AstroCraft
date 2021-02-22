@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "SNOWY",
     "MOUNTAIN",
+    "SNOWY",
     "COLD"
   ],
   "BiomeManager Entries": {},
@@ -37,6 +37,12 @@
       "Weight": 1,
       "Min Group Count": 1,
       "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.robrit.moofluids.common.entity.EntityFluidCow",
+      "Weight": 8,
+      "Min Group Count": 4,
+      "Max Group Count": 4
     },
     {
       "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",

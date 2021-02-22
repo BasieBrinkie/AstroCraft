@@ -21,8 +21,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "DRY",
-    "PLAINS",
-    "SPARSE"
+    "SPARSE",
+    "PLAINS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -73,6 +73,12 @@
       "Weight": 4,
       "Min Group Count": 2,
       "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.robrit.moofluids.common.entity.EntityFluidCow",
+      "Weight": 8,
+      "Min Group Count": 4,
+      "Max Group Count": 4
     },
     {
       "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
@@ -247,8 +253,8 @@
   },
   "BOP Owner": "BIOMESOPLENTY",
   "BOP Weight Map": {
-    "DRY_TEMPERATE": 10,
-    "MEDITERANEAN": 7
+    "MEDITERANEAN": 7,
+    "DRY_TEMPERATE": 10
   },
   "BOP Climate Weights": {
     "DRY_TEMPERATE": [

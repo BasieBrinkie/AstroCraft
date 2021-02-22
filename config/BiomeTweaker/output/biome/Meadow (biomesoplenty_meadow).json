@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "COLD",
-    "LUSH",
     "FOREST",
-    "PLAINS",
+    "LUSH",
     "WET",
-    "SPARSE"
+    "SPARSE",
+    "COLD",
+    "PLAINS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -58,6 +58,12 @@
       "Weight": 4,
       "Min Group Count": 2,
       "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.robrit.moofluids.common.entity.EntityFluidCow",
+      "Weight": 8,
+      "Min Group Count": 4,
+      "Max Group Count": 4
     },
     {
       "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
@@ -286,8 +292,8 @@
   },
   "BOP Owner": "BIOMESOPLENTY",
   "BOP Weight Map": {
-    "COOL_TEMPERATE": 3,
-    "BOREAL": 7
+    "BOREAL": 7,
+    "COOL_TEMPERATE": 3
   },
   "BOP Climate Weights": {
     "BOREAL": [

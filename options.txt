@@ -93,8 +93,6 @@ key_key.cavern.miningAssist:0
 key_key.cavern.miningRecords:88
 key_key.cavern.magicBook:46
 key_cos.key.opencosarmorinventory:0
-key_key.redraw:19
-key_key.settings:25
 key_enderutilities.key.activate_unselected:34
 key_enderutilities.key.togglemode:34
 key_key.erebus.glide:34
@@ -224,7 +222,6 @@ key_key.toggleLiquids:38
 key_key.toggleVisible:0
 key_key.immersiveengineering.magnetEquip:31
 key_key.immersiveengineering.chemthrowerSwitch:0
-key_key.otghud.desc:24
 key_FpsReducer.key.guiOpen:207
 key_FpsReducer.key.forceIdle:197
 key_key.dragon_fireAttack:19
@@ -289,7 +286,6 @@ key_key.journeymap.fullscreen.north:200
 key_key.journeymap.fullscreen.south:208
 key_key.journeymap.fullscreen.east:205
 key_key.journeymap.fullscreen.west:203
-key_Profile GUI:72
 soundCategory_master:0.0
 soundCategory_music:0.0
 soundCategory_record:1.0

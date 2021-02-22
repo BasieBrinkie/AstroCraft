@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "LUSH",
     "DENSE",
     "FOREST",
+    "LUSH",
     "WET"
   ],
   "BiomeManager Entries": {},
@@ -47,6 +47,12 @@
     },
     {
       "Entity Class": "net.minecraft.entity.passive.EntityCow",
+      "Weight": 8,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.robrit.moofluids.common.entity.EntityFluidCow",
       "Weight": 8,
       "Min Group Count": 4,
       "Max Group Count": 4
