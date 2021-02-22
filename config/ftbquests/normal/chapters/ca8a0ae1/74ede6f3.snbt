@@ -4,7 +4,10 @@
 	y: 0.0d,
 	description: "Let's make life easier by using tools",
 	text: [
-		"-JEI will always be your friend"
+		"-JEI will always be your friend",
+		"",
+		"TIP: if you reach the bottom of the dimension y=0, you will be teleported to y=255.",
+		"So dont be afraid to leave your crashed rocket"
 	],
 	dependencies: [
 		"f4c715d5"

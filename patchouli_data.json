@@ -1,1 +1,16 @@
-{"bookGuiScale":0,"clickedVisualize":false,"bookData":{}}
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "mysticalworld:world_guide": {
+      "viewedEntries": [
+        "mysticalworld:blocks/charred_wood"
+      ],
+      "bookmarks": [],
+      "history": [
+        "mysticalworld:blocks/charred_wood"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}

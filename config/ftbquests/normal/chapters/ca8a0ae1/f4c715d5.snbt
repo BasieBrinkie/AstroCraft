@@ -4,13 +4,14 @@
 	description: "Crafting tables are essential for your survival",
 	text: [
 		"You can get a crafting table pretty easily.",
-		"Choose which charcoallog you want to convert to a crafting table.",
+		"Find a charcoallog that you want to convert to a crafting table.",
 		"",
 		"- Make sure your hand is empty",
 		"- Now Sneak!",
 		"- Hit the log with your hand",
 		"",
-		"Tadaaa your first crafting table"
+		"Input items by right clicking them or dragging them in their spots",
+		"Remove items by left clicking the items in the table."
 	],
 	min_required_dependencies: 2,
 	dependencies: [
