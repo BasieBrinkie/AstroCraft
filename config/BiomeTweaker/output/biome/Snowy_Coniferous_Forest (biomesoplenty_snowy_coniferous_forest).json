@@ -22,9 +22,9 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "CONIFEROUS",
     "COLD",
     "FOREST",
+    "CONIFEROUS",
     "SNOWY",
     "DENSE"
   ],

@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2021-02-22T14:29:25.9941776Z",
+  "lastPlayed": "2021-02-22T15:54:44.3204361Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -9092,6 +9092,90 @@
       "installedTargets": null
     },
     {
+      "addonID": 222880,
+      "gameInstanceID": "4839a036-32ff-4d00-9ab6-ae473e2276a7",
+      "installedFile": {
+        "id": 2926428,
+        "displayName": "ThermalFoundation-1.12.2-2.6.7.1-universal.jar",
+        "fileName": "ThermalFoundation-1.12.2-2.6.7.1-universal.jar",
+        "fileDate": "2020-04-10T18:25:27.03Z",
+        "fileLength": 2219736,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2926/428/ThermalFoundation-1.12.2-2.6.7.1-universal.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 69162,
+            "type": 3,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 271384,
+            "type": 3,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3146421109,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "cofh",
+            "fingerprint": 424909284,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2503639902,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 1191536478,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 3785001149,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "ThermalFoundation-1.12.2-2.6.7.1-universal.jar"
+      },
+      "dateInstalled": "2021-02-22T14:45:14.2095901Z",
+      "dateUpdated": "2021-02-22T14:45:14.2135915Z",
+      "dateLastUpdateAttempted": "2021-02-22T14:45:14.2135915Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
+    },
+    {
       "addonID": 277631,
       "gameInstanceID": "4839a036-32ff-4d00-9ab6-ae473e2276a7",
       "installedFile": {
@@ -10722,6 +10806,90 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 227443,
+      "gameInstanceID": "4839a036-32ff-4d00-9ab6-ae473e2276a7",
+      "installedFile": {
+        "id": 2920505,
+        "displayName": "ThermalDynamics-1.12.2-2.5.6.1-universal.jar",
+        "fileName": "ThermalDynamics-1.12.2-2.5.6.1-universal.jar",
+        "fileDate": "2020-04-04T01:41:38.093Z",
+        "fileLength": 728082,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2920/505/ThermalDynamics-1.12.2-2.5.6.1-universal.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 242818,
+            "type": 3,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 222880,
+            "type": 3,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2870405223,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "cofh",
+            "fingerprint": 2214572023,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2748581361,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 248257736,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 2554678431,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "ThermalDynamics-1.12.2-2.5.6.1-universal.jar"
+      },
+      "dateInstalled": "2021-02-22T14:50:39.3496301Z",
+      "dateUpdated": "2021-02-22T14:50:39.3526315Z",
+      "dateLastUpdateAttempted": "2021-02-22T14:50:39.3526315Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 241967,
@@ -16849,6 +17017,84 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 69162,
+      "gameInstanceID": "4839a036-32ff-4d00-9ab6-ae473e2276a7",
+      "installedFile": {
+        "id": 2920433,
+        "displayName": "CoFHCore-1.12.2-4.6.6.1-universal.jar",
+        "fileName": "CoFHCore-1.12.2-4.6.6.1-universal.jar",
+        "fileDate": "2020-04-03T23:51:47.75Z",
+        "fileLength": 848187,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2920/433/CoFHCore-1.12.2-4.6.6.1-universal.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 220333,
+            "type": 1,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3081622856,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "cofh",
+            "fingerprint": 3176896124,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3423698620,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 3177233248,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 3315557568,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "CoFHCore-1.12.2-4.6.6.1-universal.jar"
+      },
+      "dateInstalled": "2021-02-22T14:45:13.642849Z",
+      "dateUpdated": "2021-02-22T14:45:13.6533507Z",
+      "dateLastUpdateAttempted": "2021-02-22T14:45:13.6533507Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 228895,

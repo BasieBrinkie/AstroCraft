@@ -24,9 +24,9 @@
   "Dictionary Types": [
     "DRY",
     "TWILIGHT",
+    "DEAD",
     "MESA",
-    "WASTELAND",
-    "DEAD"
+    "WASTELAND"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

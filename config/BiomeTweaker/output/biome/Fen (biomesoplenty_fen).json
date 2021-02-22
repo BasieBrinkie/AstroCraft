@@ -22,11 +22,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "SWAMP",
     "COLD",
     "FOREST",
-    "SWAMP",
-    "WET",
     "DEAD",
+    "WET",
     "DENSE"
   ],
   "BiomeManager Entries": {},
