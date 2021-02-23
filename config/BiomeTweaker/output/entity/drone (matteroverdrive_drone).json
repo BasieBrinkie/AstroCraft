@@ -1,6 +1,0 @@
-
-{
-  "Name": "drone",
-  "Registry ID": "matteroverdrive:drone",
-  "Class": "matteroverdrive.entity.EntityDrone"
-}

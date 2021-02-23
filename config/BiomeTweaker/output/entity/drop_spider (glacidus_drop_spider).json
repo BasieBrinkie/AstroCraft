@@ -1,6 +1,0 @@
-
-{
-  "Name": "drop_spider",
-  "Registry ID": "glacidus:drop_spider",
-  "Class": "com.legacy.glacidus.entities.hostile.EntityDropSpider"
-}
