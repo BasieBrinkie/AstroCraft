@@ -27,8 +27,6 @@ static harvestLevel as IItemStack[][int][string] = {
 		]
 	}
 };
-	
-}
 
 function init() {
 	itemProperties.setName(itemNames);
