@@ -27,8 +27,6 @@ static harvestLevel as IItemStack[][int][string] = {
 		]
 	}
 };
-
-static harvestLevels as IItemStack[][int][string] = {
 	
 }
 
