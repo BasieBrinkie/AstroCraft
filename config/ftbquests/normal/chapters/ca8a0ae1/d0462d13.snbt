@@ -24,5 +24,12 @@
 		items: [{
 			item: "extrautils2:grocket 1 2"
 		}]
+	},
+	{
+		uid: "91031c86",
+		type: "item",
+		items: [{
+			item: "extrautils2:ingredients 1 8"
+		}]
 	}]
 }

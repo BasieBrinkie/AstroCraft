@@ -8,7 +8,9 @@
 		"",
 		"- Fill the down side of the furnace with a fuel.",
 		"- Put a block of cobblestone in the top side.",
-		"- Wait until the cobblestone transformed into stone."
+		"- Wait until the cobblestone has transformed into stone.",
+		"",
+		"TIP: Build the furnace in an enclosed space so you can leave the furnace without losing items."
 	],
 	dependencies: [
 		"0bf1b1e9"

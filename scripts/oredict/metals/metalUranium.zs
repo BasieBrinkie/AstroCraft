@@ -75,6 +75,7 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 		<nuclearcraft:fertile_isotope:0>,
 		<nuclearcraft:uranium:8>,
 		<nuclearcraft:uranium:10>,
+		<techguns:basicore:4>,
 	],
 };
 

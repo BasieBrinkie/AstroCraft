@@ -10,7 +10,8 @@
 		"- Now Sneak!",
 		"- Hit the log with your hand",
 		"",
-		"Input items by right clicking them or dragging them in their spots",
+		"Input items by right clicking them or dragging them in their spots.",
+		"If you drag while holding shift, the item will spread over all spots.",
 		"Remove items by left clicking the items in the table."
 	],
 	min_required_dependencies: 2,
@@ -18,7 +19,7 @@
 		"e2c60067",
 		"f138a062",
 		"63ef18b5",
-		"19bab08f"
+		"d1418823"
 	],
 	tasks: [{
 		uid: "093e5e5f",

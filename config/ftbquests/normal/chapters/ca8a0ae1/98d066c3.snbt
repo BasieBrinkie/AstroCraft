@@ -6,12 +6,12 @@
 	description: "Just what the title says.",
 	text: [
 		"- Find a block of obsidian in an asteroid",
-		"- Place the 'Small Plate Presser' a block above the obsidian",
+		"- Place the 'Small Plate Presser'  with space for a block between the obsidian",
 		"- Place the block of 'Copper Block - Purity (8%)' between the obsidian and the small plate presser",
 		"",
 		"- Toggle the lever and collect the copper plate",
 		"",
-		"TIP: Place the Plate Presser in the most logical direction"
+		"TIP: You can mine obsidian very slowly with an stone pickaxe and move it."
 	],
 	dependencies: [
 		"bb0e3981"

@@ -8,7 +8,7 @@
                     {"name": "thermalfoundation:ore", "properties": { "type": "nickel" }, "weight": 15}
                 ],
                 "material": {"name": "contenttweaker:astrostone","metadata": 0},
-                "cluster-size": 6,
+                "cluster-size": 6
             },
             "min-height": 1,
             "max-height": 255,
@@ -25,7 +25,7 @@
             "generator": {     
                 "block":  {"name": "minecraft:iron_ore", "metadata" : 0},
                 "material": {"name": "contenttweaker:astrostone","metadata": 0},
-                "cluster-size": 8,
+                "cluster-size": 8
             },
             "min-height": 1,
             "max-height": 255,
@@ -42,7 +42,7 @@
             "generator": {     
                 "block":  {"name": "thermalfoundation:ore", "properties": { "type": "nickel" }},
                 "material": {"name": "contenttweaker:astrostone","metadata": 0},
-                "cluster-size": 7,
+                "cluster-size": 7
             },
             "min-height": 1,
             "max-height": 255,
@@ -59,7 +59,7 @@
             "generator": {     
                 "block":  {"name": "thermalfoundation:ore", "properties": { "type": "aluminum" }},
                 "material": {"name": "contenttweaker:astrostone", "metadata": 0},
-                "cluster-size": 2,
+                "cluster-size": 2
             },
             "min-height": 1,
             "max-height": 255,
@@ -76,7 +76,7 @@
             "generator": {     
                 "block": {"name": "advancedrocketry:charcoallog","metadata": 4},
                 "material": {"name": "contenttweaker:astrostone","metadata": 0},
-                "cluster-size": 4,
+                "cluster-size": 4
             },
             "min-height": 1,
             "max-height": 255,
@@ -93,17 +93,17 @@
             "generator": {     
                 "block":  {"name": "minecraft:packed_ice", "metadata": 0},
                 "material": {"name": "contenttweaker:astrostone","metadata": 0},
-                "cluster-size": 6,
+                "cluster-size": 6
             },
             "min-height": 1,
             "max-height": 255,
-            "cluster-count": 3,
+            "cluster-count": 15,
             "retrogen": "true",
             "biome": "all",
             "dimension": {
                 "restriction": "whitelist",
                 "value": [3]
             }
-        },
+        }
     }
 }

@@ -6,7 +6,7 @@
 	text: [
 		"- Place down a log pile, make sure it is fully touched by non-flammable blocks but leave the top side open.",
 		"- Now you need to slab down an adjoining block of cobblestone.",
-		"- In order to start a fire throw pebbles to the block of cobblestone and observe.",
+		"- In order to start a fire throw pebbles to the block of cobblestone by left clicking pebbles.",
 		"- Once a single log pile burns all adjecent log piles will also start buring.",
 		"",
 		"NOTE: Be sure that every side including the top is covered once the fire is lit otherwise all piles will just burn up instead of giving coal.",

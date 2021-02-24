@@ -1,6 +1,6 @@
 {
 	title: "Sieve Work",
-	x: 15.0d,
+	x: 16.0d,
 	y: 1.0d,
 	description: "Early game items come partially from the sieves.",
 	text: [

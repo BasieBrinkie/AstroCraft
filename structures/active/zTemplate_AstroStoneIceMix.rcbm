@@ -1,0 +1,31 @@
+{
+  "data": [
+    {
+      "block": "contenttweaker:astrostone",
+      "metadata": 0,
+      "tileEntity": "null"
+    },
+    {
+      "weight": 53.68251419067383,
+      "block": "minecraft:packed_ice",
+      "metadata": 0,
+      "tileEntity": "null"
+    },
+    {
+      "block": "contenttweaker:astrostone2",
+      "metadata": 0,
+      "tileEntity": "null"
+    },
+    {
+      "block": "contenttweaker:astrostone3",
+      "metadata": 0,
+      "tileEntity": "null"
+    }
+  ],
+  "metadata": {
+    "title": "Randomized Astro Stone",
+    "description": [
+      ""
+    ]
+  }
+}

@@ -2,7 +2,7 @@
 	title: "Mr Bonk",
 	x: 12.0d,
 	y: 0.0d,
-	description: "The hammer is crucial for survival right, ask a DIY'er",
+	description: "The hammer is crucial for survival right, ask a DIY-er",
 	text: [
 		"- Craft a wooden hammer or stone hammer"
 	],

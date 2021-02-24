@@ -1,0 +1,23 @@
+{
+	title: "Void",
+	icon: "draconicevolution:portal",
+	x: 4.0d,
+	y: 0.0d,
+	description: "Try to reach y=0",
+	text: [
+		"The asteroids and other space dimensions abide non-stevian mechanics. ",
+		"",
+		"This means that you cannot be killed by the void.",
+		"",
+		"Instead it teleports players 255 blocks up. Luckily this means if you are stuck and need to get back up, ",
+		"drop yourself towards the void and you will be back on top within notime."
+	],
+	dependencies: [
+		"19bab08f"
+	],
+	tasks: [{
+		uid: "142b3dd9",
+		type: "checkmark",
+		title: "Void"
+	}]
+}

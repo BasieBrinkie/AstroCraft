@@ -1,6 +1,10 @@
 {
 	x: 6.0d,
 	y: 2.0d,
+	text: [
+		"Place the crucible above the heat provider and drop Oxygen Crystal Shards in the crucible.",
+		"Put fuel in the heat provider and obtain liquid oxygen."
+	],
 	dependencies: [
 		"6e87a5ac"
 	],

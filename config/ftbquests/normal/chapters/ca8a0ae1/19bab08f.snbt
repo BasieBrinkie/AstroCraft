@@ -1,6 +1,6 @@
 {
 	title: "Pack Mode",
-	x: 4.0d,
+	x: 3.0d,
 	y: 0.0d,
 	shape: "square",
 	description: "Before you start playing, you need to select a pack mode",

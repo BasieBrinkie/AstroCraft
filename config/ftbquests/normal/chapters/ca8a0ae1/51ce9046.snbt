@@ -27,6 +27,6 @@
 		type: "gamestage",
 		team_reward: false,
 		auto: "enabled",
-		stage: "oxygen_one"
+		stage: "resources_one"
 	}]
 }

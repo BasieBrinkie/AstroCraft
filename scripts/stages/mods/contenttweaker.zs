@@ -25,7 +25,9 @@ import scripts.stages.register.stageDecoration1Enable;
 
 static stagedItems as IIngredient[][string] = {
 	stageOxygen1.stage: [
-		<contenttweaker:astrostone:0>
+		<contenttweaker:astrostone:0>,
+		<contenttweaker:astrostone2:0>,
+		<contenttweaker:astrostone3:0>
 	]
 };
 

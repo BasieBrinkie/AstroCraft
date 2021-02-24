@@ -222,6 +222,7 @@ key_key.toggleLiquids:38
 key_key.toggleVisible:0
 key_key.immersiveengineering.magnetEquip:31
 key_key.immersiveengineering.chemthrowerSwitch:0
+key_tombstone.message.knowledge_of_death:0
 key_FpsReducer.key.guiOpen:207
 key_FpsReducer.key.forceIdle:197
 key_key.dragon_fireAttack:19
@@ -286,6 +287,7 @@ key_key.journeymap.fullscreen.north:200
 key_key.journeymap.fullscreen.south:208
 key_key.journeymap.fullscreen.east:205
 key_key.journeymap.fullscreen.west:203
+key_Profile GUI:210
 soundCategory_master:0.0
 soundCategory_music:0.0
 soundCategory_record:1.0

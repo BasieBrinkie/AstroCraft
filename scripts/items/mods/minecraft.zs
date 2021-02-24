@@ -14,6 +14,10 @@ static unlocalizedNames as string[string] = {
 static itemTooltips as IFormattedText[][IFormattedText[]][string][IItemStack] = {
 };
 
+static harvestLevels as IItemStack[][int][string] = {
+	
+}
+
 function init() {
 	itemProperties.setName(itemNames);
 	itemProperties.setUnlocalizedName(unlocalizedNames);
