@@ -11,14 +11,23 @@
           "destinationPreset": "zTemplate_AstroStoneMix",
           "destination": [
             {
-              "weight": 5.4332804679870605,
               "block": "contenttweaker:astrostone",
               "metadata": 0,
               "tileEntity": "null"
             },
             {
-              "weight": 1.0,
-              "block": "minecraft:air",
+              "weight": 6.092700059525669E-4,
+              "block": "advancedrocketry:charcoallog",
+              "metadata": 12,
+              "tileEntity": "null"
+            },
+            {
+              "block": "contenttweaker:astrostone2",
+              "metadata": 0,
+              "tileEntity": "null"
+            },
+            {
+              "block": "contenttweaker:astrostone3",
               "metadata": 0,
               "tileEntity": "null"
             }
@@ -34,7 +43,19 @@
           "destinationPreset": "zTemplate_AstroStoneScarceOres",
           "destination": [
             {
-              "weight": 122.54598236083984,
+              "weight": 49.24846649169922,
+              "block": "contenttweaker:astrostone3",
+              "metadata": 0,
+              "tileEntity": "null"
+            },
+            {
+              "weight": 49.24846649169922,
+              "block": "contenttweaker:astrostone2",
+              "metadata": 0,
+              "tileEntity": "null"
+            },
+            {
+              "weight": 51.427284240722656,
               "block": "contenttweaker:astrostone",
               "metadata": 0,
               "tileEntity": "null"

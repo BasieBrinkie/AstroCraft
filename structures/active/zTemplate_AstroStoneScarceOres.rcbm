@@ -1,7 +1,19 @@
 {
   "data": [
     {
-      "weight": 122.54598236083984,
+      "weight": 49.24846649169922,
+      "block": "contenttweaker:astrostone3",
+      "metadata": 0,
+      "tileEntity": "null"
+    },
+    {
+      "weight": 49.24846649169922,
+      "block": "contenttweaker:astrostone2",
+      "metadata": 0,
+      "tileEntity": "null"
+    },
+    {
+      "weight": 51.427284240722656,
       "block": "contenttweaker:astrostone",
       "metadata": 0,
       "tileEntity": "null"

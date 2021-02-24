@@ -1,26 +1,29 @@
 {
   "data": [
     {
-      "weight": 1.9039692878723145,
       "block": "contenttweaker:astrostone",
       "metadata": 0,
       "tileEntity": "null"
     },
     {
-      "weight": 0.5043042898178101,
+      "weight": 6.092700059525669E-4,
       "block": "advancedrocketry:charcoallog",
-      "metadata": 4,
+      "metadata": 12,
       "tileEntity": "null"
     },
     {
-      "weight": 1.0,
-      "block": "minecraft:air",
+      "block": "contenttweaker:astrostone2",
+      "metadata": 0,
+      "tileEntity": "null"
+    },
+    {
+      "block": "contenttweaker:astrostone3",
       "metadata": 0,
       "tileEntity": "null"
     }
   ],
   "metadata": {
-    "title": "Randomized Astro Stone",
+    "title": "Randomized Astro Stone Mix",
     "description": [
       ""
     ]

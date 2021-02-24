@@ -1,6 +1,18 @@
 {
   "data": [
     {
+      "weight": 12.203933715820312,
+      "block": "contenttweaker:astrostone2",
+      "metadata": 0,
+      "tileEntity": "null"
+    },
+    {
+      "weight": 22.13267707824707,
+      "block": "contenttweaker:astrostone3",
+      "metadata": 0,
+      "tileEntity": "null"
+    },
+    {
       "weight": 22.13267707824707,
       "block": "contenttweaker:astrostone",
       "metadata": 0,
@@ -28,6 +40,12 @@
       "weight": 0.006062776781618595,
       "block": "thermalfoundation:ore",
       "metadata": 7,
+      "tileEntity": "null"
+    },
+    {
+      "weight": 0.5043042898178101,
+      "block": "thermalfoundation:ore",
+      "metadata": 4,
       "tileEntity": "null"
     }
   ],
