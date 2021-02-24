@@ -40,7 +40,8 @@ zenClass itemProperties {
 		for toolName, levelArray in map {
 			for harvestLevel, itemArray in levelArray {
 				for item in itemArray {
-					item.asBlock().definition.setHarvestLevel(toolName, harvestLevel);
+					var blockDefinition as IBlockDefinition = item.asBlock().definition;
+					blockDefinition.setHarvestLevel(toolName, harvestLevel);
 				}
 			}
 		}

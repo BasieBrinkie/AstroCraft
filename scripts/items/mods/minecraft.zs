@@ -22,7 +22,7 @@ static itemTooltips as IFormattedText[][IFormattedText[]][string][IItemStack] = 
 
 static harvestLevel as IItemStack[][int][string] = {
 	"pickaxe": {
-		2: [
+		1: [
 			<minecraft:obsidian:0>
 		]
 	}
