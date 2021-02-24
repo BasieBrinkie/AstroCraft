@@ -5,7 +5,7 @@ import crafttweaker.block.IBlockDefinition;
 import crafttweaker.formatting.IFormattedText;
 
 static itemNames as string[IItemStack] = {
-	<mekanism:shard:4>: "Large Oxygenated Shard"
+	<mekanism:shard:4>: "Large Oxygen Shard"
 };
 
 static unlocalizedNames as string[string] = {

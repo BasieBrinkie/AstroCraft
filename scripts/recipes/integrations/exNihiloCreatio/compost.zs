@@ -24,7 +24,7 @@ static compostAdd as string[IIngredient[float]][IItemStack] = {
 		0.07: <charcoal_pit:item_ash:0> * 15}: "406196"   
 	},
 	<minecraft:wool:0>: {{
-		0.1: <exnihilocreatio:item_material:2> * 10}: "edf93e"
+		0.25: <exnihilocreatio:item_material:2> * 10}: "edf93e"
 	},
 };
 

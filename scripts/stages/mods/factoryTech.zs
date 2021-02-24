@@ -150,6 +150,7 @@ static disabledItems as IIngredient[] = [
 	<factorytech:magnetizer:0>,
 	<factorytech:ore:0>,
 	<factorytech:ore:1>,
+	<factorytech:ore_dust:3>,
 	<factorytech:planeshifter:0>,
 	<factorytech:planter:0>,
 	<factorytech:pipe:0>,
@@ -192,9 +193,9 @@ static disabledItems as IIngredient[] = [
 	<factorytech:upgrade:3>,
 	<factorytech:upgrade:4>,
 	<factorytech:valve:0>,
-	<factorytech:wrench:0>,
 	<factorytech:woodcutter:0>,
-	<factorytech:workpants:0>
+	<factorytech:workpants:0>,
+	<factorytech:wrench:0>,
 ];
 
 function init() {

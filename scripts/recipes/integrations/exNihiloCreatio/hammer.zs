@@ -19,15 +19,12 @@ import crafttweaker.oredict.IOreDictEntry;
 
 static hammerAdd as int[IIngredient][IItemStack] = { 
 	//Oxygen One
-	<minecraft:stone_slab:3>: { 
+	<minecraft:gravel:0>: { 
 		<minecraft:cobblestone:0>: 0   
 	},
 	<minecraft:wooden_slab:0>: {
-		<minecraft:planks:0>: 0
+		<minecraft:planks:0> * 2: 0
 	},
-	<minecraft:gravel:0>: {
-		<minecraft:stone:0>: 1
-	}
 };
 
 /*	

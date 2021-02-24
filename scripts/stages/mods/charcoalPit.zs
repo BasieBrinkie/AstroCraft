@@ -30,12 +30,12 @@ static stagedItems as IIngredient[][string] = {
 		<charcoal_pit:log_pile:0>
 	],
 	stageProfessionsStage1.stage: [
-		<charcoal_pit:bloomery_hatch:0>,
 	],
 };
 
 static disabledItems as IIngredient[] = [
 	<charcoal_pit:item_coke:0>,
+	<charcoal_pit:bloomery_hatch:0>,
 ];
 
 function init() {

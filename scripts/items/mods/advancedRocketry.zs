@@ -15,7 +15,7 @@ static itemTooltips as IFormattedText[][IFormattedText[]][string][IItemStack] = 
 		"Oxygen Pad": {[
 			format.gray("Charges your spacesuit up with oxygen")]: [
 				format.white("If you want to fill up your suit with oxygen you need to pipe in liquid oxygen and stand on top of the pad"),
-				format.yellow("Early Game Tip: Put Oxygenated Crystal Shard in a crucible. That will liquify the oxygen inside the crystals and with the transfer pipe, found in your crashed ship, you can fill up the internal buffer of the oxygen pad")
+				format.yellow("Early Game Tip: Put Oxygen Crystal Shard in a crucible. That will liquify the oxygen inside the crystals and with the transfer pipe, found in your crashed ship, you can fill up the internal buffer of the oxygen pad")
 			]
 		}		
 	}

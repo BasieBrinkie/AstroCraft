@@ -24,9 +24,12 @@ import scripts.stages.register.stageDisabledItems;
 import scripts.stages.register.stageDecoration1Enable;
 
 static stagedItems as IIngredient[][string] = {
+	stageOxygen1.stage: [
+		<skyresources:alchemyitemcomponent:1>,
+	],
 	stageResources1.stage: [
 		<skyresources:casing:0>,
-		<skyresources:combustionheater:1>,
+		<skyresources:combustionheater:0>,
 		<skyresources:crucible:0>,
 		<skyresources:fusiontable:0>,
 		<skyresources:heat:0>,
@@ -82,7 +85,7 @@ static disabledItems as IIngredient[] = [
 
 	<skyresources:coalinfusedblock:0>,
 	//Combustion
-	<skyresources:combustionheater:0>,
+	<skyresources:combustionheater:1>,
 	<skyresources:combustionheater:2>,
 	<skyresources:combustionheater:6>,
 	<skyresources:combustionheater:7>,

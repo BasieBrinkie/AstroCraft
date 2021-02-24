@@ -7,13 +7,6 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<charcoal_pit:bloomery_hatch:0>: [
-		[
-			[<ore:plankWood>, <ore:stone>, <ore:plankWood>],
-			[<ore:stickWood>, <ore:stone>, <ore:stickWood>],
-			[<ore:plankWood>, <ore:stone>, <ore:plankWood>]
-		]
-	],
 	<charcoal_pit:fire_starter:0>: [
 		[
 			[null, null, <ore:stickWood>],

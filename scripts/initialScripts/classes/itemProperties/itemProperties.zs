@@ -36,6 +36,7 @@ zenClass itemProperties {
 	}
 
 	function setHarvestLevel(map as IItemStack[][int][string]) {
+		// toolName: "pickaxe", "axe", "shovel"		
 		for toolName, levelArray in map {
 			for harvestLevel, itemArray in levelArray {
 				for item in itemArray {

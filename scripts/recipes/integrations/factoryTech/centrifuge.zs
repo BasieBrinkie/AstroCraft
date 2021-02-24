@@ -45,6 +45,7 @@ static centrifugeRemove as IItemStack[][] = [
 	[<factorytech:ore_dust:9>, <factorytech:ore_dust:6> * 2, null],
 	[<factorytech:ore_dust:9>, <factorytech:ore_dust:6>, null],
 	[<minecraft:redstone:0>, <minecraft:sand:0> * 4, null],
+	[<factorytech:ore_dust:9>, <factorytech:ore_dust:6> * 2, null],
 	[<factorytech:ore_dust:9>, <factorytech:ore_dust:6> * 2, null]
 ];
 

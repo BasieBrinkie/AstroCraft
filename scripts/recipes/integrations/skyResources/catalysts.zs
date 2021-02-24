@@ -18,6 +18,7 @@ import crafttweaker.item.IItemStack;
 static catalystAdd as float[IItemStack] = { 
 	//Dawn of a New Age
 	<mekanism:clump:3>: 1.00,
+	<minecraft:diamond:0>: 3.00,
 
 	//Professions Stage 1
 	<minecraft:redstone:0>: 2.25

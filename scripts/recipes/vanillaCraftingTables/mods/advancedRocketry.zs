@@ -44,7 +44,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<advancedrocketry:platepress:0>: [
 		[
 			[<minecraft:planks:0>, <minecraft:planks:0>, <minecraft:planks:0>], 
-			[<minecraft:stone:0>, <ore:nuggetCopper> | <ore:ingotCopper>, <minecraft:stone:0>],
+			[<minecraft:stone:0>, <ore:nuggetCopper> | <ore:ingotCopper> | <ore:clumpCopper>, <minecraft:stone:0>],
 			[<minecraft:stone:0>, <minecraft:stone:0>, <minecraft:stone:0>]
 		]
 	],

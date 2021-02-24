@@ -57,6 +57,11 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <ore:plankWood>, null],
 			[null, <ore:stickWood>, <ore:plankWood>],
 			[<ore:stickWood>, null, null]
+		],
+		[
+			[null, <advancedrocketry:charcoallog:0>, null],
+			[null, <ore:stickWood>, <advancedrocketry:charcoallog:0>],
+			[<ore:stickWood>, null, null]
 		]
 	],
 	<exnihilocreatio:item_mesh:1>: [

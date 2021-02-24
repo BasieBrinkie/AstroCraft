@@ -23,7 +23,7 @@ static combustionAdd as int[IItemStack[]][IItemStack] = {
 		---------------------------------------------
 	*/
 	//Oxygen
-	<exnihilocreatio:item_ore_iron:0>: {[
+	<exnihilocreatio:item_ore_iron:0> * 2: {[
 		<exnihilocreatio:item_ore_iron:1> * 2,
 		<charcoal_pit:item_ash:0> * 5]: 50
 	},

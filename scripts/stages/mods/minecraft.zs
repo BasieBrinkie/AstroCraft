@@ -39,6 +39,7 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:log:0>,
 		<minecraft:obsidian:0>,
 		<minecraft:planks:0>,
+		<minecraft:stick:0>,
 		<minecraft:stone:0>,		
 		<minecraft:stone_axe:*>,
 		<minecraft:stone_shovel:*>,
@@ -61,6 +62,7 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:stone_button:0>,
 		<minecraft:stone_hoe:*>,
 		<minecraft:stone_pressure_plate:0>,
+		<minecraft:trapdoor:0>,
 		<minecraft:wheat:0>,
 		<minecraft:wooden_button:0>,
 		<minecraft:wooden_pressure_plate:0>
@@ -104,7 +106,6 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:planks:3>,
 		<minecraft:planks:4>,
 		<minecraft:planks:5>,
-		<minecraft:trapdoor:0>,
 		<minecraft:wool:1>,
 		<minecraft:wool:2>,
 		<minecraft:wool:3>,

@@ -14,8 +14,7 @@ static itemTooltips as IFormattedText[][IFormattedText[]][string][IItemStack] = 
 	<alchemistry:obsidian_breaker>: {
 		"Emergency Pickaxe": {[
 			format.gray("This pickaxe will demolish Tier 1 Steel"),
-			format.white("Left-click a block of Tier 1 Steel in order to tear it to shreds"),
-			format.yellow("Note: it will consume the pickaxe")
+			format.white("Left-click a block of Tier 1 Steel in order to tear it to shreds")
 			]: [null]
 		}		
 	}

@@ -170,6 +170,12 @@ zenClass recipeBuilder {
 		}
 	}
 
+	function removeAllFurnaceRecipes() {
+		if (!dev) {
+			furnace.removeAll();
+		}
+	}
+
 	/*	
 		--------------------------------------------------------------------------------
 		Hide an item from JEI.

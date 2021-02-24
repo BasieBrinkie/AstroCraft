@@ -35,9 +35,11 @@ static stagedItems as IIngredient[][string] = {
 		<exnihilocreatio:item_mesh:1>,
 		<exnihilocreatio:item_ore_copper:0>,
 		<exnihilocreatio:item_ore_copper:1>,
+		<exnihilocreatio:item_pebble:0>
+	],
+	stageResources1.stage: [
 		<exnihilocreatio:item_ore_iron:0>,
 		<exnihilocreatio:item_ore_iron:1>,
-		<exnihilocreatio:item_pebble:0>
 	],
 	stageRocketBuilder.stage: [
 		<exnihilocreatio:item_ore_aluminum:0>,
