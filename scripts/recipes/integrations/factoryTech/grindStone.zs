@@ -62,6 +62,7 @@ static grindstoneRemove as IItemStack[] = [
 ];
 
 function init() {
-	facTech.grindstoneRemove(grindstoneRemove);
+	//facTech.grindstoneRemove(grindstoneRemove);
+	facTech.grindstoneRemoveAll();
 	facTech.grindstoneAdd(grindstoneAdd);
 }

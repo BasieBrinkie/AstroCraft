@@ -1,6 +1,7 @@
 {
 	x: 3.0d,
 	y: 0.0d,
+	description: "Blown up iron chunks",
 	text: [
 		"Insert a fuel into the combustion heater such as charcoal.",
 		"",

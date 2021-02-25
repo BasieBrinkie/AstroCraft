@@ -56,6 +56,7 @@ static centrifugeRemove as IItemStack[][] = [
 */
 
 function init() {
-	facTech.centrifugeRemove(centrifugeRemove);
+	//facTech.centrifugeRemove(centrifugeRemove);
+	facTech.centrifugeRemoveAll();
 	facTech.centrifugeAdd(centrifugeAdd);
 }

@@ -7,11 +7,10 @@
 		"bc82f573",
 		"d24f7a48"
 	],
-	tasks: [{
-		uid: "15fd3aed",
-		type: "item",
-		items: [{
-			item: "researchtable:table"
-		}]
+	rewards: [{
+		uid: "740181a0",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "professions_one"
 	}]
 }

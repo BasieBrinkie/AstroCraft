@@ -1,6 +1,7 @@
 {
 	x: 1.0d,
 	y: 0.0d,
+	description: "Can be found from iron ore",
 	text: [
 		"Collect iron ore chunks by grinding iron ore."
 	],

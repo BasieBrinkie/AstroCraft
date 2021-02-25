@@ -49,6 +49,7 @@ static magneticCentrifugeRemove as IItemStack[][] = [
 */
 
 function init() {
-	facTech.magneticCentrifugeRemove(magneticCentrifugeRemove);
+	//facTech.magneticCentrifugeRemove(magneticCentrifugeRemove);
+	facTech.magneticCentrifugeRemoveAll();
 	facTech.magneticCentrifugeAdd(magneticCentrifugeAdd);
 }

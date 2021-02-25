@@ -33,6 +33,7 @@ static compressionChamberRemove as IItemStack[] = [
 ];
 
 function init() {
-	facTech.compressionChamberRemove(compressionChamberRemove);
+	//facTech.compressionChamberRemove(compressionChamberRemove);
+	facTech.compressionChamberRemoveAll();
 	facTech.compressionChamberAdd(compressionChamberAdd);
 }

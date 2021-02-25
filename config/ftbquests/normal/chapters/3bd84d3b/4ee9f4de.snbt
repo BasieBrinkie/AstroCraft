@@ -1,6 +1,10 @@
 {
 	x: 4.0d,
 	y: 0.0d,
+	description: "Use better catalysts to improve yields",
+	text: [
+		""
+	],
 	dependencies: [
 		"043b044e"
 	],

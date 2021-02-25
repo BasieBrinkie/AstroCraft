@@ -36,6 +36,7 @@ static chopSawRemove as IItemStack[] = [
 ];
 
 function init() {
-	facTech.chopSawRemove(chopSawRemove);
+	//facTech.chopSawRemove(chopSawRemove);
+	facTech.chopSawRemoveAll();
 	facTech.chopSawAdd(chopSawAdd);
 }

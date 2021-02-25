@@ -1,6 +1,7 @@
 {
 	x: 2.0d,
 	y: 0.0d,
+	description: "Skyresources multiblock",
 	text: [
 		"We need to combust these harder ore chunks to smaller ore pieces.",
 		"",

@@ -42,11 +42,14 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:stick:0>,
 		<minecraft:stone:0>,		
 		<minecraft:stone_axe:*>,
+		<minecraft:stone_pickaxe:*>,
 		<minecraft:stone_shovel:*>,
 		<minecraft:string:0>,
 		<minecraft:wheat_seeds:0>,
 		<minecraft:wheat:0>,
+		<minecraft:wooden_axe:*>,
 		<minecraft:wooden_pickaxe:*>,
+		<minecraft:wooden_shovel:*>,
 		<minecraft:wool:0>
 	],
 	stageResources1.stage: [
@@ -129,6 +132,7 @@ static disabledItems as IIngredient[] = [
 	<minecraft:iron_hoe:*>,
 	<minecraft:iron_pickaxe:*>,
 	<minecraft:iron_shovel:*>,
+	<minecraft:wooden_hoe:*>
 ];
 
 function init() {

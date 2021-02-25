@@ -1,6 +1,11 @@
 {
+	title: "Better Crafting Table",
 	x: 6.0d,
 	y: -2.0d,
+	description: "The other one was a bit tedious especially in low gravity",
+	text: [
+		"Craft the Crafting Station from tinkers construct for a better crafting experience."
+	],
 	dependencies: [
 		"0efe456e"
 	],

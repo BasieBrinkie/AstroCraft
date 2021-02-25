@@ -21,8 +21,9 @@ static sieveAdd as IItemStack[][float][IIngredient][int] = {
 	0: {
 		//Oxygen One
 		<ore:dirt>: {
-			0.02: [<minecraft:wheat_seeds:0>],
-			0.4: [<actuallyadditions:item_worm:0>]
+			0.05: [<minecraft:wheat_seeds:0>],
+			0.4: [<actuallyadditions:item_worm:0>],
+			0.95: [<minecraft:dirt:0>]
 		},
 		<ore:gravel>: {
 			0.8: [<exnihilocreatio:item_ore_copper:0>],

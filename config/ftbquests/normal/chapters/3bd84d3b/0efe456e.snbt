@@ -2,6 +2,10 @@
 	x: 6.0d,
 	y: 0.0d,
 	shape: "hexagon",
+	description: "Just a larger nugget",
+	text: [
+		"If  multiple nuggets are combined one obtains a large nugget also known as an ingot."
+	],
 	dependencies: [
 		"3f863bdb"
 	],

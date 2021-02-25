@@ -1,6 +1,11 @@
 {
+	title: "Free literature",
 	x: 6.0d,
 	y: -1.0d,
+	description: "I repeat free books!",
+	text: [
+		"The recipe for the factory tech handbook does not consume the shaft that is needed for the recipe."
+	],
 	dependencies: [
 		"9040656a"
 	],

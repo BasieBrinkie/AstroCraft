@@ -69,6 +69,7 @@ static tempererRemove as IItemStack[] = [
 */
 
 function init() {
-	facTech.tempererRemove(tempererRemove);
+	//facTech.tempererRemove(tempererRemove);
+	facTech.tempererRemoveAll();
 	facTech.tempererAdd(tempererAdd);
 }

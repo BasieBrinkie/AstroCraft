@@ -24,6 +24,7 @@ static metalCutterRemove as IItemStack[] = [
 ];
 
 function init() {
-	facTech.metalCutterRemove(metalCutterRemove);
+	//facTech.metalCutterRemove(metalCutterRemove);
+	facTech.metalCutterRemoveAll();
 	facTech.metalCutterAdd(metalCutterAdd);
 }

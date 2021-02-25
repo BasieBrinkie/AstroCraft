@@ -61,7 +61,8 @@ static agitatorRemoveLiquid as ILiquidStack[] = [
 ];
 
 function init() {
-	facTech.agitatorRemove(agitatorRemove);
-	facTech.agitatorRemove(agitatorRemoveLiquid);
+	//facTech.agitatorRemove(agitatorRemove);
+	//facTech.agitatorRemove(agitatorRemoveLiquid);
+	facTech.agitatorRemoveAll();
 	facTech.agitatorAdd(agitatorAdd);
 }

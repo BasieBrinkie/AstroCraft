@@ -22,6 +22,10 @@ zenClass facTech {
 		}
 	}
 
+	function agitatorRemoveAll() {
+		mods.factorytech.Agitator.removeAll();
+	}
+
 	function agitatorRemove(map as ILiquidStack[IItemStack]) {
 		for output, outputFluid in map {
 			mods.factorytech.Agitator.removeRecipe(output, outputFluid);
@@ -48,6 +52,10 @@ zenClass facTech {
 		}
 	}
 
+	function centrifugeRemoveAll() {
+		mods.factorytech.Centrifuge.removeAll();
+	}
+
 	function centrifugeRemove(map as IItemStack[][]) {
 		for i, output in map {
 			mods.factorytech.Centrifuge.removeRecipe(output);
@@ -60,6 +68,10 @@ zenClass facTech {
 				mods.factorytech.ChopSaw.addRecipe(output, input, stonePart);
 			}
 		}
+	}
+
+	function chopSawRemoveAll() {
+		mods.factorytech.ChopSaw.removeAll();
 	}
 
 	function chopSawRemove(map as IItemStack[]) {
@@ -76,6 +88,10 @@ zenClass facTech {
 		}
 	}
 
+	function compressionChamberRemoveAll() {
+		mods.factorytech.CompressionChamber.removeAll();
+	}
+
 	function compressionChamberRemove(map as IItemStack[]) {
 		for output in map {
 			mods.factorytech.CompressionChamber.removeRecipe(output);
@@ -86,6 +102,10 @@ zenClass facTech {
 		for outputFluid, input in map {
 			mods.factorytech.Crucible.addRecipe(outputFluid, input, true);
 		}
+	}
+
+	function crucibleRemoveAll() {
+		mods.factorytech.Crucible.removeAll();
 	}
 
 	function crucibleRemove(map as ILiquidStack[]) {
@@ -102,6 +122,10 @@ zenClass facTech {
 		}
 	}
 
+	function drillRemoveAll() {
+		mods.factorytech.DrillGrinder.removeAll();
+	}
+
 	function drillRemove(map as IItemStack[]) {
 		for output in map {
 			mods.factorytech.DrillGrinder.removeRecipe(output);
@@ -114,6 +138,10 @@ zenClass facTech {
 				mods.factorytech.ElectricFurnace.addRecipe(output, input, stonePart);
 			}
 		}
+	}
+
+	function electricFurnaceRemoveAll() {
+		mods.factorytech.ElectricFurnace.removeAll();
 	}
 
 	function electricFurnaceRemove(map as IItemStack[]) {
@@ -130,6 +158,10 @@ zenClass facTech {
 		}
 	}
 
+	function electroplaterRemoveAll() {
+		mods.factorytech.Electroplater.removeAll();
+	}
+
 	function electroplaterRemove(map as IItemStack[]) {
 		for output in map {
 			mods.factorytech.Electroplater.removeRecipe(output);
@@ -142,6 +174,10 @@ zenClass facTech {
 				mods.factorytech.Grindstone.addRecipe(output, input, stonePart);
 			}
 		}
+	}
+
+	function grindstoneRemoveAll() {
+		mods.factorytech.Grindstone.removeAll();
 	}
 
 	function grindstoneRemove(map as IItemStack[]) {
@@ -158,6 +194,10 @@ zenClass facTech {
 		}
 	}
 
+	function magneticCentrifugeRemoveAll() {
+		mods.factorytech.MagCent.removeAll();
+	}
+
 	function magneticCentrifugeRemove(map as IItemStack[][]) {
 		for i, outputArray in map {
 			mods.factorytech.MagCent.removeRecipe(outputArray);
@@ -172,6 +212,10 @@ zenClass facTech {
 		}
 	}
 
+	function magnetizerRemoveAll() {
+		mods.factorytech.Magnetizer.removeAll();
+	}
+
 	function magnetizerRemove(map as IItemStack[]) {
 		for output in map {
 			mods.factorytech.Magnetizer.removeRecipe(output);
@@ -184,6 +228,10 @@ zenClass facTech {
 				mods.factorytech.MetalCutter.addRecipe(output, input, true);
 			}
 		}
+	}
+
+	function metalCutterRemoveAll() {
+		mods.factorytech.MetalCutter.removeAll();
 	}
 
 	function metalCutterRemove(map as IItemStack[]) {
@@ -212,6 +260,10 @@ zenClass facTech {
 		}
 	}
 
+	function refrigeratorRemoveAll() {
+		mods.factorytech.Refrigerator.removeAll();
+	}
+
 	function refrigeratorRemove(map as IItemStack[]) {
 		for output in map {
 			mods.factorytech.Refrigerator.removeRecipe(output);
@@ -224,6 +276,10 @@ zenClass facTech {
 		}
 	}
 	
+	function riverGrateRemoveAll() {
+		mods.factorytech.rivergrate.removeAll();
+	}
+
 	function riverGrateRemove(map as IItemStack[]) {
 		for output in map {
 			mods.factorytech.rivergrate.removeRecipe(output);
@@ -237,6 +293,10 @@ zenClass facTech {
 					mods.factorytech.Temperer.addRecipe(output, input, ticks);
 			}			
 		}
+	}
+
+	function tempererRemoveAll() {
+		mods.factorytech.Temperer.removeAll();
 	}
 
 	function tempererRemove(map as IItemStack[]) {

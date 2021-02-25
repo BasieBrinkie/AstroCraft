@@ -83,5 +83,6 @@ static drillRemove as IItemStack[] = [
 
 function init() {
 	//facTech.drillRemove(drillRemove);
+	facTech.drillRemoveAll();
 	facTech.drillAdd(drillAdd);
 }

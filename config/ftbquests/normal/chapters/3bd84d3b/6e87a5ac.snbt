@@ -1,7 +1,13 @@
 {
+	title: "Heat Provider",
 	icon: "skyresources:heatprovider 1 1",
 	x: 6.0d,
 	y: 1.0d,
+	description: "Gives off heat",
+	text: [
+		"This block outputs heat to the block above it.",
+		"Be aware that it will keep outputting heat, so remember to remove the fuels when done!"
+	],
 	dependencies: [
 		"3f863bdb"
 	],

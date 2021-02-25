@@ -25,7 +25,6 @@ zenClass skyRes {
 	function catalystAddRecipe(map as float[IItemStack]) {
 		for item, catalystAmount in map {
 			mods.skyresources.catalysts.add(item, catalystAmount);
-			item.addTooltip(format.aqua("Catalyst Yield: " ~ (catalystAmount * 100) ~ "%"));
 		}
 	}
 

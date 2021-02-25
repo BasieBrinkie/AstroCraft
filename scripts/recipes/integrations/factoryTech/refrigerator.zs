@@ -53,6 +53,7 @@ static refrigeratorRemove as IItemStack[] = [
 */
 
 function init() {
-	facTech.refrigeratorRemove(refrigeratorRemove);
+	//facTech.refrigeratorRemove(refrigeratorRemove);
+	facTech.refrigeratorRemoveAll();
 	facTech.refrigeratorAdd(refrigeratorAdd);
 }

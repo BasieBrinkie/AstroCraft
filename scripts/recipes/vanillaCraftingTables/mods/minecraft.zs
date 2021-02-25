@@ -176,43 +176,21 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<minecraft:wooden_axe>: [
 		[
-			[<ore:logWood>, <ore:logWood>, null],
-			[<ore:logWood>, <ore:stickWood>, null],
+			[<ore:logWood> | <advancedrocketry:charcoallog:0>, <ore:logWood> | <advancedrocketry:charcoallog:0>, null],
+			[<ore:logWood> | <advancedrocketry:charcoallog:0>, <ore:stickWood>, null],
 			[null, <ore:stickWood>, null]
-		],
-		[
-			[<advancedrocketry:charcoallog:0>, <advancedrocketry:charcoallog:0>, null],
-			[<advancedrocketry:charcoallog:0>, <ore:stickWood>, null],
-			[null, <ore:stickWood>, null]
-		]
-	],
-	<minecraft:wooden_hoe>: [
-		[
-			[<ore:plankWood>, <ore:plankWood>],
-			[null, <ore:stickWood>],
-			[null, <ore:stickWood>]
 		]
 	],
 	<minecraft:wooden_pickaxe>: [
 		[
-			[<ore:logWood>, <ore:logWood>, <ore:logWood>],
-			[null, <ore:stickWood>, null],
-			[null, <ore:stickWood>, null]
-		],
-		[
-			[<advancedrocketry:charcoallog:0>, <advancedrocketry:charcoallog:0>, <advancedrocketry:charcoallog:0>],
+			[<ore:logWood> | <advancedrocketry:charcoallog:0>, <ore:logWood> | <advancedrocketry:charcoallog:0>, <ore:logWood> | <advancedrocketry:charcoallog:0>],
 			[null, <ore:stickWood>, null],
 			[null, <ore:stickWood>, null]
 		]
 	],
 	<minecraft:wooden_shovel>: [
 		[
-			[null, <ore:logWood>, null],
-			[null, <ore:stickWood>, null],
-			[null, <ore:stickWood>, null]
-		],
-		[
-			[null, <advancedrocketry:charcoallog:0>, null],
+			[null, <ore:logWood> | <advancedrocketry:charcoallog:0>, null],
 			[null, <ore:stickWood>, null],
 			[null, <ore:stickWood>, null]
 		]
