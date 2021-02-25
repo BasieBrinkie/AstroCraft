@@ -94,10 +94,18 @@ zenClass tConstruct {
 		}
 	}
 
-	function meltAdd(map as IIngredient[][ILiquidStack]) {
+	function meltAdd(map as int[IIngredient[]][ILiquidStack]) {
 		for outputFluid, array in map {
-			for inputFluid in array {
-				Melting.addRecipe(outputFluid, inputFluid);
+			for inputArray, temp in array {
+				for input in inputArray {
+					if(isNull(temp)) {
+						Melting.addRecipe(outputFluid, input);
+					}
+					
+					else {
+						Melting.addRecipe(outputFluid, input, temp);
+					}
+				}
 			}
 		}
 	}
@@ -113,6 +121,14 @@ zenClass tConstruct {
 	function meltRemove(map as ILiquidStack[]) {
 		for outputFluid in map {
 			Melting.removeRecipe(outputFluid);
+		}
+	}
+
+	function meltRemoveWithItem(map as IItemStack[][ILiquidStack]) {
+		for outputFluid, itemArray in map {
+			for item in itemArray {
+				Melting.removeRecipe(outputFluid, item);
+			}
 		}
 	}
 

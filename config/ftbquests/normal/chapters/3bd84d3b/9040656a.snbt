@@ -1,6 +1,11 @@
 {
 	x: 7.0d,
 	y: 0.0d,
+	description: "Just smash Iron Ingots hard",
+	text: [
+		"Search for an Obsidian block and right click with an Iron Ingot.",
+		"This will generate the most basic version of Iron Shafts"
+	],
 	dependencies: [
 		"0efe456e"
 	],

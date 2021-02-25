@@ -1,7 +1,11 @@
 {
-	x: 8.0d,
+	x: 9.0d,
 	y: 3.0d,
 	shape: "hexagon",
+	description: "Weirdly enough, wheat does not need oxygen",
+	text: [
+		"TIP: use the worms from actually additions to speed up your farm."
+	],
 	dependencies: [
 		"9a0c9149",
 		"adc61ae5"

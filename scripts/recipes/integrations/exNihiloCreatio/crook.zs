@@ -10,25 +10,20 @@ import crafttweaker.oredict.IOreDictEntry;
 	- remove all existing recipes.
 
 	Add method:
-	[IItemStack] is the output item of the crook.
-	[float] is the chance of getting the output item.
-	IIngredient is the input block. 
+	[IIngredient] is the input block. 
+	[IItemStack[]] is the output items of the crook.
+	float is the chance of getting the output item.
 	----------------------------------------------------------------------------------------------
 */	
 
 
-static crookAdd as IIngredient[float][IItemStack] = { 
+static crookAdd as float[IItemStack[]][][IIngredient] = { 
 	//Farmer One
-	<minecraft:pumpkin_seeds:0>: { 0.05:  
-		<minecraft:wheat:7>
-	},
-	<minecraft:melon_seeds:0>: { 0.05:  
-		<minecraft:wheat:7>
-	},
-	<minecraft:wheat:0>: { 0.05:  
-		<minecraft:wheat:7>
-	},
-
+	<minecraft:wheat:0>: [ 
+		{[<minecraft:wheat:0>]: 1.0},
+		{[<minecraft:melon_seeds:0>]: 0.05},
+		{[<minecraft:pumpkin_seeds:0>]: 0.05}
+	]
 };
 
 /*	

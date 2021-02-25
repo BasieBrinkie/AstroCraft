@@ -23,13 +23,13 @@ static normalDrops as IItemStack[][string] = {
 
 	
 	"minecraft:log": [
-		<minecraft:planks:0> * 4
+		<minecraft:planks:0> * 2
 	],
 	"minecraft:log:4": [
-		<minecraft:planks:0> * 4
+		<minecraft:planks:0> * 2
 	],
 	"minecraft:log:8": [
-		<minecraft:planks:0> * 4
+		<minecraft:planks:0> * 2
 	],
 
 

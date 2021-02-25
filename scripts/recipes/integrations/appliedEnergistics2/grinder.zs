@@ -3,15 +3,15 @@ import crafttweaker.item.IItemStack;
 static grinderAdd as int[IItemStack][IItemStack] = {
 	//Basic Resources
 	<mekanism:dirtydust:0>: {
-		<minecraft:iron_ingot:0>: 6
+		<minecraft:iron_ingot:0>: 2
 	},
 
 	//Rocket Builder
 	<exnihilocreatio:item_ore_lead:0>: {
-		<exnihilocreatio:item_ore_lead:1>: 8
+		<exnihilocreatio:item_ore_lead:1>: 4
 	},
 	<factorytech:ore_dust:9>: {
-		<exnihilocreatio:item_ore_nickel:0>: 5
+		<exnihilocreatio:item_ore_nickel:0>: 3
 	},
 	<mekanism:dirtydust:6>: {
 		<thaumcraft:nugget:4>: 3
@@ -19,10 +19,10 @@ static grinderAdd as int[IItemStack][IItemStack] = {
 
 	//Professions Stage 1
 	<immersiveengineering:material:17>: {
-		<thermalfoundation:material:802>: 10
+		<thermalfoundation:material:802>: 5
 	},
 
-	//Farmer One
+	//P1 - Farmer One
 	<nuclearcraft:flour:0>: {
 		<minecraft:wheat:0>: 2
 	},
@@ -79,6 +79,8 @@ static grinderRemove as IItemStack[] = [
 	<factorytech:ore:0>,
 	<factorytech:ore:1>,
 	<icbmclassic:ingot:1>,
+	<iceandfire:silver_ingot:0>,
+	<iceandfire:silver_ore:0>,
 	<immersiveengineering:metal:0>,
 	<immersiveengineering:metal:2>,
 	<immersiveengineering:metal:3>,
@@ -88,6 +90,7 @@ static grinderRemove as IItemStack[] = [
 	<immersiveengineering:ore:2>,
 	<immersiveengineering:ore:3>,
 	<immersiveengineering:ore:4>,
+	<industrialrenewal:orevein_hematite:0>,
 	<libvulpes:ore0:4>,
 	<libvulpes:ore0:5>,
 	<libvulpes:productingot:4>,
@@ -124,10 +127,28 @@ static grinderRemove as IItemStack[] = [
 	<nuclearcraft:ingot:0>,
 	<nuclearcraft:ingot:1>,
 	<nuclearcraft:ingot:2>,
+	<nuclearcraft:ingot:12>,
 	<nuclearcraft:ingot:13>,
 	<nuclearcraft:ore:0>,
 	<nuclearcraft:ore:1>,
 	<nuclearcraft:ore:2>,
+	<qmd:ingot:5>,
+	<qmd:ingot:7>,
+	<qmd:ingot:8>,
+	<qmd:ingot:10>,
+	<railcraft:ingot:1>,
+	<railcraft:ingot:2>,
+	<railcraft:ingot:3>,
+	<railcraft:ingot:4>,
+	<railcraft:ingot:5>,
+	<railcraft:ingot:7>,
+	<railcraft:ingot:8>,
+	<railcraft:ore_metal:0>,
+	<railcraft:ore_metal:1>,
+	<railcraft:ore_metal:2>,
+	<railcraft:ore_metal:3>,
+	<railcraft:ore_metal:4>,
+	<railcraft:ore_metal:5>,
 	<techguns:basicore:0>,
 	<techguns:basicore:1>,
 	<techguns:basicore:2>,

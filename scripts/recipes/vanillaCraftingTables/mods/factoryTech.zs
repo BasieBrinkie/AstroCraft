@@ -98,14 +98,14 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<factorytech:machinepart:60>: [
 		[
-			[<ore:ingotIron>, <ore:ingotIron>, null],
-			[<ore:clumpCopper>, <ore:ingotIron>, <ore:factoryTechShaft>],
-			[<ore:ingotIron>, <ore:ingotIron>, null]
+			[<ore:nuggetIron>, <ore:nuggetIron>, <ore:factoryTechWire>],
+			[<ore:clumpCopper>, <ore:nuggetIron>, <ore:factoryTechShaft>],
+			[<ore:nuggetIron>, <ore:nuggetIron>, <ore:factoryTechWire>]
 		],
 		[
-			[<ore:nuggetIron>, <ore:nuggetIron>, <factorytech:machinepart:20>],
+			[<ore:nuggetIron>, <ore:nuggetIron>, <ore:factoryTechWire>],
 			[<ore:nuggetlead>, <ore:nuggetIron>, <ore:factoryTechShaft>],
-			[<ore:nuggetIron>, <ore:nuggetIron>, <factorytech:machinepart:20>]
+			[<ore:nuggetIron>, <ore:nuggetIron>, <ore:factoryTechWire>]
 		],
 	],
 	<factorytech:machinepart:80>: [
@@ -185,7 +185,7 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 		[<factorytech:salvagepart:20>, <minecraft:glowstone_dust:0> * 4]
 	],
 	<factorytech:machinepart:60>: [
-		[<factorytech:intermediate:4> | <factorytech:salvagepart:60>, <factorytech:machinepart:20>]
+		[<factorytech:salvagepart:60>, <ore:factoryTechWire> * 2]
 	],
 	<factorytech:machinepart:80>: [
 		[<factorytech:salvagepart:80>, <ore:clumpCopper> * 2]

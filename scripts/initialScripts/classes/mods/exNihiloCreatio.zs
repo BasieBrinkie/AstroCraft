@@ -27,10 +27,14 @@ zenClass enc {
 		Compost.removeAll();
 	}
 
-	function crookAdd(map as IIngredient[float][IItemStack]) {
-		for output, array in map {
-			for chance, input in array {
-				Crook.addRecipe(input, output, chance, 1.0);
+	function crookAdd(map as float[IItemStack[]][][IIngredient]) {
+		for input, dropArray in map {
+			for dropEntry in dropArray {
+				for outputArray, chance in dropEntry {
+					for output in outputArray {
+						Crook.addRecipe(input, output, chance, 1.0);
+					}
+				}
 			}
 		}
 	}

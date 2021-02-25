@@ -3,24 +3,24 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 
 static basinAddConsume as int[int][ILiquidStack][IIngredient][IItemStack] = {
-
-};
-
-static basinAdd as int[int][ILiquidStack][IIngredient][IItemStack] = {
-	<immersiveengineering:storage:4>: {
-		null: {
-			<liquid:nickel>: {
-				1000: 400
+	<minecraft:iron_block:0>: {
+		<minecraft:packed_ice:0>: {
+			<liquid:iron>: {
+				1296: 300
 			}
 		}
 	},
-	<minecraft:iron_block:0>: {
-		null: {
-			<liquid:iron>: {
-				1000: 400
+	<immersiveengineering:storage:4>: {
+		<minecraft:packed_ice:0>: {
+			<liquid:nickel>: {
+				1296: 400
 			}
 		}
 	}
+};
+
+static basinAdd as int[int][ILiquidStack][IIngredient][IItemStack] = {
+
 };
 
 static basinRemove as IItemStack[] = [

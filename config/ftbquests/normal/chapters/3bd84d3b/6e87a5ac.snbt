@@ -1,7 +1,7 @@
 {
 	title: "Heat Provider",
 	icon: "skyresources:heatprovider 1 1",
-	x: 6.0d,
+	x: 5.0d,
 	y: 1.0d,
 	description: "Gives off heat",
 	text: [

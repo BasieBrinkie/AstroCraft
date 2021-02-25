@@ -58,6 +58,10 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:chest:0>,
 		<minecraft:glass:0>,
 		<minecraft:glowstone_dust:0>,
+		<minecraft:iron_axe:*>,
+		<minecraft:iron_hoe:*>,
+		<minecraft:iron_pickaxe:*>,
+		<minecraft:iron_shovel:*>,
 		<minecraft:iron_ore:0>,
 		<minecraft:packed_ice:0>,
 		<minecraft:paper:0>,
@@ -128,10 +132,6 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static disabledItems as IIngredient[] = [
-	<minecraft:iron_axe:*>,
-	<minecraft:iron_hoe:*>,
-	<minecraft:iron_pickaxe:*>,
-	<minecraft:iron_shovel:*>,
 	<minecraft:wooden_hoe:*>
 ];
 

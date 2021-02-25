@@ -1,10 +1,10 @@
 {
-	x: 13.0d,
+	x: 15.0d,
 	y: 0.0d,
 	shape: "gear",
 	dependencies: [
-		"64c3ec86",
 		"bc82f573",
+		"35c5ada8",
 		"d24f7a48"
 	],
 	rewards: [{

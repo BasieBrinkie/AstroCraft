@@ -1,8 +1,11 @@
 {
-	title: "`TODO until AdvRocketry uses CT2",
-	x: 10.0d,
-	y: 0.0d,
+	x: 14.0d,
+	y: 2.0d,
 	shape: "hexagon",
+	description: "Use the press to make iron plates",
+	text: [
+		""
+	],
 	dependencies: [
 		"64c3ec86"
 	],
