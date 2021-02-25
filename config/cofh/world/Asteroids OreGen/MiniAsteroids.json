@@ -109,7 +109,7 @@
                 "cluster-size": 30,
                 "block": [
                     {"name": "minecraft:packed_ice", "weight": 200},
-                    {"name": "thermalfoundation:ore", "properties": { "type": "iridium" }, "weight": 80 },
+                    {"name": "thermalfoundation:ore", "properties": { "type": "iridium" }, "weight": 60 },
                     {"name": "minecraft:diamond_ore", "weight": 1}
                 ],
                 "material": {"name": "minecraft:air"}
@@ -117,7 +117,7 @@
             "min-height": 2,
             "max-height": 254,
             "cluster-count": 1,
-            "chunk-chance": 800,
+            "chunk-chance": 1000,
             "retrogen": "true",
             "biome": "all",
             "dimension": {
@@ -137,7 +137,7 @@
                     {"name": "contenttweaker:astrostone3", "metadata": 0, "weight": 50},
                     {"name": "minecraft:packed_ice", "weight": 1000},
                     {"name": "thermalfoundation:ore", "properties": { "type": "iridium" }, "weight": 50 },
-                    {"name": "thermalfoundation:ore", "properties": { "type": "aluminum" }, "weight":80},
+                    {"name": "thermalfoundation:ore", "properties": { "type": "aluminum" }, "weight": 80 },
                     {"name": "techguns:basicore", "metadata": 4, "weight": 10},
                     {"name": "minecraft:diamond_ore", "weight": 1}
                 ],
@@ -146,7 +146,7 @@
             "min-height": 2,
             "max-height": 254,
             "cluster-count": 1,
-            "chunk-chance": 1000,
+            "chunk-chance": 2000,
             "retrogen": "true",
             "biome": "all",
             "dimension": {

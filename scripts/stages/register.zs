@@ -13,29 +13,34 @@ import mods.zenstages.Stage;
 	Gamemodes.
 	----------
 */
-static gameModeAbnormal as Stage = ZenStager.initStage("gamemode_abnormal");
-static gameModeGenius as Stage = ZenStager.initStage("gamemode_genius");
-static gameModeKitchenSink as Stage = ZenStager.initStage("gamemode_kitchensink");
-static spawnItems as Stage = ZenStager.initStage("spawn_items");
+global gameModeAbnormal as Stage = ZenStager.initStage("gamemode_abnormal");
+global gameModeGenius as Stage = ZenStager.initStage("gamemode_genius");
+global gameModeKitchenSink as Stage = ZenStager.initStage("gamemode_kitchensink");
 
 /*
 	-----------
 	Dimensions.
 	-----------
 */
-static dimensionSpaceStation as Stage = ZenStager.initStage("dim_spacestation");
-static dimensionAsteroids as Stage = ZenStager.initStage("dim_asteroids");
-static dimensionGlacidus as Stage = ZenStager.initStage("dim_glacidus");
+global dimensionSpaceStation as Stage = ZenStager.initStage("dim_spacestation");
+global dimensionAsteroids as Stage = ZenStager.initStage("dim_asteroids");
+global dimensionGlacidus as Stage = ZenStager.initStage("dim_glacidus");
 
+/*
+	------------
+	Spawn Items.
+	------------
+*/
+global stageSpawnItems as Stage = ZenStager.initStage("spawn_items");
 
 /*
 	----------------------
 	Progression Stages: 0.
 	----------------------
 */
-static stageOxygen1 as Stage = ZenStager.initStage("oxygen_one");
-static stageResources1 as Stage = ZenStager.initStage("resources_one");
-static stageRocketBuilder as Stage = ZenStager.initStage("rocket_builder");
+global stageOxygen1 as Stage = ZenStager.initStage("oxygen_one");
+global stageResources1 as Stage = ZenStager.initStage("resources_one");
+global stageRocketBuilder as Stage = ZenStager.initStage("rocket_builder");
 
 
 /*
@@ -43,21 +48,21 @@ static stageRocketBuilder as Stage = ZenStager.initStage("rocket_builder");
 	Progression Stages: 1.
 	----------------------
 */
-static stageProfessionsStage1 as Stage = ZenStager.initStage("professions_one");
+global stageProfessionsStage1 as Stage = ZenStager.initStage("professions_one");
 
-static stageEmerald as Stage = ZenStager.initStage("emerald");
-static stageCrook as Stage = ZenStager.initStage("crook");
-static stageShears as Stage = ZenStager.initStage("shears");
-static stageTank1 as Stage = ZenStager.initStage("tank_one");
-static stageResources2 as Stage = ZenStager.initStage("resources_two");
+global stageEmerald as Stage = ZenStager.initStage("emerald");
+global stageCrook as Stage = ZenStager.initStage("crook");
+global stageShears as Stage = ZenStager.initStage("shears");
+global stageTank1 as Stage = ZenStager.initStage("tank_one");
+global stageResources2 as Stage = ZenStager.initStage("resources_two");
 
-static stageScavenger as Stage = ZenStager.initStage("scavenger");
-static stageMiner1 as Stage = ZenStager.initStage("miner_one");
-static stageOxygenExtractor as Stage = ZenStager.initStage("oxygen_extractor");
-static stageDecorator as Stage = ZenStager.initStage("decorator");
-static stageFarmer1 as Stage = ZenStager.initStage("farmer_one");
-static stageMoldMaker as Stage = ZenStager.initStage("mold_maker");
-static stageAstronomer as Stage = ZenStager.initStage("astronomer");
+global stageScavenger as Stage = ZenStager.initStage("scavenger");
+global stageMiner1 as Stage = ZenStager.initStage("miner_one");
+global stageOxygenExtractor as Stage = ZenStager.initStage("oxygen_extractor");
+global stageDecorator as Stage = ZenStager.initStage("decorator");
+global stageFarmer1 as Stage = ZenStager.initStage("farmer_one");
+global stageMoldMaker as Stage = ZenStager.initStage("mold_maker");
+global stageAstronomer as Stage = ZenStager.initStage("astronomer");
 
 
 /*
@@ -65,10 +70,10 @@ static stageAstronomer as Stage = ZenStager.initStage("astronomer");
 	Progression Stages: 2.
 	----------------------
 */
-static stageProfessionsStage2 as Stage = ZenStager.initStage("professions_two");
+global stageProfessionsStage2 as Stage = ZenStager.initStage("professions_two");
 
-static stageOxygenManager as Stage = ZenStager.initStage("oxygen_manager");
-static stageBlackSmith as Stage = ZenStager.initStage("black_smith");
+global stageOxygenManager as Stage = ZenStager.initStage("oxygen_manager");
+global stageBlackSmith as Stage = ZenStager.initStage("black_smith");
 
 
 /*
@@ -76,9 +81,9 @@ static stageBlackSmith as Stage = ZenStager.initStage("black_smith");
 	Progression Stages: 3.
 	----------------------
 */
-static stageProfessionsStage3 as Stage = ZenStager.initStage("professions_three");
+global stageProfessionsStage3 as Stage = ZenStager.initStage("professions_three");
 
-static stageNuclearPhysicist as Stage = ZenStager.initStage("nuclear_physicist");
+global stageNuclearPhysicist as Stage = ZenStager.initStage("nuclear_physicist");
 
 
 /*
@@ -86,9 +91,9 @@ static stageNuclearPhysicist as Stage = ZenStager.initStage("nuclear_physicist")
 	Progression Stages: 4.
 	----------------------
 */
-static stageProfessionsStage4 as Stage = ZenStager.initStage("professions_four");
+global stageProfessionsStage4 as Stage = ZenStager.initStage("professions_four");
 
-static stageNuclearPhysicistMaster as Stage = ZenStager.initStage("nuclear_physicist_master");
+global stageNuclearPhysicistMaster as Stage = ZenStager.initStage("nuclear_physicist_master");
 
 
 /*
@@ -96,37 +101,37 @@ static stageNuclearPhysicistMaster as Stage = ZenStager.initStage("nuclear_physi
 	Progression Stages: 5.
 	----------------------
 */
-static stageProfessionsStage5 as Stage = ZenStager.initStage("professions_five");
+global stageProfessionsStage5 as Stage = ZenStager.initStage("professions_five");
 
-static stageGunSmithMaster as Stage = ZenStager.initStage("gunsmith_master");
+global stageGunSmithMaster as Stage = ZenStager.initStage("gunsmith_master");
 
 /*
 	--------------
 	Planet Stages.
 	--------------
 */
-static planetAetherThaumcraft1 as Stage = ZenStager.initStage("aetherleg_thaumcraft_one");
+global planetAetherThaumcraft1 as Stage = ZenStager.initStage("aetherleg_thaumcraft_one");
 
-static planetAetherIIAcademy as Stage = ZenStager.initStage("aether_academy");
+global planetAetherIIAcademy as Stage = ZenStager.initStage("aether_academy");
 
-static planetGlacidusStockFarmer as Stage = ZenStager.initStage("glacidus_stockfarmer");
+global planetGlacidusStockFarmer as Stage = ZenStager.initStage("glacidus_stockfarmer");
 /*
 	-----------
 	Mob Stages.
 	-----------
 */
-static stageChickens1 as Stage = ZenStager.initStage("chickens_one");
+global stageChickens1 as Stage = ZenStager.initStage("chickens_one");
 
 /*
 	------------
 	Misc Stages.
 	------------
 */
-static stageDecoration1Enable as Stage = ZenStager.initStage("decoration_one_enable");
-static stageDecoration1Disable as Stage = ZenStager.initStage("decoration_one_disable");
-static stageDisabledItems as Stage = ZenStager.initStage("disabled_items");
-static stageRecurrentComplex as Stage = ZenStager.initStage("reccomplex");
-static stageNonStaged as Stage = ZenStager.initStage("non_staged_items");
+global stageDecoration1Enable as Stage = ZenStager.initStage("decoration_one_enable");
+global stageDecoration1Disable as Stage = ZenStager.initStage("decoration_one_disable");
+global stageDisabledItems as Stage = ZenStager.initStage("disabled_items");
+global stageRecurrentComplex as Stage = ZenStager.initStage("reccomplex");
+global stageNonStaged as Stage = ZenStager.initStage("non_staged_items");
 /*
 var allStages as string[] = [
 "insert",

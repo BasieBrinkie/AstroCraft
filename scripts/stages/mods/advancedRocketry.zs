@@ -3,28 +3,10 @@ import crafttweaker.item.IIngredient;
 import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
-import scripts.stages.register.stageProfessionsStage1;
-import scripts.stages.register.stageProfessionsStage2;
-import scripts.stages.register.stageProfessionsStage3;
-import scripts.stages.register.stageProfessionsStage4;
-import scripts.stages.register.stageProfessionsStage5;
-
-import scripts.stages.register.stageOxygen1;
-import scripts.stages.register.stageResources1;
-import scripts.stages.register.stageRocketBuilder;
-import scripts.stages.register.stageOxygenExtractor;
-import scripts.stages.register.stageDecorator;
-import scripts.stages.register.stageFarmer1;
-import scripts.stages.register.stageMoldMaker;
-import scripts.stages.register.stageAstronomer;
-import scripts.stages.register.stageBlackSmith;
-import scripts.stages.register.stageNuclearPhysicist;
-
-import scripts.stages.register.stageDisabledItems;
-import scripts.stages.register.stageDecoration1Enable;
+import scripts.stages.register;
 
 static stagedItems as IIngredient[][string] = {
-	spawnItems.stage: [
+	stageSpawnItems.stage: [
 		<advancedrocketry:spacehelmet>,
 		<advancedrocketry:spacechestplate>.withTag(nbt.pressureTank_Oxygen(4000, 0)),
 		<advancedrocketry:spacechestplate>,
@@ -50,7 +32,6 @@ static stagedItems as IIngredient[][string] = {
 		<advancedrocketry:spacestationchip:0>,
 		<advancedrocketry:stationbuilder:0>,
 		<advancedrocketry:structuretower:0>
-
 	]
 };
 

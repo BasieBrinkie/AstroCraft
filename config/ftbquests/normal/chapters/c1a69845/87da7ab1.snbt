@@ -1,0 +1,19 @@
+{
+	title: "Space Suit",
+	x: -12.0d,
+	y: -1.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "b39b15f1",
+		type: "dimension",
+		dim: 3
+	}],
+	rewards: [{
+		uid: "4090e4be",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "spawn_items"
+	}]
+}
