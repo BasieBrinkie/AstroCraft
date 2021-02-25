@@ -16,7 +16,7 @@ import mods.zenstages.Stage;
 static gameModeAbnormal as Stage = ZenStager.initStage("gamemode_abnormal");
 static gameModeGenius as Stage = ZenStager.initStage("gamemode_genius");
 static gameModeKitchenSink as Stage = ZenStager.initStage("gamemode_kitchensink");
-
+static spawnItems as Stage = ZenStager.initStage("spawn_items");
 
 /*
 	-----------

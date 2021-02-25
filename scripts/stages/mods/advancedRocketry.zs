@@ -24,14 +24,13 @@ import scripts.stages.register.stageDisabledItems;
 import scripts.stages.register.stageDecoration1Enable;
 
 static stagedItems as IIngredient[][string] = {
-	/*
-	nonstaged.stage: [
+	spawnItems.stage: [
 		<advancedrocketry:spacehelmet>,
 		<advancedrocketry:spacechestplate>.withTag(nbt.pressureTank_Oxygen(4000, 0)),
+		<advancedrocketry:spacechestplate>,
 		<advancedrocketry:spaceleggings>,
 		<advancedrocketry:spaceboots>
-	]
-	*/
+	],
 	stageOxygen1.stage: [
 		<advancedrocketry:charcoallog:0>,
 		<advancedrocketry:liquidtank:0>,	
