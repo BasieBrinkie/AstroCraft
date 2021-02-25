@@ -76,22 +76,25 @@
         },
 
 
-        "Asteroids_Commet_Obsidian": {
+        "Asteroids_Comet_Obsidian": {
             "distribution": "uniform",
             "generator": {
-                "type": "large-vein",
-                "cluster-size": 300,
+                "type": "boulder",
+                "diameter": 6,
+                "size-variance": 4,
+                "count": 1,
+                "count-variance": 0, 
                 "block": [
-                    {"name": "minecraft:packed_ice", "weight": 150},
-                    {"name": "minecraft:obsidian"},
+                    {"name": "minecraft:packed_ice", "weight": 130},
+                    {"name": "minecraft:obsidian", "weight": 80},
                     {"name": "minecraft:diamond_ore", "weight": 1}
                 ],
-                "material": {"name": "minecraft:air"}
+                "material": {"name": "contenttweaker:astrostone"}
             },
             "min-height": 2,
             "max-height": 254,
             "cluster-count": 1,
-            "chunk-chance": 400,
+            "chunk-chance": 150,
             "retrogen": "true",
             "biome": "all",
             "dimension": {
@@ -100,7 +103,7 @@
             }
         },
 
-        "Asteroids_Commet_Iridium": {
+        "Asteroids_Comet_Iridium": {
             "distribution": "uniform",
             "generator": {
                 "cluster-size": 30,
@@ -114,7 +117,7 @@
             "min-height": 2,
             "max-height": 254,
             "cluster-count": 1,
-            "chunk-chance": 100,
+            "chunk-chance": 800,
             "retrogen": "true",
             "biome": "all",
             "dimension": {
@@ -123,7 +126,7 @@
             }
         },
 
-        "Asteroids_Weird_Commet": {
+        "Asteroids_Weird_Comet": {
             "distribution": "uniform",
             "generator": {
                 "type": "large-vein",

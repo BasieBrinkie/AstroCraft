@@ -22,13 +22,14 @@
       "tileEntity": "null"
     },
     {
+      "weight": 7.069303512573242,
       "block": "minecraft:packed_ice",
       "metadata": 0,
       "tileEntity": "null"
     }
   ],
   "metadata": {
-    "title": "Randomized Astro Stone Ice",
+    "title": "Randomized Comet Stone Ice ",
     "description": [
       ""
     ]
