@@ -1,6 +1,10 @@
 {
 	x: 8.0d,
 	y: 4.0d,
+	description: "HO(e)s before BROs",
+	text: [
+		"Just an ordinarily hoe, nothing more to it."
+	],
 	dependencies: [
 		"8388e635"
 	],

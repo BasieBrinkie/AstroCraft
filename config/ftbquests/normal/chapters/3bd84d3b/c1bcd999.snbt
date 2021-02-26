@@ -1,6 +1,11 @@
 {
 	x: 9.0d,
 	y: -2.0d,
+	description: "Motor useable in machines",
+	text: [
+		"There are two recipes, one difficult and one more easy.",
+		"You would need to progress at least once through the difficult one before it gets easier"
+	],
 	dependencies: [
 		"1dd78e21"
 	],

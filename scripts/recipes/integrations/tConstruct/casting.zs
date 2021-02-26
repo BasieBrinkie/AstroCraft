@@ -18,7 +18,13 @@ import crafttweaker.liquid.ILiquidStack;
 	----------------------------------------------------------------------------------------------
 */	
 static castingAddConsume as int[int][ILiquidStack][IIngredient][IItemStack] = {
-
+	<minecraft:paper:0>: {
+		<mekanism:sawdust:0>: {
+			<liquid:preheated_water>: {
+				1000: 100
+			}
+		}
+	},
 };
 
 static castingAdd as int[int][ILiquidStack][IIngredient][IItemStack] = {

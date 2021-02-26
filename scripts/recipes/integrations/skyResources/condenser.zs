@@ -17,13 +17,6 @@ import crafttweaker.liquid.ILiquidStack;
 
 
 static condenserAdd as int[ILiquidStack][IItemStack][IItemStack] = {
-	//Basic Resources
-	<minecraft:paper:0>: {
-		<mekanism:sawdust:0>: {
-			<liquid:preheated_water>: 300
-		}
-	},
-	
 	//Rocket Builder
 	<libvulpes:productnugget:9>: {
 		<exnihilocreatio:item_ore_aluminum:0>: {

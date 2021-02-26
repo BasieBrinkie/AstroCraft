@@ -1,14 +1,25 @@
 {
-	x: 6.0d,
+	x: 8.0d,
 	y: 2.0d,
+	description: "Means to catch fluids and transform items",
+	text: [
+		"The Basin/Casting Table needs to be placed underneath faucet."
+	],
 	dependencies: [
-		"053739df"
+		"67f71a53"
 	],
 	tasks: [{
 		uid: "c5bf8929",
 		type: "item",
 		items: [{
 			item: "tconstruct:casting 1 1"
+		}]
+	},
+	{
+		uid: "6773d1d1",
+		type: "item",
+		items: [{
+			item: "tconstruct:casting"
 		}]
 	}]
 }

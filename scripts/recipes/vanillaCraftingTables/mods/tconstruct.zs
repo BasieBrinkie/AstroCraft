@@ -7,6 +7,13 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
+	<tconstruct:casting:0>: [
+		[
+			[<tconstruct:materials:0>, <tconstruct:materials:0>, <tconstruct:materials:0>],
+			[<tconstruct:materials:0>, null, <tconstruct:materials:0>],
+			[<tconstruct:materials:0>, null, <tconstruct:materials:0>]
+		]
+	],
 	<tconstruct:casting:1>: [
 		[
 			[<tconstruct:materials:0>, null, <tconstruct:materials:0>],

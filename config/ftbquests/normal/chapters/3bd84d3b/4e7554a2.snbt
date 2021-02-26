@@ -1,6 +1,10 @@
 {
 	x: 9.0d,
 	y: 1.0d,
+	description: "Just a pointy gear",
+	text: [
+		""
+	],
 	dependencies: [
 		"298c137e"
 	],

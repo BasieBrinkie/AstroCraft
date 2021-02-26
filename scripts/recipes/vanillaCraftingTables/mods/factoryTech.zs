@@ -10,7 +10,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<factorytech:centrifuge:0>: [
 		[
 			[<ore:ingotIron>, <ore:factoryTechShaft>, <ore:ingotIron>],
-			[<factorytech:intermediate:4>, <ore:factoryTechGear>, null],
+			[<ore:factoryTechMotor>, <ore:factoryTechGear>, null],
 			[<ore:stone>, <ore:stone>, <ore:stone>]
 		]
 	],
@@ -103,9 +103,14 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:nuggetIron>, <ore:nuggetIron>, <ore:factoryTechWire>]
 		],
 		[
-			[<ore:nuggetIron>, <ore:nuggetIron>, <ore:factoryTechWire>],
-			[<ore:nuggetlead>, <ore:nuggetIron>, <ore:factoryTechShaft>],
-			[<ore:nuggetIron>, <ore:nuggetIron>, <ore:factoryTechWire>]
+			[<ore:ingotIron>, <ore:ingotIron>, null],
+			[<ore:clumpCopper>, <ore:ingotIron>, <ore:factoryTechShaft>],
+			[<ore:ingotIron>, <ore:ingotIron>, null]
+		],
+		[
+			[<ore:nuggetIron>, <ore:nuggetIron>, null],
+			[<ore:nuggetLead>, <ore:nuggetIron>, <ore:factoryTechShaft>],
+			[<ore:nuggetIron>, <ore:nuggetIron>, null]
 		],
 	],
 	<factorytech:machinepart:80>: [
@@ -131,7 +136,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<factorytech:oredrill:0>: [
 		[
-			[<ore:plankwood>, <factorytech:intermediate:4>, <ore:plankWood>],
+			[<ore:plankwood>, <ore:factoryTechMotor>, <ore:plankWood>],
 			[<ore:stone>, <ore:factoryTechDrill>, <ore:stone>],
 			[<ore:stone>, <ore:stone>, <ore:stone>]
 		]
@@ -140,7 +145,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		[
 			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
 			[<ore:factoryTechShaft>, <ore:factoryTechGear>, null],
-			[<ore:stone>, <factorytech:intermediate:4>, <ore:stone>]
+			[<ore:stone>, <ore:factoryTechMotor>, <ore:stone>]
 		]
 	],
 	<factorytech:scaffold:0> * 4: [

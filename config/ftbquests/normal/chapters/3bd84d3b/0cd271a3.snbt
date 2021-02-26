@@ -1,6 +1,10 @@
 {
 	x: 7.0d,
 	y: 1.0d,
+	description: "Transportation of fluids",
+	text: [
+		"You should look into the mod \"Vanilla\" for its basic uses."
+	],
 	dependencies: [
 		"0efe456e"
 	],

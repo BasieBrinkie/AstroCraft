@@ -1,6 +1,11 @@
 {
+	title: "Ice Gathering",
 	x: 7.0d,
 	y: 4.0d,
+	description: "Refreshing and cool ice",
+	text: [
+		"Gotta make water in order to survive."
+	],
 	dependencies: [
 		"053739df"
 	],

@@ -1,6 +1,10 @@
 {
 	x: 10.0d,
 	y: -3.0d,
+	description: "Dust is easier to melt",
+	text: [
+		""
+	],
 	dependencies: [
 		"0f54c3e4"
 	],

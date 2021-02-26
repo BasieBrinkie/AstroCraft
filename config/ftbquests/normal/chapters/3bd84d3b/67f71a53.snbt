@@ -1,8 +1,12 @@
 {
-	x: 9.0d,
+	x: 6.0d,
 	y: 2.0d,
+	description: "Be wary of hot fluids!",
+	text: [
+		"The faucet can be placed onto the crucible and transfer its fluids to a basin"
+	],
 	dependencies: [
-		"e8f6f7a8"
+		"053739df"
 	],
 	tasks: [{
 		uid: "f5921fa1",

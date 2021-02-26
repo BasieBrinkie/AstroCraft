@@ -1,6 +1,10 @@
 {
 	x: 10.0d,
 	y: 3.0d,
+	description: "Simple composer",
+	text: [
+		"This atribute is used to compose new things by waiting"
+	],
 	dependencies: [
 		"d2fbe0cd"
 	],

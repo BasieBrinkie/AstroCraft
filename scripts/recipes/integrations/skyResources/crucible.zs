@@ -28,7 +28,7 @@ static crucibleAdd as IItemStack[][ILiquidStack] = {
 		Stage: 0 - Basic Resources
 		---------------------------------------------
 	*/	
-	<liquid:iron> * 100: [<mekanism:dirtydust:0>, <factorytech:salvagepart:50>],
+	<liquid:iron> * 108: [<mekanism:dirtydust:0>, <factorytech:salvagepart:50>],
 	<liquid:preheated_water> * 250: [<minecraft:packed_ice:0>], 
 	
 	/*	
@@ -36,10 +36,10 @@ static crucibleAdd as IItemStack[][ILiquidStack] = {
 		Stage: 0 - Rocket Builder
 		---------------------------------------------
 	*/
-	<liquid:iridium> * 100: [<skyresources:orealchdust:17>],
-	<liquid:iron> * 50: [<factorytech:salvagepart:1>, <factorytech:salvagepart:11>, <factorytech:salvagepart:31>],
-	<liquid:lead> * 200: [<exnihilocreatio:item_ore_lead:0>],
-	<liquid:nickel> * 100: [<factorytech:ore_dust:5>],
+	<liquid:iridium> * 108: [<skyresources:orealchdust:17>],
+	<liquid:iron> * 54: [<factorytech:salvagepart:1>, <factorytech:salvagepart:11>, <factorytech:salvagepart:31>],
+	<liquid:lead> * 216: [<exnihilocreatio:item_ore_lead:0>],
+	<liquid:nickel> * 108: [<factorytech:ore_dust:5>],
 
 	/*	
 		---------------------------------------------
@@ -47,7 +47,7 @@ static crucibleAdd as IItemStack[][ILiquidStack] = {
 		---------------------------------------------
 	*/
 	<liquid:copper> * 16: [<mekanism:nugget:5>, <immersiveengineering:metal:20>, <factorytech:ore_dust:4>],
-	<liquid:copper> * 250: [<mekanism:clump:3>, <tconstruct:shard>.withTag({Material: "copper"})],
+	<liquid:copper> * 432: [<mekanism:clump:3>, <tconstruct:shard>.withTag({Material: "copper"})],
 };
 
 /*	

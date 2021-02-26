@@ -1,6 +1,10 @@
 {
 	x: 8.0d,
 	y: 1.0d,
+	description: "Another grinder",
+	text: [
+		"This grinder works with a spinning stone and is usually used for sharpening items"
+	],
 	dependencies: [
 		"9fc2580a",
 		"9040656a"

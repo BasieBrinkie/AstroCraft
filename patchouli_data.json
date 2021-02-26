@@ -1,5 +1,5 @@
 {
-  "bookGuiScale": 0,
+  "bookGuiScale": 2,
   "clickedVisualize": false,
   "bookData": {
     "mysticalworld:world_guide": {
@@ -10,6 +10,12 @@
       "history": [
         "mysticalworld:blocks/charred_wood"
       ],
+      "completedManualQuests": []
+    },
+    "engineersdecor:engineersdecor_manual": {
+      "viewedEntries": [],
+      "bookmarks": [],
+      "history": [],
       "completedManualQuests": []
     }
   }

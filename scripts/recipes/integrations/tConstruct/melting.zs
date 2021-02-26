@@ -17,7 +17,7 @@ import crafttweaker.liquid.ILiquidStack;
 	----------------------------------------------------------------------------------------------
 */	
 static meltAdd as int[IIngredient[]][ILiquidStack] = {
-	<liquid:molten_iron> * 144: {
+	<liquid:iron> * 144: {
 		[<mekanism:dirtydust:0>]: null
 	}
 };
@@ -28,7 +28,7 @@ static meltAddEntity as IEntityDefinition[][ILiquidStack] = {
 
 static meltRemove as ILiquidStack[] = [ 
 	//P1 - blacksmith
-	<liquid:molten_iron>
+	<liquid:iron>
 ];
 
 static meltRemovewithItem as IItemStack[][ILiquidStack] = {
