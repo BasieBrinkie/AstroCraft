@@ -1,0 +1,14 @@
+{
+	x: -1.0d,
+	y: 2.0d,
+	dependencies: [
+		"033a47b7"
+	],
+	tasks: [{
+		uid: "54d033fc",
+		type: "item",
+		items: [{
+			item: "grapplemod:block_grapple_modifier"
+		}]
+	}]
+}

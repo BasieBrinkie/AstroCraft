@@ -1,0 +1,18 @@
+{
+	x: 11.0d,
+	y: 3.0d,
+	description: "Composed wheat",
+	text: [
+		"Put a piece of wheat in the Compost and wait."
+	],
+	dependencies: [
+		"4c4d0c22"
+	],
+	tasks: [{
+		uid: "149d585f",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials 1 15"
+		}]
+	}]
+}

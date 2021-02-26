@@ -1,0 +1,12 @@
+{
+	title: "Professions - Stage: 2",
+	icon: {
+		id: "extrautils2:machine",
+		tag: {
+			Type: "extrautils2:generator_culinary"
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

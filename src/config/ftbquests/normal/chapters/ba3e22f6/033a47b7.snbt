@@ -1,0 +1,15 @@
+{
+	x: 2.0d,
+	y: 2.0d,
+	shape: "hexagon",
+	dependencies: [
+		"0bcf8758"
+	],
+	tasks: [{
+		uid: "ec873674",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone"
+		}]
+	}]
+}

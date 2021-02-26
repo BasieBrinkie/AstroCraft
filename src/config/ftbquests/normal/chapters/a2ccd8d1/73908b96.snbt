@@ -1,0 +1,11 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "d3564d56",
+		type: "item",
+		items: [{
+			item: "academy:tutorial"
+		}]
+	}]
+}

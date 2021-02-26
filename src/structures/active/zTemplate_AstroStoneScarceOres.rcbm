@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "weight": 49.24846649169922,
+      "block": "contenttweaker:astrostone3",
+      "metadata": 0,
+      "tileEntity": "null"
+    },
+    {
+      "weight": 49.24846649169922,
+      "block": "contenttweaker:astrostone2",
+      "metadata": 0,
+      "tileEntity": "null"
+    },
+    {
+      "weight": 51.427284240722656,
+      "block": "contenttweaker:astrostone",
+      "metadata": 0,
+      "tileEntity": "null"
+    },
+    {
+      "weight": 5.4332804679870605,
+      "block": "minecraft:iron_ore",
+      "metadata": 0,
+      "tileEntity": "null"
+    },
+    {
+      "weight": 1.0,
+      "block": "thermalfoundation:ore",
+      "metadata": 5,
+      "tileEntity": "null"
+    }
+  ],
+  "metadata": {
+    "title": "Scarce Ores AstroStone",
+    "description": [
+      ""
+    ]
+  }
+}

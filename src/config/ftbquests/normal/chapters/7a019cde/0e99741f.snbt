@@ -1,0 +1,22 @@
+{
+	x: 2.0d,
+	y: -5.0d,
+	dependencies: [
+		"5e95df11"
+	],
+	tasks: [{
+		uid: "3317e00d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -5559831587488555763L,
+					AS_Amulet_HolderMost: 615258918546590343L
+				}
+			},
+			id: "littletiles:hammer",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}]
+}

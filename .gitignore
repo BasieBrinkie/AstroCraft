@@ -1,0 +1,46 @@
+# Un-Needed Mod Bloat
+src/config/AppliedEnergistics2/items.csv
+src/config/AppliedEnergistics2/aerecipes/*
+src/config/cd4017be/inductiveLogistics.rcp
+src/config/cd4017be/inductiveLogistics.rcp.old
+src/config/cd4017be/compiled.dat
+src/config/cd4017be/core.rcp.old
+src/acmedia/*
+src/astralsorcery/*
+src/bendpacks/*
+src/betweenlands_gallery/*
+src/journeymap/*
+src/llibrary/*
+src/local/*
+src/logs/*
+src/mods/*
+src/nuclearcraft/*
+src/saves/*
+src/.ReAuth.cfg
+src/BotaniaVars.dat
+src/*.log
+src/*.dll
+src/minecraftinstance.json
+src/.curseclient
+src/.mixin.out/*
+src/config/BiomeTweaker/output/*
+
+# Client Only Files
+src/config/jei/bookmarks.ini
+src/config/jei/worldSettings.cfg
+src/config/jei/lookupHistory.zip
+src/journeymap/data/*
+src/journeymap/server/*
+src/journeymap/journeymap.log
+
+# Other
+src/config/worldedit/*
+src/config/sampler.ini
+
+# IDE
+.idea/
+
+# Stuff
+.DS_Store
+*.dat
+src/config/InvTweaksRules.txt

@@ -1,0 +1,57 @@
+{
+  "block_pools": [
+    {
+      "name": "DirtSilkworms",
+      "type": {
+        "type": "block",
+        "name": "minecraft:dirt",
+        "meta": 0
+      },
+      "clicktype": "rightclick",
+      "properties": [
+        {
+          "type": "require_sneak"
+        },
+        {
+          "type": "play_sound",
+          "name": "minecraft:block.grass.break"
+        },
+        {
+          "type": "swing_hand"
+        },
+        {
+          "type": "require_tool",
+          "tool": "shovel",
+          "level": 1
+        },
+        {
+          "type": "spawn_particles",
+          "name": "crit",
+          "xOffset": 10.0,
+          "zOffset": 10.0,
+          "amount": 15,
+          "speed": 0.6
+        },
+        {
+          "type": "per_block_limit",
+          "usage": 1,
+          "id": "DirtCounter",
+          "max": 4,
+          "min": 0,
+          "replacement": {
+          	"name": "minecraft:dirt",
+          	"meta": 1,
+          	"chance": 100
+          }
+        }          
+      ],
+      "drops": [
+        {
+          "name": "exnihilocreatio:item_material",
+          "meta": 2,
+          "chance": 5
+        }
+      ]
+    }
+  ]
+}

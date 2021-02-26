@@ -1,0 +1,18 @@
+{
+	x: 12.0d,
+	y: -2.0d,
+	description: "Sieving sand yields new items",
+	text: [
+		""
+	],
+	dependencies: [
+		"099d7676"
+	],
+	tasks: [{
+		uid: "79ccf496",
+		type: "item",
+		items: [{
+			item: "minecraft:glowstone_dust"
+		}]
+	}]
+}

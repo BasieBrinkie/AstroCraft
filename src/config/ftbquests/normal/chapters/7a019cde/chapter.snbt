@@ -1,0 +1,12 @@
+{
+	title: "Decorator",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "chisel:chisel_iron"
+	},
+	always_invisible: false,
+	group: -1170332938,
+	default_quest_shape: ""
+}

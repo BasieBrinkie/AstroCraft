@@ -1,0 +1,100 @@
+<galaxy>
+    <star name="Sol" temp="200" x="0" y="0"  numPlanets="1" numGasGiants="2">
+        <planet DIMID="32" customIcon="MarsLike" numPlanets="0" name="Sol-1">
+            <atmosphereDensity>0</atmosphereDensity>
+            <gravitationalMultiplier>130</gravitationalMultiplier>
+            <orbitalDistance>10</orbitalDistance>
+            <orbitalTheta>116</orbitalTheta>
+            <rotationalPeriod>48000</rotationalPeriod>
+            <biomeIds>112</biomeIds>
+        </planet>
+        <planet DIMID="33" customIcon="moon" name="Sol-2">
+            <atmosphereDensity>0</atmosphereDensity>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>20</orbitalDistance>
+            <orbitalTheta>70</orbitalTheta>
+            <rotationalPeriod>6000</rotationalPeriod>
+            <biomeIds>110,119</biomeIds>
+            <hasRings>true</hasRings>
+            <orbitalPhi>45</orbitalPhi>
+        </planet>
+    </star>
+    <star name="Kepler" temp="160" x="60" y="100"  numPlanets="0" numGasGiants="4">
+        <planet DIMID="34" customIcon="MarsLike" numPlanets="0" name="Sol-3">
+            <atmosphereDensity>0</atmosphereDensity>
+            <gravitationalMultiplier>150</gravitationalMultiplier>
+            <orbitalDistance>35</orbitalDistance>
+            <orbitalTheta>210</orbitalTheta>
+            <rotationalPeriod>72000</rotationalPeriod>
+            <biomeIds>112</biomeIds>
+        </planet>
+        <planet DIMID="35" customIcon="MarsLike" numPlanets="0" name="Sol-4">
+            <atmosphereDensity>125</atmosphereDensity>
+            <gravitationalMultiplier>150</gravitationalMultiplier>
+            <orbitalDistance>70</orbitalDistance>
+            <orbitalTheta>156</orbitalTheta>
+            <rotationalPeriod>72000</rotationalPeriod>
+            <biomeIds>112</biomeIds>
+            <fillerBlock>minecraft:netherrack</fillerBlock>
+            <oceanBlock>minecraft:lava</oceanBlock>
+            <orbitalPhi>90</orbitalPhi>
+        </planet>  
+    </star>
+    <star name="Sangstrom" temp="20" x="-150" y="40"  numPlanets="0" numGasGiants="3">
+        <planet DIMID="36" customIcon="IceWorld" name="Sol-6">
+            <atmosphereDensity>0</atmosphereDensity>
+            <gravitationalMultiplier>70</gravitationalMultiplier>
+            <orbitalDistance>200</orbitalDistance>
+            <orbitalTheta>277</orbitalTheta>
+            <rotationalPeriod>96000</rotationalPeriod>
+            <biomeIds>140</biomeIds>
+            <oceanBlock>advancedRocketry:tile.oxygenFluidBlock</oceanBlock>
+            <fillerBlock>minecraft:packed_ice</fillerBlock>
+            <seaLevel>72</seaLevel>
+        </planet>  
+        <planet DIMID="37" customIcon="IceWorld" name="Sol-7">
+            <atmosphereDensity>0</atmosphereDensity>
+            <gravitationalMultiplier>137</gravitationalMultiplier>
+            <orbitalDistance>180</orbitalDistance>
+            <orbitalTheta>133</orbitalTheta>
+            <rotationalPeriod>12000</rotationalPeriod>
+            <biomeIds>140</biomeIds>
+            <oceanBlock>advancedRocketry:tile.nitrogenFluidBlock</oceanBlock>
+            <fillerBlock>minecraft:packed_ice</fillerBlock>
+            <seaLevel>68</seaLevel>
+        </planet>
+        <planet DIMID="38" customIcon="IceWorld" name="Sol-8">
+            <atmosphereDensity>0</atmosphereDensity>
+            <gravitationalMultiplier>159</gravitationalMultiplier>
+            <orbitalDistance>160</orbitalDistance>
+            <orbitalTheta>349</orbitalTheta>
+            <rotationalPeriod>72000</rotationalPeriod>
+            <biomeIds>140</biomeIds>
+            <oceanBlock>advancedRocketry:tile.oxygenFluidBlock</oceanBlock>
+            <fillerBlock>minecraft:packed_ice</fillerBlock>
+            <seaLevel>68</seaLevel>
+            <orbitalPhi>45</orbitalPhi>
+        </planet>
+    </star>
+    <star name="Hohlbohr" temp="100" x="50" y="-200"  numPlanets="2" numGasGiants="1">
+        <star name="hohlbohr-2" temp="30" seperation="30.0" />
+        <planet DIMID="39" customIcon="EarthLike" name="Sol-9">
+            <atmosphereDensity>100</atmosphereDensity>
+            <gravitationalMultiplier>137</gravitationalMultiplier>
+            <orbitalDistance>90</orbitalDistance>
+            <orbitalTheta>57</orbitalTheta>
+            <rotationalPeriod>24000</rotationalPeriod>
+            <biomeIds>0</biomeIds>
+        </planet>
+        <planet DIMID="40" customIcon="moon" name="Sol-10">
+            <atmosphereDensity>0</atmosphereDensity>
+            <gravitationalMultiplier>160</gravitationalMultiplier>
+            <orbitalDistance>135</orbitalDistance>
+            <orbitalTheta>189</orbitalTheta>
+            <rotationalPeriod>12000</rotationalPeriod>
+            <biomeIds>110,119</biomeIds>
+            <hasRings>true</hasRings>
+            <orbitalPhi>45</orbitalPhi>
+        </planet>
+    </star>
+</galaxy>

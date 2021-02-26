@@ -1,0 +1,14 @@
+{
+	x: 9.0d,
+	y: -3.0d,
+	dependencies: [
+		"b5ae43e5"
+	],
+	tasks: [{
+		uid: "d53f9704",
+		type: "item",
+		items: [{
+			item: "skyresources:casing 1 4"
+		}]
+	}]
+}

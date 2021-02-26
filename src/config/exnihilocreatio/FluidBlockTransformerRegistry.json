@@ -1,0 +1,7 @@
+[
+  {
+    "fluidName": "preheated_water",
+    "input": "minecraft:magma",
+    "output": "minecraft:obsidian"
+  }
+]

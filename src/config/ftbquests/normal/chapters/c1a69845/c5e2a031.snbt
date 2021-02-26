@@ -1,0 +1,10 @@
+{
+	icon: "matteroverdrive:gravitational_anomaly",
+	x: -1.0d,
+	y: 8.0d,
+	tasks: [{
+		uid: "7cdabae0",
+		type: "gamestage",
+		stage: "professions_four"
+	}]
+}

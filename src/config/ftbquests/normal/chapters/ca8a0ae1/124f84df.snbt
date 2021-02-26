@@ -1,0 +1,22 @@
+{
+	title: "String Worm Product",
+	x: 15.0d,
+	y: 1.0d,
+	description: "Silkworms compost into wool which drops a single piece of string",
+	text: [
+		"- Fill a wooden barrel with 10 silkworms",
+		"- Wait until it is composted",
+		"- Collect 9 wool"
+	],
+	dependencies: [
+		"7adde10e",
+		"8129b4da"
+	],
+	tasks: [{
+		uid: "77d4e7f7",
+		type: "item",
+		items: [{
+			item: "minecraft:string"
+		}]
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "techguns:tfg",
+		tag: {
+			ammo: 20s,
+			ammovariant: "default",
+			camo: 0b
+		}
+	},
+	x: 0.0d,
+	y: 12.0d,
+	tasks: [{
+		uid: "d5dc84ff",
+		type: "gamestage",
+		stage: "gunsmith_master"
+	}]
+}

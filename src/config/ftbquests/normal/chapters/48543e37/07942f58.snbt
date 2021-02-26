@@ -1,0 +1,15 @@
+{
+	x: -2.0d,
+	y: 0.0d,
+	dependencies: [
+		"f337b046",
+		"6f666743"
+	],
+	tasks: [{
+		uid: "519d8732",
+		type: "item",
+		items: [{
+			item: "jurassicraft:plant_cells"
+		}]
+	}]
+}

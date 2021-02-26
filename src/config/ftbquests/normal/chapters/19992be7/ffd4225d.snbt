@@ -1,0 +1,17 @@
+{
+	x: 1.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "ff1f273b",
+		type: "item",
+		items: [{
+			id: "advancedrocketry:bucketoxygen",
+			tag: {
+				Fluid: {
+					FluidName: "oxygen",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 4.0d,
+	y: 6.0d,
+	dependencies: [
+		"f9fc1eac"
+	],
+	tasks: [{
+		uid: "a9be5072",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 199"
+		}]
+	},
+	{
+		uid: "41e0f1bd",
+		type: "item",
+		items: [{
+			item: "factorytech:machinepart 1 11"
+		}]
+	}]
+}

@@ -1,0 +1,65 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	description: "Skyresources multiblock",
+	text: [
+		"We need to combust these harder ore chunks to smaller ore pieces.",
+		"",
+		"- Place the wooden casing at ground level and place the button onto the casing.",
+		"- Insert the wooden combustion heater.",
+		"- Place one oak plank in each cardinal direction above the casing but leave the spot above the casing free.",
+		"- Above this free space place the trapdoor for convenience of putting items in.",
+		"",
+		"TIP: open the skyresources manual by pressing CTRL+Shift+S and find wooden combustion heater or ",
+		"go to https://ftbwiki.org/Wooden_Combustion_Heater for a better visual representation  "
+	],
+	dependencies: [
+		"cc5c15db"
+	],
+	tasks: [{
+		uid: "9fc6996d",
+		type: "item",
+		items: [{
+			item: "skyresources:combustionheater"
+		}]
+	},
+	{
+		uid: "75840ea2",
+		type: "item",
+		title: "Stone",
+		items: [{
+			item: "minecraft:planks"
+		}],
+		count: 5L
+	},
+	{
+		uid: "49250fcb",
+		type: "item",
+		items: [{
+			item: "minecraft:wooden_button"
+		},
+		{
+			item: "minecraft:stone_button"
+		},
+		{
+			item: "minecraft:wooden_pressure_plate"
+		},
+		{
+			item: "minecraft:stone_pressure_plate"
+		}]
+	},
+	{
+		uid: "9e9ca94a",
+		type: "item",
+		items: [{
+			item: "skyresources:casing"
+		}]
+	},
+	{
+		uid: "60f67e7e",
+		type: "item",
+		items: [{
+			item: "minecraft:trapdoor"
+		}]
+	}]
+}

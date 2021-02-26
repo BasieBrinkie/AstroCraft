@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: 5.0d,
+	dependencies: [
+		"8dd0bfa7",
+		"d305e66a"
+	],
+	tasks: [{
+		uid: "bb864635",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:spacestation"
+		}],
+		consume_items: false
+	}]
+}

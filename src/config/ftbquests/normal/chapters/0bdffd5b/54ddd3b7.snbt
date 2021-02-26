@@ -1,0 +1,16 @@
+{
+	x: 4.0d,
+	y: 3.0d,
+	dependencies: [
+		"7352df2f"
+	],
+	tasks: [{
+		uid: "c1729fce",
+		type: "item",
+		items: [{
+			item: "factorytech:machinepart 1 40"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

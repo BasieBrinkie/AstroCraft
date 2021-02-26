@@ -1,0 +1,14 @@
+{
+	x: 1.0d,
+	y: 7.0d,
+	dependencies: [
+		"8b3ce582"
+	],
+	tasks: [{
+		uid: "c98b4348",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:rocketmotor"
+		}]
+	}]
+}

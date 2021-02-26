@@ -1,0 +1,31 @@
+{
+	x: 14.0d,
+	y: -1.0d,
+	description: "New means of transport",
+	text: [
+		"The hook is a good alternative for jumping between asteroids.",
+		"It also has a few cool upgrade capabilities that will unlockable soon.",
+		"",
+		"Quick description on how to use it:",
+		"- Right click the hook to launch it. ",
+		"- As it attaches to an asteroid use its swing by using WASD to gain momentum.",
+		"- Release by pressing space bar.",
+		"",
+		"Fall damage should be ignored while using the hook!"
+	],
+	dependencies: [
+		"05e8c6d8"
+	],
+	tasks: [{
+		uid: "bdadfb5e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "grapplemod:grapplinghook"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
