@@ -1,7 +1,0 @@
-{
-	title: "Basic Resources",
-	icon: "minecraft:iron_ingot",
-	always_invisible: false,
-	group: -896922911,
-	default_quest_shape: ""
-}

@@ -1,9 +1,0 @@
-{
-	x: -9.5d,
-	y: -1.0d,
-	tasks: [{
-		uid: "dfb2611d",
-		type: "gamestage",
-		stage: "gamemode_genius"
-	}]
-}

@@ -1,7 +1,0 @@
-{
-	title: "Nuclear Physicist",
-	icon: "nuclearcraft:nuclear_furnace_idle",
-	always_invisible: false,
-	group: -1096463800,
-	default_quest_shape: ""
-}

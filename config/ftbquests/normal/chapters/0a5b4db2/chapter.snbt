@@ -1,7 +1,0 @@
-{
-	title: "Professions - Stage: 5",
-	icon: "thermaldynamics:duct_0 1 5",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}
