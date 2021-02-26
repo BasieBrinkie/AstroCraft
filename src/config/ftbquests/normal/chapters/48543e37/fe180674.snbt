@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	dependencies: [
+		"3eadc4fd"
+	],
+	tasks: [{
+		uid: "40730dab",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:compost_block"
+		}]
+	}]
+}

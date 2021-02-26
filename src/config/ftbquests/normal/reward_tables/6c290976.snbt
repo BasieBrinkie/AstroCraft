@@ -1,0 +1,23 @@
+{
+	title: "Packmodes",
+	icon: "minecraft:crafting_table",
+	loot_size: 1,
+	rewards: [{
+		title: "(Ab)normal",
+		icon: "minecraft:cobblestone",
+		stage: "gamemode_abnormal",
+		type: "gamestage"
+	},
+	{
+		title: "Genius",
+		icon: "draconicevolution:chaos_shard",
+		stage: "gamemode_genius",
+		type: "gamestage"
+	},
+	{
+		title: "Kitchen-Sink",
+		icon: "excompressum:wooden_crucible",
+		stage: "gamemode_kitchensink",
+		type: "gamestage"
+	}]
+}

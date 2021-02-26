@@ -1,0 +1,20 @@
+[
+  {
+    "inputFluid": "canolaoil",
+    "outputFluid": "kerosene",
+    "transformingBlocks": [
+      "techguns:basicore:4"
+    ],
+    "blocksToSpawn": [],
+    "duration": 1200
+  },
+  {
+    "inputFluid": "preheated_water",
+    "outputFluid": "water",
+    "transformingBlocks": [
+      "minecraft:packed_ice"
+    ],
+    "blocksToSpawn": [],
+    "duration": 3600
+  }
+]

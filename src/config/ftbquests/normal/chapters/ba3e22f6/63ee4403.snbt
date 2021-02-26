@@ -1,0 +1,19 @@
+{
+	x: 11.0d,
+	y: 2.0d,
+	dependencies: [
+		"b5ae43e5"
+	],
+	tasks: [{
+		uid: "4f392eff",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalfoundation:tool.shovel_steel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

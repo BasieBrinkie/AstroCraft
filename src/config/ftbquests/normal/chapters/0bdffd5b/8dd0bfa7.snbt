@@ -1,0 +1,17 @@
+{
+	x: 1.0d,
+	y: 4.0d,
+	dependencies: [
+		"577fd135",
+		"6bfe2ab5",
+		"d305e66a",
+		"b4db5cf4"
+	],
+	tasks: [{
+		uid: "d701f0af",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:stationbuilder"
+		}]
+	}]
+}

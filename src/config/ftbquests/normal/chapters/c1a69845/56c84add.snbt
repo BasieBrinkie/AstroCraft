@@ -1,0 +1,15 @@
+{
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "thaumcraft:thaumonomicon"
+	},
+	x: -6.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "6f6866b6",
+		type: "gamestage",
+		stage: "aetherleg_thaumcraft_one"
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 3.0d,
+	y: -4.0d,
+	dependencies: [
+		"08889300"
+	],
+	tasks: [{
+		uid: "c0ec273f",
+		type: "item",
+		items: [{
+			item: "enderutilities:storage_0 1 7"
+		}]
+	}]
+}

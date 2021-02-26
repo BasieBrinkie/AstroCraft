@@ -1,0 +1,15 @@
+{
+	x: 0.0d,
+	y: 1.0d,
+	shape: "hexagon",
+	dependencies: [
+		"6eafb43f"
+	],
+	tasks: [{
+		uid: "ab669c15",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_ore_copper 1 3"
+		}]
+	}]
+}

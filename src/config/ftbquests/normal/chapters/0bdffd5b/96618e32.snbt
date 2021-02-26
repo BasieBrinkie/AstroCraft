@@ -1,0 +1,15 @@
+{
+	x: 0.0d,
+	y: 2.0d,
+	dependencies: [
+		"a45836f9",
+		"007acf84"
+	],
+	tasks: [{
+		uid: "329fd5d5",
+		type: "item",
+		items: [{
+			item: "factorytech:metalcutter"
+		}]
+	}]
+}

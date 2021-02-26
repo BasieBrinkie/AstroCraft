@@ -1,0 +1,21 @@
+{
+	title: "Decomposing Oxygen",
+	x: 15.0d,
+	y: -1.0d,
+	description: "The crucible can be used to extract oxygen from Oxygen Crystal Shards.",
+	text: [
+		"-Place a crucible and put Oxygen Crystal Shards in the crucible. That will decompose the oxygen.",
+		"",
+		"TIP: If you are overproducing oxygen you could use barrels to temporarily store it."
+	],
+	dependencies: [
+		"4b57e256"
+	],
+	tasks: [{
+		uid: "12d973fd",
+		type: "item",
+		items: [{
+			item: "excompressum:wooden_crucible"
+		}]
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "Lore WIP",
+	x: 15.0d,
+	y: 0.0d,
+	shape: "gear",
+	description: "Currently still WIP",
+	text: [
+		"Writers needed!"
+	],
+	dependencies: [
+		"bc82f573",
+		"35c5ada8",
+		"d24f7a48"
+	],
+	rewards: [{
+		uid: "740181a0",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "professions_one"
+	},
+	{
+		uid: "835f6ac9",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "rocket_builder"
+	}]
+}

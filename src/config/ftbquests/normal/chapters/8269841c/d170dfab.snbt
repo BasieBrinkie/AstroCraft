@@ -1,0 +1,14 @@
+{
+	x: 3.0d,
+	y: 1.0d,
+	dependencies: [
+		"22c9bbe8"
+	],
+	tasks: [{
+		uid: "6f36cdf6",
+		type: "item",
+		items: [{
+			item: "minecraft:pumpkin_pie"
+		}]
+	}]
+}

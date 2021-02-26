@@ -1,0 +1,20 @@
+{
+	x: -3.0d,
+	y: 3.0d,
+	dependencies: [
+		"2adeca1b",
+		"8f51abf2"
+	],
+	tasks: [{
+		uid: "dc176dab",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "grapplemod:doubleupgradeitem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

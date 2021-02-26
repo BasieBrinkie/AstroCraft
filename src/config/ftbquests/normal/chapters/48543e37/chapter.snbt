@@ -1,0 +1,7 @@
+{
+	title: "Oxygen Extractor",
+	icon: "minecraft:leaves",
+	always_invisible: false,
+	group: -1170332938,
+	default_quest_shape: ""
+}

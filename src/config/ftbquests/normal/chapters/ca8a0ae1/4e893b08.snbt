@@ -1,0 +1,30 @@
+{
+	title: "Mr Bonk",
+	x: 12.0d,
+	y: 0.0d,
+	description: "The hammer is crucial for survival right, ask a DIY-er",
+	text: [
+		"- Craft a wooden hammer or stone hammer"
+	],
+	dependencies: [
+		"cc98c1d7"
+	],
+	tasks: [{
+		uid: "d0ea1396",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "exnihilocreatio:hammer_wood"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "exnihilocreatio:hammer_stone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

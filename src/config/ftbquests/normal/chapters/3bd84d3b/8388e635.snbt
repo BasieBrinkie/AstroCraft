@@ -1,0 +1,20 @@
+{
+	title: "Ice Gathering",
+	x: 7.0d,
+	y: 4.0d,
+	description: "Refreshing and cool ice",
+	text: [
+		"Gotta make water in order to survive."
+	],
+	dependencies: [
+		"053739df"
+	],
+	tasks: [{
+		uid: "f3e50b99",
+		type: "item",
+		items: [{
+			item: "minecraft:packed_ice"
+		}],
+		count: 4L
+	}]
+}

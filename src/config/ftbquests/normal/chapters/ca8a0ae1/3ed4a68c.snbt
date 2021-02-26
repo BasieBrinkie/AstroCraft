@@ -1,0 +1,25 @@
+{
+	title: "Space Farm",
+	x: 13.0d,
+	y: 1.0d,
+	description: "With the ash from the charcoal pit you can make dirt",
+	text: [
+		"- Fill up the wooden barrel with ash which you gathered before in the quest 'Charcoal Pit'",
+		"- Let it compost",
+		"- Wait...",
+		"- Wait some more...",
+		"- Retreive your compost",
+		"",
+		"- Collect 10 pieces of dirt"
+	],
+	dependencies: [
+		"7adde10e"
+	],
+	tasks: [{
+		uid: "26982a7c",
+		type: "item",
+		items: [{
+			item: "minecraft:dirt"
+		}]
+	}]
+}

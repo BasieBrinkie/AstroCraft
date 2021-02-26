@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	dependencies: [
+		"ae6d182c"
+	],
+	tasks: [{
+		uid: "40c4e0fc",
+		type: "item",
+		items: [{
+			item: "minecraft:trapdoor"
+		}]
+	}]
+}

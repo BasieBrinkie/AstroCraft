@@ -1,0 +1,14 @@
+{
+	x: 10.0d,
+	y: -3.0d,
+	dependencies: [
+		"9f554103"
+	],
+	tasks: [{
+		uid: "84a09b60",
+		type: "item",
+		items: [{
+			item: "skyresources:combustionheater 1 4"
+		}]
+	}]
+}

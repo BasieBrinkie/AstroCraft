@@ -1,0 +1,19 @@
+{
+	x: 9.0d,
+	y: 3.0d,
+	dependencies: [
+		"b5ae43e5"
+	],
+	tasks: [{
+		uid: "fe7fdf82",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalfoundation:tool.pickaxe_steel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

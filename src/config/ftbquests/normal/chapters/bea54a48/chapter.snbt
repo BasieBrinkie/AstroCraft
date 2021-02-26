@@ -1,0 +1,7 @@
+{
+	title: "Professions - Stage: 3",
+	icon: "nuclearcraft:decay_generator",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

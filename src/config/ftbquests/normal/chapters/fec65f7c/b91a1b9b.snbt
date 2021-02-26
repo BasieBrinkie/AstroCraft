@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "cf33724c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "cavern:ore_compass"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

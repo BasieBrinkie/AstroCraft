@@ -1,0 +1,18 @@
+{
+	x: 11.0d,
+	y: -3.0d,
+	description: "Broken parts can often be repared",
+	text: [
+		"Press \"U\" to see its uses in JEI."
+	],
+	dependencies: [
+		"05e8c6d8"
+	],
+	tasks: [{
+		uid: "bc9c92c8",
+		type: "item",
+		items: [{
+			item: "factorytech:salvagepart 1 60"
+		}]
+	}]
+}

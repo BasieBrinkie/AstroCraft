@@ -1,0 +1,11 @@
+{
+	x: -1.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "80b1192f",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat_seeds"
+		}]
+	}]
+}

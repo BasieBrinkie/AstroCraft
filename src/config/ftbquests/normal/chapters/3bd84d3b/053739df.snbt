@@ -1,0 +1,19 @@
+{
+	x: 6.0d,
+	y: 4.0d,
+	description: "Handy for creating water and oxygen",
+	text: [
+		"Place the stone crucible above the heat provider and drop Oxygen Crystal Shards in the crucible.",
+		"Put fuel in the heat provider and obtain liquid oxygen."
+	],
+	dependencies: [
+		"6e87a5ac"
+	],
+	tasks: [{
+		uid: "ed028dd3",
+		type: "item",
+		items: [{
+			item: "skyresources:crucible"
+		}]
+	}]
+}

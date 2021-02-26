@@ -1,0 +1,7 @@
+{
+	title: "Rocket Builder",
+	icon: "advancedrocketry:rocketmotor",
+	always_invisible: false,
+	group: -896922911,
+	default_quest_shape: ""
+}
