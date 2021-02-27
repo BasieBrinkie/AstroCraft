@@ -3,7 +3,8 @@
 	y: 3.0d,
 	description: "Simple composer",
 	text: [
-		"This atribute is used to compose new things by waiting"
+		"This atribute is used to compose new things by waiting.",
+		"You can put multiple items in it to compose items faster"
 	],
 	dependencies: [
 		"d2fbe0cd"
