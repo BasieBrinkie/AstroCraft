@@ -24,6 +24,13 @@ src/minecraftinstance.json
 src/.curseclient
 src/.mixin.out/*
 src/config/BiomeTweaker/output/*
+src/config/InvTweaksRules.txt
+src/config/InvTweaks.cfg
+src/config/tickdynamic.cfg
+src/config/thaumicjei_itemstack_aspects.json
+src/config/splash.properties
+src/usercache.json
+src/usernamecache.json
 
 # Client Only Files
 src/config/jei/bookmarks.ini
@@ -36,7 +43,6 @@ src/journeymap/journeymap.log
 # Other
 src/config/worldedit/*
 src/config/sampler.ini
-src/config/InvTweaksRules.txt
 src/usercache.json
 src/usernamecache.json
 
@@ -46,4 +52,5 @@ src/usernamecache.json
 # Stuff
 .DS_Store
 *.dat
+
 
