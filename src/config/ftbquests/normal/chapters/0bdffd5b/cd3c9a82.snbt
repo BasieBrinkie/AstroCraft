@@ -1,6 +1,10 @@
 {
 	x: 5.0d,
 	y: 7.0d,
+	description: "Grind Nickel ore",
+	text: [
+		"Collect Nickel Ore Chunks by grinding Nickel Ore."
+	],
 	dependencies: [
 		"a2c95ebd"
 	],

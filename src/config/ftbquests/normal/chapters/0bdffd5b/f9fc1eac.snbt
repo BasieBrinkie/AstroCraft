@@ -1,6 +1,10 @@
 {
 	x: 4.0d,
 	y: 7.0d,
+	description: "No ore chunks?",
+	text: [
+		"Iridium is a metal that is too hard to break into ore chunk pieces. This means we need to use an iron pickaxe to mine the whole ore."
+	],
 	dependencies: [
 		"a2c95ebd"
 	],

@@ -149,7 +149,7 @@
   "commoncapabilities": "2.4.8",
   "crafttweakerjei": "2.0.3",
   "mtlib": "3.0.6",
-  "advancedrocketry": "1.7.0.-232",
+  "advancedrocketry": "1.7.0.-238",
   "teslacorelib_registries": "1.0.17",
   "dimstages": "2.0.23",
   "actuallyadditions": "1.12.2-r152",

@@ -1,7 +1,6 @@
 {
 	x: 5.0d,
 	y: 0.0d,
-	shape: "diamond",
 	description: "Use the chemical properties of iron",
 	text: [
 		"The alchemical fusion table uses catalysts to create items.",

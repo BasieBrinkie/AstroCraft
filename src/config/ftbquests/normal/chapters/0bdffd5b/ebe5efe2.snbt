@@ -1,6 +1,11 @@
 {
 	x: -3.0d,
 	y: 7.0d,
+	description: "Grind lead ore",
+	text: [
+		"Somehow lead reacts with the grinder with destroys the ore chunks. ",
+		"Luckily the chance of mining lead succesfully is 2 out of 3."
+	],
 	dependencies: [
 		"a2c95ebd"
 	],

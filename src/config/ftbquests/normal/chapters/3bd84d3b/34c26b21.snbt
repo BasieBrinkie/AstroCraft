@@ -1,0 +1,19 @@
+{
+	x: 10.0d,
+	y: 4.0d,
+	dependencies: [
+		"e8f6f7a8"
+	],
+	tasks: [{
+		uid: "d7dd738e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "skyresources:irongrinder"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
