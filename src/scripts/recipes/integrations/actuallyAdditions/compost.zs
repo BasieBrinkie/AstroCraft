@@ -3,7 +3,7 @@ import crafttweaker.item.IItemStack;
 
 static compostAdd as IItemStack[IItemStack][IItemStack][IItemStack] = {
 	//Basic Resources
-	<tconstruct:materials:15>: {<tconstruct:metal:6>: { 
+	<tconstruct:materials:15> * 2: {<tconstruct:metal:6>: { 
 		<minecraft:wheat:0>: <minecraft:leaves:0>}},
 
 	//Farmer One

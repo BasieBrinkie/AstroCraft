@@ -38,16 +38,16 @@ static stagedItems as IIngredient[][string] = {
 		<exnihilocreatio:item_pebble:0>
 	],
 	stageResources1.stage: [
+		<exnihilocreatio:item_ore_aluminum:1>,
 		<exnihilocreatio:item_ore_iron:0>,
 		<exnihilocreatio:item_ore_iron:1>,
+		<exnihilocreatio:item_ore_lead:1>,
+		<exnihilocreatio:item_ore_nickel:1>
 	],
 	stageRocketBuilder.stage: [
 		<exnihilocreatio:item_ore_aluminum:0>,
-		<exnihilocreatio:item_ore_aluminum:1>,
 		<exnihilocreatio:item_ore_lead:0>,
-		<exnihilocreatio:item_ore_lead:1>,
 		<exnihilocreatio:item_ore_nickel:0>,
-		<exnihilocreatio:item_ore_nickel:1>
 	],
 	stageFarmer1.stage: [
 		<exnihilocreatio:item_material:4>,

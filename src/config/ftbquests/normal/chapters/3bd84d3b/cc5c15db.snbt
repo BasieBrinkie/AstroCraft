@@ -1,9 +1,9 @@
 {
 	x: 1.0d,
 	y: 0.0d,
-	description: "Can be found from iron ore",
+	description: "Can be found from Iron Ore",
 	text: [
-		"Collect iron ore chunks by grinding iron ore."
+		"Collect Iron Ore Chunks by grinding Iron Ore."
 	],
 	dependencies: [
 		"89d35e84"

@@ -2,26 +2,30 @@
 	title: "Lore WIP",
 	x: 15.0d,
 	y: 0.0d,
-	shape: "gear",
 	description: "Currently still WIP",
 	text: [
 		"Writers needed!"
 	],
 	dependencies: [
-		"bc82f573",
 		"35c5ada8",
 		"d24f7a48"
 	],
-	rewards: [{
-		uid: "740181a0",
-		type: "gamestage",
-		auto: "no_toast",
-		stage: "professions_one"
-	},
-	{
-		uid: "835f6ac9",
-		type: "gamestage",
-		auto: "no_toast",
-		stage: "rocket_builder"
+	tasks: [{
+		uid: "3e34f5fc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -5559831587488555763L,
+					AS_Amulet_HolderMost: 615258918546590343L
+				}
+			},
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "patchouli:chapter_1"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}]
 }

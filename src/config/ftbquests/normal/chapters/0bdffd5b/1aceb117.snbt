@@ -1,6 +1,10 @@
 {
 	x: -2.0d,
 	y: 7.0d,
+	description: "Grind Aluminum ore",
+	text: [
+		"Collect Aluminum Ore Chunks by grinding Aluminum Ore."
+	],
 	dependencies: [
 		"a2c95ebd"
 	],

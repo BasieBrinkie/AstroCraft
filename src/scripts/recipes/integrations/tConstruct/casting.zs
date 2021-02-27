@@ -25,6 +25,13 @@ static castingAddConsume as int[int][ILiquidStack][IIngredient][IItemStack] = {
 			}
 		}
 	},
+	<skyresources:irongrinder>: {
+		<skyresources:stonegrinder>: {
+			<liquid:iron>: {
+				144: 60
+			}
+		}
+	},
 };
 
 static castingAdd as int[int][ILiquidStack][IIngredient][IItemStack] = {

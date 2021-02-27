@@ -1,6 +1,10 @@
 {
 	x: 12.0d,
 	y: 3.0d,
+	description: "Now we need writers to write books",
+	text: [
+		""
+	],
 	dependencies: [
 		"1b92988f",
 		"e82618d5"

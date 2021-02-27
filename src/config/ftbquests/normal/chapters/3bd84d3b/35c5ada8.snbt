@@ -14,7 +14,8 @@
 		"Fall damage should be ignored while using the hook!"
 	],
 	dependencies: [
-		"05e8c6d8"
+		"05e8c6d8",
+		"bc82f573"
 	],
 	tasks: [{
 		uid: "bdadfb5e",

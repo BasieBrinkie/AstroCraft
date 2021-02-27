@@ -16,7 +16,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<grapplemod:grapplinghook:0>: [
 		[
-			[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
+			[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],
 			[null, <ore:factoryTechWire>, null],
 			[null, <ore:factoryTechWire>, null]
 		]

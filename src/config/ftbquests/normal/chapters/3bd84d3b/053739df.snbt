@@ -1,6 +1,7 @@
 {
 	x: 6.0d,
 	y: 4.0d,
+	shape: "diamond",
 	description: "Handy for creating water and oxygen",
 	text: [
 		"Place the stone crucible above the heat provider and drop Oxygen Crystal Shards in the crucible.",

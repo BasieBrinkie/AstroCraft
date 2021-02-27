@@ -1,6 +1,11 @@
 {
 	x: 4.0d,
 	y: 6.0d,
+	description: "We need better tools",
+	text: [
+		"We can use the grindstone to create a nugget from a ore. There is one problem the machine breaks if used with stone parts.",
+		"That is why we need to invent stonger gears"
+	],
 	dependencies: [
 		"f9fc1eac"
 	],

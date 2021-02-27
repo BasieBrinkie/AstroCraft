@@ -1,0 +1,19 @@
+{
+	title: "WIP Multiblock structures",
+	x: 2.0d,
+	y: 1.0d,
+	description: "The cheat sheet for multiblock structures",
+	text: [
+		"If you ever get stuck with building multiblock structures, open this book and search the multiblock by modname and machine."
+	],
+	dependencies: [
+		"92ec4d9b"
+	],
+	tasks: [{
+		uid: "6492be16",
+		type: "item",
+		items: [{
+			item: "minecraft:book"
+		}]
+	}]
+}

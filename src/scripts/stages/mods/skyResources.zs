@@ -34,6 +34,7 @@ static stagedItems as IIngredient[][string] = {
 		<skyresources:fusiontable:0>,
 		<skyresources:heat:0>,
 		<skyresources:heatprovider:1>,
+		<skyresources:irongrinder:*>,
 		<skyresources:stonegrinder:*>,
 	],
 	stageRocketBuilder.stage: [
