@@ -36,6 +36,9 @@ src/journeymap/journeymap.log
 # Other
 src/config/worldedit/*
 src/config/sampler.ini
+src/config/InvTweaksRules.txt
+src/usercache.json
+src/usernamecache.json
 
 # IDE
 .idea/
@@ -43,4 +46,4 @@ src/config/sampler.ini
 # Stuff
 .DS_Store
 *.dat
-src/config/InvTweaksRules.txt
+
