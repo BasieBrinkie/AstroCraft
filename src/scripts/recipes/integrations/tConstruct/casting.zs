@@ -26,7 +26,7 @@ static castingAddConsume as int[int][ILiquidStack][IIngredient][IItemStack] = {
 		}
 	},
 	<skyresources:irongrinder>: {
-		<skyresources:stonegrinder>: {
+		<ore:stickWood>: {
 			<liquid:iron>: {
 				144: 60
 			}

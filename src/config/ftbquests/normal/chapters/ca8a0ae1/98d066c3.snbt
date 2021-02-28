@@ -2,7 +2,6 @@
 	title: "Flat Block == Plate",
 	x: 18.0d,
 	y: 0.0d,
-	shape: "hexagon",
 	description: "Just what the title says.",
 	text: [
 		"- Find a block of obsidian in an asteroid",
