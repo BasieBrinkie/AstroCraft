@@ -2,7 +2,6 @@
 	title: "Chop Down Those Trees!",
 	x: 14.0d,
 	y: -1.0d,
-	shape: "hexagon",
 	description: "Breathing vacuum or oxygen, which one do you prefer? I personally prefer breathing vacuum but sadly my body can't handle that.",
 	text: [
 		"Since there isn't any other alternative get ready to make oxygen!",

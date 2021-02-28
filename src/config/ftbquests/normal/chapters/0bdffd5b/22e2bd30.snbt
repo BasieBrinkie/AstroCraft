@@ -1,6 +1,10 @@
 {
 	x: -2.0d,
 	y: 6.0d,
+	description: "Combust chunk to pieces",
+	text: [
+		""
+	],
 	dependencies: [
 		"1aceb117"
 	],

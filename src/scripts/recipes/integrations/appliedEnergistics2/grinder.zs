@@ -10,9 +10,6 @@ static grinderAdd as int[IItemStack][IItemStack] = {
 	<exnihilocreatio:item_ore_lead:0>: {
 		<exnihilocreatio:item_ore_lead:1>: 4
 	},
-	<factorytech:ore_dust:9>: {
-		<exnihilocreatio:item_ore_nickel:0>: 3
-	},
 	<mekanism:dirtydust:6>: {
 		<thaumcraft:nugget:4>: 3
 	},
@@ -90,6 +87,7 @@ static grinderRemove as IItemStack[] = [
 	<immersiveengineering:ore:2>,
 	<immersiveengineering:ore:3>,
 	<immersiveengineering:ore:4>,
+	<industrialrenewal:chunk_hematite:0>,
 	<industrialrenewal:orevein_hematite:0>,
 	<libvulpes:ore0:4>,
 	<libvulpes:ore0:5>,
@@ -141,6 +139,7 @@ static grinderRemove as IItemStack[] = [
 	<railcraft:ingot:3>,
 	<railcraft:ingot:4>,
 	<railcraft:ingot:5>,
+	<railcraft:ingot:6>,
 	<railcraft:ingot:7>,
 	<railcraft:ingot:8>,
 	<railcraft:ore_metal:0>,
