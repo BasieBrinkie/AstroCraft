@@ -16,7 +16,8 @@
 		"",
 		"IF YOU SEE HIGH LEVELS OF RADIATION:",
 		"If you see radiation levels much higher than 4 mRad/t you can reset you island for a better location ",
-		"using the command \"/island reset\" twice"
+		"using the command \"/island reset\" twice.",
+		"Be ready to quickly retrieve your space suit from the chest."
 	],
 	dependencies: [
 		"19bab08f"

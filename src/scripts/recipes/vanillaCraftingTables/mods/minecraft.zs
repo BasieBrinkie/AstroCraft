@@ -250,6 +250,9 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
     ------------------
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
+	<minecraft:dirt:0>: [
+		[<minecraft:dirt:1>, <actuallyadditions:item_worm:0>]
+	],
 	<minecraft:planks:0> * 2: [
 		[<minecraft:log:0>]
 	],

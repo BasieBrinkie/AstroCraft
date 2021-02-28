@@ -1,6 +1,10 @@
 {
 	x: -3.0d,
 	y: 4.0d,
+	description: "Shrunken clump by grinding",
+	text: [
+		""
+	],
 	dependencies: [
 		"597fc8de"
 	],

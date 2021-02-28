@@ -1,6 +1,10 @@
 {
 	x: 1.0d,
 	y: 2.0d,
+	description: "Sharpen a shaft and you have yourself a blade",
+	text: [
+		""
+	],
 	dependencies: [
 		"007acf84"
 	],
@@ -9,9 +13,6 @@
 		type: "item",
 		items: [{
 			item: "factorytech:machinepart 1 31"
-		},
-		{
-			item: "factorytech:machinepart 1 32"
 		}]
 	}]
 }

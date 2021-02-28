@@ -1,16 +1,18 @@
 {
 	x: 4.0d,
 	y: 3.0d,
+	description: "Another part for machines",
+	text: [
+		""
+	],
 	dependencies: [
 		"7352df2f"
 	],
 	tasks: [{
-		uid: "c1729fce",
+		uid: "3d6eee03",
 		type: "item",
 		items: [{
 			item: "factorytech:machinepart 1 40"
-		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
+		}]
 	}]
 }

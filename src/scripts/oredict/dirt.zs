@@ -6,7 +6,7 @@ import crafttweaker.oredict.IOreDictEntry;
 	----------------------
 */
 static createItemsToOredict as IItemStack[][IOreDictEntry] = { 
-	<ore:dirt>: [
+	<ore:normalDirt>: [
         <biomesoplenty:dirt:0>,
         <chisel:dirt:0>,
         <chisel:dirt:1>,

@@ -45,7 +45,6 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 	--------------
 	*/
 	<ore:nuggetSteelTier1>: [
-		<tconstruct:shard>.withTag({Material: "steel"}),
 		<libvulpes:productnugget:6>
 	],
 	<ore:nuggetSteelTier2>: [

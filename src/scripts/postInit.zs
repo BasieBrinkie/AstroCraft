@@ -59,6 +59,7 @@ function initRecipes() {
 	scripts.recipes.vanillaCraftingTables.mods.mekanism.init();
 	scripts.recipes.vanillaCraftingTables.mods.minecraft.init();
 	scripts.recipes.vanillaCraftingTables.mods.nuclearCraft.init();
+	scripts.recipes.vanillaCraftingTables.mods.patchouli.init();
 	scripts.recipes.vanillaCraftingTables.mods.pneumaticCraft.init();
 	scripts.recipes.vanillaCraftingTables.mods.skyResources.init();
 	scripts.recipes.vanillaCraftingTables.mods.tConstruct.init();
@@ -172,6 +173,7 @@ function initStages() {
 	scripts.stages.mods.mysticalAgradditions.init();
 	scripts.stages.mods.mysticalAgriculture.init();
 	scripts.stages.mods.nuclearCraft.init();
+	scripts.stages.mods.patchouli.init();
 	scripts.stages.mods.pneumaticCraft.init();
 	scripts.stages.mods.recurrentComplex.init();
 	scripts.stages.mods.skyResources.init();
@@ -211,7 +213,6 @@ function initOredict() {
 	scripts.oredict.woodSlabs.init();
 	scripts.oredict.wool.init();
 	
-	scripts.oredict.mods.betterQuesting.init();
 	scripts.oredict.mods.chiselsAndBits.init();
 	scripts.oredict.mods.exNihiloCreatio.init();
 	scripts.oredict.mods.factoryTech.init();

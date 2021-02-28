@@ -1,6 +1,11 @@
 {
 	x: 1.0d,
 	y: 5.0d,
+	description: "Basic RF generation",
+	text: [
+		"A more basic form of power generation doesn't exist.",
+		"It takes coal and gives you RF."
+	],
 	dependencies: [
 		"64ef6ac0"
 	],

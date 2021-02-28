@@ -1,6 +1,10 @@
 {
 	x: 5.0d,
 	y: 4.0d,
+	description: "Another type of nugget researched",
+	text: [
+		""
+	],
 	dependencies: [
 		"1d7fdc9f"
 	],

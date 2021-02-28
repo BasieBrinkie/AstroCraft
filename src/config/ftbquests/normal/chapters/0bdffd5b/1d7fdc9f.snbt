@@ -1,6 +1,10 @@
 {
 	x: 5.0d,
 	y: 5.0d,
+	description: "Centrifuge product",
+	text: [
+		""
+	],
 	dependencies: [
 		"6f429fe6"
 	],

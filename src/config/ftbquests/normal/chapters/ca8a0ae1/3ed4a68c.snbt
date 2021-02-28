@@ -8,9 +8,7 @@
 		"- Let it compost",
 		"- Wait...",
 		"- Wait some more...",
-		"- Retreive your compost",
-		"",
-		"- Collect 10 pieces of dirt"
+		"- Retreive your compost"
 	],
 	dependencies: [
 		"7adde10e"

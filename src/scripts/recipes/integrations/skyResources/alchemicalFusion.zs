@@ -17,19 +17,19 @@ import crafttweaker.item.IItemStack;
 static fusionAdd as float[IItemStack[]][IItemStack] = { 
 	//Basic Resources
 	<minecraft:iron_nugget:0>: {[
-		<exnihilocreatio:item_ore_iron:0> * 2]: 0.25 
+		<exnihilocreatio:item_ore_iron:0> * 2]: 0.04 
 	},
 
 	//Rocket Builder
 	<libvulpes:productingot:9>: {[
-		<libvulpes:productnugget:9> * 3,
-		<exnihilocreatio:item_ore_iron:0>]: 0.05
+		<libvulpes:productnugget:9> * 2,
+		<minecraft:glowstone_dust:0>]: 0.05
 	},
 
 	//Professions Stage 1
 	<minecraft:magma:0>: {[
 		<nuclearcraft:uranium:10>,
-		<minecraft:cobblestone:0> * 4]: 0.8
+		<minecraft:cobblestone:0> * 4]: 0.5
 	},
 };
 

@@ -1,6 +1,10 @@
 {
 	x: 0.0d,
 	y: 3.0d,
+	description: "It turns out glowstone binds with aluminum",
+	text: [
+		""
+	],
 	dependencies: [
 		"220bd6a8"
 	],

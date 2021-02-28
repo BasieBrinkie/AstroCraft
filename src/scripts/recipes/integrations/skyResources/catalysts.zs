@@ -20,8 +20,11 @@ static catalystAdd as float[IItemStack] = {
 	<mekanism:clump:3>: 1.00,
 	<minecraft:diamond:0>: 3.00,
 
+	//Rocket Builder
+	<skyresources:orealchdust:17>: 1.75,
+
 	//Professions Stage 1
-	<minecraft:redstone:0>: 2.25
+	<minecraft:redstone:0>: 2.25,
 };
 
 /*	

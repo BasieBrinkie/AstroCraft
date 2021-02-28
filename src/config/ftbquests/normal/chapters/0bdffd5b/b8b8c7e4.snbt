@@ -1,6 +1,13 @@
 {
 	x: 0.0d,
 	y: 7.0d,
+	description: "It has structural integrity",
+	text: [
+		"The structure tower needs to be placed at a place where it can touch the border of a \"Launch Pad\".",
+		"Another important detail is that its height must be higher than the rocket you're building. ",
+		"",
+		"An example can be found in the cheat sheet for multiblocks."
+	],
 	dependencies: [
 		"64ef6ac0"
 	],

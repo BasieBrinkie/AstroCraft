@@ -11,7 +11,7 @@ import crafttweaker.liquid.ILiquidStack;
 	First [IItemStack] is the output item.
 	Second [IItemStack] is the input item.
 	[ILiquidStack] is the liquid that will be absorbed.
-	int is the amount of ticks it will take 
+	int is the amount of input item, here  
 	----------------------------------------------------------------------------------------------
 */	
 
@@ -20,7 +20,7 @@ static condenserAdd as int[ILiquidStack][IItemStack][IItemStack] = {
 	//Rocket Builder
 	<libvulpes:productnugget:9>: {
 		<exnihilocreatio:item_ore_aluminum:0>: {
-			<liquid:preheated_water>: 400
+			<liquid:preheated_water>: 100
 		}
 	},
 	<mekanism:clump:6>: {

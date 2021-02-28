@@ -1,6 +1,11 @@
 {
 	x: -3.0d,
 	y: 5.0d,
+	description: "Condensed clump",
+	text: [
+		"The only way to make lead pieces massive is by condensing the liquid version of lead around a catalyst. ",
+		"Stone pebbles proved to be a promising catalyst."
+	],
 	dependencies: [
 		"0045c187",
 		"49223e9d"

@@ -1,6 +1,10 @@
 {
 	x: -2.0d,
 	y: 4.0d,
+	description: "Preheated water melts the aluminum.",
+	text: [
+		"Preheated water has exactly the right temperature to melt aluminum and create nuggets."
+	],
 	dependencies: [
 		"49223e9d"
 	],
