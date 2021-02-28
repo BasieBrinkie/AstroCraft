@@ -1,6 +1,13 @@
 {
 	x: 0.0d,
 	y: 4.0d,
+	description: "Rockets need fuel",
+	text: [
+		"Retrieve some from the crash site so you can fill the rocket.",
+		"",
+		"This rocket fuel is meant for monopropellant engines. ",
+		"The advantage is that it is easier to use but grants you less thrust compared to bipropellant engines."
+	],
 	dependencies: [
 		"b5e81460"
 	],

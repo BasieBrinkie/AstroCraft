@@ -1,6 +1,13 @@
 {
 	x: 2.0d,
 	y: 7.0d,
+	description: "Platform to build your rockets and space stations",
+	text: [
+		"The minimum size is 5x5 and the maximum size of the launch pad is 16x16. The launchpad also needs to be square.",
+		"Each launchpad needs to touch another one for a valid launchpad. ",
+		"",
+		"For an example checkout the multiblock cheatsheet."
+	],
 	dependencies: [
 		"b8b8c7e4"
 	],

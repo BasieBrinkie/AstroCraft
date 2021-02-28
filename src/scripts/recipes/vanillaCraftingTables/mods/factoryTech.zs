@@ -7,6 +7,13 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
+	<factorytech:agitator:0>: [
+		[
+			[null, <ore:factoryTechMotor>, null],
+			[<advancedrocketry:liquidtank:0>, <factorytech:machinepart:40>, <advancedrocketry:liquidtank>],
+			[<ore:ingotIron>, <ore:ingotAluminum>, <ore:ingotIron>]
+		]
+	],
 	<factorytech:centrifuge:0>: [
 		[
 			[<ore:ingotIron>, <ore:factoryTechShaft>, <ore:ingotIron>],
@@ -195,13 +202,13 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 	<factorytech:machinepart:80>: [
 		[<factorytech:salvagepart:80>, <ore:clumpCopper> * 2]
 	],
-	<factorytech:machinepart:110>: [
+	<factorytech:machinepart:111>: [
 		[<factorytech:circuit_intermediate:2>, <matteroverdrive:tritanium_nugget:0>],
-		[<factorytech:salvagepart:110>, <matteroverdrive:tritanium_nugget:0>]
+		[<factorytech:salvagepart:111>, <matteroverdrive:tritanium_nugget:0>]
 	],
-	<factorytech:machinepart:120>: [
+	<factorytech:machinepart:121>: [
 		[<factorytech:circuit_intermediate:3>, <matteroverdrive:tritanium_nugget:0>],
-		[<factorytech:salvagepart:120>, <matteroverdrive:tritanium_nugget:0>]
+		[<factorytech:salvagepart:121>, <matteroverdrive:tritanium_nugget:0>]
 	],
 	<factorytech:machinepart:161>: [
 		[<factorytech:salvagepart:161>, <ore:factoryTechShaft>]

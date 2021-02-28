@@ -1,6 +1,10 @@
 {
 	x: 1.0d,
 	y: 7.0d,
+	description: "Rocket go brrrr.",
+	text: [
+		"Can probably be salvaged from the crash site. Hopefully they still work since the technology to craft is way to advanced for now."
+	],
 	dependencies: [
 		"8b3ce582"
 	],

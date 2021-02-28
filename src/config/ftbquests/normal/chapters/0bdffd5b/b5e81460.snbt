@@ -1,6 +1,15 @@
 {
 	x: 1.0d,
 	y: 3.0d,
+	description: "Fuels your rockets",
+	text: [
+		"Once you have build your rocket with the Rocket Assembler. ",
+		"",
+		"Shift right-click the Fueling Station with the Linker and then the Rocket Assembler to start fuelling the rocket.",
+		"",
+		"You could also link with the rocket directly but if you would land with a different rocket the Fuelling Station would not fuel other rockets.",
+		"If you link with the Rocket Assembler it should fuel any rocket that lands on its Launch Pad."
+	],
 	dependencies: [
 		"577fd135"
 	],

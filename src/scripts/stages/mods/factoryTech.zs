@@ -3,26 +3,6 @@ import crafttweaker.item.IIngredient;
 import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
-import scripts.stages.register.stageProfessionsStage1;
-import scripts.stages.register.stageProfessionsStage2;
-import scripts.stages.register.stageProfessionsStage3;
-import scripts.stages.register.stageProfessionsStage4;
-import scripts.stages.register.stageProfessionsStage5;
-
-import scripts.stages.register.stageOxygen1;
-import scripts.stages.register.stageResources1;
-import scripts.stages.register.stageRocketBuilder;
-import scripts.stages.register.stageOxygenExtractor;
-import scripts.stages.register.stageDecorator;
-import scripts.stages.register.stageFarmer1;
-import scripts.stages.register.stageMoldMaker;
-import scripts.stages.register.stageAstronomer;
-import scripts.stages.register.stageBlackSmith;
-import scripts.stages.register.stageNuclearPhysicist;
-
-import scripts.stages.register.stageDisabledItems;
-import scripts.stages.register.stageDecoration1Enable;
-
 static stagedItems as IIngredient[][string] = {
 	stageResources1.stage: [
 		<factorytech:centrifuge:0>,
@@ -34,14 +14,15 @@ static stagedItems as IIngredient[][string] = {
 		<factorytech:machinepart:20>,
 		<factorytech:machinepart:50>,
 		<factorytech:machinepart:60>,
-		<factorytech:salvagepart:20>,
 
 		<factorytech:salvagepart:0>,
+		<factorytech:salvagepart:20>,
 		<factorytech:salvagepart:50>,
 		<factorytech:salvagepart:60>,
 		<factorytech:saw:0>
 	],
 	stageRocketBuilder.stage: [
+		<factorytech:agitator:0>,
 		<factorytech:circuit_intermediate:0>,
 		<factorytech:circuit_intermediate:1>,
 		<factorytech:circuit_intermediate:2>,
@@ -54,7 +35,8 @@ static stagedItems as IIngredient[][string] = {
 		<factorytech:machinepart:32>,
 		<factorytech:machinepart:40>,
 		<factorytech:machinepart:80>,
-		<factorytech:machinepart:120>,
+		<factorytech:machinepart:111>,
+		<factorytech:machinepart:121>,
 		<factorytech:metalcutter:0>,
 		<factorytech:ore_dust:9>,
 		<factorytech:salvagepart:1>,
@@ -141,6 +123,8 @@ static disabledItems as IIngredient[] = [
 	<factorytech:machinepart:91>,
 	<factorytech:machinepart:100>,
 	<factorytech:machinepart:101>,
+	<factorytech:machinepart:110>,
+	<factorytech:machinepart:120>,
 	<factorytech:machinepart:140>,
 	<factorytech:machinepart:141>,
 	<factorytech:machinepart:160>,
@@ -167,6 +151,8 @@ static disabledItems as IIngredient[] = [
 	<factorytech:salvagepart:91>,
 	<factorytech:salvagepart:100>,
 	<factorytech:salvagepart:101>,
+	<factorytech:salvagepart:110>,
+	<factorytech:salvagepart:120>,
 	<factorytech:salvagepart:160>,
 	<factorytech:salvagepart:170>,
 	<factorytech:sequenceplacer:0>,

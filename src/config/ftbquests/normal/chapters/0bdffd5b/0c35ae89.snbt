@@ -1,6 +1,10 @@
 {
 	x: 2.0d,
 	y: 2.0d,
+	description: "Needs to be etched",
+	text: [
+		"Now that you know how to make the blank pattern, you can use the agitator to make it cheaper."
+	],
 	dependencies: [
 		"0d1bdb93"
 	],

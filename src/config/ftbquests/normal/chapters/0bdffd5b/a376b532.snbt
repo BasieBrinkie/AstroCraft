@@ -1,6 +1,12 @@
 {
 	x: 0.0d,
 	y: 5.0d,
+	description: "Your new space station",
+	text: [
+		"Your landing platform is transformed into a transportable container.",
+		"",
+		"Place this item in the satelite bay of the rocket."
+	],
 	dependencies: [
 		"8dd0bfa7",
 		"d305e66a"
@@ -11,6 +17,8 @@
 		items: [{
 			item: "advancedrocketry:spacestation"
 		}],
-		consume_items: false
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}]
 }

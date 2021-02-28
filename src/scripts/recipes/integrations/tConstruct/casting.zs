@@ -18,6 +18,7 @@ import crafttweaker.liquid.ILiquidStack;
 	----------------------------------------------------------------------------------------------
 */	
 static castingAddConsume as int[int][ILiquidStack][IIngredient][IItemStack] = {
+	//Resources One
 	<minecraft:paper:0>: {
 		<mekanism:sawdust:0>: {
 			<liquid:preheated_water>: {
@@ -32,6 +33,14 @@ static castingAddConsume as int[int][ILiquidStack][IIngredient][IItemStack] = {
 			}
 		}
 	},
+	//Rocket Builder
+	<factorytech:circuit_intermediate:8>: {
+		<ore:dustLead>: {
+			<liquid:iridium>: {
+				1296: 800
+			}
+		}
+	}
 };
 
 static castingAdd as int[int][ILiquidStack][IIngredient][IItemStack] = {

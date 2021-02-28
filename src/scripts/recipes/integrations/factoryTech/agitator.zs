@@ -5,7 +5,7 @@ import crafttweaker.liquid.ILiquidStack;
 static agitatorAdd as IIngredient[ILiquidStack][ILiquidStack][ILiquidStack[IItemStack]] = {
 	//Rocket Builder
 	{<factorytech:circuit_intermediate:8>: null}: {
-		<liquid:iridium> * 100: {<liquid:nickel> * 250: <ore:dustLead>
+		<liquid:iridium> * 144: {<liquid:nickel> * 288: <ore:dustLead>
 	}},
 
 	//Professions Stage 1

@@ -12,22 +12,34 @@ zenClass nbt {
 			outputItems: [
 				{
 					Slot: 0 as byte,
-				 	ForgeCaps: 
-				 		{
+				 	ForgeCaps: {
 				 			"astralsorcery:cap_item_amulet_holder": {}
-				 		}, 
+				 	}, 
 				 	id: "advancedrocketry:pressuretank",
 				 	Count: 1 as byte,
-				 	tag: 
-				 		{
-				 			Fluid: 
-				 				{
-				 					FluidName: "oxygen",
-				 					Amount: oxygen
-				 				}
-				 		},
+				 	tag: {
+				 		Fluid: {
+				 			FluidName: "oxygen",
+				 			Amount: oxygen/2
+				 		}
+				 	},
 			 		Damage: tier
-				 }
+				 },
+				 {
+					Slot: 1 as byte, 
+				 	ForgeCaps: {
+						"astralsorcery:cap_item_amulet_holder": {}
+					}, 
+					id: "advancedrocketry:pressuretank", 
+					Count: 1 as byte, 
+					tag: {
+						Fluid: {
+							FluidName: "oxygen", 
+							Amount: oxygen/2
+						}
+					}, 
+					Damage: tier
+				}
 			]
 		};	
 		return oxygenTag;

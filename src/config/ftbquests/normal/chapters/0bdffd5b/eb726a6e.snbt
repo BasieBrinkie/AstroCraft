@@ -1,6 +1,12 @@
 {
 	x: 1.0d,
 	y: 0.0d,
+	description: "More reliable circuit boards",
+	text: [
+		"Although we can use the etched patterns, they break rather fast. Some machines use these too often for it to be reliable.",
+		"",
+		"We can use the tritium from the rocket to finalize some of the circuit boards."
+	],
 	dependencies: [
 		"0bda5957"
 	],
@@ -9,6 +15,13 @@
 		type: "item",
 		items: [{
 			item: "factorytech:circuit_intermediate 1 3"
+		}]
+	},
+	{
+		uid: "d7dc85d9",
+		type: "item",
+		items: [{
+			item: "factorytech:machinepart 1 121"
 		}]
 	}]
 }

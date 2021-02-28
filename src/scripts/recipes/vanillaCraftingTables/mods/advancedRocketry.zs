@@ -23,18 +23,25 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<advancedrocketry:guidancecomputer:0>: [
 		[
-			[<factorytech:circuit_intermediate:0>, <ore:plateCopper>, <factorytech:circuit_intermediate:0>],
-			[<factorytech:circuit_intermediate:1>, <ore:nuggetNickel>, <factorytech:circuit_intermediate:1>],
+			[<factorytech:circuit_intermediate:0>, <ore:plateCopper>, <factorytech:circuit_intermediate:1>],
+			[<factorytech:machinepart:121>, <ore:blockIron>, <factorytech:machinepart:111>],
 			[<ore:plateCopper>,<skyresources:orealchdust:17>,<ore:plateCopper>]
 		]
 	],
 	<advancedrocketry:launchpad:0> * 3: [
 		[
-			[<charcoal_pit:item_ash:0>, <charcoal_pit:item_ash:0>, <charcoal_pit:item_ash:0>],
+			[<charcoal_pit:item_ash:0>, <tconstruct:materials:15>, <charcoal_pit:item_ash:0>],
 			[<minecraft:sand:0>, <minecraft:sand:0>, <minecraft:sand:0>]
 		]
 	],
-	<advancedrocketry:loader:0>: [
+	<advancedrocketry:liquidtank:0>: [
+		[
+			[<ore:blockGlass>, <ore:ingotAluminum>, <ore:blockGlass>],
+			[<ore:blockGlass>, null, <ore:blockGlass>],
+			[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>]
+		]
+	],
+	<advancedrocketry:loader:1>: [
 		[
 			[null, <ore:plateIron>, null],
 			[<ore:plateIron>, <minecraft:chest:0>, <ore:plateIron>],
@@ -71,7 +78,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<advancedrocketry:stationbuilder:0>: [
 		[
-			[null, <ore:factoryTechCircuit>, null],
+			[null, <factorytech:circuit_intermediate:1>, null],
 			[<ore:ingotAluminum>, <ore:nuggetLead>, <ore:ingotAluminum>],
 			[<ore:stone>, <ore:stone>, <ore:stone>]
 		]

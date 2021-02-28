@@ -18,7 +18,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<libvulpes:linker:0>: [
 		[
 			[null, null, <ore:stickAluminum>],
-			[<ore:ingotIron>, <factorytech:circuit_intermediate:3>, <ore:stickAluminum>],
+			[<ore:ingotIron>, <factorytech:machinepart:121>, <ore:stickAluminum>],
 			[null, <ore:ingotIron>, null]
 		]
 	],

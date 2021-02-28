@@ -1,6 +1,17 @@
 {
 	x: 4.0d,
 	y: 4.0d,
+	description: "First craftable pipes",
+	text: [
+		"We will work more and more with fluids so pipes might come in handy.",
+		"",
+		"These pipes pump 100 mB/t this means you need 10 exporting interfaces to satisfy its max capacity. ",
+		"",
+		"If you place down a pipe and it doesn't start pumping right away you might need to use the configurator.",
+		"",
+		"- Standard right clicking the pipe makes it respond to redstone signals.",
+		"- Right click + Shift allows you to configure import and output sides"
+	],
 	dependencies: [
 		"73b2726d"
 	],

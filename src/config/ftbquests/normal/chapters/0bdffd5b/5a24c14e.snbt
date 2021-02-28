@@ -1,6 +1,7 @@
 {
 	x: 1.0d,
 	y: -1.0d,
+	shape: "gear",
 	dependencies: [
 		"b5e81460",
 		"554f02e1",

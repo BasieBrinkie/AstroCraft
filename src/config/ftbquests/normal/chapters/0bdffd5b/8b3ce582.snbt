@@ -1,6 +1,10 @@
 {
 	x: 1.0d,
 	y: 6.0d,
+	description: "Hold rocket fuels",
+	text: [
+		"Can probably be salvaged from the crash site but you can also create more tanks"
+	],
 	dependencies: [
 		"64ef6ac0"
 	],

@@ -6,7 +6,7 @@
 	text: [
 		"-Place a crucible and put Oxygen Crystal Shards in the crucible. That will decompose the oxygen.",
 		"",
-		"TIP: If you are overproducing oxygen you could use barrels to temporarily store it."
+		"TIP: If you are overproducing oxygen you could use an empty tank from the crash site or crucibles/barrels to store it."
 	],
 	dependencies: [
 		"4b57e256"

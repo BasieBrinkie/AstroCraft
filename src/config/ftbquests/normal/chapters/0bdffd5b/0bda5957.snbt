@@ -1,6 +1,11 @@
 {
 	x: 2.0d,
 	y: 1.0d,
+	description: "Etching machine",
+	text: [
+		"Place the blank pattern in the Circuit Scribe.",
+		"Look at JEI which squares need to be gray and which ones need to be white."
+	],
 	dependencies: [
 		"0c35ae89"
 	],
