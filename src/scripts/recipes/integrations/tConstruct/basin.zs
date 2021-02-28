@@ -24,7 +24,7 @@ static basinAdd as int[int][ILiquidStack][IIngredient][IItemStack] = {
 };
 
 static basinRemove as IItemStack[] = [
-	<minecraft:iron_block:0>
+
 ];
 
 function init() {

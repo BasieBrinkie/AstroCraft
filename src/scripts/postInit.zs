@@ -123,12 +123,12 @@ function initIntegrations() {
 	scripts.recipes.integrations.skyResources.rockGrinder.init();
 	scripts.recipes.integrations.skyResources.waterExtractor.init();
 	
-	scripts.recipes.integrations.tConstruct.melting.init();
 	scripts.recipes.integrations.tConstruct.alloy.init();
 	scripts.recipes.integrations.tConstruct.basin.init();
 	scripts.recipes.integrations.tConstruct.casting.init();
 	scripts.recipes.integrations.tConstruct.drying.init();
 	scripts.recipes.integrations.tConstruct.fuel.init();
+	scripts.recipes.integrations.tConstruct.melting.init();
 	}
 	
 }
@@ -199,7 +199,6 @@ function initOredict() {
 	scripts.oredict.metals.metalUranium.init();
 
 	scripts.oredict.coal.init();
-	scripts.oredict.dirt.init();
 	scripts.oredict.doorWood.init();
 	scripts.oredict.flower.init();
 	scripts.oredict.food.init();
@@ -243,7 +242,6 @@ function initItemProperties() {
 	scripts.items.mods.minecraft.init();
 	scripts.items.mods.mysticalAgriculture.init();
 	scripts.items.mods.skyResources.init();
-	scripts.items.mods.thermalFoundation.init();
 
 	}
 }

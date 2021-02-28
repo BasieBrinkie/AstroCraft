@@ -5,7 +5,7 @@
 	y: -1.0d,
 	description: "It is a miracle that these items are even included in the standard emergency kit.",
 	text: [
-		"Find these ìtems in your crashed rocket. You will need this to transfer the oxygen in the crucible to the Oxygen Pad."
+		"Find these two items in one of the cabinets. You will need this to transfer the oxygen in the crucible to the Oxygen Pad."
 	],
 	dependencies: [
 		"bc56a49a",

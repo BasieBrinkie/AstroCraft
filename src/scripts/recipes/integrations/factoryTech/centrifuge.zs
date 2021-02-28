@@ -18,10 +18,7 @@ import crafttweaker.item.IItemStack;
 
 static centrifugeAdd as bool[IIngredient][IItemStack[]] = { 
 	//Basic Resources
-	[<minecraft:sand:0>, <exnihilocreatio:item_pebble:0> * 5, <charcoal_pit:item_ash:0> * 4]: { <minecraft:gravel:0>: true},
-
-	//Rocket Builder
-	[<factorytech:ore_dust:9> * 2, <exnihilocreatio:item_pebble:0> * 3]: {<exnihilocreatio:item_ore_nickel:0>: true},
+	[<minecraft:sand:0>, <exnihilocreatio:item_pebble:0> * 5, <charcoal_pit:item_ash:0> * 4]: { <minecraft:gravel:0>: false},
 
 	//Farmer One
 	[<minecraft:dye:2>, <exnihilocreatio:item_material:4>, <actuallyadditions:item_crystal_shard:4>]: { <minecraft:wheat:0>: true},
@@ -40,7 +37,16 @@ static centrifugeAdd as bool[IIngredient][IItemStack[]] = {
 */	
 
 static centrifugeRemove as IItemStack[][] = [
-
+	[<factorytech:ore_dust:5>, <factorytech:ore_dust:6>, null],
+	[<factorytech:ore_dust:4>, <factorytech:ore_dust:7>, null],
+	[<minecraft:gold_nugget:0>, <factorytech:ore_dust:8>, null],
+	[<minecraft:iron_nugget:0>, <factorytech:ore_dust:9>, null],
+	[<factorytech:ore_dust:9>, <factorytech:ore_dust:8> * 3, null],
+	[<factorytech:ore_dust:9>, <factorytech:ore_dust:6> * 2, null],
+	[<factorytech:ore_dust:9>, <factorytech:ore_dust:6>, null],
+	[<minecraft:redstone:0>, <minecraft:sand:0> * 4, null],
+	[<factorytech:ore_dust:9>, <factorytech:ore_dust:6> * 2, null],
+	[<factorytech:ore_dust:9>, <factorytech:ore_dust:6> * 2, null]
 ];
 
 /*	
@@ -50,7 +56,7 @@ static centrifugeRemove as IItemStack[][] = [
 */
 
 function init() {
-	facTech.centrifugeRemove(centrifugeRemove);
+	//facTech.centrifugeRemove(centrifugeRemove);
 	facTech.centrifugeRemoveAll();
 	facTech.centrifugeAdd(centrifugeAdd);
 }

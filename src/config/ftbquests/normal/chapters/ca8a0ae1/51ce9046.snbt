@@ -1,16 +1,14 @@
 {
+	title: "Oxygenizer",
 	x: 19.0d,
 	y: 0.0d,
 	shape: "gear",
-	description: "The oxygen pad is a neat thing you need to survive in space.",
+	description: "The oxygen pad is the exact thing you need to survive in space.",
 	text: [
 		"Pump in the liquid oxygen from the crucible and you're good to go.",
 		"Space is quite comfortable right?",
 		"",
 		"- Craft a 'Oxygen Pad'",
-		"- Put a fluid transfer node onto a crucible",
-		"- Put the \"Upgrade Mining\" in the transfer node",
-		"- Connect the cable to the \"Oxygen Pad\"",
 		"- Stand on top of a filled 'Oxygen Pad' while your spacesuit is equipped"
 	],
 	dependencies: [
