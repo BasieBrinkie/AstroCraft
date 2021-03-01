@@ -11,8 +11,6 @@ import mods.MobStages;
 import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
-import scripts.stages.register.stageNonStaged;
-
 zenClass stager {
 	zenConstructor() {}
 
@@ -55,22 +53,22 @@ zenClass stager {
 	}
 
 	function addLeftovers() {
-		if(devNonStagedItems | !dev) {
-			print("----------------------- Stages: Non Staged Items -----------------------");
-			for modName in loadedMods {
-				for item in modName.items {
-					if(!ZenStager.isStaged("ingredient", item)) {
-						stageNonStaged.addIngredient(item);
-					}
+		print("----------------------- Stages: Non Staged Items -----------------------");
+		for modName in loadedMods {
+			for item in modName.items {
+				if(!ZenStager.isStaged("ingredient", item)) {
+					stageNonStaged.addIngredient(item);
 				}
 			}
-			ZenStager.buildAll();
 		}
+		ZenStager.buildAll();
 	}
 
 	function build() {
 		ZenStager.buildAll();
-		addLeftovers();	
+		if(devNonStagedItems | !dev) {
+			addLeftovers();
+		}
 	}
 
 	/*

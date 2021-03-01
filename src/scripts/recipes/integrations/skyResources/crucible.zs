@@ -43,10 +43,10 @@ static crucibleAdd as IItemStack[][ILiquidStack] = {
 
 	/*	
 		---------------------------------------------
-		Stage: 1 - Professions Stage
+		Planet: Asteroids Advanced Resources
 		---------------------------------------------
 	*/
-	<liquid:copper> * 16: [<mekanism:nugget:5>, <immersiveengineering:metal:20>, <factorytech:ore_dust:4>],
+	<liquid:copper> * 12: [<mekanism:nugget:5>, <immersiveengineering:metal:20>, <factorytech:ore_dust:4>],
 	<liquid:copper> * 432: [<mekanism:clump:3>, <tconstruct:shard>.withTag({Material: "copper"})],
 };
 

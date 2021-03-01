@@ -5,7 +5,8 @@ import mods.zenstages.Stage;
 
 static stagedItems as IIngredient[][string] = {
 	stageResources1.stage: [
-		<patchouli:guide_book>.withTag({"patchouli:book": "patchouli:chapter_1"})
+		<patchouli:guide_book>.withTag({"patchouli:book": "patchouli:chapter_1"}),
+		<patchouli:guide_book>.withTag({"patchouli:book": "patchouli:multiblock_cheatsheet"}),
 	]
 };
 

@@ -1,0 +1,16 @@
+{
+	x: -1.0d,
+	y: 0.0d,
+	shape: "square",
+	description: "Mini Piston",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "6970d13f",
+		type: "item",
+		items: [{
+			item: "factorytech:machinepart 1 161"
+		}]
+	}]
+}

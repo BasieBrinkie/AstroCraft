@@ -22,7 +22,7 @@ static grindstoneAdd as bool[IIngredient][IItemStack] = {
 		<thermalfoundation:ore:7>: false
 	},
 	
-	//Professions Stage 1
+	//Asteroids Advanced Resources
 	<mekanism:nugget:5> * 3: {
 		<exnihilocreatio:item_ore_copper:3>: true
 	},

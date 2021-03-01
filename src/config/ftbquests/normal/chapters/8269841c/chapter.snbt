@@ -1,10 +1,7 @@
 {
-	title: "Farmer I - Vegetables",
+	title: "Farmer",
 	icon: "minecraft:wheat_seeds",
-	description: [
-		"Your crashed escape pod has only four tubes of spacefood. An enormous downside of being alive is you need food to seize the day. Therefore you need to become the worlds first space farmer."
-	],
 	always_invisible: false,
-	group: -1170332938,
+	group: -935258453,
 	default_quest_shape: ""
 }

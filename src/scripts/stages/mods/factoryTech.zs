@@ -43,9 +43,10 @@ static stagedItems as IIngredient[][string] = {
 		<factorytech:salvagepart:11>,	
 		<factorytech:salvagepart:31>,
 		<factorytech:salvagepart:80>,
-		<factorytech:salvagepart:120>,
+		<factorytech:salvagepart:111>,
+		<factorytech:salvagepart:121>,
 	],
-	stageProfessionsStage1.stage: [
+	planetAsteroids1.stage: [
 		<factorytech:compressor:0>,
 		<factorytech:crate:0>,
 		<factorytech:fridge:0>,

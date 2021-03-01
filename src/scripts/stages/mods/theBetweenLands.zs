@@ -13,7 +13,7 @@ import scripts.stages.register.stageOxygen1;
 import scripts.stages.register.stageResources1;
 import scripts.stages.register.stageRocketBuilder;
 import scripts.stages.register.stageOxygenExtractor;
-import scripts.stages.register.stageDecorator;
+import scripts.stages.register.stageBasicKnowledgeDecorator;
 import scripts.stages.register.stageFarmer1;
 import scripts.stages.register.stageMoldMaker;
 import scripts.stages.register.stageAstronomer;

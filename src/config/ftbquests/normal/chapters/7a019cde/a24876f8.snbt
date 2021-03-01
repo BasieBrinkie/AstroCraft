@@ -1,0 +1,32 @@
+{
+	title: "Enable Decorator Recipes",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "vimmersion:hammer"
+	},
+	x: 2.5d,
+	y: -0.5d,
+	text: [
+		""
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "6e1b1383",
+		type: "checkmark",
+		title: "Enable decorator recipes",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "vimmersion:hammer"
+		}
+	}],
+	rewards: [{
+		uid: "64033749",
+		type: "gamestage",
+		auto: "enabled",
+		stage: "decorator"
+	}]
+}

@@ -2,6 +2,6 @@
 	title: "Astronomer",
 	icon: "astralsorcery:blockmachine",
 	always_invisible: false,
-	group: -1170332938,
+	group: -935258453,
 	default_quest_shape: ""
 }

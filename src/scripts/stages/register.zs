@@ -41,7 +41,8 @@ global stageSpawnItems as Stage = ZenStager.initStage("spawn_items");
 global stageOxygen1 as Stage = ZenStager.initStage("oxygen_one");
 global stageResources1 as Stage = ZenStager.initStage("resources_one");
 global stageRocketBuilder as Stage = ZenStager.initStage("rocket_builder");
-
+global stageBasicKnowledgeDecorator as Stage = ZenStager.initStage("basic_decorator");
+global stageBasicKnowledgeOxygen as Stage = ZenStager.initStage("basic_oxygen")
 
 /*
 	----------------------
@@ -110,6 +111,8 @@ global stageGunSmithMaster as Stage = ZenStager.initStage("gunsmith_master");
 	Planet Stages.
 	--------------
 */
+//Arcturus
+global planetAsteroids1 as Stage = ZenStager.initStage("planet_asteroids_advanced_resources");
 global planetAetherThaumcraft1 as Stage = ZenStager.initStage("aetherleg_thaumcraft_one");
 
 global planetAetherIIAcademy as Stage = ZenStager.initStage("aether_academy");

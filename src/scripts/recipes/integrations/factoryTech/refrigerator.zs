@@ -19,7 +19,7 @@ import crafttweaker.liquid.ILiquidStack;
 static refrigeratorAdd as ILiquidStack[][IItemStack] = { 
 	//Profession Stage 1
 	<factorytech:machinepart:130>: [
-		<liquid:iron> * 500
+		<liquid:iron> * 648
 	],
 	<exnihilocreatio:item_ore_copper:3>: [
 		<liquid:copper> * 144

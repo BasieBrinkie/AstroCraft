@@ -4,7 +4,7 @@
             <isKnown>true</isKnown>
             <hasRings>true</hasRings>
             <atmosphereDensity>90</atmosphereDensity>
-            <gravitationalMultiplier>85</gravitationalMultiplier>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
             <orbitalDistance>20</orbitalDistance>
             <orbitalTheta>120</orbitalTheta>
             <orbitalPhi>210</orbitalPhi>

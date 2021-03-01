@@ -1,5 +1,5 @@
 {
-	title: "Miner I",
+	title: "Asteroids - Mining",
 	icon: {
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}
@@ -7,6 +7,6 @@
 		id: "minecraft:diamond_pickaxe"
 	},
 	always_invisible: false,
-	group: -1170332938,
+	group: 325421953,
 	default_quest_shape: ""
 }

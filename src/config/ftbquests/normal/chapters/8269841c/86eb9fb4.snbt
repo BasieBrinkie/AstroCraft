@@ -1,14 +1,15 @@
 {
-	x: 0.0d,
-	y: -2.0d,
+	x: -2.5d,
+	y: 2.0d,
 	tasks: [{
-		uid: "cf33724c",
+		uid: "0506c9e7",
 		type: "item",
 		items: [{
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
-			id: "cavern:ore_compass"
+			id: "skyresources:waterextractor",
+			tag: {}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

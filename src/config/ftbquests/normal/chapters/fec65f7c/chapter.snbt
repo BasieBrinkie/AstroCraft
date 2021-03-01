@@ -1,7 +1,0 @@
-{
-	title: "Scavenger",
-	icon: "minecraft:compass",
-	always_invisible: false,
-	group: -1170332938,
-	default_quest_shape: ""
-}

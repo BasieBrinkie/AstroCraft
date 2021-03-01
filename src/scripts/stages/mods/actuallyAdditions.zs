@@ -10,7 +10,7 @@ static stagedItems as IIngredient[][string] = {
 	stageResources1.stage: [
 		<actuallyadditions:block_compost:0>,
 	],
-	stageProfessionsStage1.stage: [
+	planetAsteroids1.stage: [
 		<actuallyadditions:item_knife:0>,
 	],
 	stageFarmer1.stage: [
@@ -18,7 +18,7 @@ static stagedItems as IIngredient[][string] = {
 		<actuallyadditions:item_crystal_shard:4>,
 		<actuallyadditions:item_misc:13>
 	],
-	stageDecorator.stage: [
+	stageBasicKnowledgeDecorator.stage: [
 		<actuallyadditions:block_crystal_cluster_redstone:0>,
 		<actuallyadditions:item_crystal_shard:0>
 	],

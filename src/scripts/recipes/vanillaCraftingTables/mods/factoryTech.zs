@@ -127,6 +127,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:clumpCopper>, null, <ore:clumpCopper>]
 		]
 	],
+	<factorytech:machinepart:161>: [
+		[
+			[null, <ore:ingotIron>, null],
+			[<ore:nuggetNickel>, <ore:factoryTechShaft>, <ore:nuggetNickel>],
+			[<ore:nuggetNickel>, <ore:dustLead>, <ore:nuggetNickel>]
+		]
+	],
 	<factorytech:magcent:0>: [
 		[
 			[<ore:ingotIron>, <ore:factoryTechShaft>, <ore:ingotIron>],

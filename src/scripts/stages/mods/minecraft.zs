@@ -3,30 +3,6 @@ import crafttweaker.item.IIngredient;
 import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
-import scripts.stages.register.stageProfessionsStage1;
-import scripts.stages.register.stageProfessionsStage2;
-import scripts.stages.register.stageProfessionsStage3;
-import scripts.stages.register.stageProfessionsStage4;
-import scripts.stages.register.stageProfessionsStage5;
-
-import scripts.stages.register.stageMiner1;
-import scripts.stages.register.stageEmerald;
-import scripts.stages.register.stageShears;
-
-import scripts.stages.register.stageOxygen1;
-import scripts.stages.register.stageResources1;
-import scripts.stages.register.stageRocketBuilder;
-import scripts.stages.register.stageOxygenExtractor;
-import scripts.stages.register.stageDecorator;
-import scripts.stages.register.stageFarmer1;
-import scripts.stages.register.stageMoldMaker;
-import scripts.stages.register.stageAstronomer;
-import scripts.stages.register.stageBlackSmith;
-import scripts.stages.register.stageNuclearPhysicist;
-
-import scripts.stages.register.stageDisabledItems;
-import scripts.stages.register.stageDecoration1Enable;
-
 static stagedItems as IIngredient[][string] = {
 	stageOxygen1.stage: [
 		<minecraft:cobblestone:0>,
@@ -74,7 +50,7 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:wooden_button:0>,
 		<minecraft:wooden_pressure_plate:0>
 	],
-	stageProfessionsStage1.stage: [
+	planetAsteroids1.stage: [
 		<minecraft:coal:0>,
 		<minecraft:comparator:0>,
 		<minecraft:flint:0>,
@@ -104,7 +80,7 @@ static stagedItems as IIngredient[][string] = {
 	stageShears.stage: [
 		<minecraft:shears:*>
 	],
-	stageDecorator.stage: [
+	stageBasicKnowledgeDecorator.stage: [
 		<minecraft:clay:0>
 	],
 	stageDecoration1Enable.stage: [

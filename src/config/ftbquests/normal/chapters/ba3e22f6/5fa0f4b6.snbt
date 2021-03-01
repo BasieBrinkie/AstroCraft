@@ -1,7 +1,11 @@
 {
 	x: 0.0d,
 	y: 1.0d,
-	shape: "hexagon",
+	shape: "diamond",
+	description: "Put liquid copper in the Refrigeration Unit",
+	text: [
+		""
+	],
 	dependencies: [
 		"6eafb43f"
 	],

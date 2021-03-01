@@ -10,10 +10,18 @@
 		"92ec4d9b"
 	],
 	tasks: [{
-		uid: "6492be16",
+		uid: "abdf838f",
 		type: "item",
 		items: [{
-			item: "minecraft:book"
-		}]
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "patchouli:multiblock_cheatsheet"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}]
 }

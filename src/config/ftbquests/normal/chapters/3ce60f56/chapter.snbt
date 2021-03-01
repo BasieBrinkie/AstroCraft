@@ -2,6 +2,6 @@
 	title: "Glacidus - Planet Professions",
 	icon: "glacidus:lumicia_grass",
 	always_invisible: false,
-	group: 0,
+	group: 325421953,
 	default_quest_shape: ""
 }

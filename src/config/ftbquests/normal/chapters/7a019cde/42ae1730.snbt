@@ -1,0 +1,21 @@
+{
+	title: "Disable Decorator Recipes",
+	icon: "minecraft:wool 1 15",
+	x: 2.5d,
+	y: -1.5d,
+	text: [
+		""
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "60168d20",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "63be49e7",
+		type: "gamestage",
+		auto: "enabled",
+		stage: "decorator",
+		remove: true
+	}]
+}

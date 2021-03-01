@@ -1,7 +1,7 @@
 {
 	x: 2.0d,
 	y: 3.0d,
-	description: "Combine multiple fluids and items",
+	description: "Combines multiple fluids and items",
 	text: [
 		"The agitator requires a circuit board that still needs to be made. After you invent the circuit board, you can use the agitor to create them more easily."
 	],
