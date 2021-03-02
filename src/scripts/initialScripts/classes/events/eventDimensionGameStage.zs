@@ -3,6 +3,9 @@ import crafttweaker.events.IEventManager;
 import crafttweaker.event.PlayerChangedDimensionEvent;
 import crafttweaker.player.IPlayer;
 
+import mods.zenstages.ZenStager;
+import mods.zenstages.Stage;
+
 //Stages that need to be granted when entering the dim and taken away when leaving.
 static dimensionGamestageRules as string[][int] = {
     //Space Station

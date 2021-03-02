@@ -42,7 +42,7 @@ global stageOxygen1 as Stage = ZenStager.initStage("oxygen_one");
 global stageResources1 as Stage = ZenStager.initStage("resources_one");
 global stageRocketBuilder as Stage = ZenStager.initStage("rocket_builder");
 global stageBasicKnowledgeDecorator as Stage = ZenStager.initStage("basic_decorator");
-global stageBasicKnowledgeOxygen as Stage = ZenStager.initStage("basic_oxygen")
+global stageBasicKnowledgeOxygen as Stage = ZenStager.initStage("basic_oxygen");
 
 /*
 	----------------------

@@ -6,9 +6,6 @@ import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IItemStack;
 import crafttweaker.world.IRayTraceResult;
 
-import mods.zenstages.ZenStager;
-import mods.zenstages.Stage;
-
 /*	
 	----------------------------------------------------------------------------------------------
 	Block the interaction with inventories while wearing a specific item in the chest slot.

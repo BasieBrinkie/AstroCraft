@@ -252,8 +252,8 @@ function initItemProperties() {
 
 function initEvents() {
 	print("----------------------- Events -----------------------");
-	scripts.initialScripts.events.eventDimensionGameStage.init();
-	scripts.initialScripts.events.eventDimensionInteractLock.init();
+	scripts.initialScripts.classes.events.eventDimensionGameStage.init();
+	scripts.initialScripts.classes.events.eventDimensionInteractLock.init();
 }
 
 function initSpawnItems() {
