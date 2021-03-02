@@ -15,6 +15,7 @@ initBuildStages();
 initItemProperties();
 initDrops();
 initSeeds();
+initEvents();
 
 /*
 	-------------------------------------------------
@@ -247,6 +248,12 @@ function initItemProperties() {
 	scripts.items.mods.thermalFoundation.init();
 
 	}
+}
+
+function initEvents() {
+	print("----------------------- Events -----------------------");
+	scripts.initialScripts.events.eventDimensionGameStage.init();
+	scripts.initialScripts.events.eventDimensionInteractLock.init();
 }
 
 function initSpawnItems() {
