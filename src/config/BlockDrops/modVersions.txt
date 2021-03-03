@@ -4,7 +4,6 @@
   "factorytech": "1.5",
   "draconicevolution": "2.3.27",
   "contenttweaker": "1.12.2-4.9.1",
-  "mcwwindows": "1.0",
   "forgeendertech": "1.12.2-4.5.5.0",
   "thaumicjei": "1.6.0",
   "LambdaLib|Core": "0.2.0",

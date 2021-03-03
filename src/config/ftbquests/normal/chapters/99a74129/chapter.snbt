@@ -1,7 +1,7 @@
 {
 	title: "Space Courier",
 	icon: "advancedrocketry:advbipropellantrocketmotor",
-	always_invisible: false,
-	group: -935258453,
+	always_invisible: true,
+	group: -658887791,
 	default_quest_shape: ""
 }
