@@ -8,7 +8,10 @@
 		uid: "05fa699b",
 		type: "item",
 		items: [{
-			item: "actuallyadditions:item_canola_seed"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "actuallyadditions:item_canola_seed"
 		}]
 	}]
 }

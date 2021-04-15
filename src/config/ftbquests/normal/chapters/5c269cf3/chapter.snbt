@@ -1,0 +1,12 @@
+{
+	title: "Asteroids - Automation I",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "factorytech:autocrafter"
+	},
+	always_invisible: false,
+	group: 325421953,
+	default_quest_shape: ""
+}

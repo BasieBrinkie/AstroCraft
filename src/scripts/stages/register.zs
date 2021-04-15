@@ -18,12 +18,12 @@ global gameModeGenius as Stage = ZenStager.initStage("gamemode_genius");
 global gameModeKitchenSink as Stage = ZenStager.initStage("gamemode_kitchensink");
 
 /*
-	-----------
-	Dimensions.
-	-----------
+	------------------------
+	Dimension Locked Stages.
+	------------------------
 */
 global dimensionSpaceStation as Stage = ZenStager.initStage("dim_spacestation");
-global dimensionAsteroids as Stage = ZenStager.initStage("dim_asteroids");
+global dimensionAsteroids1 as Stage = ZenStager.initStage("dim_asteroids_one");
 global dimensionGlacidus as Stage = ZenStager.initStage("dim_glacidus");
 
 /*
@@ -38,11 +38,10 @@ global stageSpawnItems as Stage = ZenStager.initStage("spawn_items");
 	Progression Stages: 0.
 	----------------------
 */
-global stageOxygen1 as Stage = ZenStager.initStage("oxygen_one");
-global stageResources1 as Stage = ZenStager.initStage("resources_one");
 global stageRocketBuilder as Stage = ZenStager.initStage("rocket_builder");
 global stageBasicKnowledgeDecorator as Stage = ZenStager.initStage("basic_decorator");
 global stageBasicKnowledgeOxygen as Stage = ZenStager.initStage("basic_oxygen");
+global stageNuclearManagement as Stage = ZenStager.initStage("nuclear_management");
 
 /*
 	----------------------
@@ -111,9 +110,18 @@ global stageGunSmithMaster as Stage = ZenStager.initStage("gunsmith_master");
 	Planet Stages.
 	--------------
 */
+
 //Arcturus
-global planetAsteroids1 as Stage = ZenStager.initStage("planet_asteroids_advanced_resources");
-global planetAetherThaumcraft1 as Stage = ZenStager.initStage("aetherleg_thaumcraft_one");
+/*
+	----------------------
+	Asteroids 1.
+	----------------------
+*/
+global stageAsteroidOxygen1 as Stage = ZenStager.initStage("planet_asteroid_oxygen_one");
+global stageAsteroidResources1 as Stage = ZenStager.initStage("planet_asteroid_resources_one");
+global stageAsteroidAdvancedResources as Stage = ZenStager.initStage("planet_asteroids_advanced_resources");
+
+global planetAetherIIThaumcraft1 as Stage = ZenStager.initStage("aether_thaumcraft_one");
 
 global planetAetherIIAcademy as Stage = ZenStager.initStage("aether_academy");
 

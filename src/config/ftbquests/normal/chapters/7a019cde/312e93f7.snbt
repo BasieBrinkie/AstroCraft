@@ -9,7 +9,10 @@
 		uid: "dc4d3c9c",
 		type: "item",
 		items: [{
-			item: "actuallyadditions:item_crystal_shard"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "actuallyadditions:item_crystal_shard"
 		}]
 	}]
 }

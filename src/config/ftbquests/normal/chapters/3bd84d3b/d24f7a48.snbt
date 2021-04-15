@@ -13,7 +13,10 @@
 		uid: "96ba0b23",
 		type: "item",
 		items: [{
-			item: "minecraft:book"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:book"
 		}]
 	}]
 }

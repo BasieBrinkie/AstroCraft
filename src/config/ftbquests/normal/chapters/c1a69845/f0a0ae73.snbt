@@ -6,7 +6,8 @@
 				FluidName: "oxygen",
 				Amount: 1000
 			}
-		}
+		},
+		Count: 1b
 	},
 	x: 0.0d,
 	y: 3.0d,

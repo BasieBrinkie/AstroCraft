@@ -16,6 +16,13 @@ static basinAddConsume as int[int][ILiquidStack][IIngredient][IItemStack] = {
 				1296: 400
 			}
 		}
+	},
+	<mekanism:basicblock:5>: {
+		<minecraft:packed_ice:0>: {
+			<liquid:steel>: {
+				1296: 300
+			}
+		}
 	}
 };
 

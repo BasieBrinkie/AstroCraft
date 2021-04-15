@@ -8,7 +8,10 @@
 		uid: "ddcd529a",
 		type: "item",
 		items: [{
-			item: "minecraft:emerald"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:emerald"
 		}]
 	}]
 }

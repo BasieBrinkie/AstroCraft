@@ -9,14 +9,16 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
+				"astralsorcery:cap_item_amulet_holder": {},
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "chiselsandbits:chisel_iron",
 			tag: {}
 		},
 		{
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
+				"astralsorcery:cap_item_amulet_holder": {},
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "chiselsandbits:chisel_stone",
 			tag: {}

@@ -18,7 +18,11 @@
 		uid: "9ff1bf7c",
 		type: "item",
 		items: [{
-			item: "exnihilocreatio:item_material 1 2"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:item_material",
+			Damage: 2s
 		}]
 	}]
 }

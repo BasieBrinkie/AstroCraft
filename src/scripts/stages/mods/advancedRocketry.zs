@@ -13,7 +13,7 @@ static stagedItems as IIngredient[][string] = {
 		<advancedrocketry:spaceleggings>,
 		<advancedrocketry:spaceboots>
 	],
-	stageOxygen1.stage: [
+	stageAsteroidOxygen1.stage: [
 		<advancedrocketry:charcoallog:0>,
 		<advancedrocketry:liquidtank:0>,	
 		<advancedrocketry:oxygencharger:0>,

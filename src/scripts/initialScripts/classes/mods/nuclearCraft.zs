@@ -791,15 +791,17 @@ zenClass nuclearCraft {
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 
-	function fissionSolidAddRecipe(map as double[bool][int][double][int][int][IIngredient][IIngredient]) {
+	function fissionSolidAddRecipe(map as double[bool][double][int][double][int][int][IIngredient][IIngredient]) {
 		for inputItem, array1 in map {
 			for outputItem, array2 in array1 {
 				for time, array3 in array2 {
 					for heat, array4 in array3 {
 						for efficiency, array5 in array4 {
 							for criticality, array6 in array5 {
-								for selfPriming, radiation in array6 {
-									mods.nuclearcraft.SolidFission.addRecipe(inputItem, outputItem, time, heat, efficiency, criticality, selfPriming, radiation);
+								for decayFactor, array7 in array6 {
+									for selfPriming, radiation in array7 {
+										mods.nuclearcraft.SolidFission.addRecipe(inputItem, outputItem, time, heat, efficiency, criticality, decayFactor, selfPriming, radiation);
+									}
 								}
 							}
 						}
@@ -860,9 +862,9 @@ zenClass nuclearCraft {
 					for heat, array4 in array3 {
 						for efficiency, array5 in array4 {
 							for criticality, array6 in array5 {
-								for decayfactor, array7 in array6 {
+								for decayFactor, array7 in array6 {
 									for selfPriming, radiation in array7 {
-										mods.nuclearcraft.SaltFission.addRecipe(inputItem, outputItem, time, heat, efficiency, criticality, selfPriming, radiation);
+										mods.nuclearcraft.SaltFission.addRecipe(inputItem, outputItem, time, heat, efficiency, criticality, decayFactor, selfPriming, radiation);
 									}
 								}
 							}
@@ -896,7 +898,7 @@ zenClass nuclearCraft {
 			for outputFluid, array2 in array1 {
 				for requiredHeat, array3 in array2 {
 					for tempIn, tempOut in array3 {
-						mods.nuclearcraft.HeatExchanger.addRecipe([inputFluid, outputFluid, requiredHeat, tempIn, tempOut]);
+						mods.nuclearcraft.HeatExchanger.addRecipe(inputFluid, outputFluid, requiredHeat, tempIn, tempOut);
 					}
 				}
 			}
@@ -904,11 +906,15 @@ zenClass nuclearCraft {
 	}
 
 	function heatExchangerRemoveInputRecipe(map as ILiquidStack[]) {
-			mods.nuclearcraft.HeatExchanger.removeRecipeWithInput(map);
+		for inputFluid in map {
+			mods.nuclearcraft.HeatExchanger.removeRecipeWithInput(inputFluid);
+		}
 	}
 
 	function heatExchangerRemoveOutputRecipe(map as ILiquidStack[]) {
-			mods.nuclearcraft.HeatExchanger.removeRecipeWithOutput(map);
+		for outputFluid in map {
+			mods.nuclearcraft.HeatExchanger.removeRecipeWithOutput(outputFluid);
+		}
 	}
 
 	function heatExchangerRemoveAll() {
@@ -954,18 +960,22 @@ zenClass nuclearCraft {
 		for outputFluid, array1 in map {
 			for inputFluid, array2 in array1 {
 				for condensTemp, coolingReq in array2 {
-					mods.nuclearcraft.Condenser.addRecipe([inputFluid, outputFluid, coolingReq, condensTemp]);
+					mods.nuclearcraft.Condenser.addRecipe(inputFluid, outputFluid, coolingReq, condensTemp);
 				}		
 			}
 		}
 	}
 
 	function condenserRemoveInputRecipe(map as ILiquidStack[]) {
-			mods.nuclearcraft.Condenser.removeRecipeWithInput(map);
+		for inputFluid in map {
+			mods.nuclearcraft.Condenser.removeRecipeWithInput(inputFluid);
+		}
 	}
 
 	function condenserRemoveOutputRecipe(map as ILiquidStack[]) {
-			mods.nuclearcraft.Condenser.removeRecipeWithOutput(map);
+		for outputFluid in map {
+			mods.nuclearcraft.Condenser.removeRecipeWithOutput(outputFluid);
+		}
 	}
 
 	function condenserRemoveAll() {

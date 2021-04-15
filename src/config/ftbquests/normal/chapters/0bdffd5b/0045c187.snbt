@@ -12,7 +12,10 @@
 		uid: "212a2272",
 		type: "item",
 		items: [{
-			item: "exnihilocreatio:item_ore_lead"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:item_ore_lead"
 		}]
 	}]
 }

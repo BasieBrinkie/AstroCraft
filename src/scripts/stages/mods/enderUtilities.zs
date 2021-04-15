@@ -4,7 +4,7 @@ import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
 static stagedItems as IIngredient[][string] = {
-	planetAsteroids1.stage: [
+	stageAsteroidAdvancedResources.stage: [
 		<enderutilities:floor:0>,
 		<enderutilities:storage_0:7>
 	]

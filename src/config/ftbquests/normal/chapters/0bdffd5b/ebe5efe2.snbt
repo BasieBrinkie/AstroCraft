@@ -13,7 +13,11 @@
 		uid: "ca3528a0",
 		type: "item",
 		items: [{
-			item: "exnihilocreatio:item_ore_lead 1 1"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:item_ore_lead",
+			Damage: 1s
 		}]
 	}]
 }

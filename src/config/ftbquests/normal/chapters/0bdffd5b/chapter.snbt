@@ -1,6 +1,11 @@
 {
 	title: "Rocket Builder",
-	icon: "advancedrocketry:rocketmotor",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "advancedrocketry:rocketmotor"
+	},
 	always_invisible: false,
 	group: -896922911,
 	default_quest_shape: ""

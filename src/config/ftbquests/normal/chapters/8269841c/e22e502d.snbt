@@ -8,7 +8,10 @@
 		uid: "6975cf15",
 		type: "item",
 		items: [{
-			item: "minecraft:pumpkin_seeds"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:pumpkin_seeds"
 		}]
 	}]
 }

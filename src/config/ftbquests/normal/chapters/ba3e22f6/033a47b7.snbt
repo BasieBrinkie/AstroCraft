@@ -9,7 +9,10 @@
 		uid: "ec873674",
 		type: "item",
 		items: [{
-			item: "minecraft:redstone"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:redstone"
 		}]
 	}]
 }

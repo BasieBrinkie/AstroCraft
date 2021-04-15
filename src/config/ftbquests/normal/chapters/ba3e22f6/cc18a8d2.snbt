@@ -8,7 +8,10 @@
 		uid: "e7b2053d",
 		type: "item",
 		items: [{
-			item: "factorytech:scaffold"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "factorytech:scaffold"
 		}]
 	}]
 }

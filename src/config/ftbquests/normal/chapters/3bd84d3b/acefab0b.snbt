@@ -4,7 +4,11 @@
 	y: 1.0d,
 	description: "The cheat sheet for multiblock structures",
 	text: [
-		"If you ever get stuck with building multiblock structures, open this book and search the multiblock by modname and machine."
+		"If you ever get stuck with building multiblock structures, open this cheatsheet and search the multiblock by clicking the right quest chapter and then its ",
+		"multiblocks. Alternatively you could search the multiblocks by modname and machinename using the entry index.",
+		"",
+		"TIP: You don't actually need the book as you could acces this book through your inventory. Normally the vanilla recipe book would be located here but ",
+		"this has been replaced with this cheatsheet"
 	],
 	dependencies: [
 		"92ec4d9b"
@@ -14,7 +18,8 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
+				"astralsorcery:cap_item_amulet_holder": {},
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "patchouli:guide_book",
 			tag: {

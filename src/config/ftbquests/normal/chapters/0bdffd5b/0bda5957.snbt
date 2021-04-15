@@ -13,7 +13,10 @@
 		uid: "a742f882",
 		type: "item",
 		items: [{
-			item: "factorytech:circuitscribe"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "factorytech:circuitscribe"
 		}]
 	}]
 }

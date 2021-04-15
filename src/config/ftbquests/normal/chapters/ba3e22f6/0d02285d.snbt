@@ -9,7 +9,11 @@
 		uid: "eaf49dfe",
 		type: "item",
 		items: [{
-			item: "thermalfoundation:material 1 802"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 802s
 		}]
 	}]
 }

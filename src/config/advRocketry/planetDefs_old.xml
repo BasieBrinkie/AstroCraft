@@ -1,9 +1,0 @@
-<galaxy>
-    <star name="ToBeSet" temp="100" x="0" y="0" numPlanets="0" numGasGiants="0">
-        <planet name="Asteroid Belt" DIMID="-30" dimMapping="">
-            <atmosphereDensity>0</atmosphereDensity>
-            <gravitationalMultiplier>10</gravitationalMultiplier>
-            <biomeIds>0</biomeIds>
-        </planet>
-    </star>
-</galaxy>

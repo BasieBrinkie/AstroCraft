@@ -21,7 +21,8 @@
 					FluidName: "rocketfuel",
 					Amount: 1000
 				}
-			}
+			},
+			Count: 1b
 		}],
 		consume_items: false
 	}]

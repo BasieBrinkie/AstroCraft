@@ -8,7 +8,10 @@
 		uid: "a21dc6a6",
 		type: "item",
 		items: [{
-			item: "minecraft:stonebrick"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stonebrick"
 		}]
 	}]
 }

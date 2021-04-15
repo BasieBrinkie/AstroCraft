@@ -8,7 +8,10 @@
 		uid: "3332da4c",
 		type: "item",
 		items: [{
-			item: "minecraft:sapling"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:sapling"
 		}]
 	}]
 }

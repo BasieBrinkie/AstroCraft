@@ -4,7 +4,7 @@ import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
 static stagedItems as IIngredient[][string] = {
-	planetAsteroids1.stage: [
+	stageAsteroidAdvancedResources.stage: [
 		<techguns:basicore:4>,
 	]
 };

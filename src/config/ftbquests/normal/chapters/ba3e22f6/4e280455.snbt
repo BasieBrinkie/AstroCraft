@@ -9,7 +9,10 @@
 		uid: "4cbdbb28",
 		type: "item",
 		items: [{
-			item: "minecraft:repeater"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:repeater"
 		}]
 	}]
 }

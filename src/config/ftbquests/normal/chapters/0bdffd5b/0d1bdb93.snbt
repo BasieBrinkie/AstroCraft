@@ -15,7 +15,10 @@
 		uid: "4fa21b73",
 		type: "item",
 		items: [{
-			item: "factorytech:agitator"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "factorytech:agitator"
 		}]
 	}]
 }

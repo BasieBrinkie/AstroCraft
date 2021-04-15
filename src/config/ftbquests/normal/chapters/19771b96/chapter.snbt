@@ -1,6 +1,11 @@
 {
 	title: "Advanced Oxygen Distribution",
-	icon: "advancedrocketry:oxygenvent",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "advancedrocketry:oxygenvent"
+	},
 	always_invisible: false,
 	group: -658887791,
 	default_quest_shape: ""

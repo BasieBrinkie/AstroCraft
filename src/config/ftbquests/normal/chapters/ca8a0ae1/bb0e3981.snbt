@@ -1,6 +1,11 @@
 {
 	title: "Anything But a Piston",
-	icon: "advancedrocketry:platepress",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "advancedrocketry:platepress"
+	},
 	x: 18.0d,
 	y: 1.0d,
 	description: "Don't let the looks fool you.",
@@ -20,14 +25,20 @@
 		uid: "3c361ae8",
 		type: "item",
 		items: [{
-			item: "advancedrocketry:platepress"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:platepress"
 		}]
 	},
 	{
 		uid: "850c8fec",
 		type: "item",
 		items: [{
-			item: "minecraft:lever"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:lever"
 		}]
 	}]
 }

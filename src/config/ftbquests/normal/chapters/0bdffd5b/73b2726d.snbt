@@ -12,7 +12,11 @@
 		uid: "04192999",
 		type: "item",
 		items: [{
-			item: "skyresources:orealchdust 1 17"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "skyresources:orealchdust",
+			Damage: 17s
 		}]
 	}]
 }

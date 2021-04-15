@@ -4,7 +4,7 @@ import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
 static stagedItems as IIngredient[][string] = {
-	stageResources1.stage: [
+	stageAsteroidResources1.stage: [
 		<factorytech:centrifuge:0>,
 		<factorytech:grindstone:0>,
 		<factorytech:handbook:0>,
@@ -46,7 +46,7 @@ static stagedItems as IIngredient[][string] = {
 		<factorytech:salvagepart:111>,
 		<factorytech:salvagepart:121>,
 	],
-	planetAsteroids1.stage: [
+	stageAsteroidAdvancedResources.stage: [
 		<factorytech:compressor:0>,
 		<factorytech:crate:0>,
 		<factorytech:fridge:0>,

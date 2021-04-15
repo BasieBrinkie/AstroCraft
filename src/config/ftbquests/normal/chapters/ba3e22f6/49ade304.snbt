@@ -8,7 +8,10 @@
 		uid: "bbc6c175",
 		type: "item",
 		items: [{
-			item: "minecraft:magma"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:magma"
 		}]
 	}]
 }

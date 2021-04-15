@@ -1,6 +1,11 @@
 {
 	title: "Astronomer",
-	icon: "astralsorcery:blockmachine",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "astralsorcery:blockmachine"
+	},
 	always_invisible: false,
 	group: -935258453,
 	default_quest_shape: ""

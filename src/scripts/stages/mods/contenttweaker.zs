@@ -4,7 +4,7 @@ import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
 static stagedItems as IIngredient[][string] = {
-	stageOxygen1.stage: [
+	stageAsteroidOxygen1.stage: [
 		<contenttweaker:astrostone:0>,
 		<contenttweaker:astrostone2:0>,
 		<contenttweaker:astrostone3:0>

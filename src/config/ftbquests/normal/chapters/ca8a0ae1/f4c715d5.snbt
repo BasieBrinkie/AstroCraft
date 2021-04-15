@@ -16,15 +16,17 @@
 	],
 	min_required_dependencies: 2,
 	dependencies: [
-		"e2c60067",
-		"f138a062",
-		"63ef18b5",
 		"d1418823"
 	],
 	tasks: [{
 		uid: "093e5e5f",
 		type: "checkmark",
 		title: "Obtaining A Crafting Table",
-		icon: "minecraft:crafting_table"
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:crafting_table"
+		}
 	}]
 }

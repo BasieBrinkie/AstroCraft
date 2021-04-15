@@ -5,7 +5,11 @@
 		uid: "a51668f6",
 		type: "item",
 		items: [{
-			item: "tconstruct:throwball 1 1"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:throwball",
+			Damage: 1s
 		}]
 	}]
 }

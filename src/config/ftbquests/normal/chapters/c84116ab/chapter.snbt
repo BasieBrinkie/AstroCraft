@@ -2,7 +2,8 @@
 	title: "Professions - Stage: 1",
 	icon: {
 		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
+			"astralsorcery:cap_item_amulet_holder": {},
+			"customnpcs:itemscripteddata": {}
 		},
 		id: "minecraft:flint_and_steel"
 	},

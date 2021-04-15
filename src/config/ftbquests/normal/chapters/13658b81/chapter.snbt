@@ -1,6 +1,12 @@
 {
 	title: "Arcturus",
-	icon: "twilightforest:miniature_structure 1 13",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "twilightforest:miniature_structure",
+		Damage: 13s
+	},
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

@@ -4,7 +4,7 @@ import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
 static stagedItems as IIngredient[][string] = {
-	stageResources1.stage: [
+	stageAsteroidResources1.stage: [
 		<mekanism:sawdust:0>
 	],
 	stageRocketBuilder.stage: [

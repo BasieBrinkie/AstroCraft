@@ -21,7 +21,7 @@
             "biome": "all",
             "dimension": {
                 "restriction": "whitelist",
-                "value": [3]
+                "value": [0]
             }
         },
         "Asteroids_Stone2": {
@@ -47,7 +47,7 @@
             "biome": "all",
             "dimension": {
                 "restriction": "whitelist",
-                "value": [3]
+                "value": [0]
             }
         },
 
@@ -71,7 +71,7 @@
             "biome": "all",
             "dimension": {
                 "restriction": "whitelist",
-                "value": [3]
+                "value": [0]
             }
         },
 
@@ -99,7 +99,7 @@
             "biome": "all",
             "dimension": {
                 "restriction": "whitelist",
-                "value": [3]
+                "value": [0]
             }
         },
 
@@ -122,7 +122,7 @@
             "biome": "all",
             "dimension": {
                 "restriction": "whitelist",
-                "value": [3]
+                "value": [0]
             }
         },
 
@@ -151,7 +151,7 @@
             "biome": "all",
             "dimension": {
                 "restriction": "whitelist",
-                "value": [3]
+                "value": [0]
             }
         }
     }

@@ -9,7 +9,10 @@
 		uid: "c448f15e",
 		type: "item",
 		items: [{
-			item: "minecraft:obsidian"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:obsidian"
 		}]
 	}]
 }

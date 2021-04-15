@@ -8,7 +8,10 @@
 		uid: "78063f3e",
 		type: "item",
 		items: [{
-			item: "thebetweenlands:fallen_leaves"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thebetweenlands:fallen_leaves"
 		}]
 	}]
 }

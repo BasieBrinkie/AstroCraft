@@ -15,7 +15,10 @@
 		uid: "bb864635",
 		type: "item",
 		items: [{
-			item: "advancedrocketry:spacestation"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:spacestation"
 		}],
 		consume_items: false,
 		ignore_damage: true,

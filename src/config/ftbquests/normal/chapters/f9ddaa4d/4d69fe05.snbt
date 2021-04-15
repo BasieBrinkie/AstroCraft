@@ -5,7 +5,10 @@
 		uid: "bea74a5b",
 		type: "item",
 		items: [{
-			item: "roost:roost"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "roost:roost"
 		}]
 	}]
 }

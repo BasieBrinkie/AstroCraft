@@ -17,7 +17,7 @@
             "biome": "all",
             "dimension": {
                 "restriction": "whitelist",
-                "value": [3]
+                "value": [0]
             }
         },
         "AsteroidMantleOres_Iron": {
@@ -34,7 +34,7 @@
             "biome": "all",
             "dimension": {
                 "restriction": "whitelist",
-                "value": [3]
+                "value": [0]
             }
         },
         "AsteroidMantleOres_Nickel": {
@@ -51,7 +51,7 @@
             "biome": "all",
             "dimension": {
                 "restriction": "whitelist",
-                "value": [3]
+                "value": [0]
             }
         },
         "AsteroidMantleOres_Aluminum": {
@@ -68,7 +68,7 @@
             "biome": "all",
             "dimension": {
                 "restriction": "whitelist",
-                "value": [3]
+                "value": [0]
             }
         },
 
@@ -86,7 +86,7 @@
             "biome": "all",
             "dimension": {
                 "restriction": "whitelist",
-                "value": [3]
+                "value": [0]
             }
         },
 
@@ -104,7 +104,7 @@
             "biome": "all",
             "dimension": {
                 "restriction": "whitelist",
-                "value": [3]
+                "value": [0]
             }
         }
     }

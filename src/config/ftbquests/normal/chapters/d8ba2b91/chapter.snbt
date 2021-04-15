@@ -1,12 +1,16 @@
 {
-	title: "Basic Knowledge",
+	title: "Universal Knowledge",
 	icon: {
 		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
+			"astralsorcery:cap_item_amulet_holder": {},
+			"customnpcs:itemscripteddata": {}
 		},
 		id: "thermalfoundation:tome_experience",
 		tag: {}
 	},
+	description: [
+		"This knowledge can be used on any planet you are on. Check the tooltips of items for exceptions"
+	],
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

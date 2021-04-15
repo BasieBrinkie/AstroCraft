@@ -8,12 +8,12 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static stagedItemsOredict as IOreDictEntry[][string] = {
-	stageOxygen1.stage: [
+	stageAsteroidOxygen1.stage: [
 		<ore:clumpCopperTier1>,
 		<ore:blockCopperTier1>,
 		<ore:plateCopperTier1>
 	],
-	planetAsteroids1.stage: [
+	stageAsteroidAdvancedResources.stage: [
 		<ore:ingotCopperTier1>,
 		<ore:nuggetCopperTier1>,
 	],

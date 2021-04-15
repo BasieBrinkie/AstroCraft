@@ -1,23 +1,49 @@
 {
-	title: "Packmodes",
-	icon: "minecraft:crafting_table",
+	title: "Starting World",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "contenttweaker:astrostone3"
+	},
 	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
 	rewards: [{
-		title: "(Ab)normal",
-		icon: "minecraft:cobblestone",
-		stage: "gamemode_abnormal",
+		title: "Mining Site 495-IIM",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:astrostone3"
+		},
+		auto: "invisible",
+		stage: "planet_asteroid_oxygen_one",
 		type: "gamestage"
 	},
 	{
-		title: "Genius",
-		icon: "draconicevolution:chaos_shard",
-		stage: "gamemode_genius",
+		title: "Glacidus",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "glacidus:lumicia_grass"
+		},
+		auto: "invisible",
+		stage: "planet_glacidus_scavenge",
 		type: "gamestage"
 	},
 	{
-		title: "Kitchen-Sink",
-		icon: "excompressum:wooden_crucible",
-		stage: "gamemode_kitchensink",
+		title: "Aquarius-66B",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:water_bucket"
+		},
+		auto: "invisible",
+		stage: "planet_aquarius_diver_one",
 		type: "gamestage"
 	}]
 }

@@ -1,0 +1,17 @@
+{
+	x: -4.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "7ae3bb2f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "nuclearcraft:geiger_counter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

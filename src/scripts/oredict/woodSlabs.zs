@@ -16,7 +16,6 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 
 	],
 	<ore:woodSlabsTier2>: [		
-		<aether_legacy:skyroot_slab:0>,
 		
 		<atum:palm_slab:0>,
 		<atum:deadwood_slab:0>,

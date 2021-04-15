@@ -7,8 +7,6 @@ import crafttweaker.oredict.IOreDictEntry;
 */
 static createItemsToOredict as IItemStack[][IOreDictEntry] = { 
 	<ore:flower>: [
-		<aether_legacy:purple_flower:0>,
-		<aether_legacy:white_flower:0>,
 		<erebus:materials:31>,
 		<erebus:planted_flower:0>,
 		<erebus:planted_flower:1>,

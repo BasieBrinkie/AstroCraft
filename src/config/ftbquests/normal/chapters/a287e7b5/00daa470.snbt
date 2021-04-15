@@ -1,0 +1,17 @@
+{
+	x: -1.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "4309dffa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "nuclearcraft:chest_hazmat"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

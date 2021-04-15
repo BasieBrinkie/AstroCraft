@@ -8,7 +8,10 @@
 		uid: "0934b1d3",
 		type: "item",
 		items: [{
-			item: "factorytech:crate"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "factorytech:crate"
 		}]
 	}]
 }

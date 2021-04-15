@@ -8,7 +8,10 @@
 		uid: "b65a86fb",
 		type: "item",
 		items: [{
-			item: "architecturecraft:sawbench"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "architecturecraft:sawbench"
 		}]
 	}]
 }

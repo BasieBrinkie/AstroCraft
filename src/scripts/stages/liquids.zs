@@ -5,10 +5,10 @@ import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
 static stagedLiquids as ILiquidStack[][string] = {
-	stageOxygen1.stage: [
+	stageAsteroidOxygen1.stage: [
 		<liquid:oxygen>
 	],
-	stageResources1.stage: [
+	stageAsteroidResources1.stage: [
 		<liquid:iron>,
 		<liquid:preheated_water>
 	],

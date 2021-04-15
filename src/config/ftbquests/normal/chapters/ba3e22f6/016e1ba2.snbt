@@ -9,7 +9,10 @@
 		uid: "cc98cf70",
 		type: "item",
 		items: [{
-			item: "factorytech:magcent"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "factorytech:magcent"
 		}]
 	}]
 }

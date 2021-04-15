@@ -13,7 +13,11 @@
 		uid: "7ebac02b",
 		type: "item",
 		items: [{
-			item: "factorytech:intermediate 1 4"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "factorytech:intermediate",
+			Damage: 4s
 		}]
 	}]
 }

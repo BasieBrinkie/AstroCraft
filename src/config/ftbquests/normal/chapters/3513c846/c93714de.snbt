@@ -8,7 +8,10 @@
 		uid: "c4853444",
 		type: "item",
 		items: [{
-			item: "minecraft:tnt"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:tnt"
 		}]
 	}]
 }

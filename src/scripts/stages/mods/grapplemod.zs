@@ -4,7 +4,7 @@ import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
 static stagedItems as IIngredient[][string] = {
-	stageResources1.stage: [
+	stageAsteroidResources1.stage: [
 		<grapplemod:baseupgradeitem:0>,
 		<grapplemod:block_grapple_modifier:0>,
 		<grapplemod:doubleupgradeitem:0>,

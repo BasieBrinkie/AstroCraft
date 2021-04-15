@@ -22,5 +22,10 @@
     "casings_item": [
         "modularmachinery:blockinputbus",
         "modularmachinery:blockoutputbus"
+    ],
+    "casings_antenna_tier_1": [
+        "mekanism:basicblock@5",
+        "modularmachinery:blockenergyinputhatch",
+        "modularmachinery:blockoutputbus"
     ]
 }

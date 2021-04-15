@@ -14,7 +14,11 @@
 		uid: "5ce7f6b2",
 		type: "item",
 		items: [{
-			item: "mekanism:clump 1 6"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:clump",
+			Damage: 6s
 		}]
 	}]
 }

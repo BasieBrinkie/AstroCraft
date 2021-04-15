@@ -9,7 +9,10 @@
 		uid: "587712ea",
 		type: "item",
 		items: [{
-			item: "factorytech:compressor"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "factorytech:compressor"
 		}]
 	}]
 }

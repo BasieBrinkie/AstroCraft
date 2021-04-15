@@ -4,10 +4,10 @@
 	y: 0.0d,
 	description: "Making planks is a bit unusual in this pack.",
 	text: [
-		"-First create normal oak planks by using the axe to chop down an oak log. This should return 2 planks of oak.",
+		"-First create normal oak planks.",
 		"",
-		"Now make slabs:",
-		"- Smack down a block of planks",
+		"Now to make slabs:",
+		"- Smack down a few blocks of planks",
 		"- Break it with a hammer"
 	],
 	dependencies: [
@@ -17,7 +17,10 @@
 		uid: "2d2da1c9",
 		type: "item",
 		items: [{
-			item: "minecraft:wooden_slab"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:wooden_slab"
 		}],
 		count: 4L
 	}]

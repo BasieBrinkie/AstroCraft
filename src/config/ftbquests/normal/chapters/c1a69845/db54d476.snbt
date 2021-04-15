@@ -4,7 +4,12 @@
 	tasks: [{
 		uid: "f5818c62",
 		type: "gamestage",
-		icon: "minecraft:compass",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:compass"
+		},
 		stage: "scavenger"
 	}]
 }

@@ -1,0 +1,14 @@
+{
+	x: -2.5d,
+	y: -3.0d,
+	tasks: [{
+		uid: "2f272143",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "nuclearcraft:rad_x"
+		}]
+	}]
+}

@@ -1,6 +1,11 @@
 {
 	title: "Asteroids - Blacksmith",
-	icon: "tconstruct:cast_custom",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "tconstruct:cast_custom"
+	},
 	always_invisible: false,
 	group: 325421953,
 	default_quest_shape: ""

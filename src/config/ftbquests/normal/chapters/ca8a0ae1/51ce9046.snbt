@@ -21,7 +21,10 @@
 		uid: "7c933dfa",
 		type: "item",
 		items: [{
-			item: "advancedrocketry:oxygencharger"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:oxygencharger"
 		}]
 	}],
 	rewards: [{

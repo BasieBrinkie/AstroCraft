@@ -9,55 +9,103 @@
 		uid: "3f3cb2a2",
 		type: "item",
 		items: [{
-			item: "minecraft:wooden_door"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:wooden_door"
 		},
 		{
-			item: "minecraft:spruce_door"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:spruce_door"
 		},
 		{
-			item: "minecraft:birch_door"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:birch_door"
 		},
 		{
-			item: "minecraft:jungle_door"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:jungle_door"
 		},
 		{
-			item: "minecraft:acacia_door"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:acacia_door"
 		},
 		{
-			item: "minecraft:dark_oak_door"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:dark_oak_door"
 		},
 		{
-			item: "atum:palm_door"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "atum:palm_door"
 		},
 		{
-			item: "atum:deadwood_door"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "atum:deadwood_door"
 		},
 		{
-			item: "erebus:door_rotten"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "erebus:door_rotten"
 		},
 		{
-			item: "tropicraft:bamboo_door"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tropicraft:bamboo_door"
 		},
 		{
-			item: "erebus:door_marshwood"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "erebus:door_marshwood"
 		},
 		{
-			item: "thebetweenlands:weedwood_door_item"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thebetweenlands:weedwood_door_item"
 		},
 		{
-			item: "thebetweenlands:nibbletwig_plank_door_item"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thebetweenlands:nibbletwig_plank_door_item"
 		},
 		{
-			item: "thebetweenlands:giant_root_plank_door_item"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thebetweenlands:giant_root_plank_door_item"
 		},
 		{
-			item: "scp:door860"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "scp:door860"
 		},
 		{
 			item: "props:props 1 1198"
 		},
 		{
-			item: "jurassicraft:ginkgo_door_item"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "jurassicraft:ginkgo_door_item"
 		}]
 	}]
 }

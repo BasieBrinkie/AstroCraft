@@ -12,7 +12,11 @@
 		uid: "23e63a1c",
 		type: "item",
 		items: [{
-			item: "mysticalagriculture:crafting 1 22"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:crafting",
+			Damage: 22s
 		}]
 	}]
 }

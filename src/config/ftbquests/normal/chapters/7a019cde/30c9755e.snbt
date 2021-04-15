@@ -8,7 +8,10 @@
 		uid: "685d23a7",
 		type: "item",
 		items: [{
-			item: "actuallyadditions:block_crystal_cluster_redstone"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "actuallyadditions:block_crystal_cluster_redstone"
 		}]
 	}]
 }

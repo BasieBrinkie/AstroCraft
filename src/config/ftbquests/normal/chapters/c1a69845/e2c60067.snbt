@@ -1,14 +1,39 @@
 {
-	x: -10.0d,
-	y: -1.5d,
+	x: -1.0d,
+	y: -6.0d,
 	tasks: [{
 		uid: "920448f7",
 		type: "gamestage",
-		stage: "gamemode_kitchensink"
+		stage: "disable_staging"
 	}],
 	rewards: [{
-		uid: "c94d5a3c",
-		type: "command",
-		command: "/ftbquests change_progress complete"
+		uid: "c257293a",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "planet_asteroid_oxygen_one"
+	},
+	{
+		uid: "660cf14e",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "planet_asteroid_resources_one"
+	},
+	{
+		uid: "1ee2b742",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "rocket_builder"
+	},
+	{
+		uid: "f881f2b1",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "basic_decorator"
+	},
+	{
+		uid: "0e73d06f",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "planet_asteroid_advanced_resources"
 	}]
 }

@@ -9,19 +9,39 @@
 		uid: "fbb15090",
 		type: "item",
 		items: [{
-			item: "minecraft:planks 1 1"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:planks",
+			Damage: 1s
 		},
 		{
-			item: "minecraft:planks 1 2"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:planks",
+			Damage: 2s
 		},
 		{
-			item: "minecraft:planks 1 3"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:planks",
+			Damage: 3s
 		},
 		{
-			item: "minecraft:planks 1 4"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:planks",
+			Damage: 4s
 		},
 		{
-			item: "minecraft:planks 1 5"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:planks",
+			Damage: 5s
 		}]
 	}]
 }

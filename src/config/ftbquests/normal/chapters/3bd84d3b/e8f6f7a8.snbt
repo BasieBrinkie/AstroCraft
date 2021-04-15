@@ -12,14 +12,21 @@
 		uid: "c5bf8929",
 		type: "item",
 		items: [{
-			item: "tconstruct:casting 1 1"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:casting",
+			Damage: 1s
 		}]
 	},
 	{
 		uid: "6773d1d1",
 		type: "item",
 		items: [{
-			item: "tconstruct:casting"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:casting"
 		}]
 	}]
 }

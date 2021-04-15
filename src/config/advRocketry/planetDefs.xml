@@ -1,29 +1,40 @@
 <galaxy>
     <star name="Arcturus" temp="100" x="0" y="0" size="1.8" numPlanets="0" numGasGiants="0" blackHole="false">
-        <planet name="Glacidus" DIMID="84" dimMapping="" customIcon="EarthLike">
+        <planet name="Glacidus" DIMID="4" dimMapping="" customIcon="glacidus">
             <isKnown>true</isKnown>
             <hasRings>true</hasRings>
             <atmosphereDensity>90</atmosphereDensity>
-            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <hasOxygen>true</hasOxygen>
+            <gravitationalMultiplier>50</gravitationalMultiplier>
             <orbitalDistance>20</orbitalDistance>
             <orbitalTheta>120</orbitalTheta>
             <orbitalPhi>210</orbitalPhi>
             <rotationalPeriod>20000</rotationalPeriod>
-                <planet name="Asteroid Belt" DIMID="3">
-        	       <isKnown>true</isKnown>
-                   <genType>2</genType>
-                   <atmosphereDensity>0</atmosphereDensity>
-                   <gravitationalMultiplier>5</gravitationalMultiplier>
-                   <orbitalDistance>120</orbitalDistance>
-                   <orbitalTheta>48</orbitalTheta>
-                   <orbitalPhi>63</orbitalPhi>
-                   <biomeIds>advancedrocketry:space</biomeIds>
-                   <fillerBlock>contenttweaker:astrostone</fillerBlock>
-                   <OreGen></OreGen>
-                   <oceanBlock></oceanBlock>
-                   <seaLevel></seaLevel>
-                   <rotationalPeriod>12000</rotationalPeriod>
-                </planet>
+            <planet name="Mining Site 495-IIM" DIMID="0">
+        	   <isKnown>true</isKnown>
+               <genType>2</genType>
+               <atmosphereDensity>0</atmosphereDensity>
+               <gravitationalMultiplier>5</gravitationalMultiplier>
+               <orbitalDistance>80</orbitalDistance>
+               <orbitalTheta>48</orbitalTheta>
+               <orbitalPhi>63</orbitalPhi>
+               <biomeIds>advancedrocketry:space</biomeIds>
+               <fillerBlock></fillerBlock>
+               <OreGen></OreGen>
+               <oceanBlock></oceanBlock>
+               <seaLevel></seaLevel>
+               <rotationalPeriod>2147483647</rotationalPeriod>
+            </planet>
+        </planet>
+        <planet name="Ring World" DIMID="18" dimMapping="" customIcon="earthlike">
+            <isKnown>true</isKnown>
+            <hasRings>false</hasRings>
+            <atmosphereDensity>100</atmosphereDensity>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>25</orbitalDistance>
+            <orbitalTheta>90</orbitalTheta>
+            <orbitalPhi>90</orbitalPhi>
+            <rotationalPeriod>2147483647</rotationalPeriod>        
         </planet>
     </star>
 </galaxy>

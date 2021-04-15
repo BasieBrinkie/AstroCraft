@@ -8,7 +8,10 @@
 		uid: "22fe9dae",
 		type: "item",
 		items: [{
-			item: "littletiles:ltstorageblocktile"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "littletiles:ltstorageblocktile"
 		}]
 	}]
 }

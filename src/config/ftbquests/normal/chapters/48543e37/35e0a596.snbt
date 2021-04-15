@@ -8,7 +8,10 @@
 		uid: "43dda4f1",
 		type: "item",
 		items: [{
-			item: "minecraft:sand"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:sand"
 		}]
 	}]
 }

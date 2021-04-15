@@ -1,6 +1,11 @@
 {
 	title: "Farmer",
-	icon: "minecraft:wheat_seeds",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:wheat_seeds"
+	},
 	always_invisible: false,
 	group: -935258453,
 	default_quest_shape: ""

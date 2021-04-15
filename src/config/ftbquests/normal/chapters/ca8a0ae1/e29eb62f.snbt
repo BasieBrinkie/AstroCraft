@@ -13,7 +13,10 @@
 		uid: "6e9333e7",
 		type: "item",
 		items: [{
-			item: "charcoal_pit:item_ash"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "charcoal_pit:item_ash"
 		}],
 		count: 25L
 	}]

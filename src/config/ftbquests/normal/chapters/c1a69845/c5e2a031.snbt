@@ -1,5 +1,10 @@
 {
-	icon: "matteroverdrive:gravitational_anomaly",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "matteroverdrive:gravitational_anomaly"
+	},
 	x: -1.0d,
 	y: 8.0d,
 	tasks: [{

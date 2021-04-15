@@ -17,7 +17,10 @@
 		uid: "2ff68636",
 		type: "item",
 		items: [{
-			item: "advancedrocketry:structuretower"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:structuretower"
 		}]
 	}]
 }

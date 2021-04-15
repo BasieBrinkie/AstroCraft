@@ -8,6 +8,9 @@
 		uid: "f66465e8",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
 			id: "minecraft:enchanted_book",
 			tag: {
 				StoredEnchantments: [{

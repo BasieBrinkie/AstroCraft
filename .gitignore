@@ -25,6 +25,7 @@ src/minecraftinstance.json
 src/.curseclient
 src/.mixin.out/*
 src/config/BiomeTweaker/output/*
+src/config/cavegenerator/example_presets/*
 src/config/InvTweaksRules.txt
 src/config/InvTweaks.cfg
 src/config/tickdynamic.cfg

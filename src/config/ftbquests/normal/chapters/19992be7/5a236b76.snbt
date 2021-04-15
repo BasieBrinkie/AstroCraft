@@ -5,10 +5,18 @@
 		uid: "27aa80dc",
 		type: "item",
 		items: [{
-			item: "techguns:item_door3x3 1 1"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "techguns:item_door3x3",
+			Damage: 1s
 		},
 		{
-			item: "techguns:item_door3x3 1 2"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "techguns:item_door3x3",
+			Damage: 2s
 		}]
 	}]
 }

@@ -5,7 +5,10 @@
 		uid: "ec640753",
 		type: "item",
 		items: [{
-			item: "minecraft:egg"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:egg"
 		}]
 	}]
 }

@@ -17,7 +17,10 @@
 		uid: "26982a7c",
 		type: "item",
 		items: [{
-			item: "minecraft:dirt"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:dirt"
 		}]
 	}]
 }

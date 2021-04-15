@@ -1,6 +1,11 @@
 {
 	title: "Nuclear Physicist",
-	icon: "nuclearcraft:nuclear_furnace",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "nuclearcraft:nuclear_furnace"
+	},
 	always_invisible: false,
 	group: -1096463800,
 	default_quest_shape: ""

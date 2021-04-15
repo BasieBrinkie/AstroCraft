@@ -1,9 +1,15 @@
 {
-	x: -10.5d,
-	y: -1.0d,
+	x: -1.0d,
+	y: -4.0d,
 	tasks: [{
-		uid: "1f100a3f",
+		uid: "ad9a86f2",
 		type: "gamestage",
-		stage: "gamemode_abnormal"
+		stage: "planet_asteroid_oxygen_one"
+	}],
+	rewards: [{
+		uid: "decd4307",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "dim_asteroids_one"
 	}]
 }

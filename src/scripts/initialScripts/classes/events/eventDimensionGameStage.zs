@@ -9,12 +9,16 @@ import mods.zenstages.Stage;
 //Stages that need to be granted when entering the dim and taken away when leaving.
 static dimensionGamestageRules as string[][int] = {
     //Space Station
-    3: [ 
-        planetAsteroids1.stage,
+    -2: [
+        dimensionSpaceStation.stage,
+    ],
+    0: [ 
+        dimensionAsteroids1.stage,
 
     ],
     //Glacidus
-    84: [
+    5: [
+        dimensionGlacidus.stage,
         planetGlacidusStockFarmer.stage,
     ]
 };

@@ -16,7 +16,10 @@
 		uid: "938a0145",
 		type: "item",
 		items: [{
-			item: "exnihilocreatio:item_ore_iron"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:item_ore_iron"
 		}]
 	}]
 }

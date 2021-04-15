@@ -14,14 +14,20 @@
 		uid: "2bc35339",
 		type: "item",
 		items: [{
-			item: "minecraft:wheat"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:wheat"
 		}]
 	},
 	{
 		uid: "2164a25f",
 		type: "item",
 		items: [{
-			item: "minecraft:wheat_seeds"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:wheat_seeds"
 		}]
 	}]
 }

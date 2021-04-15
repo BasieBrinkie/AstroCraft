@@ -25,7 +25,12 @@
 	tasks: [{
 		uid: "06ded309",
 		type: "checkmark",
-		icon: "advancedrocketry:advrocketmotor"
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:advrocketmotor"
+		}
 	}],
 	rewards: [{
 		uid: "21e100ce",

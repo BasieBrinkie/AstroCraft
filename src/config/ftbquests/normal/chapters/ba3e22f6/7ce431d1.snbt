@@ -8,7 +8,10 @@
 		uid: "16ea157d",
 		type: "item",
 		items: [{
-			item: "charcoal_pit:bloomery_hatch"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "charcoal_pit:bloomery_hatch"
 		}]
 	}]
 }

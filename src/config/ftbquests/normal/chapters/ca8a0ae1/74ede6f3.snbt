@@ -6,8 +6,8 @@
 	text: [
 		"-JEI will always be your friend",
 		"",
-		"TIP: if you reach the bottom of the dimension y=0, you will be teleported to y=255.",
-		"So dont be afraid to leave your crashed rocket"
+		"TIP: if you reach the bottom of the dimension y=-4, you will be teleported to y=258.",
+		"So dont be afraid to leave your crashs site."
 	],
 	dependencies: [
 		"f4c715d5"
@@ -17,7 +17,8 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
+				"astralsorcery:cap_item_amulet_holder": {},
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "minecraft:wooden_pickaxe"
 		}],

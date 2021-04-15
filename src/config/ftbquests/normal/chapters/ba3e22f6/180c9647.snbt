@@ -8,7 +8,11 @@
 		uid: "02b5c38e",
 		type: "item",
 		items: [{
-			item: "skyresources:casing 1 3"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "skyresources:casing",
+			Damage: 3s
 		}]
 	}]
 }

@@ -2,7 +2,8 @@
 	title: "Aether II - Planet Professions",
 	icon: {
 		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
+			"astralsorcery:cap_item_amulet_holder": {},
+			"customnpcs:itemscripteddata": {}
 		},
 		id: "minecraft:elytra"
 	},

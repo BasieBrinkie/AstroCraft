@@ -1,0 +1,14 @@
+{
+	x: -4.0d,
+	y: -1.5d,
+	tasks: [{
+		uid: "2aef16ec",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "nuclearcraft:radaway_slow"
+		}]
+	}]
+}

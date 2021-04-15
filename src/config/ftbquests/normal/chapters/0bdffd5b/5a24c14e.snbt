@@ -23,7 +23,10 @@
 		uid: "fc318f92",
 		type: "item",
 		items: [{
-			item: "advancedrocketry:seat"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:seat"
 		}]
 	}],
 	rewards: [{

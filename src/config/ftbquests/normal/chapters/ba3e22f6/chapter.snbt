@@ -1,6 +1,11 @@
 {
 	title: "Asteroids - Advanced Resources",
-	icon: "contenttweaker:astrostone2",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "contenttweaker:astrostone2"
+	},
 	always_invisible: false,
 	group: 325421953,
 	default_quest_shape: ""

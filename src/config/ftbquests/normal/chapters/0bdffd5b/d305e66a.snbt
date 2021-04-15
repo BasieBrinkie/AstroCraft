@@ -17,7 +17,11 @@
 		uid: "d6a4cf2a",
 		type: "item",
 		items: [{
-			item: "advancedrocketry:loader 1 1"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:loader",
+			Damage: 1s
 		}]
 	}]
 }

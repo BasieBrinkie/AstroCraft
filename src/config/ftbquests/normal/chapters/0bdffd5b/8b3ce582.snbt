@@ -12,7 +12,10 @@
 		uid: "6ac3b210",
 		type: "item",
 		items: [{
-			item: "advancedrocketry:fueltank"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:fueltank"
 		}]
 	}]
 }

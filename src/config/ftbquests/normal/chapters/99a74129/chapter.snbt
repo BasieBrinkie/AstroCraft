@@ -1,6 +1,11 @@
 {
 	title: "Space Courier",
-	icon: "advancedrocketry:advbipropellantrocketmotor",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "advancedrocketry:advbipropellantrocketmotor"
+	},
 	always_invisible: true,
 	group: -658887791,
 	default_quest_shape: ""

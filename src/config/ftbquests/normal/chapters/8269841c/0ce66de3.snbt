@@ -8,7 +8,10 @@
 		uid: "b335bf15",
 		type: "item",
 		items: [{
-			item: "minecraft:melon_block"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:melon_block"
 		}]
 	}]
 }

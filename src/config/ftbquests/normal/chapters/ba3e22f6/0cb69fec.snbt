@@ -1,0 +1,18 @@
+{
+	x: 12.0d,
+	y: 0.0d,
+	dependencies: [
+		"b5ae43e5"
+	],
+	tasks: [{
+		uid: "5525a243",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:basicblock",
+			Damage: 5s
+		}]
+	}]
+}

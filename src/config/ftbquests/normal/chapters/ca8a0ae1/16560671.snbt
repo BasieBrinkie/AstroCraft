@@ -14,7 +14,10 @@
 		uid: "d8d4af67",
 		type: "item",
 		items: [{
-			item: "minecraft:gravel"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:gravel"
 		}],
 		count: 4L
 	}]

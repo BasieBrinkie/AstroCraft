@@ -5,7 +5,10 @@
 		uid: "46332a00",
 		type: "item",
 		items: [{
-			item: "tconstruct:faucet"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:faucet"
 		}]
 	}]
 }

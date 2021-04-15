@@ -1,6 +1,9 @@
 {
 	title: "Black Smith",
 	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
 		id: "tconstruct:toolforge",
 		tag: {
 			textureBlock: {

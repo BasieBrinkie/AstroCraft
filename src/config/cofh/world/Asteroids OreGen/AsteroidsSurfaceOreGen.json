@@ -17,7 +17,7 @@
             "biome": "all",
             "dimension": {
                 "restriction": "whitelist",
-                "value": [3]
+                "value": [0]
             }
         },
         "AsteroidSurfaceOres_Iron": {
@@ -34,7 +34,7 @@
             "biome": "all",
             "dimension": {
                 "restriction": "whitelist",
-                "value": [3]
+                "value": [0]
             }
         },
         "AsteroidSurfaceOres_Nickel": {
@@ -51,7 +51,7 @@
             "biome": "all",
             "dimension": {
                 "restriction": "whitelist",
-                "value": [3]
+                "value": [0]
             }
         },
         "AsteroidSurfaceOres_Aluminum": {
@@ -68,7 +68,7 @@
             "biome": "all",
             "dimension": {
                 "restriction": "whitelist",
-                "value": [3]
+                "value": [0]
             }
         },
         "AsteroidSurfaceOre_CharredWood": {
@@ -85,7 +85,7 @@
             "biome": "all",
             "dimension": {
                 "restriction": "whitelist",
-                "value": [3]
+                "value": [0]
             }
         },
         "AsteroidSurfaceOres_Ice": {
@@ -102,7 +102,7 @@
             "biome": "all",
             "dimension": {
                 "restriction": "whitelist",
-                "value": [3]
+                "value": [0]
             }
         }
     }

@@ -8,7 +8,11 @@
 		uid: "a631f372",
 		type: "item",
 		items: [{
-			item: "skyresources:condenser 1 4"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "skyresources:condenser",
+			Damage: 4s
 		}]
 	}]
 }

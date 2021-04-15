@@ -8,7 +8,10 @@
 		uid: "8831ce25",
 		type: "item",
 		items: [{
-			item: "mekanism:dirtydust"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:dirtydust"
 		}]
 	}]
 }

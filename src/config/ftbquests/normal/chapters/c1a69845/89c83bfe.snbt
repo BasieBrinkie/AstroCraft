@@ -1,5 +1,10 @@
 {
-	icon: "tconstruct:casting",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "tconstruct:casting"
+	},
 	x: 1.0d,
 	y: 3.0d,
 	tasks: [{

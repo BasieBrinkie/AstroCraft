@@ -1,0 +1,45 @@
+{
+	title: "Beacon Data",
+	x: 15.0d,
+	y: -2.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "ee8ba465",
+		type: "observation",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:chest"
+		},
+		match_type: "block_id",
+		match: "appliedenergistics2:chest",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "0926ca29",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "planet_asteroid_resources_one"
+	},
+	{
+		uid: "f2d52cfa",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "nuclear_management"
+	},
+	{
+		uid: "fb9b7bd8",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "planet_asteroid_advanced_resources"
+	},
+	{
+		uid: "b226535e",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "rocket_builder"
+	}]
+}

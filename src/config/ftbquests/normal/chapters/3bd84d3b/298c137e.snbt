@@ -13,7 +13,10 @@
 		uid: "7218fb2c",
 		type: "item",
 		items: [{
-			item: "factorytech:grindstone"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "factorytech:grindstone"
 		}]
 	}]
 }

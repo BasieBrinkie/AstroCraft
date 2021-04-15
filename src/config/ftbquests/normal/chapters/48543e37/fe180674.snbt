@@ -8,7 +8,10 @@
 		uid: "40730dab",
 		type: "item",
 		items: [{
-			item: "thebetweenlands:compost_block"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thebetweenlands:compost_block"
 		}]
 	}]
 }

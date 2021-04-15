@@ -13,7 +13,10 @@
 		uid: "d4c7e47e",
 		type: "item",
 		items: [{
-			item: "minecraft:planks"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:planks"
 		}],
 		count: 4L
 	}]

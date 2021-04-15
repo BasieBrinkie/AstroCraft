@@ -1,6 +1,9 @@
 {
 	title: "Professions - Stage: 2",
 	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
 		id: "extrautils2:machine",
 		tag: {
 			Type: "extrautils2:generator_culinary"

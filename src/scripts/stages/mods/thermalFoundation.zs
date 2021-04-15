@@ -8,7 +8,7 @@ static stagedItems as IIngredient[][string] = {
 		<thermalfoundation:ore:7>,
 		<thermalfoundation:material:199>,
 	],
-	planetAsteroids1.stage: [
+	stageAsteroidAdvancedResources.stage: [
 		<thermalfoundation:material:802>,
 	],
 };

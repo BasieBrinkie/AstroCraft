@@ -2,11 +2,11 @@
 	title: "Aether - Planet Professions",
 	icon: {
 		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
+			"customnpcs:itemscripteddata": {}
 		},
-		id: "aether_legacy:lore_book"
+		id: "aether:altar"
 	},
 	always_invisible: false,
-	group: 325421953,
+	group: 0,
 	default_quest_shape: ""
 }

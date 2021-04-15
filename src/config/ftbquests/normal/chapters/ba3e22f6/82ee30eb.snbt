@@ -8,7 +8,10 @@
 		uid: "7e343c5c",
 		type: "item",
 		items: [{
-			item: "minecraft:redstone_torch"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:redstone_torch"
 		}]
 	}]
 }

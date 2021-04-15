@@ -5,7 +5,10 @@
 		uid: "d7c03e07",
 		type: "item",
 		items: [{
-			item: "thermaldynamics:duct_0"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermaldynamics:duct_0"
 		}]
 	}]
 }

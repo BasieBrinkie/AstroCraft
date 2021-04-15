@@ -9,6 +9,9 @@
 		uid: "51af2532",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
 			id: "littletiles:premade",
 			tag: {
 				tiles: [{

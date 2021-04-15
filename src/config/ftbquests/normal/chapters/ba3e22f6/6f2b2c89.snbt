@@ -8,10 +8,18 @@
 		uid: "70993aac",
 		type: "item",
 		items: [{
-			item: "factorytech:machinepart 1 72"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "factorytech:machinepart",
+			Damage: 72s
 		},
 		{
-			item: "factorytech:machinepart 1 71"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "factorytech:machinepart",
+			Damage: 71s
 		}],
 		consume_items: false
 	}]

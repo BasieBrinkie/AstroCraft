@@ -2,7 +2,8 @@
 	title: "Asteroids - Mining",
 	icon: {
 		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
+			"astralsorcery:cap_item_amulet_holder": {},
+			"customnpcs:itemscripteddata": {}
 		},
 		id: "minecraft:diamond_pickaxe"
 	},

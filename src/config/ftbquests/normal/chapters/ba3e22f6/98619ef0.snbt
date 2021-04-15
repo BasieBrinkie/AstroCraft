@@ -9,7 +9,10 @@
 		uid: "a5b22953",
 		type: "item",
 		items: [{
-			item: "minecraft:coal"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:coal"
 		}]
 	}]
 }

@@ -32,7 +32,7 @@ static blockedItems as IItemStack[] = [
 
 function init() {
     events.onPlayerInteractBlock(function (event as PlayerInteractBlockEvent) {
-        if event.player.hasGameStage("dimension_space_station") {
+        if event.player.getDimension() == -2 {
             var inventoryItem = event.player.getInventoryStack(38);
             var offHandItem = event.player.getInventoryStack(40);
             var handItem = event.player.currentItem;

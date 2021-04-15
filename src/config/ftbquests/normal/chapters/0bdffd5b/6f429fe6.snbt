@@ -12,7 +12,10 @@
 		uid: "1476270f",
 		type: "item",
 		items: [{
-			item: "exnihilocreatio:item_ore_nickel"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:item_ore_nickel"
 		}]
 	}]
 }

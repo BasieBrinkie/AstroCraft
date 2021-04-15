@@ -18,7 +18,11 @@
 		uid: "eb4435d9",
 		type: "item",
 		items: [{
-			item: "skyresources:alchemyitemcomponent 1 1"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "skyresources:alchemyitemcomponent",
+			Damage: 1s
 		}],
 		count: 18L
 	}]

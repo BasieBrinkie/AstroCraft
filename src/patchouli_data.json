@@ -1,11 +1,69 @@
 {
   "bookGuiScale": 3,
-  "clickedVisualize": false,
+  "clickedVisualize": true,
   "bookData": {
     "patchouli:chapter_1": {
       "viewedEntries": [],
       "bookmarks": [],
       "history": [],
+      "completedManualQuests": []
+    },
+    "patchouli:multiblock_cheatsheet": {
+      "viewedEntries": [
+        "patchouli:dawnofanewage/press",
+        "patchouli:basic_resources/press",
+        "patchouli:basic_resources/combustion_heater",
+        "patchouli:keybinds/skyresources",
+        "patchouli:keybinds/advancedrocketry/rcs_mode"
+      ],
+      "bookmarks": [],
+      "history": [
+        "patchouli:keybinds/advancedrocketry/rcs_mode",
+        "patchouli:dawnofanewage/press",
+        "patchouli:basic_resources/combustion_heater",
+        "patchouli:keybinds/skyresources",
+        "patchouli:basic_resources/press"
+      ],
+      "completedManualQuests": []
+    },
+    "twilightforest:guide": {
+      "viewedEntries": [],
+      "bookmarks": [],
+      "history": [],
+      "completedManualQuests": []
+    },
+    "alchemistry:alchemistry_book": {
+      "viewedEntries": [
+        "alchemistry:utility/obsidian_breaker_entry",
+        "alchemistry:utility/slot_filler",
+        "alchemistry:liquifier/liquifier_overview",
+        "alchemistry:electrolyzer/electrolyzer_overview",
+        "alchemistry:utility/fertillizer_entry",
+        "alchemistry:fission/fission_template",
+        "alchemistry:fission/fission_overview"
+      ],
+      "bookmarks": [],
+      "history": [
+        "alchemistry:fission/fission_template",
+        "alchemistry:fission/fission_overview",
+        "alchemistry:utility/fertillizer_entry",
+        "alchemistry:utility/slot_filler",
+        "alchemistry:electrolyzer/electrolyzer_overview",
+        "alchemistry:liquifier/liquifier_overview",
+        "alchemistry:utility/obsidian_breaker_entry"
+      ],
+      "completedManualQuests": []
+    },
+    "pneumaticcraft:book": {
+      "viewedEntries": [
+        "pneumaticcraft:base_concepts/getting_started",
+        "pneumaticcraft:base_concepts/pressure_tiers"
+      ],
+      "bookmarks": [],
+      "history": [
+        "pneumaticcraft:base_concepts/pressure_tiers",
+        "pneumaticcraft:base_concepts/getting_started"
+      ],
       "completedManualQuests": []
     }
   }

@@ -17,7 +17,10 @@
 		uid: "6230c79f",
 		type: "item",
 		items: [{
-			item: "advancedrocketry:fuelingstation"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:fuelingstation"
 		}]
 	}]
 }

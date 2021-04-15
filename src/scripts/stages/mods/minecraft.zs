@@ -4,7 +4,7 @@ import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
 static stagedItems as IIngredient[][string] = {
-	stageOxygen1.stage: [
+	stageAsteroidOxygen1.stage: [
 		<minecraft:cobblestone:0>,
 		<minecraft:coal:1>,
 		<minecraft:crafting_table:0>,
@@ -28,7 +28,7 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:wooden_shovel:*>,
 		<minecraft:wool:0>
 	],
-	stageResources1.stage: [
+	stageAsteroidResources1.stage: [
 		<minecraft:book:0>,
 		<minecraft:bucket:0>,
 		<minecraft:chest:0>,
@@ -50,7 +50,7 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:wooden_button:0>,
 		<minecraft:wooden_pressure_plate:0>
 	],
-	planetAsteroids1.stage: [
+	stageAsteroidAdvancedResources.stage: [
 		<minecraft:coal:0>,
 		<minecraft:comparator:0>,
 		<minecraft:flint:0>,

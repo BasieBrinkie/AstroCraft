@@ -777,5 +777,15 @@
     "Spawn Type": "NONE",
     "Parent 1": "morechickens:tinchicken",
     "Parent 2": "morechickens:titaniumchicken"
+  },
+  "morechickens:garnetchicken": {
+    "Name": "garnetchicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "dcs_climate:dcs_gem_red:1",
+    "Drop Item": "dcs_climate:dcs_gem_red:1",
+    "Spawn Type": "NONE",
+    "Parent 1": "morechickens:sapphirechicken",
+    "Parent 2": "morechickens:rubychicken"
   }
 }

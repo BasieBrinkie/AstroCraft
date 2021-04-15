@@ -9,7 +9,10 @@
 		uid: "519d8732",
 		type: "item",
 		items: [{
-			item: "jurassicraft:plant_cells"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "jurassicraft:plant_cells"
 		}]
 	}]
 }

@@ -12,7 +12,10 @@
 		uid: "54a03e44",
 		type: "item",
 		items: [{
-			item: "mekanism:dirtydust"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:dirtydust"
 		}]
 	}]
 }

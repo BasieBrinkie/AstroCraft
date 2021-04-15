@@ -21,12 +21,29 @@
 	The "useDefault" attribute will prevent loading of recipes if set to "false"
 <!-->
 <Recipes useDefault="false">
+	<!-->
+		Dawn of a new age
+	<!-->
+	
 	<Recipe timeRequired="0" power="0">
 		<input>
-			<oreDict>blockCopperTier1</oreDict>
+			<oreDict>blockCopper</oreDict>
 		</input>
 		<output>
-			<itemStack>libvulpes:productplate 2 4</itemStack>
+			<itemStack>libvulpes:productplate 3 4</itemStack>
+		</output>
+	</Recipe>
+	
+	<!-->
+		Basic Resources
+	<!-->
+	
+	<Recipe timeRequired="0" power="0">
+		<input>
+			<oreDict>blockIron</oreDict>
+		</input>
+		<output>
+			<itemStack>libvulpes:productplate 3 1</itemStack>
 		</output>
 	</Recipe>
 </Recipes>

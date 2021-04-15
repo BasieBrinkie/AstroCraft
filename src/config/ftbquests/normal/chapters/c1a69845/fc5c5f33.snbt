@@ -1,5 +1,10 @@
 {
-	icon: "academy:tutorial",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "academy:tutorial"
+	},
 	x: -6.0d,
 	y: 2.0d,
 	tasks: [{

@@ -1,0 +1,33 @@
+{
+	title: "Staging Method",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:book"
+	},
+	loot_size: 1,
+	rewards: [{
+		title: "Normal Staging",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ftbquests:book"
+		},
+		type: "custom"
+	},
+	{
+		title: "Disable Staging",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rftools:noteleport_module"
+		},
+		auto: "invisible",
+		stage: "disable_staging",
+		type: "gamestage"
+	}]
+}

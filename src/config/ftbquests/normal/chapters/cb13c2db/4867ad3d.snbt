@@ -5,7 +5,11 @@
 		uid: "f1e829cd",
 		type: "item",
 		items: [{
-			item: "factorytech:machinepart 1 51"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "factorytech:machinepart",
+			Damage: 51s
 		}]
 	}]
 }

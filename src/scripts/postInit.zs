@@ -77,14 +77,6 @@ function initIntegrations() {
 	scripts.recipes.integrations.actuallyAdditions.atomicReconstructor.init();
 	scripts.recipes.integrations.actuallyAdditions.compost.init();
 	scripts.recipes.integrations.actuallyAdditions.empowerer.init();
-
-	scripts.recipes.integrations.advancedRocketry.arcFurnace.init();
-	scripts.recipes.integrations.advancedRocketry.chemicalReactor.init();
-	scripts.recipes.integrations.advancedRocketry.crystallizer.init();
-	scripts.recipes.integrations.advancedRocketry.cuttingMachine.init();
-	scripts.recipes.integrations.advancedRocketry.lathe.init();
-	scripts.recipes.integrations.advancedRocketry.platePresser.init();
-	scripts.recipes.integrations.advancedRocketry.precisionAssembler.init();
 	
 	scripts.recipes.integrations.appliedEnergistics2.grinder.init();
 
@@ -254,6 +246,7 @@ function initEvents() {
 	print("----------------------- Events -----------------------");
 	scripts.initialScripts.classes.events.eventDimensionGameStage.init();
 	scripts.initialScripts.classes.events.eventDimensionInteractLock.init();
+	scripts.initialScripts.classes.events.eventFallDamageCancelPlayer.init();
 }
 
 function initSpawnItems() {

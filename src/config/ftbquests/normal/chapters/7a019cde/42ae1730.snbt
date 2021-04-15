@@ -1,12 +1,23 @@
 {
 	title: "Disable Decorator Recipes",
-	icon: "minecraft:wool 1 15",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:wool",
+		Damage: 15s
+	},
 	x: 2.5d,
 	y: -1.5d,
 	text: [
-		""
+		"Remove all decorative blocks from JEI. ",
+		"You cannot craft any decorative block if this option is toggled."
 	],
 	can_repeat: true,
+	hide_dependency_lines: true,
+	dependencies: [
+		"ae6d182c"
+	],
 	tasks: [{
 		uid: "60168d20",
 		type: "checkmark"

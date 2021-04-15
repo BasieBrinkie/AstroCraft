@@ -19,7 +19,10 @@
 		uid: "fa621bd5",
 		type: "item",
 		items: [{
-			item: "minecraft:stone"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stone"
 		}]
 	}]
 }

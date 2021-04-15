@@ -19,7 +19,11 @@
 		uid: "46cd11aa",
 		type: "item",
 		items: [{
-			item: "libvulpes:productplate 1 4"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "libvulpes:productplate",
+			Damage: 4s
 		}]
 	}]
 }

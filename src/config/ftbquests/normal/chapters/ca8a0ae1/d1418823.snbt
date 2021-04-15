@@ -1,6 +1,11 @@
 {
 	title: "No More Void",
-	icon: "draconicevolution:portal",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "draconicevolution:portal"
+	},
 	x: 4.0d,
 	y: 0.0d,
 	description: "Try to reach y=0 or don't, it's your choice",

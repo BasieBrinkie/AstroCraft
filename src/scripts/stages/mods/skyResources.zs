@@ -4,10 +4,10 @@ import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
 static stagedItems as IIngredient[][string] = {
-	stageOxygen1.stage: [
+	stageAsteroidOxygen1.stage: [
 		<skyresources:alchemyitemcomponent:1>,
 	],
-	stageResources1.stage: [
+	stageAsteroidResources1.stage: [
 		<skyresources:casing:0>,
 		<skyresources:combustionheater:0>,
 		<skyresources:crucible:0>,
@@ -21,7 +21,7 @@ static stagedItems as IIngredient[][string] = {
 		<skyresources:condenser:1>,
 		<skyresources:orealchdust:17>
 	],
-	planetAsteroids1.stage: [
+	stageAsteroidAdvancedResources.stage: [
 		<skyresources:casing:3>,
 		<skyresources:casing:4>,
 		<skyresources:combustionheater:3>,
@@ -55,7 +55,9 @@ static disabledItems as IIngredient[] = [
 
 	<skyresources:alchemyitemcomponent:6>,
 	//Casings
+	<skyresources:casing:1>,
 	<skyresources:casing:2>,
+	<skyresources:casing:5>,
 	<skyresources:casing:6>,
 	<skyresources:casing:7>,
 	<skyresources:casing:8>,
@@ -68,6 +70,7 @@ static disabledItems as IIngredient[] = [
 	//Combustion
 	<skyresources:combustionheater:1>,
 	<skyresources:combustionheater:2>,
+	<skyresources:combustionheater:5>,
 	<skyresources:combustionheater:6>,
 	<skyresources:combustionheater:7>,
 	<skyresources:combustionheater:8>,
@@ -80,6 +83,7 @@ static disabledItems as IIngredient[] = [
 	//Condenser
 	<skyresources:condenser:0>,
 	<skyresources:condenser:2>,
+	<skyresources:condenser:5>,
 	<skyresources:condenser:6>,
 	<skyresources:condenser:7>,
 	<skyresources:condenser:8>,
@@ -91,6 +95,7 @@ static disabledItems as IIngredient[] = [
 	//Heat Provider
 	<skyresources:heatprovider:0>,
 	<skyresources:heatprovider:2>,
+	<skyresources:heatprovider:5>,
 	<skyresources:heatprovider:6>,
 	<skyresources:heatprovider:7>,
 	<skyresources:heatprovider:8>,
@@ -102,6 +107,7 @@ static disabledItems as IIngredient[] = [
 	//Heat Components
 	<skyresources:heat:1>,
 	<skyresources:heat:2>,
+	<skyresources:heat:5>,
 	<skyresources:heat:6>,
 	<skyresources:heat:7>,
 	<skyresources:heat:8>,

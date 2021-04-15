@@ -8,7 +8,11 @@
 		uid: "9f008aca",
 		type: "item",
 		items: [{
-			item: "exnihilocreatio:item_material 1 4"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:item_material",
+			Damage: 4s
 		}]
 	}]
 }

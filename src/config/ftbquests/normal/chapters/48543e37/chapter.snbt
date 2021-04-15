@@ -1,7 +1,12 @@
 {
 	title: "Oxygen Extractor",
-	icon: "minecraft:leaves",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:leaves"
+	},
 	always_invisible: false,
-	group: 325421953,
+	group: -658887791,
 	default_quest_shape: ""
 }

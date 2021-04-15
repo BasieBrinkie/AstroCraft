@@ -4,8 +4,9 @@
 	y: -1.0d,
 	description: "We need to strip the burned bark to get Oak Log",
 	text: [
-		"So let's strip them bitc*es!",
+		"So let's strip them b*tches!",
 		"",
+		"Find Charcoal Log:",
 		"- Take your axe in your hand",
 		"Things can get rough now!",
 		"- Hit the Charcoal Log with right click"
@@ -17,7 +18,10 @@
 		uid: "d39dd8db",
 		type: "item",
 		items: [{
-			item: "minecraft:log"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:log"
 		}]
 	}]
 }

@@ -31,7 +31,8 @@
 				"astralsorcery:cap_item_amulet_holder": {},
 				"nuclearcraft:capability_radiation_sink": {
 					radiationLevel: 0.0d
-				}
+				},
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "nuclearcraft:radiation_badge"
 		}

@@ -1,5 +1,10 @@
 {
-	icon: "minecraft:leaves",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:leaves"
+	},
 	x: 4.0d,
 	y: 0.0d,
 	tasks: [{

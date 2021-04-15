@@ -12,7 +12,11 @@
 		uid: "149d585f",
 		type: "item",
 		items: [{
-			item: "tconstruct:materials 1 15"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:materials",
+			Damage: 15s
 		}]
 	}]
 }

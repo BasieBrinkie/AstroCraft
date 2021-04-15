@@ -1,6 +1,12 @@
 {
 	title: "Professions - Stage: 5",
-	icon: "thermaldynamics:duct_0 1 5",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thermaldynamics:duct_0",
+		Damage: 5s
+	},
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

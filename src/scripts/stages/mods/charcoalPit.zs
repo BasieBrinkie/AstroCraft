@@ -4,7 +4,7 @@ import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
 static stagedItems as IIngredient[][string] = {
-	stageOxygen1.stage: [
+	stageAsteroidOxygen1.stage: [
 		<charcoal_pit:fire_starter:0>,
 		<charcoal_pit:item_ash:0>,
 		<charcoal_pit:log_pile:0>
