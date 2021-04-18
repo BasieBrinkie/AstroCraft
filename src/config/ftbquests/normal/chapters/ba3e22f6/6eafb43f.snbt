@@ -1,9 +1,10 @@
 {
-	x: 0.0d,
+	x: 1.5d,
 	y: 0.0d,
 	description: "Compresses and freezes items",
 	text: [
-		""
+		"The Refrigeration Unit freezes liquid into a solid material. ",
+		"It uses a scanning circuit board to determine the temperature and a motor for its compressor"
 	],
 	dependencies: [
 		"c21b369f"

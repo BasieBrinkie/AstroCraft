@@ -4,7 +4,7 @@ import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
 static stagedItems as IIngredient[][string] = {
-	stageAsteroidResources1.stage: [
+	stageAsteroidsResources1.stage: [
 		<factorytech:centrifuge:0>,
 		<factorytech:grindstone:0>,
 		<factorytech:handbook:0>,
@@ -46,7 +46,7 @@ static stagedItems as IIngredient[][string] = {
 		<factorytech:salvagepart:111>,
 		<factorytech:salvagepart:121>,
 	],
-	stageAsteroidAdvancedResources.stage: [
+	stageAsteroidsAdvancedResources.stage: [
 		<factorytech:compressor:0>,
 		<factorytech:crate:0>,
 		<factorytech:fridge:0>,
@@ -59,13 +59,12 @@ static stagedItems as IIngredient[][string] = {
 		<factorytech:machinepart:22>,
 		<factorytech:machinepart:71>,	
 		<factorytech:machinepart:72>,
-		<factorytech:machinepart:110>,
 		<factorytech:machinepart:130>,
 		<factorytech:machinepart:150>,
 		<factorytech:machinepart:161>,
 		<factorytech:magcent:0>,
 		<factorytech:oredrill:0>,
-		<factorytech:salvagepart:110>,
+		<factorytech:salvagepart:21>,
 		<factorytech:salvagepart:161>,
 		<factorytech:scaffold:0>,
 		<factorytech:temperer:0>,
@@ -120,6 +119,7 @@ static disabledItems as IIngredient[] = [
 	<factorytech:machinepart:3>,
 	<factorytech:machinepart:13>,
 	<factorytech:machinepart:30>,
+	<factorytech:machinepart:70>,
 	<factorytech:machinepart:90>,
 	<factorytech:machinepart:91>,
 	<factorytech:machinepart:100>,
@@ -148,6 +148,7 @@ static disabledItems as IIngredient[] = [
 	<factorytech:rednotifier:0>,
 	<factorytech:redwatcher:0>,
 	<factorytech:safetyvest:0>,
+	<factorytech:salvagepart:70>,
 	<factorytech:salvagepart:90>,
 	<factorytech:salvagepart:91>,
 	<factorytech:salvagepart:100>,

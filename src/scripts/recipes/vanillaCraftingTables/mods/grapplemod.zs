@@ -44,7 +44,7 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
 	<grapplemod:doubleupgradeitem:0>: [
-		[<grapplemod:baseupgradeitem:0>, <thermalfoundation:tool.pickaxe_steel:0>]
+		[<grapplemod:baseupgradeitem:0>, <grapplemod:grapplinghook:0>]
 	],
 	<grapplemod:limitsupgradeitem:0>: [
 		[<grapplemod:baseupgradeitem:0>, <minecraft:diamond_ore:0>]

@@ -1,0 +1,17 @@
+{
+	title: "Basic Fuel Refinery",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {},
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "rocketfuel",
+			Amount: 1000
+		}
+	},
+	always_invisible: false,
+	group: -658887791,
+	default_quest_shape: ""
+}

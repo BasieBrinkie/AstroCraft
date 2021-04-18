@@ -1,4 +1,4 @@
-#priority 1
+#priority 9001
 import crafttweaker.item.IItemStack;
 
 /*	
@@ -16,7 +16,7 @@ import crafttweaker.item.IItemStack;
 
 
 static catalystAdd as float[IItemStack] = { 
-	//Dawn of a New Age
+	//Asteroids Dawn of a New Age
 	<mekanism:clump:3>: 1.00,
 	<minecraft:diamond:0>: 3.00,
 

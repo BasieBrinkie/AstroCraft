@@ -4,11 +4,13 @@ import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
 static stagedItems as IIngredient[][string] = {
-	stageAsteroidResources1.stage: [
+	stageAsteroidsResources1.stage: [
+		<grapplemod:grapplinghook:0>,
+	],
+	stageAsteroidsAdvancedResources.stage: [
 		<grapplemod:baseupgradeitem:0>,
 		<grapplemod:block_grapple_modifier:0>,
 		<grapplemod:doubleupgradeitem:0>,
-		<grapplemod:grapplinghook:0>,
 		<grapplemod:limitsupgradeitem:0>,
 		<grapplemod:magnetupgradeitem:0>,
 		<grapplemod:motorupgradeitem:0>,
@@ -19,6 +21,8 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static disabledItems as IIngredient[] = [
+	<grapplemod:forcefieldupgradeitem:0>,
+	<grapplemod:staffupgradeitem:0>
 ];
 
 function init() {

@@ -18,7 +18,6 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static disabledItems as IIngredient[] = [
-	<mekanism:basicblock:3>
 ];
 
 function init() {

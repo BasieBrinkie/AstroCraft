@@ -14,7 +14,7 @@
 		"If you drag while holding shift, the item will spread over all spots.",
 		"Remove items by left clicking the items in the table."
 	],
-	min_required_dependencies: 2,
+	min_required_dependencies: 1,
 	dependencies: [
 		"d1418823"
 	],

@@ -45,6 +45,7 @@ function initRecipes() {
 	scripts.recipes.vanillaCraftingTables.mods.actuallyAdditions.init();
 	scripts.recipes.vanillaCraftingTables.mods.advancedRocketry.init();
 	scripts.recipes.vanillaCraftingTables.mods.appliedEnergistics2.init();
+	scripts.recipes.vanillaCraftingTables.mods.architectureCraft.init();
 	scripts.recipes.vanillaCraftingTables.mods.charcoalPit.init();
 	scripts.recipes.vanillaCraftingTables.mods.chisel.init();
 	scripts.recipes.vanillaCraftingTables.mods.chiselsAndBits.init();
@@ -145,6 +146,7 @@ function initStages() {
 	scripts.stages.mods.advancedRocketry.init();
 	scripts.stages.mods.appliedEnergistics2.init();
 	scripts.stages.mods.architectureCraft.init();
+	scripts.stages.mods.atum.init();
 	scripts.stages.mods.buildingGadgets.init();
 	scripts.stages.mods.charcoalPit.init();
 	scripts.stages.mods.chisel.init();
@@ -244,9 +246,11 @@ function initItemProperties() {
 
 function initEvents() {
 	print("----------------------- Events -----------------------");
+	scripts.initialScripts.classes.events.eventAstrocraftCommands.init();
 	scripts.initialScripts.classes.events.eventDimensionGameStage.init();
 	scripts.initialScripts.classes.events.eventDimensionInteractLock.init();
 	scripts.initialScripts.classes.events.eventFallDamageCancelPlayer.init();
+	scripts.initialScripts.classes.events.eventSpawnTeleport.init();
 }
 
 function initSpawnItems() {

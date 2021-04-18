@@ -1,6 +1,6 @@
 {
-	x: 9.0d,
-	y: 0.0d,
+	x: 13.0d,
+	y: 4.5d,
 	shape: "gear",
 	dependencies: [
 		"b0354a47"

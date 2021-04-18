@@ -1,0 +1,37 @@
+{
+	title: "Foods",
+	x: 10.0d,
+	y: 3.5d,
+	description: "Newly unlocked foods",
+	text: [
+		"With knife you can make toast or baguettes"
+	],
+	dependencies: [
+		"98a44eb1"
+	],
+	tasks: [{
+		uid: "54f0c9b0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "actuallyadditions:item_food",
+			Damage: 10s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "actuallyadditions:item_misc",
+			Damage: 4s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "actuallyadditions:item_food",
+			Damage: 15s
+		}]
+	}]
+}

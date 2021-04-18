@@ -1,0 +1,21 @@
+{
+	x: 9.0d,
+	y: 4.0d,
+	description: "Fills the stomach",
+	text: [
+		"Although you cannot really die from hunger, doing work while saturated is better"
+	],
+	dependencies: [
+		"d2fbe0cd"
+	],
+	tasks: [{
+		uid: "79bba5b7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:bread"
+		}]
+	}]
+}

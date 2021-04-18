@@ -2,12 +2,12 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 
 static drillAdd as bool[IIngredient][IItemStack] = {
-	//Professions Stage 1
-	<enderutilities:floor:0> * 2: {
-		<ore:slabWood>: true
+	//Asteroids Advanced Resources
+	<exnihilocreatio:block_barrel1:0>: {
+		<ore:stone>: true
 	},
 	<factorytech:salvagepart:161>: {
-		<ore:ingotIron>: false
+		<ore:ingotIron>: true
 	},
 	<minecraft:coal:0>: {
 		<minecraft:flint:0>: true

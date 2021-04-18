@@ -1,7 +1,6 @@
 {
-	x: 0.0d,
-	y: 1.0d,
-	shape: "diamond",
+	x: 3.0d,
+	y: -1.5d,
 	description: "Put liquid copper in the Refrigeration Unit",
 	text: [
 		""

@@ -75,10 +75,6 @@ static normalFortuneDrops as IItemStack[][string][int] = {
 		],
 		"advancedrocketry:charcoallog:8": [
 			<advancedrocketry:charcoallog>
-		],	
-		//Minecraft
-		"minecraft:packed_ice": [
-			<minecraft:packed_ice:0>
 		],
 		//Techguns
 		"techguns:basicore:4": [

@@ -22,18 +22,18 @@
               "tileEntity": "null"
             },
             {
-              "block": "contenttweaker:astrostone2",
+              "block": "contenttweaker:astrostone_2",
               "metadata": 0,
               "tileEntity": "null"
             },
             {
-              "block": "contenttweaker:astrostone3",
+              "block": "contenttweaker:astrostone_3",
               "metadata": 0,
               "tileEntity": "null"
             },
             {
               "weight": 0.25072842836380005,
-              "block": "minecraft:packed_ice",
+              "block": "contenttweaker:astro_ice",
               "metadata": 0,
               "tileEntity": "null"
             }
@@ -50,13 +50,13 @@
           "destination": [
             {
               "weight": 12.203933715820312,
-              "block": "contenttweaker:astrostone2",
+              "block": "contenttweaker:astrostone_2",
               "metadata": 0,
               "tileEntity": "null"
             },
             {
               "weight": 22.13267707824707,
-              "block": "contenttweaker:astrostone3",
+              "block": "contenttweaker:astrostone_3",
               "metadata": 0,
               "tileEntity": "null"
             },

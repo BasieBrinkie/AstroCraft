@@ -14,15 +14,37 @@
         "patchouli:basic_resources/press",
         "patchouli:basic_resources/combustion_heater",
         "patchouli:keybinds/skyresources",
-        "patchouli:keybinds/advancedrocketry/rcs_mode"
+        "patchouli:keybinds/advancedrocketry/rcs_mode",
+        "patchouli:dawnofanewage/charcoalpit",
+        "patchouli:dawn_of_a_new_age/charcoalpit",
+        "patchouli:dawn_of_a_new_age/press",
+        "patchouli:rocket_builder/condenser",
+        "patchouli:wiki_manuals/advancedrocketry",
+        "patchouli:wiki_manuals/charcoal_pit",
+        "patchouli:wiki_manuals/factorytech",
+        "patchouli:wiki_manuals/skyresources",
+        "patchouli:wiki_manuals/advanced_rocketry",
+        "patchouli:keybinds/advanced_rocketry/rcs_mode",
+        "patchouli:asteroids/basic_resources/combustion_heater",
+        "patchouli:asteroids/dawn_of_a_new_age/charcoalpit",
+        "patchouli:asteroids/dawn_of_a_new_age/press",
+        "patchouli:asteroids/advanced_resources/bloomery"
       ],
       "bookmarks": [],
       "history": [
-        "patchouli:keybinds/advancedrocketry/rcs_mode",
-        "patchouli:dawnofanewage/press",
+        "patchouli:wiki_manuals/skyresources",
+        "patchouli:asteroids/advanced_resources/bloomery",
+        "patchouli:asteroids/dawn_of_a_new_age/press",
+        "patchouli:asteroids/dawn_of_a_new_age/charcoalpit",
+        "patchouli:asteroids/basic_resources/combustion_heater",
+        "patchouli:wiki_manuals/factorytech",
+        "patchouli:keybinds/advanced_rocketry/rcs_mode",
         "patchouli:basic_resources/combustion_heater",
-        "patchouli:keybinds/skyresources",
-        "patchouli:basic_resources/press"
+        "patchouli:dawn_of_a_new_age/press",
+        "patchouli:wiki_manuals/advanced_rocketry",
+        "patchouli:dawn_of_a_new_age/charcoalpit",
+        "patchouli:wiki_manuals/charcoal_pit",
+        "patchouli:wiki_manuals/advancedrocketry"
       ],
       "completedManualQuests": []
     },
@@ -63,6 +85,16 @@
       "history": [
         "pneumaticcraft:base_concepts/pressure_tiers",
         "pneumaticcraft:base_concepts/getting_started"
+      ],
+      "completedManualQuests": []
+    },
+    "patchouli:personal_diary": {
+      "viewedEntries": [
+        "patchouli:rocket_crash"
+      ],
+      "bookmarks": [],
+      "history": [
+        "patchouli:rocket_crash"
       ],
       "completedManualQuests": []
     }

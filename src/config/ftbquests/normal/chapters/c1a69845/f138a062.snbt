@@ -4,7 +4,7 @@
 	tasks: [{
 		uid: "ad9a86f2",
 		type: "gamestage",
-		stage: "planet_asteroid_oxygen_one"
+		stage: "planet_asteroids_oxygen_one"
 	}],
 	rewards: [{
 		uid: "decd4307",

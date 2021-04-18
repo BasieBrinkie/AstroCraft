@@ -15,7 +15,7 @@ import crafttweaker.item.IItemStack;
 
 
 static fusionAdd as float[IItemStack[]][IItemStack] = { 
-	//Basic Resources
+	//Asteroids Basic Resources
 	<minecraft:iron_nugget:0>: {[
 		<exnihilocreatio:item_ore_iron:0> * 2]: 0.04 
 	},

@@ -4,7 +4,7 @@ import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
 static stagedItems as IIngredient[][string] = {
-	stageAsteroidOxygen1.stage: [
+	stageAsteroidsOxygen1.stage: [
 		<exnihilocreatio:block_barrel0:0>,
 		<exnihilocreatio:block_sieve:0>,
 		<exnihilocreatio:hammer_stone:*>,
@@ -15,7 +15,7 @@ static stagedItems as IIngredient[][string] = {
 		<exnihilocreatio:item_ore_copper:1>,
 		<exnihilocreatio:item_pebble:0>
 	],
-	stageAsteroidResources1.stage: [
+	stageAsteroidsResources1.stage: [
 		<exnihilocreatio:item_ore_aluminum:1>,
 		<exnihilocreatio:item_ore_iron:0>,
 		<exnihilocreatio:item_ore_iron:1>,

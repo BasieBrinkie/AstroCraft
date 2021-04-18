@@ -1,8 +1,12 @@
 {
-	x: 3.0d,
-	y: -3.0d,
+	x: 1.5d,
+	y: 1.5d,
+	description: "Quantity over quality storage",
+	text: [
+		"Although the crates are smaller you nett more inventory space as the chest yields 5 crates"
+	],
 	dependencies: [
-		"6fe6d02a"
+		"c21b369f"
 	],
 	tasks: [{
 		uid: "0934b1d3",

@@ -1,8 +1,12 @@
 {
-	x: 5.0d,
-	y: -3.0d,
+	x: 1.5d,
+	y: -1.5d,
+	description: "Smaller than slabs",
+	text: [
+		"You could use this as a floor to prettify your base or use in recipes"
+	],
 	dependencies: [
-		"fc7ac0e2"
+		"c21b369f"
 	],
 	tasks: [{
 		uid: "53ff2297",

@@ -1,3 +1,7 @@
 tile.contenttweaker.astrostone.name=Asteroid Stone
-tile.contenttweaker.astrostone2.name=Asteroid Stone
-tile.contenttweaker.astrostone3.name=Asteroid Stone
+tile.contenttweaker.astrostone_2.name=Asteroid Stone
+tile.contenttweaker.astrostone_3.name=Asteroid Stone
+tile.contenttweaker.astro_ice.name=Asteroid Ice
+
+tile.contenttweaker.container.name=Container
+tile.contenttweaker.container.name=Nuclear Container

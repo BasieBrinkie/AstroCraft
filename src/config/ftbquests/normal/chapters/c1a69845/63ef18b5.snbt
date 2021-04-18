@@ -4,6 +4,6 @@
 	tasks: [{
 		uid: "dfb2611d",
 		type: "gamestage",
-		stage: "gamemode_genius"
+		stage: "planet_glacidus_scavenge"
 	}]
 }

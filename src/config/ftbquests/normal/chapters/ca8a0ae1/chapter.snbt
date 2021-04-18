@@ -1,5 +1,5 @@
 {
-	title: "Dawn of a New Age - Stage: 0",
+	title: "Dawn of a New Age",
 	icon: {
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
@@ -7,6 +7,6 @@
 		id: "advancedrocketry:oxygencharger"
 	},
 	always_invisible: false,
-	group: 0,
+	group: -686441514,
 	default_quest_shape: ""
 }

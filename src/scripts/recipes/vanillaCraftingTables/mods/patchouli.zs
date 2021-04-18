@@ -30,11 +30,12 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
     ------------------
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
-    <patchouli:guide_book>.withTag({"patchouli:book": "patchouli:chapter_1"}): [
+    <patchouli:guide_book>.withTag({"patchouli:book": "patchouli:personal_diary"}): [
         [<minecraft:book:0>, <excompressum:uncompressed_coal:0>]
     ],
 	<patchouli:guide_book>.withTag({"patchouli:book": "patchouli:multiblock_cheatsheet"}): [
-		[<charcoal_pit:item_ash:0>, <minecraft:string:0>]
+		[<charcoal_pit:item_ash:0>, <minecraft:string:0>],
+		[<minecraft:book:0>, <minecraft:string:0>]
 	],
 };
 

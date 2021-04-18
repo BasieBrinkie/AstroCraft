@@ -1,8 +1,11 @@
 {
-	x: -3.0d,
-	y: 3.0d,
+	x: 5.5d,
+	y: 8.0d,
+	description: "Moar Hooks",
+	text: [
+		"You can have two hooks shooting simultaniously. There are also motor functions available but they require a motor upgrade"
+	],
 	dependencies: [
-		"2adeca1b",
 		"8f51abf2"
 	],
 	tasks: [{

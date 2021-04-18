@@ -1,4 +1,5 @@
 {
+	title: "Rocket Fuel",
 	x: 0.0d,
 	y: 4.0d,
 	description: "Rockets need fuel",
@@ -14,6 +15,17 @@
 	tasks: [{
 		uid: "78038639",
 		type: "item",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "rocketfuel",
+				Amount: 1000
+			}
+		},
 		items: [{
 			id: "advancedrocketry:bucketrocketfuel",
 			tag: {

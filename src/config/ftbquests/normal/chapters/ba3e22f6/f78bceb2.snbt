@@ -1,6 +1,11 @@
 {
-	x: 7.0d,
-	y: -2.0d,
+	x: 11.5d,
+	y: -3.0d,
+	description: "Condenses better",
+	text: [
+		"Only has an higher efficiency. Each recipe will then consumes less HU. The efficiency for the Iron Condenser is 121%.",
+		"It will then use less of the item you're trying to condense. The stats stack with the casing efficiency."
+	],
 	dependencies: [
 		"180c9647"
 	],

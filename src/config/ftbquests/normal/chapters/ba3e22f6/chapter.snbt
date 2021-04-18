@@ -1,12 +1,12 @@
 {
-	title: "Asteroids - Advanced Resources",
+	title: "Advanced Resources",
 	icon: {
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
 		},
-		id: "contenttweaker:astrostone2"
+		id: "factorytech:compressor"
 	},
 	always_invisible: false,
-	group: 325421953,
+	group: -686441514,
 	default_quest_shape: ""
 }

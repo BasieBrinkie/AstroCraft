@@ -4,11 +4,14 @@ import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
 static stagedItems as IIngredient[][string] = {
-	stageAsteroidResources1.stage: [
+	stageAsteroidsResources1.stage: [
 		<mekanism:sawdust:0>
 	],
 	stageRocketBuilder.stage: [
 		<mekanism:configurator:0>
+	],
+	stageAsteroidsAdvancedResources.stage: [
+		<mekanism:basicblock:5>,
 	],
 	stageOxygenExtractor.stage: [
 		<mekanism:shard:4>

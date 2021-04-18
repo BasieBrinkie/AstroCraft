@@ -1,8 +1,12 @@
 {
-	x: 7.0d,
-	y: -3.0d,
+	x: 7.5d,
+	y: 4.5d,
+	description: "Stronger gears and saw blades",
+	text: [
+		"This gear and saw blade lasts longer than their poor counterpart."
+	],
 	dependencies: [
-		"e19c143d"
+		"6fe6d02a"
 	],
 	tasks: [{
 		uid: "2c66bb9b",
@@ -13,6 +17,17 @@
 			},
 			id: "factorytech:machinepart",
 			Damage: 12s
+		}]
+	},
+	{
+		uid: "af9e5a3c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "factorytech:machinepart",
+			Damage: 2s
 		}]
 	}]
 }

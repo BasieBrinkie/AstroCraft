@@ -12,18 +12,18 @@
       "tileEntity": "null"
     },
     {
-      "block": "contenttweaker:astrostone2",
+      "block": "contenttweaker:astrostone_2",
       "metadata": 0,
       "tileEntity": "null"
     },
     {
-      "block": "contenttweaker:astrostone3",
+      "block": "contenttweaker:astrostone_3",
       "metadata": 0,
       "tileEntity": "null"
     },
     {
       "weight": 0.25072842836380005,
-      "block": "minecraft:packed_ice",
+      "block": "contenttweaker:astro_ice",
       "metadata": 0,
       "tileEntity": "null"
     }

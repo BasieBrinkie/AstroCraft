@@ -1,0 +1,12 @@
+{
+    "name": "Advanced Rocketry",
+    "icon": "advancedrocketry:rocketmotor",
+    "category": "patchouli:wiki_manuals",
+    "pages": [
+        {
+            "type": "patchouli:wiki_website",
+            "mod": "advanced rocketry",
+            "website": "http://arwiki.dmodoomsirius.me/AdvancedRocketry/"
+        }
+    ]
+}

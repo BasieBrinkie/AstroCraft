@@ -1,0 +1,21 @@
+{
+	x: 9.5d,
+	y: -3.0d,
+	dependencies: [
+		"c06c42b8",
+		"f138a062",
+		"63ef18b5"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "68134006",
+		type: "custom",
+		title: "StructureStages",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "chickens:henhouse"
+		}
+	}]
+}

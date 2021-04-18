@@ -1,6 +1,10 @@
 {
-	x: -3.0d,
-	y: 2.0d,
+	x: 4.5d,
+	y: 8.0d,
+	description: "Rope length adjustment",
+	text: [
+		"You can increase or decrease the length the rope."
+	],
 	dependencies: [
 		"6525455c",
 		"8f51abf2"

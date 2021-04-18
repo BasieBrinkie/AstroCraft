@@ -1,0 +1,17 @@
+{
+    "name": "Factory Tech",
+    "icon": "factorytech:agitator",
+    "category": "patchouli:wiki_manuals",
+    "pages": [
+        {
+            "type": "wiki_no_website",
+            "mod": "factory tech",
+            "website": "https://www.curseforge.com/minecraft/mc-mods/factory-tech"
+        },
+        {
+            "type": "crafting",
+            "recipe": "manual_factorytech",
+            "text": "$(#ffffff)The Iron rods are not consumed in this recipe."
+        }
+    ]
+}

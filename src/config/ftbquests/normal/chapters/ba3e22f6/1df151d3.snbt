@@ -1,6 +1,11 @@
 {
-	x: 3.0d,
-	y: 0.0d,
+	x: 6.0d,
+	y: -1.0d,
+	description: "Can be obtained by breaking gravel",
+	text: [
+		"You must obtain them the vanilla way by breaking gravel.",
+		"The chance of getting flint is approximately 10%."
+	],
 	dependencies: [
 		"016e1ba2"
 	],

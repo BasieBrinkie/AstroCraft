@@ -1,9 +1,0 @@
-{
-	x: -1.5d,
-	y: 0.0d,
-	tasks: [{
-		uid: "af92af9d",
-		type: "gamestage",
-		stage: "dim_asteroids_one"
-	}]
-}

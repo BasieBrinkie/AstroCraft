@@ -32,6 +32,18 @@
 		type: "gamestage",
 		team_reward: false,
 		auto: "enabled",
-		stage: "resources_one"
+		stage: "planet_asteroids_resources_one"
+	},
+	{
+		uid: "adb324a2",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "book_personal_diary"
+	},
+	{
+		uid: "a3f18d46",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "book_multiblock_cheatsheet"
 	}]
 }

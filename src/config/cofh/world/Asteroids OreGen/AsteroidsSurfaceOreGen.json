@@ -91,7 +91,7 @@
         "AsteroidSurfaceOres_Ice": {
             "distribution": "surface",
             "generator": {     
-                "block":  {"name": "minecraft:packed_ice", "metadata": 0},
+                "block":  {"name": "contenttweaker:astro_ice", "metadata": 0},
                 "material": {"name": "contenttweaker:astrostone","metadata": 0},
                 "cluster-size": 6
             },

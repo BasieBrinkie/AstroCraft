@@ -4,16 +4,18 @@ import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
 static stagedItems as IIngredient[][string] = {
-	stageAsteroidOxygen1.stage: [
+	stageAsteroidsOxygen1.stage: [
 		<charcoal_pit:fire_starter:0>,
 		<charcoal_pit:item_ash:0>,
 		<charcoal_pit:log_pile:0>
+	],
+	stageAsteroidsAdvancedResources.stage: [
+		<charcoal_pit:bloomery_hatch:0>,
 	]
 };
 
 static disabledItems as IIngredient[] = [
 	<charcoal_pit:black_dyed_pot:0>,
-	<charcoal_pit:bloomery_hatch:0>,
 	<charcoal_pit:blue_dyed_pot:0>,
 	<charcoal_pit:broken_pot:0>,
 	<charcoal_pit:bronze_reinforced_brick:0>,

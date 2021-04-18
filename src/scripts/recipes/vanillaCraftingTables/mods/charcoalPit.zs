@@ -20,7 +20,14 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:logWood> | <advancedrocketry:charcoallog:0>, <ore:logWood> | <advancedrocketry:charcoallog:0>, <ore:logWood> | <advancedrocketry:charcoallog:0>],
 			[<ore:logWood> | <advancedrocketry:charcoallog:0>, <ore:logWood> | <advancedrocketry:charcoallog:0>, <ore:logWood> | <advancedrocketry:charcoallog:0>]
 		]
-	]
+	],
+	<charcoal_pit:bloomery_hatch:0>: [
+		[
+			[],
+			[],
+			[]
+		]
+	],
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {

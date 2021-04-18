@@ -1,6 +1,19 @@
 {
-	x: 4.0d,
-	y: 2.0d,
+	x: 7.5d,
+	y: 6.0d,
+	shape: "hexagon",
+	description: "If you can't see it, it isn't there",
+	text: [
+		"Although they are thought to emit radition you would only really know when you pick the uranium ore. YOLO right?",
+		"",
+		"Another way to go about this is to learn how to handle radioactive blocks properly using the Nuclear Manager quest under Universal Knowledge.",
+		"",
+		"TIP: Don't move the ore and just execute the recipes on an nuclear site. Placing down the uranium would activate the radioactive component of this ore",
+		"and contaminate the chunks.",
+		"",
+		"TIP2: You can find this ore by searching for a large comet that is recognizable by its ice tail or searching for large icy asteroids. ",
+		"They also spawn naturally in the world but are somewhat scarce."
+	],
 	dependencies: [
 		"033a47b7"
 	],

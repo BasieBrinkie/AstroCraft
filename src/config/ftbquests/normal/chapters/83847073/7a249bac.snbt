@@ -1,0 +1,14 @@
+{
+	x: 1.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "27b010e9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:comparator"
+		}]
+	}]
+}

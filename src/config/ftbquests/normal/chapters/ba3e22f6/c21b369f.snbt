@@ -1,10 +1,10 @@
 {
-	x: -1.0d,
+	x: 0.0d,
 	y: 0.0d,
 	shape: "square",
 	description: "Mini Piston",
 	text: [
-		""
+		"Another component for factory tech machines"
 	],
 	tasks: [{
 		uid: "6970d13f",

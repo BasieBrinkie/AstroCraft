@@ -1,6 +1,10 @@
 {
-	x: -3.0d,
-	y: 4.0d,
+	x: 6.0d,
+	y: 7.0d,
+	description: "Motorized Hooks",
+	text: [
+		"You can add a motor that decreases the length of the rope once hooked. Recommended is to have it only activate when crouched."
+	],
 	dependencies: [
 		"8f51abf2"
 	],

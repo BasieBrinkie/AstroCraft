@@ -1,0 +1,35 @@
+{
+    "name": "Bloomery",
+    "icon": "charcoal_pit:bloomery_hatch",
+    "category": "patchouli:asteroids/advanced_resources",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(w)The bloomery create one Iron Ingot - Purity (8%) for a raw Iron Ore Chunk. However if you toss Iron Ore Pieces in the bloomery you will obtain 3 ingots.$(br)You have to open the hatch and throw the items in the bloomery along with the fuel. There is a maximum of 32 items being smelted at the same time."
+        },
+        {
+            "type": "multiblock",
+            "multiblock": {
+                "mapping": {
+                    "0": "minecraft:stonebrick",
+                    "S": "minecraft:stonebrick",
+                    "B": "charcoal_pit:bloomery_hatch[facing=east]",
+                    "A": "ANY"
+                },
+                "pattern": [
+                    [" S ","S S", " S "],
+                    [" S ","S S", " S "],
+                    [" S ","S S", " S "],
+                    ["SSS","S S","SBS"],
+                    ["SSS","S0S","SSS"]
+                ],
+                "symmetrical": false
+            },
+            "text": "$(mBlock)The chimney must be 2 to 4 blocks tall."
+        },
+        {
+            "type": "text",
+            "text": "$(w)Start the bloomery by holding right-click on the hatch with the fire starter (flint and steel doesn't work). Once the bloomery is finished, mine the bloom with a pickaxe.$(br2)Wiki Chapter: $(br)$(l:wiki_manuals/charcoal_pit)Charcoal Pit Wiki$(/l)"
+        }
+    ]
+}

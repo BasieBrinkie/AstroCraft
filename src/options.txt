@@ -115,7 +115,6 @@ key_key.moreoverlays.lightoverlay.desc:65
 key_key.moreoverlays.chunkbounds.desc:67
 key_oreexcavation.key.excavate:47
 key_oreexcavation.key.shape:47
-key_key.toggle_shaders:0
 key_pneumaticcraft.armor.options:22
 key_pneumaticcraft.helmet.hack:35
 key_pneumaticcraft.helmet.debugging.drone:21
@@ -250,7 +249,6 @@ key_key.itemzoom.toggle:44:SHIFT
 key_key.itemzoom.hold:0
 key_key.itemzoom.zoom.in:0
 key_key.itemzoom.zoom.out:0
-key_Open Journey Stats:25
 key_mekanism.key.mode:50
 key_mekanism.key.armorMode:34
 key_mekanism.key.feetMode:35
@@ -264,7 +262,7 @@ key_key.porterPrevDestination:26
 key_key.debugDumpNBTItem:0
 key_key.debugDumpNBTBlock:0
 key_key.zoom.desc:46
-key_key.skyresources.guide:79
+key_key.skyresources.guide:73
 key_techguns.key.toggleNightvision:49
 key_techguns.key.toggleSafemode:48
 key_techguns.key.toggleStepassist:47

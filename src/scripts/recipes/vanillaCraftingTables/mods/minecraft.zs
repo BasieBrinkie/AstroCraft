@@ -21,6 +21,11 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<tconstruct:materials:15>, <minecraft:paper:0>, <tconstruct:materials:15>]
 		]
 	],
+	<minecraft:bread:0>: [
+		[
+			[<minecraft:wheat:0>,<minecraft:wheat:0>,<minecraft:wheat:0>]
+		]
+	],
 	<minecraft:bucket:0>: [
 		[	
 			[<ore:ingotIron>, null, <ore:ingotIron>],
@@ -175,12 +180,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:stone>],
 			[<ore:stickWood>],
 			[<ore:stickWood>]
-		]
-	],
-	<minecraft:stonebrick:0>: [
-		[
-			[<ore:stone>, <ore:stone>],
-			[<ore:stone>, <ore:stone>]
 		]
 	],
 	<minecraft:stick:0> * 2: [

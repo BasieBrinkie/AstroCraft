@@ -3,7 +3,7 @@
 	y: 0.0d,
 	description: "Use better catalysts to improve yields",
 	text: [
-		""
+		"If you ever need to know which materials are catalysts and their yields, type #Catalyst in JEI."
 	],
 	dependencies: [
 		"043b044e"

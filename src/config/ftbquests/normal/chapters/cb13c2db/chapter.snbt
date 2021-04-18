@@ -1,5 +1,5 @@
 {
-	title: "Asteroids - Blacksmith",
+	title: "Parts Manufacturer",
 	icon: {
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
@@ -7,6 +7,6 @@
 		id: "tconstruct:cast_custom"
 	},
 	always_invisible: false,
-	group: 325421953,
+	group: -686441514,
 	default_quest_shape: ""
 }

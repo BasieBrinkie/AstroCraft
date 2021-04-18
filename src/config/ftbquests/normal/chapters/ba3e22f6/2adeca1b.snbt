@@ -1,6 +1,6 @@
 {
-	x: 9.0d,
-	y: 3.0d,
+	x: 15.0d,
+	y: 5.5d,
 	dependencies: [
 		"b5ae43e5"
 	],
@@ -13,6 +13,27 @@
 				"customnpcs:itemscripteddata": {}
 			},
 			id: "thermalfoundation:tool.pickaxe_steel"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "railcraft:tool_axe_steel"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "railcraft:tool_hoe_steel"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "railcraft:tool_shovel_steel"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

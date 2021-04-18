@@ -2,7 +2,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 
 static chopSawAdd as bool[IIngredient][IItemStack] = {
-	//Basic Resources
+	//Asteroids Basic Resources
 	<mekanism:sawdust:0> * 2: {
 		<ore:plankWood>: true
 	},
@@ -11,9 +11,12 @@ static chopSawAdd as bool[IIngredient][IItemStack] = {
 		<ore:logWood>: true,
 	},
 
-	//Pofession Stage 1
-	<factorytech:crate:0> * 4: {
+	//Asteroids Advanced Resources
+	<factorytech:crate:0> * 5: {
 		<minecraft:chest:0>: true
+	},
+	<enderutilities:floor:0> * 4: {
+		<ore:slabWood>: true
 	},
 
 	//Farmer One

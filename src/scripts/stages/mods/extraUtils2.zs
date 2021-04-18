@@ -4,12 +4,12 @@ import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
 static stagedItems as IIngredient[][string] = {
-	stageAsteroidOxygen1.stage: [
+	stageAsteroidsOxygen1.stage: [
 		<extrautils2:grocket:2>,
 		<extrautils2:ingredients:8>,
 		<extrautils2:pipe:0>
 	],
-	stageAsteroidAdvancedResources.stage: [
+	stageAsteroidsAdvancedResources.stage: [
 
 	],
 	

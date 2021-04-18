@@ -12,9 +12,9 @@
     "inputFluid": "preheated_water",
     "outputFluid": "water",
     "transformingBlocks": [
-      "minecraft:packed_ice"
+      "contenttweaker:astro_ice"
     ],
     "blocksToSpawn": [],
-    "duration": 3600
+    "duration": 300
   }
 ]

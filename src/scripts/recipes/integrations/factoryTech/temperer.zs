@@ -17,31 +17,28 @@ import crafttweaker.item.IItemStack;
 
 
 static tempererAdd as int[IItemStack][IItemStack] = { 
-	//Profession Stage 1
-	<enderutilities:storage_0:7>: {
-		<factorytech:crate:0>: 80
-	},
+	//Asteroids Advanced Resources
 	<factorytech:machinepart:12>: {
-		<factorytech:machinepart:11>: 14
+		<factorytech:machinepart:11>: 30
 	},
 	<factorytech:machinepart:22>: {
 		<factorytech:machinepart:21>: 20
 	},
 	<factorytech:machinepart:72>: {
-		<factorytech:machinepart:71>: 12
+		<factorytech:machinepart:71>: 30
 	},
 	<skyresources:ironcuttingknife:0>: {
-		<actuallyadditions:item_knife:0>: 16
+		<actuallyadditions:item_knife:0>: 30
 	},
 
 	//Decorator
 	<actuallyadditions:block_crystal_cluster_redstone:0>: {
-		<minecraft:redstone:0>: 120
+		<minecraft:redstone:0>: 20
 	},	
 
 	//Oxygen Extractor
 	<thebetweenlands:items_misc:2> * 2: {
-		<minecraft:leaves:0>: 45
+		<minecraft:leaves:0>: 30
 	}
 
 };

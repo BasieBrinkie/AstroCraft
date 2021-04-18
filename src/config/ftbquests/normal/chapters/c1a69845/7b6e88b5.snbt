@@ -1,9 +1,12 @@
 {
 	title: "Beacon Data",
-	x: 15.0d,
-	y: -2.5d,
+	x: 11.0d,
+	y: -2.0d,
 	text: [
 		""
+	],
+	dependencies: [
+		"6a793eff"
 	],
 	tasks: [{
 		uid: "ee8ba465",
@@ -25,12 +28,6 @@
 		stage: "planet_asteroid_resources_one"
 	},
 	{
-		uid: "f2d52cfa",
-		type: "gamestage",
-		auto: "no_toast",
-		stage: "nuclear_management"
-	},
-	{
 		uid: "fb9b7bd8",
 		type: "gamestage",
 		auto: "no_toast",
@@ -41,5 +38,17 @@
 		type: "gamestage",
 		auto: "no_toast",
 		stage: "rocket_builder"
+	},
+	{
+		uid: "208a0ebd",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "item_ae2_me_chest"
+	},
+	{
+		uid: "edae9dc7",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "item_ae2_1k_disk"
 	}]
 }

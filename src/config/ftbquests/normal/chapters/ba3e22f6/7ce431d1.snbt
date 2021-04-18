@@ -1,6 +1,11 @@
 {
-	x: 3.0d,
+	x: 7.5d,
 	y: -2.0d,
+	description: "Bloomery for iron processing",
+	text: [
+		"The bloomery can be used to make iron processing easier or by increasing the yield of the iron ores. ",
+		"The multiblock cheatsheet has an entry about how to build this multiblock and its recipes."
+	],
 	dependencies: [
 		"1df151d3"
 	],
@@ -12,6 +17,16 @@
 				"customnpcs:itemscripteddata": {}
 			},
 			id: "charcoal_pit:bloomery_hatch"
+		}]
+	},
+	{
+		uid: "3349e27d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stonebrick"
 		}]
 	}]
 }

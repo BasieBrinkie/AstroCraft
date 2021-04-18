@@ -1,6 +1,11 @@
 {
-	x: 2.0d,
-	y: 0.0d,
+	x: 6.0d,
+	y: 1.5d,
+	description: "Centrifuges using rotational and magnetic forces",
+	text: [
+		"In order to correctly centrifuge the items, we need a solvent.",
+		"Connect a pipe to the Magnetic Centrigure and pump from an liquid inventory. You cannot fill the machine by hand."
+	],
 	dependencies: [
 		"1c8d21c4",
 		"ba4fe4d1"

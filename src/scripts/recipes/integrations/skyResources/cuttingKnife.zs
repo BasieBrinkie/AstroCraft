@@ -15,7 +15,8 @@ import crafttweaker.item.IItemStack;
 
 
 static cuttingKnifeAdd as IItemStack[IItemStack] = {
-	<minecraft:stick:0> * 2: <minecraft:planks:0>
+	//Asteroids Advanced Resources
+	<minecraft:stick:0> * 4: <minecraft:planks:0>
 };
 
 /*	

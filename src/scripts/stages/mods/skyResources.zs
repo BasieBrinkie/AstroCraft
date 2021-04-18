@@ -4,10 +4,10 @@ import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
 static stagedItems as IIngredient[][string] = {
-	stageAsteroidOxygen1.stage: [
+	stageAsteroidsOxygen1.stage: [
 		<skyresources:alchemyitemcomponent:1>,
 	],
-	stageAsteroidResources1.stage: [
+	stageAsteroidsResources1.stage: [
 		<skyresources:casing:0>,
 		<skyresources:combustionheater:0>,
 		<skyresources:crucible:0>,
@@ -21,7 +21,7 @@ static stagedItems as IIngredient[][string] = {
 		<skyresources:condenser:1>,
 		<skyresources:orealchdust:17>
 	],
-	stageAsteroidAdvancedResources.stage: [
+	stageAsteroidsAdvancedResources.stage: [
 		<skyresources:casing:3>,
 		<skyresources:casing:4>,
 		<skyresources:combustionheater:3>,
@@ -29,6 +29,8 @@ static stagedItems as IIngredient[][string] = {
 		<skyresources:condenser:3>,
 		<skyresources:condenser:4>,
 		<skyresources:ironcuttingknife:0>,
+		<skyresources:heatprovider:3>,
+		<skyresources:heatprovider:4>,
 	],
 	stageFarmer1.stage: [
 		<skyresources:baseitemcomponent:4>

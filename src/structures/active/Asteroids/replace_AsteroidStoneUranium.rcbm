@@ -8,13 +8,13 @@
     },
     {
       "weight": 77.76000213623047,
-      "block": "contenttweaker:astrostone2",
+      "block": "contenttweaker:astrostone_2",
       "metadata": 0,
       "tileEntity": "null"
     },
     {
       "weight": 101.8970718383789,
-      "block": "contenttweaker:astrostone3",
+      "block": "contenttweaker:astrostone_3",
       "metadata": 0,
       "tileEntity": "null"
     },

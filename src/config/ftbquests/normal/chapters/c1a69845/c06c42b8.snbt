@@ -1,0 +1,9 @@
+{
+	x: -1.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "543255b0",
+		type: "gamestage",
+		stage: "planet_aquarius_diver_one"
+	}]
+}

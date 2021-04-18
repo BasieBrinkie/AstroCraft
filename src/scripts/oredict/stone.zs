@@ -42,6 +42,8 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 		<chisel:stonebrick2:6>,
 		<chisel:stonebrick2:7>,
 		<contenttweaker:astrostone:0>,
+		<contenttweaker:astrostone_2:0>,
+		<contenttweaker:astrostone_3:0>,
 		<minecraft:stone:0>
 	]
 };

@@ -1,6 +1,10 @@
 {
-	x: 1.0d,
-	y: 2.0d,
+	x: 4.5d,
+	y: -1.0d,
+	description: "An improvement over shobby wires",
+	text: [
+		"Little bit more expensive but it also lasts longer"
+	],
 	dependencies: [
 		"1df151d3",
 		"5fa0f4b6"

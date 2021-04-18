@@ -1,6 +1,10 @@
 {
-	x: 2.0d,
-	y: -4.0d,
+	x: 10.0d,
+	y: 2.5d,
+	description: "Cuts planks into sticks",
+	text: [
+		"With the Cutting Knife you can get 4 weak sticks per plank rather than 1."
+	],
 	dependencies: [
 		"98a44eb1"
 	],

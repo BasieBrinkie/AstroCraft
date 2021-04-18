@@ -1,6 +1,10 @@
 {
-	x: -3.0d,
-	y: 0.0d,
+	x: 3.0d,
+	y: 7.0d,
+	description: "Keep Swinging all day long",
+	text: [
+		"You can change the amount of acceleration you feel will swinging "
+	],
 	dependencies: [
 		"8f51abf2"
 	],

@@ -17,7 +17,7 @@ import crafttweaker.item.IItemStack;
 
 
 static centrifugeAdd as bool[IIngredient][IItemStack[]] = { 
-	//Basic Resources
+	//Asteroids Basic Resources
 	[<minecraft:sand:0>, <exnihilocreatio:item_pebble:0> * 5, <charcoal_pit:item_ash:0> * 4]: { <minecraft:gravel:0>: true},
 
 	//Rocket Builder

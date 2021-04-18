@@ -1,6 +1,12 @@
 {
-	x: -2.5d,
-	y: 5.0d,
+	x: 6.0d,
+	y: 6.0d,
+	description: "Change the way your hook is thrown",
+	text: [
+		"You can change the amount of gravity the hook feels. Default is 0.3.",
+		"You can also increase the speed at which the hook is thrown.",
+		"The throw angle can be adjusted to better suit your need."
+	],
 	dependencies: [
 		"8f51abf2"
 	],

@@ -1,0 +1,11 @@
+{
+    "name": "Skyresources Crucible",
+    "icon": "skyresources:crucible",
+    "category": "patchouli:rocket_builder",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(#ffffff)The skyresources crucible requires a heat source underneath it. Thats where the heat provider comes in."
+        }
+    ]
+}

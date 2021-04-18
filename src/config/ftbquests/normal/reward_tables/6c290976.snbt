@@ -4,7 +4,8 @@
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
 		},
-		id: "contenttweaker:astrostone3"
+		id: "contenttweaker:astrostone3",
+		Count: 1b
 	},
 	loot_size: 1,
 	hide_tooltip: true,
@@ -15,7 +16,8 @@
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			},
-			id: "contenttweaker:astrostone3"
+			id: "contenttweaker:astrostone3",
+			Count: 1b
 		},
 		auto: "invisible",
 		stage: "planet_asteroid_oxygen_one",

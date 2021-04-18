@@ -10,8 +10,8 @@ import scripts.stages.register.stageProfessionsStage3;
 import scripts.stages.register.stageProfessionsStage4;
 import scripts.stages.register.stageProfessionsStage5;
 
-import scripts.stages.register.stageAsteroidOxygen1;
-import scripts.stages.register.stageAsteroidResources1;
+import scripts.stages.register.stageAsteroidsOxygen1;
+import scripts.stages.register.stageAsteroidsResources1;
 import scripts.stages.register.stageRocketBuilder;
 import scripts.stages.register.stageBasicKnowledgeDecorator;
 import scripts.stages.register.stageFarmer1;
@@ -27,7 +27,7 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static stagedItemsOredict as IOreDictEntry[][string] = {
-	stageAsteroidResources1.stage: [
+	stageAsteroidsResources1.stage: [
 		<ore:blockIronTier1>,
 		<ore:dustIronTier1>,
 		<ore:ingotIronTier1>,

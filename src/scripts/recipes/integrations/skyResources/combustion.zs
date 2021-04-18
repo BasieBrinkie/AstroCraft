@@ -16,19 +16,29 @@ import crafttweaker.item.IItemStack;
 
 
 static combustionAdd as int[IItemStack[]][IItemStack] = {
+
+	//Asteroids Advanced Resources
+	<mekanism:dirtydust:3>: {[
+		<mekanism:nugget:5>]: 100
+	},
+	<grapplemod:baseupgradeitem:0>: {[
+		<minecraft:paper:0> * 3,
+		<factorytech:ore_dust:5>]: 320,
+	[
+		<minecraft:paper:0> * 3,
+		<immersiveengineering:metal:24>]: 320,
+	[
+		<minecraft:paper:0> * 3,
+		<thermalfoundation:material:197>]: 320,
+	},
 	
-	/*	
-		---------------------------------------------
-		Stage: Basic Resources
-		---------------------------------------------
-	*/
-	//Oxygen
+	//Asteroids Oxygen One
 	<exnihilocreatio:item_ore_iron:0> * 2: {[
 		<exnihilocreatio:item_ore_iron:1> * 2,
 		<charcoal_pit:item_ash:0> * 5]: 50
 	},
 
-	//Basic Resources
+	//Asteroids Basic Resources
 	<minecraft:iron_ingot:0>: {[
 		<minecraft:iron_nugget:0> * 3]: 80
 	},	
@@ -50,20 +60,6 @@ static combustionAdd as int[IItemStack[]][IItemStack] = {
 		<thermalfoundation:material:199>]: 100
 	},
 
-	//Professions Stage 1
-	<mekanism:dirtydust:3>: {[
-		<mekanism:nugget:5>]: 100
-	},
-	<grapplemod:baseupgradeitem:0>: {[
-		<minecraft:paper:0> * 3,
-		<factorytech:ore_dust:5>]: 320,
-	[
-		<minecraft:paper:0> * 3,
-		<immersiveengineering:metal:24>]: 320,
-	[
-		<minecraft:paper:0> * 3,
-		<thermalfoundation:material:197>]: 320,
-	},
 
 	//Oxygen Extractor
 	<skyresources:alchemyitemcomponent:1> * 3: {[

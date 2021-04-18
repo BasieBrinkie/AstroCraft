@@ -1,0 +1,13 @@
+{
+    "name": "Sky Resources 2",
+    "icon": "skyresources:casing",
+    "category": "patchouli:wiki_manuals",
+    "pages": [
+        {
+            "type": "wiki_no_website_keybind",
+            "mod": "sky resources 2",
+            "website": "https://www.curseforge.com/minecraft/mc-mods/sky-resources",
+            "keybind": "skyresources.guide"
+        }
+    ]
+}

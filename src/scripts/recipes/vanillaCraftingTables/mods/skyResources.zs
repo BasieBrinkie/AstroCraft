@@ -37,8 +37,8 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<skyresources:combustionheater:3>: [
 		[
-			[<ore:blockIron>, <ore:blockIron>, <ore:blockIron>],
-			[<ore:blockIron>, <skyresources:heat:3>, <ore:blockIron>],
+			[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
+			[<ore:ingotIron>, <skyresources:heat:3>, <ore:ingotIron>],
 			[<ore:blockIron>, <ore:blockIron>, <ore:blockIron>]
 		]
 	],

@@ -10,13 +10,13 @@
 		uid: "c257293a",
 		type: "gamestage",
 		auto: "invisible",
-		stage: "planet_asteroid_oxygen_one"
+		stage: "planet_asteroids_oxygen_one"
 	},
 	{
 		uid: "660cf14e",
 		type: "gamestage",
 		auto: "invisible",
-		stage: "planet_asteroid_resources_one"
+		stage: "planet_asteroids_resources_one"
 	},
 	{
 		uid: "1ee2b742",
@@ -34,6 +34,6 @@
 		uid: "0e73d06f",
 		type: "gamestage",
 		auto: "invisible",
-		stage: "planet_asteroid_advanced_resources"
+		stage: "planet_asteroids_advanced_resources"
 	}]
 }

@@ -4,9 +4,18 @@ import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
 static stagedItems as IIngredient[][string] = {
-	stageAsteroidResources1.stage: [
+	stageAsteroidsResources1.stage: [
 		<appliedenergistics2:crank:0>,
 		<appliedenergistics2:grindstone:0>
+	],
+
+
+	//Item Stages
+	itemAE2MEChest.stage: [
+		<appliedenergistics2:chest:0>,
+	],
+	itemAE21KDisk.stage:[
+		<appliedenergistics2:storage_cell_1k:0>
 	]
 };
 

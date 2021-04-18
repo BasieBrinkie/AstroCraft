@@ -8,7 +8,7 @@ static stagedItems as IIngredient[][string] = {
 		<nuclearcraft:geiger_counter>,
 		<nuclearcraft:radiation_badge>,
 	],
-	stageAsteroidAdvancedResources.stage: [
+	stageAsteroidsAdvancedResources.stage: [
 		<nuclearcraft:uranium:10>,
 	],
 

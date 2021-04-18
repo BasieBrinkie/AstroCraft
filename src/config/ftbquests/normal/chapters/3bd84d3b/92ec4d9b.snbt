@@ -10,8 +10,10 @@
 		"- Place one oak plank in each cardinal direction above the casing but leave the spot above the casing free.",
 		"- Above this free space place the trapdoor for convenience of putting items in.",
 		"",
-		"TIP: open the skyresources manual by pressing CTRL+Shift+S and find wooden combustion heater or ",
-		"go to https://ftbwiki.org/Wooden_Combustion_Heater for a better visual representation  "
+		"TIP: open the multiblock cheatsheet to find a preview of the multiblock",
+		"",
+		"TIP2: The wooden trapdoor doesn't work for higher levels of combustion heaters, then you would need an iron trapdoor or a dropper like block",
+		"and pick up items by standing close to the multiblock"
 	],
 	dependencies: [
 		"cc5c15db"

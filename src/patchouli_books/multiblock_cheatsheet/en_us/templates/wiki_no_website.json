@@ -1,0 +1,22 @@
+{
+	"components": [
+        {
+            "type": "header",
+            "text": "#mod->capital# Wiki",
+            "x": -1,
+            "y": -1
+        },
+        {
+            "type": "separator",
+            "x": -1,
+            "y": -1
+        },
+		{
+			"type": "text",
+			"text": "The mod #mod# has no online wiki so instead the mod download page is linked $(l:#website#)here!$(/l)",
+            "color": "FFFFFF",
+			"x": -1,
+			"y": 22
+		}
+	]
+}

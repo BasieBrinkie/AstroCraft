@@ -3,27 +3,30 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 
 static basinAddConsume as int[int][ILiquidStack][IIngredient][IItemStack] = {
-	<minecraft:iron_block:0>: {
-		<minecraft:packed_ice:0>: {
-			<liquid:iron>: {
-				1296: 300
-			}
-		}
-	},
+	//Rocket Builder
 	<immersiveengineering:storage:4>: {
-		<minecraft:packed_ice:0>: {
+		<contenttweaker:astro_ice:0>: {
 			<liquid:nickel>: {
 				1296: 400
 			}
 		}
 	},
+	//Asteroids Resources 1
+	<minecraft:iron_block:0>: {
+		<contenttweaker:astro_ice:0>: {
+			<liquid:iron>: {
+				1296: 300
+			}
+		}
+	},
+	//Asteroids Advanced Resources
 	<mekanism:basicblock:5>: {
-		<minecraft:packed_ice:0>: {
+		<contenttweaker:astro_ice:0>: {
 			<liquid:steel>: {
 				1296: 300
 			}
 		}
-	}
+	},
 };
 
 static basinAdd as int[int][ILiquidStack][IIngredient][IItemStack] = {

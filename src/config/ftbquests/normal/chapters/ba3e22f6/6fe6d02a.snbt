@@ -1,8 +1,19 @@
 {
-	x: 2.0d,
-	y: -2.0d,
+	x: 7.5d,
+	y: 3.0d,
+	description: "Shoots focussed laser beams",
+	text: [
+		"The tempering oven shoots a really dense energy ray to the item in the oven. ",
+		"You can control the duration of this beam with a redstone signal. Sending a redstone pulse activates the machine.",
+		"The maximum allowed error is ±2 ticks compared to the value JEI reports.",
+		"",
+		"Wooden buttons have a pulse duration of 1.5s (30 in-game ticks) and Stone buttons have a duration of 1s (20 in-game ticks). ",
+		"Be sure to check the JEI recipes for the duration required for your specific recipe with the tempering oven. ",
+		"With the quest Logical Systems you can unlock more ways to prolong the duration of the redstone signal.",
+		"",
+		"TIP: There is a difference between in-game ticks (20 in a second) and redstone ticks (10 in a second). JEI reports in-game ticks for the tempering oven"
+	],
 	dependencies: [
-		"1c8d21c4",
 		"4286d598"
 	],
 	tasks: [{

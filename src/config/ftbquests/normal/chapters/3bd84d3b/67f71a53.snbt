@@ -3,7 +3,7 @@
 	y: 2.0d,
 	description: "Be wary of hot fluids!",
 	text: [
-		"The faucet can be placed onto the crucible and transfer its fluids to a basin"
+		"The faucet can be placed onto the crucible and transfer its fluids to a basin or casting table."
 	],
 	dependencies: [
 		"053739df"

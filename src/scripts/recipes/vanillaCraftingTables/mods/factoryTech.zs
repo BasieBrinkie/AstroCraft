@@ -38,7 +38,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<factorytech:fridge:0>: [
 		[
 			[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
-			[<ore:plateCopper>, <minecraft:packed_ice:0>, <ore:plateCopper>],
+			[<ore:plateCopper>, <contenttweaker:astro_ice:0>, <ore:plateCopper>],
 			[<ore:stone>, <ore:blockIron>, <ore:stone>]
 		]
 	],
@@ -122,8 +122,8 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<factorytech:machinepart:80>: [
 		[
-			[null, <ore:stickWood>, null],
-			[<ore:stickWood>, null, <ore:stickWood>],
+			[null, <ore:factoryTechWire>, null],
+			[<ore:factoryTechWire>, null, <ore:factoryTechWire>],
 			[<ore:clumpCopper>, null, <ore:clumpCopper>]
 		]
 	],
@@ -197,9 +197,6 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
     ------------------
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
-	<factorytech:handbook:0>: [
-		[<factorytech:machinepart:50>.reuse() | <factorytech:machinepart:51>.reuse()]
-	],
 	<factorytech:machinepart:20>: [
 		[<factorytech:salvagepart:20>, <minecraft:glowstone_dust:0> * 4]
 	],
@@ -223,6 +220,11 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
+	<factorytech:handbook:0>: {
+		"manual_factorytech": [
+			[<minecraft:book:0>, <factorytech:machinepart:50>.reuse() | <factorytech:machinepart:51>.reuse()]
+		],
+	}
 };
 
 /*

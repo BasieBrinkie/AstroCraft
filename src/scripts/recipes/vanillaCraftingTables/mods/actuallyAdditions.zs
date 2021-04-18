@@ -50,6 +50,12 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
     ------------------
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
+	<actuallyadditions:item_food:10> * 2: [
+		[<actuallyadditions:item_knife:*>.transformDamage(99), <minecraft:bread:0>]
+	],
+	<actuallyadditions:item_misc:4> * 4: [
+		[<actuallyadditions:item_knife:*>.transformDamage(), <minecraft:wheat:0> * 2]
+	]
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
@@ -60,7 +66,11 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 	Furnace Recipes.
 	----------------
 */
-static furnaceRecipes as IIngredient[][IItemStack] = {};
+static furnaceRecipes as IIngredient[][IItemStack] = {
+	<actuallyadditions:item_food:15>: [
+		<actuallyadditions:item_misc:4>
+	]
+};
 
 
 function init() {

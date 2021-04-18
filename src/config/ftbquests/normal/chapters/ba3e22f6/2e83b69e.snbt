@@ -1,9 +1,13 @@
 {
-	x: -3.0d,
-	y: 1.0d,
+	x: 3.5d,
+	y: 8.0d,
+	description: "Remove some limitations of the mod",
+	text: [
+		"If you really dislike the way how the rope folds around blocks or you want your rope to pull more straight you might require this upgrade.",
+		"To disable rope folding install a rope upgrade and enable Phase Rope",
+		"To have straigther pulls enable Sideways Motion Dampener underneath the motor upgrade."
+	],
 	dependencies: [
-		"fdfe97b3",
-		"bdf534a8",
 		"8f51abf2"
 	],
 	tasks: [{

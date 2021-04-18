@@ -434,6 +434,10 @@ zenClass tooltipGen {
 						}
 					}
 
+					if !isNull(scripts.recipes.integrations.skyResources.catalysts.catalystAdd[item]) {
+						item.addTooltip(format.aqua("Catalyst Yield: " + scripts.recipes.integrations.skyResources.catalysts.catalystAdd[item] * 100 + "%"));
+					}
+					
 					if (!isNull(toolTipShiftArray)) {
 						item.addTooltip(format.white("Hold: ") + format.blue(format.italic("LShift ")) + format.white("for more information"));
 					}
@@ -469,6 +473,10 @@ zenClass tooltipGen {
 						for extraTooltip in extraFormattedTooltips {
 							item.addTooltip(extraTooltip);
 						}
+					}
+
+					if !isNull(scripts.recipes.integrations.skyResources.catalysts.catalystAdd[item]) {
+						item.addTooltip(format.aqua("Catalyst Yield: " + scripts.recipes.integrations.skyResources.catalysts.catalystAdd[item] * 100 + "%"));
 					}
 
 					if (!isNull(toolTipShiftArray)) {

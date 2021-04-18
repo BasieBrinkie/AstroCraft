@@ -1,0 +1,12 @@
+{
+	title: "Logic Systems I",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:redstone"
+	},
+	always_invisible: false,
+	group: -658887791,
+	default_quest_shape: ""
+}

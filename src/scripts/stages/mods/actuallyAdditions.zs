@@ -4,14 +4,16 @@ import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
 static stagedItems as IIngredient[][string] = {
-	stageAsteroidOxygen1.stage: [
+	stageAsteroidsOxygen1.stage: [
 		<actuallyadditions:item_worm:0>
 	],
-	stageAsteroidResources1.stage: [
+	stageAsteroidsResources1.stage: [
 		<actuallyadditions:block_compost:0>,
 	],
-	stageAsteroidAdvancedResources.stage: [
-		<actuallyadditions:item_knife:0>,
+	stageAsteroidsAdvancedResources.stage: [
+		<actuallyadditions:item_knife:*>,
+		<actuallyadditions:item_food:10>,
+		<actuallyadditions:item_misc:4>
 	],
 	stageFarmer1.stage: [
 		<actuallyadditions:item_canola_seed:0>,

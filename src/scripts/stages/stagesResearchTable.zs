@@ -13,8 +13,8 @@ import scripts.stages.register.stageProfessionsStage3;
 import scripts.stages.register.stageProfessionsStage4;
 import scripts.stages.register.stageProfessionsStage5;
 
-import scripts.stages.register.stageAsteroidOxygen1;
-import scripts.stages.register.stageAsteroidResources1;
+import scripts.stages.register.stageAsteroidsOxygen1;
+import scripts.stages.register.stageAsteroidsResources1;
 import scripts.stages.register.stageRocketBuilder;
 import scripts.stages.register.stageOxygenExtractor;
 import scripts.stages.register.stageBasicKnowledgeDecorator;
@@ -29,7 +29,7 @@ import scripts.stages.register.stageDecoration1Disable;
 
 static allStages as string[][] = [
 	[	//0
-		stageAsteroidResources1.stage,
+		stageAsteroidsResources1.stage,
 		stageRocketBuilder.stage,
 	],
 	[	//1

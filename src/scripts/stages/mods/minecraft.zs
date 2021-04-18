@@ -4,7 +4,7 @@ import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
 static stagedItems as IIngredient[][string] = {
-	stageAsteroidOxygen1.stage: [
+	stageAsteroidsOxygen1.stage: [
 		<minecraft:cobblestone:0>,
 		<minecraft:coal:1>,
 		<minecraft:crafting_table:0>,
@@ -28,8 +28,9 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:wooden_shovel:*>,
 		<minecraft:wool:0>
 	],
-	stageAsteroidResources1.stage: [
+	stageAsteroidsResources1.stage: [
 		<minecraft:book:0>,
+		<minecraft:bread:0>,
 		<minecraft:bucket:0>,
 		<minecraft:chest:0>,
 		<minecraft:glass:0>,
@@ -39,7 +40,6 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:iron_pickaxe:*>,
 		<minecraft:iron_shovel:*>,
 		<minecraft:iron_ore:0>,
-		<minecraft:packed_ice:0>,
 		<minecraft:paper:0>,
 		<minecraft:sand:0>,
 		<minecraft:stone_button:0>,
@@ -50,7 +50,7 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:wooden_button:0>,
 		<minecraft:wooden_pressure_plate:0>
 	],
-	stageAsteroidAdvancedResources.stage: [
+	stageAsteroidsAdvancedResources.stage: [
 		<minecraft:coal:0>,
 		<minecraft:comparator:0>,
 		<minecraft:flint:0>,
@@ -58,7 +58,8 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:redstone:0>,
 		<minecraft:redstone_torch:0>,
 		<minecraft:repeater:0>,
-		<minecraft:stonebrick:0>
+		<minecraft:stonebrick:0>,
+		<minecraft:water_bucket:0>,
 	],
 	stageFarmer1.stage: [
 		<minecraft:melon:0>,

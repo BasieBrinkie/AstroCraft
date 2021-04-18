@@ -1,6 +1,11 @@
 {
-	x: 3.0d,
-	y: 1.0d,
+	x: 6.0d,
+	y: 3.0d,
+	description: "Easier way to obtain Iron Dust",
+	text: [
+		"No more going through the whole process.",
+		"Long live innovation!"
+	],
 	dependencies: [
 		"016e1ba2"
 	],

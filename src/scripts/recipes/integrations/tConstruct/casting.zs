@@ -40,7 +40,15 @@ static castingAddConsume as int[int][ILiquidStack][IIngredient][IItemStack] = {
 				1296: 800
 			}
 		}
-	}
+	},
+	//Asteroids Advanced Resources
+	<factorytech:machinepart:21>: {
+		<factorytech:salvagepart:21>: {
+			<liquid:copper>: {
+				288: 140
+			}
+		}
+	},
 };
 
 static castingAdd as int[int][ILiquidStack][IIngredient][IItemStack] = {

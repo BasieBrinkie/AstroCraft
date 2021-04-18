@@ -53,11 +53,13 @@
 	rewards: [{
 		uid: "6ea5ecfe",
 		type: "choice",
+		auto: "disabled",
 		table: 0
 	},
 	{
 		uid: "91305e6b",
 		type: "choice",
+		auto: "disabled",
 		table: 1
 	}]
 }

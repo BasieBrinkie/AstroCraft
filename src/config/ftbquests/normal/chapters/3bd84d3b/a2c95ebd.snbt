@@ -4,7 +4,10 @@
 	y: 0.0d,
 	description: "Currently still WIP",
 	text: [
-		"Writers needed!"
+		"Writers needed!",
+		"",
+		"TIP: You don't actually need the book as you could acces this book through your inventory. Normally the vanilla recipe book would be located here but ",
+		"this has been replaced with this cheatsheet"
 	],
 	dependencies: [
 		"35c5ada8",

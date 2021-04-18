@@ -19,8 +19,10 @@
 		"using the command \"/island reset\" twice.",
 		"Be ready to quickly retrieve your space suit from the chest."
 	],
+	min_required_dependencies: 2,
 	dependencies: [
-		"19bab08f"
+		"19bab08f",
+		"f138a062"
 	],
 	tasks: [{
 		uid: "319e2640",

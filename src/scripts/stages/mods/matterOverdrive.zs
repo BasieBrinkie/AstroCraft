@@ -5,7 +5,7 @@ import mods.zenstages.Stage;
 
 static stagedItems as IIngredient[][string] = {
 	stageRocketBuilder.stage: [
-		<matteroverdrive:decorative.tritanium_plate_colored:1>
+		<matteroverdrive:decorative.tritanium_plate_colored:*>
 	]
 };
 

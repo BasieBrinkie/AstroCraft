@@ -10,6 +10,7 @@
 	"macros": {
 		"$(w)": "$(#ffffff)",
 		"$(mBlock)": "$(#ffffff)$(m)                              /$$(o)$(#ddddff)",
-		"$(WIKI AdvRocketry)": "$(#ffffff)Check out the $(l:http://arwiki.dmodoomsirius.me/AdvancedRocketry/)advanced rocketry wiki$(/l) for more information"
+		"$(WIKI AdvRocketry)": "$(#ffffff)Check out the $(l:http://arwiki.dmodoomsirius.me/AdvancedRocketry/)advanced rocketry wiki$(/l) for more information",
+		"$(WIKI CharcoalPit)": "$(#ffffff)Check out the $(l:https://www.curseforge.com/minecraft/mc-mods/) Charcoal Pit mod page$(/l) for more information"
 	}
 }

@@ -1,0 +1,35 @@
+{
+	title: "Drill Recipes",
+	x: 10.0d,
+	y: 0.0d,
+	description: "Drill away",
+	text: [
+		"You can make a stone barrel that might contain handy recipes and you unlocked a new way to create integrated pistons. ",
+		"",
+		"PS don't confuse this broken integrated piston with a functional one."
+	],
+	dependencies: [
+		"fc7ac0e2"
+	],
+	tasks: [{
+		uid: "7555ef33",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:block_barrel1"
+		}]
+	},
+	{
+		uid: "d9b43ea8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "factorytech:salvagepart",
+			Damage: 161s
+		}]
+	}]
+}
