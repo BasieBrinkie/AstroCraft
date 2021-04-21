@@ -13,6 +13,7 @@ static stagedItems as IIngredient[][string] = {
 	stageAsteroidsAdvancedResources.stage: [
 		<actuallyadditions:item_knife:*>,
 		<actuallyadditions:item_food:10>,
+		<actuallyadditions:item_food:15>,
 		<actuallyadditions:item_misc:4>
 	],
 	stageFarmer1.stage: [

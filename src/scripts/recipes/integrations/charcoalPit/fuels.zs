@@ -7,7 +7,8 @@ static fuelAdd as int[IItemStack] = {
 
 static fuelAddOre as int[IOreDictEntry] = {
 	<ore:charcoal>: 1,
-	<ore:coal>: 2
+	<ore:coal>: 2,
+	<ore:fuelCoke>: 4,
 };
 
 function init() {

@@ -6,7 +6,7 @@
 		id: "minecraft:leaves"
 	},
 	x: 4.0d,
-	y: 0.0d,
+	y: 2.5d,
 	tasks: [{
 		uid: "ff2ccf6a",
 		type: "gamestage",

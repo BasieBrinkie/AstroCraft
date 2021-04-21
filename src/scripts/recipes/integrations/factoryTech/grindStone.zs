@@ -23,9 +23,6 @@ static grindstoneAdd as bool[IIngredient][IItemStack] = {
 	},
 	
 	//Asteroids Advanced Resources
-	<mekanism:nugget:5> * 3: {
-		<exnihilocreatio:item_ore_copper:3>: true
-	},
 	<factorytech:machinepart:71>: {
 		<minecraft:iron_ingot:0>: true
 	},
@@ -37,6 +34,9 @@ static grindstoneAdd as bool[IIngredient][IItemStack] = {
 	},
 	<factorytech:machinepart:150>: {
 		<minecraft:glass:0>: false
+	},
+	<libvulpes:productnugget:6> * 6: {
+		<ore:ingotSteel>: false
 	},
 };
 

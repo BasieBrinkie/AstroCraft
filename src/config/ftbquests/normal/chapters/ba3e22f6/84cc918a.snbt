@@ -1,6 +1,14 @@
 {
-	x: 9.5d,
-	y: 7.0d,
+	x: 10.5d,
+	y: 6.5d,
+	shape: "hexagon",
+	description: "Tiny bit hotter compared to preheated water",
+	text: [
+		"Use JEI to search for lava as the lava bucket has no recipe yet.",
+		"",
+		"Lava can be used to make a manual cobblestone generator and to start making rocket fuel.",
+		"You now also have unlocked Basic Fual Refinery"
+	],
 	dependencies: [
 		"49ade304"
 	],
@@ -16,5 +24,11 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "34dcd4fd",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "basic_fuel_refinery"
 	}]
 }

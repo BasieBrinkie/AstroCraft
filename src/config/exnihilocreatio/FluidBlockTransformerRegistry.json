@@ -1,6 +1,6 @@
 [
   {
-    "fluidName": "preheated_water",
+    "fluidName": "water",
     "input": "minecraft:magma",
     "output": "minecraft:obsidian"
   }

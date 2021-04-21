@@ -1,7 +1,11 @@
 {
 	x: 13.0d,
-	y: 4.5d,
+	y: 3.0d,
 	shape: "gear",
+	description: "Better than iron",
+	text: [
+		"Now that you have unlocked the steel ingot, you have also unlocked steel tools, steel combustion / heater / condenser, a junk storage unit and off course steel blocks/parts"
+	],
 	dependencies: [
 		"b0354a47"
 	],

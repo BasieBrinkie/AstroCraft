@@ -1,7 +1,7 @@
 {
 	icon: "nuclearcraft:nuclear_furnace_idle",
 	x: 0.0d,
-	y: 6.0d,
+	y: 5.5d,
 	tasks: [{
 		uid: "6b6a1969",
 		type: "gamestage",

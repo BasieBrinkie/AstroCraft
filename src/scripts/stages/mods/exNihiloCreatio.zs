@@ -22,6 +22,9 @@ static stagedItems as IIngredient[][string] = {
 		<exnihilocreatio:item_ore_lead:1>,
 		<exnihilocreatio:item_ore_nickel:1>
 	],
+	stageAsteroidsAdvancedResources.stage: [
+		<exnihilocreatio:block_barrel1:0>,
+	],
 	stageRocketBuilder.stage: [
 		<exnihilocreatio:item_ore_aluminum:0>,
 		<exnihilocreatio:item_ore_lead:0>,
@@ -38,6 +41,7 @@ static stagedItems as IIngredient[][string] = {
 		<exnihilocreatio:hammer_iron:*>
 	],
 
+	//Items
 	stageCrook.stage: [
 		<exnihilocreatio:crook_iron:*>,
 		<exnihilocreatio:crook_wood:*>,

@@ -11,7 +11,7 @@ import crafttweaker.item.IItemStack;
 	Add method:
 	[IItemStack] is the item that need to be outputted by the temperer input item.
 	second [IItemStack] is the input item.
-	float is the length in seconds until transformation is completed.
+	float is the length in game ticks until transformation is completed.
 	----------------------------------------------------------------------------------------------
 */	
 

@@ -1,7 +1,7 @@
 {
 	icon: "nuclearcraft:fusion_core",
 	x: 0.0d,
-	y: 9.0d,
+	y: 7.0d,
 	tasks: [{
 		uid: "d7da21ad",
 		type: "gamestage",

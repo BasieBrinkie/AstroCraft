@@ -3,7 +3,9 @@
 	y: 3.0d,
 	description: "Combines multiple fluids and items",
 	text: [
-		"The agitator requires a circuit board that still needs to be made. After you invent the circuit board, you can use the agitor to create them more easily."
+		"The agitator requires a circuit board that still needs to be made. After you invent the circuit board, you can use the agitor to create them more easily.",
+		"",
+		"You cannot directly use a bucket onto the machine to retrieve the liquids. You would need to pipe them into another liquid inventory such as a tank."
 	],
 	dependencies: [
 		"54ddd3b7",

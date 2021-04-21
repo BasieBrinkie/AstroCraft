@@ -105,7 +105,11 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:wool:13>,
 		<minecraft:wool:14>,
 		<minecraft:wool:15>,
-	]
+	],
+
+	liquidLava.stage: [
+		<minecraft:lava_bucket:0>
+	],
 };
 
 static disabledItems as IIngredient[] = [

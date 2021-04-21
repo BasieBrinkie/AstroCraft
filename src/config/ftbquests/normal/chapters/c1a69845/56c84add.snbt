@@ -7,7 +7,7 @@
 		id: "thaumcraft:thaumonomicon"
 	},
 	x: -6.0d,
-	y: -1.0d,
+	y: 0.0d,
 	tasks: [{
 		uid: "6f6866b6",
 		type: "gamestage",

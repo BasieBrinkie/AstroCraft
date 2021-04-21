@@ -3,12 +3,11 @@ import crafttweaker.item.IIngredient;
 
 static metalCutterAdd as IIngredient[][IItemStack] = {
 	//Rocket Builder
-	<matteroverdrive:tritanium_nugget:0> * 9: [<ore:blockTritanium>],
+	<matteroverdrive:tritanium_nugget:0> * 6: [<ore:blockTritanium>],
 	<mysticalagriculture:crafting:22> * 6: [<libvulpes:productingot:9>],
 
-	//Professions Stage 1
-	<libvulpes:productnugget:6> * 9: [<ore:ingotSteel>],
-
+	//Asteroids Advanced Resources
+	<mekanism:nugget:5> * 6: [<exnihilocreatio:item_ore_copper:3>],
 };
 
 static metalCutterRemove as IItemStack[] = [

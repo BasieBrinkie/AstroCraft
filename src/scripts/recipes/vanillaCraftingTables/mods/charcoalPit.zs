@@ -23,9 +23,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<charcoal_pit:bloomery_hatch:0>: [
 		[
-			[],
-			[],
-			[]
+			[<ore:stick>, null, <ore:stick>],
+			[<minecraft:trapdoor:0>, <ore:ingotIron>, <ore:trapdoor>],
+			[<ore:stick>, null, <ore:stick>]
 		]
 	],
 };

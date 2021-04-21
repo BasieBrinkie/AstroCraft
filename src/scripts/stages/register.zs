@@ -23,7 +23,7 @@ global gameModeKitchenSink as Stage = ZenStager.initStage("gamemode_kitchensink"
 	------------------------
 */
 global dimensionSpaceStation as Stage = ZenStager.initStage("dim_spacestation");
-global dimensionAsteroids1 as Stage = ZenStager.initStage("dim_asteroids_one");
+global dimensionAsteroids as Stage = ZenStager.initStage("dim_asteroids");
 global dimensionGlacidus as Stage = ZenStager.initStage("dim_glacidus");
 
 /*
@@ -51,6 +51,8 @@ global stageBasicKnowledgeDecorator as Stage = ZenStager.initStage("basic_decora
 global stageBasicKnowledgeOxygen as Stage = ZenStager.initStage("basic_oxygen");
 global stageNuclearManagement as Stage = ZenStager.initStage("nuclear_management");
 global stageLogicalSystems1 as Stage = ZenStager.initStage("logical_systems_one");
+global stageBasicFuelRefinery as Stage = ZenStager.initStage("basic_fuel_refinery");
+
 /*
 	----------------------
 	Progression Stages: 1.

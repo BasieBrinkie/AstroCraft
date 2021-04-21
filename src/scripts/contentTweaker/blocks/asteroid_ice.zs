@@ -14,9 +14,6 @@ astroIce.setToolClass("pickaxe");
 astroIce.setToolLevel(0);
 astroIce.setBlockSoundType(<soundtype:snow>);
 astroIce.setSlipperiness(0.96);
-astroIce.setTranslucent(true);
-astroIce.setBlockLayer("TRANSLUCENT");
-astroIce.setFullBlock(false);
 astroIce.creativeTab = astrocraftTab;
 
 astroIce.register();

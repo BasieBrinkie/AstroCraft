@@ -1,9 +1,11 @@
 {
-	x: 11.5d,
-	y: 6.0d,
+	x: 10.5d,
+	y: 5.5d,
+	text: [
+		"In order to create obsidian fill a barrel with water. Then insert a magma block by right-clicking."
+	],
 	dependencies: [
-		"49ade304",
-		"b0354a47"
+		"49ade304"
 	],
 	tasks: [{
 		uid: "c448f15e",

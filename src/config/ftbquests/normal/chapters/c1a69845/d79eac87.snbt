@@ -9,7 +9,7 @@
 		}
 	},
 	x: -1.0d,
-	y: 2.0d,
+	y: 3.5d,
 	tasks: [{
 		uid: "fa5a4be1",
 		type: "gamestage",

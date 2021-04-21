@@ -1,6 +1,10 @@
 {
 	x: 11.5d,
-	y: 4.5d,
+	y: 3.0d,
+	description: "Grinded coal coke",
+	text: [
+		""
+	],
 	dependencies: [
 		"0d02285d"
 	],

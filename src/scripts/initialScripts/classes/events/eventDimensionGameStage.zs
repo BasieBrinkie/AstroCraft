@@ -13,7 +13,7 @@ static dimensionGamestageRules as string[][int] = {
         dimensionSpaceStation.stage,
     ],
     0: [ 
-        dimensionAsteroids1.stage,
+        dimensionAsteroids.stage,
 
     ],
     //Glacidus

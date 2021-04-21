@@ -1,12 +1,9 @@
 {
 	title: "Beacon Data",
-	x: 11.0d,
-	y: -2.0d,
+	x: 1.0d,
+	y: -9.0d,
 	text: [
 		""
-	],
-	dependencies: [
-		"6a793eff"
 	],
 	tasks: [{
 		uid: "ee8ba465",
@@ -50,5 +47,11 @@
 		type: "gamestage",
 		auto: "no_toast",
 		stage: "item_ae2_1k_disk"
+	},
+	{
+		uid: "3fc43d69",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "item_atum_beacon"
 	}]
 }

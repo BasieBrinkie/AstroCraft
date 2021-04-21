@@ -7,7 +7,7 @@
 		id: "minecraft:flint_and_steel"
 	},
 	x: -1.0d,
-	y: -1.0d,
+	y: 2.0d,
 	tasks: [{
 		uid: "71b08e45",
 		type: "gamestage",

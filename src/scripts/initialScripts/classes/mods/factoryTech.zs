@@ -288,9 +288,8 @@ zenClass facTech {
 
 	function tempererAdd(map as int[IItemStack][IItemStack]) {
 		for output, array in map {
-			for input, seconds in array {
-				var ticks as int = seconds * 20;
-					mods.factorytech.Temperer.addRecipe(output, input, ticks);
+			for input, ticks in array {
+				mods.factorytech.Temperer.addRecipe(output, input, ticks);
 			}			
 		}
 	}

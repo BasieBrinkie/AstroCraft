@@ -50,6 +50,7 @@ function initRecipes() {
 	scripts.recipes.vanillaCraftingTables.mods.chisel.init();
 	scripts.recipes.vanillaCraftingTables.mods.chiselsAndBits.init();
 
+	scripts.recipes.vanillaCraftingTables.mods.enderUtilities.init();
 	scripts.recipes.vanillaCraftingTables.mods.exCompressum.init();
 	scripts.recipes.vanillaCraftingTables.mods.exNihiloCreatio.init();
 	scripts.recipes.vanillaCraftingTables.mods.factoryTech.init();

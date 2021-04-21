@@ -1,0 +1,11 @@
+{
+	title: "Asteroids",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "contenttweaker:astrostone_3"
+	},
+	x: -1.0d,
+	y: 0.0d
+}

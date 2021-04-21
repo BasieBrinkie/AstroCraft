@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "$(w)The bloomery create one Iron Ingot - Purity (8%) for a raw Iron Ore Chunk. However if you toss Iron Ore Pieces in the bloomery you will obtain 3 ingots.$(br)You have to open the hatch and throw the items in the bloomery along with the fuel. There is a maximum of 32 items being smelted at the same time."
+            "text": "$(w)The bloomery create one Iron Ingot - Purity (8%) for a raw Iron Ore Chunk. However if you toss in Iron Ore Pieces in the bloomery you will obtain 3 ingots instead of 1.$(br2)You have to open the hatch and throw the items in the bloomery along with the fuel. Valid fuels are coal (2), coal cokes (4) and charcoal (1). There is a maximum of 32 items being smelted at the same time."
         },
         {
             "type": "multiblock",

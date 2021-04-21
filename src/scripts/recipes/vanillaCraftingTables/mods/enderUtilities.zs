@@ -7,7 +7,13 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-
+	<enderutilities:storage_0:7>: [
+		[
+			[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
+			[<ore:ingotSteel>, <minecraft:chest:0>, <ore:ingotSteel>],
+            [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]
+		]
+	],
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
@@ -19,13 +25,6 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
     -----------------
 */
 static mirroredRecipes as IIngredient[][][][IItemStack] = {	
-	<enderutilities:storage_0:7>: [
-		[
-			[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
-			[<ore:ingotSteel>, <minecraft:chest:0>, <ore:ingotSteel>],
-            [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]
-		]
-	],
 };
 
 static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {

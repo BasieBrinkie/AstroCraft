@@ -6,7 +6,7 @@
 		id: "minecraft:wheat"
 	},
 	x: 2.0d,
-	y: 3.0d,
+	y: 4.0d,
 	tasks: [{
 		uid: "5e1f177b",
 		type: "gamestage",

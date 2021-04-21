@@ -1,0 +1,15 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:iron_ingot"
+	},
+	x: 1.0d,
+	y: 0.5d,
+	tasks: [{
+		uid: "c9156f24",
+		type: "gamestage",
+		stage: "planet_asteroids_resources_one"
+	}]
+}

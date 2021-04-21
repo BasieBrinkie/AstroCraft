@@ -12,9 +12,6 @@ static itemNames as string[IItemStack] = {
 
 	<factorytech:machinepart:22>: "Heat Treated Wire",
 
-	<factorytech:machinepart:110>: "Tritanium Scanning Circuit Board",
-	<factorytech:machinepart:120>: "Tritanium Wireless Circuit Board",
-
 	<factorytech:machinepart:111>: "Tritanium Scanning Circuit Board",
 	<factorytech:machinepart:121>: "Tritanium Wireless Circuit Board",
 

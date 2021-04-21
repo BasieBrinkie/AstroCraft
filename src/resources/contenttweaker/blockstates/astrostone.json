@@ -5,12 +5,12 @@
       "texture": "contenttweaker:blocks/astrostone",
       "particle": "contenttweaker:blocks/astrostone"
     },
-    "model": "base:storage",
+    "model": "block/cube_all",
     "uvlock": true,
     "transform": "forge:default-block"
   },
   "variants": {
-    "normal": [{}],
-    "inventory": [{}]
+    "normal": [{ "model": "contenttweaker:astrostone" }],
+    "inventory": [{ "model": "contenttweaker:astrostone" }]
   }
 }

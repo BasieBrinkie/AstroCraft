@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "blocks/astro_ice"
+        "all": "contenttweaker:blocks/astro_ice"
     }
 }
