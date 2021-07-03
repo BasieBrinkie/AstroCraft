@@ -9,7 +9,10 @@ static stagedItems as IIngredient[][string] = {
 	],
 	bookMultiblockCheatsheet.stage: [
 		<patchouli:guide_book>.withTag({"patchouli:book": "patchouli:multiblock_cheatsheet"})
-	]
+	],
+	stageRocketBuilder.stage: [
+		<patchouli:guide_book>.withTag({"patchouli:book": "patchouli:galactic_exploration_data"})
+	],
 };
 
 static disabledItems as IIngredient[] = [

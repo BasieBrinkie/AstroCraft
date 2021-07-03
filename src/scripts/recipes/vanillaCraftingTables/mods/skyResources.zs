@@ -45,7 +45,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<skyresources:combustionheater:4>: [
 		[
 			[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
-			[<ore:ingotSteel>, <skyresources:heat:4>, <ore:ingotSteel>],
+			[<ore:ingotSteel>, <skyresources:combustionheater:3>, <ore:ingotSteel>],
 			[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]
 		]
 	],
@@ -66,7 +66,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<skyresources:condenser:4>: [
 		[
 			[<ore:ingotSteel>, null, <ore:ingotSteel>],
-			[<ore:ingotSteel>, <skyresources:heat:4>, <ore:ingotSteel>],
+			[<ore:ingotSteel>, <skyresources:condenser:3>, <ore:ingotSteel>],
 			[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]
 		]
 	],
@@ -122,7 +122,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<skyresources:heatprovider:4>: [
 		[
 			[<ore:ingotSteel>, <skyresources:heat:4>, <ore:ingotSteel>],
-			[<ore:ingotSteel>, <skyresources:heat:4>, <ore:ingotSteel>],
+			[<ore:ingotSteel>, <skyresources:heatprovider:3>, <ore:ingotSteel>],
 			[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]
 		]
 	],

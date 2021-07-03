@@ -17,6 +17,18 @@ import crafttweaker.liquid.ILiquidStack;
 
 
 static condenserAdd as int[ILiquidStack][IItemStack][IItemStack] = {
+	//Asteroids Advanced Resources
+	<mekanism:basicblock:5>: {
+		<thermalfoundation:material:802>: {
+			<liquid:iron>: 1296
+		}
+	},
+	<thermalfoundation:material:135> * 2: {
+		<minecraft:iron_nugget:0> * 2: {
+			<liquid:iridium>: 4000
+		}
+	},
+	
 	//Rocket Builder
 	<libvulpes:productnugget:9>: {
 		<exnihilocreatio:item_ore_aluminum:0>: {
@@ -41,6 +53,7 @@ static condenserAdd as int[ILiquidStack][IItemStack][IItemStack] = {
 static condenserRemove as IItemStack[] = [
 	<alchemistry:ingot:30>,
 	<alchemistry:ingot:74>,
+	<alchemistry:ingot:92>,
 	<draconicevolution:draconium_ingot:0>,
 	<draconicevolution:draconium_ore:2>,
 	<erebus:materials:44>,
@@ -48,6 +61,7 @@ static condenserRemove as IItemStack[] = [
 	<libvulpes:ore0:8>,
 	<libvulpes:productingot:7>,
 	<libvulpes:productingot:9>,
+	<magneticraft:ores:3>,
 	<mekanism:ingot:1>,
 	<mekanism:oreblock:0>,
 	<minecraft:iron_ingot:0>,
@@ -64,6 +78,19 @@ static condenserRemove as IItemStack[] = [
 	<nuclearcraft:ore:5>,
 	<nuclearcraft:ore:6>,
 	<nuclearcraft:ore:7>,
+	<railcraft:ore_metal:0>,
+	<railcraft:ore_metal:1>,
+	<railcraft:ore_metal:2>,
+	<railcraft:ore_metal:3>,
+	<railcraft:ore_metal:4>,
+	<railcraft:ore_metal:5>,
+	<railcraft:ingot:2>,
+	<railcraft:ingot:4>,
+	<railcraft:ingot:8>,
+	<qmd:ingot:0>,
+	<qmd:ingot:3>,
+	<qmd:ingot:4>,
+	<qmd:ingot:8>,
 	<tconstruct:ingots:0>,
 	<tconstruct:ingots:1>,
 	<tconstruct:ore:0>,

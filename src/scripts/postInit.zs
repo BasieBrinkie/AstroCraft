@@ -61,6 +61,7 @@ function initRecipes() {
 	scripts.recipes.vanillaCraftingTables.mods.matterOverdrive.init();
 	scripts.recipes.vanillaCraftingTables.mods.mekanism.init();
 	scripts.recipes.vanillaCraftingTables.mods.minecraft.init();
+	scripts.recipes.vanillaCraftingTables.mods.modularMachinery.init();
 	scripts.recipes.vanillaCraftingTables.mods.nuclearCraft.init();
 	scripts.recipes.vanillaCraftingTables.mods.patchouli.init();
 	scripts.recipes.vanillaCraftingTables.mods.pneumaticCraft.init();
@@ -166,6 +167,7 @@ function initStages() {
 	scripts.stages.mods.matterOverdrive.init();
 	scripts.stages.mods.mekanism.init();
 	scripts.stages.mods.minecraft.init();
+	scripts.stages.mods.modularMachinery.init();
 	scripts.stages.mods.mysticalAgradditions.init();
 	scripts.stages.mods.mysticalAgriculture.init();
 	scripts.stages.mods.nuclearCraft.init();
@@ -179,9 +181,6 @@ function initStages() {
 	scripts.stages.mods.theBetweenLands.init();
 	scripts.stages.mods.thermalFoundation.init();
 	scripts.stages.mods.xtones.init();
-
-	scripts.stages.mobs.chickens.init();
-
 	}
 }
 

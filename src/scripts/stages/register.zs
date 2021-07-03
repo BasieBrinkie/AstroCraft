@@ -40,7 +40,7 @@ global stageSpawnItems as Stage = ZenStager.initStage("spawn_items");
 */
 global bookPersonalDiary as Stage = ZenStager.initStage("book_personal_diary");
 global bookMultiblockCheatsheet as Stage = ZenStager.initStage("book_multiblock_cheatsheet");
-
+global bookGalacticExplorationData as Stage = ZenStager.initStage("book_galactic_exploration_data");
 /*
 	----------------------
 	Progression Stages: 0.
@@ -116,6 +116,33 @@ global stageProfessionsStage5 as Stage = ZenStager.initStage("professions_five")
 global stageGunSmithMaster as Stage = ZenStager.initStage("gunsmith_master");
 
 
+//Arcturus
+/*
+	----------------------
+	Asteroids 1.
+	----------------------
+*/
+global stageAsteroidsOxygen1 as Stage = ZenStager.initStage("planet_asteroids_oxygen_one");
+global stageAsteroidsResources1 as Stage = ZenStager.initStage("planet_asteroids_resources_one");
+global stageAsteroidsAdvancedResources as Stage = ZenStager.initStage("planet_asteroids_advanced_resources");
+global stageAsteroidsAutomater as Stage = ZenStager.initStage("planet_asteroids_automater");
+
+
+global planetGlacidusStockFarmer as Stage = ZenStager.initStage("glacidus_stockfarmer");
+
+
+
+global planetAetherIIThaumcraft1 as Stage = ZenStager.initStage("aether_thaumcraft_one");
+
+global planetAetherIIAcademy as Stage = ZenStager.initStage("aether_academy");
+
+/*
+	-----------------------
+	Specific Liquid Stages.
+	-----------------------
+*/
+global toolsSteel as Stage = ZenStager.initStage("tools_steel");
+
 /*
 	-----------------------
 	Specific Liquid Stages.
@@ -128,32 +155,15 @@ global liquidLava as Stage = ZenStager.initStage("liquid_lava");
 	---------------------
 */
 //AE 2
-global itemAE2MEChest as Stage = ZenStager.initStage("item_ae2_me_chest");
-global itemAE21KDisk as Stage = ZenStager.initStage("item_ae2_1k_disk");
+global itemAE2MEChest as Stage = ZenStager.initStage("item_ae_me_chest");
+global itemAE21KDisk as Stage = ZenStager.initStage("item_ae_one_k_disk");
 
 //Atum
 global itemAtumBeacon as Stage = ZenStager.initStage("item_atum_beacon");
-//Arcturus
-/*
-	----------------------
-	Asteroids 1.
-	----------------------
-*/
-global stageAsteroidsOxygen1 as Stage = ZenStager.initStage("planet_asteroids_oxygen_one");
-global stageAsteroidsResources1 as Stage = ZenStager.initStage("planet_asteroids_resources_one");
-global stageAsteroidsAdvancedResources as Stage = ZenStager.initStage("planet_asteroids_advanced_resources");
 
-global planetAetherIIThaumcraft1 as Stage = ZenStager.initStage("aether_thaumcraft_one");
-
-global planetAetherIIAcademy as Stage = ZenStager.initStage("aether_academy");
-
-global planetGlacidusStockFarmer as Stage = ZenStager.initStage("glacidus_stockfarmer");
-/*
-	-----------
-	Mob Stages.
-	-----------
-*/
-global stageChickens1 as Stage = ZenStager.initStage("chickens_one");
+//Modular Machinery
+global modularMachineryTier1 as Stage = ZenStager.initStage("modular_machinery_tier_one");
+global bluePrintAntennaTier1 as Stage = ZenStager.initStage("blueprint_antenna_tier_one");
 
 /*
 	------------
@@ -161,7 +171,6 @@ global stageChickens1 as Stage = ZenStager.initStage("chickens_one");
 	------------
 */
 global stageDecoration1Enable as Stage = ZenStager.initStage("decoration_one_enable");
-global stageDecoration1Disable as Stage = ZenStager.initStage("decoration_one_disable");
 global stageDisabledItems as Stage = ZenStager.initStage("disabled_items");
 global stageRecurrentComplex as Stage = ZenStager.initStage("reccomplex");
 global stageNonStaged as Stage = ZenStager.initStage("non_staged_items");

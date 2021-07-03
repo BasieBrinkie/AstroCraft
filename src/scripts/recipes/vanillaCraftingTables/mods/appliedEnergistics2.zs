@@ -20,7 +20,14 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:stone>, <ore:factoryTechGear>, <ore:stone>],
 			[<ore:stone>, <ore:stone>, <ore:stone>]
 		]
-	]
+	],
+	<appliedenergistics2:sky_compass:0>: [
+		[
+			[null, <ore:plateSteel>, null],
+			[<ore:plateSteel>, <factorytech:machinepart:111>, <ore:plateSteel>],
+			[null, <ore:plateSteel>, null]
+		]
+	],
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {

@@ -62,9 +62,16 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<minecraft:diamond_pickaxe>: [
 		[
-			[<minecraft:diamond:0>, <minecraft:diamond:0>, <minecraft:diamond:0>],
+			[<thermalfoundation:material:16>, <thermalfoundation:material:16>, <thermalfoundation:material:16>],
 			[null, <ore:stickAluminum>, null],
 			[null, <ore:stickAluminum>, null]
+		]
+	],
+	<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 35}]}): [
+		[
+			[<minecraft:diamond:0>, <minecraft:redstone:0>, <minecraft:diamond:0>],
+			[<thermalfoundation:material:135>, <minecraft:paper:0>, <thermalfoundation:material:135>],
+			[<thermalfoundation:material:16>, <minecraft:redstone:0>, <thermalfoundation:material:16>]
 		]
 	],
 	<minecraft:furnace:0>: [
@@ -256,6 +263,9 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 	<minecraft:dirt:0>: [
 		[<minecraft:dirt:1>, <actuallyadditions:item_worm:0>]
 	],
+	<minecraft:flint_and_steel:0>: [
+		[<ore:ingotIron>, <minecraft:flint:0>]
+	],
 	<minecraft:planks:0> * 2: [
 		[<minecraft:log:0>]
 	],
@@ -280,7 +290,8 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 */
 static furnaceRecipes as IIngredient[][IItemStack] = {
 	<minecraft:stone:0>: [<minecraft:cobblestone:0>],
-	<minecraft:glass:0>: [<ore:sand>]
+	<minecraft:glass:0>: [<ore:sand>],
+	<minecraft:wheat:0>: [<minecraft:wheat_seeds:0>],
 };
 
 function init() {

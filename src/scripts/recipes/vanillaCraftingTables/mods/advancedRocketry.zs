@@ -115,6 +115,9 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 	<advancedrocketry:spacestationchip:0>: [
 		[<factorytech:circuit_intermediate:8>, <ore:nuggetNickel>, <libvulpes:linker:0>.reuse()]
 	],
+	<advancedrocketry:planetidchip:0>: [
+		[<factorytech:circuit_intermediate:8>, <minecraft:diamond:0>, <libvulpes:linker:0>.reuse()]
+	],
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {

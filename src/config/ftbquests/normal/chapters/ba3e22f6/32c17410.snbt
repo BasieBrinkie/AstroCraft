@@ -1,6 +1,10 @@
 {
-	x: 15.0d,
+	x: 14.5d,
 	y: 2.0d,
+	description: "Bigger explosions",
+	text: [
+		"Sorry I lied in the subtitle, it only uses less fuel."
+	],
 	dependencies: [
 		"9f554103"
 	],

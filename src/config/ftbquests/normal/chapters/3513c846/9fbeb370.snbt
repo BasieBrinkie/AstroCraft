@@ -1,6 +1,11 @@
 {
-	x: -4.0d,
+	title: "Compressable hammers",
+	x: -2.0d,
 	y: 1.0d,
+	description: "Long durability",
+	text: [
+		""
+	],
 	dependencies: [
 		"753f5b3b"
 	],

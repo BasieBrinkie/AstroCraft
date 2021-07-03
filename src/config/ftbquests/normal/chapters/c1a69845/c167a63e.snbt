@@ -1,0 +1,12 @@
+{
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {},
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thermalfoundation:tome_experience",
+		tag: {}
+	},
+	x: -1.0d,
+	y: -2.0d
+}

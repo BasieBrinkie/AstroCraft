@@ -39,7 +39,12 @@ static tempererAdd as int[IItemStack][IItemStack] = {
 	//Oxygen Extractor
 	<thebetweenlands:items_misc:2> * 2: {
 		<minecraft:leaves:0>: 30
-	}
+	},
+
+	//Miner 1
+	<tconstruct:throwball:1>: {
+		<minecraft:tnt:0>: 20
+	},
 
 };
 

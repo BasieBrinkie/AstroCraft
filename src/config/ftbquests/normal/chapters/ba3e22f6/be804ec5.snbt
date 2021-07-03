@@ -1,6 +1,10 @@
 {
-	x: 16.0d,
+	x: 15.5d,
 	y: 1.5d,
+	description: "More Heat",
+	text: [
+		"It outputs more heat and therefore melts items quicker in the crucible"
+	],
 	dependencies: [
 		"9f554103"
 	],

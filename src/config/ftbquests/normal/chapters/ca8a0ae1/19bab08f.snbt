@@ -53,12 +53,19 @@
 	rewards: [{
 		uid: "6ea5ecfe",
 		type: "choice",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:astrostone_3"
+		},
 		auto: "disabled",
 		table: 0
 	},
 	{
 		uid: "91305e6b",
 		type: "choice",
+		title: "Staging Method",
 		auto: "disabled",
 		table: 1
 	}]

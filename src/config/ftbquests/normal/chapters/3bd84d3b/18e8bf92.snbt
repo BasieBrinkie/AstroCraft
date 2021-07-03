@@ -33,7 +33,7 @@
 		uid: "21e100ce",
 		type: "gamestage",
 		auto: "invisible",
-		stage: "professions_one"
+		stage: "planet_asteroids_advanced_resources"
 	},
 	{
 		uid: "f0687b30",

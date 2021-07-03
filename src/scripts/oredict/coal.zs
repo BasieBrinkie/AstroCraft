@@ -29,6 +29,9 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 		<thermalfoundation:material:769>,
 		<thermalfoundation:material:768>,
 	],
+	<ore:coke>: [
+		<thermalfoundation:material:802>,
+	]
 };
 
 /*	-------------------------------------------------

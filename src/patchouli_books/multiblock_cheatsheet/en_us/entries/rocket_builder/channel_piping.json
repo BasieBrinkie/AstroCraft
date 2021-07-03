@@ -1,0 +1,25 @@
+{
+    "name": "Channel Piping",
+    "icon": "tconstruct:channel",
+    "category": "patchouli:rocket_builder",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(w)The channel from tinkers construct can pipe fluids. When connecting the channels right click each piece so it connects together. Alternatively you can select the flow direction by clicking one specific side of the channel. Within the channel a light grey arrow is present to show you the direction of the flow."
+        },
+        {
+            "type": "text",
+            "text": "$(w)To use the channel place at a liquid inventory a faucet. The faucet must be situated at least one block above the channel. Flip the page for an example setup."
+        },
+        {
+            "type": "image",
+            "images": ["astrocraft:book/multiblock_cheatsheet/images/channel_1.png","astrocraft:book/multiblock_cheatsheet/images/channel_2.png","astrocraft:book/multiblock_cheatsheet/images/channel_3.png"],
+            "border": false,
+            "text": "$(w)Example on how to use the channels."
+        },
+        {
+            "type": "text",
+            "text": "$(w)In the third image you can see that the light grey pixels look like an arrow pointing to the right. This indicates that the flow will be from left to right."
+        }
+    ]
+}

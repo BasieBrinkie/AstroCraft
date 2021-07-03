@@ -1,5 +1,5 @@
 {
-	title: "Mining Site 495-IIM - Mining Tools",
+	title: "Mining Tools",
 	icon: {
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {},
@@ -8,6 +8,6 @@
 		id: "minecraft:diamond_pickaxe"
 	},
 	always_invisible: false,
-	group: 325421953,
+	group: -935258453,
 	default_quest_shape: ""
 }

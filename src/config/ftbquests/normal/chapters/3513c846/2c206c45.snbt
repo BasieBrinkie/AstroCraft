@@ -1,12 +1,18 @@
 {
-	x: -2.0d,
-	y: -1.0d,
+	title: "Fortune I",
+	x: -3.0d,
+	y: -2.0d,
+	description: "Better ore yields",
+	text: [
+		"If you apply this enchant onto a tool you will get a much higher yield for each ore mined."
+	],
 	dependencies: [
-		"7fdc5f99"
+		"f62d85a0"
 	],
 	tasks: [{
-		uid: "f66465e8",
+		uid: "2b2c22ad",
 		type: "item",
+		title: "Fortune I",
 		items: [{
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}

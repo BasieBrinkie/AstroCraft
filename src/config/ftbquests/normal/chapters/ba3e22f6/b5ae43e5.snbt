@@ -1,5 +1,5 @@
 {
-	x: 13.0d,
+	x: 12.5d,
 	y: 3.0d,
 	shape: "gear",
 	description: "Better than iron",
@@ -19,5 +19,17 @@
 			id: "mekanism:ingot",
 			Damage: 4s
 		}]
+	}],
+	rewards: [{
+		uid: "26c3ca99",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "miner_one"
+	},
+	{
+		uid: "88d06002",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "mold_maker"
 	}]
 }

@@ -2,9 +2,11 @@
 	x: 8.0d,
 	y: 3.0d,
 	shape: "hexagon",
-	description: "Weirdly enough, wheat does not need oxygen",
+	description: "Weirdly enough, wheat can be made directly from seeds",
 	text: [
-		"TIP: use the worms from actually additions to speed up your farm."
+		"Note you cannot farm in vacuum. You eventually need to learn how make a sealed room with oxygen for farming",
+		"",
+		"TIP: The worms from actually additions can be used later on to speed up your farms."
 	],
 	dependencies: [
 		"9a0c9149",

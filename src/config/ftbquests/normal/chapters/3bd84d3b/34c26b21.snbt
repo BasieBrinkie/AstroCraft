@@ -1,6 +1,10 @@
 {
 	x: 10.0d,
 	y: 4.0d,
+	description: "Longer lasting",
+	text: [
+		"Just an upgrade from the stone grinder."
+	],
 	dependencies: [
 		"e8f6f7a8"
 	],

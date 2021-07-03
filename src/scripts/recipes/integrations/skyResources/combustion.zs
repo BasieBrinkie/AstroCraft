@@ -43,8 +43,8 @@ static combustionAdd as int[IItemStack[]][IItemStack] = {
 		<minecraft:iron_nugget:0> * 3]: 80
 	},	
 	<tconstruct:soil:0>: {[
-		<minecraft:stone:0>, 
-		<minecraft:coal:1>]: 20
+		<minecraft:gravel:0>, 
+		<minecraft:coal:1>]: 60
 	},
 
 	//Rocket Builder
@@ -60,6 +60,14 @@ static combustionAdd as int[IItemStack[]][IItemStack] = {
 		<thermalfoundation:material:199>]: 100
 	},
 
+	//Miner Tools
+	<thermalfoundation:material:16>: {[
+		<minecraft:diamond:0>]: 1500
+	},
+	<minecraft:diamond_pickaxe>.withTag({ench: [{lvl: 1 as short, id: 35}]}): {[
+		<minecraft:diamond_pickaxe:*>,
+		<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 35}]})]: 1200
+	},
 
 	//Oxygen Extractor
 	<skyresources:alchemyitemcomponent:1> * 3: {[

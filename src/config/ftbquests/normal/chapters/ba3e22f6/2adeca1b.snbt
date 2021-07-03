@@ -1,6 +1,11 @@
 {
-	x: 15.0d,
+	title: "Steel tools",
+	x: 14.5d,
 	y: 4.0d,
+	description: "Lasts longer",
+	text: [
+		"Although these tools are a bit thougher to make, they last nearly twice as long as iron gear."
+	],
 	dependencies: [
 		"b5ae43e5"
 	],
@@ -19,21 +24,21 @@
 				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
 			},
-			id: "railcraft:tool_axe_steel"
+			id: "thermalfoundation:tool.axe_steel"
 		},
 		{
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
 			},
-			id: "railcraft:tool_hoe_steel"
+			id: "thermalfoundation:tool.hoe_steel"
 		},
 		{
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
 			},
-			id: "railcraft:tool_shovel_steel"
+			id: "thermalfoundation:tool.shovel_steel"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

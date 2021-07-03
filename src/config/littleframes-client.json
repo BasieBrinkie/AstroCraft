@@ -1,3 +1,4 @@
 {
-  "maxRenderDistance": 10000
+  "maxRenderDistance": 10000,
+  "useVLC": true
 }

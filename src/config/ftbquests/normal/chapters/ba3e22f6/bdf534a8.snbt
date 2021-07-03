@@ -1,6 +1,10 @@
 {
 	x: 7.5d,
-	y: 2.0d,
+	y: 0.5d,
+	description: "Strong, stronger, strongest",
+	text: [
+		"By hardening the wire it gets even more durable"
+	],
 	dependencies: [
 		"6fe6d02a",
 		"6525455c"

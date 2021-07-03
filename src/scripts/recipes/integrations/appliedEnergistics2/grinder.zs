@@ -14,6 +14,12 @@ static grinderAdd as int[IItemStack][IItemStack] = {
 		<thaumcraft:nugget:4>: 3
 	},
 
+	//Miner Tools
+	<minecraft:gunpowder:0>: {
+		<minecraft:flint:0>: 3
+	},
+
+
 	//Professions Stage 1
 	<immersiveengineering:material:17>: {
 		<thermalfoundation:material:802>: 5

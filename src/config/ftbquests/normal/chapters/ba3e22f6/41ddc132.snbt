@@ -1,6 +1,10 @@
 {
-	x: 15.0d,
+	x: 14.5d,
 	y: 1.0d,
+	description: "More efficient and also faster",
+	text: [
+		"Simply creates more items from the same input"
+	],
 	dependencies: [
 		"9f554103"
 	],

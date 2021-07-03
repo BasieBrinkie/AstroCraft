@@ -1,6 +1,10 @@
 {
-	x: 14.0d,
+	x: 13.5d,
 	y: 1.5d,
+	description: "Higher efficiency machines",
+	text: [
+		"New and better combustion chambers, condenser and heat provider can now be made. They have an even higher efficiency compared to their iron counterparts"
+	],
 	dependencies: [
 		"b5ae43e5"
 	],

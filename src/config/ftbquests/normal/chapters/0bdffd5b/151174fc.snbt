@@ -1,48 +1,23 @@
 {
 	x: 4.0d,
 	y: 4.0d,
-	description: "First craftable pipes",
+	description: "First craftable \"pipes\"",
 	text: [
-		"We will work more and more with fluids so pipes might come in handy.",
+		"Some sort of pipes is better than no pipes.",
 		"",
-		"These pipes pump 100 mB/t this means you need 10 exporting interfaces to satisfy its max capacity. ",
-		"",
-		"If you place down a pipe and it doesn't start pumping right away you might need to use the configurator.",
-		"",
-		"- Standard right clicking the pipe makes it respond to redstone signals.",
-		"- Right click + Shift allows you to configure import and output sides"
+		"Check out the entry in the sheet of cheats for more information on how to use these \"pipes\""
 	],
 	dependencies: [
 		"73b2726d"
 	],
 	tasks: [{
-		uid: "0837261a",
+		uid: "f2bb8222",
 		type: "item",
 		items: [{
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			},
-			id: "mekanism:transmitter",
-			tag: {
-				tier: 0
-			},
-			Damage: 1s
+			id: "tconstruct:channel"
 		}]
-	},
-	{
-		uid: "1386ad8a",
-		type: "item",
-		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {
-					AS_Amulet_HolderLeast: -5559831587488555763L,
-					AS_Amulet_HolderMost: 615258918546590343L
-				},
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "mekanism:configurator"
-		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
 	}]
 }

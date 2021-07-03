@@ -1,18 +1,15 @@
 {
-	x: -2.0d,
-	y: 1.0d,
-	dependencies: [
-		"59cd2179"
-	],
+	x: -2.5d,
+	y: -2.0d,
 	tasks: [{
-		uid: "5af14a84",
+		uid: "70188126",
 		type: "item",
 		items: [{
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
 			},
-			id: "excompressum:compressed_crook"
+			id: "mekanism:configurator"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

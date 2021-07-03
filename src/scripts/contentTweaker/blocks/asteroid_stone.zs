@@ -8,7 +8,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.WeightedItemStack;
 
 var astroStone = VanillaFactory.createBlock("astrostone", <blockmaterial:rock>);
-astroStone.setLightOpacity(0);
+astroStone.setLightOpacity(15);
 astroStone.setLightValue(0);
 astroStone.setBlockHardness(0.5);
 astroStone.setBlockResistance(0.4);
@@ -27,7 +27,7 @@ astroStone.setDropHandler(function(drops, world, position, state, fortune) {
 );
 
 var astroStone2 = VanillaFactory.createBlock("astrostone_2", <blockmaterial:rock>);
-astroStone2.setLightOpacity(0);
+astroStone2.setLightOpacity(15);
 astroStone2.setLightValue(0);
 astroStone2.setBlockHardness(0.5);
 astroStone2.setBlockResistance(0.4);
@@ -46,7 +46,7 @@ astroStone2.setDropHandler(function(drops, world, position, state, fortune) {
 );
 
 var astroStone3 = VanillaFactory.createBlock("astrostone_3", <blockmaterial:rock>);
-astroStone3.setLightOpacity(0);
+astroStone3.setLightOpacity(15);
 astroStone3.setLightValue(0);
 astroStone3.setBlockHardness(0.5);
 astroStone3.setBlockResistance(0.4);

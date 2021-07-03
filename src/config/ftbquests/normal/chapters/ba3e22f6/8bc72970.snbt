@@ -1,6 +1,10 @@
 {
-	x: 18.0d,
+	x: 17.0d,
 	y: 3.0d,
+	description: "Stronger saw blades",
+	text: [
+		"Lastly we also now have acces to stronger saw blades."
+	],
 	dependencies: [
 		"9f323268"
 	],

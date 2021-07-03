@@ -72,7 +72,12 @@ static stagedItems as IIngredient[][string] = {
 	],
 	stageMiner1.stage: [
 		<minecraft:anvil:0>,
-		<minecraft:diamond_pickaxe:*>
+		<minecraft:diamond_pickaxe:*>,
+		<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 35}]}),
+		<minecraft:flint:0>,
+		<minecraft:flint_and_steel:0>,
+		<minecraft:gunpowder:0>,
+		<minecraft:tnt:0>,
 	],
 
 	stageEmerald.stage: [

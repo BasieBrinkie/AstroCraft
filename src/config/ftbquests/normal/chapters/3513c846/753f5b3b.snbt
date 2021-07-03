@@ -1,6 +1,11 @@
 {
+	title: "Better Hamers",
 	x: -3.0d,
 	y: 2.0d,
+	description: "But also more expensive",
+	text: [
+		""
+	],
 	dependencies: [
 		"f62d85a0"
 	],

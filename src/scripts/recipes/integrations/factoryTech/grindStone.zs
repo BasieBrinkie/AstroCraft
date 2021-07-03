@@ -1,5 +1,6 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDictEntry;
 
 static grindstoneAdd as bool[IIngredient][IItemStack] = {
 	//Basic Resources
@@ -36,7 +37,7 @@ static grindstoneAdd as bool[IIngredient][IItemStack] = {
 		<minecraft:glass:0>: false
 	},
 	<libvulpes:productnugget:6> * 6: {
-		<ore:ingotSteel>: false
+		<ore:ingotSteelTier1>.firstItem: false
 	},
 };
 

@@ -1,6 +1,13 @@
 {
-	x: -1.0d,
-	y: 2.5d,
+	x: -4.0d,
+	y: 1.0d,
+	description: "Throwable TNT",
+	text: [
+		"By tempering TNT at exactly the right temperature and correct duration it will become explosive on impact"
+	],
+	dependencies: [
+		"c93714de"
+	],
 	tasks: [{
 		uid: "a51668f6",
 		type: "item",

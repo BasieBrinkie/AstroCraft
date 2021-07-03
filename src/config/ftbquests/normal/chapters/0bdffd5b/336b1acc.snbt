@@ -1,0 +1,28 @@
+{
+	title: "Blueprint Antenna Tier 1",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "modularmachinery:itemblueprint",
+		tag: {
+			dynamicmachine: "modularmachinery:antenna_tier_1"
+		}
+	},
+	x: 4.0d,
+	y: -3.5d,
+	description: "Lets scan the universe",
+	text: [
+		"We need to build an antenna to scan the area around you for data about the planets in the neighbourhood.",
+		"additionally we can try reaching the mining corp for rescue. ",
+		"",
+		"Search in JEI for \"Antenna tier 1\" for the blueprint for this structure doesn't need to be inserted in order to work. ",
+		"Note that there will come machines that do require the blueprints to be inserted later on in the game.",
+		"",
+		"The antenna requires 5 minutes to scan the environment."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"5a24c14e"
+	]
+}

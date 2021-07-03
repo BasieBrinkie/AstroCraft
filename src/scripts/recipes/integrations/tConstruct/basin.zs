@@ -19,14 +19,6 @@ static basinAddConsume as int[int][ILiquidStack][IIngredient][IItemStack] = {
 			}
 		}
 	},
-	//Asteroids Advanced Resources
-	<mekanism:basicblock:5>: {
-		<contenttweaker:astro_ice:0>: {
-			<liquid:steel>: {
-				1296: 300
-			}
-		}
-	},
 };
 
 static basinAdd as int[int][ILiquidStack][IIngredient][IItemStack] = {

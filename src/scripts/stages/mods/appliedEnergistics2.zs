@@ -9,6 +9,9 @@ static stagedItems as IIngredient[][string] = {
 		<appliedenergistics2:grindstone:0>
 	],
 
+	stageMiner1.stage: [
+		<appliedenergistics2:sky_compass:0>
+	],
 
 	//Item Stages
 	itemAE2MEChest.stage: [

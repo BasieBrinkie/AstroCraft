@@ -46,4 +46,16 @@
 			<itemStack>libvulpes:productplate 3 1</itemStack>
 		</output>
 	</Recipe>
+
+	<!-->
+		Advanced Resources
+	<!-->
+	<Recipe timeRequired="0" power="0">
+		<input>
+			<oreDict>blockSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>libvulpes:productplate 6 1</itemStack>
+		</output>
+	</Recipe>
 </Recipes>

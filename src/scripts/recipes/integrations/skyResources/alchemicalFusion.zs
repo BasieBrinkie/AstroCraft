@@ -27,9 +27,9 @@ static fusionAdd as float[IItemStack[]][IItemStack] = {
 	},
 
 	//Professions Stage 1
-	<minecraft:magma:0>: {[
+	<minecraft:magma:0> * 4: {[
 		<nuclearcraft:uranium:10>,
-		<minecraft:cobblestone:0> * 4]: 0.5
+		<minecraft:cobblestone:0> * 32]: 0.5
 	},
 };
 

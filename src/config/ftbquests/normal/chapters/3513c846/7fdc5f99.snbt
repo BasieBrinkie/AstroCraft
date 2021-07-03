@@ -1,8 +1,14 @@
 {
-	x: -3.0d,
-	y: -2.0d,
+	x: -2.0d,
+	y: -1.0d,
+	description: "Can be used to combine tools and enchants",
+	text: [
+		"Put the enchant and the tool in the ancil and retrieve the enchanted item",
+		"",
+		"If you are in an environment where XP is scarce you could also apply the enchant via the combustion chamber (check JEI)"
+	],
 	dependencies: [
-		"f62d85a0"
+		"2c206c45"
 	],
 	tasks: [{
 		uid: "ac060bfb",

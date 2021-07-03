@@ -6,7 +6,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.WeightedItemStack;
 
 var astroIce = VanillaFactory.createBlock("astro_ice", <blockmaterial:ice>);
-astroIce.setLightOpacity(0);
+astroIce.setLightOpacity(5);
 astroIce.setLightValue(0);
 astroIce.setBlockHardness(5.0);
 astroIce.setBlockResistance(5.0);

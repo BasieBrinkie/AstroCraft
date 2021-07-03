@@ -5,7 +5,7 @@
 		},
 		id: "factorytech:agitator"
 	},
-	x: 5.0d,
+	x: 2.0d,
 	y: 0.5d,
 	tasks: [{
 		uid: "3b29861f",
@@ -17,5 +17,11 @@
 		type: "gamestage",
 		auto: "no_toast",
 		stage: "liquid_lava"
+	},
+	{
+		uid: "7ad2fadf",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "tools_steel"
 	}]
 }

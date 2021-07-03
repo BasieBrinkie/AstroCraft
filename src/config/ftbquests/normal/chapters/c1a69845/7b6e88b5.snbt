@@ -40,13 +40,13 @@
 		uid: "208a0ebd",
 		type: "gamestage",
 		auto: "no_toast",
-		stage: "item_ae2_me_chest"
+		stage: "item_ae_me_chest"
 	},
 	{
 		uid: "edae9dc7",
 		type: "gamestage",
 		auto: "no_toast",
-		stage: "item_ae2_1k_disk"
+		stage: "item_ae_one_k_disk"
 	},
 	{
 		uid: "3fc43d69",

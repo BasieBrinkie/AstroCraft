@@ -9,8 +9,16 @@ static stagedItems as IIngredient[][string] = {
 		<thermalfoundation:material:199>,
 	],
 	stageAsteroidsAdvancedResources.stage: [
+		<thermalfoundation:material:135>,
 		<thermalfoundation:material:802>,
 	],
+
+	toolsSteel.stage: [
+		<thermalfoundation:tool.axe_steel:*>,
+		<thermalfoundation:tool.hoe_steel:*>,
+		<thermalfoundation:tool.pickaxe_steel:*>,
+		<thermalfoundation:tool.shovel_steel:*>,
+	]
 };
 
 static disabledItems as IIngredient[] = [

@@ -28,23 +28,24 @@
         "patchouli:asteroids/basic_resources/combustion_heater",
         "patchouli:asteroids/dawn_of_a_new_age/charcoalpit",
         "patchouli:asteroids/dawn_of_a_new_age/press",
-        "patchouli:asteroids/advanced_resources/bloomery"
+        "patchouli:asteroids/advanced_resources/bloomery",
+        "patchouli:rocket_builder/channel_piping"
       ],
       "bookmarks": [],
       "history": [
+        "patchouli:asteroids/basic_resources/combustion_heater",
+        "patchouli:wiki_manuals/factorytech",
         "patchouli:asteroids/advanced_resources/bloomery",
+        "patchouli:rocket_builder/channel_piping",
+        "patchouli:wiki_manuals/charcoal_pit",
+        "patchouli:wiki_manuals/advanced_rocketry",
         "patchouli:wiki_manuals/skyresources",
         "patchouli:asteroids/dawn_of_a_new_age/press",
         "patchouli:asteroids/dawn_of_a_new_age/charcoalpit",
-        "patchouli:asteroids/basic_resources/combustion_heater",
-        "patchouli:wiki_manuals/factorytech",
         "patchouli:keybinds/advanced_rocketry/rcs_mode",
         "patchouli:basic_resources/combustion_heater",
         "patchouli:dawn_of_a_new_age/press",
-        "patchouli:wiki_manuals/advanced_rocketry",
-        "patchouli:dawn_of_a_new_age/charcoalpit",
-        "patchouli:wiki_manuals/charcoal_pit",
-        "patchouli:wiki_manuals/advancedrocketry"
+        "patchouli:dawn_of_a_new_age/charcoalpit"
       ],
       "completedManualQuests": []
     },
@@ -89,6 +90,16 @@
       "completedManualQuests": []
     },
     "patchouli:personal_diary": {
+      "viewedEntries": [
+        "patchouli:rocket_crash"
+      ],
+      "bookmarks": [],
+      "history": [
+        "patchouli:rocket_crash"
+      ],
+      "completedManualQuests": []
+    },
+    "patchouli:galactic_map": {
       "viewedEntries": [
         "patchouli:rocket_crash"
       ],
