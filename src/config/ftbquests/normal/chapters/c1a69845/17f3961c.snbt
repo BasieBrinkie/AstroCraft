@@ -17,11 +17,5 @@
 		type: "gamestage",
 		auto: "no_toast",
 		stage: "modular_machinery_tier_one"
-	},
-	{
-		uid: "d10dd61e",
-		type: "gamestage",
-		auto: "no_toast",
-		stage: "blueprint_antenna_tier_one"
 	}]
 }

@@ -1,17 +1,15 @@
 {
-	x: 0.0d,
-	y: 3.0d,
-	dependencies: [
-		"ae6d182c"
-	],
+	x: 2.0d,
+	y: -4.0d,
 	tasks: [{
-		uid: "40c4e0fc",
+		uid: "b5d6a7e2",
 		type: "item",
 		items: [{
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			},
-			id: "minecraft:trapdoor"
+			id: "immersiveengineering:wirecoil",
+			Damage: 2s
 		}]
 	}]
 }

@@ -67,6 +67,7 @@ function initRecipes() {
 	scripts.recipes.vanillaCraftingTables.mods.pneumaticCraft.init();
 	scripts.recipes.vanillaCraftingTables.mods.skyResources.init();
 	scripts.recipes.vanillaCraftingTables.mods.tConstruct.init();
+	scripts.recipes.vanillaCraftingTables.mods.techGuns.init();
 	scripts.recipes.vanillaCraftingTables.mods.theBetweenLands.init();
 	scripts.recipes.vanillaCraftingTables.mods.thermalFoundation.init();
 	scripts.recipes.vanillaCraftingTables.mods.xtones.init();
@@ -109,6 +110,9 @@ function initIntegrations() {
 	scripts.recipes.integrations.factoryTech.metalCutter.init();
 	scripts.recipes.integrations.factoryTech.refrigerator.init();
 	scripts.recipes.integrations.factoryTech.temperer.init();
+
+	scripts.recipes.integrations.modularMachinery.antenna_tier_1.init();
+	scripts.recipes.integrations.modularMachinery.asteroid_miner_tier_1.init();
 
 	scripts.recipes.integrations.skyResources.alchemicalFusion.init();
 	scripts.recipes.integrations.skyResources.catalysts.init();
@@ -211,7 +215,9 @@ function initOredict() {
 	scripts.oredict.mods.chiselsAndBits.init();
 	scripts.oredict.mods.exNihiloCreatio.init();
 	scripts.oredict.mods.factoryTech.init();
+	scripts.oredict.mods.immersiveEngineering.init();
 	scripts.oredict.mods.matterOverdrive.init();
+	scripts.oredict.mods.mekanism.init();
 	scripts.oredict.mods.skyResources.init();
 }
 

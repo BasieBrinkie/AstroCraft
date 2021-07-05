@@ -72,6 +72,7 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static disabledItems as IIngredient[] = [
+	<factorytech:autocrafter:0>,
 	<factorytech:autominer:0>,
 	<factorytech:autopuller:0>,
 	<factorytech:batterygen:0>,

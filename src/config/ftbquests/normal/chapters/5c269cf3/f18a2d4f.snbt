@@ -1,0 +1,22 @@
+{
+	x: -2.0d,
+	y: 2.0d,
+	description: "Required for output the asteroid miner",
+	text: [
+		"This asteroid miner needs two of these normal item outputs"
+	],
+	dependencies: [
+		"88d9c834"
+	],
+	tasks: [{
+		uid: "02a6a152",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "modularmachinery:blockoutputbus",
+			Damage: 2s
+		}]
+	}]
+}

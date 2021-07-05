@@ -4,7 +4,7 @@
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
 		},
-		id: "factorytech:autocrafter"
+		id: "excompressum:auto_compressor"
 	},
 	always_invisible: false,
 	group: -686441514,

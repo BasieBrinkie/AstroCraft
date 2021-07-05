@@ -35,6 +35,9 @@ static crucibleAdd as IItemStack[][ILiquidStack] = {
 
 	<liquid:copper> * 12: [<mekanism:nugget:5>, <immersiveengineering:metal:20>, <factorytech:ore_dust:4>],
 	<liquid:copper> * 432: [<mekanism:clump:3>, <tconstruct:shard>.withTag({Material: "copper"})],
+
+	//Decorator
+	<liquid:glass> * 1296: [<minecraft:glass:0>]
 };
 
 /*	

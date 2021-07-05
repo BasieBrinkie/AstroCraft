@@ -28,6 +28,20 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:plateIron>, <ore:blockSteel>, <ore:plateIron>]
         ]
     ],
+	<modularmachinery:blockenergyinputhatch:2>: [
+		[
+			[<ore:plateIron>, <ore:blockSteel>, <ore:plateIron>],
+			[<ore:plateIron>, <modularmachinery:blockenergyinputhatch:0>, <ore:plateIron>],
+			[<ore:plateIron>, <ore:blockSteel>, <ore:plateIron>]
+		]
+	],
+    <modularmachinery:blockoutputbus:2>: [
+        [
+			[<ore:plateIron>, <ore:blockSteel>, <ore:plateIron>],
+			[<ore:plateIron>, <factorytech:crate:0>, <ore:plateIron>],
+			[<ore:plateIron>, <ore:blockSteel>, <ore:plateIron>]
+        ]
+    ],
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {

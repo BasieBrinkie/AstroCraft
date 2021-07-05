@@ -33,6 +33,9 @@ static stagedItems as IIngredient[][string] = {
 		<advancedrocketry:spacestationchip:0>,
 		<advancedrocketry:stationbuilder:0>,
 		<advancedrocketry:structuretower:0>
+	],
+	advancedRocketryMultiblock.stage: [
+		<advancedrocketry:misc:0>,
 	]
 };
 

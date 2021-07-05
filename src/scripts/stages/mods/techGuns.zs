@@ -6,6 +6,10 @@ import mods.zenstages.Stage;
 static stagedItems as IIngredient[][string] = {
 	stageAsteroidsAdvancedResources.stage: [
 		<techguns:basicore:4>,
+	],
+	stageMiner1.stage: [
+		<techguns:explosive_charge:0>,
+		<techguns:explosive_charge:1>,
 	]
 };
 

@@ -1,6 +1,6 @@
 {
-	x: -2.0d,
-	y: -1.0d,
+	x: 0.0d,
+	y: 0.0d,
 	description: "Can be used to combine tools and enchants",
 	text: [
 		"Put the enchant and the tool in the ancil and retrieve the enchanted item",

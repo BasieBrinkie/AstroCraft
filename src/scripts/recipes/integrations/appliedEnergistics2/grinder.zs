@@ -19,9 +19,8 @@ static grinderAdd as int[IItemStack][IItemStack] = {
 		<minecraft:flint:0>: 3
 	},
 
-
-	//Professions Stage 1
-	<immersiveengineering:material:17>: {
+	//Advanced Resources
+	<immersiveengineering:material:17> * 2: {
 		<thermalfoundation:material:802>: 5
 	},
 

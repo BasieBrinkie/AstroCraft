@@ -7,6 +7,13 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
+	<mekanism:machineblock2:11>.withTag({tier: 0}): [
+		[
+			[<ore:stickAluminum>, <ore:plateIron>, <ore:stickAluminum>],
+			[<ore:stickAluminum>, <ore:blockGlass>, <ore:stickAluminum>],
+			[<ore:stickAluminum>, <ore:plateIron>, <ore:stickAluminum>]
+		]
+	],
 	<mekanism:transmitter:1>.withTag({tier: 0}) * 4: [
 		[
 			[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
@@ -14,11 +21,11 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]
 		]
 	],
-	<mekanism:machineblock2:11>.withTag({tier: 0}): [
+	<mekanism:transmitter:3>.withTag({tier: 0}): [
 		[
-			[<ore:stickAluminum>, <ore:plateIron>, <ore:stickAluminum>],
-			[<ore:stickAluminum>, <ore:blockGlass>, <ore:stickAluminum>],
-			[<ore:stickAluminum>, <ore:plateIron>, <ore:stickAluminum>]
+			[],
+			[],
+			[]
 		]
 	],
 };

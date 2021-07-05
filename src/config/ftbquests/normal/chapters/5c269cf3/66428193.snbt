@@ -2,13 +2,13 @@
 	x: 0.0d,
 	y: 0.0d,
 	tasks: [{
-		uid: "4fb26671",
+		uid: "fdecdae1",
 		type: "item",
 		items: [{
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			},
-			id: "factorytech:autocrafter"
+			id: "excompressum:auto_compressor"
 		}]
 	}]
 }

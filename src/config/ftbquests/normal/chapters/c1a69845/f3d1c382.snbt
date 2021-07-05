@@ -5,7 +5,7 @@
 		},
 		id: "tconstruct:cast_custom"
 	},
-	x: 3.0d,
+	x: 1.0d,
 	y: 2.5d,
 	tasks: [{
 		uid: "028650a2",

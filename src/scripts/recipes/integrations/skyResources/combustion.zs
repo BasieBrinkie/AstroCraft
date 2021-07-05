@@ -47,6 +47,12 @@ static combustionAdd as int[IItemStack[]][IItemStack] = {
 		<minecraft:coal:1>]: 60
 	},
 
+	//Asteroids Automater
+	<advancedrocketry:blastbrick:0>: {[
+		<minecraft:stonebrick:0> * 8,
+		<actuallyadditions:item_crystal_shard:0>]: 880
+	},
+
 	//Rocket Builder
 	<exnihilocreatio:item_ore_aluminum:0>: {[
 		<exnihilocreatio:item_ore_aluminum:1>,
@@ -65,9 +71,10 @@ static combustionAdd as int[IItemStack[]][IItemStack] = {
 		<minecraft:diamond:0>]: 1500
 	},
 	<minecraft:diamond_pickaxe>.withTag({ench: [{lvl: 1 as short, id: 35}]}): {[
-		<minecraft:diamond_pickaxe:*>,
+		<minecraft:diamond_pickaxe:0>,
 		<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 35}]})]: 1200
 	},
+
 
 	//Oxygen Extractor
 	<skyresources:alchemyitemcomponent:1> * 3: {[

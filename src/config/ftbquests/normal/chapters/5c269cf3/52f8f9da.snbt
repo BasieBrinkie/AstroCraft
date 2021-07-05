@@ -1,0 +1,21 @@
+{
+	x: -1.0d,
+	y: -2.0d,
+	dependencies: [
+		"12bbafb9"
+	],
+	tasks: [{
+		uid: "8ed8926e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 0
+			},
+			Damage: 3s
+		}]
+	}]
+}

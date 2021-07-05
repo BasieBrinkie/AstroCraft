@@ -1,22 +1,21 @@
 {
-	x: -4.0d,
-	y: 1.0d,
-	description: "Throwable TNT",
+	x: -3.0d,
+	y: -3.0d,
+	description: "TNT that works in vacuum",
 	text: [
-		"By tempering TNT at exactly the right temperature and correct duration it will become explosive on impact"
+		"By tempering TNT at exactly the right temperature and correct duration it will sensitive to vibrations that can make the tnt explode."
 	],
 	dependencies: [
 		"c93714de"
 	],
 	tasks: [{
-		uid: "a51668f6",
+		uid: "4f60562b",
 		type: "item",
 		items: [{
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			},
-			id: "tconstruct:throwball",
-			Damage: 1s
+			id: "techguns:explosive_charge"
 		}]
 	}]
 }

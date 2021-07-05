@@ -13,13 +13,24 @@ static stagedItems as IIngredient[][string] = {
         <modularmachinery:blockinputbus:0>,
         <modularmachinery:blockoutputbus:0>,
 	],
-    bluePrintAntennaTier1.stage: [
+    modularMachineryTier2.stage: [
+        <modularmachinery:blockenergyinputhatch:2>,
+        <modularmachinery:blockenergyoutputhatch:2>,
+        <modularmachinery:blockfluidoutputhatch:2>,
+        <modularmachinery:blockinputbus:2>,
+        <modularmachinery:blockoutputbus:2>,
+    ],
+    stageRocketBuilder.stage: [
         <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:antenna_tier_1"})
-    ]
+    ],
 };
 
 static disabledItems as IIngredient[] = [
-	<mekanism:basicblock:3>
+	    <modularmachinery:blockenergyinputhatch:1>,
+        <modularmachinery:blockenergyoutputhatch:1>,
+        <modularmachinery:blockfluidoutputhatch:1>,
+        <modularmachinery:blockinputbus:1>,
+        <modularmachinery:blockoutputbus:1>,
 ];
 
 function init() {

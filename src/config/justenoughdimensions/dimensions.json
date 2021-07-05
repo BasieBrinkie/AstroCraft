@@ -17,6 +17,7 @@
         "WorldProviderOverride": "zmaster587.advancedRocketry.world.provider.WorldProviderAsteroid"
       },
       "worldinfo_onetime": {
+        "DayTime": 8000,
         "GameRules": {
           "fallDamageMultiplier": "0",
           "doWeatherCycle": false,

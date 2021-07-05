@@ -1,0 +1,38 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "modularmachinery:itemblueprint",
+		tag: {
+			dynamicmachine: "modularmachinery:asteroid_miner_tier_1"
+		}
+	},
+	x: -2.0d,
+	y: 0.5d,
+	description: "Automatic miner in the asteroid fields",
+	text: [
+		"You simply input power and the miner will become active.",
+		"Check JEI for the predicted output of the miner",
+		"",
+		"Although you can technically use a small item output you need to use at least 9 output slots for the miner to work."
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "ba89e324",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:asteroid_miner_tier_1"
+			}
+		}]
+	},
+	{
+		uid: "427b63a4",
+		type: "checkmark"
+	}]
+}

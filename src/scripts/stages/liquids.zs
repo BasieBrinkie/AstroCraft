@@ -23,6 +23,9 @@ static stagedLiquids as ILiquidStack[][string] = {
 		<liquid:lava>,
 		<liquid:water>,
 	],
+	stageDecorator.stage: [
+		<liquid:glass>
+	],
 	stageProfessionsStage1.stage: [
 	],
 

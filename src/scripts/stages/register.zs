@@ -154,6 +154,9 @@ global liquidLava as Stage = ZenStager.initStage("liquid_lava");
 	Specific Item Stages.
 	---------------------
 */
+//Advanced Rocketry
+global advancedRocketryMultiblock as Stage = ZenStager.initStage("advanced_rocketry_multiblock");
+
 //AE 2
 global itemAE2MEChest as Stage = ZenStager.initStage("item_ae_me_chest");
 global itemAE21KDisk as Stage = ZenStager.initStage("item_ae_one_k_disk");
@@ -163,8 +166,7 @@ global itemAtumBeacon as Stage = ZenStager.initStage("item_atum_beacon");
 
 //Modular Machinery
 global modularMachineryTier1 as Stage = ZenStager.initStage("modular_machinery_tier_one");
-global bluePrintAntennaTier1 as Stage = ZenStager.initStage("blueprint_antenna_tier_one");
-
+global modularMachineryTier2 as Stage = ZenStager.initStage("modular_machinery_tier_two");
 /*
 	------------
 	Misc Stages.

@@ -6,11 +6,18 @@ import mods.zenstages.Stage;
 static stagedItems as IIngredient[][string] = {
 	stageRocketBuilder.stage: [
 		<libvulpes:coalgenerator:0>,
+		<libvulpes:holoprojector:0>,
 		<libvulpes:linker:0>
-	]
+	],
+	advancedRocketryMultiblock.stage: [
+		<libvulpes:forgepowerinput:0>,
+		<libvulpes:hatch:0>,
+		<libvulpes:hatch:1>,
+	],
 };
 
 static disabledItems as IIngredient[] = [
+	<libvulpes:coil0:2>,
 	<libvulpes:productdust:0>,
 	<libvulpes:productdust:1>,
 	<libvulpes:productdust:2>,

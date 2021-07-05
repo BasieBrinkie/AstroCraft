@@ -33,6 +33,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <tconstruct:materials:0>, null]
 		]
 	],
+	<tconstruct:throwball:1>: [
+		[
+			[null, <immersiveengineering:material:17>, null],
+			[<immersiveengineering:material:17>, <techguns:explosive_charge:1>, <immersiveengineering:material:17>],
+			[null, <immersiveengineering:material:17>, null]
+		]
+	],
 	<tconstruct:tooltables:0>: [
 		[
 			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],

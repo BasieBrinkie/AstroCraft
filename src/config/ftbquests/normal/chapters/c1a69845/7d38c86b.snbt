@@ -1,0 +1,21 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "excompressum:auto_compressor"
+	},
+	x: 3.0d,
+	y: 0.5d,
+	tasks: [{
+		uid: "a9155766",
+		type: "gamestage",
+		stage: "planet_asteroids_automater"
+	}],
+	rewards: [{
+		uid: "627e46a6",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "advanced_rocketry_multiblock"
+	}]
+}

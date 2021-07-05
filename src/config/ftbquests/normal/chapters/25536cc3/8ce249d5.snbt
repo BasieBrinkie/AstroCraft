@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: -5.0d,
+	tasks: [{
+		uid: "ccad3d85",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:connector"
+		}]
+	}]
+}

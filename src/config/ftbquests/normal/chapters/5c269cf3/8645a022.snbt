@@ -1,0 +1,21 @@
+{
+	x: -4.0d,
+	y: 0.0d,
+	description: "Runs on electricity instead of coal",
+	text: [
+		"The Electric Arc Furnace is much easier to automate compared to the bloomery.	"
+	],
+	dependencies: [
+		"d03d1109"
+	],
+	tasks: [{
+		uid: "dece7ccb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:arcfurnace"
+		}]
+	}]
+}

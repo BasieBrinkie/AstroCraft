@@ -7,6 +7,13 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
+	<advancedrocketry:arcfurnace:0>: [
+		[
+			[<advancedrocketry:blastbrick:0>, <advancedrocketry:blastbrick:0>, <advancedrocketry:blastbrick:0>],
+			[<advancedrocketry:blastbrick:0>, <advancedrocketry:misc:0>, <advancedrocketry:blastbrick:0>],
+			[<advancedrocketry:blastbrick:0>, <advancedrocketry:blastbrick:0>, <advancedrocketry:blastbrick:0>]
+		]
+	],
 	<advancedrocketry:fuelingstation:0>: [
 		[
 			[null, <ore:ingotAluminum>, null],
@@ -46,6 +53,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <ore:plateIron>, null],
 			[<ore:plateIron>, <minecraft:chest:0>, <ore:plateIron>],
 			[null, <ore:plateIron>, null]
+		]
+	],
+	<advancedrocketry:misc:0>: [
+		[
+			[<minecraft:glass_pane>, <minecraft:glass_pane>, <minecraft:glass_pane>],
+			[<ore:dustIron>, <ore:dustIron>, <ore:dustIron>],
+			[null, <factorytech:circuit_intermediate:1>, null]
 		]
 	],
 	<advancedrocketry:platepress:0>: [

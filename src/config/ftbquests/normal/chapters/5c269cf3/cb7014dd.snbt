@@ -1,0 +1,22 @@
+{
+	x: -5.5d,
+	y: 1.5d,
+	description: "Outputs the items produced by multiblocks",
+	text: [
+		""
+	],
+	dependencies: [
+		"8645a022"
+	],
+	tasks: [{
+		uid: "8b1949ae",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "libvulpes:hatch",
+			Damage: 1s
+		}]
+	}]
+}

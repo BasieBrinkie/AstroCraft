@@ -27,5 +27,10 @@
         "mekanism:basicblock@5",
         "modularmachinery:blockenergyinputhatch",
         "modularmachinery:blockoutputbus"
+    ],
+    "casings_asteroid_miner_tier_1": [
+        "mekanism:basicblock@5",
+        "modularmachinery:blockenergyinputhatch",
+        "modularmachinery:blockoutputbus"
     ]
 }

@@ -1,6 +1,6 @@
 {
-	x: -5.0d,
-	y: 0.0d,
+	x: -3.0d,
+	y: -1.5d,
 	description: "Explosive Mining",
 	text: [
 		"You can mine ores by simply exploding the rocks around it. Place the tnt tactfully around the ores so you don't lose too much yield. ",

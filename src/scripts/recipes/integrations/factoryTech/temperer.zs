@@ -42,7 +42,7 @@ static tempererAdd as int[IItemStack][IItemStack] = {
 	},
 
 	//Miner 1
-	<tconstruct:throwball:1>: {
+	<techguns:explosive_charge:0>: {
 		<minecraft:tnt:0>: 20
 	},
 

@@ -89,6 +89,9 @@ static stagedItems as IIngredient[][string] = {
 	stageBasicKnowledgeDecorator.stage: [
 		<minecraft:clay:0>
 	],
+	stageDecorator.stage: [
+		<minecraft:glass_pane:0>
+	],
 	stageDecoration1Enable.stage: [
 		<minecraft:planks:1>,
 		<minecraft:planks:2>,

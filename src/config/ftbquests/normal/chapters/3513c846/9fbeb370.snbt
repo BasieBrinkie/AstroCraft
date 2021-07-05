@@ -1,7 +1,7 @@
 {
 	title: "Compressable hammers",
-	x: -2.0d,
-	y: 1.0d,
+	x: -3.0d,
+	y: 3.0d,
 	description: "Long durability",
 	text: [
 		""

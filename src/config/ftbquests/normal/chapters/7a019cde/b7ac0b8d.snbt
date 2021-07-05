@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: 2.0d,
+	dependencies: [
+		"ae6d182c"
+	],
+	tasks: [{
+		uid: "c1e3517c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:glass_pane"
+		}]
+	}]
+}

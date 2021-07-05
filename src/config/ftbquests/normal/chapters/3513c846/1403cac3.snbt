@@ -1,6 +1,6 @@
 {
-	x: -4.0d,
-	y: -1.0d,
+	x: -4.5d,
+	y: -1.5d,
 	description: "Works better than a fire starter",
 	text: [
 		"Sadly it doesn't work in every environment such as vacuum"

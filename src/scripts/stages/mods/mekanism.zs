@@ -7,7 +7,7 @@ static stagedItems as IIngredient[][string] = {
 	stageAsteroidsResources1.stage: [
 		<mekanism:sawdust:0>
 	],
-	stageRocketBuilder.stage: [
+	stageAsteroidsAutomater.stage: [
 		<mekanism:configurator:0>
 	],
 	stageAsteroidsAdvancedResources.stage: [

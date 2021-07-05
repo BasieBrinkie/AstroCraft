@@ -1,0 +1,12 @@
+{
+	title: "Basic Power Generation",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "immersiveengineering:wirecoil"
+	},
+	always_invisible: false,
+	group: -658887791,
+	default_quest_shape: ""
+}

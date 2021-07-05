@@ -1,0 +1,14 @@
+{
+	x: -2.5d,
+	y: -1.0d,
+	tasks: [{
+		uid: "69b00fed",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "nuclearcraft:solar_panel_basic"
+		}]
+	}]
+}
