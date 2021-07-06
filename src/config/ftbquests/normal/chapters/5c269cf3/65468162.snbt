@@ -1,0 +1,24 @@
+{
+	x: -9.5d,
+	y: 0.0d,
+	description: "Better kind of steel",
+	text: [
+		"For tier 2 steel we need to reheat the clump in the temperer. This time you need to heat it for 50 game ticks. ",
+		"This means you need to tinker with repeaters from the questline simple logic systems to create a pulse extender. ",
+		"",
+		"After you made a hot steel clump you need to dip it into a barrel of water"
+	],
+	dependencies: [
+		"8645a022"
+	],
+	tasks: [{
+		uid: "aa1f2cc9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "icbmclassic:clump"
+		}]
+	}]
+}

@@ -20,8 +20,11 @@ static stagedItems as IIngredient[][string] = {
         <modularmachinery:blockinputbus:2>,
         <modularmachinery:blockoutputbus:2>,
     ],
-    stageRocketBuilder.stage: [
+    stageBasicRocketBuilder.stage: [
         <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:antenna_tier_1"})
+    ],
+    stageAsteroidsAutomater.stage: [
+        <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:asteroid_miner_tier_1"})
     ],
 };
 

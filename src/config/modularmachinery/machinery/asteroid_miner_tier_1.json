@@ -1,6 +1,6 @@
 {
     "registryname": "asteroid_miner_tier_1",
-    "localizedname": "Asteroid Miner Tier 1",
+    "localizedname": "Asteroid Miner - Tier 1",
     "requires-blueprint": false,
     "color": "878787",
     "parts": [
@@ -17,7 +17,8 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "casings_asteroid_miner_tier_1"
+                "casings_itemOut_energyIn",
+                "mekanism:basicblock@5"
             ]
         },
         {
@@ -41,7 +42,8 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "casings_asteroid_miner_tier_1"
+                "casings_itemOut_energyIn",
+                "mekanism:basicblock@5"
             ]
         },
         {
@@ -289,7 +291,8 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "casings_asteroid_miner_tier_1"
+                "casings_itemOut_energyIn",
+                "mekanism:basicblock@5"
             ]
         },
         {
@@ -313,7 +316,8 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "casings_asteroid_miner_tier_1"
+                "casings_itemOut_energyIn",
+                "mekanism:basicblock@5"
             ]
         },
         {
@@ -361,7 +365,8 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "casings_asteroid_miner_tier_1"
+                "casings_itemOut_energyIn",
+                "mekanism:basicblock@5"
             ]
         },
         {
@@ -481,7 +486,8 @@
             "y": 2,
             "z": 3,
             "elements": [
-                "casings_asteroid_miner_tier_1"
+                "casings_itemOut_energyIn",
+                "mekanism:basicblock@5"
             ]
         },
         {
@@ -521,7 +527,8 @@
             "y": 2,
             "z": 3,
             "elements": [
-                "casings_asteroid_miner_tier_1"
+                "casings_itemOut_energyIn",
+                "mekanism:basicblock@5"
             ]
         },
         {

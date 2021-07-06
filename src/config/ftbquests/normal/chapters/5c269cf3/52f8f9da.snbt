@@ -1,6 +1,10 @@
 {
 	x: -1.0d,
 	y: -2.0d,
+	description: "Transports items",
+	text: [
+		"Shift-right click the start or end of the transporter to change whether it must pull or push items"
+	],
 	dependencies: [
 		"12bbafb9"
 	],

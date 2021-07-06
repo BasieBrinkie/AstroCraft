@@ -8,6 +8,11 @@ static stagedItems as IIngredient[][string] = {
 		<excompressum:wooden_crucible:0>,
 	],
 
+	stageAsteroidsAutomater.stage: [
+		<excompressum:auto_compressor:0>,
+		<excompressum:auto_compressor_rationing:0>
+	],
+
 	stageMiner1.stage: [
 		<excompressum:compressed_hammer_diamond:*>,
 		<excompressum:compressed_hammer_iron:*>,

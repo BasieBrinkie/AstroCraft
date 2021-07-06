@@ -4,7 +4,7 @@ import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
 static stagedItems as IIngredient[][string] = {
-	stageBasicKnowledgeDecorator.stage: [
+	stageBasicDecorator.stage: [
 		<chisel:chisel_iron>,
 		<chisel:chisel_diamond>,
 		<chisel:planks-oak:0>,
@@ -14,7 +14,7 @@ static stagedItems as IIngredient[][string] = {
 		<chisel:planks-acacia:0>,
 		<chisel:planks-dark-oak:0>
 	],
-	stageDecoration1Enable.stage: [
+	stageBasicDecorator.stage: [
 		<chisel:planks-oak:1>,
 		<chisel:planks-oak:2>,
 		<chisel:planks-oak:3>,

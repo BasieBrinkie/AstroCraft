@@ -7,7 +7,7 @@
 		id: "minecraft:milk_bucket"
 	},
 	x: -6.0d,
-	y: 5.0d,
+	y: 3.5d,
 	tasks: [{
 		uid: "e745cc92",
 		type: "gamestage",

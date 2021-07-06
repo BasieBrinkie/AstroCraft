@@ -9,6 +9,12 @@
 				"customnpcs:itemscripteddata": {}
 			},
 			id: "excompressum:auto_compressor"
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "excompressum:auto_compressor_rationing"
 		}]
 	}]
 }

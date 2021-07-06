@@ -40,40 +40,32 @@ global stageSpawnItems as Stage = ZenStager.initStage("spawn_items");
 */
 global bookPersonalDiary as Stage = ZenStager.initStage("book_personal_diary");
 global bookMultiblockCheatsheet as Stage = ZenStager.initStage("book_multiblock_cheatsheet");
-global bookGalacticExplorationData as Stage = ZenStager.initStage("book_galactic_exploration_data");
+
 /*
 	----------------------
-	Progression Stages: 0.
+	Basic Knowledge
 	----------------------
 */
-global stageRocketBuilder as Stage = ZenStager.initStage("rocket_builder");
-global stageBasicKnowledgeDecorator as Stage = ZenStager.initStage("basic_decorator");
-global stageBasicKnowledgeOxygen as Stage = ZenStager.initStage("basic_oxygen");
-global stageNuclearManagement as Stage = ZenStager.initStage("nuclear_management");
-global stageLogicalSystems1 as Stage = ZenStager.initStage("logical_systems_one");
+global stageBasicDecorator as Stage = ZenStager.initStage("basic_decorator");
 global stageBasicFuelRefinery as Stage = ZenStager.initStage("basic_fuel_refinery");
+global stageBasicLogicalSystems1 as Stage = ZenStager.initStage("basic_logical_systems_one");
+global stageBasicNuclearManagement as Stage = ZenStager.initStage("basic_nuclear_management");
+global stageBasicOxygen as Stage = ZenStager.initStage("basic_oxygen");
+global stageBasicRocketBuilder as Stage = ZenStager.initStage("basic_rocket_builder");
+global stageBasicSpaceCourier as Stage = ZenStager.initStage("basic_space_courier");
 
 /*
 	----------------------
 	Progression Stages: 1.
 	----------------------
 */
-global stageProfessionsStage1 as Stage = ZenStager.initStage("professions_one");
-
-global stageEmerald as Stage = ZenStager.initStage("emerald");
-global stageCrook as Stage = ZenStager.initStage("crook");
-global stageShears as Stage = ZenStager.initStage("shears");
-global stageTank1 as Stage = ZenStager.initStage("tank_one");
 global stageResources2 as Stage = ZenStager.initStage("resources_two");
 
-global stageScavenger as Stage = ZenStager.initStage("scavenger");
 global stageMiner1 as Stage = ZenStager.initStage("miner_one");
-global stageOxygenExtractor as Stage = ZenStager.initStage("oxygen_extractor");
-global stageDecorator as Stage = ZenStager.initStage("decorator");
 global stageFarmer1 as Stage = ZenStager.initStage("farmer_one");
 global stageMoldMaker as Stage = ZenStager.initStage("mold_maker");
-global stageAstronomer as Stage = ZenStager.initStage("astronomer");
-
+global stagePowerTransportation as Stage = ZenStager.initStage("power_transportation");
+global stageCircuitBoardManufacturer as Stage = ZenStager.initStage("circuit_board_manufacturer");
 
 /*
 	----------------------
@@ -116,19 +108,32 @@ global stageProfessionsStage5 as Stage = ZenStager.initStage("professions_five")
 global stageGunSmithMaster as Stage = ZenStager.initStage("gunsmith_master");
 
 
+/*
+	----------------------
+	Spaceship
+	----------------------
+*/
+
+global stageSpaceshipArmory as Stage = ZenStager.initStage("spaceship_armory");
+global stageSpaceshipAstronomer as Stage = ZenStager.initStage("spaceship_astronomer");
+global stageSpaceshipWarp as Stage = ZenStager.initStage("spaceship_warp");
+
 //Arcturus
 /*
 	----------------------
 	Asteroids 1.
 	----------------------
 */
-global stageAsteroidsOxygen1 as Stage = ZenStager.initStage("planet_asteroids_oxygen_one");
-global stageAsteroidsResources1 as Stage = ZenStager.initStage("planet_asteroids_resources_one");
 global stageAsteroidsAdvancedResources as Stage = ZenStager.initStage("planet_asteroids_advanced_resources");
 global stageAsteroidsAutomater as Stage = ZenStager.initStage("planet_asteroids_automater");
+global stageAsteroidsOxygen1 as Stage = ZenStager.initStage("planet_asteroids_oxygen_one");
+global stageAsteroidsOxygenExtractor as Stage = ZenStager.initStage("planet_asteroids_oxygen_extractor");
+global stageAsteroidsResources1 as Stage = ZenStager.initStage("planet_asteroids_resources_one");
 
 
 global planetGlacidusStockFarmer as Stage = ZenStager.initStage("glacidus_stockfarmer");
+
+
 
 
 
@@ -156,6 +161,7 @@ global liquidLava as Stage = ZenStager.initStage("liquid_lava");
 */
 //Advanced Rocketry
 global advancedRocketryMultiblock as Stage = ZenStager.initStage("advanced_rocketry_multiblock");
+global itemAdvancedRocketryDrill as Stage = ZenStager.initStage("item_advanced_rocketry_drill");
 
 //AE 2
 global itemAE2MEChest as Stage = ZenStager.initStage("item_ae_me_chest");
@@ -163,6 +169,9 @@ global itemAE21KDisk as Stage = ZenStager.initStage("item_ae_one_k_disk");
 
 //Atum
 global itemAtumBeacon as Stage = ZenStager.initStage("item_atum_beacon");
+
+//Minecraft
+
 
 //Modular Machinery
 global modularMachineryTier1 as Stage = ZenStager.initStage("modular_machinery_tier_one");
@@ -172,7 +181,13 @@ global modularMachineryTier2 as Stage = ZenStager.initStage("modular_machinery_t
 	Misc Stages.
 	------------
 */
-global stageDecoration1Enable as Stage = ZenStager.initStage("decoration_one_enable");
+global metalIronIngotTier2 as Stage = ZenStager.initStage("metal_iron_ingot_tier_two");
+global metalSteelTier2 as Stage = ZenStager.initStage("metal_steel_tier_two");
+global stageEmerald as Stage = ZenStager.initStage("emerald");
+global stageCrook as Stage = ZenStager.initStage("crook");
+global stageShears as Stage = ZenStager.initStage("shears");
+global stageTank1 as Stage = ZenStager.initStage("tank_one");
+
 global stageDisabledItems as Stage = ZenStager.initStage("disabled_items");
 global stageRecurrentComplex as Stage = ZenStager.initStage("reccomplex");
 global stageNonStaged as Stage = ZenStager.initStage("non_staged_items");

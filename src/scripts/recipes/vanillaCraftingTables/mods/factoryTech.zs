@@ -49,13 +49,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
 		]
 	],
-	<factorytech:htfurnace:0>: [
-		[
-			[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
-			[<ore:ingotIron>, <minecraft:furnace:0>, <ore:ingotIron>],
-			[<ore:plateCopper>, <ore:allCoal>, <ore:plateCopper>]
-		]
-	],
 	<factorytech:intermediate:4>: [
 		[
 			[<ore:nuggetIron>, <ore:nuggetIron>, null],

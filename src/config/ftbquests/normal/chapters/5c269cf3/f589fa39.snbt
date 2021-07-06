@@ -1,0 +1,14 @@
+{
+	x: 1.0d,
+	y: 0.5d,
+	tasks: [{
+		uid: "d0440b18",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "skyresources:combustioncollector"
+		}]
+	}]
+}

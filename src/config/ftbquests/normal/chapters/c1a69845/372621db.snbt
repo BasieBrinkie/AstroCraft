@@ -1,4 +1,5 @@
 {
+	title: "Professions Stage 1",
 	icon: {
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {},
@@ -8,9 +9,37 @@
 	},
 	x: -1.0d,
 	y: 2.0d,
-	tasks: [{
-		uid: "71b08e45",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e2c60067",
+		"b5ae43e5"
+	],
+	dependency_requirement: "one_completed",
+	rewards: [{
+		uid: "cd3a5e7d",
 		type: "gamestage",
-		stage: "professions_one"
+		auto: "no_toast",
+		stage: "mold_maker"
+	},
+	{
+		uid: "04e1341b",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "farmer_one"
+	},
+	{
+		uid: "d889751e",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "miner_one"
+	},
+	{
+		uid: "59909ddc",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "power_transportation"
 	}]
 }

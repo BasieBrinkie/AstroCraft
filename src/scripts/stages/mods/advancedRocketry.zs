@@ -19,7 +19,7 @@ static stagedItems as IIngredient[][string] = {
 		<advancedrocketry:oxygencharger:0>,
 		<advancedrocketry:platepress:0>
 	],
-	stageRocketBuilder.stage: [
+	stageBasicRocketBuilder.stage: [
 		<advancedrocketry:fuelingstation:0>,
 		<advancedrocketry:fueltank:0>,
 		<advancedrocketry:guidancecomputer:0>,
@@ -33,6 +33,9 @@ static stagedItems as IIngredient[][string] = {
 		<advancedrocketry:spacestationchip:0>,
 		<advancedrocketry:stationbuilder:0>,
 		<advancedrocketry:structuretower:0>
+	],
+	itemAdvancedRocketryDrill.stage: [
+		<advancedrocketry:drill:0>
 	],
 	advancedRocketryMultiblock.stage: [
 		<advancedrocketry:misc:0>,

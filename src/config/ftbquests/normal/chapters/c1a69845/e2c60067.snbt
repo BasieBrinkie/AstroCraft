@@ -1,39 +1,9 @@
 {
-	x: -4.0d,
-	y: -7.5d,
+	x: -6.0d,
+	y: -7.0d,
 	tasks: [{
 		uid: "920448f7",
 		type: "gamestage",
 		stage: "disable_staging"
-	}],
-	rewards: [{
-		uid: "c257293a",
-		type: "gamestage",
-		auto: "invisible",
-		stage: "planet_asteroids_oxygen_one"
-	},
-	{
-		uid: "660cf14e",
-		type: "gamestage",
-		auto: "invisible",
-		stage: "planet_asteroids_resources_one"
-	},
-	{
-		uid: "1ee2b742",
-		type: "gamestage",
-		auto: "invisible",
-		stage: "rocket_builder"
-	},
-	{
-		uid: "f881f2b1",
-		type: "gamestage",
-		auto: "invisible",
-		stage: "basic_decorator"
-	},
-	{
-		uid: "0e73d06f",
-		type: "gamestage",
-		auto: "invisible",
-		stage: "planet_asteroids_advanced_resources"
 	}]
 }

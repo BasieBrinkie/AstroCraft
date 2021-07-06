@@ -4,7 +4,7 @@ import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
 static stagedItems as IIngredient[][string] = {
-	stageRocketBuilder.stage: [
+	stageBasicRocketBuilder.stage: [
 		<libvulpes:coalgenerator:0>,
 		<libvulpes:holoprojector:0>,
 		<libvulpes:linker:0>

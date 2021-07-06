@@ -7,7 +7,13 @@ import crafttweaker.oredict.IOreDictEntry;
 */
 
 static addItemsToOredict as IItemStack[][IOreDictEntry] = { 
-	<ore:pipe>: [
+    <ore:fluidPipe>: [
+        <mekanism:transmitter:1>.withTag({tier: 0}),
+        <mekanism:transmitter:1>.withTag({tier: 1}),
+        <mekanism:transmitter:1>.withTag({tier: 2}),
+        <mekanism:transmitter:1>.withTag({tier: 3}),
+    ],
+	<ore:itemPipe>: [
 		<mekanism:transmitter:3>.withTag({tier: 0}),
 		<mekanism:transmitter:3>.withTag({tier: 1}),
 		<mekanism:transmitter:3>.withTag({tier: 2}),

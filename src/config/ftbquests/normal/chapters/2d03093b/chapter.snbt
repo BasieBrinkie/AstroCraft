@@ -1,0 +1,13 @@
+{
+	title: "Armory",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "techguns:itemshared",
+		Damage: 1s
+	},
+	always_invisible: false,
+	group: -895016441,
+	default_quest_shape: ""
+}

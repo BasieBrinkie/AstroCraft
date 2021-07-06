@@ -1,7 +1,7 @@
 {
 	title: "Beacon Data",
-	x: 1.0d,
-	y: -9.0d,
+	x: 0.5d,
+	y: -9.5d,
 	text: [
 		""
 	],
@@ -22,19 +22,19 @@
 		uid: "0926ca29",
 		type: "gamestage",
 		auto: "no_toast",
-		stage: "planet_asteroid_resources_one"
+		stage: "planet_asteroids_resources_one"
 	},
 	{
 		uid: "fb9b7bd8",
 		type: "gamestage",
 		auto: "no_toast",
-		stage: "planet_asteroid_advanced_resources"
+		stage: "planet_asteroids_advanced_resources"
 	},
 	{
 		uid: "b226535e",
 		type: "gamestage",
 		auto: "no_toast",
-		stage: "rocket_builder"
+		stage: "basic_rocket_builder"
 	},
 	{
 		uid: "208a0ebd",

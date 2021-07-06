@@ -1,15 +1,15 @@
 {
-	icon: {
-		ForgeCaps: {
-			"customnpcs:itemscripteddata": {}
-		},
-		id: "factorytech:agitator"
-	},
-	x: 2.0d,
+	x: 0.0d,
 	y: 0.5d,
 	tasks: [{
 		uid: "3b29861f",
 		type: "gamestage",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "factorytech:compressor"
+		},
 		stage: "planet_asteroids_advanced_resources"
 	}],
 	rewards: [{

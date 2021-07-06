@@ -1,7 +1,12 @@
 [
   {
     "fluidName": "water",
-    "input": "minecraft:magma",
-    "output": "minecraft:obsidian"
+    "input": "minecraft:magma:0",
+    "output": "minecraft:obsidian:0"
+  },
+  {
+    "fluidName": "water",
+    "input": "contenttweaker:clump_steel_hot",
+    "output": "techguns:itemshared:83"
   }
 ]

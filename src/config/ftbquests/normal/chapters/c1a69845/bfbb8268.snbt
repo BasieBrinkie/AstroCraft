@@ -6,10 +6,10 @@
 		id: "astralsorcery:blockmachine"
 	},
 	x: 0.0d,
-	y: 2.5d,
+	y: -1.5d,
 	tasks: [{
 		uid: "0b20032a",
 		type: "gamestage",
-		stage: "astronomer"
+		stage: "spaceship_astronomer"
 	}]
 }

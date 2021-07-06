@@ -1,0 +1,15 @@
+{
+	x: 1.0d,
+	y: 2.5d,
+	tasks: [{
+		uid: "c93063df",
+		type: "gamestage",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:wafer"
+		},
+		stage: "circuit_board_manufacturer"
+	}]
+}

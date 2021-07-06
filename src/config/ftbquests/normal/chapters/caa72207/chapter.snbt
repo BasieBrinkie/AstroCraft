@@ -1,0 +1,12 @@
+{
+	title: "Spaceship",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "advancedrocketry:warpmonitor"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

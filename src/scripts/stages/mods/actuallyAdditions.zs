@@ -21,7 +21,7 @@ static stagedItems as IIngredient[][string] = {
 		<actuallyadditions:item_crystal_shard:4>,
 		<actuallyadditions:item_misc:13>
 	],
-	stageBasicKnowledgeDecorator.stage: [
+	stageBasicDecorator.stage: [
 		<actuallyadditions:block_crystal_cluster_redstone:0>,
 		<actuallyadditions:item_crystal_shard:0>
 	],
@@ -29,6 +29,7 @@ static stagedItems as IIngredient[][string] = {
 
 static disabledItems as IIngredient[] = [
 	<actuallyadditions:block_fermenting_barrel:0>,
+	<actuallyadditions:block_furnace_solar:0>,
 	<actuallyadditions:item_dust:6>
 ];
 

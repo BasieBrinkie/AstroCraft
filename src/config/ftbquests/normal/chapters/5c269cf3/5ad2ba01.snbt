@@ -1,0 +1,22 @@
+{
+	x: -11.0d,
+	y: 0.0d,
+	description: "Tier 2 Steel",
+	text: [
+		"This another building block for more sophiscated machines"
+	],
+	dependencies: [
+		"65468162"
+	],
+	tasks: [{
+		uid: "80d33a73",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "techguns:itemshared",
+			Damage: 83s
+		}]
+	}]
+}

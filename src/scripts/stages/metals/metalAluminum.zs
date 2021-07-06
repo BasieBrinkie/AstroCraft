@@ -8,7 +8,7 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static stagedItemsOredict as IOreDictEntry[][string] = {
-	stageRocketBuilder.stage: [
+	stageBasicRocketBuilder.stage: [
 		<ore:ingotAluminumTier1>,
 		<ore:nuggetAluminumTier1>
 	]

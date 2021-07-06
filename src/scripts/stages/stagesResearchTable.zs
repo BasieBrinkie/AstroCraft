@@ -15,9 +15,9 @@ import scripts.stages.register.stageProfessionsStage5;
 
 import scripts.stages.register.stageAsteroidsOxygen1;
 import scripts.stages.register.stageAsteroidsResources1;
-import scripts.stages.register.stageRocketBuilder;
-import scripts.stages.register.stageOxygenExtractor;
-import scripts.stages.register.stageBasicKnowledgeDecorator;
+import scripts.stages.register.stageBasicRocketBuilder;
+import scripts.stages.register.stageAsteroidsOxygenExtractor;
+import scripts.stages.register.stageBasicDecorator;
 import scripts.stages.register.stageFarmer1;
 import scripts.stages.register.stageMoldMaker;
 import scripts.stages.register.stageAstronomer;
@@ -30,11 +30,11 @@ import scripts.stages.register.stageDecoration1Disable;
 static allStages as string[][] = [
 	[	//0
 		stageAsteroidsResources1.stage,
-		stageRocketBuilder.stage,
+		stageBasicRocketBuilder.stage,
 	],
 	[	//1
 		stageProfessionsStage1.stage,
-		stageBasicKnowledgeDecorator.stage,
+		stageBasicDecorator.stage,
 		stageFarmer1.stage,
 		stageMoldMaker.stage,
 		stageAstronomer.stage
@@ -129,11 +129,11 @@ static addResearchGenius as string[][string[]][string][IItemStack][string] = {
 static addResearchToggles as string[string[]][string][IItemStack][string] = {
 	"Decorational Blocks - Enable": {<chisel:chisel_iron:0>: {
 		"Enable decorational blocks to be visible in JEI.": {
-			[stageDecoration1Disable.stage, stageBasicKnowledgeDecorator.stage]: stageDecoration1Enable.stage}}
+			[stageDecoration1Disable.stage, stageBasicDecorator.stage]: stageDecoration1Enable.stage}}
 	},
 	"Decorational Blocks - Disable": {<chisel:chisel_iron:0>: {
 		"Disable decorational blocks to be visible in JEI.": {
-			[stageDecoration1Enable.stage, stageBasicKnowledgeDecorator.stage]: stageDecoration1Disable.stage}}
+			[stageDecoration1Enable.stage, stageBasicDecorator.stage]: stageDecoration1Disable.stage}}
 	},
 };
 

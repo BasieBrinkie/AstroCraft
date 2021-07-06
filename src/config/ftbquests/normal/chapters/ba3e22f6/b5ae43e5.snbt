@@ -19,17 +19,5 @@
 			id: "mekanism:ingot",
 			Damage: 4s
 		}]
-	}],
-	rewards: [{
-		uid: "26c3ca99",
-		type: "gamestage",
-		auto: "no_toast",
-		stage: "miner_one"
-	},
-	{
-		uid: "88d06002",
-		type: "gamestage",
-		auto: "no_toast",
-		stage: "mold_maker"
 	}]
 }

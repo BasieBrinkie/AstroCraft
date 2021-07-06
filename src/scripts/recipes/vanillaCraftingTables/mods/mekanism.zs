@@ -7,6 +7,13 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
+	<mekanism:machineblock:15> * 3: [
+		[
+			[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
+			[null, <factorytech:circuit_intermediate:2>, null],
+			[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]
+		]
+	],
 	<mekanism:machineblock2:11>.withTag({tier: 0}): [
 		[
 			[<ore:stickAluminum>, <ore:plateIron>, <ore:stickAluminum>],
@@ -14,18 +21,18 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:stickAluminum>, <ore:plateIron>, <ore:stickAluminum>]
 		]
 	],
-	<mekanism:transmitter:1>.withTag({tier: 0}) * 4: [
+	<mekanism:transmitter:1>.withTag({tier: 0}) * 6: [
 		[
 			[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
-			[null, null, null],
+			[null, <minecraft:bucket:0>, null],
 			[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]
 		]
 	],
-	<mekanism:transmitter:3>.withTag({tier: 0}): [
+	<mekanism:transmitter:3>.withTag({tier: 0}) * 6: [
 		[
-			[],
-			[],
-			[]
+			[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
+			[null, <minecraft:chest:0>, null],
+			[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]
 		]
 	],
 };

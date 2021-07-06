@@ -8,7 +8,9 @@ static stagedItems as IIngredient[][string] = {
 		<appliedenergistics2:crank:0>,
 		<appliedenergistics2:grindstone:0>
 	],
-
+	stageAsteroidsAutomater.stage: [
+		<appliedenergistics2:material:5>
+	],
 	stageMiner1.stage: [
 		<appliedenergistics2:sky_compass:0>
 	],

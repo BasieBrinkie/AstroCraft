@@ -4,7 +4,7 @@ import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
 static stagedItems as IIngredient[][string] = {
-	stageBasicKnowledgeDecorator.stage: [
+	stageBasicDecorator.stage: [
         <architecturecraft:chisel:0>,
         <architecturecraft:hammer:0>,
         <architecturecraft:sawbench:0>

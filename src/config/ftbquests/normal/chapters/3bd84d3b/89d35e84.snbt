@@ -16,7 +16,7 @@
 		"TIP: Square quests are the starting quests."
 	],
 	dependencies: [
-		"7c933dfa"
+		"3547c9a2"
 	],
 	tasks: [{
 		uid: "e2ef0b0a",

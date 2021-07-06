@@ -13,7 +13,7 @@ static stagedItems as IIngredient[][string] = {
 		<tconstruct:tooltables:0>,
 		<tconstruct:soil:0>,
 	],
-	stageRocketBuilder.stage: [
+	stageBasicRocketBuilder.stage: [
 		<tconstruct:channel:0>,
 	],
 	stageMiner1.stage: [

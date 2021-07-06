@@ -1,0 +1,12 @@
+{
+	title: "Circuit Board Manufacturer",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "advancedrocketry:wafer"
+	},
+	always_invisible: false,
+	group: -935258453,
+	default_quest_shape: ""
+}

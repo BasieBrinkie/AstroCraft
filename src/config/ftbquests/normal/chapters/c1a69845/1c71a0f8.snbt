@@ -5,7 +5,7 @@
 		},
 		id: "advancedrocketry:oxygencharger"
 	},
-	x: 0.0d,
+	x: 2.0d,
 	y: 0.5d,
 	tasks: [{
 		uid: "dfeb4394",

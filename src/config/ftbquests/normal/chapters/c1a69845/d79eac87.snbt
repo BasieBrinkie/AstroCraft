@@ -9,10 +9,27 @@
 		}
 	},
 	x: -1.0d,
-	y: 3.5d,
+	y: 4.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"e2c60067"
+	],
+	dependency_requirement: "one_completed",
 	tasks: [{
 		uid: "fa5a4be1",
 		type: "gamestage",
 		stage: "professions_two"
+	}],
+	rewards: [{
+		uid: "61e1d788",
+		type: "gamestage",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:casting"
+		},
+		auto: "no_toast",
+		stage: "black_smith"
 	}]
 }

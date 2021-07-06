@@ -6,6 +6,9 @@
 	text: [
 		"Another component for factory tech machines"
 	],
+	dependencies: [
+		"3d865145"
+	],
 	tasks: [{
 		uid: "6970d13f",
 		type: "item",

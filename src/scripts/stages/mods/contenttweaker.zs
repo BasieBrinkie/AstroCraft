@@ -11,7 +11,10 @@ static stagedItems as IIngredient[][string] = {
 	],
 	stageAsteroidsResources1.stage: [
 		<contenttweaker:astro_ice:0>,
-	]
+	],
+	metalSteelTier2: [
+		<contenttweaker:clump_steel_hot:0>
+	],
 };
 
 static disabledItems as IIngredient[] = [

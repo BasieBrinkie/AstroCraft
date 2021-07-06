@@ -6,7 +6,7 @@
 		id: "nuclearcraft:decay_generator"
 	},
 	x: -1.0d,
-	y: 5.0d,
+	y: 6.0d,
 	tasks: [{
 		uid: "fd6334e2",
 		type: "gamestage",

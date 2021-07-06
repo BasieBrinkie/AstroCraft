@@ -4,7 +4,7 @@ import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
 static stagedItems as IIngredient[][string] = {
-	stageBasicKnowledgeDecorator.stage: [
+	stageBasicDecorator.stage: [
 		<littletiles:colortube:0>,
 		<littletiles:container:0>,
 		<littletiles:chisel:0>,
@@ -19,7 +19,7 @@ static stagedItems as IIngredient[][string] = {
 		<littletiles:wrench:0>,
 	],
 
-	stageDecoration1Enable.stage: [
+	stageBasicDecorator.stage: [
 		<littletiles:ltcoloredblock:1>,
 		<littletiles:ltcoloredblock:2>,		
 		<littletiles:ltcoloredblock:3>,

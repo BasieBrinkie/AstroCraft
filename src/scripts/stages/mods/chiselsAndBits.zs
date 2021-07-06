@@ -5,7 +5,7 @@ import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
 static stagedItems as IIngredient[][string] = {
-	stageBasicKnowledgeDecorator.stage: [
+	stageBasicDecorator.stage: [
         <chiselsandbits:bit_bag:0>,
         <chiselsandbits:bitsaw_diamond:0>,
 		<chiselsandbits:chisel_stone:0>,
@@ -18,7 +18,7 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static stagedOredicts as IOreDictEntry[][string] = {
-    stageBasicKnowledgeDecorator.stage: [
+    stageBasicDecorator.stage: [
         <ore:chiselsAndBitsBitBags>
 
     ]

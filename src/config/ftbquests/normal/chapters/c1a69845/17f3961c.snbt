@@ -1,6 +1,6 @@
 {
-	x: 2.0d,
-	y: -1.5d,
+	x: 1.0d,
+	y: -3.5d,
 	tasks: [{
 		uid: "867211ed",
 		type: "gamestage",
@@ -10,7 +10,7 @@
 			},
 			id: "advancedrocketry:rocketmotor"
 		},
-		stage: "rocket_builder"
+		stage: "basic_rocket_builder"
 	}],
 	rewards: [{
 		uid: "9d36a182",

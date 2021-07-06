@@ -7,5 +7,40 @@
 		id: "contenttweaker:astrostone_3"
 	},
 	x: -1.0d,
-	y: 0.0d
+	y: 0.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"e2c60067"
+	],
+	dependency_requirement: "one_completed",
+	rewards: [{
+		uid: "34c3c7e9",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "planet_asteroids_automater"
+	},
+	{
+		uid: "0add10e4",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "planet_asteroids_oxygen_extractor"
+	},
+	{
+		uid: "8d514436",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "planet_asteroids_oxygen_one"
+	},
+	{
+		uid: "ee7438d5",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "planet_asteroids_resources_one"
+	},
+	{
+		uid: "c68b3e02",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "planet_asteroids_advanced_resources"
+	}]
 }

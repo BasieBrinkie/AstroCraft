@@ -31,6 +31,11 @@ static tempererAdd as int[IItemStack][IItemStack] = {
 		<actuallyadditions:item_knife:0>: 30
 	},
 
+	//Asteroids Automater
+	<contenttweaker:clump_steel_hot:0>: {
+		<icbmclassic:clump:0>: 50
+	},
+
 	//Decorator
 	<actuallyadditions:block_crystal_cluster_redstone:0>: {
 		<minecraft:redstone:0>: 20
@@ -45,6 +50,8 @@ static tempererAdd as int[IItemStack][IItemStack] = {
 	<techguns:explosive_charge:0>: {
 		<minecraft:tnt:0>: 20
 	},
+
+
 
 };
 

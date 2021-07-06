@@ -14,6 +14,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<advancedrocketry:blastbrick:0>, <advancedrocketry:blastbrick:0>, <advancedrocketry:blastbrick:0>]
 		]
 	],
+	<advancedrocketry:drill:0>: [
+		[
+			[<ore:plateIron>, <advancedrocketry:structuretower:0>, <ore:plateIron>], 
+			[<ore:plateIron>, <advancedrocketry:structuretower:0>, <ore:plateIron>],
+			[null, <factorytech:machinepart:72>, null]
+		]
+	],
 	<advancedrocketry:fuelingstation:0>: [
 		[
 			[null, <ore:ingotAluminum>, null],

@@ -8,7 +8,7 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static stagedOredicts as IOreDictEntry[][string] = {
-    stageBasicKnowledgeDecorator.stage: [
+    stageBasicDecorator.stage: [
         <ore:doorWood>
 
     ]

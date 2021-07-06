@@ -86,18 +86,32 @@ static stagedItems as IIngredient[][string] = {
 	stageShears.stage: [
 		<minecraft:shears:*>
 	],
-	stageBasicKnowledgeDecorator.stage: [
+	stageBasicDecorator.stage: [
 		<minecraft:clay:0>
 	],
-	stageDecorator.stage: [
-		<minecraft:glass_pane:0>
-	],
-	stageDecoration1Enable.stage: [
+	stageBasicDecorator.stage: [
+		<minecraft:glass_pane:0>,
 		<minecraft:planks:1>,
 		<minecraft:planks:2>,
 		<minecraft:planks:3>,
 		<minecraft:planks:4>,
 		<minecraft:planks:5>,
+		<minecraft:stained_glass_pane:0>,
+		<minecraft:stained_glass_pane:1>,
+		<minecraft:stained_glass_pane:2>,
+		<minecraft:stained_glass_pane:3>,
+		<minecraft:stained_glass_pane:4>,
+		<minecraft:stained_glass_pane:5>,
+		<minecraft:stained_glass_pane:6>,
+		<minecraft:stained_glass_pane:7>,
+		<minecraft:stained_glass_pane:8>,
+		<minecraft:stained_glass_pane:9>,
+		<minecraft:stained_glass_pane:10>,
+		<minecraft:stained_glass_pane:11>,
+		<minecraft:stained_glass_pane:12>,
+		<minecraft:stained_glass_pane:13>,
+		<minecraft:stained_glass_pane:14>,
+		<minecraft:stained_glass_pane:15>,
 		<minecraft:wool:1>,
 		<minecraft:wool:2>,
 		<minecraft:wool:3>,
@@ -113,6 +127,11 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:wool:13>,
 		<minecraft:wool:14>,
 		<minecraft:wool:15>,
+	],
+
+	stageBasicLogicalSystems1.stage: [
+		<minecraft:dropper:0>,
+		<minecraft:dispenser:0>
 	],
 
 	liquidLava.stage: [

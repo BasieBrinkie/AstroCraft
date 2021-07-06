@@ -7,7 +7,7 @@
 		id: "chisel:chisel_iron"
 	},
 	x: 0.0d,
-	y: -1.5d,
+	y: -3.5d,
 	tasks: [{
 		uid: "a9e97967",
 		type: "gamestage",

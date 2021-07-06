@@ -1,6 +1,10 @@
 {
-	x: -2.0d,
+	x: -3.0d,
 	y: -2.0d,
+	description: "Transports Fluids",
+	text: [
+		"Shift-right click the start or end of the pipe to change whether it must pull or push fluids"
+	],
 	dependencies: [
 		"12bbafb9"
 	],

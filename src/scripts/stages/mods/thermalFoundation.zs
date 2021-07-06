@@ -4,7 +4,7 @@ import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
 static stagedItems as IIngredient[][string] = {
-	stageRocketBuilder.stage: [
+	stageBasicRocketBuilder.stage: [
 		<thermalfoundation:ore:7>,
 		<thermalfoundation:material:199>,
 	],

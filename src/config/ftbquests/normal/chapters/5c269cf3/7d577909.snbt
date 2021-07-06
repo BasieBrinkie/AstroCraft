@@ -1,0 +1,36 @@
+{
+	x: -2.0d,
+	y: -2.0d,
+	description: "You can filter items with this sorter",
+	text: [
+		"If you want to filter an item:",
+		" - Create a new filter, select ItemStack for a single item, Oredict for a collection of items",
+		" - In the top left insert the item in ItemStack mode or type the oredict name in Oredict mode.",
+		" - In the bottom left click the until you have found the color you have made/going to make the logistical transporter",
+		"",
+		"Now color the logistical transporter by shift-right clicking a full transporter (half doesn't work)",
+		"",
+		"If you want the left overs to enter an inventory set the toggle Auto to On.",
+		"Select the color of the excess inventory transporter in the box with Default:",
+		"",
+		"Further you can set the minimal and maximal amount of items sent each run by: ",
+		" - Set size mode to on",
+		" - Configure the min and max items sent."
+	],
+	dependencies: [
+		"12bbafb9"
+	],
+	tasks: [{
+		uid: "91ceac91",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:machineblock",
+			Damage: 15s
+		}],
+		ignore_nbt: 1b
+	}]
+}

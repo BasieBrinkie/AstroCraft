@@ -30,15 +30,21 @@
 		}
 	}],
 	rewards: [{
-		uid: "21e100ce",
+		uid: "b54003e9",
 		type: "gamestage",
-		auto: "invisible",
+		auto: "no_toast",
 		stage: "planet_asteroids_advanced_resources"
 	},
 	{
-		uid: "f0687b30",
+		uid: "0d1dd3cf",
 		type: "gamestage",
-		auto: "invisible",
-		stage: "rocket_builder"
+		auto: "no_toast",
+		stage: "basic_rocket_builder"
+	},
+	{
+		uid: "0bd4865f",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "planet_asteroids_oxygen_extractor"
 	}]
 }

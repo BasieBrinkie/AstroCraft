@@ -9,13 +9,6 @@ static stagedItems as IIngredient[][string] = {
 		<extrautils2:ingredients:8>,
 		<extrautils2:pipe:0>
 	],
-	stageAsteroidsAdvancedResources.stage: [
-
-	],
-	
-	stageDecoration1Enable.stage: [
-
-	]
 };
 
 static disabledItems as IIngredient[] = [

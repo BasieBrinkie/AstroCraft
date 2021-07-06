@@ -17,7 +17,7 @@ static stagedItems as IIngredient[][string] = {
 		<skyresources:irongrinder:*>,
 		<skyresources:stonegrinder:*>,
 	],
-	stageRocketBuilder.stage: [
+	stageBasicRocketBuilder.stage: [
 		<skyresources:condenser:1>,
 		<skyresources:orealchdust:17>
 	],
@@ -33,6 +33,11 @@ static stagedItems as IIngredient[][string] = {
 		<skyresources:heat:4>,
 		<skyresources:heatprovider:3>,
 		<skyresources:heatprovider:4>,
+	],
+	stageAsteroidsAutomater.stage: [
+		<skyresources:combustioncollector:0>,
+		<skyresources:combustioncontroller:0>,
+		<skyresources:quickdropper:0>,
 	],
 	stageFarmer1.stage: [
 		<skyresources:baseitemcomponent:4>

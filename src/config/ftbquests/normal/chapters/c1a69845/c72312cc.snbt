@@ -1,0 +1,15 @@
+{
+	x: 4.0d,
+	y: -3.5d,
+	tasks: [{
+		uid: "7f860fdc",
+		type: "gamestage",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "nuclearcraft:radaway_slow"
+		},
+		stage: "basic_nuclear_manager"
+	}]
+}

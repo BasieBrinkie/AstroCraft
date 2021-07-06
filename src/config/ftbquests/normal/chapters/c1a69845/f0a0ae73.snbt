@@ -10,7 +10,7 @@
 		Count: 1b
 	},
 	x: 0.0d,
-	y: 4.0d,
+	y: 4.5d,
 	tasks: [{
 		uid: "a9e4d59a",
 		type: "gamestage",

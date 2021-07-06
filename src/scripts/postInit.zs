@@ -159,12 +159,14 @@ function initStages() {
 	scripts.stages.mods.chiselsAndBits.init();
 	scripts.stages.mods.contenttweaker.init();
 	scripts.stages.mods.enderUtilities.init();
+	scripts.stages.mods.engineersDecor.init();
 	scripts.stages.mods.exCompressum.init();
 	scripts.stages.mods.exNihiloCreatio.init();
 	scripts.stages.mods.extraUtils2.init();
 	scripts.stages.mods.factoryTech.init();
 	scripts.stages.mods.ftbQuests.init();
 	scripts.stages.mods.grapplemod.init();
+	scripts.stages.mods.icbmClassic.init();
 	scripts.stages.mods.immersiveEngineering.init();
 	scripts.stages.mods.libVulpes.init();
 	scripts.stages.mods.littleTiles.init();

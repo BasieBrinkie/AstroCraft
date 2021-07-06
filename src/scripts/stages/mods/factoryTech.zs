@@ -21,7 +21,7 @@ static stagedItems as IIngredient[][string] = {
 		<factorytech:salvagepart:60>,
 		<factorytech:saw:0>
 	],
-	stageRocketBuilder.stage: [
+	stageBasicRocketBuilder.stage: [
 		<factorytech:agitator:0>,
 		<factorytech:circuit_intermediate:0>,
 		<factorytech:circuit_intermediate:1>,
@@ -50,7 +50,6 @@ static stagedItems as IIngredient[][string] = {
 		<factorytech:compressor:0>,
 		<factorytech:crate:0>,
 		<factorytech:fridge:0>,
-		<factorytech:htfurnace:0>,
 		<factorytech:machinepart:2>,
 		<factorytech:machinepart:4>,
 		<factorytech:machinepart:12>,
@@ -109,6 +108,7 @@ static disabledItems as IIngredient[] = [
 	<factorytech:handpump:0>,
 	<factorytech:hardhat:0>,
 	<factorytech:hatch:0>,
+	<factorytech:htfurnace:0>,
 	<factorytech:inventorysensor:0>,
 	<factorytech:intermediate:0>,
 	<factorytech:intermediate:1>,

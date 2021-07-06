@@ -77,6 +77,18 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:stone>, <ore:ingotIron>, <ore:stone>]
 		]
 	],
+	<skyresources:fluiddropper:0>: [
+		[
+			[<ore:ingotIronTier2To4>, <ore:plateSteel>, <ore:ingotIronTier2To4>],
+			[<ore:ingotIronTier2To4>, <minecraft:bucket:0>, <ore:ingotIronTier2To4>],
+			[<ore:plateSteel>, <ore:fluidPipe>, <ore:plateSteel>]
+		],
+		[
+			[null, <ore:plateSteel>, null],
+			[null, <minecraft:dispenser:0>, null],
+			[<ore:plateSteel>, <minecraft:redstone_torch:0>, <ore:plateSteel>]
+		]
+	],
 	<skyresources:fusiontable:0>: [
 		[
 			[<skyresources:alchemyitemcomponent:1>, <skyresources:alchemyitemcomponent:1>, <skyresources:alchemyitemcomponent:1>],
@@ -131,6 +143,18 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:ironIngot>, null, null],
 			[<ore:ironIngot>, <ore:stickTier1To3>, null], 
 			[null, <ore:ironIngot>, <ore:stickTier1To3>]
+		]
+	],
+	<skyresources:quickdropper>: [
+		[
+			[<ore:ingotIronTier2To4>, <ore:plateSteel>, <ore:ingotIronTier2To4>],
+			[<ore:ingotIronTier2To4>, <factorytech:crate>, <ore:ingotIronTier2To4>],
+			[<ore:plateSteel>, <ore:itemPipe>, <ore:plateSteel>]
+		],
+		[
+			[null, <ore:plateSteel>, null],
+			[null, <minecraft:dropper:0>, null],
+			[<ore:plateSteel>, <minecraft:redstone_torch:0>, <ore:plateSteel>]
 		]
 	],
 };

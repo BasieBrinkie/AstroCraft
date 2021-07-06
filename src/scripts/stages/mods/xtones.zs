@@ -4,7 +4,7 @@ import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
 static stagedItems as IIngredient[][string] = {
-	stageBasicKnowledgeDecorator.stage: [
+	stageBasicDecorator.stage: [
 		<xtones:base:0>,
 	],
 };
