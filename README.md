@@ -18,7 +18,7 @@ This pack has literally every recipe reworked and tweaked such that all mods wor
 ## Staging/Questing system
 All items in the mudpack are staged, this means at the beginning you will have no JEI clutter. If you prefer to play without gamestages you can do so at the very start. The modpack entails a total of XXX quests to guide you through each mod and show you the progression line was intended.
 ## Unique Mechanics
- A unique mechanic is whenever you are at a space station you cannot wear a space suit while interacting with machines. This is done to encourage players to create an oxygen distribution system so you don’t have to wear a space suit inside your space station. You can still interact with inventories to retrieve blocks and expand your space station.
+ One unique mechanic is whenever you are at a space station you cannot wear a space suit while interacting with machines. This is done to encourage players to create an oxygen distribution system so you don’t have to wear a space suit inside your space station. You can still interact with inventories to retrieve blocks and expand your space station.
 Common metals such as iron, steel, copper and more have multiple tiers. Each tier has its own progression line and higher tier materials can often also be used in recipes that require lower tier materials.
 Choose your own starting world! When you spawn you will be presented with the following starting worlds:
 - Asteroids Field (Sky-Block)
