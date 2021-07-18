@@ -17,11 +17,6 @@ initDrops();
 initSeeds();
 initEvents();
 
-/*
-	-------------------------------------------------
-	Functions to define where the init functions are.
-	-------------------------------------------------
-*/
 function initRecipes() {	
 	/*
 		------------------------------------------------------
@@ -49,10 +44,12 @@ function initRecipes() {
 	scripts.recipes.vanillaCraftingTables.mods.charcoalPit.init();
 	scripts.recipes.vanillaCraftingTables.mods.chisel.init();
 	scripts.recipes.vanillaCraftingTables.mods.chiselsAndBits.init();
+	scripts.recipes.vanillaCraftingTables.mods.contentTweaker.init();
 
 	scripts.recipes.vanillaCraftingTables.mods.enderUtilities.init();
 	scripts.recipes.vanillaCraftingTables.mods.exCompressum.init();
 	scripts.recipes.vanillaCraftingTables.mods.exNihiloCreatio.init();
+	scripts.recipes.vanillaCraftingTables.mods.extraUtils2.init();
 	scripts.recipes.vanillaCraftingTables.mods.factoryTech.init();
 	scripts.recipes.vanillaCraftingTables.mods.grapplemod.init();
 	scripts.recipes.vanillaCraftingTables.mods.libVulpes.init();
@@ -89,6 +86,7 @@ function initIntegrations() {
 	scripts.recipes.integrations.charcoalPit.kiln.init();
 
 	scripts.recipes.integrations.chisel.mods.chiselsAndBits.init();
+	scripts.recipes.integrations.chisel.mods.exCompressum.init();
 	scripts.recipes.integrations.chisel.mods.matterOverdrive.init();
 	scripts.recipes.integrations.chisel.doorWood.init();
 	scripts.recipes.integrations.chisel.wood.init();
@@ -113,6 +111,8 @@ function initIntegrations() {
 
 	scripts.recipes.integrations.modularMachinery.antenna_tier_1.init();
 	scripts.recipes.integrations.modularMachinery.asteroid_miner_tier_1.init();
+
+	scripts.recipes.integrations.nuclearCraft.infuser.init();
 
 	scripts.recipes.integrations.skyResources.alchemicalFusion.init();
 	scripts.recipes.integrations.skyResources.catalysts.init();
@@ -157,7 +157,7 @@ function initStages() {
 	scripts.stages.mods.charcoalPit.init();
 	scripts.stages.mods.chisel.init();
 	scripts.stages.mods.chiselsAndBits.init();
-	scripts.stages.mods.contenttweaker.init();
+	scripts.stages.mods.contentTweaker.init();
 	scripts.stages.mods.enderUtilities.init();
 	scripts.stages.mods.engineersDecor.init();
 	scripts.stages.mods.exCompressum.init();
@@ -168,6 +168,7 @@ function initStages() {
 	scripts.stages.mods.grapplemod.init();
 	scripts.stages.mods.icbmClassic.init();
 	scripts.stages.mods.immersiveEngineering.init();
+	scripts.stages.mods.jurassicraft.init();
 	scripts.stages.mods.libVulpes.init();
 	scripts.stages.mods.littleTiles.init();
 	scripts.stages.mods.matterOverdrive.init();
@@ -216,6 +217,7 @@ function initOredict() {
 	
 	scripts.oredict.mods.chiselsAndBits.init();
 	scripts.oredict.mods.exNihiloCreatio.init();
+	scripts.oredict.mods.exCompressum.init();
 	scripts.oredict.mods.factoryTech.init();
 	scripts.oredict.mods.immersiveEngineering.init();
 	scripts.oredict.mods.matterOverdrive.init();

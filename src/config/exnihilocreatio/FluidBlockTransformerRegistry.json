@@ -7,6 +7,6 @@
   {
     "fluidName": "water",
     "input": "contenttweaker:clump_steel_hot",
-    "output": "techguns:itemshared:83"
+    "output": "immersiveengineering:storage:8"
   }
 ]

@@ -1,6 +1,6 @@
 {
 	x: -3.0d,
-	y: -3.0d,
+	y: -3.5d,
 	description: "Dispenser that doesn't require redstone",
 	text: [
 		"The Fluid Dropper drops the items just like the dispenser but doesn't require a redstone signal.",

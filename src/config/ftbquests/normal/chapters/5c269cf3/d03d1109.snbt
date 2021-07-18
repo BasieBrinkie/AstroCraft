@@ -5,6 +5,9 @@
 	text: [
 		"Who knew that red crystal shards were so heat resistant"
 	],
+	dependencies: [
+		"88d9c834"
+	],
 	tasks: [{
 		uid: "814fb183",
 		type: "item",

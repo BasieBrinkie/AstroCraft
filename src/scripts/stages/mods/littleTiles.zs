@@ -19,7 +19,7 @@ static stagedItems as IIngredient[][string] = {
 		<littletiles:wrench:0>,
 	],
 
-	stageBasicDecorator.stage: [
+	stageBasicDecoratorToggle.stage: [
 		<littletiles:ltcoloredblock:1>,
 		<littletiles:ltcoloredblock:2>,		
 		<littletiles:ltcoloredblock:3>,

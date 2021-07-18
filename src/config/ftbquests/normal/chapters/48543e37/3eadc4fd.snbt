@@ -1,6 +1,10 @@
 {
 	x: -1.0d,
 	y: 1.0d,
+	description: "Heated Leaves",
+	text: [
+		"The tempering oven speeds up the composting process of the leaves to 50 game ticks"
+	],
 	dependencies: [
 		"af9cea28"
 	],

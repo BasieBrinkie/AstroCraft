@@ -26,7 +26,7 @@
 		uid: "63be49e7",
 		type: "gamestage",
 		auto: "enabled",
-		stage: "decorator",
+		stage: "basic_decorator_toggle",
 		remove: true
 	}]
 }

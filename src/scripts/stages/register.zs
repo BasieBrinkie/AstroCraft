@@ -47,6 +47,7 @@ global bookMultiblockCheatsheet as Stage = ZenStager.initStage("book_multiblock_
 	----------------------
 */
 global stageBasicDecorator as Stage = ZenStager.initStage("basic_decorator");
+global stageBasicDecoratorToggle as Stage = ZenStager.initStage("basic_decorator_toggle");
 global stageBasicFuelRefinery as Stage = ZenStager.initStage("basic_fuel_refinery");
 global stageBasicLogicalSystems1 as Stage = ZenStager.initStage("basic_logical_systems_one");
 global stageBasicNuclearManagement as Stage = ZenStager.initStage("basic_nuclear_management");
@@ -170,7 +171,14 @@ global itemAE21KDisk as Stage = ZenStager.initStage("item_ae_one_k_disk");
 //Atum
 global itemAtumBeacon as Stage = ZenStager.initStage("item_atum_beacon");
 
+//Mekanism
+global stageTank1 as Stage = ZenStager.initStage("tank_one");
+
 //Minecraft
+global stageEmerald as Stage = ZenStager.initStage("emerald");
+global stageCrook as Stage = ZenStager.initStage("crook");
+global stageShears as Stage = ZenStager.initStage("shears");
+global stageLeaves as Stage = ZenStager.initStage("leaves");
 
 
 //Modular Machinery
@@ -183,14 +191,20 @@ global modularMachineryTier2 as Stage = ZenStager.initStage("modular_machinery_t
 */
 global metalIronIngotTier2 as Stage = ZenStager.initStage("metal_iron_ingot_tier_two");
 global metalSteelTier2 as Stage = ZenStager.initStage("metal_steel_tier_two");
-global stageEmerald as Stage = ZenStager.initStage("emerald");
-global stageCrook as Stage = ZenStager.initStage("crook");
-global stageShears as Stage = ZenStager.initStage("shears");
-global stageTank1 as Stage = ZenStager.initStage("tank_one");
 
 global stageDisabledItems as Stage = ZenStager.initStage("disabled_items");
 global stageRecurrentComplex as Stage = ZenStager.initStage("reccomplex");
 global stageNonStaged as Stage = ZenStager.initStage("non_staged_items");
+
+/*
+	----------------
+	Structure Stages
+	----------------
+Arcturus - Asteroids 1:
+	Asteroid Beacon - structure_asteroidbeacon
+	Mining Droid 	- structure_miningdroid
+*/
+
 /*
 var allStages as string[] = [
 "insert",

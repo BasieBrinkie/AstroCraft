@@ -11,5 +11,11 @@
 			id: "nuclearcraft:radaway_slow"
 		},
 		stage: "basic_nuclear_manager"
+	}],
+	rewards: [{
+		uid: "fb05ee79",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "tank_one"
 	}]
 }

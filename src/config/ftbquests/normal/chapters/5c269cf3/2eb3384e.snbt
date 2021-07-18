@@ -1,6 +1,6 @@
 {
-	x: -1.0d,
-	y: 1.5d,
+	x: -1.5d,
+	y: 2.0d,
 	description: "Is used in multiple multiblocks",
 	text: [
 		"The drill is used in the asteroid miner multiblock, but it can also be used to mine straight from your spaceship later on."

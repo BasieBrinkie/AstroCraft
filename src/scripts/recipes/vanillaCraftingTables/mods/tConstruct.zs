@@ -46,7 +46,14 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:plankWood>, <ore:ingotIron>, <ore:plankWood>],
 			[<ore:plankWood>, null, <ore:plankWood>]
 		]
-	]
+	],
+	<tconstruct:wooden_hopper:0>: [
+		[
+			[<ore:plankWood>, null, <ore:plankWood>],
+			[<ore:plankWood>, <ore:chest>, <ore:plankWood>],
+			[null, <ore:plankWood>, null]
+		]
+	],
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {

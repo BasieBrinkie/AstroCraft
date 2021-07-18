@@ -1,6 +1,6 @@
 {
 	x: -1.0d,
-	y: -3.0d,
+	y: -3.5d,
 	description: "Handy for sky resources multiblocks",
 	text: [
 		"The Quick Dropper drops the items just like the dropper but doesn't require a redstone signal.",

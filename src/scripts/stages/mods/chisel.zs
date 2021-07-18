@@ -14,7 +14,7 @@ static stagedItems as IIngredient[][string] = {
 		<chisel:planks-acacia:0>,
 		<chisel:planks-dark-oak:0>
 	],
-	stageBasicDecorator.stage: [
+	stageBasicDecoratorToggle.stage: [
 		<chisel:planks-oak:1>,
 		<chisel:planks-oak:2>,
 		<chisel:planks-oak:3>,

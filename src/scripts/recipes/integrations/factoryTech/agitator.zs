@@ -3,25 +3,31 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 
 static agitatorAdd as IIngredient[ILiquidStack][ILiquidStack][ILiquidStack[IItemStack]] = {
-	//Rocket Builder
+	//Basic Rocket Builder
 	{<factorytech:circuit_intermediate:8>: null}: {
 		<liquid:iridium> * 144: {<liquid:nickel> * 288: <ore:dustLead>
 	}},
 
-	//Professions Stage 1
+	//Asteroids Advanced Resources
 	{<exnihilocreatio:item_pebble:0> * 4: <liquid:lava> * 720}: {
 		null: {null: <minecraft:magma:0>
 	}},
-	{<nuclearcraft:radaway_slow:0>: null}: { 
+	{null: <liquid:water> * 2000}: {
+		null: {<liquid:preheated_water> * 1000: <contenttweaker:astro_ice:0>
+	}},
+
+	//Basic Nuclear Manager
+	{null: <liquid:radaway_slow> * 1000}: { 
 		null: {<liquid:preheated_water> * 1000: <minecraft:redstone:0>
 	}},
+
 
 	//Farmer One
 	{null: <liquid:canolaoil> * 100}: {
 		null: {<liquid:preheated_water> * 100: <actuallyadditions:item_misc:13>
 	}},
 
-	//Oxygen Extractor
+	//Asteroids Oxygen Extractor
 	{null: <liquid:oxygen> * 1000}: {
 		null: { null: <mekanism:shard:4>
 	}},

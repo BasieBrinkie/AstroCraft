@@ -1,6 +1,10 @@
 {
 	x: -2.0d,
 	y: 1.0d,
+	description: "Easier access to leaves",
+	text: [
+		"We are gonna need a lot of leaves since they contain oxygen"
+	],
 	dependencies: [
 		"f337b046"
 	],

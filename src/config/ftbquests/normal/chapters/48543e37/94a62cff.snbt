@@ -1,6 +1,10 @@
 {
 	x: -4.0d,
 	y: 0.0d,
+	description: "Little leaves that are caught in the denser mesh",
+	text: [
+		"Dirt appearently contains traces of leaves that are full of oxygen"
+	],
 	dependencies: [
 		"27681c14"
 	],

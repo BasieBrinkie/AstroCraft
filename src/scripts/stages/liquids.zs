@@ -12,23 +12,25 @@ static stagedLiquids as ILiquidStack[][string] = {
 		<liquid:iron>,
 		<liquid:preheated_water>
 	],
+	stageAsteroidsAdvancedResources.stage: [
+		<liquid:copper>,
+		<liquid:lava>,
+		<liquid:water>,
+	],
 	stageBasicRocketBuilder.stage: [
 		<liquid:iridium>,
 		<liquid:lead>,
 		<liquid:nickel>,
 		<liquid:rocketfuel>,
 	],
-	stageAsteroidsAdvancedResources.stage: [
-		<liquid:copper>,
-		<liquid:lava>,
-		<liquid:water>,
-	],
 	stageBasicDecorator.stage: [
 		<liquid:glass>
 	],
-
+	stageBasicNuclearManagement.stage: [
+		<liquid:radaway_slow>
+	],
 	liquidLava.stage: [
-		<liquid:lava>,
+		<liquid:lava>
 	]
 };
 

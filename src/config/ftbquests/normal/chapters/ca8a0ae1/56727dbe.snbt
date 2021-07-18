@@ -7,7 +7,9 @@
 		"Early game the sieve will grant you access to resources normally not to be found as regular ores in asteroids",
 		"For instance copper can be extracted from gravel. Before any sieving can be done, you first need to build a frame.",
 		"",
-		"- Craft a 'Sieve'"
+		"- Craft a 'Sieve'",
+		"",
+		"For faster processing try placing multiple sieves next to each other."
 	],
 	dependencies: [
 		"86cfc518"

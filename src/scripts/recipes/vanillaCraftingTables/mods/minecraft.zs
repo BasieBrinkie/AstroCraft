@@ -82,6 +82,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 
 		]
 	],
+	<minecraft:hopper:0>: [
+		[
+			[<ore:ingotIronTier2To4>, null, <ore:ingotIronTier2To4>],
+			[<ore:ingotIronTier2To4>, <ore:chest>, <ore:ingotIronTier2To4>],
+			[null, <ore:ingotIronTier2To4>, null]
+		]
+	],
 	<minecraft:iron_axe>: [
 		[
 			[<ore:nuggetIron>, <ore:nuggetIron>, null],

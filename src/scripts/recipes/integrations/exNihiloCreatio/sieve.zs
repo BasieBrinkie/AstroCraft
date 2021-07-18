@@ -26,13 +26,13 @@ static sieveAdd as IItemStack[][float][IIngredient][int] = {
 			0.95: [<minecraft:dirt:0>]
 		},
 		<ore:gravel>: {
-			0.8: [<exnihilocreatio:item_ore_copper:0>],
-			0.5: [<exnihilocreatio:item_ore_copper:0>],
+			0.05: [<exnihilocreatio:item_ore_copper:1>],
 			0.3: [<exnihilocreatio:item_ore_copper:0>],
-			0.05: [<exnihilocreatio:item_ore_copper:1>]
+			0.5: [<exnihilocreatio:item_ore_copper:0>],
+			0.8: [<exnihilocreatio:item_ore_copper:0>],
 		},
 		
-		//Professions One
+		//Advanced Resources
 		<ore:sand>: {
 			0.33: [<minecraft:glowstone_dust:0>],
 			0.65: [<minecraft:sand:0>]
@@ -41,9 +41,10 @@ static sieveAdd as IItemStack[][float][IIngredient][int] = {
 	2: {
 		//Oxygen Extractor
 		<ore:normalDirt>: {
+			0.02: [<minecraft:wheat_seeds:0>],
+			0.1: [<actuallyadditions:item_worm:0>],
+			0.72: [<thebetweenlands:fallen_leaves:0>],
 			0.2: [<thebetweenlands:fallen_leaves:0>],
-			0.05: [<minecraft:wheat_seeds:0>],
-			0.1: [<actuallyadditions:item_worm:0>]
 		}
 	},
 };

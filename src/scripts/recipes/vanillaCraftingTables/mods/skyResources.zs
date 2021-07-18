@@ -28,6 +28,20 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]
 		]
 	],
+	<skyresources:combustioncollector>: [
+		[
+			[<ore:ingotIronTier2To4>, <ore:ingotIronTier2To4>, <ore:ingotIronTier2To4>],
+			[<ore:ingotIronTier2To4>, <minecraft:hopper:0>, <ore:ingotIronTier2To4>],
+			[<ore:ingotIronTier2To4>, <ore:ingotIronTier2To4>, <ore:ingotIronTier2To4>]
+		]
+	],
+	<skyresources:combustioncontroller>: [
+		[
+			[<ore:ingotIronTier2To4>, <ore:ingotIronTier2To4>, <ore:ingotIronTier2To4>],
+			[<ore:ingotIronTier2To4>, <advancedrocketry:misc:0>, <ore:ingotIronTier2To4>],
+			[<ore:ingotIronTier2To4>, <minecraft:flint_and_steel:0>, <ore:ingotIronTier2To4>]
+		]
+	],
 	<skyresources:combustionheater:0>: [
 		[
 			[<ore:plankWood>, <ore:stone>, <ore:plankWood>],

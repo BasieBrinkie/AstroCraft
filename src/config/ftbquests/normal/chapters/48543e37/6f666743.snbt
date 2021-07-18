@@ -1,6 +1,10 @@
 {
 	x: -2.0d,
 	y: -1.0d,
+	description: "It reacts with organic materials",
+	text: [
+		"Search JEI how to make liquid Nickel"
+	],
 	dependencies: [
 		"f337b046"
 	],

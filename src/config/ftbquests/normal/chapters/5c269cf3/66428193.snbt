@@ -1,6 +1,18 @@
 {
+	title: "Auto Compressor",
 	x: 0.0d,
 	y: 0.0d,
+	description: "Compresses items",
+	text: [
+		"It takes the item you want to compress and tries to craft them in a 2x2 or 3x3 grid. If such a recipe exists it will craft them.",
+		"This machine could for example be used to create cobblestone from pebbles.",
+		"",
+		"The Rationing compressor always leaves enough items into the compressor that you could manually craft one more compressed item. ",
+		"For example inserting 9 pebbles leaves 5 pebbles in the rationing compressor and only 1 in the normal compressor."
+	],
+	dependencies: [
+		"88d9c834"
+	],
 	tasks: [{
 		uid: "fdecdae1",
 		type: "item",

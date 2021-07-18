@@ -22,6 +22,7 @@ static stagedItems as IIngredient[][string] = {
 
 static disabledItems as IIngredient[] = [
 	<grapplemod:forcefieldupgradeitem:0>,
+	<grapplemod:repeller:0>,
 	<grapplemod:staffupgradeitem:0>
 ];
 

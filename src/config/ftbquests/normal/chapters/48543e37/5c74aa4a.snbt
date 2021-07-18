@@ -1,6 +1,14 @@
 {
 	x: -1.0d,
 	y: 0.0d,
+	description: "Infused wheat",
+	text: [
+		"You must create an air thight room in order to farm in vacuum. ",
+		"",
+		"First you must farm fully grown wheat and then infuse it with the plant cells.",
+		"",
+		"You do this by right clicking the fully grown wheat with the plant cells."
+	],
 	dependencies: [
 		"07942f58"
 	],

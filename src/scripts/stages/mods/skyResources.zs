@@ -37,6 +37,7 @@ static stagedItems as IIngredient[][string] = {
 	stageAsteroidsAutomater.stage: [
 		<skyresources:combustioncollector:0>,
 		<skyresources:combustioncontroller:0>,
+		<skyresources:fluiddropper:0>,
 		<skyresources:quickdropper:0>,
 	],
 	stageFarmer1.stage: [

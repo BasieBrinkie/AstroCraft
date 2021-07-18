@@ -9,10 +9,14 @@ static stagedItems as IIngredient[][string] = {
 		<extrautils2:ingredients:8>,
 		<extrautils2:pipe:0>
 	],
+	stageAsteroidsAutomater.stage: [
+		<extrautils2:compresseddirt:0>,
+		<extrautils2:compressedgravel:0>,
+		<extrautils2:compressedsand:0>
+	],
 };
 
 static disabledItems as IIngredient[] = [
-	<extrautils2:trashchest>
 ];
 
 function init() {

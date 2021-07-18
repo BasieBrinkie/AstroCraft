@@ -36,6 +36,6 @@
 		uid: "64033749",
 		type: "gamestage",
 		auto: "enabled",
-		stage: "decorator"
+		stage: "basic_decorator_toggle"
 	}]
 }

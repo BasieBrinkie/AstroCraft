@@ -16,8 +16,7 @@
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			},
-			id: "contenttweaker:astrostone3",
-			Count: 1b
+			id: "contenttweaker:astrostone_3"
 		},
 		auto: "invisible",
 		stage: "planet_asteroid_oxygen_one",

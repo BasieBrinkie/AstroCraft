@@ -7,19 +7,13 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	/*
-	<excompressum:uncompressed_coal:0>: [ 
+	<excompressum:auto_sieve:0>: [
 		[
-			[<advancedrocketry:charcoallog:0>], 
-			[<advancedrocketry:charcoallog:0>],
-			[]
-		],
-		[
-			[],
-			[<advancedrocketry:charcoallog:0>], 
-			[<advancedrocketry:charcoallog:0>]
+			[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
+			[<ore:paneGlass>, <ore:exCompressumHeavySieve>, <ore:paneGlass>],
+			[<ore:stickAluminum>, <ore:blockIron>, <ore:stickAluminum>]
 		]
-	]*/
+	],
 	<excompressum:compressed_crook>: [
 		[	
 			[<exnihilocreatio:crook_iron>, <exnihilocreatio:crook_iron>],
@@ -53,6 +47,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<exnihilocreatio:hammer_wood>, <exnihilocreatio:hammer_wood>, <exnihilocreatio:hammer_wood>],
 			[<exnihilocreatio:hammer_wood>, null, <exnihilocreatio:hammer_wood>],
 			[<exnihilocreatio:hammer_wood>, <exnihilocreatio:hammer_wood>, <exnihilocreatio:hammer_wood>]
+		]
+	],
+	<excompressum:heavy_sieve:0>: [
+		[
+			[<ore:woodLog>, null, <ore:woodLog>],
+			[<ore:woodLog>, <ore:woodSlabs>, <ore:woodLog>],
+			[<ore:stickAluminum>, null, <ore:stickAluminum>]
 		]
 	],
 	<excompressum:wooden_crucible>: [

@@ -1,0 +1,12 @@
+{
+	title: "Advanced Logic Systems",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "rsgauges:flatgauge2"
+	},
+	always_invisible: false,
+	group: -326139634,
+	default_quest_shape: ""
+}

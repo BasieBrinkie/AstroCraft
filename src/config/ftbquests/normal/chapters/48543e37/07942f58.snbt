@@ -1,6 +1,10 @@
 {
 	x: -2.0d,
 	y: 0.0d,
+	description: "Oxygen rich solution that can be used to infuse wheat",
+	text: [
+		"It allows for a 100% chance of retrieving a sappling instead of the drop chance from leaves"
+	],
 	dependencies: [
 		"f337b046",
 		"6f666743"

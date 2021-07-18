@@ -10,14 +10,26 @@ static stagedItems as IIngredient[][string] = {
 
 	stageAsteroidsAutomater.stage: [
 		<excompressum:auto_compressor:0>,
-		<excompressum:auto_compressor_rationing:0>
+		<excompressum:auto_compressor_rationing:0>,
+		<excompressum:auto_sieve:0>,
+		<excompressum:heavy_sieve:0>,
 	],
+
+
 
 	stageMiner1.stage: [
 		<excompressum:compressed_hammer_diamond:*>,
 		<excompressum:compressed_hammer_iron:*>,
 		<excompressum:compressed_hammer_stone:*>,
 		<excompressum:compressed_hammer_wood:*>,
+	],
+	
+	stageBasicDecoratorToggle.stage: [
+		<excompressum:heavy_sieve:1>,
+		<excompressum:heavy_sieve:2>,
+		<excompressum:heavy_sieve:3>,
+		<excompressum:heavy_sieve:4>,
+		<excompressum:heavy_sieve:5>,
 	],
 };
 

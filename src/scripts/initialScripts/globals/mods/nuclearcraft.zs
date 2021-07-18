@@ -11,4 +11,4 @@
 	Loads class(es) from ./classes/mods folder and make them global.
 	--------------------------------------------------------------
 */
-global nuclearCraft as scripts.initialScripts.classes.mods.nuclearCraft.nuclearCraft = scripts.initialScripts.classes.mods.nuclearCraft.nuclearCraft();
+global nc as scripts.initialScripts.classes.mods.nuclearCraft.nuclearCraft = scripts.initialScripts.classes.mods.nuclearCraft.nuclearCraft();

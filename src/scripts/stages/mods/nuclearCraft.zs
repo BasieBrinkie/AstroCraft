@@ -11,6 +11,9 @@ static stagedItems as IIngredient[][string] = {
 	stageAsteroidsAdvancedResources.stage: [
 		<nuclearcraft:uranium:10>,
 	],
+	stageBasicNuclearManagement.stage: [
+		<nuclearcraft:infuser:0>
+	],
 
 	stageFarmer1.stage: [
 		<nuclearcraft:flour:0>

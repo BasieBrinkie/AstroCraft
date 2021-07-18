@@ -68,6 +68,7 @@ static disabledItems as IIngredient[] = [
 	<exnihilocreatio:crook_purpur:0>,
 	<exnihilocreatio:hammer_gold:0>,
 	<exnihilocreatio:item_material:7>,
+	<exnihilocreatio:item_mesh:2>,
 	<exnihilocreatio:item_pebble:1>,
 	<exnihilocreatio:item_pebble:2>,
 	<exnihilocreatio:item_pebble:3>,

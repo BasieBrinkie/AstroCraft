@@ -61,6 +61,12 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:stonebrick:0>,
 		<minecraft:water_bucket:0>,
 	],
+	stageLeaves.stage: [
+		<minecraft:leaves:0>
+	],
+	stageAsteroidsAutomater.stage: [
+		<minecraft:hopper:0>
+	],
 	stageFarmer1.stage: [
 		<minecraft:melon:0>,
 		<minecraft:melon_block:0>,
@@ -89,7 +95,7 @@ static stagedItems as IIngredient[][string] = {
 	stageBasicDecorator.stage: [
 		<minecraft:clay:0>
 	],
-	stageBasicDecorator.stage: [
+	stageBasicDecoratorToggle.stage: [
 		<minecraft:glass_pane:0>,
 		<minecraft:planks:1>,
 		<minecraft:planks:2>,

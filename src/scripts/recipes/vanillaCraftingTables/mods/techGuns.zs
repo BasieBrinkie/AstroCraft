@@ -14,6 +14,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
             [<minecraft:tnt:0>, <skyresources:orealchdust:17>, <minecraft:tnt:0>]
         ]
     ],
+	<techguns:itemshared:146>: [
+		[
+			[<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>],
+			[<ore:nuggetIron>, <mekanism:machineblock2:11>.withTag({tier: 0}), <ore:nuggetIron>],
+			[<ore:nuggetIron>, null, <ore:nuggetIron>]
+		]
+	],
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {

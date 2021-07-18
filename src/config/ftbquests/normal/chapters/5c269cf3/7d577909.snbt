@@ -1,6 +1,6 @@
 {
 	x: -2.0d,
-	y: -2.0d,
+	y: -2.5d,
 	description: "You can filter items with this sorter",
 	text: [
 		"If you want to filter an item:",

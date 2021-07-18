@@ -24,37 +24,54 @@
 	<!-->
 		Asteroids Ore Processing Automation
 	<!-->
-	<Recipe timeRequired="300" power="60">
+	<Recipe timeRequired="200" power="60">
 		<input>
-			<itemStack>exnihilocreatio:item_ore_iron 1</itemStack>
-		</intput>
+			<itemStack>exnihilocreatio:item_ore_iron 1 1</itemStack>
+		</input>
 		<output>
-			<itemStack>factorytech:ingot 2 5</itemStack>
+			<itemStack>minecraft:iron_ingot 1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="500" power="60">
+		<input>
+			<itemStack>exnihilocreatio:item_ore_iron</itemStack>
+			<itemStack>charcoal_pit:item_ash 2</itemStack>
+		</input>
+		<output>
+			<itemStack>factorytech:ingot 1 5</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power="85">
+		<input>
+			<oreDict>dustIron 7</oreDict>
+			<itemStack>immersiveengineering:material 2 17</itemStack>
+		</input>
+		<output>
+			<itemStack>icbmclassic:clump 1 0</itemStack>
 		</output>
 	</Recipe>
 
 	<!-->
-		Asteroids Ore Processing Automation
-	<!-->
-	<Recipe timeRequired="1000" power ="85">
-		<input>
-			<oreDict>dustIron</oreDict>
-			<itemStack>immersiveengineering:material 1 17</itemStack>
-		</input>
-		<output>
-			<itemStack>icbmclassic:clump 1</itemStack>
-		</output>
-	</Recipe>
-	
-	<!-->
 		Circuit Board Manufacturer
 	<!-->
-		<Recipe timeRequired="12000" power ="1">
+		<Recipe timeRequired="6000" power="1">
 		<input>
 			<itemStack>minecraft:sand</itemStack>
 		</input>
 		<output>
 			<itemStack>appliedenergistics2:material 3 5</itemStack>
+		</output>
+	</Recipe>
+
+	<!-->
+		Nuclear Manager
+	<!-->
+		<Recipe timeRequired="2400" power="15">
+		<input>
+			<itemStack>mekanism:dirtydust 1 6</itemStack>
+		</input>
+		<output>
+			<itemStack>thaumcraft:cluster 1 5</itemStack>
 		</output>
 	</Recipe>
 </Recipes>

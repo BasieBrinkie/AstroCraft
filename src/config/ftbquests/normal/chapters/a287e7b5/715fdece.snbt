@@ -1,0 +1,18 @@
+{
+	x: -1.0d,
+	y: -3.0d,
+	description: "The container can store uranium safely",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "9d031e01",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:container"
+		}]
+	}]
+}
