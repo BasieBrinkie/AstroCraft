@@ -1,8 +1,8 @@
 {
-	x: 0.5d,
-	y: 0.0d,
+	x: -3.5d,
+	y: -3.5d,
 	tasks: [{
-		uid: "99543066",
+		uid: "888f34ea",
 		type: "item",
 		items: [{
 			ForgeCaps: {

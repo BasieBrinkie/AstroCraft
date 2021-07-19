@@ -1,8 +1,13 @@
 {
 	x: -1.5d,
 	y: -4.5d,
+	description: "Reduce your absorbed radiation quickly",
+	text: [
+		"Drinking this substances will reduce your radiation by 300 Rad over a time period of about 43 ticks or about 2 seconds."
+	],
 	dependencies: [
-		"715fdece"
+		"715fdece",
+		"a88cf179"
 	],
 	tasks: [{
 		uid: "230b80b2",

@@ -16,11 +16,13 @@ static agitatorAdd as IIngredient[ILiquidStack][ILiquidStack][ILiquidStack[IItem
 		null: {<liquid:preheated_water> * 1000: <contenttweaker:astro_ice:0>
 	}},
 
-	//Basic Nuclear Manager
+	//Basic Nuclear Management
 	{null: <liquid:radaway_slow> * 1000}: { 
 		null: {<liquid:preheated_water> * 1000: <minecraft:redstone:0>
 	}},
-
+	{null: <liquid:radaway> * 1000}: { 
+		<liquid:water> * 500: {<liquid:iridium> * 500: <actuallyadditions:item_crystal:0>
+	}},
 
 	//Farmer One
 	{null: <liquid:canolaoil> * 100}: {

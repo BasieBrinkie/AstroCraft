@@ -62,7 +62,8 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:water_bucket:0>,
 	],
 	stageLeaves.stage: [
-		<minecraft:leaves:0>
+		<minecraft:leaves:0>,
+		<minecraft:sapling:0>,
 	],
 	stageAsteroidsAutomater.stage: [
 		<minecraft:hopper:0>

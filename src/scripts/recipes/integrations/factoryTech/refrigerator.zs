@@ -17,7 +17,7 @@ import crafttweaker.liquid.ILiquidStack;
 
 
 static refrigeratorAdd as ILiquidStack[][IItemStack] = { 
-	//Profession Stage 1
+	//Asteroids Advanced Resources
 	<factorytech:machinepart:130>: [
 		<liquid:iron> * 648
 	],
@@ -25,6 +25,11 @@ static refrigeratorAdd as ILiquidStack[][IItemStack] = {
 		<liquid:copper> * 144
 	],
 
+	//Basic Nuclear Management
+	<actuallyadditions:item_crystal:0>: [
+		<liquid:radaway_slow> * 1000
+	],
+	
 	//Farmer
 	<minecraft:emerald:0>: [
 		<liquid:canolaoil> * 100

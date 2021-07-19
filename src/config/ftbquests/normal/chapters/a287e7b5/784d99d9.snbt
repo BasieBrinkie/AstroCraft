@@ -1,18 +1,19 @@
 {
-	x: -3.0d,
-	y: -2.0d,
-	dependencies: [
-		"89a00984"
-	],
+	x: -3.5d,
+	y: -3.0d,
 	tasks: [{
-		uid: "f434db1f",
+		uid: "3b9da36e",
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				Parent: {
+					Size: 2,
+					Items: []
+				},
 				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
 			},
-			id: "nuclearcraft:boots_hazmat"
+			id: "immersiveengineering:shield"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

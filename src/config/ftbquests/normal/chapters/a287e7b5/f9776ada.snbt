@@ -1,0 +1,14 @@
+{
+	x: -3.5d,
+	y: -2.0d,
+	tasks: [{
+		uid: "e871197b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "nuclearcraft:radiation_scrubber"
+		}]
+	}]
+}

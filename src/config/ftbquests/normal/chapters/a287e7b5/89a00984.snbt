@@ -1,6 +1,10 @@
 {
-	x: -3.5d,
-	y: -3.0d,
+	x: 0.5d,
+	y: -2.5d,
+	description: "Maybe you need multiple",
+	text: [
+		"Actually you don't but by now you have all the items to make a new one might you have lost the one you got at the start."
+	],
 	dependencies: [
 		"715fdece"
 	],
@@ -16,5 +20,15 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	},
+	{
+		uid: "30053357",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "nuclearcraft:geiger_block"
+		}]
 	}]
 }

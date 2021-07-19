@@ -1,6 +1,10 @@
 {
 	x: -0.5d,
 	y: -1.5d,
+	description: "You migh need more of these",
+	text: [
+		"You will by now have all the knowledge to create this item"
+	],
 	dependencies: [
 		"715fdece"
 	],

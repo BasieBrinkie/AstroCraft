@@ -1,8 +1,9 @@
 {
-	x: -4.0d,
-	y: -4.0d,
-	dependencies: [
-		"89a00984"
+	x: -5.0d,
+	y: -3.5d,
+	description: "Protects against radiation",
+	text: [
+		"Must be used in a breathable climate as it has no life support onboard."
 	],
 	tasks: [{
 		uid: "3277c9d4",
@@ -13,6 +14,45 @@
 				"customnpcs:itemscripteddata": {}
 			},
 			id: "nuclearcraft:helm_hazmat"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5766154e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "nuclearcraft:chest_hazmat"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "565390dd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "nuclearcraft:legs_hazmat"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1050a9b7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "nuclearcraft:boots_hazmat"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

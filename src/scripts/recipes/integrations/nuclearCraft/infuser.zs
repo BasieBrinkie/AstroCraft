@@ -13,9 +13,14 @@ import crafttweaker.liquid.ILiquidStack;
 	----------------------------------------------------------------------------------------------
 */
 static infuserAdd as double[double][double][ILiquidStack][IIngredient][IIngredient] = {
+    //Basic Nuclear Management
     <nuclearcraft:radaway_slow>: {
-        <techguns:itemshared:146>: {<liquid:radaway_slow>: 
-            {500: {25: 0
+        <techguns:itemshared:146>: {<liquid:radaway_slow> * 500: 
+            {1.0: {2.5: 0.0
+    }}}},
+    <nuclearcraft:radaway>: {
+        <techguns:itemshared:146>: {<liquid:radaway> * 500: 
+            {1.0: {2.5: 0.0
     }}}},
 };
 

@@ -99,7 +99,7 @@
         "rewards": [
           {
             "name": "minecraft:glowstone_dust",
-            "metadata": 1,
+            "metadata": 0,
             "count": 10,
             "rolls": 1,
             "chance": 0.4,
@@ -154,12 +154,11 @@
         "type": "generate",
         "source": "minecraft:gravel",
         "sourceMetadata": "*",
-        "sourceCount": 64
+        "sourceCount": 64,
+        "sourceName": ""
       }
     ],
-    "example_generate": {
-      
-    },
+    "example_generate": {},
     "example_list": {
       "__comment": "This example would allow clay to be sifted in a Heavy Sieve into 6 diamonds.",
       "name": "ExUtils2:CompressedGravel",

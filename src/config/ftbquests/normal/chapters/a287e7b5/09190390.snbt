@@ -1,6 +1,10 @@
 {
 	x: 0.5d,
-	y: -3.0d,
+	y: -3.5d,
+	description: "Quickly craft the nuclear container to minimize contamination",
+	text: [
+		"It still radiates but much less compared to normal uranium"
+	],
 	dependencies: [
 		"715fdece"
 	],

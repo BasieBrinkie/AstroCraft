@@ -38,7 +38,7 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
     <contenttweaker:container_nuclear:0>: [
-        []
+        [<contenttweaker:container>, <nuclearcraft:uranium:10>]
     ]
 };
 
