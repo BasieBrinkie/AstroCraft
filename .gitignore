@@ -21,7 +21,6 @@ src/.ReAuth.cfg
 src/BotaniaVars.dat
 src/*.log
 src/*.dll
-src/minecraftinstance.json
 src/.curseclient
 src/.mixin.out/*
 src/config/BiomeTweaker/output/*
@@ -56,5 +55,6 @@ src/usernamecache.json
 .DS_Store
 *.dat
 
-
+src/patchouli_data.json
+src/seen_buildersbag_addons.txt
 src/config/brandon3055/contributors.json
