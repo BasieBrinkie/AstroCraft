@@ -1,6 +1,9 @@
 {
 	x: -2.5d,
-	y: -3.0d,
+	y: -2.5d,
+	dependencies: [
+		"715fdece"
+	],
 	tasks: [{
 		uid: "8f47cc7a",
 		type: "item",
@@ -9,6 +12,28 @@
 				"customnpcs:itemscripteddata": {}
 			},
 			id: "nuclearcraft:rad_shielding"
+		}]
+	},
+	{
+		uid: "b7aff718",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "nuclearcraft:rad_shielding",
+			Damage: 1s
+		}]
+	},
+	{
+		uid: "aba39c04",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "nuclearcraft:rad_shielding",
+			Damage: 2s
 		}]
 	}]
 }

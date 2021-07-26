@@ -1,9 +1,12 @@
 {
-	x: -5.0d,
-	y: -3.5d,
+	x: -4.0d,
+	y: -3.0d,
 	description: "Protects against radiation",
 	text: [
 		"Must be used in a breathable climate as it has no life support onboard."
+	],
+	dependencies: [
+		"ebaba154"
 	],
 	tasks: [{
 		uid: "3277c9d4",

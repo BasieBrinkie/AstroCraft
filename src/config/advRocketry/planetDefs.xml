@@ -3,10 +3,10 @@
         <planet name="Glacidus" DIMID="4" dimMapping="" customIcon="glacidus">
             <isKnown>true</isKnown>
             <hasRings>true</hasRings>
-            <atmosphereDensity>90</atmosphereDensity>
+            <atmosphereDensity>80</atmosphereDensity>
             <hasOxygen>true</hasOxygen>
             <gravitationalMultiplier>50</gravitationalMultiplier>
-            <orbitalDistance>20</orbitalDistance>
+            <orbitalDistance>60</orbitalDistance>
             <orbitalTheta>120</orbitalTheta>
             <orbitalPhi>210</orbitalPhi>
             <rotationalPeriod>20000</rotationalPeriod>

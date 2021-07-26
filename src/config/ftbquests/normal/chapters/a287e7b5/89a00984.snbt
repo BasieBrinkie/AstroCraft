@@ -3,7 +3,9 @@
 	y: -2.5d,
 	description: "Maybe you need multiple",
 	text: [
-		"Actually you don't but by now you have all the items to make a new one might you have lost the one you got at the start."
+		"Actually you don't but by now you have all the items to make a new one might you have lost the one you got at the start.",
+		"",
+		"The block outputs a redstone comparator signal that scale logarithicly based upon the amount of radiation in the chunk"
 	],
 	dependencies: [
 		"715fdece"

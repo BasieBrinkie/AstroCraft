@@ -12,20 +12,20 @@
         "id": 0,
         "name": "DIM_0",
         "suffix": "_DIM_0",
-        "keeploaded": false,
-        "worldprovider": "zmaster587.advancedRocketry.world.provider.WorldProviderAsteroid",
-        "WorldProviderOverride": "zmaster587.advancedRocketry.world.provider.WorldProviderAsteroid"
+        "keeploaded": true,
+        "worldprovider": "zmaster587.advancedRocketry.world.provider.WorldProviderAsteroid"
       },
-      "worldinfo_onetime": {
-        "DayTime": 8000,
+      "jed": {
+        "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky"
+      },
+      "worldinfo": {
+        "DayTime": 6000,
         "GameRules": {
+          "doDaylightCycle": false,
           "fallDamageMultiplier": "0",
           "doWeatherCycle": false,
           "sendCommandFeedback": false
         }
-      },
-      "jed": {
-        "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky"
       }
     },
     {
@@ -37,14 +37,23 @@
         "keeploaded": false,
         "worldprovider": "com.legacy.glacidus.world.WorldProviderGlacidus"
       },
+      "jed": {
+        "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+        "FogColor": "000000",
+        "DayLength": "48000",
+        "CanRespawnHere": "true",
+        "RespawnDimension": "4"
+      },
+      "worldinfo": {
+        "GameRules": {
+          "CanSleepHere": "true"
+        }
+      },
       "worldinfo_onetime": {
         "GameRules": {
           "doWeatherCycle": false,
           "sendCommandFeedback": false
         }
-      },
-      "jed": {
-        "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky"
       }
     }
   ]

@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "12941703",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:beacon"
+		}]
+	}]
+}

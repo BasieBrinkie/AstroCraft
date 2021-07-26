@@ -163,6 +163,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:ingotIron>, null]
 		]
 	],
+	<minecraft:shield:0>: [
+		[
+			[<ore:plankWood>, <ore:ingotIronTier2To4>, <ore:plankWood>],
+			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+			[null, <ore:plankWood>, null]
+		]
+	],
 	<minecraft:stone_axe>: [
 		[
 			[<minecraft:stone:0>, <minecraft:stone:0>, null],

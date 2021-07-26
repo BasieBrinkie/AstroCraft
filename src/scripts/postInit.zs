@@ -52,6 +52,7 @@ function initRecipes() {
 	scripts.recipes.vanillaCraftingTables.mods.extraUtils2.init();
 	scripts.recipes.vanillaCraftingTables.mods.factoryTech.init();
 	scripts.recipes.vanillaCraftingTables.mods.grapplemod.init();
+	scripts.recipes.vanillaCraftingTables.mods.immersiveEngineering.init();
 	scripts.recipes.vanillaCraftingTables.mods.libVulpes.init();
 	scripts.recipes.vanillaCraftingTables.mods.littleTiles.init();
 

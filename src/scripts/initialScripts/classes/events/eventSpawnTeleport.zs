@@ -38,7 +38,7 @@ function init() {
 
             if event.player.world.worldInfo.getGeneratorOptions() == '{"Topography-Preset":"Glacidus"}' { 
                 server.commandManager.executeCommand(server, "#gen galcidusSpawn1 -d 4 -x " + posX + " -z " + posZ);
-                server.commandManager.executeCommand(server, "tpj " + event.player.name + " 4 " + posX + " 90 " + posZ);
+                server.commandManager.executeCommand(server, "tpj " + event.player.name + " 4 " + posX + 3 + " 90 " + posZ + 3);
                 server.commandManager.executeCommand(server, "clear " + event.player.name);
                 val startingItems as IItemStack[][string] = scripts.initialScripts.initialInventory.initialInventory.startingItems;
                 for item in startingItems['{"Topography-Preset":"Glacidus"}'] {
