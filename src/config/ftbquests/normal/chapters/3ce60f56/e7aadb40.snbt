@@ -1,0 +1,37 @@
+{
+	x: 1.5d,
+	y: 0.0d,
+	dependencies: [
+		"dcdfc562"
+	],
+	tasks: [{
+		uid: "0646fc4b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "magneticraft:crushing_table"
+		}]
+	},
+	{
+		uid: "9ae392dc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "magneticraft:stone_hammer"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "magneticraft:iron_hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

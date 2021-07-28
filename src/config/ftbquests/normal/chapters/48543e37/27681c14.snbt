@@ -1,6 +1,7 @@
 {
 	x: -5.0d,
 	y: 0.0d,
+	shape: "square",
 	description: "Denser mesh",
 	text: [
 		"You can swap out the string mesh for different sieving products"

@@ -1,0 +1,39 @@
+{
+	x: 1.5d,
+	y: 2.0d,
+	dependencies: [
+		"1541f2c5"
+	],
+	tasks: [{
+		uid: "1ff0c4c6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "glacidus:underground_stick"
+		}]
+	},
+	{
+		uid: "d82f0281",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -5559831587488555763L,
+					AS_Amulet_HolderMost: 615258918546590343L
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "glacidus:antinatric_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "19aec309",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "planet_glacidus_mob_spawn"
+	}]
+}

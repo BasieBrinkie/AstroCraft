@@ -1,0 +1,14 @@
+{
+	x: 8.5d,
+	y: 1.0d,
+	tasks: [{
+		uid: "e3e556b4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "glacidus:thawed_antinatric_stone"
+		}]
+	}]
+}

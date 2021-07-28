@@ -1,3 +1,13 @@
 [
-
+    {
+        "dimension": 4,
+        "hostile": true,
+        "gamestage": "planet_glacidus_mob_spawn",
+        "result": "allow"
+    },
+    {  
+        "dimension": 4,
+        "hostile": true, 
+        "result": "deny"
+    }
 ]

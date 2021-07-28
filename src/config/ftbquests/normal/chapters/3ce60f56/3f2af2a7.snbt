@@ -1,0 +1,14 @@
+{
+	x: 8.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "2d980375",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "glacidus:glacidite_ore"
+		}]
+	}]
+}

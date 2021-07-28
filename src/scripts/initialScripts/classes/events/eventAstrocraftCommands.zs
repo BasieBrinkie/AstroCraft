@@ -4,6 +4,17 @@ import crafttweaker.player.IPlayer;
 import crafttweaker.server.IServer;
 import crafttweaker.item.IItemStack;
 
+import mods.zenstages.ZenStager;
+import mods.zenstages.Stage;
+
+static glacidusSpawnStages as string[] = [
+    stageGlacidusSpawn.stage
+];
+
+static aquariusSpawnStages as string[] = [
+    stageAquariusSpawn.stage
+];
+
 function init() {
     events.onCommand(function(event as crafttweaker.event.CommandEvent){
         //----------------------------------------------------------------------
@@ -46,8 +57,12 @@ function init() {
                 }
                 if (params[2] == "Glacidus") {
                     if player.data.firstJoin == 1 {
-                        server.commandManager.executeCommand(server, "#gen test -d 5 -x " + player.x + " -z " + player.z );
-                        server.commandManager.executeCommand(server, "tpj " + player.name + " 5 " + player.x + " 90 " + player.z);
+                        for stage in glacidusSpawnStages { 
+                            player.addGameStage(stage);
+                        }
+                        server.commandManager.executeCommand(server, "#preview none");
+                        server.commandManager.executeCommand(server, "#gen glacidusSpawn1 -d 4 -x " + player.x + " -z " + player.z );
+                        server.commandManager.executeCommand(server, "tpj " + player.name + " 4 " + player.x + 3 + " 81 " + player.z + 3);
                         server.commandManager.executeCommand(server, "clear " + player.name);
                         
                         //Spawn items
@@ -67,7 +82,11 @@ function init() {
                 }
                 if (params[2] == "Aquarius-66B") {
                     if player.data.firstJoin == 1 {
-                        server.commandManager.executeCommand(server, "#gen test -d 5 -x " + player.x + " -z " + player.z );
+                        for stage in aquariusSpawnStages {
+                            player.addGameStage(stage);
+                        }
+                        server.commandManager.executeCommand(server, "#preview none");
+                        server.commandManager.executeCommand(server, "#gen aquariusSpawn1 -d 5 -x " + player.x + " -z " + player.z );
                         server.commandManager.executeCommand(server, "tpj " + player.name + " 5 " + player.x + " 90 " + player.z);
                         server.commandManager.executeCommand(server, "clear " + player.name);
                         
@@ -121,13 +140,33 @@ function init() {
                             val tpPlayer as string = params[4];
                             var posX as string = params[5];
                             var posZ as string = params[6];
+                            
+                            for stage in glacidusSpawnStages { 
+                                player.addGameStage(stage);
+                            }
                             server.commandManager.executeCommand(server, "#preview none");
-                            server.commandManager.executeCommand(server, "#gen test -d 5 -x " + posX + " -z " + posZ);
-                            server.commandManager.executeCommand(server, "tpj " + tpPlayer + " 5 " + posX + " 90 " + posZ);
+                            server.commandManager.executeCommand(server, "#gen glacidusSpawn1 -d 4 -x " + posX + " -z " + posZ);
+                            server.commandManager.executeCommand(server, "tpj " + tpPlayer + " 4 " + posX + 3 + " 90 " + posZ + 3);
                             server.commandManager.executeCommand(server, "clear " + tpPlayer);
                             
                             event.cancel(); //cancel the command since we handled it
                             return;
+                        }
+                        if (params[3] == "Aquarius-66B" && params.length == 7) {
+                            val tpPlayer as string = params[4];
+                            var posX as string = params[5];
+                            var posZ as string = params[6];
+
+                            for stage in aquariusSpawnStages {
+                                player.addGameStage(stage);
+                            }
+                            server.commandManager.executeCommand(server, "#preview none");
+                            server.commandManager.executeCommand(server, "#gen aquariusSpawn1 -d 5 -x " + player.x + " -z " + player.z );
+                            server.commandManager.executeCommand(server, "tpj " + player.name + " 5 " + player.x + " 90 " + player.z);
+                            server.commandManager.executeCommand(server, "clear " + player.name);
+                            
+                            event.cancel(); //cancel the command since we handled it
+                            return;           
                         }
                         else {
                             player.sendChat("Parameters for resetWorldOption <world> <player> <pos x> <pos z>:");
@@ -137,7 +176,7 @@ function init() {
                             player.sendChat("<player");
                             player.sendChat(" - Type full player name");
                             player.sendChat("<pos x> & <pos z>");
-                            player.sendChat(" - Go to the dimension with /tpj #dimNum <coords> and manually pick coordinates where player needs to spawn");
+                            player.sendChat(" - Go to the dimension with /tpj <dimNumber> <coords> and manually pick coordinates where player needs to spawn");
                             
                             event.cancel(); //cancel the command since we handled it
                             return;

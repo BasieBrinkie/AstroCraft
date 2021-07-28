@@ -48,7 +48,6 @@ static stagedItems as IIngredient[][string] = {
 	],
 	stageAsteroidsAdvancedResources.stage: [
 		<factorytech:compressor:0>,
-		<factorytech:crate:0>,
 		<factorytech:fridge:0>,
 		<factorytech:machinepart:2>,
 		<factorytech:machinepart:4>,
@@ -67,6 +66,10 @@ static stagedItems as IIngredient[][string] = {
 		<factorytech:salvagepart:161>,
 		<factorytech:scaffold:0>,
 		<factorytech:temperer:0>,
+	],
+
+	itemFactorytechCrate.stage: [
+		<factorytech:crate:0>
 	],
 };
 

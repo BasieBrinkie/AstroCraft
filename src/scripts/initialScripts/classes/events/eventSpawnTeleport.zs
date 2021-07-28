@@ -11,6 +11,9 @@ import crafttweaker.text.ITextComponent;
 import crafttweaker.formatting.IFormattedText;
 import crafttweaker.item.IItemStack;
 
+import mods.zenstages.ZenStager;
+import mods.zenstages.Stage;
+
 
 /*	
 	----------------------------------------------------------------------------------------------
@@ -21,7 +24,13 @@ import crafttweaker.item.IItemStack;
     items.
 	----------------------------------------------------------------------------------------------
 */
+static glacidusSpawnStages as string[] = [
+    stageGlacidusSpawn.stage
+];
 
+static aquariusSpawnStages as string[] = [
+    stageAquariusSpawn.stage
+];
 
 function init() {
     events.onPlayerLoggedIn(function(event as crafttweaker.event.PlayerLoggedInEvent){
@@ -37,6 +46,9 @@ function init() {
             server.commandManager.executeCommand(server, "#preview none");
 
             if event.player.world.worldInfo.getGeneratorOptions() == '{"Topography-Preset":"Glacidus"}' { 
+                for stage in glacidusSpawnStages { 
+                   event.player.addGameStage(stage);
+                }
                 server.commandManager.executeCommand(server, "#gen galcidusSpawn1 -d 4 -x " + posX + " -z " + posZ);
                 server.commandManager.executeCommand(server, "tpj " + event.player.name + " 4 " + posX + 3 + " 90 " + posZ + 3);
                 server.commandManager.executeCommand(server, "clear " + event.player.name);
@@ -46,6 +58,9 @@ function init() {
                 }
             }
             if event.player.world.worldInfo.getGeneratorOptions() == '{"Topography-Preset":"Aquarius-66B"}' {
+                for stage in aquariusSpawnStages {
+                   event.player.addGameStage(stage);
+                }
                 server.commandManager.executeCommand(server, "#gen aquariusSpawn1 -d 3 -x " + posX + " -z " + posZ);
                 server.commandManager.executeCommand(server, "tpj " + event.player.name + " 5 " + posX + " 248 " + posZ);
                 server.commandManager.executeCommand(server, "clear " + event.player.name);

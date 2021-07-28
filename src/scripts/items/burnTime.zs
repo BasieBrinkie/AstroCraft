@@ -18,7 +18,10 @@ static setBurnTime as IIngredient[][int] = {
 		<exnihilocreatio:block_barrel0:0>,
 		<exnihilocreatio:block_sieve:0>,
 		<skyresources:fusiontable:0>,
-		]
+	],
+	1: [
+		<glacidus:dead_lumicia:0>
+	]
 };
 
 function init() {

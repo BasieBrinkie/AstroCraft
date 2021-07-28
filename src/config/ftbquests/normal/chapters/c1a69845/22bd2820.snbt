@@ -7,7 +7,7 @@
 		Damage: 5s
 	},
 	x: -1.0d,
-	y: 11.0d,
+	y: 10.0d,
 	tasks: [{
 		uid: "0ed98f56",
 		type: "gamestage",

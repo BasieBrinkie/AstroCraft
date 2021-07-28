@@ -10,6 +10,7 @@
 	},
 	x: -2.0d,
 	y: 0.5d,
+	shape: "square",
 	description: "Automatic miner in the asteroid fields",
 	text: [
 		"You simply input power and the miner will become active.",
@@ -17,6 +18,10 @@
 		"",
 		"Although you can technically use a small item output you need to use at least 9 output slots for the miner to work."
 	],
+	dependencies: [
+		"7d38c86b"
+	],
+	hide: true,
 	or_tasks: true,
 	tasks: [{
 		uid: "ba89e324",

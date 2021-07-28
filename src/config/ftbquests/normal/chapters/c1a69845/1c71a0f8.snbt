@@ -11,5 +11,29 @@
 		uid: "dfeb4394",
 		type: "gamestage",
 		stage: "planet_asteroids_oxygen_one"
+	}],
+	rewards: [{
+		uid: "5dfc6fd0",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "wood_tools"
+	},
+	{
+		uid: "457ccaa6",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "stone_tools"
+	},
+	{
+		uid: "0a4d021c",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "stone"
+	},
+	{
+		uid: "7a266113",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "furnace"
 	}]
 }

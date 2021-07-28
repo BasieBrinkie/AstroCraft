@@ -1,0 +1,17 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	dependencies: [
+		"e7aadb40"
+	],
+	tasks: [{
+		uid: "e23ee344",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:cobblestone"
+		}]
+	}]
+}

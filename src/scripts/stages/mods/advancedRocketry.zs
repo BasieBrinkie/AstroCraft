@@ -3,9 +3,9 @@ import crafttweaker.item.IIngredient;
 import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
-import scripts.stages.register;
-
 static stagedItems as IIngredient[][string] = {
+	/*
+	Pseudo stage
 	stageSpawnItems.stage: [
 		<advancedrocketry:spacehelmet>,
 		<advancedrocketry:spacechestplate>.withTag(nbt.pressureTank_Oxygen(4000, 0)),
@@ -13,6 +13,7 @@ static stagedItems as IIngredient[][string] = {
 		<advancedrocketry:spaceleggings>,
 		<advancedrocketry:spaceboots>
 	],
+	*/
 	stageAsteroidsOxygen1.stage: [
 		<advancedrocketry:charcoallog:0>,
 		<advancedrocketry:liquidtank:0>,	

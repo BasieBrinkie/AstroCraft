@@ -19,7 +19,7 @@ static dimensionGamestageRules as string[][int] = {
     //Glacidus
     5: [
         dimensionGlacidus.stage,
-        planetGlacidusStockFarmer.stage,
+        stageGlacidusStockFarmer.stage,
     ]
 };
 

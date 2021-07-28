@@ -1,0 +1,57 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "glacidus:lumicia_grass"
+	},
+	x: 0.0d,
+	y: 12.5d,
+	tasks: [{
+		uid: "5f606887",
+		type: "gamestage",
+		stage: "dim_glacidus"
+	}],
+	rewards: [{
+		uid: "952a992b",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "metal_iron_ingot_tier_one"
+	},
+	{
+		uid: "a3e8d1a4",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "stone_tools"
+	},
+	{
+		uid: "de5766d0",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "wooden_tools"
+	},
+	{
+		uid: "7b3f65ea",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "iron_tools"
+	},
+	{
+		uid: "7b8eadd7",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "diamond_pickaxe"
+	},
+	{
+		uid: "257d2358",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "stone"
+	},
+	{
+		uid: "7c9b28d2",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "planet_glacidus_spawn"
+	}]
+}

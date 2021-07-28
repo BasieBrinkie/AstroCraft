@@ -4,6 +4,6 @@
 	tasks: [{
 		uid: "dfb2611d",
 		type: "gamestage",
-		stage: "planet_glacidus_scavenge"
+		stage: "startplanet_aquarius"
 	}]
 }

@@ -10,8 +10,8 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
     //test
 	<immersiveengineering:shield>.withTag({ncRadiationResistance: 1.0E-4}): [
 		[
-			[<ore:plankWood>, <ore:plankWood>],
-			[],
+			[<ore:plankWood>, null],
+			[null, <ore:plankWood>],
 			[]
 		]
 	],

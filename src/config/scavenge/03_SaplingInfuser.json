@@ -1,7 +1,7 @@
 {
   "block_pools": [
     {
-      "name": "saplingInfuser",
+      "name": "SaplingInfuser",
       "type": {
         "type": "block",
         "name": "minecraft:wheat",

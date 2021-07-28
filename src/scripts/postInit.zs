@@ -37,6 +37,7 @@ function initRecipes() {
 	if (!devDisableAddRecipes | !dev) {
 	print("----------------------- Recipes: Additions -----------------------");
 	
+	scripts.recipes.vanillaCraftingTables.mods.academyCraft.init();
 	scripts.recipes.vanillaCraftingTables.mods.actuallyAdditions.init();
 	scripts.recipes.vanillaCraftingTables.mods.advancedRocketry.init();
 	scripts.recipes.vanillaCraftingTables.mods.appliedEnergistics2.init();
@@ -51,11 +52,13 @@ function initRecipes() {
 	scripts.recipes.vanillaCraftingTables.mods.exNihiloCreatio.init();
 	scripts.recipes.vanillaCraftingTables.mods.extraUtils2.init();
 	scripts.recipes.vanillaCraftingTables.mods.factoryTech.init();
+	scripts.recipes.vanillaCraftingTables.mods.glacidus.init();
 	scripts.recipes.vanillaCraftingTables.mods.grapplemod.init();
 	scripts.recipes.vanillaCraftingTables.mods.immersiveEngineering.init();
 	scripts.recipes.vanillaCraftingTables.mods.libVulpes.init();
 	scripts.recipes.vanillaCraftingTables.mods.littleTiles.init();
 
+	scripts.recipes.vanillaCraftingTables.mods.magnetiCraft.init();
 	scripts.recipes.vanillaCraftingTables.mods.matterOverdrive.init();
 	scripts.recipes.vanillaCraftingTables.mods.mekanism.init();
 	scripts.recipes.vanillaCraftingTables.mods.minecraft.init();
@@ -110,6 +113,8 @@ function initIntegrations() {
 	scripts.recipes.integrations.factoryTech.refrigerator.init();
 	scripts.recipes.integrations.factoryTech.temperer.init();
 
+	scripts.recipes.integrations.magnetiCraft.crushingTable.init();
+
 	scripts.recipes.integrations.modularMachinery.antenna_tier_1.init();
 	scripts.recipes.integrations.modularMachinery.asteroid_miner_tier_1.init();
 
@@ -149,6 +154,7 @@ function initStages() {
 	scripts.stages.metals.metalNickel.init();
 	scripts.stages.metals.metalSteel.init();
 
+	scripts.stages.mods.academyCraft.init();
 	scripts.stages.mods.actuallyAdditions.init();	
 	scripts.stages.mods.advancedRocketry.init();
 	scripts.stages.mods.appliedEnergistics2.init();
@@ -161,17 +167,20 @@ function initStages() {
 	scripts.stages.mods.contentTweaker.init();
 	scripts.stages.mods.enderUtilities.init();
 	scripts.stages.mods.engineersDecor.init();
+	scripts.stages.mods.erebus.init();
 	scripts.stages.mods.exCompressum.init();
 	scripts.stages.mods.exNihiloCreatio.init();
 	scripts.stages.mods.extraUtils2.init();
 	scripts.stages.mods.factoryTech.init();
 	scripts.stages.mods.ftbQuests.init();
+	scripts.stages.mods.glacidus.init();
 	scripts.stages.mods.grapplemod.init();
 	scripts.stages.mods.icbmClassic.init();
 	scripts.stages.mods.immersiveEngineering.init();
 	scripts.stages.mods.jurassicraft.init();
 	scripts.stages.mods.libVulpes.init();
 	scripts.stages.mods.littleTiles.init();
+	scripts.stages.mods.magnetiCraft.init();
 	scripts.stages.mods.matterOverdrive.init();
 	scripts.stages.mods.mekanism.init();
 	scripts.stages.mods.minecraft.init();
@@ -188,6 +197,7 @@ function initStages() {
 	scripts.stages.mods.thaumcraft.init();
 	scripts.stages.mods.theBetweenLands.init();
 	scripts.stages.mods.thermalFoundation.init();
+	scripts.stages.mods.tropiCraft.init();
 	scripts.stages.mods.xtones.init();
 	}
 }

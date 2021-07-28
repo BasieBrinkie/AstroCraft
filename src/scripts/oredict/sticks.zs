@@ -13,7 +13,8 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 		<mysticalagriculture:crafting:22>,
 	],
 	<ore:stickTier1>: [
-		<minecraft:stick:0>
+		<minecraft:stick:0>,
+		<glacidus:underground_stick:0>
 	],
 	<ore:stickTier2>: [
 		<mekanism:polyethene:3>

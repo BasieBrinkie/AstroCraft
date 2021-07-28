@@ -12,5 +12,11 @@
 			id: "minecraft:diamond_pickaxe"
 		},
 		stage: "miner_one"
+	}],
+	rewards: [{
+		uid: "241ff11d",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "diamond_pickaxe"
 	}]
 }

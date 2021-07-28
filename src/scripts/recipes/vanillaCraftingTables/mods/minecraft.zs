@@ -79,7 +79,11 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>],
 			[<minecraft:cobblestone:0>, <ore:allCoal>, <minecraft:cobblestone:0>],
 			[<minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>]
-
+		],
+		[
+			[<minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>],
+			[<minecraft:cobblestone:0>, <glacidus:dead_lumicia:0>, <minecraft:cobblestone:0>],
+			[<minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>]
 		]
 	],
 	<minecraft:hopper:0>: [
@@ -98,21 +102,14 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<minecraft:iron_hoe>: [
 		[
-			[<ore:stickWood>, null, null],
-			[<ore:nuggetIron>, <ore:stickWood>, null],
-			[null, null, <ore:stickWood>]
+			[null, <ore:nuggetIron>, <ore:stickWood>],
+			[null, <ore:stickWood>, null],
+			[<ore:stickWood>, null, null]
 		]
 	],
 	<minecraft:iron_pickaxe>: [
 		[
 			[<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>],
-			[null, <ore:stickWood>, null],
-			[null, <ore:stickWood>, null]
-		]
-	],
-	<minecraft:iron_pickaxe>: [
-		[
-			[null, <ore:ingotIron>, null],
 			[null, <ore:stickWood>, null],
 			[null, <ore:stickWood>, null]
 		]

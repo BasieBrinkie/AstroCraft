@@ -1,0 +1,17 @@
+{
+	x: 1.5d,
+	y: 1.0d,
+	dependencies: [
+		"dcdfc562"
+	],
+	tasks: [{
+		uid: "155b6af3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "glacidus:dead_lumicia"
+		}]
+	}]
+}

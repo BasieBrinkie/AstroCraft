@@ -6,11 +6,11 @@
 		},
 		id: "minecraft:milk_bucket"
 	},
-	x: -6.0d,
-	y: 3.5d,
+	x: 2.0d,
+	y: 12.5d,
 	tasks: [{
 		uid: "e745cc92",
 		type: "gamestage",
-		stage: "glacidus_stockfarmer"
+		stage: "planet_glacidus_stockfarmer"
 	}]
 }

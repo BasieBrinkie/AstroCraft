@@ -23,5 +23,11 @@
 		type: "gamestage",
 		auto: "no_toast",
 		stage: "tools_steel"
+	},
+	{
+		uid: "9d5aa0ae",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "item_factorytech_crate"
 	}]
 }

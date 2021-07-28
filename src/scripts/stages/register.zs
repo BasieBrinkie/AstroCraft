@@ -131,9 +131,24 @@ global stageAsteroidsOxygen1 as Stage = ZenStager.initStage("planet_asteroids_ox
 global stageAsteroidsOxygenExtractor as Stage = ZenStager.initStage("planet_asteroids_oxygen_extractor");
 global stageAsteroidsResources1 as Stage = ZenStager.initStage("planet_asteroids_resources_one");
 
+/*
+	----------------------
+	Glacidus.
+	----------------------
+*/
+global stageGlacidusSpawn as Stage = ZenStager.initStage("planet_glacidus_spawn");
 
-global planetGlacidusStockFarmer as Stage = ZenStager.initStage("glacidus_stockfarmer");
+global stageGlacidusBotanic as Stage = ZenStager.initStage("planet_glacidus_botanic");
+global stageGlacidusStockFarmer as Stage = ZenStager.initStage("planet_glacidus_stockfarmer");
 
+
+
+/*
+	----------------------
+	Aquarius.
+	----------------------
+*/
+global stageAquariusSpawn as Stage = ZenStager.initStage("aquarius_spawn");
 
 
 
@@ -171,14 +186,23 @@ global itemAE21KDisk as Stage = ZenStager.initStage("item_ae_one_k_disk");
 //Atum
 global itemAtumBeacon as Stage = ZenStager.initStage("item_atum_beacon");
 
+//Factorytech
+global itemFactorytechCrate as Stage = ZenStager.initStage("item_factorytech_crate");
+
 //Mekanism
 global stageTank1 as Stage = ZenStager.initStage("tank_one");
 
 //Minecraft
-global stageEmerald as Stage = ZenStager.initStage("emerald");
 global stageCrook as Stage = ZenStager.initStage("crook");
-global stageShears as Stage = ZenStager.initStage("shears");
+global stageDiamondPickaxe as Stage = ZenStager.initStage("diamond_pickaxe");
+global stageEmerald as Stage = ZenStager.initStage("emerald");
+global stageIronTools as Stage = ZenStager.initStage("iron_tools");
+global stageFurnace as Stage = ZenStager.initStage("furnace");
 global stageLeaves as Stage = ZenStager.initStage("leaves");
+global stageShears as Stage = ZenStager.initStage("shears");
+global stageStone as Stage = ZenStager.initStage("stone");
+global stageStoneTools as Stage = ZenStager.initStage("stone_tools");
+global stageWoodTools as Stage = ZenStager.initStage("wood_tools");
 
 
 //Modular Machinery
@@ -189,6 +213,7 @@ global modularMachineryTier2 as Stage = ZenStager.initStage("modular_machinery_t
 	Misc Stages.
 	------------
 */
+global metalIronIngotTier1 as Stage = ZenStager.initStage("metal_iron_ingot_tier_one");
 global metalIronIngotTier2 as Stage = ZenStager.initStage("metal_iron_ingot_tier_two");
 global metalSteelTier2 as Stage = ZenStager.initStage("metal_steel_tier_two");
 

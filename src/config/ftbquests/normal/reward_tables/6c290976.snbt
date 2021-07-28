@@ -19,7 +19,7 @@
 			id: "contenttweaker:astrostone_3"
 		},
 		auto: "invisible",
-		stage: "planet_asteroid_oxygen_one",
+		stage: "startplanet_asteroids",
 		type: "gamestage"
 	},
 	{
@@ -31,7 +31,7 @@
 			id: "glacidus:lumicia_grass"
 		},
 		auto: "invisible",
-		stage: "planet_glacidus_scavenge",
+		stage: "startplanet_glacidus",
 		type: "gamestage"
 	},
 	{
@@ -44,7 +44,7 @@
 			id: "minecraft:water_bucket"
 		},
 		auto: "invisible",
-		stage: "planet_aquarius_diver_one",
+		stage: "startplanet_aquarius",
 		type: "gamestage"
 	}]
 }
