@@ -8,6 +8,7 @@
 	},
 	x: 0.0d,
 	y: 0.0d,
+	shape: "square",
 	description: "A brief introduction to Glacidus",
 	text: [
 		"Welcome to the planet Glacidus.",
@@ -19,6 +20,7 @@
 		"",
 		"Alternatively you could also mine downwards to the mid-layer of Glacidus and discover the underground live."
 	],
+	hide: true,
 	tasks: [{
 		uid: "06bf31aa",
 		type: "checkmark"

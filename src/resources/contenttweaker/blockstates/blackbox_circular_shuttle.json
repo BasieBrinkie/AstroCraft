@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "inventory": { "model": "contenttweaker:blackbox" },
+    "facing=north": { "model": "contenttweaker:blackbox" },
+    "facing=south": { "model": "contenttweaker:blackbox", "y": 180 },
+    "facing=west":  { "model": "contenttweaker:blackbox", "y": 270 },
+    "facing=east":  { "model": "contenttweaker:blackbox", "y": 90 }
+  }
+}

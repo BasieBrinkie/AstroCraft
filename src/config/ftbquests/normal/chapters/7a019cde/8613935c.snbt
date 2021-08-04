@@ -30,6 +30,6 @@
 	rewards: [{
 		uid: "2560cf4a",
 		type: "gamestage",
-		stage: "decoration_one_enable"
+		stage: "basic_decoration_toggle"
 	}]
 }

@@ -1,6 +1,9 @@
 {
 	x: 3.0d,
 	y: 1.0d,
+	text: [
+		"Use the furnace in the spawn hut, craft a furnace or go out exploring the middle layer to find a furnace"
+	],
 	dependencies: [
 		"1541f2c5"
 	],

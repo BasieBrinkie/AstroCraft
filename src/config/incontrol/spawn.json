@@ -1,6 +1,7 @@
 [
     {
         "dimension": 4,
+        "mod": "glacidus",
         "hostile": true,
         "gamestage": "planet_glacidus_mob_spawn",
         "result": "allow"

@@ -268,6 +268,7 @@ function initItemProperties() {
 function initEvents() {
 	print("----------------------- Events -----------------------");
 	scripts.initialScripts.classes.events.eventAstrocraftCommands.init();
+	scripts.initialScripts.classes.events.eventBlockstate.init();
 	scripts.initialScripts.classes.events.eventDimensionGameStage.init();
 	scripts.initialScripts.classes.events.eventDimensionInteractLock.init();
 	scripts.initialScripts.classes.events.eventFallDamageCancelPlayer.init();
