@@ -1,0 +1,2 @@
+astrocraft.user_command.usage=Custom commands for the modpack \n/astrocraft startworld <world> \nValid worlds: Glacidus, Aquarius-66B
+astrocraft.admin_command.usage=Custom admin commands for the modpack \n/astrocraft resetWorldOption <player> <world> <pos x> <pos z> \nValid worlds: Glacidus, Aquarius-66B \n-- Resets the starting world for the player and clears inventory and gives starting items

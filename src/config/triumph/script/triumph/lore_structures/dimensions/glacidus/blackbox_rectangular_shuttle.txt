@@ -1,0 +1,11 @@
+setIcon("contenttweaker:blackbox_rectangular_shuttle")
+setTitle("Rectangular Shuttle")
+setDescription("Find a crashed rectangular shuttle")
+
+addParent("triumph:lore_structures/dimensions/glacidus")
+
+hiddenUnless("triumph:lore_structures/dimensions/glacidus")
+
+criteria = addCriteria("structure_blackbox_rectangular_shuttle", "triumph:gamestage")
+criteria.setStage("structure_blackbox_rectangular_shuttle")
+setPos(179,-19)

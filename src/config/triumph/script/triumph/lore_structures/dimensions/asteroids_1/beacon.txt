@@ -8,4 +8,4 @@ hiddenUnless("triumph:lore_structures/dimensions/asteroids_1")
 
 criteria = addCriteria("structure_asteroidbeacon", "triumph:gamestage")
 criteria.setStage("structure_asteroidbeacon")
-setPos(155,-112)
+setPos(154,-184)

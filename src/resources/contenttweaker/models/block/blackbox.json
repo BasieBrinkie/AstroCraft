@@ -1,5 +1,5 @@
 {
-    "parent": "block/cube",
+    "parent": "block/cube_bottom_top",
     "display": {
         "firstperson_righthand": {
             "rotation": [ 0, 135, 0 ],
@@ -10,10 +10,7 @@
     "textures": {
         "up": "contenttweaker:blocks/blackbox_top",
         "down": "contenttweaker:blocks/blackbox_bottom",
-        "particle": "contenttweaker:blocks/blackbox_front",
-        "north": "contenttweaker:blocks/blackbox_front",
-        "east": "contenttweaker:blocks/blackbox_left",
-        "south": "contenttweaker:blocks/blackbox_back",
-        "west": "contenttweaker:blocks/blackbox_right"
+        "particle": "contenttweaker:blocks/blackbox_top",
+        "side": "contenttweaker:blocks/blackbox_side"
     }
 }

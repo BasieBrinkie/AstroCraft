@@ -8,4 +8,4 @@ hiddenUnless("triumph:lore_structures/dimensions/asteroids_1")
 
 criteria = addCriteria("structure_miningdroid", "triumph:gamestage")
 criteria.setStage("structure_miningdroid")
-setPos(155,-77)
+setPos(159,-113)

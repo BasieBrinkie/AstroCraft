@@ -2,7 +2,7 @@ setIcon(<minecraft:stone>)
 
 setTitle("Star System: Arcturus")
 
-setDescription("Visit the system Arcturus")
+setDescription("Visit a planet in the system Arcturus")
 
 addParent("triumph:lore_items/root")
 

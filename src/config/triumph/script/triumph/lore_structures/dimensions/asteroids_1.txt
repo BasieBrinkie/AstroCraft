@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:astrostone_3>)
+setIcon("contenttweaker:astrostone_3")
 
 setTitle("Asteroid Dimension")
 
@@ -9,4 +9,4 @@ addParent("triumph:lore_structures/systems/arcturus")
 criteria2 = addCriteria("Dimension Stage", "triumph:gamestage")
 criteria2.setStage("planet_asteroids_oxygen_one")
 
-setPos(113,-59)
+setPos(107,-164)

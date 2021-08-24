@@ -2,12 +2,12 @@ setIcon("advancedrocketry:drill")
 setTitle("Mining Droid")
 setDescription("Visit an Mining Droid")
 
-addParent("triumph:lore_structures/dimensions/asteroids_1")
+addParent("triumph:lore_items/dimensions/asteroids_1")
 
-hiddenUnless("triumph:lore_structures/dimensions/asteroids_1")
+hiddenUnless("triumph:lore_items/dimensions/asteroids_1")
 
 setShowToast(true)
 
 criteria = addCriteria("structure_miningdroid", "triumph:gamestage")
 criteria.setStage("structure_miningdroid")
-setPos(155,-77)
+setPos(166,-113)

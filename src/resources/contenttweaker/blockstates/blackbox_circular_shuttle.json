@@ -1,9 +1,12 @@
 {
+  "forge_marker": 1,
+  "defaults": {
+    "model": "contenttweaker:blackbox",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
   "variants": {
-    "inventory": { "model": "contenttweaker:blackbox" },
-    "facing=north": { "model": "contenttweaker:blackbox" },
-    "facing=south": { "model": "contenttweaker:blackbox", "y": 180 },
-    "facing=west":  { "model": "contenttweaker:blackbox", "y": 270 },
-    "facing=east":  { "model": "contenttweaker:blackbox", "y": 90 }
+    "normal": [{}],
+    "inventory": [{}]
   }
 }
