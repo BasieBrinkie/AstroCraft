@@ -1,6 +1,6 @@
 # AstroCraft
-A Minecraft 1.12.2 modpack based around space-travel
- This pack challenges you to fight against the harsh space environment, be intuitive and create a space station. Use this space station to your advantage. You'll eventually be able to travel to the outer edges of the Minecraft universe and collect new materials with unique properties.
+A Minecraft 1.12.2 modpack based around space-travel. It focuses early game around basic blocks from advanced-rocketry. This pack starts off in a asteroid dimension and challenges you to fight against the harsh space environment, be intuitive and create a space station.
+With this space station you'll visit planets and create bases to gather/process resources and send them off to your spaceship. You'll eventually be able to travel to the outer edges of the Minecraft universe and collect new materials with unique properties.
 ## Pack description
 Escape the asteroid field with your improvised ramshackle rocket and start building a space station. This space station will permanently be your home to the very end of the pack. In your space station, you'll have to fight the harsh environment by constantly creating oxygen. Visit interesting planets with each unique materials, mobs and structures. Learn about the extinct species from the desolate and abandoned planets through the books of lore in the pack. 
 For players that want a lot of guidance there are quests. All items are staged so you can only see what you have unlocked so far. By completing the quests, you will work towards a self-sustaining space station with lots of cargo rockets docking with rare resources from other planets and with advanced tech-infused plant breeding techniques.
