@@ -33,4 +33,3 @@ Water is a scarce resource, and this planet could very well be your first source
 ## Lore Preview
 You find yourself waking up in deep space surrounded by a countless number of asteroids. The last thing you remember was your crewmembers putting you asleep in a cryo-chamber after a mining mission. After a short panic attack, you grab yourself together in order to survive. Fortunately, the asteroids all around you proved to be very rich on oxygen. A new question arises: "How can I turn this worthless space debris and rocks into breathable oxygen?". 
 
-test
