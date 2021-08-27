@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "$(#ffffff)The combustion heater can be fully customized with different kinds of combustion heaters. The wooden heater needs wooden planks as walls."
+            "text": "The combustion heater can be fully customized with different kinds of combustion heaters. The wooden heater needs wooden planks as walls."
         },
         {
             "type": "multiblock",
@@ -23,7 +23,7 @@
                 ],
                 "symmetrical": false
             },
-            "text": "$(#ffffff) Be sure to close the machine (trapdoor) as it uses HU if left open."
+            "text": " Be sure to close the machine (trapdoor) as it uses HU if left open."
         }
     ]
 }

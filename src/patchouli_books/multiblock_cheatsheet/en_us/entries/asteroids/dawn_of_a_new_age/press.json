@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "$(#ffffff)The advanced rocketry press is the simplest press that is manually operated.$(br2)Wiki Chapter: $(br)$(l:wiki_manuals/advanced_rocketry)Advanced Rocketry Wiki$(/l)"
+            "text": "The advanced rocketry press is the simplest press that is manually operated.$(br2)Wiki Chapter: $(br)$(l:wiki_manuals/advanced_rocketry)Advanced Rocketry Wiki$(/l)"
         },
         {
             "type": "multiblock",
@@ -25,7 +25,7 @@
                 ],
                 "symmetrical": true
             },
-            "text": "$(mBlock)Obsidian is the only material strong enough to withstand the pressure from the press."
+            "text": "$(m)Obsidian is the only material strong enough to withstand the pressure from the press."
         }
     ]
 }

@@ -1,0 +1,11 @@
+{
+    "name": "Mining Site 495-IIM",
+    "icon": "contenttweaker:astrostone_2",
+    "category": "patchouli:arcturus",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(block)Name: Mining Site 495-IIM $(br)Orbits: Glacidus $(br)Orbital Period: 11525 ticks $(br)Star Distance: 0.60 AU $(br)Atmosphere: Vacuum $(br)$(block)"
+        }
+    ]
+}

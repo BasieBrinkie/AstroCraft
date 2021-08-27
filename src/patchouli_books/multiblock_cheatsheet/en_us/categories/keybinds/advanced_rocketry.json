@@ -1,6 +1,6 @@
 {
 	"name": "Advanced Rocketry",
     "parent": "patchouli:keybinds",
-	"description": "$(w)Here you can find all the important keybindings.",
+	"description": "Here you can find all the important keybindings.",
 	"icon": "jurassicraft:keyboard"
 }

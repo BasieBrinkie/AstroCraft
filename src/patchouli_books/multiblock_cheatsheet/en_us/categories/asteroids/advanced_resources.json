@@ -1,6 +1,6 @@
 {
 	"name": "Advanced Resources",
 	"parent": "patchouli:asteroids",
-	"description": "$(w)Learn more about the basic resources available in asteroid sites",
+	"description": "Learn more about the basic resources available in asteroid sites",
 	"icon": "factorytech:compressor"
 }

@@ -6,11 +6,11 @@
             <atmosphereDensity>80</atmosphereDensity>
             <hasOxygen>true</hasOxygen>
             <gravitationalMultiplier>50</gravitationalMultiplier>
-            <orbitalDistance>60</orbitalDistance>
+            <orbitalDistance>70</orbitalDistance>
             <orbitalTheta>120</orbitalTheta>
             <orbitalPhi>210</orbitalPhi>
-            <rotationalPeriod>20000</rotationalPeriod>
-            <planet name="Mining Site 495-IIM" DIMID="0">
+            <rotationalPeriod>24771</rotationalPeriod>
+            <planet name="Mining Site 495-IIM" DIMID="0" customIcon="asteroid">
         	   <isKnown>true</isKnown>
                <genType>2</genType>
                <atmosphereDensity>0</atmosphereDensity>
@@ -23,7 +23,7 @@
                <OreGen></OreGen>
                <oceanBlock></oceanBlock>
                <seaLevel></seaLevel>
-               <rotationalPeriod>2147483647</rotationalPeriod>
+               <rotationalPeriod>11525</rotationalPeriod>
             </planet>
         </planet>
         <planet name="Ring World" DIMID="18" dimMapping="" customIcon="earthlike">

@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "$(w)Build an enclosure around log piles. This can be any size.$(br2)Cover most log piles except for one. This log pile needs to be lit with a fire starter or another technique. Once lit quickly cover the charcoal pit.$(br2)Wiki Chapter: $(br)$(l:wiki_manuals/charcoal_pit)Charcoal Pit Wiki$(/l)"
+            "text": "Build an enclosure around log piles. This can be any size.$(br2)Cover most log piles except for one. This log pile needs to be lit with a fire starter or another technique. Once lit quickly cover the charcoal pit.$(br2)Wiki Chapter: $(br)$(l:wiki_manuals/charcoal_pit)Charcoal Pit Wiki$(/l)"
         },
         {
             "type": "multiblock",
@@ -23,7 +23,7 @@
                 ],
                 "symmetrical": true
             },
-            "text": "$(mBlock)After you covered all log piles you should see smoke coming from the pit."
+            "text": "$(m)After you covered all log piles you should see smoke coming from the pit."
         }
     ]
 }

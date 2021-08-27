@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "$(w)The combustion heater can be fully customized with different kinds of combustion heaters. The wooden heater needs wooden planks as walls.$(br2)Wiki Chapter: $(br)$(l:wiki_manuals/skyresources)Sky Resources 2 Wiki$(/l)"
+            "text": "The combustion heater can be fully customized with different kinds of combustion heaters. The wooden heater needs wooden planks as walls.$(br2)Wiki Chapter: $(br)$(l:wiki_manuals/skyresources)Sky Resources 2 Wiki$(/l)"
         },
         {
             "type": "multiblock",
@@ -23,7 +23,7 @@
                 ],
                 "symmetrical": false
             },
-            "text": "$(mBlock)Be sure to close the machine (trapdoor) as it uses HU if left open."
+            "text": "$(m)Be sure to close the machine (trapdoor) as it uses HU if left open."
         }
     ]
 }

@@ -11,7 +11,7 @@
         {
             "type": "crafting",
             "recipe": "manual_factorytech",
-            "text": "$(#ffffff)The Iron rods are not consumed in this recipe."
+            "text": "The Iron rods are not consumed in this recipe."
         }
     ]
 }

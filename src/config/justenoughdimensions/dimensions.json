@@ -39,8 +39,7 @@
       },
       "jed": {
         "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
-        "FogColor": "000000",
-        "DayLength": "48000",
+        "DayLength": "24771",
         "CanRespawnHere": "true",
         "RespawnDimension": "4"
       },

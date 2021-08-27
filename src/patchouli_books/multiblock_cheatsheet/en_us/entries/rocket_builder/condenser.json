@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "$(#ffffff)The skyresources crucible requires a heat source underneath it. Thats where the heat provider comes in."
+            "text": "The skyresources crucible requires a heat source underneath it. Thats where the heat provider comes in."
         }
     ]
 }

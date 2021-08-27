@@ -23,6 +23,8 @@ static blockedInventoryItems as IItemStack[] = [
 ];
 
 static allowedblocks as IItemStack[] = [
+    <advancedrocketry:warpcore:0>,
+    <libvulpes:hatch:0>,
     <minecraft:chest>
 ];
 
@@ -54,17 +56,20 @@ function init() {
                         if !isNull(handItem) {
                             if (blockedItem.definition.id ~ ":" ~ blockedItem.metadata == handItem.definition.id ~ ":" ~ handItem.metadata) {
                                 event.useItem = "DENY";
+                                event.player.sendChat("Take off your space suit if you want to use this item");
                                 break;
                             }
                         }
                         if !isNull(offHandItem) && isNull(handItem) {
                             if (blockedItem.definition.id ~ ":" ~ blockedItem.metadata == offHandItem.definition.id ~ ":" ~ offHandItem.metadata) {
                                 event.useItem = "DENY";
+                                event.player.sendChat("Take off your space suit if you want to use with the item in your offhand");
                                 break;
                             }
                         }
                     }
                     event.useBlock = "DENY";
+                    event.player.sendChat("Take off your space suit if you want to interact with this block");
                 }
             }
         }

@@ -1,6 +1,6 @@
 {
 	"name": "Dawn of a New Age",
 	"parent": "patchouli:asteroids",
-	"description": "$(w)You have just crashed need to find a way to create oxygen. Luckily there are schematics in the emergency kit.",
+	"description": "You have just crashed need to find a way to create oxygen. Luckily there are schematics in the emergency kit.",
 	"icon": "advancedrocketry:oxygencharger"
 }

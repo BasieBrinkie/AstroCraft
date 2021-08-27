@@ -49,8 +49,8 @@ function init() {
                 for stage in glacidusSpawnStages { 
                    event.player.addGameStage(stage);
                 }
-                server.commandManager.executeCommand(server, "#gen galcidusSpawn1 -d 4 -x " + posX + " -z " + posZ);
-                server.commandManager.executeCommand(server, "tpj " + event.player.name + " 4 " + posX + 3 + " 90 " + posZ + 3);
+                server.commandManager.executeCommand(server, "#gen glacidusSpawn1 -d 4 -x " + posX + " -z " + posZ);
+                server.commandManager.executeCommand(server, "tpj " + event.player.name + " 4 " + posX + 3 + " 84 " + posZ + 3);
                 server.commandManager.executeCommand(server, "clear " + event.player.name);
                 val startingItems as IItemStack[][string] = scripts.initialScripts.initialInventory.initialInventory.startingItems;
                 for item in startingItems['{"Topography-Preset":"Glacidus"}'] {
