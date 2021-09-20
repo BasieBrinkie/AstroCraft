@@ -10,6 +10,8 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static disabledItems as IIngredient[] = [
+    <erebus:gaean_keystone>,
+    <erebus:portal>
 ];
 
 function init() {

@@ -158,9 +158,11 @@ function initStages() {
 	scripts.stages.mods.academyCraft.init();
 	scripts.stages.mods.actuallyAdditions.init();	
 	scripts.stages.mods.advancedRocketry.init();
+	scripts.stages.mods.aetherII.init();
 	scripts.stages.mods.appliedEnergistics2.init();
 	scripts.stages.mods.architectureCraft.init();
 	scripts.stages.mods.atum.init();
+	scripts.stages.mods.blue_skies.init();
 	scripts.stages.mods.buildingGadgets.init();
 	scripts.stages.mods.charcoalPit.init();
 	scripts.stages.mods.chisel.init();
