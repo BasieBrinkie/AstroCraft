@@ -30,8 +30,8 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2021-08-27T16:40:37.2779542Z",
-  "playedCount": 102,
+  "lastPlayed": "2021-09-01T16:53:51.9497893Z",
+  "playedCount": 105,
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -47,8 +47,8 @@
   "name": "Astrocraft - DEV",
   "cachedScans": [],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2021-08-26T14:53:02.8662061Z",
-  "lastRefreshAttempt": "2021-08-26T16:53:03.4248043+02:00",
+  "lastPreviousMatchUpdate": "2021-09-01T16:54:18.0776768Z",
+  "lastRefreshAttempt": "2021-09-01T18:54:18.9868351+02:00",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.12.2",
@@ -788,6 +788,95 @@
       "installedTargets": null
     },
     {
+      "addonID": 265894,
+      "gameInstanceID": "1f02b69a-7b4f-4d15-ab1f-e048b98cc80c",
+      "installedFile": {
+        "id": 3151431,
+        "displayName": "OpenTerrainGenerator-1.12.2-v9.3.jar",
+        "fileName": "OpenTerrainGenerator-1.12.2-v9.3.jar",
+        "fileDate": "2020-12-28T16:56:27.273Z",
+        "fileLength": 4561377,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3151/431/OpenTerrainGenerator-1.12.2-v9.3.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 658360664,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 4085022657,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2360407049,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 852244306,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "OTGlogo.png",
+            "fingerprint": 619918241,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "OTG-Core.jar",
+            "fingerprint": 1223326758,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "plugin.yml",
+            "fingerprint": 2887113288,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 2947271510,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "OpenTerrainGenerator-1.12.2-v9.3.jar"
+      },
+      "dateInstalled": "2021-09-01T16:53:33.5159461Z",
+      "dateUpdated": "2021-09-01T16:53:33.5284479Z",
+      "dateLastUpdateAttempted": "2021-09-01T16:53:33.5284479Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 303876,
       "gameInstanceID": "1f02b69a-7b4f-4d15-ab1f-e048b98cc80c",
       "installedFile": {
@@ -1067,7 +1156,7 @@
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
-      "isModified": false,
+      "isModified": true,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
@@ -2259,14 +2348,14 @@
       "addonID": 246996,
       "gameInstanceID": "1f02b69a-7b4f-4d15-ab1f-e048b98cc80c",
       "installedFile": {
-        "id": 2722575,
-        "displayName": "base-1.12.2-3.13.0.jar",
-        "fileName": "base-1.12.2-3.13.0.jar",
-        "fileDate": "2019-06-09T22:04:30.68Z",
-        "fileLength": 685028,
+        "id": 3440963,
+        "displayName": "base-1.12.2-3.14.0.jar",
+        "fileName": "base-1.12.2-3.14.0.jar",
+        "fileDate": "2021-08-27T16:27:17.593Z",
+        "fileLength": 690000,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2722/575/base-1.12.2-3.13.0.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3440/963/base-1.12.2-3.14.0.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -2274,65 +2363,53 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 324652980,
-            "type": 3,
+            "fingerprint": 4047771976,
+            "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "com",
-            "fingerprint": 2573585935,
-            "type": 3,
+            "fingerprint": 3756981888,
+            "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 517476909,
-            "type": 3,
+            "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "assets",
             "fingerprint": 1188982169,
-            "type": 3,
+            "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 2088180633,
-            "type": 3,
+            "fingerprint": 2475309891,
+            "type": 0,
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 503243924,
+        "packageFingerprint": 1883429907,
         "gameVersion": [
           "1.12.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000012.0000000002",
-            "gameVersion": "1.12.2",
-            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
-            "gameVersionName": "1.12.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1573375,
-        "projectId": 246996,
-        "packageFingerprintId": 322789302,
-        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
-        "gameVersionMappingId": 1830826,
-        "gameVersionId": 6756,
-        "gameId": 432,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "base-1.12.2-3.13.0.jar"
+        "FileNameOnDisk": "base-1.12.2-3.14.0.jar"
       },
       "dateInstalled": "2021-02-26T21:27:34.8206461Z",
-      "dateUpdated": "2021-02-26T21:27:34.8206461Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "dateUpdated": "2021-08-28T23:18:47.7107106Z",
+      "dateLastUpdateAttempted": "2021-08-28T23:18:47.7107106Z",
       "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -2399,7 +2476,7 @@
       "dateInstalled": "2021-02-26T21:27:34.8201456Z",
       "dateUpdated": "2021-08-26T22:15:32.8045868Z",
       "dateLastUpdateAttempted": "2021-08-26T22:15:32.8045868Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2624,6 +2701,78 @@
       "dateUpdated": "2021-07-20T14:46:27.1080228Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 225781,
+      "gameInstanceID": "1f02b69a-7b4f-4d15-ab1f-e048b98cc80c",
+      "installedFile": {
+        "id": 3060563,
+        "displayName": "tellme-1.12.2-0.7.0-dev.20200919.184303.jar",
+        "fileName": "tellme-1.12.2-0.7.0-dev.20200919.184303.jar",
+        "fileDate": "2020-09-19T15:49:21.657Z",
+        "fileLength": 282258,
+        "releaseType": 2,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3060/563/tellme-1.12.2-0.7.0-dev.20200919.184303.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 95239276,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "fi",
+            "fingerprint": 3261639928,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 2437472967,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 1426140456,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 1980151138,
+        "gameVersion": [
+          "Forge",
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "tellme-1.12.2-0.7.0-dev.20200919.184303.jar"
+      },
+      "dateInstalled": "2021-08-31T22:43:50.289967Z",
+      "dateUpdated": "2021-08-31T22:43:50.2979678Z",
+      "dateLastUpdateAttempted": "2021-08-31T22:43:50.2979678Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -5066,96 +5215,6 @@
       "dateInstalled": "2021-07-20T14:46:27.1060213Z",
       "dateUpdated": "2021-07-20T14:46:27.1060213Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 220318,
-      "gameInstanceID": "1f02b69a-7b4f-4d15-ab1f-e048b98cc80c",
-      "installedFile": {
-        "id": 2842510,
-        "displayName": "BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar",
-        "fileName": "BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar",
-        "fileDate": "2019-12-14T11:25:45.71Z",
-        "fileLength": 4702147,
-        "releaseType": 2,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2842/510/BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 3320843694,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "biomesoplenty",
-            "fingerprint": 2714163880,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 3263641587,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "LICENSE.txt",
-            "fingerprint": 2878218662,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 2922892018,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 2585792492,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "version.properties",
-            "fingerprint": 3038953978,
-            "type": 0,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 753778938,
-        "gameVersion": [
-          "Forge",
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar"
-      },
-      "dateInstalled": "2021-04-20T20:17:59.0849859Z",
-      "dateUpdated": "2021-04-20T20:17:59.113491Z",
-      "dateLastUpdateAttempted": "2021-04-20T20:17:59.113491Z",
       "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -9239,7 +9298,7 @@
       "dateInstalled": "2021-07-20T14:46:27.1265248Z",
       "dateUpdated": "2021-08-26T22:17:18.9073168Z",
       "dateLastUpdateAttempted": "2021-08-26T22:17:18.9073168Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9623,7 +9682,7 @@
       "dateInstalled": "2021-07-20T14:46:27.0650141Z",
       "dateUpdated": "2021-08-26T22:16:35.197377Z",
       "dateLastUpdateAttempted": "2021-08-26T22:16:35.197377Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11634,7 +11693,7 @@
       "dateInstalled": "2021-07-20T14:46:27.0520115Z",
       "dateUpdated": "2021-08-26T22:17:25.737179Z",
       "dateLastUpdateAttempted": "2021-08-26T22:17:25.737179Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12333,6 +12392,90 @@
       "dateUpdated": "2021-07-20T14:46:27.0845174Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 380401,
+      "gameInstanceID": "1f02b69a-7b4f-4d15-ab1f-e048b98cc80c",
+      "installedFile": {
+        "id": 3191629,
+        "displayName": "WorldEdit-CUI-FE3-1.12.2-3.0.9.jar",
+        "fileName": "WorldEdit-CUI-FE3-1.12.2-3.0.9.jar",
+        "fileDate": "2021-02-03T21:19:40.78Z",
+        "fileLength": 862363,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3191/629/WorldEdit-CUI-FE3-1.12.2-3.0.9.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 4264293661,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 129116320,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 2710749123,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 2952906135,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mod.png",
+            "fingerprint": 2459788602,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 1080941290,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 2314438721,
+        "gameVersion": [
+          "Forge",
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "WorldEdit-CUI-FE3-1.12.2-3.0.9.jar"
+      },
+      "dateInstalled": "2021-08-31T22:43:57.0347357Z",
+      "dateUpdated": "2021-08-31T22:43:57.0417425Z",
+      "dateLastUpdateAttempted": "2021-08-31T22:43:57.0417425Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17760,7 +17903,7 @@
       "dateInstalled": "2021-08-26T22:17:07.5047299Z",
       "dateUpdated": "2021-08-26T22:17:07.5117322Z",
       "dateLastUpdateAttempted": "2021-08-26T22:17:07.5117322Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17769,7 +17912,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 248787,
@@ -18212,7 +18355,7 @@
       "dateInstalled": "2021-07-01T19:04:15.6519044Z",
       "dateUpdated": "2021-08-26T14:30:51.2090352Z",
       "dateLastUpdateAttempted": "2021-08-26T14:30:51.2090352Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -18304,12 +18447,12 @@
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
-      "isModified": false,
+      "isModified": true,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 278993,
@@ -19635,7 +19778,7 @@
       "dateInstalled": "2021-07-20T14:46:27.0810167Z",
       "dateUpdated": "2021-08-26T14:30:51.4622898Z",
       "dateLastUpdateAttempted": "2021-08-26T14:30:51.4622898Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -19803,7 +19946,7 @@
       "dateInstalled": "2021-07-20T14:46:27.0820174Z",
       "dateUpdated": "2021-08-24T09:03:22.7017274Z",
       "dateLastUpdateAttempted": "2021-08-24T09:03:22.7017274Z",
-      "status": 5,
+      "status": 3,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -21023,7 +21166,7 @@
       "dateInstalled": "2021-07-20T14:46:27.0950191Z",
       "dateUpdated": "2021-08-26T22:15:55.4541919Z",
       "dateLastUpdateAttempted": "2021-08-26T22:15:55.4541919Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -22479,7 +22622,7 @@
       "dateInstalled": "2021-07-20T14:46:27.0955193Z",
       "dateUpdated": "2021-08-26T14:31:00.1262491Z",
       "dateLastUpdateAttempted": "2021-08-26T14:31:00.1262491Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -22875,6 +23018,87 @@
       "installedTargets": null
     },
     {
+      "addonID": 412108,
+      "gameInstanceID": "1f02b69a-7b4f-4d15-ab1f-e048b98cc80c",
+      "installedFile": {
+        "id": 3268062,
+        "displayName": "OCRocketry-1.1.1-beta.jar",
+        "fileName": "OCRocketry-1.1.1-beta.jar",
+        "fileDate": "2021-04-07T10:41:13.743Z",
+        "fileLength": 35305,
+        "releaseType": 2,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3268/62/OCRocketry-1.1.1-beta.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 223008,
+            "type": 3,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 236542,
+            "type": 3,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2505771500,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 2110426095,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 545803688,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 1997628542,
+        "gameVersion": [
+          "1.12.1",
+          "1.12",
+          "Forge",
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "OCRocketry-1.1.1-beta.jar"
+      },
+      "dateInstalled": "2021-08-27T19:48:31.6410906Z",
+      "dateUpdated": "2021-08-27T19:48:31.7291072Z",
+      "dateLastUpdateAttempted": "2021-08-27T19:48:31.7291072Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 276951,
       "gameInstanceID": "1f02b69a-7b4f-4d15-ab1f-e048b98cc80c",
       "installedFile": {
@@ -23225,7 +23449,7 @@
       "dateInstalled": "2021-08-26T22:16:48.8554105Z",
       "dateUpdated": "2021-08-26T22:16:48.9104186Z",
       "dateLastUpdateAttempted": "2021-08-26T22:16:48.9104186Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -23234,7 +23458,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 271384,
