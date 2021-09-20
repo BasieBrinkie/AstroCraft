@@ -22,7 +22,8 @@ src/BotaniaVars.dat
 src/*.log
 src/*.dll
 src/.curseclient
-src/.mixin.out/*
+src/.mixin.out/*'
+src/config/tellme/*
 src/config/BiomeTweaker/output/*
 src/config/cavegenerator/example_presets/*
 src/config/InvTweaksRules.txt
@@ -41,6 +42,7 @@ src/journeymap/data/*
 src/journeymap/server/*
 src/journeymap/journeymap.log
 src/crash-reports/*
+src/.mixin.out/*
 
 # Other
 src/config/worldedit/*
