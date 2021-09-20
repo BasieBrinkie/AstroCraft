@@ -23,7 +23,7 @@
                 ],
                 "symmetrical": false
             },
-            "text": "$(m)Be sure to close the machine (trapdoor) as it uses HU if left open."
+            "text": "$(mBlock)Be sure to close the machine (trapdoor) as it uses HU if left open."
         }
     ]
 }

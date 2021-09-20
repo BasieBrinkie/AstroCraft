@@ -23,7 +23,7 @@
                 ],
                 "symmetrical": true
             },
-            "text": "$(m)After you covered all log piles you should see smoke coming from the pit."
+            "text": "$(mBlock)After you covered all log piles you should see smoke coming from the pit."
         }
     ]
 }

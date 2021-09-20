@@ -25,7 +25,7 @@
                 ],
                 "symmetrical": true
             },
-            "text": "$(m)Obsidian is the only material strong enough to withstand the pressure from the press."
+            "text": "$(mBlock)Obsidian is the only material strong enough to withstand the pressure from the press."
         }
     ]
 }

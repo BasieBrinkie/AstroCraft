@@ -25,7 +25,7 @@
                 ],
                 "symmetrical": false
             },
-            "text": "$(m)The chimney must be 2 to 4 blocks tall."
+            "text": "$(mBlock)The chimney must be 2 to 4 blocks tall."
         },
         {
             "type": "text",

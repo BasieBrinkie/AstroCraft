@@ -9,7 +9,8 @@
 	"book_texture": "astrocraft:textures/books/multiblock_cheatsheet_gui.png",
 	"text_color": "ffffff",
 	"header_color": "ffffff",
-	"macros": {                            
+	"macros": {
+		"$(mBlock)": "$(#ffffff)$(m)                              /$$(o)$(#ddddff)",                            
 		"$(WIKI AdvRocketry)": "Check out the $(l:http://arwiki.dmodoomsirius.me/AdvancedRocketry/)advanced rocketry wiki$(/l) for more information",
 		"$(WIKI CharcoalPit)": "Check out the $(l:https://www.curseforge.com/minecraft/mc-mods/) Charcoal Pit mod page$(/l) for more information"
 	}
