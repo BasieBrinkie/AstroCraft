@@ -16,11 +16,10 @@
 		uid: "a2f2f0d3",
 		type: "item",
 		items: [{
+			id: "minecraft:lava_bucket",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:lava_bucket"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

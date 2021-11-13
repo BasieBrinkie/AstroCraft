@@ -1,10 +1,10 @@
 {
 	title: "Navigational Board Computer",
 	icon: {
+		id: "advancedrocketry:warpcore",
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "advancedrocketry:warpcore"
+		}
 	},
 	always_invisible: false,
 	group: -895016441,

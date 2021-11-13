@@ -12,10 +12,10 @@
 		uid: "79ccf496",
 		type: "item",
 		items: [{
+			id: "minecraft:glowstone_dust",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:glowstone_dust"
+			}
 		}]
 	}]
 }

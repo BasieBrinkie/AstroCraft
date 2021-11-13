@@ -13,11 +13,11 @@
 		uid: "07a8d4e7",
 		type: "item",
 		items: [{
+			id: "libvulpes:coil0",
+			Damage: 4s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "libvulpes:coil0",
-			Damage: 4s
+			}
 		}]
 	}]
 }

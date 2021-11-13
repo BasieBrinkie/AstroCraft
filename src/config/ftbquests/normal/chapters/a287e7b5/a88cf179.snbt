@@ -12,10 +12,10 @@
 		uid: "2aef16ec",
 		type: "item",
 		items: [{
+			id: "nuclearcraft:radaway_slow",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "nuclearcraft:radaway_slow"
+			}
 		}]
 	}]
 }

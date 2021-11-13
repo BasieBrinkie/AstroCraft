@@ -8,11 +8,10 @@
 		uid: "fdb12a25",
 		type: "item",
 		items: [{
+			id: "chiselsandbits:wrench_wood",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "chiselsandbits:wrench_wood"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

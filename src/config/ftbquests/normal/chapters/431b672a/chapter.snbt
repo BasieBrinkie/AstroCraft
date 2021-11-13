@@ -1,10 +1,10 @@
 {
 	title: "Advanced Logic Systems",
 	icon: {
+		id: "rsgauges:flatgauge2",
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "rsgauges:flatgauge2"
+		}
 	},
 	always_invisible: false,
 	group: -326139634,

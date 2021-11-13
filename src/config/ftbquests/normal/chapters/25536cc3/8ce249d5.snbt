@@ -5,10 +5,10 @@
 		uid: "ccad3d85",
 		type: "item",
 		items: [{
+			id: "immersiveengineering:connector",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "immersiveengineering:connector"
+			}
 		}]
 	}]
 }

@@ -12,10 +12,10 @@
 		uid: "fd75ab3f",
 		type: "item",
 		items: [{
+			id: "exnihilocreatio:item_ore_aluminum",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "exnihilocreatio:item_ore_aluminum"
+			}
 		}]
 	}]
 }

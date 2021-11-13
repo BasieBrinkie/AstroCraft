@@ -1,10 +1,10 @@
 {
 	title: "Asteroid Survival/Mining",
 	icon: {
+		id: "contenttweaker:astrostone_2",
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "contenttweaker:astrostone_2"
+		}
 	},
 	always_invisible: false,
 	group: 0,

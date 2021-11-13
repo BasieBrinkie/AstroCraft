@@ -12,11 +12,11 @@
 		uid: "02a6a152",
 		type: "item",
 		items: [{
+			id: "modularmachinery:blockoutputbus",
+			Damage: 2s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "modularmachinery:blockoutputbus",
-			Damage: 2s
+			}
 		}]
 	}]
 }

@@ -12,11 +12,10 @@
 		uid: "dc176dab",
 		type: "item",
 		items: [{
+			id: "grapplemod:doubleupgradeitem",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "grapplemod:doubleupgradeitem"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

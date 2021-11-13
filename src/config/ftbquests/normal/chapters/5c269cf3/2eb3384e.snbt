@@ -12,10 +12,10 @@
 		uid: "2f6c668d",
 		type: "item",
 		items: [{
+			id: "advancedrocketry:drill",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "advancedrocketry:drill"
+			}
 		}]
 	}]
 }

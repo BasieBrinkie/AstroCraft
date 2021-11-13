@@ -12,14 +12,14 @@
 		uid: "8ed8926e",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "mekanism:transmitter",
+			Damage: 3s,
 			tag: {
 				tier: 0
 			},
-			Damage: 3s
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

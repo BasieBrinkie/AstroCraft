@@ -21,11 +21,11 @@
 		uid: "86fd2eb7",
 		type: "item",
 		items: [{
+			id: "mekanism:clump",
+			Damage: 3s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "mekanism:clump",
-			Damage: 3s
+			}
 		}],
 		count: 10L
 	},
@@ -33,11 +33,11 @@
 		uid: "a2d11408",
 		type: "item",
 		items: [{
+			id: "exnihilocreatio:item_ore_copper",
+			Damage: 1s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "exnihilocreatio:item_ore_copper",
-			Damage: 1s
+			}
 		}],
 		count: 10L
 	},
@@ -45,10 +45,10 @@
 		uid: "c091079e",
 		type: "item",
 		items: [{
+			id: "nuclearcraft:ingot_block",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "nuclearcraft:ingot_block"
+			}
 		}]
 	}]
 }

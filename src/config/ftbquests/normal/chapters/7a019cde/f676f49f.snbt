@@ -8,10 +8,10 @@
 		uid: "a173cc03",
 		type: "item",
 		items: [{
+			id: "chiselsandbits:positiveprint",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "chiselsandbits:positiveprint"
+			}
 		}]
 	}]
 }

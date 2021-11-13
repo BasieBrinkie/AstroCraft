@@ -1,9 +1,9 @@
 {
 	icon: {
+		id: "minecraft:leaves",
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "minecraft:leaves"
+		}
 	},
 	x: 4.0d,
 	y: 0.5d,

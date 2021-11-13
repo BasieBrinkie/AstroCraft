@@ -13,25 +13,25 @@
 		uid: "54f0c9b0",
 		type: "item",
 		items: [{
+			id: "actuallyadditions:item_food",
+			Damage: 10s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "actuallyadditions:item_food",
-			Damage: 10s
+			}
 		},
 		{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "actuallyadditions:item_misc",
-			Damage: 4s
-		},
-		{
+			Damage: 4s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
+			}
+		},
+		{
 			id: "actuallyadditions:item_food",
-			Damage: 15s
+			Damage: 15s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

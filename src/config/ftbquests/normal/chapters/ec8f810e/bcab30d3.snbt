@@ -5,10 +5,10 @@
 		uid: "b23396d1",
 		type: "item",
 		items: [{
+			id: "rftools:coalgenerator",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "rftools:coalgenerator"
+			}
 		}]
 	}]
 }

@@ -12,11 +12,11 @@
 		uid: "71d444e8",
 		type: "item",
 		items: [{
+			id: "tconstruct:throwball",
+			Damage: 1s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "tconstruct:throwball",
-			Damage: 1s
+			}
 		}]
 	}]
 }

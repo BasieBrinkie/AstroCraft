@@ -12,11 +12,11 @@
 		uid: "8b1949ae",
 		type: "item",
 		items: [{
+			id: "libvulpes:hatch",
+			Damage: 1s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "libvulpes:hatch",
-			Damage: 1s
+			}
 		}]
 	}]
 }

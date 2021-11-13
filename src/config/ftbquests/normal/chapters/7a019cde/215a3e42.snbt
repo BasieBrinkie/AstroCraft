@@ -9,9 +9,6 @@
 		uid: "bd1c1992",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "littletiles:premade",
 			tag: {
 				tiles: [{
@@ -1048,6 +1045,9 @@
 				structure: {
 					id: "exporter"
 				}
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
 			}
 		}]
 	}]

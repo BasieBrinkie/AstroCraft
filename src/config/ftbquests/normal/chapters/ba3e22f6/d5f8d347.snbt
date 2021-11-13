@@ -15,21 +15,21 @@
 		uid: "7555ef33",
 		type: "item",
 		items: [{
+			id: "exnihilocreatio:block_barrel1",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "exnihilocreatio:block_barrel1"
+			}
 		}]
 	},
 	{
 		uid: "d9b43ea8",
 		type: "item",
 		items: [{
+			id: "factorytech:salvagepart",
+			Damage: 161s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "factorytech:salvagepart",
-			Damage: 161s
+			}
 		}]
 	}]
 }

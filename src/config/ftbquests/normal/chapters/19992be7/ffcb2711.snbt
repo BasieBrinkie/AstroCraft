@@ -5,10 +5,10 @@
 		uid: "085108c4",
 		type: "item",
 		items: [{
+			id: "advancedrocketry:oxygenvent",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "advancedrocketry:oxygenvent"
+			}
 		}]
 	}]
 }

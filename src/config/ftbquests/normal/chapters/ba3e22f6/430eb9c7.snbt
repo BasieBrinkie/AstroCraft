@@ -12,11 +12,11 @@
 		uid: "dcdafd74",
 		type: "item",
 		items: [{
+			id: "libvulpes:productnugget",
+			Damage: 6s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "libvulpes:productnugget",
-			Damage: 6s
+			}
 		}]
 	}]
 }

@@ -12,10 +12,10 @@
 		uid: "e6b98214",
 		type: "item",
 		items: [{
+			id: "skyresources:fusiontable",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "skyresources:fusiontable"
+			}
 		}]
 	}]
 }

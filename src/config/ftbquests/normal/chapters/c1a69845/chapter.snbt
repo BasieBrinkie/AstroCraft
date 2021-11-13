@@ -1,11 +1,10 @@
 {
 	title: "Gamestages Tab",
 	icon: {
+		id: "rftools:shard_wand",
 		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {},
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "rftools:shard_wand"
+		}
 	},
 	disable_toast: true,
 	always_invisible: true,

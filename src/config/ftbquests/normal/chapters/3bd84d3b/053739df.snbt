@@ -14,10 +14,10 @@
 		uid: "ed028dd3",
 		type: "item",
 		items: [{
+			id: "skyresources:crucible",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "skyresources:crucible"
+			}
 		}]
 	}]
 }

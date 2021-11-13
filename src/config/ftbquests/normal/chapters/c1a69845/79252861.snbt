@@ -5,10 +5,10 @@
 		uid: "b650979e",
 		type: "gamestage",
 		icon: {
+			id: "minecraft:redstone",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:redstone"
+			}
 		},
 		stage: "basic_logical_systems_one"
 	}]

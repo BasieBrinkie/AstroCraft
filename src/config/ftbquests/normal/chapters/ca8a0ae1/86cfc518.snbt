@@ -17,10 +17,10 @@
 		uid: "2d2da1c9",
 		type: "item",
 		items: [{
+			id: "minecraft:wooden_slab",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:wooden_slab"
+			}
 		}],
 		count: 4L
 	}]

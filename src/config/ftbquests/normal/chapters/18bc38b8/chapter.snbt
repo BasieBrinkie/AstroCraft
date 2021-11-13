@@ -1,10 +1,10 @@
 {
 	title: "Professions - Stage: 4",
 	icon: {
+		id: "matteroverdrive:gravitational_anomaly",
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "matteroverdrive:gravitational_anomaly"
+		}
 	},
 	always_invisible: false,
 	group: 0,

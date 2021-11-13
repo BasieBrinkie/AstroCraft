@@ -12,10 +12,10 @@
 		uid: "814fb183",
 		type: "item",
 		items: [{
+			id: "advancedrocketry:blastbrick",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "advancedrocketry:blastbrick"
+			}
 		}]
 	}]
 }

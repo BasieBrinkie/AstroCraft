@@ -14,10 +14,10 @@
 		uid: "551edeef",
 		type: "item",
 		items: [{
+			id: "exnihilocreatio:block_barrel0",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "exnihilocreatio:block_barrel0"
+			}
 		}]
 	}]
 }

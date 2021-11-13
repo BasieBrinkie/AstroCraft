@@ -12,10 +12,10 @@
 		uid: "4f60562b",
 		type: "item",
 		items: [{
+			id: "techguns:explosive_charge",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "techguns:explosive_charge"
+			}
 		}]
 	}]
 }

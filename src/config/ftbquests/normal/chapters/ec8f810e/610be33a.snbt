@@ -5,13 +5,12 @@
 		uid: "45f051f7",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "mekanism:energycube",
 			tag: {
 				tier: 0
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
 			}
 		}],
 		ignore_nbt: 1b

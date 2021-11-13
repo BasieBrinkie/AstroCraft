@@ -15,10 +15,10 @@
 		uid: "0c8b9da0",
 		type: "item",
 		items: [{
+			id: "advancedrocketry:launchpad",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "advancedrocketry:launchpad"
+			}
 		}]
 	}]
 }

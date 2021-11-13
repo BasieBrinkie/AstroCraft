@@ -13,32 +13,28 @@
 		uid: "fe7fdf82",
 		type: "item",
 		items: [{
+			id: "thermalfoundation:tool.pickaxe_steel",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "thermalfoundation:tool.pickaxe_steel"
+			}
 		},
 		{
+			id: "thermalfoundation:tool.axe_steel",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "thermalfoundation:tool.axe_steel"
+			}
 		},
 		{
+			id: "thermalfoundation:tool.hoe_steel",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "thermalfoundation:tool.hoe_steel"
+			}
 		},
 		{
+			id: "thermalfoundation:tool.shovel_steel",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "thermalfoundation:tool.shovel_steel"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

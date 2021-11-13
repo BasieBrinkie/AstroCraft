@@ -12,11 +12,10 @@
 		uid: "4f7b7c71",
 		type: "item",
 		items: [{
+			id: "libvulpes:linker",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "libvulpes:linker"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

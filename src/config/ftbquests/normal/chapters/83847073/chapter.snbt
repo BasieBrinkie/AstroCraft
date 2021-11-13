@@ -1,10 +1,10 @@
 {
 	title: "Simple Logic Systems",
 	icon: {
+		id: "minecraft:redstone",
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "minecraft:redstone"
+		}
 	},
 	always_invisible: false,
 	group: -658887791,

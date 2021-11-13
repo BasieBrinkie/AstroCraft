@@ -15,10 +15,10 @@
 		uid: "c4853444",
 		type: "item",
 		items: [{
+			id: "minecraft:tnt",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:tnt"
+			}
 		}]
 	}]
 }

@@ -13,10 +13,10 @@
 		uid: "5f565085",
 		type: "item",
 		items: [{
+			id: "minecraft:iron_ingot",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:iron_ingot"
+			}
 		}]
 	}]
 }

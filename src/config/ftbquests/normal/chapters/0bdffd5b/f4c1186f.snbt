@@ -18,10 +18,10 @@
 		uid: "efe96767",
 		type: "item",
 		items: [{
+			id: "libvulpes:holoprojector",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "libvulpes:holoprojector"
+			}
 		}]
 	}]
 }

@@ -1,11 +1,11 @@
 {
 	title: "Heat Provider",
 	icon: {
+		id: "skyresources:heatprovider",
+		Damage: 1s,
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "skyresources:heatprovider",
-		Damage: 1s
+		}
 	},
 	x: 5.0d,
 	y: 2.0d,
@@ -21,21 +21,21 @@
 		uid: "4a15a485",
 		type: "item",
 		items: [{
+			id: "skyresources:heatprovider",
+			Damage: 1s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "skyresources:heatprovider",
-			Damage: 1s
+			}
 		}]
 	},
 	{
 		uid: "142f7d01",
 		type: "item",
 		items: [{
+			id: "skyresources:casing",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "skyresources:casing"
+			}
 		}]
 	}]
 }

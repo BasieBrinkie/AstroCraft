@@ -14,11 +14,11 @@
 		uid: "100215bf",
 		type: "item",
 		items: [{
+			id: "appliedenergistics2:material",
+			Damage: 5s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "appliedenergistics2:material",
-			Damage: 5s
+			}
 		}]
 	}]
 }

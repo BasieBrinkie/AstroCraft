@@ -1,12 +1,12 @@
 {
 	title: "-- Botanic",
 	icon: {
-		ForgeCaps: {
-			"customnpcs:itemscripteddata": {}
-		},
 		id: "botania:specialflower",
 		tag: {
 			type: "puredaisy"
+		},
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
 		}
 	},
 	always_invisible: false,

@@ -12,11 +12,11 @@
 		uid: "8cb64872",
 		type: "item",
 		items: [{
+			id: "factorytech:circuit_intermediate",
+			Damage: 8s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "factorytech:circuit_intermediate",
-			Damage: 8s
+			}
 		}]
 	}]
 }

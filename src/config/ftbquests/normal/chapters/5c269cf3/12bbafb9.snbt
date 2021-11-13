@@ -15,11 +15,10 @@
 		uid: "894813e4",
 		type: "item",
 		items: [{
+			id: "mekanism:configurator",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "mekanism:configurator"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

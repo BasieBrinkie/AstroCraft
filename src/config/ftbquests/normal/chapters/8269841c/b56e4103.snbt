@@ -8,10 +8,10 @@
 		uid: "fd061c5e",
 		type: "item",
 		items: [{
+			id: "pneumaticcraft:kerosene_lamp",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "pneumaticcraft:kerosene_lamp"
+			}
 		}]
 	}]
 }

@@ -12,10 +12,10 @@
 		uid: "3610db28",
 		type: "item",
 		items: [{
+			id: "factorytech:oredrill",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "factorytech:oredrill"
+			}
 		}]
 	}]
 }

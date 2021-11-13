@@ -9,10 +9,6 @@
 		uid: "0844ea38",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "chiselsandbits:bit_bag",
 			tag: {
 				contents: [I;
@@ -143,13 +139,12 @@
 					0,
 					0
 				]
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
 			}
 		},
 		{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "chiselsandbits:bit_bag",
 			tag: {
 				color: "white",
@@ -281,13 +276,12 @@
 					0,
 					0
 				]
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
 			}
 		},
 		{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "chiselsandbits:bit_bag",
 			tag: {
 				color: "orange",
@@ -419,13 +413,12 @@
 					0,
 					0
 				]
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
 			}
 		},
 		{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "chiselsandbits:bit_bag",
 			tag: {
 				color: "magenta",
@@ -557,13 +550,12 @@
 					0,
 					0
 				]
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
 			}
 		},
 		{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "chiselsandbits:bit_bag",
 			tag: {
 				color: "light_blue",
@@ -695,13 +687,12 @@
 					0,
 					0
 				]
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
 			}
 		},
 		{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "chiselsandbits:bit_bag",
 			tag: {
 				color: "yellow",
@@ -833,13 +824,12 @@
 					0,
 					0
 				]
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
 			}
 		},
 		{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "chiselsandbits:bit_bag",
 			tag: {
 				color: "lime",
@@ -971,13 +961,12 @@
 					0,
 					0
 				]
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
 			}
 		},
 		{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "chiselsandbits:bit_bag",
 			tag: {
 				color: "pink",
@@ -1109,13 +1098,12 @@
 					0,
 					0
 				]
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
 			}
 		},
 		{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "chiselsandbits:bit_bag",
 			tag: {
 				color: "gray",
@@ -1247,13 +1235,12 @@
 					0,
 					0
 				]
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
 			}
 		},
 		{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "chiselsandbits:bit_bag",
 			tag: {
 				color: "silver",
@@ -1385,13 +1372,12 @@
 					0,
 					0
 				]
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
 			}
 		},
 		{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "chiselsandbits:bit_bag",
 			tag: {
 				color: "cyan",
@@ -1523,13 +1509,12 @@
 					0,
 					0
 				]
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
 			}
 		},
 		{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "chiselsandbits:bit_bag",
 			tag: {
 				color: "purple",
@@ -1661,13 +1646,12 @@
 					0,
 					0
 				]
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
 			}
 		},
 		{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "chiselsandbits:bit_bag",
 			tag: {
 				color: "blue",
@@ -1799,13 +1783,12 @@
 					0,
 					0
 				]
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
 			}
 		},
 		{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "chiselsandbits:bit_bag",
 			tag: {
 				color: "brown",
@@ -1937,13 +1920,12 @@
 					0,
 					0
 				]
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
 			}
 		},
 		{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "chiselsandbits:bit_bag",
 			tag: {
 				color: "green",
@@ -2075,13 +2057,12 @@
 					0,
 					0
 				]
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
 			}
 		},
 		{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "chiselsandbits:bit_bag",
 			tag: {
 				color: "red",
@@ -2213,13 +2194,12 @@
 					0,
 					0
 				]
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
 			}
 		},
 		{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "chiselsandbits:bit_bag",
 			tag: {
 				color: "black",
@@ -2351,6 +2331,9 @@
 					0,
 					0
 				]
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
 			}
 		}],
 		ignore_damage: true,

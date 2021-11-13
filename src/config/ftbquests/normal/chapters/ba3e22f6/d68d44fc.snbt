@@ -13,11 +13,11 @@
 		uid: "193e4145",
 		type: "item",
 		items: [{
+			id: "mekanism:nugget",
+			Damage: 5s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "mekanism:nugget",
-			Damage: 5s
+			}
 		}]
 	}]
 }

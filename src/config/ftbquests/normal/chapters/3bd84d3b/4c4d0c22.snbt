@@ -13,10 +13,10 @@
 		uid: "e15b2675",
 		type: "item",
 		items: [{
+			id: "actuallyadditions:block_compost",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "actuallyadditions:block_compost"
+			}
 		}]
 	}]
 }

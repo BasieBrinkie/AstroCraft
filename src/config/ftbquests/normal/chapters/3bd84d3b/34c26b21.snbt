@@ -12,11 +12,10 @@
 		uid: "d7dd738e",
 		type: "item",
 		items: [{
+			id: "skyresources:irongrinder",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "skyresources:irongrinder"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

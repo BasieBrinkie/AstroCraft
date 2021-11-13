@@ -5,11 +5,11 @@
 		uid: "f6771982",
 		type: "item",
 		items: [{
+			id: "mekanism:crystal",
+			Damage: 5s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "mekanism:crystal",
-			Damage: 5s
+			}
 		}]
 	}]
 }

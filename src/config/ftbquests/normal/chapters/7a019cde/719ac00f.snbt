@@ -10,16 +10,16 @@
 		uid: "c549b891",
 		type: "item",
 		items: [{
+			id: "chiselsandbits:negativeprint",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "chiselsandbits:negativeprint"
+			}
 		},
 		{
+			id: "chiselsandbits:mirrorprint",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "chiselsandbits:mirrorprint"
+			}
 		}]
 	}]
 }

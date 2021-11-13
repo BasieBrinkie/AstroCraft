@@ -8,11 +8,10 @@
 		uid: "377e7b11",
 		type: "item",
 		items: [{
+			id: "architecturecraft:chisel",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "architecturecraft:chisel"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

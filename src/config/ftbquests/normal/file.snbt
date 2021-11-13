@@ -1,10 +1,10 @@
 {
 	version: 9,
 	icon: {
+		id: "advancedrocketry:advrocketmotor",
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "advancedrocketry:advrocketmotor"
+		}
 	},
 	default_reward_team: false,
 	default_consume_items: false,

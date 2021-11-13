@@ -8,11 +8,10 @@
 		uid: "6a62e173",
 		type: "item",
 		items: [{
+			id: "architecturecraft:hammer",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "architecturecraft:hammer"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

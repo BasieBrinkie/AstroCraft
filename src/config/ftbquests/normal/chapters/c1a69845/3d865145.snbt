@@ -5,10 +5,10 @@
 		uid: "3b29861f",
 		type: "gamestage",
 		icon: {
+			id: "factorytech:compressor",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "factorytech:compressor"
+			}
 		},
 		stage: "planet_asteroids_advanced_resources"
 	}],

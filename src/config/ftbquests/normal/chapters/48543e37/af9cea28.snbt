@@ -12,11 +12,10 @@
 		uid: "9a46a0d2",
 		type: "item",
 		items: [{
+			id: "minecraft:shears",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:shears"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

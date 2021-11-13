@@ -12,11 +12,11 @@
 		uid: "02b5c38e",
 		type: "item",
 		items: [{
+			id: "skyresources:casing",
+			Damage: 3s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "skyresources:casing",
-			Damage: 3s
+			}
 		}]
 	}]
 }

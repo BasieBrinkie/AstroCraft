@@ -12,10 +12,10 @@
 		uid: "55f3da78",
 		type: "item",
 		items: [{
+			id: "factorytech:machinepart",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "factorytech:machinepart"
+			}
 		}]
 	}]
 }

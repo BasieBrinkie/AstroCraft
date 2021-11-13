@@ -1,10 +1,10 @@
 {
 	title: "Free Gift",
 	icon: {
+		id: "extrautils2:pipe",
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "extrautils2:pipe"
+		}
 	},
 	x: 18.0d,
 	y: -1.0d,
@@ -20,32 +20,32 @@
 		uid: "11942185",
 		type: "item",
 		items: [{
+			id: "extrautils2:pipe",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "extrautils2:pipe"
+			}
 		}]
 	},
 	{
 		uid: "7a704604",
 		type: "item",
 		items: [{
+			id: "extrautils2:grocket",
+			Damage: 2s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "extrautils2:grocket",
-			Damage: 2s
+			}
 		}]
 	},
 	{
 		uid: "91031c86",
 		type: "item",
 		items: [{
+			id: "extrautils2:ingredients",
+			Damage: 8s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "extrautils2:ingredients",
-			Damage: 8s
+			}
 		}]
 	}]
 }

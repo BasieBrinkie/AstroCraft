@@ -9,11 +9,10 @@
 		uid: "126b64da",
 		type: "item",
 		items: [{
+			id: "minecraft:diamond_pickaxe",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:diamond_pickaxe"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

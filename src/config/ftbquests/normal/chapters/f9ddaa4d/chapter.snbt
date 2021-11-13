@@ -1,11 +1,10 @@
 {
 	title: "Stock Farmer - Basic",
 	icon: {
+		id: "minecraft:milk_bucket",
 		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {},
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "minecraft:milk_bucket"
+		}
 	},
 	always_invisible: false,
 	group: 1021710166,

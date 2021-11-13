@@ -23,10 +23,10 @@
 		type: "checkmark",
 		title: "Obtaining A Crafting Table",
 		icon: {
+			id: "minecraft:crafting_table",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:crafting_table"
+			}
 		}
 	}]
 }

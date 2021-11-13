@@ -1,10 +1,9 @@
 {
 	icon: {
+		id: "thaumcraft:thaumonomicon",
 		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {},
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "thaumcraft:thaumonomicon"
+		}
 	},
 	x: -6.0d,
 	y: 0.5d,

@@ -13,18 +13,16 @@
 		uid: "fac6418a",
 		type: "item",
 		items: [{
+			id: "minecraft:wooden_shovel",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:wooden_shovel"
+			}
 		},
 		{
+			id: "minecraft:stone_shovel",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:stone_shovel"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

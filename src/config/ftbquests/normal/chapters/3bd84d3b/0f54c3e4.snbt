@@ -14,20 +14,20 @@
 		uid: "b481ba17",
 		type: "item",
 		items: [{
+			id: "appliedenergistics2:grindstone",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "appliedenergistics2:grindstone"
+			}
 		}]
 	},
 	{
 		uid: "83bfdf5c",
 		type: "item",
 		items: [{
+			id: "appliedenergistics2:crank",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "appliedenergistics2:crank"
+			}
 		}]
 	}]
 }

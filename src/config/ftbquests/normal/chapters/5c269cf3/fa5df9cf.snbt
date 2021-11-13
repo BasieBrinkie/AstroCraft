@@ -16,10 +16,10 @@
 		uid: "27b28945",
 		type: "item",
 		items: [{
+			id: "skyresources:fluiddropper",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "skyresources:fluiddropper"
+			}
 		}]
 	}]
 }

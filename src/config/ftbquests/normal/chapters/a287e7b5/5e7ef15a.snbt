@@ -13,10 +13,10 @@
 		uid: "230b80b2",
 		type: "item",
 		items: [{
+			id: "nuclearcraft:radaway",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "nuclearcraft:radaway"
+			}
 		}]
 	}]
 }

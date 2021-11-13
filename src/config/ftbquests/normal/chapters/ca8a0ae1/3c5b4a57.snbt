@@ -23,11 +23,11 @@
 		uid: "6140b66e",
 		type: "item",
 		items: [{
+			id: "exnihilocreatio:item_mesh",
+			Damage: 1s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "exnihilocreatio:item_mesh",
-			Damage: 1s
+			}
 		}]
 	}]
 }

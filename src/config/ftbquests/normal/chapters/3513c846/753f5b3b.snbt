@@ -13,18 +13,16 @@
 		uid: "5977f17e",
 		type: "item",
 		items: [{
+			id: "exnihilocreatio:hammer_iron",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "exnihilocreatio:hammer_iron"
+			}
 		},
 		{
+			id: "exnihilocreatio:hammer_diamond",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "exnihilocreatio:hammer_diamond"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

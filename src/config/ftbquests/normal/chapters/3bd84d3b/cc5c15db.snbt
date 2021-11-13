@@ -12,11 +12,11 @@
 		uid: "60c465b2",
 		type: "item",
 		items: [{
+			id: "exnihilocreatio:item_ore_iron",
+			Damage: 1s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "exnihilocreatio:item_ore_iron",
-			Damage: 1s
+			}
 		}]
 	}]
 }

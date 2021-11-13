@@ -21,11 +21,11 @@
 		uid: "0ec0918c",
 		type: "item",
 		items: [{
+			id: "techguns:basicore",
+			Damage: 4s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "techguns:basicore",
-			Damage: 4s
+			}
 		}]
 	}]
 }

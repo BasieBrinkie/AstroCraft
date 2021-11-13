@@ -5,10 +5,10 @@
 		uid: "2d980375",
 		type: "item",
 		items: [{
+			id: "glacidus:glacidite_ore",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "glacidus:glacidite_ore"
+			}
 		}]
 	}]
 }

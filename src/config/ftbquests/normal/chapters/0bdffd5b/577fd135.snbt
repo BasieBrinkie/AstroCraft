@@ -13,10 +13,10 @@
 		uid: "708ebfb8",
 		type: "item",
 		items: [{
+			id: "libvulpes:coalgenerator",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "libvulpes:coalgenerator"
+			}
 		}]
 	}]
 }

@@ -5,10 +5,10 @@
 		uid: "3467a9e2",
 		type: "gamestage",
 		icon: {
+			id: "advancedrocketry:advbipropellantrocketmotor",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "advancedrocketry:advbipropellantrocketmotor"
+			}
 		},
 		stage: "basic_space_courier"
 	}]

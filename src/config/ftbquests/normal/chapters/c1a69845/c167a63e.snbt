@@ -1,12 +1,11 @@
 {
 	title: "Basic Knowledge",
 	icon: {
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {},
-			"customnpcs:itemscripteddata": {}
-		},
 		id: "thermalfoundation:tome_experience",
-		tag: {}
+		tag: {},
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		}
 	},
 	x: -1.0d,
 	y: -4.0d,

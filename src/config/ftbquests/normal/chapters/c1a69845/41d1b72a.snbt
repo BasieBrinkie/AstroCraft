@@ -9,10 +9,10 @@
 		uid: "833c61d7",
 		type: "item",
 		items: [{
+			id: "twilightforest:miniature_structure",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "twilightforest:miniature_structure"
+			}
 		}]
 	}],
 	rewards: [{

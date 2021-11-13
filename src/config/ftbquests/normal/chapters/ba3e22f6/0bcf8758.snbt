@@ -13,11 +13,11 @@
 		uid: "c94700ac",
 		type: "item",
 		items: [{
+			id: "mekanism:dirtydust",
+			Damage: 3s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "mekanism:dirtydust",
-			Damage: 3s
+			}
 		}]
 	}]
 }

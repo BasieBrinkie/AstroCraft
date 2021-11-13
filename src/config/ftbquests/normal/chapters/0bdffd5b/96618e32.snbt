@@ -12,10 +12,10 @@
 		uid: "329fd5d5",
 		type: "item",
 		items: [{
+			id: "factorytech:metalcutter",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "factorytech:metalcutter"
+			}
 		}]
 	}]
 }

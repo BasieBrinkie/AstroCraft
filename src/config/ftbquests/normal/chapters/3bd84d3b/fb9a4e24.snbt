@@ -12,11 +12,11 @@
 		uid: "bc9c92c8",
 		type: "item",
 		items: [{
+			id: "factorytech:salvagepart",
+			Damage: 60s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "factorytech:salvagepart",
-			Damage: 60s
+			}
 		}]
 	}]
 }

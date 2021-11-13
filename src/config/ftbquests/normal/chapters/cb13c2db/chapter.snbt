@@ -1,10 +1,10 @@
 {
 	title: "Parts Manufacturer",
 	icon: {
+		id: "tconstruct:cast_custom",
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "tconstruct:cast_custom"
+		}
 	},
 	always_invisible: false,
 	group: -935258453,

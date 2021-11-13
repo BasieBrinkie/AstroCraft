@@ -8,10 +8,10 @@
 		uid: "2f272143",
 		type: "item",
 		items: [{
+			id: "nuclearcraft:rad_x",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "nuclearcraft:rad_x"
+			}
 		}]
 	}]
 }

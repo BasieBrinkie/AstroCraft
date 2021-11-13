@@ -12,10 +12,10 @@
 		uid: "79bba5b7",
 		type: "item",
 		items: [{
+			id: "minecraft:bread",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:bread"
+			}
 		}]
 	}]
 }

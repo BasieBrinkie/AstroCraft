@@ -1,9 +1,6 @@
 {
 	title: "Black Smith",
 	icon: {
-		ForgeCaps: {
-			"customnpcs:itemscripteddata": {}
-		},
 		id: "tconstruct:toolforge",
 		tag: {
 			textureBlock: {
@@ -11,6 +8,9 @@
 				Count: 1b,
 				Damage: 5s
 			}
+		},
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
 		}
 	},
 	always_invisible: false,

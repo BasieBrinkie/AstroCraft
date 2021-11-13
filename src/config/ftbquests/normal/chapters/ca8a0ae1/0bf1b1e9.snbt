@@ -15,10 +15,10 @@
 		uid: "506b8d04",
 		type: "item",
 		items: [{
+			id: "minecraft:furnace",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:furnace"
+			}
 		}]
 	}]
 }

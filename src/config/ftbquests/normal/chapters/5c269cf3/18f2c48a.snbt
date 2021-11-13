@@ -12,11 +12,11 @@
 		uid: "5779bf5d",
 		type: "item",
 		items: [{
+			id: "factorytech:ingot",
+			Damage: 5s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "factorytech:ingot",
-			Damage: 5s
+			}
 		}]
 	}]
 }

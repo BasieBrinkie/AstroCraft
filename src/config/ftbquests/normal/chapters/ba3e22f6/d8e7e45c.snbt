@@ -13,11 +13,10 @@
 		uid: "53388f60",
 		type: "item",
 		items: [{
+			id: "grapplemod:magnetupgradeitem",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "grapplemod:magnetupgradeitem"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

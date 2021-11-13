@@ -12,10 +12,10 @@
 		uid: "dd1b41fd",
 		type: "item",
 		items: [{
+			id: "mekanism:sawdust",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "mekanism:sawdust"
+			}
 		}]
 	}]
 }

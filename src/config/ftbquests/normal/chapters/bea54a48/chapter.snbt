@@ -1,10 +1,10 @@
 {
 	title: "Professions - Stage: 3",
 	icon: {
+		id: "nuclearcraft:decay_generator",
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "nuclearcraft:decay_generator"
+		}
 	},
 	always_invisible: false,
 	group: 0,

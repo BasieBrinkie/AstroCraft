@@ -12,10 +12,10 @@
 		uid: "d0c12081",
 		type: "item",
 		items: [{
+			id: "minecraft:paper",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:paper"
+			}
 		}]
 	}]
 }

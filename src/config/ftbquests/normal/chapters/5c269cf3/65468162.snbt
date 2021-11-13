@@ -15,10 +15,10 @@
 		uid: "aa1f2cc9",
 		type: "item",
 		items: [{
+			id: "icbmclassic:clump",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "icbmclassic:clump"
+			}
 		}]
 	}]
 }

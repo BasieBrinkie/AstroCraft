@@ -13,11 +13,11 @@
 		uid: "5b3c09b3",
 		type: "item",
 		items: [{
+			id: "mekanism:ingot",
+			Damage: 4s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "mekanism:ingot",
-			Damage: 4s
+			}
 		}]
 	}]
 }

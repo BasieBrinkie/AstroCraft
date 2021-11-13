@@ -17,10 +17,10 @@
 		uid: "f0dc64c3",
 		type: "item",
 		items: [{
+			id: "advancedrocketry:rocketbuilder",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "advancedrocketry:rocketbuilder"
+			}
 		}]
 	}]
 }

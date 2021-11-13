@@ -1,10 +1,10 @@
 {
 	title: "Basic Power Generation",
 	icon: {
+		id: "immersiveengineering:wirecoil",
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "immersiveengineering:wirecoil"
+		}
 	},
 	always_invisible: false,
 	group: -935258453,

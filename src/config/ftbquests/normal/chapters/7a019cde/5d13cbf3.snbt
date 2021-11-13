@@ -8,11 +8,10 @@
 		uid: "1dce3a87",
 		type: "item",
 		items: [{
+			id: "littletiles:wrench",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "littletiles:wrench"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

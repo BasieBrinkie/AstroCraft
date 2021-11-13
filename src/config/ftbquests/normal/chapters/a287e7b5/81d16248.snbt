@@ -8,10 +8,10 @@
 		uid: "ef5d6179",
 		type: "item",
 		items: [{
+			id: "nuclearcraft:rtg_uranium",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "nuclearcraft:rtg_uranium"
+			}
 		}]
 	}]
 }

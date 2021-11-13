@@ -8,20 +8,18 @@
 		uid: "79a3f3b2",
 		type: "item",
 		items: [{
+			id: "chisel:chisel_iron",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "chisel:chisel_iron"
+			}
 		},
 		{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "chisel:chisel_diamond",
 			tag: {
 				chiseldata: {}
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
 			}
 		}],
 		ignore_damage: true,

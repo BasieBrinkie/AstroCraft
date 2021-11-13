@@ -20,10 +20,10 @@
 		uid: "5d1731ab",
 		type: "item",
 		items: [{
+			id: "factorytech:temperer",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "factorytech:temperer"
+			}
 		}]
 	}]
 }

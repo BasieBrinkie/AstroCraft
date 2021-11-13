@@ -6,7 +6,7 @@
 	text: [
 		"Grab a pickaxe in order to go out exploring and collecting some stone to start making basic machinery.",
 		"",
-		"Since you know have a tool that can damage mobs, mob spawning will now start."
+		"Since you now have a tool that can damage mobs, mob spawning will now start to occur."
 	],
 	dependencies: [
 		"dcdfc562"
@@ -15,32 +15,28 @@
 		uid: "ec04f650",
 		type: "item",
 		items: [{
+			id: "minecraft:iron_pickaxe",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:iron_pickaxe"
+			}
 		},
 		{
+			id: "minecraft:stone_pickaxe",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:stone_pickaxe"
+			}
 		},
 		{
+			id: "minecraft:wooden_pickaxe",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:wooden_pickaxe"
+			}
 		},
 		{
+			id: "minecraft:diamond_pickaxe",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:diamond_pickaxe"
+			}
 		}],
 		consume_items: false,
 		ignore_damage: true,

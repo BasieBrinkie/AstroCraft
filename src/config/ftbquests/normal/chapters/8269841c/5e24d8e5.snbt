@@ -8,16 +8,16 @@
 		uid: "3516bff5",
 		type: "item",
 		items: [{
+			id: "minecraft:red_flower",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:red_flower"
+			}
 		},
 		{
+			id: "minecraft:yellow_flower",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:yellow_flower"
+			}
 		}]
 	}]
 }

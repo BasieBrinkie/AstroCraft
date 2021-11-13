@@ -1,9 +1,9 @@
 {
 	icon: {
+		id: "minecraft:iron_ingot",
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "minecraft:iron_ingot"
+		}
 	},
 	x: 1.0d,
 	y: 0.5d,

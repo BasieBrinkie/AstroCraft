@@ -1,11 +1,10 @@
 {
 	title: "Enable Decorator Recipes",
 	icon: {
+		id: "vimmersion:hammer",
 		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {},
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "vimmersion:hammer"
+		}
 	},
 	x: 2.5d,
 	y: -0.5d,
@@ -25,11 +24,10 @@
 		type: "checkmark",
 		title: "Enable decorator recipes",
 		icon: {
+			id: "vimmersion:hammer",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "vimmersion:hammer"
+			}
 		}
 	}],
 	rewards: [{

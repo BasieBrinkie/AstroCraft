@@ -22,10 +22,10 @@
 		uid: "9fc6996d",
 		type: "item",
 		items: [{
+			id: "skyresources:combustionheater",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "skyresources:combustionheater"
+			}
 		}]
 	},
 	{
@@ -33,10 +33,10 @@
 		type: "item",
 		title: "Stone",
 		items: [{
+			id: "minecraft:planks",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:planks"
+			}
 		}],
 		count: 5L
 	},
@@ -44,48 +44,48 @@
 		uid: "49250fcb",
 		type: "item",
 		items: [{
+			id: "minecraft:wooden_button",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:wooden_button"
+			}
 		},
 		{
+			id: "minecraft:stone_button",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:stone_button"
+			}
 		},
 		{
+			id: "minecraft:wooden_pressure_plate",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:wooden_pressure_plate"
+			}
 		},
 		{
+			id: "minecraft:stone_pressure_plate",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:stone_pressure_plate"
+			}
 		}]
 	},
 	{
 		uid: "9e9ca94a",
 		type: "item",
 		items: [{
+			id: "skyresources:casing",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "skyresources:casing"
+			}
 		}]
 	},
 	{
 		uid: "60f67e7e",
 		type: "item",
 		items: [{
+			id: "minecraft:trapdoor",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:trapdoor"
+			}
 		}]
 	}]
 }

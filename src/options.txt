@@ -89,8 +89,6 @@ key_Change Caster Focus:36
 key_Misc Caster Toggle:2
 key_keybind.baublesinventory:48
 key_keybind.railcraft.cart.bed:208
-key_keybind.openSelectionWheel:56
-key_keybind.openBaubleBag:19
 key_key.death_history:22
 key_cos.key.opencosarmorinventory:0
 key_Scene1 start/pause:79
@@ -211,15 +209,6 @@ key_mod.chiselsandbits.other.offgrid:0
 key_mod.chiselsandbits.other.undo:0
 key_mod.chiselsandbits.other.redo:0
 key_mod.chiselsandbits.other.add_to_clipboard:0
-key_key.rotateup:200
-key_key.rotatedown:208
-key_key.rotateright:205
-key_key.rotateleft:203
-key_key.little.flip:34
-key_key.little.mark:50
-key_key.little.config.item:46
-key_key.little.undo:44:CONTROL
-key_key.little.redo:21:CONTROL
 key_Options Gui:23
 key_key.draconicevolution.placeItem:25
 key_key.draconicevolution.toolConfig:46
@@ -239,6 +228,18 @@ key_key.effortlessbuilding.redo.desc:21:CONTROL
 key_key.effortlessbuilding.altplacement.desc:29
 key_FpsReducer.key.guiOpen:207
 key_FpsReducer.key.forceIdle:197
+key_key.boththrow.desc:-99
+key_key.leftthrow.desc:0
+key_key.rightthrow.desc:0
+key_key.motoronoff.desc:42
+key_key.jumpanddetach.desc:57
+key_key.slow.desc:42
+key_key.climb.desc:42
+key_key.climbup.desc:0
+key_key.climbdown.desc:0
+key_key.enderlaunch.desc:-100
+key_key.rocket.desc:-100
+key_key.slide.desc:42
 key_key.dragon_fireAttack:19
 key_key.dragon_strike:34
 key_key.dragon_down:45
@@ -249,12 +250,22 @@ key_key.itemzoom.toggle:44:SHIFT
 key_key.itemzoom.hold:0
 key_key.itemzoom.zoom.in:0
 key_key.itemzoom.zoom.out:0
+key_key.rotateup:200
+key_key.rotatedown:208
+key_key.rotateright:205
+key_key.rotateleft:203
+key_key.little.flip:34
+key_key.little.mark:50
+key_key.little.config.item:46
+key_key.little.undo:44:CONTROL
+key_key.little.redo:21:CONTROL
 key_mekanism.key.mode:50
 key_mekanism.key.armorMode:34
 key_mekanism.key.feetMode:35
 key_mekanism.key.voice:22
 key_Mo' Bends Menu:34
 key_Refresh Animations:68
+key_key.otghud.desc:24
 key_key.nutrition:49
 key_key.clipboardPaste:210
 key_key.porterNextDestination:27
@@ -269,6 +280,11 @@ key_techguns.key.toggleStepassist:47
 key_techguns.key.forceReload:19
 key_techguns.key.toggleJetpack:36
 key_WorldEdit Reference:38
+key_worldeditcuife3.key.cui.options:0
+key_worldeditcuife3.key.cui.toggle.visibility:0
+key_worldeditcuife3.key.cui.clear.selection:0
+key_worldeditcuife3.key.chunk.toggle.visibility:62
+key_worldeditcuife3.key.distance.toggle.visibility:37
 key_Open Matter Scanner GUI:46
 key_Android Ability key:45
 key_Android Switch Ability key:19

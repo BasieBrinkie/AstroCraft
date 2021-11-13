@@ -5,10 +5,10 @@
 		uid: "c93063df",
 		type: "gamestage",
 		icon: {
+			id: "advancedrocketry:wafer",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "advancedrocketry:wafer"
+			}
 		},
 		stage: "circuit_board_manufacturer"
 	}]

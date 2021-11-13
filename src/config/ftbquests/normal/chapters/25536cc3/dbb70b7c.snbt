@@ -5,12 +5,12 @@
 		uid: "d6ea2070",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "extrautils2:machine",
 			tag: {
 				Type: "extrautils2:generator_lava"
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
 			}
 		}]
 	}]

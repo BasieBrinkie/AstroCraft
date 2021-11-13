@@ -12,10 +12,10 @@
 		uid: "53ff2297",
 		type: "item",
 		items: [{
+			id: "enderutilities:floor",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "enderutilities:floor"
+			}
 		}]
 	}]
 }

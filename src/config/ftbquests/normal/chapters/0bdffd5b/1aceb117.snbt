@@ -12,11 +12,11 @@
 		uid: "2d7ec8e3",
 		type: "item",
 		items: [{
+			id: "exnihilocreatio:item_ore_aluminum",
+			Damage: 1s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "exnihilocreatio:item_ore_aluminum",
-			Damage: 1s
+			}
 		}]
 	}]
 }

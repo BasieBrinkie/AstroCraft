@@ -9,109 +9,109 @@
 		uid: "9de20d0a",
 		type: "item",
 		items: [{
+			id: "minecraft:wool",
+			Damage: 1s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:wool",
-			Damage: 1s
+			}
 		},
 		{
+			id: "minecraft:wool",
+			Damage: 2s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:wool",
-			Damage: 2s
+			}
 		},
 		{
+			id: "minecraft:wool",
+			Damage: 3s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:wool",
-			Damage: 3s
+			}
 		},
 		{
+			id: "minecraft:wool",
+			Damage: 4s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:wool",
-			Damage: 4s
+			}
 		},
 		{
+			id: "minecraft:wool",
+			Damage: 5s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:wool",
-			Damage: 5s
+			}
 		},
 		{
+			id: "minecraft:wool",
+			Damage: 6s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:wool",
-			Damage: 6s
+			}
 		},
 		{
+			id: "minecraft:wool",
+			Damage: 7s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:wool",
-			Damage: 7s
+			}
 		},
 		{
+			id: "minecraft:wool",
+			Damage: 8s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:wool",
-			Damage: 8s
+			}
 		},
 		{
+			id: "minecraft:wool",
+			Damage: 9s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:wool",
-			Damage: 9s
+			}
 		},
 		{
+			id: "minecraft:wool",
+			Damage: 10s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:wool",
-			Damage: 10s
+			}
 		},
 		{
+			id: "minecraft:wool",
+			Damage: 11s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:wool",
-			Damage: 11s
+			}
 		},
 		{
+			id: "minecraft:wool",
+			Damage: 12s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:wool",
-			Damage: 12s
+			}
 		},
 		{
+			id: "minecraft:wool",
+			Damage: 13s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:wool",
-			Damage: 13s
+			}
 		},
 		{
+			id: "minecraft:wool",
+			Damage: 14s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:wool",
-			Damage: 14s
+			}
 		},
 		{
+			id: "minecraft:wool",
+			Damage: 15s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:wool",
-			Damage: 15s
+			}
 		}]
 	}]
 }

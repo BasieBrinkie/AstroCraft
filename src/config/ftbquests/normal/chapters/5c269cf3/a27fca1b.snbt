@@ -18,10 +18,10 @@
 		uid: "6b5e11dd",
 		type: "item",
 		items: [{
+			id: "skyresources:quickdropper",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "skyresources:quickdropper"
+			}
 		}]
 	}]
 }

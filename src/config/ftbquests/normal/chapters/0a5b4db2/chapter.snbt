@@ -1,11 +1,11 @@
 {
 	title: "Professions - Stage: 5",
 	icon: {
+		id: "thermaldynamics:duct_0",
+		Damage: 5s,
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "thermaldynamics:duct_0",
-		Damage: 5s
+		}
 	},
 	always_invisible: false,
 	group: 0,

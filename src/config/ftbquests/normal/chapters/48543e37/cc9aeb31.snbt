@@ -12,11 +12,11 @@
 		uid: "65abc096",
 		type: "item",
 		items: [{
+			id: "mekanism:shard",
+			Damage: 4s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "mekanism:shard",
-			Damage: 4s
+			}
 		}]
 	}]
 }

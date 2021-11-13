@@ -20,11 +20,11 @@
 		uid: "1eb09a18",
 		type: "item",
 		items: [{
+			id: "minecraft:coal",
+			Damage: 1s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:coal",
-			Damage: 1s
+			}
 		}]
 	}]
 }

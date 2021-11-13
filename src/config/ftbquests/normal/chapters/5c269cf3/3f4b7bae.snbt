@@ -12,10 +12,10 @@
 		uid: "ff147ba4",
 		type: "item",
 		items: [{
+			id: "excompressum:auto_sieve",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "excompressum:auto_sieve"
+			}
 		}]
 	}]
 }

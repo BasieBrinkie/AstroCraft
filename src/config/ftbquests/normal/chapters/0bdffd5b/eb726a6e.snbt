@@ -14,22 +14,22 @@
 		uid: "a29ee3a8",
 		type: "item",
 		items: [{
+			id: "factorytech:circuit_intermediate",
+			Damage: 3s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "factorytech:circuit_intermediate",
-			Damage: 3s
+			}
 		}]
 	},
 	{
 		uid: "d7dc85d9",
 		type: "item",
 		items: [{
+			id: "factorytech:machinepart",
+			Damage: 121s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "factorytech:machinepart",
-			Damage: 121s
+			}
 		}]
 	}]
 }

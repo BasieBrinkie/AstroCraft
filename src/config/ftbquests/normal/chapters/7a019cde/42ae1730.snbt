@@ -1,11 +1,11 @@
 {
 	title: "Disable Decorator Recipes",
 	icon: {
+		id: "minecraft:wool",
+		Damage: 15s,
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "minecraft:wool",
-		Damage: 15s
+		}
 	},
 	x: 2.5d,
 	y: -1.5d,

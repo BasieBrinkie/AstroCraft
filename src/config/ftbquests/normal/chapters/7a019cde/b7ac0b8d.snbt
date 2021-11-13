@@ -8,10 +8,10 @@
 		uid: "c1e3517c",
 		type: "item",
 		items: [{
+			id: "minecraft:glass_pane",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:glass_pane"
+			}
 		}]
 	}]
 }

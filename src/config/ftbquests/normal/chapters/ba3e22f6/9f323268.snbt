@@ -12,11 +12,11 @@
 		uid: "2ee615f9",
 		type: "item",
 		items: [{
+			id: "factorytech:machinepart",
+			Damage: 14s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "factorytech:machinepart",
-			Damage: 14s
+			}
 		}]
 	}]
 }

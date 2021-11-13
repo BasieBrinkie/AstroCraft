@@ -8,10 +8,10 @@
 		uid: "e871197b",
 		type: "item",
 		items: [{
+			id: "nuclearcraft:radiation_scrubber",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "nuclearcraft:radiation_scrubber"
+			}
 		}]
 	}]
 }

@@ -13,18 +13,16 @@
 		uid: "ab360283",
 		type: "item",
 		items: [{
+			id: "minecraft:wooden_axe",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:wooden_axe"
+			}
 		},
 		{
+			id: "minecraft:stone_axe",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:stone_axe"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

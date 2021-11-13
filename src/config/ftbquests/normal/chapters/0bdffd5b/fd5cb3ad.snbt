@@ -12,10 +12,10 @@
 		uid: "adf9b7e8",
 		type: "item",
 		items: [{
+			id: "modularmachinery:blockoutputbus",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "modularmachinery:blockoutputbus"
+			}
 		}]
 	}]
 }

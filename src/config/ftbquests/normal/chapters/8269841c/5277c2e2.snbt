@@ -8,10 +8,10 @@
 		uid: "81d8b31d",
 		type: "item",
 		items: [{
+			id: "minecraft:melon",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:melon"
+			}
 		}]
 	}]
 }

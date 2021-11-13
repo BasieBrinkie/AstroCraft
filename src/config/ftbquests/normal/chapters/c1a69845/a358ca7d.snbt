@@ -1,10 +1,9 @@
 {
 	icon: {
+		id: "minecraft:milk_bucket",
 		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {},
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "minecraft:milk_bucket"
+		}
 	},
 	x: 2.0d,
 	y: 12.5d,

@@ -1,10 +1,9 @@
 {
 	icon: {
+		id: "chisel:chisel_iron",
 		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {},
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "chisel:chisel_iron"
+		}
 	},
 	x: 0.0d,
 	y: -3.5d,

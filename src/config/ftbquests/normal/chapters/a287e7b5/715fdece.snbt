@@ -13,10 +13,10 @@
 		uid: "9d031e01",
 		type: "item",
 		items: [{
+			id: "contenttweaker:container",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "contenttweaker:container"
+			}
 		}]
 	}]
 }

@@ -1,10 +1,10 @@
 {
 	title: "Glacidus",
 	icon: {
+		id: "glacidus:lumicia_grass",
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "glacidus:lumicia_grass"
+		}
 	},
 	always_invisible: false,
 	group: 325421953,

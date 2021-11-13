@@ -1,10 +1,10 @@
 {
 	icon: {
+		id: "thermaldynamics:duct_0",
+		Damage: 5s,
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "thermaldynamics:duct_0",
-		Damage: 5s
+		}
 	},
 	x: -1.0d,
 	y: 10.0d,

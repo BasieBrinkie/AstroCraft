@@ -5,11 +5,11 @@
 		uid: "9923df4c",
 		type: "item",
 		items: [{
+			id: "immersiveengineering:connector",
+			Damage: 3s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "immersiveengineering:connector",
-			Damage: 3s
+			}
 		}]
 	}]
 }

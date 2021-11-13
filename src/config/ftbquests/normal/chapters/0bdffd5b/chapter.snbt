@@ -1,10 +1,10 @@
 {
 	title: "Rocket Builder",
 	icon: {
+		id: "advancedrocketry:rocketmotor",
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "advancedrocketry:rocketmotor"
+		}
 	},
 	always_invisible: false,
 	group: -658887791,

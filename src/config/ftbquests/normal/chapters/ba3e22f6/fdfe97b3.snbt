@@ -13,11 +13,10 @@
 		uid: "84fa64fd",
 		type: "item",
 		items: [{
+			id: "grapplemod:ropeupgradeitem",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "grapplemod:ropeupgradeitem"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

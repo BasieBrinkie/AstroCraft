@@ -14,10 +14,10 @@
 		uid: "7797a597",
 		type: "item",
 		items: [{
+			id: "appliedenergistics2:sky_compass",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "appliedenergistics2:sky_compass"
+			}
 		}]
 	}]
 }

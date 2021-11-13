@@ -13,10 +13,10 @@
 		uid: "f06a309d",
 		type: "item",
 		items: [{
+			id: "tconstruct:tooltables",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "tconstruct:tooltables"
+			}
 		}]
 	}]
 }

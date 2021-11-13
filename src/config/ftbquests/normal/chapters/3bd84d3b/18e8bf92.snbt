@@ -23,10 +23,10 @@
 		uid: "06ded309",
 		type: "checkmark",
 		icon: {
+			id: "advancedrocketry:advrocketmotor",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "advancedrocketry:advrocketmotor"
+			}
 		}
 	}],
 	rewards: [{

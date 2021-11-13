@@ -12,18 +12,18 @@
 		uid: "70993aac",
 		type: "item",
 		items: [{
+			id: "factorytech:machinepart",
+			Damage: 72s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "factorytech:machinepart",
-			Damage: 72s
+			}
 		},
 		{
+			id: "factorytech:machinepart",
+			Damage: 71s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "factorytech:machinepart",
-			Damage: 71s
+			}
 		}],
 		consume_items: false
 	}]

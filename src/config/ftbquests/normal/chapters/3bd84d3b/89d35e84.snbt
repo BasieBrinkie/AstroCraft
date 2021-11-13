@@ -23,11 +23,10 @@
 		uid: "e2ef0b0a",
 		type: "item",
 		items: [{
+			id: "skyresources:stonegrinder",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "skyresources:stonegrinder"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

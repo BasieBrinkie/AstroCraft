@@ -1,9 +1,9 @@
 {
 	icon: {
+		id: "astralsorcery:blockmachine",
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "astralsorcery:blockmachine"
+		}
 	},
 	x: 0.0d,
 	y: -1.5d,

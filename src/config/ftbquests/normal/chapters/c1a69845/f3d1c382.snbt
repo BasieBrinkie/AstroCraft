@@ -1,9 +1,9 @@
 {
 	icon: {
+		id: "tconstruct:cast_custom",
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "tconstruct:cast_custom"
+		}
 	},
 	x: 4.0d,
 	y: 2.5d,

@@ -9,10 +9,10 @@
 		uid: "ee8ba465",
 		type: "observation",
 		icon: {
+			id: "appliedenergistics2:chest",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "appliedenergistics2:chest"
+			}
 		},
 		match_type: "block_id",
 		match: "appliedenergistics2:chest",

@@ -5,15 +5,14 @@
 		uid: "d2d909de",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "techguns:tfg",
 			tag: {
 				ammo: 20s,
 				ammovariant: "default",
 				camo: 0b
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
 			}
 		}],
 		ignore_damage: true,

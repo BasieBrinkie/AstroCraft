@@ -16,10 +16,10 @@
 		uid: "a391e492",
 		type: "item",
 		items: [{
+			id: "skyresources:combustioncontroller",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "skyresources:combustioncontroller"
+			}
 		}]
 	}]
 }

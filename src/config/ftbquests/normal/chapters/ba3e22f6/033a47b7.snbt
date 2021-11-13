@@ -16,10 +16,10 @@
 		uid: "ec873674",
 		type: "item",
 		items: [{
+			id: "minecraft:redstone",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:redstone"
+			}
 		}]
 	}],
 	rewards: [{

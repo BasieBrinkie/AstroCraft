@@ -8,11 +8,11 @@
 		uid: "638b2956",
 		type: "item",
 		items: [{
+			id: "minecraft:dye",
+			Damage: 15s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:dye",
-			Damage: 15s
+			}
 		}]
 	}]
 }

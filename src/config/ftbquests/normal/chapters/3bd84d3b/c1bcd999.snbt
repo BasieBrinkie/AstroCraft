@@ -13,11 +13,11 @@
 		uid: "acad86dc",
 		type: "item",
 		items: [{
+			id: "factorytech:machinepart",
+			Damage: 60s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "factorytech:machinepart",
-			Damage: 60s
+			}
 		}]
 	}]
 }

@@ -8,10 +8,10 @@
 		uid: "0f5d8b8f",
 		type: "item",
 		items: [{
+			id: "xtones:base",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "xtones:base"
+			}
 		}]
 	}]
 }

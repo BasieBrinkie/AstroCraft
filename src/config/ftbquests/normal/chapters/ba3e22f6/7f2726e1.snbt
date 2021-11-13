@@ -14,11 +14,10 @@
 		uid: "9d41c444",
 		type: "item",
 		items: [{
+			id: "grapplemod:throwupgradeitem",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "grapplemod:throwupgradeitem"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

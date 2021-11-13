@@ -14,10 +14,10 @@
 		uid: "ec567c42",
 		type: "item",
 		items: [{
+			id: "advancedrocketry:planetidchip",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "advancedrocketry:planetidchip"
+			}
 		}]
 	}]
 }

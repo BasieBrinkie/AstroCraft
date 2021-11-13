@@ -12,10 +12,10 @@
 		uid: "b8b9332f",
 		type: "item",
 		items: [{
+			id: "minecraft:chest",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:chest"
+			}
 		}]
 	}]
 }

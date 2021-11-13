@@ -18,10 +18,10 @@
 		uid: "84a8603d",
 		type: "item",
 		items: [{
+			id: "exnihilocreatio:block_sieve",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "exnihilocreatio:block_sieve"
+			}
 		}]
 	}]
 }

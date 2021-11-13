@@ -5,11 +5,10 @@
 		uid: "fb4a8c04",
 		type: "item",
 		items: [{
+			id: "astralsorcery:itemjournal",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "astralsorcery:itemjournal"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

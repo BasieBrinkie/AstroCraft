@@ -1,11 +1,11 @@
 {
 	icon: {
-		ForgeCaps: {
-			"customnpcs:itemscripteddata": {}
-		},
 		id: "modularmachinery:itemblueprint",
 		tag: {
 			dynamicmachine: "modularmachinery:asteroid_miner_tier_1"
+		},
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
 		}
 	},
 	x: -2.0d,
@@ -27,12 +27,12 @@
 		uid: "ba89e324",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "modularmachinery:itemblueprint",
 			tag: {
 				dynamicmachine: "modularmachinery:asteroid_miner_tier_1"
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
 			}
 		}]
 	},

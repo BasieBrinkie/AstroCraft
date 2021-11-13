@@ -1,10 +1,10 @@
 {
 	title: "Farmer",
 	icon: {
+		id: "minecraft:wheat_seeds",
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "minecraft:wheat_seeds"
+		}
 	},
 	always_invisible: false,
 	group: -935258453,

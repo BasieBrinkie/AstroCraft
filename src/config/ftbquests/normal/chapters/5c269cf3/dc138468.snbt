@@ -14,10 +14,10 @@
 		uid: "7409a32e",
 		type: "item",
 		items: [{
+			id: "excompressum:heavy_sieve",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "excompressum:heavy_sieve"
+			}
 		}]
 	}]
 }

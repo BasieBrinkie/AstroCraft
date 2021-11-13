@@ -8,10 +8,6 @@
 		uid: "a9424b22",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "littletiles:chisel",
 			tag: {
 				preview: {
@@ -29,6 +25,9 @@
 						tID: "BlockTileBlock"
 					}
 				}
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
 			}
 		}],
 		ignore_nbt: 1b

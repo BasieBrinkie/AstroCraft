@@ -12,11 +12,11 @@
 		uid: "8166cfda",
 		type: "item",
 		items: [{
+			id: "skyresources:heatprovider",
+			Damage: 3s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "skyresources:heatprovider",
-			Damage: 3s
+			}
 		}]
 	}]
 }

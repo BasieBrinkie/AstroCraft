@@ -13,20 +13,20 @@
 		uid: "16ea157d",
 		type: "item",
 		items: [{
+			id: "charcoal_pit:bloomery_hatch",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "charcoal_pit:bloomery_hatch"
+			}
 		}]
 	},
 	{
 		uid: "3349e27d",
 		type: "item",
 		items: [{
+			id: "minecraft:stonebrick",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:stonebrick"
+			}
 		}]
 	}]
 }

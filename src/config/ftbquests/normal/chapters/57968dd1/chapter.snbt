@@ -1,10 +1,10 @@
 {
 	title: "Aether - Planet Professions",
 	icon: {
+		id: "aether:altar",
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "aether:altar"
+		}
 	},
 	always_invisible: false,
 	group: 0,

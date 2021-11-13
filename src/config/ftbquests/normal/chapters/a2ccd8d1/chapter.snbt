@@ -1,10 +1,10 @@
 {
 	title: "Witch / Wizard - Master",
 	icon: {
+		id: "academy:tutorial",
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "academy:tutorial"
+		}
 	},
 	always_invisible: false,
 	group: -1291242618,

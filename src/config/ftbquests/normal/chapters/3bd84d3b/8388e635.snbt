@@ -13,10 +13,10 @@
 		uid: "f3e50b99",
 		type: "item",
 		items: [{
+			id: "minecraft:packed_ice",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:packed_ice"
+			}
 		}],
 		count: 4L
 	}]

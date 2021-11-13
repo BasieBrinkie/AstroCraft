@@ -5,10 +5,10 @@
 		uid: "80b1192f",
 		type: "item",
 		items: [{
+			id: "minecraft:wheat_seeds",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:wheat_seeds"
+			}
 		}]
 	}]
 }

@@ -5,10 +5,10 @@
 		uid: "f5818c62",
 		type: "gamestage",
 		icon: {
+			id: "minecraft:compass",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:compass"
+			}
 		},
 		stage: "scavenger"
 	}]

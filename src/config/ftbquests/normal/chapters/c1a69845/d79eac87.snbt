@@ -1,11 +1,11 @@
 {
 	icon: {
-		ForgeCaps: {
-			"customnpcs:itemscripteddata": {}
-		},
 		id: "extrautils2:machine",
 		tag: {
 			Type: "extrautils2:generator_culinary"
+		},
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
 		}
 	},
 	x: -1.0d,
@@ -24,10 +24,10 @@
 		uid: "61e1d788",
 		type: "gamestage",
 		icon: {
+			id: "tconstruct:casting",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "tconstruct:casting"
+			}
 		},
 		auto: "no_toast",
 		stage: "black_smith"

@@ -1,9 +1,9 @@
 {
 	icon: {
+		id: "tconstruct:casting",
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "tconstruct:casting"
+		}
 	},
 	x: 1.0d,
 	y: 4.5d,

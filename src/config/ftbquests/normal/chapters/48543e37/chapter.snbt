@@ -1,10 +1,10 @@
 {
 	title: "Oxygen Extractor",
 	icon: {
+		id: "minecraft:leaves",
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "minecraft:leaves"
+		}
 	},
 	always_invisible: false,
 	group: -686441514,

@@ -1,10 +1,10 @@
 {
 	title: "Life Support",
 	icon: {
+		id: "advancedrocketry:oxygenvent",
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "advancedrocketry:oxygenvent"
+		}
 	},
 	always_invisible: false,
 	group: -658887791,

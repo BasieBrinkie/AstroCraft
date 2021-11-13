@@ -8,13 +8,12 @@
 		uid: "54e30934",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "littletiles:colortube",
 			tag: {
 				color: -1
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
 			}
 		}],
 		ignore_nbt: 1b

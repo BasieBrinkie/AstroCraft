@@ -1,10 +1,10 @@
 {
 	title: "Farmer II - Automation",
 	icon: {
+		id: "minecraft:wheat",
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "minecraft:wheat"
+		}
 	},
 	always_invisible: false,
 	group: -326139634,

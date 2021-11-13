@@ -5,10 +5,10 @@
 		uid: "0036f1f5",
 		type: "item",
 		items: [{
+			id: "minecraft:dropper",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:dropper"
+			}
 		}]
 	}]
 }

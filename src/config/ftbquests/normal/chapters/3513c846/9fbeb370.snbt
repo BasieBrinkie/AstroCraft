@@ -13,32 +13,28 @@
 		uid: "c2b74dab",
 		type: "item",
 		items: [{
+			id: "excompressum:compressed_hammer_wood",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "excompressum:compressed_hammer_wood"
+			}
 		},
 		{
+			id: "excompressum:compressed_hammer_stone",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "excompressum:compressed_hammer_stone"
+			}
 		},
 		{
+			id: "excompressum:compressed_hammer_iron",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "excompressum:compressed_hammer_iron"
+			}
 		},
 		{
+			id: "excompressum:compressed_hammer_diamond",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "excompressum:compressed_hammer_diamond"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

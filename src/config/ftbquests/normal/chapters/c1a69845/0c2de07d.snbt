@@ -1,9 +1,9 @@
 {
 	icon: {
+		id: "minecraft:wheat_seeds",
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "minecraft:wheat_seeds"
+		}
 	},
 	x: 2.0d,
 	y: 2.5d,

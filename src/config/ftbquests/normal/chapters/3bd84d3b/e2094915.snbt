@@ -13,32 +13,28 @@
 		uid: "baa58f84",
 		type: "item",
 		items: [{
+			id: "minecraft:iron_pickaxe",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:iron_pickaxe"
+			}
 		},
 		{
+			id: "minecraft:iron_axe",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:iron_axe"
+			}
 		},
 		{
+			id: "minecraft:iron_shovel",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:iron_shovel"
+			}
 		},
 		{
+			id: "minecraft:iron_hoe",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:iron_hoe"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

@@ -14,10 +14,10 @@
 		uid: "ac060bfb",
 		type: "item",
 		items: [{
+			id: "minecraft:anvil",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:anvil"
+			}
 		}]
 	}]
 }

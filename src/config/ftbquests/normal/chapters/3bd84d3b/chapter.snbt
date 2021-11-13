@@ -1,10 +1,10 @@
 {
 	title: "Basic Resources",
 	icon: {
+		id: "minecraft:iron_ingot",
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "minecraft:iron_ingot"
+		}
 	},
 	always_invisible: false,
 	group: -686441514,

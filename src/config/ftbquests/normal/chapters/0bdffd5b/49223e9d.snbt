@@ -19,11 +19,11 @@
 		uid: "cde85ef9",
 		type: "item",
 		items: [{
+			id: "skyresources:condenser",
+			Damage: 1s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "skyresources:condenser",
-			Damage: 1s
+			}
 		}]
 	}]
 }

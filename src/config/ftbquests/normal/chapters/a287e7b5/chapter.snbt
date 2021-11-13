@@ -1,10 +1,10 @@
 {
 	title: "Nuclear Management",
 	icon: {
+		id: "nuclearcraft:radaway_slow",
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "nuclearcraft:radaway_slow"
+		}
 	},
 	always_invisible: false,
 	group: -658887791,

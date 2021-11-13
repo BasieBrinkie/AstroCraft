@@ -1,10 +1,10 @@
 {
 	title: "Dawn of a New Age",
 	icon: {
+		id: "advancedrocketry:oxygencharger",
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "advancedrocketry:oxygencharger"
+		}
 	},
 	always_invisible: false,
 	group: -686441514,

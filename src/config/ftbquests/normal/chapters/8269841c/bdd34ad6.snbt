@@ -8,11 +8,11 @@
 		uid: "24cb32b1",
 		type: "item",
 		items: [{
+			id: "actuallyadditions:item_misc",
+			Damage: 13s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "actuallyadditions:item_misc",
-			Damage: 13s
+			}
 		}]
 	}]
 }

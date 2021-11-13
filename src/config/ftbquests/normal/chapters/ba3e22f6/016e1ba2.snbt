@@ -14,10 +14,10 @@
 		uid: "cc98cf70",
 		type: "item",
 		items: [{
+			id: "factorytech:magcent",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "factorytech:magcent"
+			}
 		}]
 	}]
 }

@@ -1,10 +1,10 @@
 {
 	title: "Advanced Resources",
 	icon: {
+		id: "factorytech:compressor",
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "factorytech:compressor"
+		}
 	},
 	always_invisible: false,
 	group: -686441514,

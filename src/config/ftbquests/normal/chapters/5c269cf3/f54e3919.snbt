@@ -12,10 +12,10 @@
 		uid: "b0e437cd",
 		type: "item",
 		items: [{
+			id: "libvulpes:forgepowerinput",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "libvulpes:forgepowerinput"
+			}
 		}]
 	}]
 }

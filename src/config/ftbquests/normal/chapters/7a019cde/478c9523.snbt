@@ -8,10 +8,10 @@
 		uid: "a5a85848",
 		type: "item",
 		items: [{
+			id: "littletiles:recipe",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "littletiles:recipe"
+			}
 		}]
 	}]
 }

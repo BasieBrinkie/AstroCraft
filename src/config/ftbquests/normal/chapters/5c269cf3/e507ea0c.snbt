@@ -10,16 +10,16 @@
 		uid: "6c53991b",
 		type: "item",
 		items: [{
+			id: "minecraft:hopper",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:hopper"
+			}
 		},
 		{
+			id: "tconstruct:wooden_hopper",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "tconstruct:wooden_hopper"
+			}
 		}]
 	}]
 }

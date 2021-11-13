@@ -12,11 +12,11 @@
 		uid: "10d96634",
 		type: "item",
 		items: [{
+			id: "skyresources:combustionheater",
+			Damage: 3s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "skyresources:combustionheater",
-			Damage: 3s
+			}
 		}]
 	}]
 }

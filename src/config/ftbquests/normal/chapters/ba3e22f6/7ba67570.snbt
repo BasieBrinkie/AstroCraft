@@ -12,11 +12,11 @@
 		uid: "c0ec273f",
 		type: "item",
 		items: [{
+			id: "enderutilities:storage_0",
+			Damage: 7s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "enderutilities:storage_0",
-			Damage: 7s
+			}
 		}]
 	}]
 }

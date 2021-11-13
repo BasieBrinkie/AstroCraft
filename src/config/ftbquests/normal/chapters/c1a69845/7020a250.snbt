@@ -1,10 +1,10 @@
 {
 	title: "Space Ship",
 	icon: {
+		id: "advancedrocketry:warpmonitor",
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "advancedrocketry:warpmonitor"
+		}
 	},
 	x: -1.0d,
 	y: -2.0d,

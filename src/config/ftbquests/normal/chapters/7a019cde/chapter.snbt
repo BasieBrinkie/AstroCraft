@@ -1,11 +1,10 @@
 {
 	title: "Decorator",
 	icon: {
+		id: "chisel:chisel_iron",
 		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {},
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "chisel:chisel_iron"
+		}
 	},
 	always_invisible: false,
 	group: -658887791,

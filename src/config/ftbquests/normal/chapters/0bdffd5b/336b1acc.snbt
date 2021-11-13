@@ -1,12 +1,12 @@
 {
 	title: "Blueprint Antenna Tier 1",
 	icon: {
-		ForgeCaps: {
-			"customnpcs:itemscripteddata": {}
-		},
 		id: "modularmachinery:itemblueprint",
 		tag: {
 			dynamicmachine: "modularmachinery:antenna_tier_1"
+		},
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
 		}
 	},
 	x: 4.0d,
@@ -30,12 +30,12 @@
 		uid: "47902988",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "modularmachinery:itemblueprint",
 			tag: {
 				dynamicmachine: "modularmachinery:antenna_tier_1"
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
 			}
 		}]
 	},

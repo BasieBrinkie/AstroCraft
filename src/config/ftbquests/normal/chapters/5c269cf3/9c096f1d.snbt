@@ -14,14 +14,14 @@
 		uid: "b52300da",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "mekanism:transmitter",
+			Damage: 1s,
 			tag: {
 				tier: 0
 			},
-			Damage: 1s
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

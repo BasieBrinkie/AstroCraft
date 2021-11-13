@@ -12,11 +12,10 @@
 		uid: "e390582b",
 		type: "item",
 		items: [{
+			id: "minecraft:flint_and_steel",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:flint_and_steel"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

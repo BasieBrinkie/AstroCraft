@@ -1,15 +1,14 @@
 {
 	title: "Gun Smith - Master",
 	icon: {
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {},
-			"customnpcs:itemscripteddata": {}
-		},
 		id: "techguns:tfg",
 		tag: {
 			ammo: 20s,
 			ammovariant: "default",
 			camo: 0b
+		},
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
 		}
 	},
 	always_invisible: false,

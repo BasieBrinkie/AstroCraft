@@ -12,10 +12,10 @@
 		uid: "dece7ccb",
 		type: "item",
 		items: [{
+			id: "advancedrocketry:arcfurnace",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "advancedrocketry:arcfurnace"
+			}
 		}]
 	}]
 }

@@ -8,18 +8,16 @@
 		uid: "d1786cac",
 		type: "item",
 		items: [{
+			id: "exnihilocreatio:crook_wood",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "exnihilocreatio:crook_wood"
+			}
 		},
 		{
+			id: "exnihilocreatio:crook_iron",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "exnihilocreatio:crook_iron"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

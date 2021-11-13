@@ -8,11 +8,11 @@
 		uid: "5c2581aa",
 		type: "item",
 		items: [{
+			id: "immersiveengineering:storage",
+			Damage: 8s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "immersiveengineering:storage",
-			Damage: 8s
+			}
 		}]
 	}]
 }

@@ -8,11 +8,11 @@
 		uid: "a541f36b",
 		type: "item",
 		items: [{
+			id: "actuallyadditions:item_crystal_shard",
+			Damage: 4s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "actuallyadditions:item_crystal_shard",
-			Damage: 4s
+			}
 		}]
 	}]
 }

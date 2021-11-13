@@ -8,32 +8,32 @@
 		uid: "8f47cc7a",
 		type: "item",
 		items: [{
+			id: "nuclearcraft:rad_shielding",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "nuclearcraft:rad_shielding"
+			}
 		}]
 	},
 	{
 		uid: "b7aff718",
 		type: "item",
 		items: [{
+			id: "nuclearcraft:rad_shielding",
+			Damage: 1s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "nuclearcraft:rad_shielding",
-			Damage: 1s
+			}
 		}]
 	},
 	{
 		uid: "aba39c04",
 		type: "item",
 		items: [{
+			id: "nuclearcraft:rad_shielding",
+			Damage: 2s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "nuclearcraft:rad_shielding",
-			Damage: 2s
+			}
 		}]
 	}]
 }

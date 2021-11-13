@@ -5,10 +5,10 @@
 		uid: "55a0a4f3",
 		type: "gamestage",
 		icon: {
+			id: "immersiveengineering:wirecoil",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "immersiveengineering:wirecoil"
+			}
 		},
 		stage: "power_transporation"
 	}]

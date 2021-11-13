@@ -9,11 +9,10 @@
 		uid: "dff58551",
 		type: "item",
 		items: [{
+			id: "littletiles:saw",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "littletiles:saw"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

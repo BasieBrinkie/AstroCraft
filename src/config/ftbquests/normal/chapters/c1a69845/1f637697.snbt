@@ -1,14 +1,13 @@
 {
 	icon: {
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {},
-			"customnpcs:itemscripteddata": {}
-		},
 		id: "techguns:tfg",
 		tag: {
 			ammo: 20s,
 			ammovariant: "default",
 			camo: 0b
+		},
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
 		}
 	},
 	x: 0.0d,

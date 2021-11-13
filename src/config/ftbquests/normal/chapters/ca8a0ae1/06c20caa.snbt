@@ -29,14 +29,13 @@
 		type: "checkmark",
 		title: "Emergency Items",
 		icon: {
+			id: "nuclearcraft:radiation_badge",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
+				"customnpcs:itemscripteddata": {},
 				"nuclearcraft:capability_radiation_sink": {
 					radiationLevel: 0.0d
-				},
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "nuclearcraft:radiation_badge"
+				}
+			}
 		}
 	}]
 }

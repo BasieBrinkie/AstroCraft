@@ -17,16 +17,16 @@
 		uid: "fdecdae1",
 		type: "item",
 		items: [{
+			id: "excompressum:auto_compressor",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "excompressum:auto_compressor"
+			}
 		},
 		{
+			id: "excompressum:auto_compressor_rationing",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "excompressum:auto_compressor_rationing"
+			}
 		}]
 	}]
 }

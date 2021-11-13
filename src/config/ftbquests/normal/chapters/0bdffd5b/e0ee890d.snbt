@@ -13,10 +13,10 @@
 		uid: "cc15b691",
 		type: "item",
 		items: [{
+			id: "modularmachinery:blockcontroller",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "modularmachinery:blockcontroller"
+			}
 		}]
 	}]
 }

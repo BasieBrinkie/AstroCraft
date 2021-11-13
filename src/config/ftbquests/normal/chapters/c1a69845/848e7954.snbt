@@ -1,9 +1,9 @@
 {
 	icon: {
+		id: "glacidus:lumicia_grass",
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "glacidus:lumicia_grass"
+		}
 	},
 	x: 0.0d,
 	y: 12.5d,

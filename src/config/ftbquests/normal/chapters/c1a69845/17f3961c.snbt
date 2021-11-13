@@ -5,10 +5,10 @@
 		uid: "867211ed",
 		type: "gamestage",
 		icon: {
+			id: "advancedrocketry:rocketmotor",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "advancedrocketry:rocketmotor"
+			}
 		},
 		stage: "basic_rocket_builder"
 	}],

@@ -16,11 +16,10 @@
 		uid: "316d1369",
 		type: "item",
 		items: [{
+			id: "minecraft:wooden_pickaxe",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:wooden_pickaxe"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

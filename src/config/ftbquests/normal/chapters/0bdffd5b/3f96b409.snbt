@@ -13,10 +13,10 @@
 		uid: "444dd368",
 		type: "item",
 		items: [{
+			id: "modularmachinery:blockenergyinputhatch",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "modularmachinery:blockenergyinputhatch"
+			}
 		}]
 	}]
 }

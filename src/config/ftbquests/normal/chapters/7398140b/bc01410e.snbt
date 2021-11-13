@@ -10,11 +10,10 @@
 		uid: "77a83abd",
 		type: "item",
 		items: [{
+			id: "astralsorcery:blockaltar",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "astralsorcery:blockaltar"
+			}
 		}],
 		ignore_nbt: 1b
 	}]

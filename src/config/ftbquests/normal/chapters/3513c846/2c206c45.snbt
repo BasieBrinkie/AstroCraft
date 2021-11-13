@@ -14,15 +14,15 @@
 		type: "item",
 		title: "Fortune I",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "minecraft:enchanted_book",
 			tag: {
 				StoredEnchantments: [{
 					lvl: 1s,
 					id: 35
 				}]
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
 			}
 		}],
 		ignore_damage: true,

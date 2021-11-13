@@ -1,10 +1,10 @@
 {
 	title: "Astronomer",
 	icon: {
+		id: "astralsorcery:blockmachine",
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "astralsorcery:blockmachine"
+		}
 	},
 	always_invisible: false,
 	group: -895016441,

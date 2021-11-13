@@ -14,11 +14,10 @@
 		uid: "6575760c",
 		type: "item",
 		items: [{
+			id: "grapplemod:limitsupgradeitem",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "grapplemod:limitsupgradeitem"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

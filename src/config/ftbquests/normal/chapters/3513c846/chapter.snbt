@@ -1,11 +1,10 @@
 {
 	title: "Mining Tools",
 	icon: {
+		id: "minecraft:diamond_pickaxe",
 		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {},
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "minecraft:diamond_pickaxe"
+		}
 	},
 	always_invisible: false,
 	group: -935258453,

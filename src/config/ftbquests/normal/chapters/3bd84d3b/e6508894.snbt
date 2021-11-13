@@ -12,10 +12,10 @@
 		uid: "749e802b",
 		type: "item",
 		items: [{
+			id: "minecraft:glass",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:glass"
+			}
 		}]
 	}]
 }

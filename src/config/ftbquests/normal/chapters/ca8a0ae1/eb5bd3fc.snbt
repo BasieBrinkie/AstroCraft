@@ -18,10 +18,10 @@
 		uid: "d39dd8db",
 		type: "item",
 		items: [{
+			id: "minecraft:log",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:log"
+			}
 		}]
 	}]
 }

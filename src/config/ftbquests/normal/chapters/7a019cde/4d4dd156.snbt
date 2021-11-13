@@ -8,9 +8,6 @@
 		uid: "6a2e8087",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "littletiles:premade",
 			tag: {
 				tiles: [{
@@ -876,6 +873,9 @@
 				structure: {
 					id: "workbench"
 				}
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
 			}
 		}]
 	}]

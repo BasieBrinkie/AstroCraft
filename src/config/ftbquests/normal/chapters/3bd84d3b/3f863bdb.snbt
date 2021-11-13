@@ -14,10 +14,10 @@
 		uid: "18a7ca23",
 		type: "item",
 		items: [{
+			id: "minecraft:iron_nugget",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:iron_nugget"
+			}
 		}]
 	}]
 }

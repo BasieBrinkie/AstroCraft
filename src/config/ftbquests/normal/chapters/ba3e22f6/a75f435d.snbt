@@ -12,11 +12,10 @@
 		uid: "5af4aa85",
 		type: "item",
 		items: [{
+			id: "grapplemod:swingupgradeitem",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "grapplemod:swingupgradeitem"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

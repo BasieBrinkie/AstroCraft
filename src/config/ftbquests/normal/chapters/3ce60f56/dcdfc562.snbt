@@ -1,10 +1,10 @@
 {
 	title: "Welcome",
 	icon: {
+		id: "glacidus:lumicia_grass",
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "glacidus:lumicia_grass"
+		}
 	},
 	x: 0.0d,
 	y: 0.0d,
@@ -16,7 +16,7 @@
 		"You might have noticed the world is very barren outside. ",
 		"I urge to to go out and explore the upper layer of Glacidus.",
 		"",
-		"But before you go out be sure you bring/make some gear to enter some of the structures.",
+		"But before you go out be sure you bring/make some gear before leaving your spawn area.",
 		"",
 		"Alternatively you could also mine downwards to the mid-layer of Glacidus and discover the underground live."
 	],

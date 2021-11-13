@@ -1,9 +1,9 @@
 {
 	icon: {
+		id: "advancedrocketry:oxygencharger",
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "advancedrocketry:oxygencharger"
+		}
 	},
 	x: 2.0d,
 	y: 0.5d,

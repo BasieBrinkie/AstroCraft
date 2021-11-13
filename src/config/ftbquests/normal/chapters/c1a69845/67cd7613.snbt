@@ -5,10 +5,10 @@
 		uid: "1bd411f6",
 		type: "gamestage",
 		icon: {
+			id: "advancedrocketry:oxygenvent",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "advancedrocketry:oxygenvent"
+			}
 		},
 		stage: "basic_oxygen"
 	}]

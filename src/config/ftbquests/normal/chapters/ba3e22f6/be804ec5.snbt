@@ -12,11 +12,11 @@
 		uid: "f007937b",
 		type: "item",
 		items: [{
+			id: "skyresources:heatprovider",
+			Damage: 4s,
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "skyresources:heatprovider",
-			Damage: 4s
+			}
 		}]
 	}]
 }

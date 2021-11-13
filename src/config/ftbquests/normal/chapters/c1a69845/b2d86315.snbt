@@ -1,9 +1,9 @@
 {
 	icon: {
+		id: "nuclearcraft:decay_generator",
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "nuclearcraft:decay_generator"
+		}
 	},
 	x: -1.0d,
 	y: 6.0d,

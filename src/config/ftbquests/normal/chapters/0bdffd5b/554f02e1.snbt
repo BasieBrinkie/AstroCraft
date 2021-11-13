@@ -12,10 +12,10 @@
 		uid: "c98b4348",
 		type: "item",
 		items: [{
+			id: "advancedrocketry:rocketmotor",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "advancedrocketry:rocketmotor"
+			}
 		}]
 	}]
 }

@@ -12,10 +12,10 @@
 		uid: "f5921fa1",
 		type: "item",
 		items: [{
+			id: "tconstruct:faucet",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "tconstruct:faucet"
+			}
 		}]
 	}]
 }

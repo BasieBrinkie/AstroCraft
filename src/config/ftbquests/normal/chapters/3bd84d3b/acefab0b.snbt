@@ -16,13 +16,12 @@
 		uid: "abdf838f",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "patchouli:guide_book",
 			tag: {
 				"patchouli:book": "patchouli:multiblock_cheatsheet"
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
 			}
 		}],
 		ignore_damage: true,

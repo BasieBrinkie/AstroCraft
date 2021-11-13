@@ -49,6 +49,7 @@ src/config/worldedit/*
 src/config/sampler.ini
 src/usercache.json
 src/usernamecache.json
+src/resourcepacks/*
 
 # IDE
 .idea/

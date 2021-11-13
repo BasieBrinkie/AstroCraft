@@ -14,10 +14,10 @@
 		uid: "f2bb8222",
 		type: "item",
 		items: [{
+			id: "tconstruct:channel",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "tconstruct:channel"
+			}
 		}]
 	}]
 }

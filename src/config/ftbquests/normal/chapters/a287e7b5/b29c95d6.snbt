@@ -12,14 +12,13 @@
 		uid: "98b9d67a",
 		type: "item",
 		items: [{
+			id: "nuclearcraft:radiation_badge",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
+				"customnpcs:itemscripteddata": {},
 				"nuclearcraft:capability_radiation_sink": {
 					radiationLevel: 0.0d
-				},
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "nuclearcraft:radiation_badge"
+				}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

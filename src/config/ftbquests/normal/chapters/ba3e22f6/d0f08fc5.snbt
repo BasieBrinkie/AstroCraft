@@ -12,11 +12,10 @@
 		uid: "3ab3a089",
 		type: "item",
 		items: [{
+			id: "grapplemod:motorupgradeitem",
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "grapplemod:motorupgradeitem"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

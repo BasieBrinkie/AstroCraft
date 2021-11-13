@@ -1,10 +1,10 @@
 {
 	title: "Nuclear Physicist",
 	icon: {
+		id: "nuclearcraft:nuclear_furnace",
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "nuclearcraft:nuclear_furnace"
+		}
 	},
 	always_invisible: false,
 	group: -1096463800,

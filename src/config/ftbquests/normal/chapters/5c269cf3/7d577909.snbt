@@ -24,12 +24,11 @@
 		uid: "91ceac91",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "mekanism:machineblock",
-			Damage: 15s
+			Damage: 15s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}],
 		ignore_nbt: 1b
 	}]

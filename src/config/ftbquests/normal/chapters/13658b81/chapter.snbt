@@ -1,11 +1,11 @@
 {
 	title: "Star System: Arcturus",
 	icon: {
+		id: "twilightforest:miniature_structure",
+		Damage: 13s,
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
-		},
-		id: "twilightforest:miniature_structure",
-		Damage: 13s
+		}
 	},
 	always_invisible: false,
 	group: 0,

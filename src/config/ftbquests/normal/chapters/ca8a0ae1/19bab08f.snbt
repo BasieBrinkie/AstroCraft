@@ -38,15 +38,14 @@
 		type: "checkmark",
 		title: "Pack Mode",
 		icon: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {},
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "astralsorcery:itemknowledgeshare",
 			tag: {
 				astralsorcery: {
 					creativeKnowledge: 1b
 				}
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
 			}
 		}
 	}],
@@ -54,10 +53,10 @@
 		uid: "6ea5ecfe",
 		type: "choice",
 		icon: {
+			id: "contenttweaker:astrostone_3",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			},
-			id: "contenttweaker:astrostone_3"
+			}
 		},
 		auto: "disabled",
 		table: 0
