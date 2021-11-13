@@ -25,6 +25,12 @@ zenClass magnetiCraft {
         }
     }
 
+    function crushingTableAddHamer(map as IItemStack[]) {
+        for hammer in map {
+            mods.magneticraft.CrushingTable.addHamer(hammer,1,1,1);
+        }
+    }
+
     function crushingTableRemove(map as IItemStack[]) {
         for output in map {
             mods.magneticraft.CrushingTable.removeRecipe(output);

@@ -23,10 +23,19 @@ static addRecipe as IItemStack[][IItemStack] = {
 static addOredictRecipe as IOreDictEntry[][IItemStack] = {
 };
 
+static addHamer as ItemStack[] = [
+	<exnihilocreatio:hammer_wood>,
+	<exnihilocreatio:hammer_stone>, 
+	<exnihilocreatio:hammer_iron>, 
+	<exnihilocreatio:hammer_diamond>, 
+];
+
 static removeRecipe as IItemStack[] = [
 ];
 
+
 function init() {
+	mg.crushingTableAddHamer(addHamer)
     mg.crushingTableAdd(addRecipe);
     mg.crushingTableAddOredict(addOredictRecipe);
     mg.crushingTableRemove(removeRecipe);
