@@ -1,14 +1,19 @@
 {
 	x: 1.5d,
 	y: 1.0d,
+	description: "Dead vegetation",
+	text: [
+		"The Lumicia Stalk that can be found on the upper surface of the planet.",
+		"Although the vegetation has been dead for millions of years, they are preserved by the extremely low temperature on the surface."
+	],
 	dependencies: [
 		"dcdfc562"
 	],
 	tasks: [{
-		uid: "155b6af3",
+		uid: "5f02a0e1",
 		type: "item",
 		items: [{
-			id: "glacidus:dead_lumicia",
+			id: "glacidus:underground_stick",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			}

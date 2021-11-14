@@ -7,10 +7,39 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
+    <glacidus:antinatric_axe>: [
+        [
+            [<glacidus:frozen_antinatric_stone:0>, <glacidus:frozen_antinatric_stone:0>, null],
+            [<glacidus:frozen_antinatric_stone:0>, <glacidus:underground_stick:0>, null],
+            [null, <glacidus:underground_stick:0>, null]
+        ]
+    ],
     <glacidus:antinatric_pickaxe>: [
         [
-            [<glacidus:frozen_antinatric_stone:0>, <glacidus:frozen_antinatric_stone:0>],
-            [<glacidus:frozen_antinatric_stone:0>, <glacidus:underground_stick:0>]
+            [<glacidus:frozen_antinatric_stone:0>, <glacidus:frozen_antinatric_stone:0>, <glacidus:frozen_antinatric_stone:0>],
+            [<glacidus:frozen_antinatric_stone:0>, <glacidus:underground_stick:0>, null],
+            [null, <glacidus:underground_stick:0>, null]
+        ]
+    ],
+    <glacidus:antinatric_hoe>: [
+        [
+            [<glacidus:frozen_antinatric_stone:0>, <glacidus:frozen_antinatric_stone:0>, null],
+            [null, <glacidus:underground_stick:0>, null],
+            [null, <glacidus:underground_stick:0>, null]
+        ]
+    ],
+    <glacidus:antinatric_shovel>: [
+        [
+            [null, <glacidus:frozen_antinatric_stone:0>, null],
+            [null, <glacidus:underground_stick:0>, null],
+            [null, <glacidus:underground_stick:0>, null]
+        ]
+    ],
+    <glacidus:antinatric_sword>: [
+        [
+            [null, <glacidus:frozen_antinatric_stone:0>, null],
+            [null, <glacidus:frozen_antinatric_stone:0>, null],
+            [null, <glacidus:underground_stick:0>, null]
         ]
     ],
     <glacidus:underground_stick:0>: [
@@ -51,7 +80,11 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 	Furnace Recipes.
 	----------------
 */
-static furnaceRecipes as IIngredient[][IItemStack] = {};
+static furnaceRecipes as IIngredient[][IItemStack] = {
+    <glacidus:thawed_antinatric_stone:0>: [
+        <glacidus:frozen_antinatric_stone:0>
+    ]
+};
 
 
 function init() {

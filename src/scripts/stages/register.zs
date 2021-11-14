@@ -198,6 +198,7 @@ global stageDiamondPickaxe as Stage = ZenStager.initStage("diamond_pickaxe");
 global stageEmerald as Stage = ZenStager.initStage("emerald");
 global stageIronTools as Stage = ZenStager.initStage("iron_tools");
 global stageFurnace as Stage = ZenStager.initStage("furnace");
+global stageHammer as Stage = ZenStager.initStage("hammer");
 global stageLeaves as Stage = ZenStager.initStage("leaves");
 global stageShears as Stage = ZenStager.initStage("shears");
 global stageStone as Stage = ZenStager.initStage("stone");

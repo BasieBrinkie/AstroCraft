@@ -7,6 +7,13 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
+	<magneticraft:crushing_table:0>: [
+		[
+			[<glacidus:frozen_antinatric_stone>,<glacidus:frozen_antinatric_stone>,<glacidus:frozen_antinatric_stone>],
+			[null, <ore:plankWood>, null],
+			[<ore:plankWood>,<ore:plankWood>,<ore:plankWood>]
+		]
+	],
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {

@@ -7,8 +7,6 @@ static stagedItems as IIngredient[][string] = {
 	stageAsteroidsOxygen1.stage: [
 		<exnihilocreatio:block_barrel0:0>,
 		<exnihilocreatio:block_sieve:0>,
-		<exnihilocreatio:hammer_stone:*>,
-		<exnihilocreatio:hammer_wood:*>,
 		<exnihilocreatio:item_material:2>,
 		<exnihilocreatio:item_mesh:1>,
 		<exnihilocreatio:item_ore_copper:0>,
@@ -41,6 +39,10 @@ static stagedItems as IIngredient[][string] = {
 		<exnihilocreatio:hammer_iron:*>
 	],
 
+	stageHammer.stage: [
+		<exnihilocreatio:hammer_stone:*>,
+		<exnihilocreatio:hammer_wood:*>,
+	]
 	//Items
 	stageCrook.stage: [
 		<exnihilocreatio:crook_iron:*>,

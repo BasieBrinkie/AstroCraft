@@ -5,12 +5,14 @@ import mods.zenstages.Stage;
 
 static stagedItems as IIngredient[][string] = {
 	stageGlacidusSpawn.stage: [
-        
+        <magneticraft:crushing_table:0>
 	]
 };
 
 static disabledItems as IIngredient[] = [
-	<matteroverdrive:solar_panel:0>
+	<magneticraft:stone_hammer>,
+	<magneticraft:wood_hammer>,
+	<magneticraft:steel_hammer>
 ];
 
 function init() {

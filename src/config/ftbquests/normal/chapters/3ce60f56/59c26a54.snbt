@@ -1,6 +1,10 @@
 {
 	x: 4.5d,
-	y: 1.0d,
+	y: 0.5d,
+	description: "Yup, stone",
+	text: [
+		""
+	],
 	dependencies: [
 		"f7925be6",
 		"52d56e44"

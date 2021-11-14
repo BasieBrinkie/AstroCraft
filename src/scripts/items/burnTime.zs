@@ -20,7 +20,10 @@ static setBurnTime as IIngredient[][int] = {
 		<skyresources:fusiontable:0>,
 	],
 	1: [
-		<glacidus:dead_lumicia:0>
+		<glacidus:underground_stick:0>,
+	],
+	3: [
+		<glacidus:dead_lumicia:0>,
 	]
 };
 

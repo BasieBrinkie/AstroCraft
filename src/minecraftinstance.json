@@ -1598,6 +1598,111 @@
       "installedTargets": null
     },
     {
+      "addonID": 321792,
+      "gameInstanceID": "1f02b69a-7b4f-4d15-ab1f-e048b98cc80c",
+      "installedFile": {
+        "id": 3198382,
+        "displayName": "AquaAcrobatics-v1.3.5-1.12.2.jar",
+        "fileName": "AquaAcrobatics-v1.3.5-1.12.2.jar",
+        "fileDate": "2021-02-09T19:52:51.347Z",
+        "fileLength": 81027,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3198/382/AquaAcrobatics-v1.3.5-1.12.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 56647563,
+            "addonId": 357178,
+            "type": 3,
+            "fileId": 3198382
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 31818140,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 1403244497,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 1311393281,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mixins.aquaacrobatics.refmap.json",
+            "fingerprint": 2378927699,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 292306802,
+            "type": 3,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 1892285430,
+        "gameVersion": [
+          "Forge",
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+            "gameVersionName": "Forge",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2",
+            "gameVersionTypeId": 628
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 2164913,
+        "projectId": 321792,
+        "packageFingerprintId": 602639255,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameVersionMappingId": 2710932,
+        "gameVersionId": 6756,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "AquaAcrobatics-v1.3.5-1.12.2.jar"
+      },
+      "dateInstalled": "2021-11-14T00:24:55.8066134Z",
+      "dateUpdated": "2021-11-14T00:24:55.8161151Z",
+      "dateLastUpdateAttempted": "2021-11-14T00:24:55.8161151Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
+    },
+    {
       "addonID": 289412,
       "gameInstanceID": "1f02b69a-7b4f-4d15-ab1f-e048b98cc80c",
       "installedFile": {
@@ -6675,6 +6780,114 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 356646,
+      "gameInstanceID": "1f02b69a-7b4f-4d15-ab1f-e048b98cc80c",
+      "installedFile": {
+        "id": 3168863,
+        "displayName": "GunpowderLib-1.12.2-1.1.jar",
+        "fileName": "GunpowderLib-1.12.2-1.1.jar",
+        "fileDate": "2021-01-14T23:07:04.323Z",
+        "fileLength": 23153,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3168/863/GunpowderLib-1.12.2-1.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 3168864,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2664397269,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2794050781,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "jackyy",
+            "fingerprint": 3113489951,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 2137831200,
+            "type": 3,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 752151041,
+        "gameVersion": [
+          "1.12.1",
+          "1.12",
+          "Forge",
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000001",
+            "gameVersion": "1.12.1",
+            "gameVersionReleaseDate": "2017-08-03T05:00:00Z",
+            "gameVersionName": "1.12.1",
+            "gameVersionTypeId": 628
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012",
+            "gameVersion": "1.12",
+            "gameVersionReleaseDate": "2017-06-07T05:00:00Z",
+            "gameVersionName": "1.12",
+            "gameVersionTypeId": 628
+          },
+          {
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+            "gameVersionName": "Forge",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2",
+            "gameVersionTypeId": 628
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 2126864,
+        "projectId": 356646,
+        "packageFingerprintId": 586250915,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 2645177,
+        "gameVersionId": 4458,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "GunpowderLib-1.12.2-1.1.jar"
+      },
+      "dateInstalled": "2021-11-14T00:17:57.2614578Z",
+      "dateUpdated": "2021-11-14T00:17:57.3529739Z",
+      "dateLastUpdateAttempted": "2021-11-14T00:17:57.3529739Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 227083,
@@ -23997,6 +24210,84 @@
       "installedTargets": null
     },
     {
+      "addonID": 447846,
+      "gameInstanceID": "1f02b69a-7b4f-4d15-ab1f-e048b98cc80c",
+      "installedFile": {
+        "id": 3524446,
+        "displayName": "AR16x - v2.1",
+        "fileName": "AR-16x-v2.1.zip",
+        "fileDate": "2021-11-13T11:53:29.013Z",
+        "fileLength": 7305134,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3524/446/AR-16x-v2.1.zip",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "assets",
+            "fingerprint": 2287442977,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 695316718,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.png",
+            "fingerprint": 3486099858,
+            "type": 3,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 1485493456,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2",
+            "gameVersionTypeId": 628
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": true,
+        "categorySectionPackageType": 3,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 2582430,
+        "projectId": 447846,
+        "packageFingerprintId": 783611368,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameVersionMappingId": 3463273,
+        "gameVersionId": 6756,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "AR-16x-v2.1.zip"
+      },
+      "dateInstalled": "2021-11-13T21:39:47.9515076Z",
+      "dateUpdated": "2021-11-13T21:39:47.9655105Z",
+      "dateLastUpdateAttempted": "2021-11-13T21:39:47.9655105Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
+    },
+    {
       "addonID": 276951,
       "gameInstanceID": "1f02b69a-7b4f-4d15-ab1f-e048b98cc80c",
       "installedFile": {
@@ -24186,6 +24477,133 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 269141,
+      "gameInstanceID": "1f02b69a-7b4f-4d15-ab1f-e048b98cc80c",
+      "installedFile": {
+        "id": 3168903,
+        "displayName": "SimpleSponge-1.12.2-3.7.jar",
+        "fileName": "SimpleSponge-1.12.2-3.7.jar",
+        "fileDate": "2021-01-14T23:53:18.293Z",
+        "fileLength": 88948,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3168/903/SimpleSponge-1.12.2-3.7.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 54409655,
+            "addonId": 228816,
+            "type": 2,
+            "fileId": 3168903
+          },
+          {
+            "id": 54409656,
+            "addonId": 356646,
+            "type": 3,
+            "fileId": 3168903
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 694233560,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2290794234,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "jackyy",
+            "fingerprint": 2802900021,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 3651502908,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3174883094,
+            "type": 3,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 1047779538,
+        "gameVersion": [
+          "1.12.1",
+          "1.12",
+          "Forge",
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000001",
+            "gameVersion": "1.12.1",
+            "gameVersionReleaseDate": "2017-08-03T05:00:00Z",
+            "gameVersionName": "1.12.1",
+            "gameVersionTypeId": 628
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012",
+            "gameVersion": "1.12",
+            "gameVersionReleaseDate": "2017-06-07T05:00:00Z",
+            "gameVersionName": "1.12",
+            "gameVersionTypeId": 628
+          },
+          {
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+            "gameVersionName": "Forge",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2",
+            "gameVersionTypeId": 628
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 2126911,
+        "projectId": 269141,
+        "packageFingerprintId": 586261719,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 2645248,
+        "gameVersionId": 4458,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "SimpleSponge-1.12.2-3.7.jar"
+      },
+      "dateInstalled": "2021-11-14T00:17:57.531509Z",
+      "dateUpdated": "2021-11-14T00:17:57.5430084Z",
+      "dateLastUpdateAttempted": "2021-11-14T00:17:57.5430084Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 298187,
@@ -24442,6 +24860,104 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 322764,
+      "gameInstanceID": "1f02b69a-7b4f-4d15-ab1f-e048b98cc80c",
+      "installedFile": {
+        "id": 3491956,
+        "displayName": "LetMeSleep-v1.2.3-1.12.2.jar",
+        "fileName": "LetMeSleep-v1.2.3-1.12.2.jar",
+        "fileDate": "2021-10-15T16:36:17.23Z",
+        "fileLength": 48249,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3491/956/LetMeSleep-v1.2.3-1.12.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3089396853,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 560753200,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 3228835101,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 1148973598,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 1210162951,
+            "type": 3,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 2930327095,
+        "gameVersion": [
+          "Forge",
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+            "gameVersionName": "Forge",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2",
+            "gameVersionTypeId": 628
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 2541316,
+        "projectId": 322764,
+        "packageFingerprintId": 762962322,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameVersionMappingId": 3384217,
+        "gameVersionId": 6756,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "LetMeSleep-v1.2.3-1.12.2.jar"
+      },
+      "dateInstalled": "2021-11-14T00:25:23.8403011Z",
+      "dateUpdated": "2021-11-14T00:25:23.9368173Z",
+      "dateLastUpdateAttempted": "2021-11-14T00:25:23.9368173Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 271384,

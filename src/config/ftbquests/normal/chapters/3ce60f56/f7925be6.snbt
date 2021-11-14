@@ -1,6 +1,10 @@
 {
 	x: 3.0d,
 	y: 0.0d,
+	description: "Frozen antinatric stone is just disguised cobblestone",
+	text: [
+		""
+	],
 	dependencies: [
 		"e7aadb40"
 	],

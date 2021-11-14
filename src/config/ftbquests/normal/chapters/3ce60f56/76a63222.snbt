@@ -1,11 +1,11 @@
 {
-	x: 7.5d,
-	y: -1.5d,
+	x: 6.5d,
+	y: -0.5d,
 	tasks: [{
-		uid: "2d980375",
+		uid: "22734546",
 		type: "item",
 		items: [{
-			id: "glacidus:glacidite_ore",
+			id: "thebetweenlands:rope_item",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			}

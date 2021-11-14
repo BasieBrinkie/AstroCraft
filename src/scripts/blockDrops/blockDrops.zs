@@ -16,6 +16,11 @@ import crafttweaker.event.BlockHarvestDropsEvent;
 	--------------------------------------------------------------------------------
 */
 static normalDrops as IItemStack[][string] = {
+	//Glacidus
+	"glacidus:dead_lumicia":[
+		<glacidus:underground_stick:0> * 3
+	],
+	
 	//Minecraft
 	"minecraft:iron_ore": [
 		<minecraft:iron_ore:0>

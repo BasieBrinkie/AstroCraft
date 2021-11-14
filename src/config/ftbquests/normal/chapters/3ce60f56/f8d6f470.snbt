@@ -1,11 +1,11 @@
 {
-	x: 7.5d,
-	y: -1.5d,
+	x: 5.5d,
+	y: 0.5d,
 	tasks: [{
-		uid: "2d980375",
+		uid: "74642284",
 		type: "item",
 		items: [{
-			id: "glacidus:glacidite_ore",
+			id: "botania:livingrock",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			}

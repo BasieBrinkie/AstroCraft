@@ -10,25 +10,13 @@
 	tasks: [{
 		uid: "5f606887",
 		type: "gamestage",
-		stage: "dim_glacidus"
+		stage: "planet_glacidus_spawn"
 	}],
 	rewards: [{
 		uid: "952a992b",
 		type: "gamestage",
 		auto: "no_toast",
 		stage: "metal_iron_ingot_tier_one"
-	},
-	{
-		uid: "a3e8d1a4",
-		type: "gamestage",
-		auto: "no_toast",
-		stage: "stone_tools"
-	},
-	{
-		uid: "de5766d0",
-		type: "gamestage",
-		auto: "no_toast",
-		stage: "wooden_tools"
 	},
 	{
 		uid: "7b3f65ea",
@@ -53,5 +41,17 @@
 		type: "gamestage",
 		auto: "no_toast",
 		stage: "planet_glacidus_spawn"
+	},
+	{
+		uid: "04bb689e",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "furnace"
+	},
+	{
+		uid: "f62c5125",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "hammer"
 	}]
 }

@@ -82,7 +82,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		],
 		[
 			[<minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>],
-			[<minecraft:cobblestone:0>, <glacidus:dead_lumicia:0>, <minecraft:cobblestone:0>],
+			[<minecraft:cobblestone:0>, <glacidus:underground_stick:0>, <minecraft:cobblestone:0>],
 			[<minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>]
 		]
 	],

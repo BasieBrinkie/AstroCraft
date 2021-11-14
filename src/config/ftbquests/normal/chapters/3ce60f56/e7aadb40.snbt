@@ -1,6 +1,10 @@
 {
 	x: 1.5d,
 	y: 0.0d,
+	description: "Basic tools",
+	text: [
+		"We need real stone not that frozen blah blah blah stone!"
+	],
 	dependencies: [
 		"dcdfc562"
 	],
@@ -18,13 +22,13 @@
 		uid: "9ae392dc",
 		type: "item",
 		items: [{
-			id: "magneticraft:stone_hammer",
+			id: "exnihilocreatio:hammer_wood",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			}
 		},
 		{
-			id: "magneticraft:iron_hammer",
+			id: "exnihilocreatio:hammer_stone",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			}
