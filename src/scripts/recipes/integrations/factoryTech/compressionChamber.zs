@@ -12,9 +12,9 @@ static compressionChamberAdd as ILiquidStack[IIngredient][IItemStack] = {
 	},
 
 	//Oxygen Extractor
-	<jurassicraft:plant_cells:0>: {
-		<minecraft:leaves:0>: <liquid:nickel> * 1296
-	},
+	// <jurassicraft:plant_cells:0>: {
+	// 	<minecraft:leaves:0>: <liquid:nickel> * 1296
+	// },
 };
 
 static compressionChamberRemove as IItemStack[] = [

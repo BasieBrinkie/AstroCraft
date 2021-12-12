@@ -7,7 +7,7 @@ function init() {
     val machineName = "asteroid_miner_tier_1";
 
     RecipeBuilder.newBuilder(machineName ~ "_dim_0", machineName, 600)
-        .addDimensionRequirement([0])
+        .setDimension([0])
         .addEnergyPerTickInput(100)
         .addItemOutput(<contenttweaker:astrostone:0> * 4).setChance(0.4)
         .addItemOutput(<contenttweaker:astrostone_2:0> * 4).setChance(0.4)

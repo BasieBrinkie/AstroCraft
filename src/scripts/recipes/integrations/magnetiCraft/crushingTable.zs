@@ -15,27 +15,29 @@ import crafttweaker.oredict.IOreDictEntry;
 */	
 
 static addRecipe as IItemStack[][IItemStack] = {
+	//planet_glacidus_spawn
+	<glacidus:dead_lumicia:0>: [
+		<glacidus:underground_stick:0> * 2,
+		<botania:manaresource:3>
+	],
     <minecraft:cobblestone:0>: [
-        <glacidus:frozen_antinatric_stone:0>
-    ]
+        <glacidus:frozen_antinatric_stone:0>,
+		<glacidus:thawed_antinatric_stone:0>,
+    ],
 };
 
 static addOredictRecipe as IOreDictEntry[][IItemStack] = {
 };
 
-static addHamer as ItemStack[] = [
-	<exnihilocreatio:hammer_wood>,
-	<exnihilocreatio:hammer_stone>, 
-	<exnihilocreatio:hammer_iron>, 
-	<exnihilocreatio:hammer_diamond>, 
-];
-
 static removeRecipe as IItemStack[] = [
+	<minecraft:skull:0>,
+	<minecraft:skull:2>,
+	<minecraft:skull:4>,
+
 ];
 
 
 function init() {
-	mg.crushingTableAddHamer(addHamer)
     mg.crushingTableAdd(addRecipe);
     mg.crushingTableAddOredict(addOredictRecipe);
     mg.crushingTableRemove(removeRecipe);

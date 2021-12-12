@@ -19,16 +19,10 @@
 		}]
 	},
 	{
-		uid: "9ae392dc",
+		uid: "d7331d71",
 		type: "item",
 		items: [{
-			id: "exnihilocreatio:hammer_wood",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
-		},
-		{
-			id: "exnihilocreatio:hammer_stone",
+			id: "magneticraft:stone_hammer",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			}

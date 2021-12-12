@@ -44,8 +44,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
     ],
     <glacidus:underground_stick:0>: [
         [
-            [<glacidus:dead_lumicia:0>, <glacidus:dead_lumicia:0>],
-            [<glacidus:dead_lumicia:0>,<glacidus:dead_lumicia:0>]
+            [<glacidus:dead_lumicia:0>],
+            [<glacidus:dead_lumicia:0>],
+            [<glacidus:dead_lumicia:0>]
         ]
     ],
 };

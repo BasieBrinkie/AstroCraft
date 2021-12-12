@@ -28,6 +28,11 @@ static stagedItems as IIngredient[][string] = {
 		<actuallyadditions:block_crystal_cluster_redstone:0>,
 		<actuallyadditions:item_crystal_shard:0>
 	],
+	
+	stageGlacidusSpawn.stage: [
+		<actuallyadditions:item_misc:9>,
+		<actuallyadditions:item_misc:12>
+	]
 };
 
 static disabledItems as IIngredient[] = [

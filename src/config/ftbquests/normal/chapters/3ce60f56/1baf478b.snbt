@@ -1,11 +1,14 @@
 {
-	x: 6.0d,
-	y: 1.5d,
+	x: 1.5d,
+	y: -1.0d,
+	dependencies: [
+		"dcdfc562"
+	],
 	tasks: [{
-		uid: "74642284",
+		uid: "71703d92",
 		type: "item",
 		items: [{
-			id: "botania:livingrock",
+			id: "glacidus:dead_lumicia",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			}

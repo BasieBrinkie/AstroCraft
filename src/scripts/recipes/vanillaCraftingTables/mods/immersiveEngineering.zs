@@ -7,14 +7,6 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-    //test
-	<immersiveengineering:shield>.withTag({ncRadiationResistance: 1.0E-4}): [
-		[
-			[<ore:plankWood>, null],
-			[null, <ore:plankWood>],
-			[]
-		]
-	],
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {

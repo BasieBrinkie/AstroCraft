@@ -15,6 +15,7 @@ static stagedItems as IIngredient[][string] = {
 		<thebetweenlands:log_rotten_bark:0>,
 		<thebetweenlands:rubber_tree_planks:0>,
 		<thebetweenlands:weedwood_log_fence:0>,
+		<thebetweenlands:rope_item:0>,
 		<thebetweenlands:rotten_plank_slab:0>,
 		<thebetweenlands:swamp_talisman:0>,
 		<thebetweenlands:tar_solid_slab:0>,

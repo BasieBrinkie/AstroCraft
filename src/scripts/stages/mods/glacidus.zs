@@ -17,13 +17,13 @@ static stagedItems as IIngredient[][string] = {
         <glacidus:glacidite_ore:0>,
         <glacidus:lumicia_grass:0>,
         <glacidus:residuum:0>,
-        <glacidus:thawed_antinatric_stone:0>
+        <glacidus:thawed_antinatric_stone:0>,
         <glacidus:underground_stick:0>,
     ],
 };
 
 static disabledItems as IIngredient[] = [
-    <glacidus:booster:0>,
+    <glacidus:glacidus_booster:0>,
     <glacidus:glacidus_portal:0>,
     <glacidus:glacidus_portal_frame:0>
 ];

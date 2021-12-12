@@ -13,7 +13,14 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<thebetweenlands:items_misc:2>, <thebetweenlands:items_misc:2>, <thebetweenlands:items_misc:2>],
 			[<thebetweenlands:items_misc:2>, <thebetweenlands:items_misc:2>, <thebetweenlands:items_misc:2>]
 		]
-	]
+	],
+	<thebetweenlands:rope_item:0>: [
+		[
+			[<botania:manaresource:3>],
+			[<actuallyadditions:item_misc:12>],
+			[<botania:manaresource:3>]
+		]
+	],
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
