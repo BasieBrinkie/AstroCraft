@@ -43,6 +43,7 @@ function initRecipes() {
 	scripts.recipes.vanillaCraftingTables.mods.advancedRocketry.init();
 	scripts.recipes.vanillaCraftingTables.mods.appliedEnergistics2.init();
 	scripts.recipes.vanillaCraftingTables.mods.architectureCraft.init();
+	scripts.recipes.vanillaCraftingTables.mods.botania.init();
 	scripts.recipes.vanillaCraftingTables.mods.charcoalPit.init();
 	scripts.recipes.vanillaCraftingTables.mods.chisel.init();
 	scripts.recipes.vanillaCraftingTables.mods.chiselsAndBits.init();
@@ -163,6 +164,7 @@ function initStages() {
 	scripts.stages.mods.architectureCraft.init();
 	scripts.stages.mods.atum.init();
 	scripts.stages.mods.blue_skies.init();
+	scripts.stages.mods.botania.init();
 	scripts.stages.mods.buildingGadgets.init();
 	scripts.stages.mods.charcoalPit.init();
 	scripts.stages.mods.chisel.init();
@@ -254,6 +256,7 @@ function initItemProperties() {
 		Item Properties per Mod.
 		------------------------
 	*/
+	scripts.items.mods.actuallyAdditions.init();
 	scripts.items.mods.advancedRocketry.init();
 	scripts.items.mods.alchemistry.init();
 	scripts.items.mods.appliedEnergistics2.init();
