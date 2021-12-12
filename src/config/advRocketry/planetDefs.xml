@@ -1,5 +1,6 @@
 <galaxy>
-    <star name="Arcturus" temp="100" x="0" y="0" size="1.8" numPlanets="0" numGasGiants="0" blackHole="false">
+    <star name="Arcturus (K1.5III)" temp="100" x="0" y="0" size="1.8" numPlanets="0" numGasGiants="0" blackHole="false">
+        <star name="Arcturus-test" size="3" temp="120" separation="20"></star>
         <planet name="Glacidus" DIMID="4" dimMapping="" customIcon="glacidus">
             <isKnown>true</isKnown>
             <hasRings>true</hasRings>
@@ -8,7 +9,7 @@
             <gravitationalMultiplier>50</gravitationalMultiplier>
             <orbitalDistance>70</orbitalDistance>
             <orbitalTheta>120</orbitalTheta>
-            <orbitalPhi>210</orbitalPhi>
+            <orbitalPhi>10</orbitalPhi>
             <rotationalPeriod>24771</rotationalPeriod>
             <planet name="Mining Site 495-IIM" DIMID="0" customIcon="asteroid">
         	   <isKnown>true</isKnown>
