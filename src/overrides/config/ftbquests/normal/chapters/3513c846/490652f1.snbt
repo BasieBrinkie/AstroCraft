@@ -1,0 +1,22 @@
+{
+	x: -2.5d,
+	y: -4.0d,
+	description: "Throwable TNT",
+	text: [
+		"An even bigger explosion radius compared to advanced charges but is also much more explosive so watch out when throwing these suckers."
+	],
+	dependencies: [
+		"468e1a82"
+	],
+	tasks: [{
+		uid: "71d444e8",
+		type: "item",
+		items: [{
+			id: "tconstruct:throwball",
+			Damage: 1s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

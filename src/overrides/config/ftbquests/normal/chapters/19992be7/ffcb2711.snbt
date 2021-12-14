@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "085108c4",
+		type: "item",
+		items: [{
+			id: "advancedrocketry:oxygenvent",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

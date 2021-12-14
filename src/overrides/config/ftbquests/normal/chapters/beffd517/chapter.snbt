@@ -1,0 +1,17 @@
+{
+	title: "Gun Smith - Master",
+	icon: {
+		id: "techguns:tfg",
+		tag: {
+			ammo: 20s,
+			ammovariant: "default",
+			camo: 0b
+		},
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		}
+	},
+	always_invisible: false,
+	group: 173755826,
+	default_quest_shape: ""
+}

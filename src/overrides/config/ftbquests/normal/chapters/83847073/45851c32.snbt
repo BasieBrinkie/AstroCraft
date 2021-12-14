@@ -1,0 +1,14 @@
+{
+	x: -1.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "0036f1f5",
+		type: "item",
+		items: [{
+			id: "minecraft:dropper",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

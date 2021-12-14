@@ -1,0 +1,6 @@
+
+{
+  "Name": "scp.plague_doctor",
+  "Registry ID": "scp:plague_doctor",
+  "Class": "alexiy.secure.contain.protect.entity.EntityPlagueDoctor"
+}

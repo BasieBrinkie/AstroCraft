@@ -1,0 +1,29 @@
+{
+	"components": [
+        {
+            "type": "header",
+            "text": "#mod->capital# Wiki",
+            "x": -1,
+            "y": -1
+        },
+        {
+            "type": "separator",
+            "x": -1,
+            "y": -1
+        },
+		{
+			"type": "text",
+			"text": "The wiki for #mod# has a online wiki $(l:#website#)here!$(/l)",
+            "color": "FFFFFF",
+			"x": -1,
+			"y": 22
+		},
+        {
+            "type": "text",
+            "text": "You can also use the ingame button $(k:#keybind#) for an ingame wiki.",
+            "color": "FFFFFF",
+			"x": -1,
+			"y": 62
+        }
+	]
+}

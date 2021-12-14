@@ -1,0 +1,23 @@
+{
+	x: 4.5d,
+	y: -1.0d,
+	description: "An improvement over shobby wires",
+	text: [
+		"Little bit more expensive but it also lasts longer"
+	],
+	dependencies: [
+		"1df151d3",
+		"5fa0f4b6"
+	],
+	tasks: [{
+		uid: "41b51d43",
+		type: "item",
+		items: [{
+			id: "factorytech:machinepart",
+			Damage: 21s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

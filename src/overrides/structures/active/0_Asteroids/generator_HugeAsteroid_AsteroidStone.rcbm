@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "weight": 39.43365478515625,
+      "block": "contenttweaker:astrostone",
+      "metadata": 0,
+      "tileEntity": "null"
+    },
+    {
+      "block": "contenttweaker:astrostone_2",
+      "metadata": 0,
+      "tileEntity": "null"
+    },
+    {
+      "block": "contenttweaker:astrostone_3",
+      "metadata": 0,
+      "tileEntity": "null"
+    },
+    {
+      "weight": 1.4458260557148606E-4,
+      "block": "advancedrocketry:charcoallog",
+      "metadata": 12,
+      "tileEntity": "null"
+    }
+  ],
+  "metadata": {
+    "title": "Random Asteroid Stone Huge",
+    "description": [
+      "Randomised Huge Asteroid Stone"
+    ]
+  }
+}

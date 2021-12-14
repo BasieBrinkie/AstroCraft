@@ -1,0 +1,25 @@
+{
+	title: "The Starter of Fires",
+	x: 11.0d,
+	y: -1.0d,
+	description: "Stupid pebbles, that's all I have to say",
+	text: [
+		"The fire starter makes it very easy to start fires. Craft one and experience the feeling that primitive beings always felt when seeing fire",
+		"",
+		"- Craft a 'Fire Starter'",
+		"- Hold right click while aiming at a flammable block"
+	],
+	dependencies: [
+		"cc98c1d7"
+	],
+	tasks: [{
+		uid: "738f5d8e",
+		type: "item",
+		items: [{
+			id: "charcoal_pit:fire_starter",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

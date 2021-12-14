@@ -1,0 +1,6 @@
+
+{
+  "Name": "scp.hostile_golem",
+  "Registry ID": "scp:hostile_golem",
+  "Class": "alexiy.secure.contain.protect.entity.EntityHostileGolem"
+}

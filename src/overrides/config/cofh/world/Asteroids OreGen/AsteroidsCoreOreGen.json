@@ -1,0 +1,84 @@
+{
+    "populate": {   
+        "AsteroidCoreOre_Iridium": {
+            "distribution": "uniform",
+            "generator": {     
+                "cluster-size": 4,
+                "block": {"name": "thermalfoundation:ore", "properties": { "type": "iridium" } },
+                "material": {"name": "contenttweaker:astrostone","metadata": 0}
+            },
+            "min-height": 20,
+            "max-height": 240,
+            "cluster-count": 5,
+            "chunk-chance": 25,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [0]
+            }
+        },
+        
+        "AsteroidCoreOre_CharredWood": {
+            "distribution": "uniform",
+            "generator": {     
+                "type": "plate",
+                "radius": 2,
+                "height": 1,
+
+                "block": {"name": "advancedrocketry:charcoallog","metadata": 4},
+                "material": {"name": "contenttweaker:astrostone","metadata": 0}
+            },
+            "min-height": 20,
+            "max-height": 240,
+            "cluster-count": 5,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [0]
+            }
+        },
+        
+        "AsteroidCoreOre_Uranium": {
+            "distribution": "uniform",
+            "generator": {     
+                "cluster-size": 8,                
+                "block": {"name": "techguns:basicore", "metadata": 4},
+                "material": {"name": "contenttweaker:astrostone","metadata": 0}
+            },
+            "min-height": 20,
+            "max-height": 240,
+            "cluster-count": 1,
+            "chunk-chance": 100,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [0]
+            }
+        },
+
+        "AsteroidCoreOre_Diamond": {
+            "distribution": "uniform",
+            "generator": {     
+                "cluster-size": 24,                
+                "block": [
+                    {"name": "minecraft:diamond_ore", "weight":1},
+                    {"name": "appliedenergistics2:sky_stone_block", "weight":1}
+                ],
+                "material": {"name": "contenttweaker:astrostone","metadata": 0}
+            },
+            "min-height": 54,
+            "max-height": 240,
+            "cluster-count": 1,
+            "chunk-chance": 20,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [0]
+            }
+        }
+    }
+}

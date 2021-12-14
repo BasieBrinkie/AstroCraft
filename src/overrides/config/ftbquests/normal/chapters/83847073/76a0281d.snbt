@@ -1,0 +1,14 @@
+{
+	x: 2.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "237b2048",
+		type: "item",
+		items: [{
+			id: "minecraft:dispenser",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

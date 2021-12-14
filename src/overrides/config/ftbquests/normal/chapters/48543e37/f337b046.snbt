@@ -1,0 +1,21 @@
+{
+	x: -3.0d,
+	y: 0.0d,
+	description: "Fallen leaves are too compact to use",
+	text: [
+		"We need the full leave block that allows for oxygen extraction"
+	],
+	dependencies: [
+		"94a62cff"
+	],
+	tasks: [{
+		uid: "b534b3fa",
+		type: "item",
+		items: [{
+			id: "minecraft:leaves",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

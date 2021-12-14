@@ -1,0 +1,15 @@
+{
+	x: 3.0d,
+	y: -3.5d,
+	tasks: [{
+		uid: "1bd411f6",
+		type: "gamestage",
+		icon: {
+			id: "advancedrocketry:oxygenvent",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		stage: "basic_oxygen"
+	}]
+}

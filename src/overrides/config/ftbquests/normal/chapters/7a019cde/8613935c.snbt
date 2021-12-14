@@ -1,0 +1,33 @@
+{
+	x: -4.0d,
+	y: 0.0d,
+	dependencies: [
+		"312e93f7"
+	],
+	tasks: [{
+		uid: "79a3f3b2",
+		type: "item",
+		items: [{
+			id: "chisel:chisel_iron",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		{
+			id: "chisel:chisel_diamond",
+			tag: {
+				chiseldata: {}
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2560cf4a",
+		type: "gamestage",
+		stage: "basic_decoration_toggle"
+	}]
+}

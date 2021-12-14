@@ -1,0 +1,26 @@
+{
+	x: -0.5d,
+	y: -1.5d,
+	description: "You migh need more of these",
+	text: [
+		"You will by now have all the knowledge to create this item"
+	],
+	dependencies: [
+		"715fdece"
+	],
+	tasks: [{
+		uid: "98b9d67a",
+		type: "item",
+		items: [{
+			id: "nuclearcraft:radiation_badge",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"nuclearcraft:capability_radiation_sink": {
+					radiationLevel: 0.0d
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,12 @@
+{
+	title: "Ore Processing Automation",
+	icon: {
+		id: "excompressum:auto_compressor",
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		}
+	},
+	always_invisible: false,
+	group: -686441514,
+	default_quest_shape: ""
+}

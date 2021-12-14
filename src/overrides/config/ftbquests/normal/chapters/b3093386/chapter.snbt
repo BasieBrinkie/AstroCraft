@@ -1,0 +1,12 @@
+{
+	title: "Aether II - Planet Professions",
+	icon: {
+		id: "minecraft:elytra",
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

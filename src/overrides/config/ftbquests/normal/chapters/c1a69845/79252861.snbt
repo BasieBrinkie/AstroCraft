@@ -1,0 +1,15 @@
+{
+	x: 5.0d,
+	y: -3.5d,
+	tasks: [{
+		uid: "b650979e",
+		type: "gamestage",
+		icon: {
+			id: "minecraft:redstone",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		stage: "basic_logical_systems_one"
+	}]
+}

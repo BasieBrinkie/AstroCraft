@@ -1,0 +1,21 @@
+{
+	x: 3.5d,
+	y: -2.5d,
+	description: "Export for items",
+	text: [
+		"As you progress you will obtain access to output hatches with a much larger inventory"
+	],
+	dependencies: [
+		"336b1acc"
+	],
+	tasks: [{
+		uid: "adf9b7e8",
+		type: "item",
+		items: [{
+			id: "modularmachinery:blockoutputbus",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

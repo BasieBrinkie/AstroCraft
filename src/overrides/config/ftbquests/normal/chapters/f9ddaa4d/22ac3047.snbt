@@ -1,0 +1,14 @@
+{
+	x: 1.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "787ae43d",
+		type: "item",
+		items: [{
+			id: "minecraft:wheat",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

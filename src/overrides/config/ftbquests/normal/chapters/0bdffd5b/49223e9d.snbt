@@ -1,0 +1,29 @@
+{
+	x: -2.0d,
+	y: 5.0d,
+	description: "Another multiblock",
+	text: [
+		"This multiblock is very similar to the combustion heater:",
+		"",
+		"- Place a casing and put the condenser in it.",
+		"- Build around the casing one block such that fluids put on top of it cannot escape. You don't need the top block like you need for the combustion heater.",
+		"- Place the required fluid on top of the casing.",
+		"- Put your items that you want to infuse in the condenser. ",
+		"",
+		"Make sure that you supply enough of the item otherwise you wont get your endproduct and you would lose your input items."
+	],
+	dependencies: [
+		"22e2bd30"
+	],
+	tasks: [{
+		uid: "cde85ef9",
+		type: "item",
+		items: [{
+			id: "skyresources:condenser",
+			Damage: 1s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

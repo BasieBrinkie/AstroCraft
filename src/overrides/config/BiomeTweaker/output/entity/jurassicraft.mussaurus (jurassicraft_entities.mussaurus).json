@@ -1,0 +1,6 @@
+
+{
+  "Name": "jurassicraft.mussaurus",
+  "Registry ID": "jurassicraft:entities.mussaurus",
+  "Class": "org.jurassicraft.server.entity.dinosaur.MussaurusEntity"
+}

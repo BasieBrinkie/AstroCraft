@@ -1,0 +1,14 @@
+{
+	x: -2.5d,
+	y: -2.0d,
+	tasks: [{
+		uid: "846a290b",
+		type: "item",
+		items: [{
+			id: "mekanismgenerators:solarpanel",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

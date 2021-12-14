@@ -1,0 +1,22 @@
+{
+	x: 5.0d,
+	y: 4.0d,
+	description: "Another type of nugget researched",
+	text: [
+		""
+	],
+	dependencies: [
+		"1d7fdc9f"
+	],
+	tasks: [{
+		uid: "b822c06d",
+		type: "item",
+		items: [{
+			id: "factorytech:ore_dust",
+			Damage: 5s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

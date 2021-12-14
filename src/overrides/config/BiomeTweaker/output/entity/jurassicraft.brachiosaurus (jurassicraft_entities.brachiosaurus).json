@@ -1,0 +1,6 @@
+
+{
+  "Name": "jurassicraft.brachiosaurus",
+  "Registry ID": "jurassicraft:entities.brachiosaurus",
+  "Class": "org.jurassicraft.server.entity.dinosaur.BrachiosaurusEntity"
+}

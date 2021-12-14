@@ -1,0 +1,22 @@
+{
+	x: 4.5d,
+	y: -2.5d,
+	description: "Input for energy",
+	text: [
+		"The amount of energy that you can input is 128 FE/t and it stores 2048 FE.",
+		"As you progress you unlock inputs with larger throughput and larger capacity."
+	],
+	dependencies: [
+		"336b1acc"
+	],
+	tasks: [{
+		uid: "444dd368",
+		type: "item",
+		items: [{
+			id: "modularmachinery:blockenergyinputhatch",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

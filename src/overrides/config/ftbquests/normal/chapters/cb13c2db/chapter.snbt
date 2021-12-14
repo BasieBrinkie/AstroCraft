@@ -1,0 +1,12 @@
+{
+	title: "Parts Manufacturer",
+	icon: {
+		id: "tconstruct:cast_custom",
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		}
+	},
+	always_invisible: false,
+	group: -935258453,
+	default_quest_shape: ""
+}

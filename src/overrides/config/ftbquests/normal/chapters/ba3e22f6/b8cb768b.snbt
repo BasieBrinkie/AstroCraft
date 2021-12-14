@@ -1,0 +1,22 @@
+{
+	x: 11.5d,
+	y: -1.0d,
+	description: "Compresses while heated",
+	text: [
+		"The compression chamber can compress item and liquids while simultaniously heating the item/liquid. "
+	],
+	dependencies: [
+		"98619ef0",
+		"180c9647"
+	],
+	tasks: [{
+		uid: "587712ea",
+		type: "item",
+		items: [{
+			id: "factorytech:compressor",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,12 @@
+{
+	title: "Aquarius-66B",
+	icon: {
+		id: "aether:skyroot_water_bucket",
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		}
+	},
+	always_invisible: false,
+	group: 325421953,
+	default_quest_shape: ""
+}

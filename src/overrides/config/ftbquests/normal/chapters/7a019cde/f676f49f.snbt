@@ -1,0 +1,17 @@
+{
+	x: -3.0d,
+	y: 3.0d,
+	dependencies: [
+		"38e02aae"
+	],
+	tasks: [{
+		uid: "a173cc03",
+		type: "item",
+		items: [{
+			id: "chiselsandbits:positiveprint",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

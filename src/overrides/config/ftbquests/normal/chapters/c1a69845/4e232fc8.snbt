@@ -1,0 +1,18 @@
+{
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "puredaisy"
+		},
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		}
+	},
+	x: 1.0d,
+	y: 12.5d,
+	tasks: [{
+		uid: "157231d0",
+		type: "gamestage",
+		stage: "planet_glacidus_botanic"
+	}]
+}

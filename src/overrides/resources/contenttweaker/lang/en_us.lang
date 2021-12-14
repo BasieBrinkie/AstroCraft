@@ -1,0 +1,12 @@
+tile.contenttweaker.astrostone.name=Asteroid Stone
+tile.contenttweaker.astrostone_2.name=Asteroid Stone
+tile.contenttweaker.astrostone_3.name=Asteroid Stone
+tile.contenttweaker.astro_ice.name=Asteroid Ice
+
+tile.contenttweaker.blackbox_circular_shuttle.name=Blackbox: Circular Shuttle
+tile.contenttweaker.blackbox_rectangular_shuttle.name=Blackbox: Rectangular Shuttle
+
+item.contenttweaker.container.name=Container
+item.contenttweaker.container_nuclear.name=Nuclear Container
+
+item.contenttweaker.clump_steel_hot.name=Hot Steel Clump

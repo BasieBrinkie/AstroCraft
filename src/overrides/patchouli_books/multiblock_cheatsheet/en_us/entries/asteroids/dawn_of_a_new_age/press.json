@@ -1,0 +1,31 @@
+{
+    "name": "Manual Press",
+    "icon": "advancedrocketry:platepress",
+    "category": "patchouli:asteroids/dawn_of_a_new_age",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The advanced rocketry press is the simplest press that is manually operated.$(br2)Wiki Chapter: $(br)$(l:wiki_manuals/advanced_rocketry)Advanced Rocketry Wiki$(/l)"
+        },
+        {
+            "type": "multiblock",
+            "multiblock": {
+                "mapping": {
+                    "0": "minecraft:obsidian",
+                    "L": "minecraft:lever[facing=north]",
+                    "S": "minecraft:stone",
+                    "P": "advancedrocketry:platepress[facing=down]",
+                    "A": "ANY"
+                },
+                "pattern": [
+                    ["LS "],
+                    [" P "],
+                    [" A "],
+                    [" 0 "]
+                ],
+                "symmetrical": true
+            },
+            "text": "$(mBlock)Obsidian is the only material strong enough to withstand the pressure from the press."
+        }
+    ]
+}

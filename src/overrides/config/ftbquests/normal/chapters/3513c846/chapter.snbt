@@ -1,0 +1,12 @@
+{
+	title: "Mining Tools",
+	icon: {
+		id: "minecraft:diamond_pickaxe",
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		}
+	},
+	always_invisible: false,
+	group: -935258453,
+	default_quest_shape: ""
+}

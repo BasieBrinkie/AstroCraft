@@ -1,0 +1,23 @@
+{
+	x: -3.0d,
+	y: 7.0d,
+	description: "Grind lead ore",
+	text: [
+		"Somehow lead reacts with the grinder with destroys the ore chunks. ",
+		"Luckily the chance of mining lead succesfully is 2 out of 3."
+	],
+	dependencies: [
+		"a2c95ebd"
+	],
+	tasks: [{
+		uid: "ca3528a0",
+		type: "item",
+		items: [{
+			id: "exnihilocreatio:item_ore_lead",
+			Damage: 1s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,9 @@
+{
+	x: -7.0d,
+	y: -5.0d,
+	tasks: [{
+		uid: "dfb2611d",
+		type: "gamestage",
+		stage: "startplanet_aquarius"
+	}]
+}

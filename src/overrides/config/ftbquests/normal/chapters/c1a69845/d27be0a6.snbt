@@ -1,0 +1,15 @@
+{
+	x: -2.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "484277d6",
+		type: "dimension",
+		dim: -2
+	}],
+	rewards: [{
+		uid: "1ec99f4a",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "spaceship_astronomer"
+	}]
+}

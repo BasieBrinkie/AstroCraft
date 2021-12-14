@@ -1,0 +1,23 @@
+{
+	x: 8.0d,
+	y: 4.0d,
+	description: "HO(e)s before BROs",
+	text: [
+		"Just an ordinarily hoe, nothing more to it."
+	],
+	dependencies: [
+		"8388e635"
+	],
+	tasks: [{
+		uid: "726b68b1",
+		type: "item",
+		items: [{
+			id: "minecraft:stone_hoe",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,111 @@
+{
+    "populate": {   
+        "AsteroidMantleOres_NickelIronMix": {
+            "distribution": "uniform",
+            "generator": {     
+                "block": [
+                    {"name": "minecraft:iron_ore", "metadata": 0, "weight": 85},
+                    {"name": "thermalfoundation:ore", "properties": { "type": "nickel" }, "weight": 15}
+                ],
+                "material": {"name": "contenttweaker:astrostone","metadata": 0},
+                "cluster-size": 9
+            },
+            "min-height": 1,
+            "max-height": 255,
+            "cluster-count": 65,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [0]
+            }
+        },
+        "AsteroidMantleOres_Iron": {
+            "distribution": "uniform",
+            "generator": {     
+                "block":  {"name": "minecraft:iron_ore", "metadata" : 0},
+                "material": {"name": "contenttweaker:astrostone","metadata": 0},
+                "cluster-size": 24
+            },
+            "min-height": 1,
+            "max-height": 255,
+            "cluster-count": 60,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [0]
+            }
+        },
+        "AsteroidMantleOres_Nickel": {
+            "distribution": "uniform",
+            "generator": {     
+                "block":  {"name": "thermalfoundation:ore", "properties": { "type": "nickel" }},
+                "material": {"name": "contenttweaker:astrostone","metadata": 0},
+                "cluster-size": 7
+            },
+            "min-height": 1,
+            "max-height": 255,
+            "cluster-count": 34,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [0]
+            }
+        },
+        "AsteroidMantleOres_Aluminum": {
+            "distribution": "uniform",
+            "generator": {     
+                "block":  {"name": "thermalfoundation:ore", "properties": { "type": "aluminum" }},
+                "material": {"name": "contenttweaker:astrostone", "metadata": 0},
+                "cluster-size": 4
+            },
+            "min-height": 1,
+            "max-height": 255,
+            "cluster-count": 48,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [0]
+            }
+        },
+
+         "AsteroidMantleOres_Iridium": {
+            "distribution": "uniform",
+            "generator": {     
+                "block":  {"name": "thermalfoundation:ore", "properties": { "type": "iridium" }},
+                "material": {"name": "contenttweaker:astrostone", "metadata": 0},
+                "cluster-size": 2
+            },
+            "min-height": 1,
+            "max-height": 255,
+            "cluster-count": 3,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [0]
+            }
+        },
+
+        "AsteroidMantleOres_Lead": {
+            "distribution": "uniform",
+            "generator": {     
+                "block":  {"name": "thermalfoundation:ore", "properties": { "type": "lead" }},
+                "material": {"name": "contenttweaker:astrostone", "metadata": 0},
+                "cluster-size": 3
+            },
+            "min-height": 1,
+            "max-height": 255,
+            "cluster-count": 5,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [0]
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	description: "Use better catalysts to improve yields",
+	text: [
+		"If you ever need to know which materials are catalysts and their yields, type #Catalyst in JEI."
+	],
+	dependencies: [
+		"043b044e"
+	],
+	tasks: [{
+		uid: "e6b98214",
+		type: "item",
+		items: [{
+			id: "skyresources:fusiontable",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

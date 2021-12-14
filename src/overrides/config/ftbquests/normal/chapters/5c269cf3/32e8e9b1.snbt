@@ -1,0 +1,45 @@
+{
+	title: "Compressed blocks",
+	x: 1.5d,
+	y: -0.5d,
+	description: "Not exactly automation but it is convenient",
+	text: [
+		"Craft the compressed blocks to use it in the heavy sieve"
+	],
+	dependencies: [
+		"66428193"
+	],
+	tasks: [{
+		uid: "8d190d29",
+		type: "item",
+		items: [{
+			id: "excompressum:compressed_block",
+			Damage: 2s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	},
+	{
+		uid: "8bd406f5",
+		type: "item",
+		items: [{
+			id: "excompressum:compressed_block",
+			Damage: 4s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	},
+	{
+		uid: "1261e5fb",
+		type: "item",
+		items: [{
+			id: "excompressum:compressed_block",
+			Damage: 3s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

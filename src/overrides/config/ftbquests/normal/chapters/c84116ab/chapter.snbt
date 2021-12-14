@@ -1,0 +1,12 @@
+{
+	title: "Professions - Stage: 1",
+	icon: {
+		id: "minecraft:flint_and_steel",
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

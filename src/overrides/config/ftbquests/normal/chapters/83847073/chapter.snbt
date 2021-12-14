@@ -1,0 +1,12 @@
+{
+	title: "Simple Logic Systems",
+	icon: {
+		id: "minecraft:redstone",
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		}
+	},
+	always_invisible: false,
+	group: -658887791,
+	default_quest_shape: ""
+}

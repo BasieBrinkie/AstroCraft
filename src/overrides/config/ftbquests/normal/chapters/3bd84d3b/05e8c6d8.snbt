@@ -1,0 +1,22 @@
+{
+	x: 12.0d,
+	y: -3.0d,
+	description: "At least its stronger than string",
+	text: [
+		""
+	],
+	dependencies: [
+		"a1e2a956"
+	],
+	tasks: [{
+		uid: "ac933e6d",
+		type: "item",
+		items: [{
+			id: "factorytech:machinepart",
+			Damage: 20s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: 9.0d,
+	y: 1.5d,
+	description: "This is not a drill! This is the real deal.",
+	text: [
+		"The Drillbits are for the upcoming Drill Grinder. You can put the Poor Iron Drillbit through a heat treatment with the temperer to strengthen it."
+	],
+	dependencies: [
+		"016e1ba2"
+	],
+	tasks: [{
+		uid: "70993aac",
+		type: "item",
+		items: [{
+			id: "factorytech:machinepart",
+			Damage: 72s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		{
+			id: "factorytech:machinepart",
+			Damage: 71s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		consume_items: false
+	}]
+}

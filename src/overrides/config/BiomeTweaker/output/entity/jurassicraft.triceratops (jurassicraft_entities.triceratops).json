@@ -1,0 +1,6 @@
+
+{
+  "Name": "jurassicraft.triceratops",
+  "Registry ID": "jurassicraft:entities.triceratops",
+  "Class": "org.jurassicraft.server.entity.dinosaur.TriceratopsEntity"
+}

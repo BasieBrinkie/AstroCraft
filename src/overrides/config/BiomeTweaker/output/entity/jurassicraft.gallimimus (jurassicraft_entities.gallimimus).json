@@ -1,0 +1,6 @@
+
+{
+  "Name": "jurassicraft.gallimimus",
+  "Registry ID": "jurassicraft:entities.gallimimus",
+  "Class": "org.jurassicraft.server.entity.dinosaur.GallimimusEntity"
+}

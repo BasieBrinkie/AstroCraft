@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "block": "contenttweaker:astrostone",
+      "metadata": 0,
+      "tileEntity": "null"
+    },
+    {
+      "block": "contenttweaker:astrostone_2",
+      "metadata": 0,
+      "tileEntity": "null"
+    },
+    {
+      "block": "contenttweaker:astrostone_3",
+      "metadata": 0,
+      "tileEntity": "null"
+    }
+  ],
+  "metadata": {
+    "title": "Random Asteroid Stone",
+    "description": [
+      "Randomizes the selection of asteroid stone"
+    ]
+  }
+}

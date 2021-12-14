@@ -1,0 +1,22 @@
+{
+	x: 12.5d,
+	y: 4.5d,
+	description: "Another use for the condenser",
+	text: [
+		"With the use of the condenser you can make steel blocks. You must input a coal coke and have liquid iron trapped above the condenser, applying a redstone signal to the condenser will make you steel blocks."
+	],
+	dependencies: [
+		"b5ae43e5"
+	],
+	tasks: [{
+		uid: "5525a243",
+		type: "item",
+		items: [{
+			id: "mekanism:basicblock",
+			Damage: 5s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

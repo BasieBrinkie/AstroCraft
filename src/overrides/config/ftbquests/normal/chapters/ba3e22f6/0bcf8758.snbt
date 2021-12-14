@@ -1,0 +1,23 @@
+{
+	x: 6.0d,
+	y: -2.0d,
+	description: "Consists of many mini nuggets",
+	text: [
+		"Can be melted into liquid copper"
+	],
+	dependencies: [
+		"016e1ba2",
+		"d68d44fc"
+	],
+	tasks: [{
+		uid: "c94700ac",
+		type: "item",
+		items: [{
+			id: "mekanism:dirtydust",
+			Damage: 3s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

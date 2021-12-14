@@ -1,0 +1,22 @@
+{
+	x: 5.0d,
+	y: -3.5d,
+	description: "The brains of the machine",
+	text: [
+		"Every modular machine needs a controller. ",
+		"When you click the controller you may sometimes need to supply the blueprint so it knows what input items and output items it can expect."
+	],
+	dependencies: [
+		"336b1acc"
+	],
+	tasks: [{
+		uid: "cc15b691",
+		type: "item",
+		items: [{
+			id: "modularmachinery:blockcontroller",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

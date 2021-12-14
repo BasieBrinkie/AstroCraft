@@ -1,0 +1,21 @@
+{
+	x: 1.0d,
+	y: 7.0d,
+	description: "Rocket go brrrr.",
+	text: [
+		"Can probably be salvaged from the crash site. Hopefully they still work since the technology to craft is way too advanced for now."
+	],
+	dependencies: [
+		"8b3ce582"
+	],
+	tasks: [{
+		uid: "c98b4348",
+		type: "item",
+		items: [{
+			id: "advancedrocketry:rocketmotor",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

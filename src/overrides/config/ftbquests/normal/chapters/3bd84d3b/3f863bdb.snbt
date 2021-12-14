@@ -1,0 +1,23 @@
+{
+	x: 5.0d,
+	y: 0.0d,
+	description: "Use the chemical properties of iron",
+	text: [
+		"The alchemical fusion table uses catalysts to create items.",
+		"For now you can use copper clumps that have a yield of 100%. ",
+		"This means the recipe in JEI gets you exactly that. If the yield was 200% you would get twice the amount shown in JEI."
+	],
+	dependencies: [
+		"4ee9f4de"
+	],
+	tasks: [{
+		uid: "18a7ca23",
+		type: "item",
+		items: [{
+			id: "minecraft:iron_nugget",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

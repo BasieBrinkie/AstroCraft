@@ -1,0 +1,17 @@
+{
+	x: 2.0d,
+	y: -3.0d,
+	dependencies: [
+		"09190390"
+	],
+	tasks: [{
+		uid: "ef5d6179",
+		type: "item",
+		items: [{
+			id: "nuclearcraft:rtg_uranium",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

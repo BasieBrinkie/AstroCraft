@@ -1,0 +1,14 @@
+{
+	x: 8.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "dc259f6e",
+		type: "item",
+		items: [{
+			id: "glacidus:lumicia_tallgrass",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

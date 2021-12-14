@@ -1,0 +1,23 @@
+{
+	x: 12.5d,
+	y: 3.0d,
+	shape: "gear",
+	description: "Better than iron",
+	text: [
+		"Now that you have unlocked the steel ingot, you have also unlocked steel tools, steel combustion / heater / condenser, a junk storage unit and off course steel blocks/parts"
+	],
+	dependencies: [
+		"b0354a47"
+	],
+	tasks: [{
+		uid: "5b3c09b3",
+		type: "item",
+		items: [{
+			id: "mekanism:ingot",
+			Damage: 4s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

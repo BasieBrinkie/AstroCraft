@@ -1,0 +1,23 @@
+{
+	x: -5.5d,
+	y: -1.5d,
+	description: "The coils determine the speed of the furnace",
+	text: [
+		"If you want to speed up the furnace already you can opt to make aluminum coils.",
+		"You can upgrade the coils later to tiers: Titanium, Iridium"
+	],
+	dependencies: [
+		"8645a022"
+	],
+	tasks: [{
+		uid: "07a8d4e7",
+		type: "item",
+		items: [{
+			id: "libvulpes:coil0",
+			Damage: 4s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

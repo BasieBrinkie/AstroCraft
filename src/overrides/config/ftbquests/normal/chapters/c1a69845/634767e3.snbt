@@ -1,0 +1,15 @@
+{
+	x: 2.0d,
+	y: -3.5d,
+	tasks: [{
+		uid: "3467a9e2",
+		type: "gamestage",
+		icon: {
+			id: "advancedrocketry:advbipropellantrocketmotor",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		stage: "basic_space_courier"
+	}]
+}

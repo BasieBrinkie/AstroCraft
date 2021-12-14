@@ -1,0 +1,22 @@
+{
+	x: 1.5d,
+	y: 0.0d,
+	description: "Compresses and freezes items",
+	text: [
+		"The Refrigeration Unit freezes liquid into a solid material. ",
+		"It uses a scanning circuit board to determine the temperature and a motor for its compressor"
+	],
+	dependencies: [
+		"c21b369f"
+	],
+	tasks: [{
+		uid: "bbdcae4c",
+		type: "item",
+		items: [{
+			id: "factorytech:fridge",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

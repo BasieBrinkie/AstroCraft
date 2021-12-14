@@ -1,0 +1,22 @@
+{
+	x: -3.0d,
+	y: 4.0d,
+	description: "Shrunken clump by grinding",
+	text: [
+		""
+	],
+	dependencies: [
+		"597fc8de"
+	],
+	tasks: [{
+		uid: "ac7246b2",
+		type: "item",
+		items: [{
+			id: "thaumcraft:nugget",
+			Damage: 4s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: 0.0d,
+	y: 2.0d,
+	dependencies: [
+		"b28e6fc5"
+	],
+	tasks: [{
+		uid: "d1786cac",
+		type: "item",
+		items: [{
+			id: "exnihilocreatio:crook_wood",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		{
+			id: "exnihilocreatio:crook_iron",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

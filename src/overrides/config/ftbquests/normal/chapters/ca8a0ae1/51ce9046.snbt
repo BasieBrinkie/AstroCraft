@@ -1,0 +1,49 @@
+{
+	x: 19.0d,
+	y: 0.0d,
+	shape: "gear",
+	description: "The oxygen pad is a neat thing you need to survive in space.",
+	text: [
+		"Pump in the liquid oxygen from the crucible and you're good to go.",
+		"Space is quite comfortable right?",
+		"",
+		"- Craft a 'Oxygen Pad'",
+		"- Put a fluid transfer node onto a crucible",
+		"- Put the \"Upgrade Mining\" in the transfer node",
+		"- Connect the cable to the \"Oxygen Pad\"",
+		"- Stand on top of a filled 'Oxygen Pad' while your spacesuit is equipped"
+	],
+	dependencies: [
+		"d0462d13",
+		"98d066c3"
+	],
+	tasks: [{
+		uid: "7c933dfa",
+		type: "item",
+		items: [{
+			id: "advancedrocketry:oxygencharger",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "6f9c64c3",
+		type: "gamestage",
+		team_reward: false,
+		auto: "enabled",
+		stage: "planet_asteroids_resources_one"
+	},
+	{
+		uid: "adb324a2",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "book_personal_diary"
+	},
+	{
+		uid: "a3f18d46",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "book_multiblock_cheatsheet"
+	}]
+}

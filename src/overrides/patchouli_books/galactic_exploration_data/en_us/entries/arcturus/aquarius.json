@@ -1,0 +1,11 @@
+{
+    "name": "Aquarius-66B",
+    "icon": "littletiles:lttransparentcoloredblock",
+    "category": "patchouli:arcturus",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Name: Aquarius-66B $(br)Star Distance: 0.5 AU"
+        }
+    ]
+}

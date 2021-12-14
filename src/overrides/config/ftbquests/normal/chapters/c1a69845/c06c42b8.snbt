@@ -1,0 +1,21 @@
+{
+	x: -5.0d,
+	y: -5.0d,
+	tasks: [{
+		uid: "543255b0",
+		type: "gamestage",
+		stage: "startplanet_glacidus"
+	}],
+	rewards: [{
+		uid: "9210cbad",
+		type: "command",
+		command: "/me astrocraft startworld Glacidus",
+		player_command: true
+	},
+	{
+		uid: "1fd794ae",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "dim_glacidus"
+	}]
+}

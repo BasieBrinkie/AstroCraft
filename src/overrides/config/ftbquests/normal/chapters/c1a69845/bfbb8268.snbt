@@ -1,0 +1,15 @@
+{
+	icon: {
+		id: "astralsorcery:blockmachine",
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		}
+	},
+	x: 0.0d,
+	y: -1.5d,
+	tasks: [{
+		uid: "0b20032a",
+		type: "gamestage",
+		stage: "spaceship_astronomer"
+	}]
+}

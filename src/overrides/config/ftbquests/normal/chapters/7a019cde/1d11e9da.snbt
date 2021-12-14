@@ -1,0 +1,35 @@
+{
+	x: -2.0d,
+	y: -5.0d,
+	dependencies: [
+		"5e95df11"
+	],
+	tasks: [{
+		uid: "a54f2c05",
+		type: "item",
+		items: [{
+			id: "littletiles:grabber",
+			tag: {
+				preview: {
+					bBox: [I;
+						0,
+						0,
+						0,
+						1,
+						1,
+						1
+					],
+					tile: {
+						meta: 0,
+						block: "minecraft:stone",
+						tID: "BlockTileBlock"
+					}
+				}
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

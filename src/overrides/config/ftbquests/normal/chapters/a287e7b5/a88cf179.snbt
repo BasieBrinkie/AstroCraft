@@ -1,0 +1,21 @@
+{
+	x: -0.5d,
+	y: -4.5d,
+	description: "Reduce your absorbed radiation slowly",
+	text: [
+		"Drinking this substances will reduce your radiation by 50 Rad over a time period of 2000 ticks or 100 seconds"
+	],
+	dependencies: [
+		"715fdece"
+	],
+	tasks: [{
+		uid: "2aef16ec",
+		type: "item",
+		items: [{
+			id: "nuclearcraft:radaway_slow",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

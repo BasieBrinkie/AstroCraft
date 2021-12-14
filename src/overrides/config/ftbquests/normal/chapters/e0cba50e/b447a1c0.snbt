@@ -1,0 +1,30 @@
+{
+	x: -1.5d,
+	y: -2.0d,
+	description: "First real pipes",
+	text: [
+		"We will work more and more with fluids so pipes might come in handy.",
+		"",
+		"These pipes pump 100 mB/t this means you need 10 exporting interfaces to satisfy its max capacity. ",
+		"",
+		"If you place down a pipe and it doesn't start pumping right away you might need to use the configurator.",
+		"",
+		"- Standard right clicking the pipe makes it respond to redstone signals.",
+		"- Scroll with your mousewheel when crouched to the option: \"configurate (fluids)\"",
+		"- Right click + Shift allows you to configure import and output sides. If the pipe get bigger then it is extracting items and if it get narrow it is inputing items into that block."
+	],
+	tasks: [{
+		uid: "43d15fbc",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			Damage: 1s,
+			tag: {
+				tier: 0
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

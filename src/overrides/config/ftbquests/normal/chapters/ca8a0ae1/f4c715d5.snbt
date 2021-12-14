@@ -1,0 +1,32 @@
+{
+	x: 5.0d,
+	y: 0.0d,
+	description: "Crafting tables are essential for your survival",
+	text: [
+		"You can get a crafting table pretty easily.",
+		"Find a charcoallog that you want to convert to a crafting table.",
+		"",
+		"- Make sure your hand is empty",
+		"- Now Sneak!",
+		"- Hit the log with your hand",
+		"",
+		"Input items by right clicking them or dragging them in their spots.",
+		"If you drag while holding shift, the item will spread over all spots.",
+		"Remove items by left clicking the items in the table."
+	],
+	min_required_dependencies: 1,
+	dependencies: [
+		"d1418823"
+	],
+	tasks: [{
+		uid: "093e5e5f",
+		type: "checkmark",
+		title: "Obtaining A Crafting Table",
+		icon: {
+			id: "minecraft:crafting_table",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	}]
+}

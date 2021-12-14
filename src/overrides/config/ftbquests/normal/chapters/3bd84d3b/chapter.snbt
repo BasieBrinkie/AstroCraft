@@ -1,0 +1,12 @@
+{
+	title: "Basic Resources",
+	icon: {
+		id: "minecraft:iron_ingot",
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		}
+	},
+	always_invisible: false,
+	group: -686441514,
+	default_quest_shape: ""
+}

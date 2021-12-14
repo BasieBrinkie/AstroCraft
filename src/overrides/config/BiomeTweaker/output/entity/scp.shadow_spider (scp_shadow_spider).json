@@ -1,0 +1,6 @@
+
+{
+  "Name": "scp.shadow_spider",
+  "Registry ID": "scp:shadow_spider",
+  "Class": "alexiy.secure.contain.protect.entity.EntityShadowSpider"
+}

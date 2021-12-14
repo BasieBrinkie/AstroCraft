@@ -1,0 +1,11 @@
+setIcon("atum:radiant_beacon")
+setTitle("Beacon")
+setDescription("Visit an asteroid beacon")
+
+addParent("triumph:lore_structures/dimensions/asteroids_1")
+
+hiddenUnless("triumph:lore_structures/dimensions/asteroids_1")
+
+criteria = addCriteria("structure_asteroidbeacon", "triumph:gamestage")
+criteria.setStage("structure_asteroidbeacon")
+setPos(154,-184)

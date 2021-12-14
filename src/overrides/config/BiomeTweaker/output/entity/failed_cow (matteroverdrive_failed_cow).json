@@ -1,0 +1,6 @@
+
+{
+  "Name": "failed_cow",
+  "Registry ID": "matteroverdrive:failed_cow",
+  "Class": "matteroverdrive.entity.EntityFailedCow"
+}

@@ -1,0 +1,29 @@
+{
+	title: "Flat Block == Plate",
+	x: 18.0d,
+	y: 0.0d,
+	description: "Just what the title says.",
+	text: [
+		"- Find a block of obsidian in an asteroid",
+		"- Place the 'Small Plate Presser'  with space for a block between the obsidian",
+		"- Place the block of 'Copper Block - Purity (8%)' between the obsidian and the small plate presser",
+		"",
+		"- Toggle the lever and collect the copper plate",
+		"",
+		"TIP: You can mine obsidian very slowly with an stone pickaxe and move it."
+	],
+	dependencies: [
+		"bb0e3981"
+	],
+	tasks: [{
+		uid: "46cd11aa",
+		type: "item",
+		items: [{
+			id: "libvulpes:productplate",
+			Damage: 4s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

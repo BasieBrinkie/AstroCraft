@@ -1,0 +1,21 @@
+{
+	x: 6.0d,
+	y: 2.0d,
+	description: "Be wary of hot fluids!",
+	text: [
+		"The faucet can be placed onto the crucible and transfer its fluids to a basin or casting table."
+	],
+	dependencies: [
+		"053739df"
+	],
+	tasks: [{
+		uid: "f5921fa1",
+		type: "item",
+		items: [{
+			id: "tconstruct:faucet",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 6.0d,
+	y: -3.5d,
+	tasks: [{
+		uid: "49c51f46",
+		type: "gamestage",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "rocketfuel",
+				Amount: 1000
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		stage: "basic_fuel_refinery"
+	}]
+}

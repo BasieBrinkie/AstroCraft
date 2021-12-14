@@ -1,0 +1,18 @@
+{
+	x: -3.0d,
+	y: 0.0d,
+	dependencies: [
+		"ae6d182c",
+		"30c9755e"
+	],
+	tasks: [{
+		uid: "dc4d3c9c",
+		type: "item",
+		items: [{
+			id: "actuallyadditions:item_crystal_shard",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

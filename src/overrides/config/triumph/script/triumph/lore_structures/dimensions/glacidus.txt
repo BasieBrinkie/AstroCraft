@@ -1,0 +1,12 @@
+setIcon("glacidus:lumicia_grass")
+
+setTitle("Glacidus")
+
+setDescription("Structures containing lore that can found on glacidus")
+
+addParent("triumph:lore_structures/systems/arcturus")
+
+criteria2 = addCriteria("Dimension Stage", "triumph:gamestage")
+criteria2.setStage("planet_glacidus_spawn")
+
+setPos(113,22)

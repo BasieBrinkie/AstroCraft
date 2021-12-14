@@ -1,0 +1,15 @@
+{
+	x: 2.0d,
+	y: -4.0d,
+	tasks: [{
+		uid: "b5d6a7e2",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:wirecoil",
+			Damage: 2s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

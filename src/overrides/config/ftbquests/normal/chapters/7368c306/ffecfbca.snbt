@@ -1,0 +1,18 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	dependencies: [
+		"ca8a0ae1"
+	],
+	tasks: [{
+		uid: "8b8e075f",
+		type: "item",
+		items: [{
+			id: "thaumcraft:thaumonomicon",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

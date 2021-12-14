@@ -1,0 +1,58 @@
+{
+  "data": [
+    {
+      "weight": 12.203933715820312,
+      "block": "contenttweaker:astrostone_2",
+      "metadata": 0,
+      "tileEntity": "null"
+    },
+    {
+      "weight": 22.13267707824707,
+      "block": "contenttweaker:astrostone_3",
+      "metadata": 0,
+      "tileEntity": "null"
+    },
+    {
+      "weight": 22.13267707824707,
+      "block": "contenttweaker:astrostone",
+      "metadata": 0,
+      "tileEntity": "null"
+    },
+    {
+      "weight": 5.4332804679870605,
+      "block": "thermalfoundation:ore",
+      "metadata": 3,
+      "tileEntity": "null"
+    },
+    {
+      "weight": 1.9039692878723145,
+      "block": "minecraft:iron_ore",
+      "metadata": 0,
+      "tileEntity": "null"
+    },
+    {
+      "weight": 1.0,
+      "block": "thermalfoundation:ore",
+      "metadata": 5,
+      "tileEntity": "null"
+    },
+    {
+      "weight": 0.006062776781618595,
+      "block": "thermalfoundation:ore",
+      "metadata": 7,
+      "tileEntity": "null"
+    },
+    {
+      "weight": 0.5043042898178101,
+      "block": "thermalfoundation:ore",
+      "metadata": 4,
+      "tileEntity": "null"
+    }
+  ],
+  "metadata": {
+    "title": "Rich Ores Asteroid Stone",
+    "description": [
+      "Iron, Nickel, Lead, Iridium, Aluminum"
+    ]
+  }
+}

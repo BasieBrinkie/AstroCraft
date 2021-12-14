@@ -1,0 +1,37 @@
+{
+	disable_toast: true,
+	x: 6.0d,
+	y: 5.0d,
+	shape: "hexagon",
+	description: "New type of catalyst",
+	text: [
+		"Redstone can be used for logic system but also as a better catalyst for the Alchemical Fusion Table",
+		"",
+		"This is also a pathway to the knowledge of logic systems I"
+	],
+	dependencies: [
+		"0bcf8758"
+	],
+	tasks: [{
+		uid: "ec873674",
+		type: "item",
+		items: [{
+			id: "minecraft:redstone",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ea0653e2",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "logical_systems_one"
+	},
+	{
+		uid: "69061616",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "nuclear_manager"
+	}]
+}

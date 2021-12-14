@@ -1,0 +1,22 @@
+{
+	x: 13.5d,
+	y: 4.5d,
+	description: "Junk storage",
+	text: [
+		"This block can only store non-stackable items. It can store 270 different non-stackable items and now stack them up to 256 per item."
+	],
+	dependencies: [
+		"b5ae43e5"
+	],
+	tasks: [{
+		uid: "c0ec273f",
+		type: "item",
+		items: [{
+			id: "enderutilities:storage_0",
+			Damage: 7s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

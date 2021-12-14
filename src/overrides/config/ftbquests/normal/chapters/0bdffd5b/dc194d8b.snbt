@@ -1,0 +1,23 @@
+{
+	x: 0.0d,
+	y: 1.0d,
+	description: "Links machines from Advanced Rocketry",
+	text: [
+		"If you put the linker in your hand and shift right-click certain advanced rocketry machines it will link them."
+	],
+	dependencies: [
+		"eb726a6e"
+	],
+	tasks: [{
+		uid: "4f7b7c71",
+		type: "item",
+		items: [{
+			id: "libvulpes:linker",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

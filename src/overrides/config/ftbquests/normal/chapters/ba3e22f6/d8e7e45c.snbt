@@ -1,0 +1,24 @@
+{
+	x: 3.0d,
+	y: 6.0d,
+	description: "Such an attractive hooker",
+	text: [
+		"The hooks now gets attracted to nearby blocks for easier aiming"
+	],
+	dependencies: [
+		"1c8d21c4",
+		"8f51abf2"
+	],
+	tasks: [{
+		uid: "53388f60",
+		type: "item",
+		items: [{
+			id: "grapplemod:magnetupgradeitem",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

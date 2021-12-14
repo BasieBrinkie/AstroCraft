@@ -1,0 +1,21 @@
+{
+	x: -7.0d,
+	y: -1.5d,
+	description: "Inputs power into multiblocks",
+	text: [
+		"Connect it to a power generating block or FE conducting wire."
+	],
+	dependencies: [
+		"8645a022"
+	],
+	tasks: [{
+		uid: "b0e437cd",
+		type: "item",
+		items: [{
+			id: "libvulpes:forgepowerinput",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 14.5d,
+	y: 1.0d,
+	description: "More efficient and also faster",
+	text: [
+		"Simply creates more items from the same input"
+	],
+	dependencies: [
+		"9f554103"
+	],
+	tasks: [{
+		uid: "a631f372",
+		type: "item",
+		items: [{
+			id: "skyresources:condenser",
+			Damage: 4s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

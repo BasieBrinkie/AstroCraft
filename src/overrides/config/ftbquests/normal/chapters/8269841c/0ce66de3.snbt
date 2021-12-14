@@ -1,0 +1,17 @@
+{
+	x: 2.0d,
+	y: 3.0d,
+	dependencies: [
+		"85a07f90"
+	],
+	tasks: [{
+		uid: "b335bf15",
+		type: "item",
+		items: [{
+			id: "minecraft:melon_block",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

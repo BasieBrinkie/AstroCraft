@@ -1,0 +1,21 @@
+{
+	x: -1.0d,
+	y: -1.0d,
+	description: "A product from centrifuging compost blocks",
+	text: [
+		""
+	],
+	dependencies: [
+		"fe180674"
+	],
+	tasks: [{
+		uid: "43dda4f1",
+		type: "item",
+		items: [{
+			id: "minecraft:sand",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

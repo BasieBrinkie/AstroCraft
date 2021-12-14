@@ -1,0 +1,23 @@
+{
+	x: 5.5d,
+	y: 8.0d,
+	description: "Moar Hooks",
+	text: [
+		"You can have two hooks shooting simultaniously. There are also motor functions available but they require a motor upgrade"
+	],
+	dependencies: [
+		"8f51abf2"
+	],
+	tasks: [{
+		uid: "dc176dab",
+		type: "item",
+		items: [{
+			id: "grapplemod:doubleupgradeitem",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

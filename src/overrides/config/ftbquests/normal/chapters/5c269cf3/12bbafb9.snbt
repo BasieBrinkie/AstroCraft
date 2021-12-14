@@ -1,0 +1,26 @@
+{
+	x: -2.0d,
+	y: -1.0d,
+	description: "The Configurator can configurate",
+	text: [
+		"The Configurator can be used on Mekanism blocks to set certain properties.",
+		"If you crouch and scroll through your hotbar you will see all the available things the configurator can do.",
+		"",
+		"Although it is able to be charged it doesn't need power for the next few unlocked items."
+	],
+	dependencies: [
+		"88d9c834"
+	],
+	tasks: [{
+		uid: "894813e4",
+		type: "item",
+		items: [{
+			id: "mekanism:configurator",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

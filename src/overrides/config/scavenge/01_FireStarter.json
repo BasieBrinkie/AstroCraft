@@ -1,0 +1,103 @@
+{
+  "block_pools": [
+    {
+      "name": "FireStarter",
+      "type": {
+        "type": "block",
+        "name": "minecraft:cobblestone"
+      },
+      "clicktype": "rightclick",
+      "properties": [
+        {
+          "type": "require_item",
+          "name": "exnihilocreatio:item_pebble"
+        },
+        {
+          "type": "swing_hand"
+        },
+        {
+          "type": "spawn_particles",
+          "name": "lava",
+          "amount": 3,
+          "speed": 2
+        },
+        {
+          "type": "conditional_Effect",
+          "condition": {
+              "type": "require_block",
+              "sides": ["north"],
+              "name": "minecraft:air"
+          },
+          "effects": [{        
+            "type": "modify_required",
+            "name": "minecraft:fire",
+            "chance": 8.0,
+            "sides": ["north"] 
+          }]
+        },
+        {
+          "type": "conditional_Effect",
+          "condition": {
+              "type": "require_block",
+              "sides": ["west"],
+              "name": "minecraft:air"
+          },
+          "effects": [{        
+            "type": "modify_required",
+            "name": "minecraft:fire",
+            "chance": 8.0,
+            "sides": ["west"] 
+          }]
+        },
+        {
+          "type": "conditional_Effect",
+          "condition": {
+              "type": "require_block",
+              "sides": ["east"],
+              "name": "minecraft:air"
+          },
+          "effects": [{        
+            "type": "modify_required",
+            "name": "minecraft:fire",
+            "chance": 8.0,
+            "sides": ["east"] 
+          }]
+        },
+        {
+          "type": "conditional_Effect",
+          "condition": {
+              "type": "require_block",
+              "name": "minecraft:air",
+              "sides": ["south"]
+          },
+          "effects": [{        
+            "type": "modify_required",
+            "name": "minecraft:fire",
+            "chance": 8.0,
+            "sides": ["south"] 
+          }]
+        },
+        {
+          "type": "conditional_Effect",
+          "condition": {
+              "type": "require_block",
+              "name": "minecraft:air",
+              "sides": ["down"]
+          },
+          "effects": [{        
+            "type": "modify_required",
+            "name": "minecraft:fire",
+            "chance": 8.0,
+            "sides": ["down"] 
+          }]
+        }
+      ],
+      "drops": [
+        {
+          "name": "minecraft:air",
+          "chance": 0.0
+        }
+      ]
+    }
+  ]
+}

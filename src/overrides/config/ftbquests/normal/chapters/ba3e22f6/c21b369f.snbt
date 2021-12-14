@@ -1,0 +1,23 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	shape: "square",
+	description: "Mini Piston",
+	text: [
+		"Another component for factory tech machines"
+	],
+	dependencies: [
+		"3d865145"
+	],
+	tasks: [{
+		uid: "6970d13f",
+		type: "item",
+		items: [{
+			id: "factorytech:machinepart",
+			Damage: 161s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

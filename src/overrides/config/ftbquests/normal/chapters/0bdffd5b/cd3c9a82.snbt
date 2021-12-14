@@ -1,0 +1,22 @@
+{
+	x: 5.0d,
+	y: 7.0d,
+	description: "Grind Nickel ore",
+	text: [
+		"Collect Nickel Ore Chunks by grinding Nickel Ore."
+	],
+	dependencies: [
+		"a2c95ebd"
+	],
+	tasks: [{
+		uid: "c3f9cb13",
+		type: "item",
+		items: [{
+			id: "exnihilocreatio:item_ore_nickel",
+			Damage: 1s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

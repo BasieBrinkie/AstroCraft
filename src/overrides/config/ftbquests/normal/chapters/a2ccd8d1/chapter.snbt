@@ -1,0 +1,12 @@
+{
+	title: "Witch / Wizard - Master",
+	icon: {
+		id: "academy:tutorial",
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		}
+	},
+	always_invisible: false,
+	group: -1291242618,
+	default_quest_shape: ""
+}

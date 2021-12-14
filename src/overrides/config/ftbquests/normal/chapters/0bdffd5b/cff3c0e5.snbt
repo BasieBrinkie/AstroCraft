@@ -1,0 +1,31 @@
+{
+	x: 3.5d,
+	y: -4.5d,
+	description: "Contains information about visitable planets",
+	text: [
+		"Put this item into a tier 2 antenna to gain knowledge about nearby planets.",
+		"",
+		"It also contains all the navigational data for the warp controller to be able to navigate to new planets",
+		"",
+		"TIP:",
+		"Keep this item safe"
+	],
+	dependencies: [
+		"336b1acc"
+	],
+	tasks: [{
+		uid: "fc83d83e",
+		type: "item",
+		items: [{
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "patchouli:galactic_exploration_data"
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

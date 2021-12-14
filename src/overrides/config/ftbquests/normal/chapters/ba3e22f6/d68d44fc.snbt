@@ -1,0 +1,23 @@
+{
+	x: 4.5d,
+	y: -2.0d,
+	description: "Grinded Copper ingot",
+	text: [
+		"You get 3 nugget per ingot. Not the best efficiency but you have to make do."
+	],
+	min_required_dependencies: 1,
+	dependencies: [
+		"5fa0f4b6"
+	],
+	tasks: [{
+		uid: "193e4145",
+		type: "item",
+		items: [{
+			id: "mekanism:nugget",
+			Damage: 5s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

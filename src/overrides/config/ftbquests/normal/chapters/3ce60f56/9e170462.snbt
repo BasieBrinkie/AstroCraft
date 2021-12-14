@@ -1,0 +1,79 @@
+{
+	x: 1.5d,
+	y: 2.0d,
+	description: "Handheld Tools",
+	text: [
+		"You already know the vanilla variants of these tools so I won't bother introducing you to them.",
+		"",
+		"I do want to attend you on the fact that mob spawning is disabled until you complete this quest or carry on with the quest line."
+	],
+	dependencies: [
+		"1541f2c5"
+	],
+	tasks: [{
+		uid: "d82f0281",
+		type: "item",
+		items: [{
+			id: "glacidus:antinatric_pickaxe",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2b33cee7",
+		type: "item",
+		items: [{
+			id: "glacidus:antinatric_shovel",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fc583133",
+		type: "item",
+		items: [{
+			id: "glacidus:antinatric_axe",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e8b48d3b",
+		type: "item",
+		items: [{
+			id: "glacidus:antinatric_hoe",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1f7e991d",
+		type: "item",
+		items: [{
+			id: "glacidus:antinatric_sword",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "19aec309",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "planet_glacidus_mob_spawn"
+	}]
+}

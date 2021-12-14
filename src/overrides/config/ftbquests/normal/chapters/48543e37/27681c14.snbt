@@ -1,0 +1,24 @@
+{
+	x: -5.0d,
+	y: 0.0d,
+	shape: "square",
+	description: "Denser mesh",
+	text: [
+		"You can swap out the string mesh for different sieving products"
+	],
+	dependencies: [
+		"63dfa9eb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1e7dfd30",
+		type: "item",
+		items: [{
+			id: "exnihilocreatio:item_mesh",
+			Damage: 3s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

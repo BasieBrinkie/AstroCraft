@@ -1,0 +1,12 @@
+{
+	title: "Stock Farmer - Basic",
+	icon: {
+		id: "minecraft:milk_bucket",
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		}
+	},
+	always_invisible: false,
+	group: 1021710166,
+	default_quest_shape: ""
+}

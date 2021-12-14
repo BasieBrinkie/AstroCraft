@@ -1,0 +1,16 @@
+{
+	title: "Basic Fuel Refinery",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "rocketfuel",
+			Amount: 1000
+		},
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		}
+	},
+	always_invisible: false,
+	group: -658887791,
+	default_quest_shape: ""
+}

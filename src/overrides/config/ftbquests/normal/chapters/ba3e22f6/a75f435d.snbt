@@ -1,0 +1,23 @@
+{
+	x: 3.0d,
+	y: 7.0d,
+	description: "Keep Swinging all day long",
+	text: [
+		"You can change the amount of acceleration you feel will swinging "
+	],
+	dependencies: [
+		"8f51abf2"
+	],
+	tasks: [{
+		uid: "5af4aa85",
+		type: "item",
+		items: [{
+			id: "grapplemod:swingupgradeitem",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

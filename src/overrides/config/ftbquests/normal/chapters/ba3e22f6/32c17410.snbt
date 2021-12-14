@@ -1,0 +1,22 @@
+{
+	x: 14.5d,
+	y: 2.0d,
+	description: "Bigger explosions",
+	text: [
+		"Sorry I lied in the subtitle, it only uses less fuel."
+	],
+	dependencies: [
+		"9f554103"
+	],
+	tasks: [{
+		uid: "84a09b60",
+		type: "item",
+		items: [{
+			id: "skyresources:combustionheater",
+			Damage: 4s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

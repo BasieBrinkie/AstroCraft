@@ -1,0 +1,22 @@
+{
+	x: 12.5d,
+	y: 0.0d,
+	description: "An example of destricutive distillation",
+	text: [
+		"Coal Cokes have a higher burn temperature and also lasts langer than charcoal and coal."
+	],
+	dependencies: [
+		"b8cb768b"
+	],
+	tasks: [{
+		uid: "eaf49dfe",
+		type: "item",
+		items: [{
+			id: "thermalfoundation:material",
+			Damage: 802s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

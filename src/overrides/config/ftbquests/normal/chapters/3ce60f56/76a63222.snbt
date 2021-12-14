@@ -1,0 +1,18 @@
+{
+	x: 4.5d,
+	y: -1.0d,
+	dependencies: [
+		"1dc06d15",
+		"351d0f67"
+	],
+	tasks: [{
+		uid: "22734546",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:rope_item",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

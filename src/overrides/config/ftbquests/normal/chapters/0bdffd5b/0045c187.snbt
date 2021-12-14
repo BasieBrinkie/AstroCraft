@@ -1,0 +1,21 @@
+{
+	x: -3.0d,
+	y: 6.0d,
+	description: "Needs more manual grinding",
+	text: [
+		""
+	],
+	dependencies: [
+		"ebe5efe2"
+	],
+	tasks: [{
+		uid: "212a2272",
+		type: "item",
+		items: [{
+			id: "exnihilocreatio:item_ore_lead",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

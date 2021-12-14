@@ -1,0 +1,63 @@
+{
+	title: "Basic Knowledge",
+	icon: {
+		id: "thermalfoundation:tome_experience",
+		tag: {},
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		}
+	},
+	x: -1.0d,
+	y: -4.0d,
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e2c60067",
+		"b5ae43e5"
+	],
+	dependency_requirement: "one_completed",
+	rewards: [{
+		uid: "124902d9",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "basic_decorator"
+	},
+	{
+		uid: "07be0fad",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "basic_rocket_builder"
+	},
+	{
+		uid: "d8a6e7ee",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "basic_space_courier"
+	},
+	{
+		uid: "fa005945",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "basic_oxygen"
+	},
+	{
+		uid: "494d13ae",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "basic_nuclear_management"
+	},
+	{
+		uid: "b14b794e",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "basic_logical_systems_one"
+	},
+	{
+		uid: "53505e4e",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "basic_fuel_refinery"
+	}]
+}

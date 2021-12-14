@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: -5.0d,
+	dependencies: [
+		"4d4dd156"
+	],
+	tasks: [{
+		uid: "9ea5e3fa",
+		type: "item",
+		items: [{
+			id: "littletiles:container",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
