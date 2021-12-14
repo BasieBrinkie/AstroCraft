@@ -1,9 +1,0 @@
-{
-	x: -6.0d,
-	y: -7.0d,
-	tasks: [{
-		uid: "920448f7",
-		type: "gamestage",
-		stage: "disable_staging"
-	}]
-}
