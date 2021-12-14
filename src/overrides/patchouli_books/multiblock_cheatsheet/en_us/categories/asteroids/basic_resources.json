@@ -1,6 +1,0 @@
-{
-	"name": "Basic Resources",
-	"parent": "patchouli:asteroids",
-	"description": "Learn more about the basic resources available in asteroid sites",
-	"icon": "minecraft:iron_ingot"
-}
