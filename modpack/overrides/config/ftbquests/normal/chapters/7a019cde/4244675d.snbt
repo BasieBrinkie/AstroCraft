@@ -1,0 +1,19 @@
+{
+	x: -2.0d,
+	y: 3.0d,
+	dependencies: [
+		"38e02aae"
+	],
+	tasks: [{
+		uid: "fdb12a25",
+		type: "item",
+		items: [{
+			id: "chiselsandbits:wrench_wood",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

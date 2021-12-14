@@ -1,0 +1,25 @@
+{
+	x: 4.5d,
+	y: 1.5d,
+	description: "Colder pre-heated water",
+	text: [
+		"Barrels conduct thermal energy of the blocks adjecent to them.",
+		"",
+		"If you fill a barrel with pre-heated water and place a ice block in its neighborhood it will cool down to regular water."
+	],
+	dependencies: [
+		"1c8d21c4"
+	],
+	tasks: [{
+		uid: "70ff4864",
+		type: "item",
+		items: [{
+			id: "minecraft:water_bucket",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 13.5d,
+	y: -3.0d,
+	description: "Bigger explosions",
+	text: [
+		"Inceased speed and efficiency. It will create more HU per item due to the efficiency and will also convert the item faster into HU."
+	],
+	dependencies: [
+		"180c9647"
+	],
+	tasks: [{
+		uid: "10d96634",
+		type: "item",
+		items: [{
+			id: "skyresources:combustionheater",
+			Damage: 3s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: -4.0d,
+	y: 0.0d,
+	description: "The encasing for the electric furnace",
+	text: [
+		"Who knew that red crystal shards were so heat resistant"
+	],
+	dependencies: [
+		"88d9c834"
+	],
+	tasks: [{
+		uid: "814fb183",
+		type: "item",
+		items: [{
+			id: "advancedrocketry:blastbrick",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

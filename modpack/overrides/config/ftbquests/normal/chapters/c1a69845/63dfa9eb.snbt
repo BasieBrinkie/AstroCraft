@@ -1,0 +1,33 @@
+{
+	icon: {
+		id: "minecraft:leaves",
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		}
+	},
+	x: 4.0d,
+	y: 0.5d,
+	tasks: [{
+		uid: "ff2ccf6a",
+		type: "gamestage",
+		stage: "planet_asteroids_oxygen_extractor"
+	}],
+	rewards: [{
+		uid: "cd364ea2",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "shears"
+	},
+	{
+		uid: "b2456de5",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "leaves"
+	},
+	{
+		uid: "5594f1ed",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "tank_one"
+	}]
+}

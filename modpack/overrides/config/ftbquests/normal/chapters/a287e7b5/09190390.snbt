@@ -1,0 +1,23 @@
+{
+	x: 0.5d,
+	y: -3.5d,
+	description: "Quickly craft the nuclear container to minimize contamination",
+	text: [
+		"It still radiates but much less compared to normal uranium"
+	],
+	dependencies: [
+		"715fdece"
+	],
+	tasks: [{
+		uid: "26abed46",
+		type: "item",
+		items: [{
+			id: "contenttweaker:container_nuclear",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

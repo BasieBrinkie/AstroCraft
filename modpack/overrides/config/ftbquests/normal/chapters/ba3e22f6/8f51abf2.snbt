@@ -1,0 +1,23 @@
+{
+	x: 4.5d,
+	y: 6.0d,
+	description: "This block is a workbench for your grapple",
+	text: [
+		"Place down the Grappling Hook Modifier. Craft a hook upgrade and right click the modifier with the upgrade. ",
+		"Now go to the tab in the Grappling Hook Modifier and set your new parameters.",
+		"Right click the modifier with your hook and your new settings are now applied."
+	],
+	dependencies: [
+		"033a47b7"
+	],
+	tasks: [{
+		uid: "54d033fc",
+		type: "item",
+		items: [{
+			id: "grapplemod:block_grapple_modifier",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

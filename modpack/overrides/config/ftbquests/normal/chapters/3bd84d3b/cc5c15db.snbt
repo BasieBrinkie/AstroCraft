@@ -1,0 +1,22 @@
+{
+	x: 1.0d,
+	y: 0.0d,
+	description: "Can be found from Iron Ore",
+	text: [
+		"Collect Iron Ore Chunks by grinding Iron Ore."
+	],
+	dependencies: [
+		"89d35e84"
+	],
+	tasks: [{
+		uid: "60c465b2",
+		type: "item",
+		items: [{
+			id: "exnihilocreatio:item_ore_iron",
+			Damage: 1s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

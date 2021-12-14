@@ -1,0 +1,14 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "bea74a5b",
+		type: "item",
+		items: [{
+			id: "roost:roost",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

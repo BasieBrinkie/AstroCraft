@@ -1,0 +1,17 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	dependencies: [
+		"cf57145d"
+	],
+	tasks: [{
+		uid: "fd061c5e",
+		type: "item",
+		items: [{
+			id: "pneumaticcraft:kerosene_lamp",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

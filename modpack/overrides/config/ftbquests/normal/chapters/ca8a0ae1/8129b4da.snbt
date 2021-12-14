@@ -1,0 +1,28 @@
+{
+	x: 14.0d,
+	y: 1.0d,
+	description: "Silkworms are micro-organisms, with the ability to live in a vacuum",
+	text: [
+		"Gather silkworms from dirt. After you retreive or at least tried to catch a silkworm the dirt isn't fertilised anymore and changes in coarse dirt.",
+		"",
+		"- Use a shovel on a normal dirt block while sneaking.",
+		"- Collect at least 1 silkworm.",
+		"",
+		"TIP: Coarsed dirt can become dirt if you use a hoe but there is also a recipe for bulk."
+	],
+	dependencies: [
+		"a01b02ff",
+		"3ed4a68c"
+	],
+	tasks: [{
+		uid: "9ff1bf7c",
+		type: "item",
+		items: [{
+			id: "exnihilocreatio:item_material",
+			Damage: 2s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

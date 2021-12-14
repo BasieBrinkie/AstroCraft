@@ -1,0 +1,50 @@
+{
+	title: "Questing system",
+	x: 16.0d,
+	y: 0.0d,
+	shape: "gear",
+	description: "To the stars and beyond!",
+	text: [
+		"You now have unlocked \"Rocket Builder\" and \"Professions - Stage: 1\".",
+		"Rocket Builder will allow you to use rockets to travel to your yet to be build space station or you can use them to traval faster through the asteroid belt.",
+		"You also unlocked the progression line \"Professions - Stage: 1\". These professions can be practiced while you are on a space station.",
+		"",
+		"The recipes you have learned so far are not always applicable on other planets/environments. ",
+		"This means that certain items and machines do not work on planets. ",
+		"Once you land on planets JEI will show what items are available to you and the quests will guide you through the possibilities of each planet. ",
+		"In the end your space station provides the option to combine items from those planets to craft new/speedup item production.",
+		"",
+		"TIP: Gear quests are the final quests of a progression line."
+	],
+	dependencies: [
+		"a2c95ebd"
+	],
+	tasks: [{
+		uid: "06ded309",
+		type: "checkmark",
+		icon: {
+			id: "advancedrocketry:advrocketmotor",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	}],
+	rewards: [{
+		uid: "b54003e9",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "planet_asteroids_advanced_resources"
+	},
+	{
+		uid: "0d1dd3cf",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "basic_rocket_builder"
+	},
+	{
+		uid: "0bd4865f",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "planet_asteroids_oxygen_extractor"
+	}]
+}

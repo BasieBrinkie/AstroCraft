@@ -1,0 +1,12 @@
+{
+	title: "Asteroid Survival/Mining",
+	icon: {
+		id: "contenttweaker:astrostone_2",
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

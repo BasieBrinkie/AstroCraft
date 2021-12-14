@@ -1,0 +1,40 @@
+{
+  "data": {
+    "factors": [
+      {
+        "type": "limit",
+        "factor": {
+          "priority": 1.0,
+          "rays": [
+            {
+              "type": "dynpos",
+              "ray": {
+                "type": "world_height"
+              }
+            },
+            {
+              "type": "dynmove",
+              "ray": {
+                "type": "structure_height",
+                "up": false
+              }
+            },
+            {
+              "type": "dynpos",
+              "ray": {
+                "type": "bedrock",
+                "weight": 1.0239598
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "title": "Spawn in Void",
+    "description": [
+      "Between 0 and 256"
+    ]
+  }
+}

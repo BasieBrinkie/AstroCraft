@@ -1,0 +1,35 @@
+{
+	icon: {
+		id: "extrautils2:machine",
+		tag: {
+			Type: "extrautils2:generator_culinary"
+		},
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		}
+	},
+	x: -1.0d,
+	y: 4.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"e2c60067"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "fa5a4be1",
+		type: "gamestage",
+		stage: "professions_two"
+	}],
+	rewards: [{
+		uid: "61e1d788",
+		type: "gamestage",
+		icon: {
+			id: "tconstruct:casting",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		auto: "no_toast",
+		stage: "black_smith"
+	}]
+}

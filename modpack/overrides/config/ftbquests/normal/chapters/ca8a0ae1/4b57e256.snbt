@@ -1,0 +1,29 @@
+{
+	title: "Chop Down Those Trees!",
+	x: 14.0d,
+	y: -1.0d,
+	description: "Breathing vacuum or oxygen, which one do you prefer? I personally prefer breathing vacuum but sadly my body can't handle that.",
+	text: [
+		"Since there isn't any other alternative get ready to make oxygen!",
+		"",
+		"- Gather 18 'Oxygen Crystal Shards'",
+		"",
+		"Once you have converted a charcoal log to oak log, left-click the log once again while sneaking. ",
+		"The log will now break down into 'Oxygen Crystal Shards'."
+	],
+	dependencies: [
+		"eb5bd3fc"
+	],
+	tasks: [{
+		uid: "eb4435d9",
+		type: "item",
+		items: [{
+			id: "skyresources:alchemyitemcomponent",
+			Damage: 1s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		count: 18L
+	}]
+}

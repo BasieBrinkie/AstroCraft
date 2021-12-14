@@ -1,0 +1,22 @@
+{
+	x: 1.0d,
+	y: 0.0d,
+	description: "The source of oxygen",
+	text: [
+		"You can put the oxygen shard directly in the fluid agitator for 1000 mB of oxygen or you combust it to three oxygen shards which would yield 1500 mB of oxygen."
+	],
+	dependencies: [
+		"fe180674"
+	],
+	tasks: [{
+		uid: "65abc096",
+		type: "item",
+		items: [{
+			id: "mekanism:shard",
+			Damage: 4s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

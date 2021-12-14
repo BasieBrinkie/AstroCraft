@@ -1,0 +1,27 @@
+{
+	x: -3.0d,
+	y: -2.5d,
+	description: "Transports Fluids",
+	text: [
+		"Shift-right click the start or end of the pipe to change whether it must pull or push fluids.",
+		"",
+		"You cannot sort fluids as easily with these pipes compared to the logistical transporters"
+	],
+	dependencies: [
+		"12bbafb9"
+	],
+	tasks: [{
+		uid: "b52300da",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			Damage: 1s,
+			tag: {
+				tier: 0
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

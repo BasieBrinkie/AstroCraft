@@ -1,0 +1,22 @@
+{
+	x: -2.0d,
+	y: 3.0d,
+	description: "Manually grinding pulverizes it to dust",
+	text: [
+		""
+	],
+	dependencies: [
+		"b4db5cf4"
+	],
+	tasks: [{
+		uid: "86d435dc",
+		type: "item",
+		items: [{
+			id: "mekanism:dirtydust",
+			Damage: 6s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

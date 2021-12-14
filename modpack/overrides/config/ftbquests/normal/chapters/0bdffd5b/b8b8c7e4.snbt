@@ -1,0 +1,26 @@
+{
+	x: 0.0d,
+	y: 7.0d,
+	description: "It has structural integrity",
+	text: [
+		"The structure tower needs to be placed at a place where it can touch a \"Launch Pad\" block.",
+		"Another important detail is that its height must be higher than the rocket you're building. ",
+		"",
+		"The minimum height of the structure tower is 6. The maximum height is 64 blocks.",
+		"",
+		"An example can be found in the cheat sheet for multiblocks."
+	],
+	dependencies: [
+		"64ef6ac0"
+	],
+	tasks: [{
+		uid: "2ff68636",
+		type: "item",
+		items: [{
+			id: "advancedrocketry:structuretower",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

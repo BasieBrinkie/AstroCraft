@@ -1,0 +1,24 @@
+{
+	x: -3.0d,
+	y: -1.5d,
+	description: "Explosive Mining",
+	text: [
+		"You can mine ores by simply exploding the rocks around it. Place the tnt tactfully around the ores so you don't lose too much yield. ",
+		"",
+		"Due to vacuum it would explode immediately after ignition, so a security measure has been implemented such that it cannot be ignited in vacuum.",
+		"Your only option in vacuum is using the EFLN"
+	],
+	dependencies: [
+		"f62d85a0"
+	],
+	tasks: [{
+		uid: "c4853444",
+		type: "item",
+		items: [{
+			id: "minecraft:tnt",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

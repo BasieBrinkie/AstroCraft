@@ -1,0 +1,27 @@
+{
+	x: 2.0d,
+	y: 5.0d,
+	description: "Bring along payload",
+	text: [
+		"The Satellite bay allows you to bring payload with you.",
+		"",
+		"For now this means that you can bring along you landing platform when you reach your space station.",
+		"If you want to bring normal cargo like items, you can place chests onto the rocket which will add cargo space for your travels.",
+		"",
+		"You will need two Satellite bays, one for the Space Station Assembler and one for the rocket itself."
+	],
+	dependencies: [
+		"afe11917"
+	],
+	tasks: [{
+		uid: "d6a4cf2a",
+		type: "item",
+		items: [{
+			id: "advancedrocketry:loader",
+			Damage: 1s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	icon: {
+		id: "excompressum:auto_compressor",
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		}
+	},
+	x: 3.0d,
+	y: 0.5d,
+	tasks: [{
+		uid: "a9155766",
+		type: "gamestage",
+		stage: "planet_asteroids_automater"
+	}],
+	rewards: [{
+		uid: "627e46a6",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "advanced_rocketry_multiblock"
+	},
+	{
+		uid: "e138c88d",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "metal_iron_ingot_tier_two"
+	},
+	{
+		uid: "483c97a2",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "metal_steel_tier_two"
+	},
+	{
+		uid: "3eb871e3",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "item_advanced_rocketry_drill"
+	}]
+}

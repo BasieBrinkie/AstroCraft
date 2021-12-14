@@ -1,0 +1,158 @@
+{
+    "populate": {   
+        "Asteroids_Stone": {
+            "distribution": "uniform",
+            "generator": {     
+                "cluster-size": 4,
+                "block": [
+                    {"name": "contenttweaker:astrostone", "metadata": 0, "weight": 25},
+                    {"name": "contenttweaker:astrostone_2", "metadata": 0, "weight": 30},
+                    {"name": "contenttweaker:astrostone_3", "metadata": 0, "weight": 29},
+                    {"name": "thermalfoundation:ore", "properties": { "type": "aluminum" }, "weight":1},
+                    {"name": "advancedrocketry:charcoallog", "weight": 15}
+                ],
+                "material": {"name": "minecraft:air"}
+            },
+            "min-height": 2,
+            "max-height": 254,
+            "cluster-count": 2,
+            "chunk-chance": 1,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [0]
+            }
+        },
+        "Asteroids_Stone2": {
+            "distribution": "uniform",
+            "generator": {     
+                "cluster-size": 12,
+                "block": [
+                    {"name": "contenttweaker:astrostone", "metadata": 0, "weight": 10},
+                    {"name": "contenttweaker:astrostone_2", "metadata": 0, "weight": 25},
+                    {"name": "contenttweaker:astrostone_3", "metadata": 0, "weight": 38},
+                    {"name": "contenttweaker:astro_ice", "weight": 4},
+                    {"name": "advancedrocketry:charcoallog", "weight": 8},
+                    {"name": "minecraft:iron_ore", "metadata" : 0, "weight": 8},
+                    {"name": "thermalfoundation:ore", "properties": { "type": "nickel" }, "weight": 2}
+                ],
+                "material": {"name": "minecraft:air"}
+            },
+            "min-height": 2,
+            "max-height": 254,
+            "cluster-count": 2,
+            "chunk-chance": 1,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [0]
+            }
+        },
+
+        "Asteroids_CharcoalLogStone": {
+            "distribution": "uniform",
+            "generator": {     
+                "cluster-size": 7,
+                "block": [
+                    {"name": "contenttweaker:astrostone", "metadata": 0, "weight": 20},
+                    {"name": "contenttweaker:astrostone_2", "metadata": 0, "weight": 30},
+                    {"name": "contenttweaker:astrostone_3", "metadata": 0, "weight": 35},
+                    {"name": "advancedrocketry:charcoallog", "weight": 15}
+                ],
+                "material": {"name": "minecraft:air"}
+            },
+            "min-height": 2,
+            "max-height": 254,
+            "cluster-count": 3,
+            "chunk-chance": 1.0,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [0]
+            }
+        },
+
+
+        "Asteroids_Comet_Obsidian": {
+            "distribution": "uniform",
+            "generator": {
+                "type": "boulder",
+                "diameter": 6,
+                "size-variance": 4,
+                "count": 1,
+                "count-variance": 0, 
+                "block": [
+                    {"name": "contenttweaker:astro_ice", "weight": 130},
+                    {"name": "minecraft:obsidian", "weight": 80},
+                    {"name": "minecraft:diamond_ore", "weight": 1}
+                ],
+                "material": {"name": "contenttweaker:astrostone"}
+            },
+            "min-height": 2,
+            "max-height": 254,
+            "cluster-count": 1,
+            "chunk-chance": 150,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [0]
+            }
+        },
+
+        "Asteroids_Comet_Iridium": {
+            "distribution": "uniform",
+            "generator": {
+                "cluster-size": 30,
+                "block": [
+                    {"name": "contenttweaker:astro_ice", "weight": 200},
+                    {"name": "thermalfoundation:ore", "properties": { "type": "iridium" }, "weight": 60 },
+                    {"name": "minecraft:diamond_ore", "weight": 1}
+                ],
+                "material": {"name": "minecraft:air"}
+            },
+            "min-height": 2,
+            "max-height": 254,
+            "cluster-count": 1,
+            "chunk-chance": 1000,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [0]
+            }
+        },
+
+        "Asteroids_Weird_Comet": {
+            "distribution": "uniform",
+            "generator": {
+                "type": "large-vein",
+                "cluster-size": 2000,
+                "block": [
+                    {"name": "contenttweaker:astrostone", "metadata": 0, "weight": 40},
+                    {"name": "contenttweaker:astrostone_2", "metadata": 0, "weight": 80},
+                    {"name": "contenttweaker:astrostone_3", "metadata": 0, "weight": 50},
+                    {"name": "contenttweaker:astro_ice", "weight": 1000},
+                    {"name": "thermalfoundation:ore", "properties": { "type": "iridium" }, "weight": 50 },
+                    {"name": "thermalfoundation:ore", "properties": { "type": "aluminum" }, "weight": 80 },
+                    {"name": "techguns:basicore", "metadata": 4, "weight": 10},
+                    {"name": "minecraft:diamond_ore", "weight": 1}
+                ],
+                "material": {"name": "minecraft:air"}
+            },
+            "min-height": 2,
+            "max-height": 254,
+            "cluster-count": 1,
+            "chunk-chance": 2000,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [0]
+            }
+        }
+    }
+}

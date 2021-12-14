@@ -1,0 +1,17 @@
+{
+	"name": " Multiblock Cheatsheet",
+	"subtitle": "The Great Cheats on Sheets ",
+	"landing_text": "$(br)This book shows you all the multiblocks that you can make. Some blocks cannot be rendered in the multiblock visualizer so be sure to read the instructions carefully. $(br2)Additionaly you can use this sheet to quickly check the most important keybindings when new quests unlock.",
+	"show_toasts": true,
+	"version": 0,
+	"show_progress": false,
+	"model": "contenttweaker:multiblock_cheatsheet",
+	"book_texture": "astrocraft:textures/books/multiblock_cheatsheet_gui.png",
+	"text_color": "ffffff",
+	"header_color": "ffffff",
+	"macros": {
+		"$(mBlock)": "$(#ffffff)$(m)                              /$$(o)$(#ddddff)",                            
+		"$(WIKI AdvRocketry)": "Check out the $(l:http://arwiki.dmodoomsirius.me/AdvancedRocketry/)advanced rocketry wiki$(/l) for more information",
+		"$(WIKI CharcoalPit)": "Check out the $(l:https://www.curseforge.com/minecraft/mc-mods/) Charcoal Pit mod page$(/l) for more information"
+	}
+}

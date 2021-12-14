@@ -1,0 +1,35 @@
+{
+	x: 0.5d,
+	y: -2.5d,
+	description: "Maybe you need multiple",
+	text: [
+		"Actually you don't but by now you have all the items to make a new one might you have lost the one you got at the start.",
+		"",
+		"The block outputs a redstone comparator signal that scale logarithicly based upon the amount of radiation in the chunk"
+	],
+	dependencies: [
+		"715fdece"
+	],
+	tasks: [{
+		uid: "7ae3bb2f",
+		type: "item",
+		items: [{
+			id: "nuclearcraft:geiger_counter",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "30053357",
+		type: "item",
+		items: [{
+			id: "nuclearcraft:geiger_block",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

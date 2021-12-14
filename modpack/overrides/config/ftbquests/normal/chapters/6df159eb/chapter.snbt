@@ -1,0 +1,7 @@
+{
+	title: "Particle Physicist",
+	icon: "nuclearcraft:fusion_core",
+	always_invisible: false,
+	group: 414988472,
+	default_quest_shape: ""
+}

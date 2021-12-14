@@ -1,0 +1,10 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "0fd31304",
+		type: "interaction",
+		match_type: "block_id",
+		match: ""
+	}]
+}

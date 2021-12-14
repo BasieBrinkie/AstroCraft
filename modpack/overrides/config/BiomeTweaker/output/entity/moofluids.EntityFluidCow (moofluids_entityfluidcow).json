@@ -1,0 +1,6 @@
+
+{
+  "Name": "moofluids.EntityFluidCow",
+  "Registry ID": "moofluids:entityfluidcow",
+  "Class": "com.robrit.moofluids.common.entity.EntityFluidCow"
+}

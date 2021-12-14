@@ -1,0 +1,6 @@
+
+{
+  "Name": "jurassicraft.velociraptor",
+  "Registry ID": "jurassicraft:entities.velociraptor",
+  "Class": "org.jurassicraft.server.entity.dinosaur.VelociraptorEntity"
+}

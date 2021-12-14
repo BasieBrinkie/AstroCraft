@@ -1,0 +1,21 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	description: "Frozen antinatric stone is just disguised cobblestone",
+	text: [
+		""
+	],
+	dependencies: [
+		"e7aadb40"
+	],
+	tasks: [{
+		uid: "e23ee344",
+		type: "item",
+		items: [{
+			id: "minecraft:cobblestone",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: 3.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "f1e829cd",
+		type: "item",
+		items: [{
+			id: "factorytech:machinepart",
+			Damage: 51s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

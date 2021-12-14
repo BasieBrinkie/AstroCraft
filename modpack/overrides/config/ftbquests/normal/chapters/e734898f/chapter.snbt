@@ -1,0 +1,12 @@
+{
+	title: "-- Stockfarmer",
+	icon: {
+		id: "minecraft:milk_bucket",
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		}
+	},
+	always_invisible: false,
+	group: 325421953,
+	default_quest_shape: ""
+}

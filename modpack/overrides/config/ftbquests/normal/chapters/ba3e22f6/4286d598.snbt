@@ -1,0 +1,22 @@
+{
+	x: 4.5d,
+	y: 3.0d,
+	description: "Machine component",
+	text: [
+		""
+	],
+	dependencies: [
+		"1c8d21c4"
+	],
+	tasks: [{
+		uid: "134adcf6",
+		type: "item",
+		items: [{
+			id: "factorytech:machinepart",
+			Damage: 150s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

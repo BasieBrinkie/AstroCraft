@@ -1,0 +1,23 @@
+{
+	title: "Barrels",
+	x: 13.0d,
+	y: 2.0d,
+	description: "Barrels will make you dirt in the early game stages",
+	text: [
+		"- Craft a wooden barrel"
+	],
+	dependencies: [
+		"e29eb62f",
+		"86cfc518"
+	],
+	tasks: [{
+		uid: "551edeef",
+		type: "item",
+		items: [{
+			id: "exnihilocreatio:block_barrel0",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

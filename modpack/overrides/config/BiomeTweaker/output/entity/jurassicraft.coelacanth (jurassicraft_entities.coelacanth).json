@@ -1,0 +1,6 @@
+
+{
+  "Name": "jurassicraft.coelacanth",
+  "Registry ID": "jurassicraft:entities.coelacanth",
+  "Class": "org.jurassicraft.server.entity.dinosaur.CoelacanthEntity"
+}

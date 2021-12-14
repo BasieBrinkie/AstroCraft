@@ -1,0 +1,30 @@
+{
+	x: 1.0d,
+	y: 4.0d,
+	description: "Create you landing platform",
+	text: [
+		"Although you could create the whole station by sending multiple modules up, it is tedious to do so. ",
+		"That is why it is best to make a very simple landing platform. The platform can be any material you like.",
+		"",
+		"Place a satelite bay in the upper-left slot of the Space Station Assembler.",
+		"Place the space station chip in the upper-right side of the Space Station Assembler.",
+		"",
+		"Click scan to check wheter the structure is valid and build to retrieve the programmed chip and space station container"
+	],
+	dependencies: [
+		"577fd135",
+		"6bfe2ab5",
+		"d305e66a",
+		"b4db5cf4"
+	],
+	tasks: [{
+		uid: "d701f0af",
+		type: "item",
+		items: [{
+			id: "advancedrocketry:stationbuilder",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

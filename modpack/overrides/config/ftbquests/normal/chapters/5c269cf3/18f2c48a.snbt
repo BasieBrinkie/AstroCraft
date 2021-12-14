@@ -1,0 +1,22 @@
+{
+	x: -9.0d,
+	y: -1.0d,
+	description: "The ingot consists of a purer kind of iron",
+	text: [
+		"This another building block for more sophiscated machines"
+	],
+	dependencies: [
+		"8645a022"
+	],
+	tasks: [{
+		uid: "5779bf5d",
+		type: "item",
+		items: [{
+			id: "factorytech:ingot",
+			Damage: 5s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

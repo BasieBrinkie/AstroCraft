@@ -1,0 +1,53 @@
+{
+  "block_pools": [
+    {
+      "name": "SaplingInfuser",
+      "type": {
+        "type": "block",
+        "name": "minecraft:wheat",
+        "meta": 7
+      },
+      "clicktype": "rightclick",
+      "properties": [
+        {
+          "type": "require_item",
+          "name": "jurassicraft:plant_cells"
+        },
+        {
+          "type": "swing_hand"
+        },
+        {
+          "type": "play_sound",
+          "name": "minecraft:entity.wither.shoot",
+          "volume": 0.5
+        },
+        {
+          "type": "spawn_particles",
+          "name": "explode",
+          "xOffset": 10.0,
+          "zOffset": 10.0,
+          "amount": 60,
+          "speed": 0.2
+        },
+        {
+        	"type": "consume_block",
+        	"chance": 100.0,
+          "name": "minecraft:air"
+        },
+        {
+          "type": "consume_item",
+          "amount": 1,
+          "chance": 100.0
+        }
+      ],
+      "drops": [
+        {
+          "name": "minecraft:sapling",
+          "meta": 0,
+          "amount": 1,
+          "chance": 100.0
+        }
+      ]
+    }
+  ]
+}

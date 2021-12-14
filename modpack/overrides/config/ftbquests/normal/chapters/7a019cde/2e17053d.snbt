@@ -1,0 +1,47 @@
+{
+	x: -5.0d,
+	y: 0.0d,
+	shape: "gear",
+	dependencies: [
+		"8613935c"
+	],
+	tasks: [{
+		uid: "fbb15090",
+		type: "item",
+		items: [{
+			id: "minecraft:planks",
+			Damage: 1s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		{
+			id: "minecraft:planks",
+			Damage: 2s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		{
+			id: "minecraft:planks",
+			Damage: 3s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		{
+			id: "minecraft:planks",
+			Damage: 4s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		{
+			id: "minecraft:planks",
+			Damage: 5s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

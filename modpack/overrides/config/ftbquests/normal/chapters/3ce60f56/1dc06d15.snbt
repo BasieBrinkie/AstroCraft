@@ -1,0 +1,18 @@
+{
+	x: 4.5d,
+	y: 0.0d,
+	dependencies: [
+		"52d56e44"
+	],
+	tasks: [{
+		uid: "40dd08ec",
+		type: "item",
+		items: [{
+			id: "actuallyadditions:item_misc",
+			Damage: 9s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: -4.5d,
+	y: 0.0d,
+	description: "Somehow special type of asteroids contain diamonds",
+	text: [
+		"The meteorite compass was originally meant to search for you guessed it meteorites. ",
+		"They were developed to search for scarce materials on undiscovered planet. It luckily also functions for asteroids in space.",
+		"The compass will spin around if no diamond containing asteroids are detected. Once it detects one it will point straigh toward it."
+	],
+	dependencies: [
+		"f62d85a0"
+	],
+	tasks: [{
+		uid: "7797a597",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:sky_compass",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

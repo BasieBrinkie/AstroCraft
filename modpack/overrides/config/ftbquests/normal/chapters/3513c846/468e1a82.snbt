@@ -1,0 +1,22 @@
+{
+	x: -3.5d,
+	y: -4.0d,
+	description: "Has a larger explosion radius compared to normal mining charges",
+	text: [
+		""
+	],
+	dependencies: [
+		"7247a35a"
+	],
+	tasks: [{
+		uid: "db8e1f89",
+		type: "item",
+		items: [{
+			id: "techguns:explosive_charge",
+			Damage: 1s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 3.0d,
+	y: 1.5d,
+	description: "Ferro magnet",
+	text: [
+		"By quickly freezing iron quickly we can create magnets"
+	],
+	dependencies: [
+		"6eafb43f"
+	],
+	tasks: [{
+		uid: "d164f74b",
+		type: "item",
+		items: [{
+			id: "factorytech:machinepart",
+			Damage: 130s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

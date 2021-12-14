@@ -1,0 +1,30 @@
+{
+	title: "Manual Excavator",
+	x: 12.0d,
+	y: 1.0d,
+	description: "Boy, digging with my bare hands in space is a tough job. I wish I brought a shovel with me. Luckily there is always room to impovise.",
+	text: [
+		"- Craft a shovel"
+	],
+	dependencies: [
+		"cc98c1d7"
+	],
+	tasks: [{
+		uid: "fac6418a",
+		type: "item",
+		items: [{
+			id: "minecraft:wooden_shovel",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		{
+			id: "minecraft:stone_shovel",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 2.0d,
+	y: 3.0d,
+	dependencies: [
+		"22e3d142"
+	],
+	tasks: [{
+		uid: "377e7b11",
+		type: "item",
+		items: [{
+			id: "architecturecraft:chisel",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

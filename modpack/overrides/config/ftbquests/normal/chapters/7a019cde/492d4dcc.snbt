@@ -1,0 +1,19 @@
+{
+	x: -4.0d,
+	y: 2.0d,
+	dependencies: [
+		"38e02aae"
+	],
+	tasks: [{
+		uid: "6c13c9e0",
+		type: "item",
+		items: [{
+			id: "chiselsandbits:bitsaw_diamond",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: -4.5d,
+	y: -1.5d,
+	description: "Works better than a fire starter",
+	text: [
+		"Sadly it doesn't work in every environment such as vacuum"
+	],
+	dependencies: [
+		"c93714de"
+	],
+	tasks: [{
+		uid: "e390582b",
+		type: "item",
+		items: [{
+			id: "minecraft:flint_and_steel",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

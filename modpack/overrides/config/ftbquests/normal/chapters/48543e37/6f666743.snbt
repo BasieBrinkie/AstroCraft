@@ -1,0 +1,27 @@
+{
+	x: -2.0d,
+	y: -1.0d,
+	description: "It reacts with organic materials",
+	text: [
+		"Search JEI how to make liquid Nickel"
+	],
+	dependencies: [
+		"f337b046"
+	],
+	tasks: [{
+		uid: "c2d8c075",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "nickel",
+				Amount: 1000
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

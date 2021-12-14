@@ -1,0 +1,25 @@
+{
+	x: 3.5d,
+	y: 8.0d,
+	description: "Remove some limitations of the mod",
+	text: [
+		"If you really dislike the way how the rope folds around blocks or you want your rope to pull more straight you might require this upgrade.",
+		"To disable rope folding install a rope upgrade and enable Phase Rope",
+		"To have straigther pulls enable Sideways Motion Dampener underneath the motor upgrade."
+	],
+	dependencies: [
+		"8f51abf2"
+	],
+	tasks: [{
+		uid: "6575760c",
+		type: "item",
+		items: [{
+			id: "grapplemod:limitsupgradeitem",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

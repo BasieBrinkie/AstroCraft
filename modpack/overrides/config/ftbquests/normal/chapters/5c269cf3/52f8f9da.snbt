@@ -1,0 +1,25 @@
+{
+	x: -1.0d,
+	y: -2.5d,
+	description: "Transports items",
+	text: [
+		"Shift-right click the start or end of the transporter to change whether it must pull or push items"
+	],
+	dependencies: [
+		"12bbafb9"
+	],
+	tasks: [{
+		uid: "8ed8926e",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			Damage: 3s,
+			tag: {
+				tier: 0
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,165 @@
+{
+  "data": {
+    "environmentMatcher": "",
+    "transformers": [
+      {
+        "type": "replaceAll",
+        "transformer": {
+          "uniform": false,
+          "id": "replaceAll_ff06a35c",
+          "sourceExpression": "contenttweaker:astrostone",
+          "destinationPreset": "replace_RandomStoneIce",
+          "destination": [
+            {
+              "block": "contenttweaker:astrostone",
+              "metadata": 0,
+              "tileEntity": "null"
+            },
+            {
+              "weight": 6.092700059525669E-4,
+              "block": "advancedrocketry:charcoallog",
+              "metadata": 12,
+              "tileEntity": "null"
+            },
+            {
+              "block": "contenttweaker:astrostone_2",
+              "metadata": 0,
+              "tileEntity": "null"
+            },
+            {
+              "block": "contenttweaker:astrostone_3",
+              "metadata": 0,
+              "tileEntity": "null"
+            },
+            {
+              "weight": 0.25072842836380005,
+              "block": "contenttweaker:astro_ice",
+              "metadata": 0,
+              "tileEntity": "null"
+            }
+          ]
+        }
+      },
+      {
+        "type": "replaceAll",
+        "transformer": {
+          "uniform": false,
+          "id": "replace_122e2de9",
+          "sourceExpression": "contenttweaker:astrostone",
+          "destinationPreset": "replace_ScarceOresIce",
+          "destination": [
+            {
+              "weight": 49.24846649169922,
+              "block": "contenttweaker:astrostone_3",
+              "metadata": 0,
+              "tileEntity": "null"
+            },
+            {
+              "weight": 49.24846649169922,
+              "block": "contenttweaker:astrostone_2",
+              "metadata": 0,
+              "tileEntity": "null"
+            },
+            {
+              "weight": 51.427284240722656,
+              "block": "contenttweaker:astrostone",
+              "metadata": 0,
+              "tileEntity": "null"
+            },
+            {
+              "weight": 5.4332804679870605,
+              "block": "minecraft:iron_ore",
+              "metadata": 0,
+              "tileEntity": "null"
+            },
+            {
+              "weight": 1.0,
+              "block": "thermalfoundation:ore",
+              "metadata": 5,
+              "tileEntity": "null"
+            }
+          ]
+        }
+      },
+      {
+        "type": "replaceAll",
+        "transformer": {
+          "uniform": false,
+          "id": "replace_32c0355b",
+          "sourceExpression": "reccomplex:generic_solid \u0026 metadata\u003d1",
+          "destination": [
+            {
+              "block": "minecraft:air",
+              "metadata": 0,
+              "tileEntity": "null"
+            }
+          ]
+        }
+      },
+      {
+        "type": "multi",
+        "transformer": {
+          "id": "multi_8e6cad41",
+          "data": {
+            "environmentMatcher": "!gen.type\u003dsapling",
+            "transformers": [
+              {
+                "type": "naturalAir",
+                "transformer": {
+                  "id": "naturalAir_62f77b91",
+                  "sourceExpression": "reccomplex:generic_space \u0026 metadata\u003d1",
+                  "destExpression": "",
+                  "naturalExpansionDistance": 4.0,
+                  "naturalExpansionRandomization": 10.0
+                }
+              },
+              {
+                "type": "natural",
+                "transformer": {
+                  "id": "natural_eed52750",
+                  "sourceExpression": "reccomplex:generic_solid \u0026 metadata\u003d0",
+                  "destExpression": "is:replaceable | is:foliage",
+                  "naturalExpansionDistance": 4.0,
+                  "naturalExpansionRandomization": 6.0
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "type": "multi",
+        "transformer": {
+          "id": "multi_cd3733ca",
+          "data": {
+            "environmentMatcher": "gen.type\u003dsapling",
+            "transformers": [
+              {
+                "type": "ensureBlocks",
+                "transformer": {
+                  "id": "ensureBlocks_6b500399",
+                  "sourceExpression": "!(id\u003dreccomplex:generic_space | id\u003dreccomplex:generic_solid)",
+                  "destExpression": "is:air | is:leaves | is:replaceable"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "type": "negativeSpace",
+        "transformer": {
+          "id": "negativeSpace_69ff30bc",
+          "sourceExpression": "id\u003dreccomplex:generic_space | id\u003dreccomplex:generic_solid",
+          "destExpression": ""
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "title": "Scarce Ores Ice",
+    "description": [
+      ""
+    ]
+  }
+}

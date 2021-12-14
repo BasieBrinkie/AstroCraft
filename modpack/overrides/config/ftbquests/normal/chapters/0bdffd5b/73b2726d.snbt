@@ -1,0 +1,22 @@
+{
+	x: 4.0d,
+	y: 5.0d,
+	description: "Even finer than dust",
+	text: [
+		"This dust can also be used as a catalyst. Its yield is 175%"
+	],
+	dependencies: [
+		"a88de8db"
+	],
+	tasks: [{
+		uid: "04192999",
+		type: "item",
+		items: [{
+			id: "skyresources:orealchdust",
+			Damage: 17s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

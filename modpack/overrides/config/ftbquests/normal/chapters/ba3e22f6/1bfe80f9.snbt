@@ -1,0 +1,24 @@
+{
+	x: 8.5d,
+	y: 6.0d,
+	description: "Nuclear Item",
+	text: [
+		"Don't keep this item in your inventory for a long time! You will get contaminated with a huge amount of radiation.",
+		"",
+		"This item is obtained by mining uranium ore"
+	],
+	dependencies: [
+		"a416703f"
+	],
+	tasks: [{
+		uid: "71bdeeea",
+		type: "item",
+		items: [{
+			id: "nuclearcraft:uranium",
+			Damage: 10s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

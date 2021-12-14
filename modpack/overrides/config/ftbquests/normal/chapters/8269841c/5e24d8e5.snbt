@@ -1,0 +1,23 @@
+{
+	x: 2.0d,
+	y: 4.0d,
+	dependencies: [
+		"ab9fb9a7"
+	],
+	tasks: [{
+		uid: "3516bff5",
+		type: "item",
+		items: [{
+			id: "minecraft:red_flower",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		{
+			id: "minecraft:yellow_flower",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

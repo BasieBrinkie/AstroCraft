@@ -1,0 +1,22 @@
+{
+	x: 11.0d,
+	y: 1.0d,
+	description: "Quite similar to the Grindstone",
+	text: [
+		""
+	],
+	dependencies: [
+		"1dd78e21",
+		"4e7554a2"
+	],
+	tasks: [{
+		uid: "ecc161a3",
+		type: "item",
+		items: [{
+			id: "factorytech:saw",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

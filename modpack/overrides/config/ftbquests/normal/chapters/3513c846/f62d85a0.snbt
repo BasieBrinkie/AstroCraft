@@ -1,0 +1,20 @@
+{
+	x: -3.0d,
+	y: 0.0d,
+	description: "Stronger tools to mine longer",
+	text: [
+		"Not the usual recipe, but it should be doable"
+	],
+	tasks: [{
+		uid: "126b64da",
+		type: "item",
+		items: [{
+			id: "minecraft:diamond_pickaxe",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

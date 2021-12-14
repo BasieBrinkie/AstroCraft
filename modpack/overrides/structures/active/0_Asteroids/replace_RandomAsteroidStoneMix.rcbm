@@ -1,0 +1,31 @@
+{
+  "data": [
+    {
+      "block": "contenttweaker:astrostone",
+      "metadata": 0,
+      "tileEntity": "null"
+    },
+    {
+      "weight": 6.092700059525669E-4,
+      "block": "advancedrocketry:charcoallog",
+      "metadata": 12,
+      "tileEntity": "null"
+    },
+    {
+      "block": "contenttweaker:astrostone_2",
+      "metadata": 0,
+      "tileEntity": "null"
+    },
+    {
+      "block": "contenttweaker:astrostone_3",
+      "metadata": 0,
+      "tileEntity": "null"
+    }
+  ],
+  "metadata": {
+    "title": "Random Asteroid Stone Mix",
+    "description": [
+      "Asteroid Stone mixed with charcoal log"
+    ]
+  }
+}

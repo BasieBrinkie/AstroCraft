@@ -1,0 +1,23 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	description: "Meant for thic blocks",
+	text: [
+		"The heavy sieve can sieve compressed blocks.",
+		"",
+		"Sometimes the chances are better compared to the normal sieve or otherwise it will be just as good as a normal sieve."
+	],
+	dependencies: [
+		"32e8e9b1"
+	],
+	tasks: [{
+		uid: "7409a32e",
+		type: "item",
+		items: [{
+			id: "excompressum:heavy_sieve",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,55 @@
+
+{
+  "ID": 147,
+  "Name": "Arctic Peaks",
+  "Resource Location": "aether:aether_arctic_peaks",
+  "Class": "com.gildedgames.aether.common.world.biomes.arctic_peaks.BiomeArcticPeaks",
+  "Root Height": 0.1,
+  "Height Variation": 0.2,
+  "Top Block": "aether:aether_grass[snowy\u003dfalse,variant\u003darctic]",
+  "Filler Block": "aether:aether_dirt[variant\u003ddirt]",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Water Color": "7396208",
+  "Temperature": 0.0,
+  "Humidity": 0.5,
+  "Water Tint": 7396208,
+  "Enable Rain": false,
+  "Enable Snow": true,
+  "Dictionary Types": [
+    "SNOWY",
+    "COLD",
+    "DENSE",
+    "MOUNTAIN"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [],
+  "Spawnable Monsters": [],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": false,
+  "BOP Generators": {
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "glowshrooms"
+      },
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      }
+    ]
+  },
+  "BOP Owner": "OTHER",
+  "BOP Weight Map": {},
+  "BOP Climate Weights": {},
+  "BOP Island Weight": 0
+}

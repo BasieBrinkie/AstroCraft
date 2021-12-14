@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "ec640753",
+		type: "item",
+		items: [{
+			id: "minecraft:egg",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

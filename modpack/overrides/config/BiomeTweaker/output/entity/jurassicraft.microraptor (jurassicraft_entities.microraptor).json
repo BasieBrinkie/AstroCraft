@@ -1,0 +1,6 @@
+
+{
+  "Name": "jurassicraft.microraptor",
+  "Registry ID": "jurassicraft:entities.microraptor",
+  "Class": "org.jurassicraft.server.entity.dinosaur.MicroraptorEntity"
+}

@@ -1,0 +1,17 @@
+{
+	x: 4.5d,
+	y: 2.0d,
+	dependencies: [
+		"52d56e44"
+	],
+	tasks: [{
+		uid: "e3e556b4",
+		type: "item",
+		items: [{
+			id: "glacidus:thawed_antinatric_stone",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	x: 3.0d,
+	y: 1.0d,
+	description: "Gotto survive the cold upper layer",
+	text: [
+		"Use the furnace in the spawn hut, craft a furnace or go out exploring the middle layer to find a furnace.",
+		"",
+		"To complete the quest mine the furnace you found and snuck it into your inventory."
+	],
+	dependencies: [
+		"1541f2c5"
+	],
+	tasks: [{
+		uid: "8575afe8",
+		type: "item",
+		items: [{
+			id: "minecraft:furnace",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "5d8c8232",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "planet_glacidus_mob_spawn"
+	}]
+}

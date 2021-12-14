@@ -1,0 +1,21 @@
+{
+	x: -6.0d,
+	y: -5.0d,
+	tasks: [{
+		uid: "ad9a86f2",
+		type: "gamestage",
+		stage: "startplanet_asteroids"
+	}],
+	rewards: [{
+		uid: "decd4307",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "dim_asteroids_one"
+	},
+	{
+		uid: "ee2cf0c7",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "planet_asteroids_oxygen_one"
+	}]
+}

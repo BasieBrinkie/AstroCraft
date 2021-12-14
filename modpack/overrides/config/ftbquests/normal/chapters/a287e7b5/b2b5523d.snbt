@@ -1,0 +1,59 @@
+{
+	x: -4.0d,
+	y: -3.0d,
+	description: "Protects against radiation",
+	text: [
+		"Must be used in a breathable climate as it has no life support onboard."
+	],
+	dependencies: [
+		"ebaba154"
+	],
+	tasks: [{
+		uid: "3277c9d4",
+		type: "item",
+		items: [{
+			id: "nuclearcraft:helm_hazmat",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5766154e",
+		type: "item",
+		items: [{
+			id: "nuclearcraft:chest_hazmat",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "565390dd",
+		type: "item",
+		items: [{
+			id: "nuclearcraft:legs_hazmat",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1050a9b7",
+		type: "item",
+		items: [{
+			id: "nuclearcraft:boots_hazmat",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

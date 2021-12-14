@@ -1,0 +1,58 @@
+{
+  "block_pools": [
+    {
+      "name": "OakLogConverter",
+      "type": {
+        "type": "block",
+        "name": "advancedrocketry:charcoallog"
+      },
+      "clicktype": "rightclick",
+      "properties": [
+        {
+          "type": "require_tool",
+          "tool": "axe",
+          "level": 1
+        },
+        {
+          "type": "swing_hand"
+        },
+        {
+          "type": "play_sound",
+          "name": "minecraft:block.wood.break"
+        },
+        {
+          "type": "spawn_particles",
+          "name": "crit",
+          "xOffset": 10.0,
+          "zOffset": 10.0,
+          "amount": 15,
+          "speed": 0.6
+        },
+        {
+        	"type":"consume_block",
+        	"chance": 34.0,
+          "name": "minecraft:log"
+        },
+        {
+        	"type": "damage_item",
+        	"amount": 2
+        },
+        {
+          "type": "drop_items",
+          "doDrop": true
+        }
+      ],
+      "drops": [
+        {
+          "name": "actuallyadditions:item_misc",
+          "meta": 11,
+          "chance": 5.0
+        },
+        {
+          "name": "excompressum:uncompressed_coal",
+          "chance": 78.0
+        }
+      ]
+    }
+  ]
+}

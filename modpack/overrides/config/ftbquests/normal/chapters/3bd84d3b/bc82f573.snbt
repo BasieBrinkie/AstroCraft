@@ -1,0 +1,23 @@
+{
+	x: 11.0d,
+	y: 2.0d,
+	shape: "hexagon",
+	description: "Use the press to make iron plates",
+	text: [
+		""
+	],
+	dependencies: [
+		"64c3ec86"
+	],
+	tasks: [{
+		uid: "78fc43cc",
+		type: "item",
+		items: [{
+			id: "libvulpes:productplate",
+			Damage: 1s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

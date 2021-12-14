@@ -1,0 +1,2425 @@
+{
+    "minecraft": {
+      "version": "1.12.2",
+      "modLoaders": [
+        {
+          "id": "forge-14.23.5.2860",
+          "primary": true
+        }
+      ]
+    },
+    "manifestType": "minecraftModpack",
+    "overrides": "overrides",
+    "manifestVersion": 1,
+    "version": "0.2.0",
+    "author": "",
+    "name": "Astrocraft",
+    "files": [
+      {
+        "projectID": 32274,
+        "fileID": 2916002,
+        "required": true,
+        "__meta": {
+          "name": "JourneyMap"
+        }
+      },
+      {
+        "projectID": 51195,
+        "fileID": 2687757,
+        "required": true,
+        "__meta": {
+          "name": "Railcraft"
+        }
+      },
+      {
+        "projectID": 59621,
+        "fileID": 3116599,
+        "required": true,
+        "__meta": {
+          "name": "Atum 2: Return to the Sands"
+        }
+      },
+      {
+        "projectID": 60089,
+        "fileID": 3359843,
+        "required": true,
+        "__meta": {
+          "name": "Mouse Tweaks"
+        }
+      },
+      {
+        "projectID": 69118,
+        "fileID": 2664449,
+        "required": true,
+        "__meta": {
+          "name": "Morpheus"
+        }
+      },
+      {
+        "projectID": 69162,
+        "fileID": 2920433,
+        "required": true,
+        "__meta": {
+          "name": "CoFH Core"
+        }
+      },
+      {
+        "projectID": 74072,
+        "fileID": 2902483,
+        "required": true,
+        "__meta": {
+          "name": "Tinkers Construct",
+          "dependencies": [
+            74924
+          ]
+        }
+      },
+      {
+        "projectID": 74254,
+        "fileID": 2643469,
+        "required": true,
+        "__meta": {
+          "name": "Moo Fluids"
+        }
+      },
+      {
+        "projectID": 74924,
+        "fileID": 2713386,
+        "required": true,
+        "__meta": {
+          "name": "Mantle"
+        }
+      },
+      {
+        "projectID": 220698,
+        "fileID": 3211974,
+        "required": true,
+        "__meta": {
+          "name": "The Erebus"
+        }
+      },
+      {
+        "projectID": 220954,
+        "fileID": 3488553,
+        "required": true,
+        "__meta": {
+          "name": "ModTweaker",
+          "dependencies": [
+            253211
+          ]
+        }
+      },
+      {
+        "projectID": 221826,
+        "fileID": 2996912,
+        "required": true,
+        "__meta": {
+          "name": "Custom NPCs"
+        }
+      },
+      {
+        "projectID": 222378,
+        "fileID": 2756790,
+        "required": true,
+        "__meta": {
+          "name": "MineMenu"
+        }
+      },
+      {
+        "projectID": 222880,
+        "fileID": 2926428,
+        "required": true,
+        "__meta": {
+          "name": "Thermal Foundation",
+          "dependencies": [
+            69162,
+            271384
+          ]
+        }
+      },
+      {
+        "projectID": 223008,
+        "fileID": 2828357,
+        "required": true,
+        "__meta": {
+          "name": "OpenComputers"
+        }
+      },
+      {
+        "projectID": 223094,
+        "fileID": 2923460,
+        "required": true,
+        "__meta": {
+          "name": "Inventory Tweaks [1.12 only] "
+        }
+      },
+      {
+        "projectID": 223150,
+        "fileID": 2689602,
+        "required": true,
+        "__meta": {
+          "name": "Recurrent Complex",
+          "dependencies": [
+            224535
+          ]
+        }
+      },
+      {
+        "projectID": 223565,
+        "fileID": 3431261,
+        "required": true,
+        "__meta": {
+          "name": "Draconic Evolution",
+          "dependencies": [
+            270789,
+            242818,
+            231382
+          ]
+        }
+      },
+      {
+        "projectID": 223628,
+        "fileID": 2629023,
+        "required": true,
+        "__meta": {
+          "name": "Thaumcraft",
+          "dependencies": [
+            227083
+          ]
+        }
+      },
+      {
+        "projectID": 223794,
+        "fileID": 2747063,
+        "required": true,
+        "__meta": {
+          "name": "Applied Energistics 2"
+        }
+      },
+      {
+        "projectID": 223796,
+        "fileID": 2960610,
+        "required": true,
+        "__meta": {
+          "name": "The Aether II"
+        }
+      },
+      {
+        "projectID": 223852,
+        "fileID": 2952606,
+        "required": true,
+        "__meta": {
+          "name": "Storage Drawers",
+          "dependencies": [
+            230497
+          ]
+        }
+      },
+      {
+        "projectID": 224190,
+        "fileID": 2599318,
+        "required": true,
+        "__meta": {
+          "name": "Funky Locomotion"
+        }
+      },
+      {
+        "projectID": 224320,
+        "fileID": 2977010,
+        "required": true,
+        "__meta": {
+          "name": "Ender Utilities"
+        }
+      },
+      {
+        "projectID": 224472,
+        "fileID": 2969118,
+        "required": true,
+        "__meta": {
+          "name": "AppleCore"
+        }
+      },
+      {
+        "projectID": 224535,
+        "fileID": 2443253,
+        "required": true,
+        "__meta": {
+          "name": "IvToolkit"
+        }
+      },
+      {
+        "projectID": 224641,
+        "fileID": 2861573,
+        "required": true,
+        "__meta": {
+          "name": "RFTools",
+          "dependencies": [
+            233105
+          ]
+        }
+      },
+      {
+        "projectID": 224663,
+        "fileID": 3466431,
+        "required": true,
+        "__meta": {
+          "name": "Open Modular Turrets",
+          "dependencies": [
+            254334
+          ]
+        }
+      },
+      {
+        "projectID": 224808,
+        "fileID": 3490351,
+        "required": true,
+        "__meta": {
+          "name": "Magneticraft",
+          "dependencies": [
+            248453,
+            277663
+          ]
+        }
+      },
+      {
+        "projectID": 225561,
+        "fileID": 2678374,
+        "required": true,
+        "__meta": {
+          "name": "Extra Utilities"
+        }
+      },
+      {
+        "projectID": 225603,
+        "fileID": 2554100,
+        "required": true,
+        "__meta": {
+          "name": "Schematica",
+          "dependencies": [
+            225605
+          ]
+        }
+      },
+      {
+        "projectID": 225605,
+        "fileID": 2489549,
+        "required": true,
+        "__meta": {
+          "name": "LunatriusCore"
+        }
+      },
+      {
+        "projectID": 225608,
+        "fileID": 2941712,
+        "required": true,
+        "__meta": {
+          "name": "WorldEdit"
+        }
+      },
+      {
+        "projectID": 225643,
+        "fileID": 3330934,
+        "required": true,
+        "__meta": {
+          "name": "Botania",
+          "dependencies": [
+            227083
+          ]
+        }
+      },
+      {
+        "projectID": 225781,
+        "fileID": 3060563,
+        "required": true,
+        "__meta": {
+          "name": "TellMe"
+        }
+      },
+      {
+        "projectID": 226406,
+        "fileID": 2857869,
+        "required": true,
+        "__meta": {
+          "name": "Custom Main Menu"
+        }
+      },
+      {
+        "projectID": 226447,
+        "fileID": 2477566,
+        "required": true,
+        "__meta": {
+          "name": "Resource Loader"
+        }
+      },
+      {
+        "projectID": 226719,
+        "fileID": 2672153,
+        "required": true,
+        "__meta": {
+          "name": "JurassiCraft",
+          "pinned": true,
+          "dependencies": [
+            243298
+          ]
+        }
+      },
+      {
+        "projectID": 227083,
+        "fileID": 2518667,
+        "required": true,
+        "__meta": {
+          "name": "Baubles"
+        }
+      },
+      {
+        "projectID": 227443,
+        "fileID": 2920505,
+        "required": true,
+        "__meta": {
+          "name": "Thermal Dynamics",
+          "dependencies": [
+            242818,
+            222880
+          ]
+        }
+      },
+      {
+        "projectID": 227639,
+        "fileID": 3051450,
+        "required": true,
+        "__meta": {
+          "name": "The Twilight Forest",
+          "dependencies": [
+            267602,
+            306770
+          ]
+        }
+      },
+      {
+        "projectID": 228404,
+        "fileID": 3117927,
+        "required": true,
+        "__meta": {
+          "name": "Actually Additions"
+        }
+      },
+      {
+        "projectID": 228525,
+        "fileID": 2836960,
+        "required": true,
+        "__meta": {
+          "name": "Bookshelf"
+        }
+      },
+      {
+        "projectID": 228895,
+        "fileID": 3112142,
+        "required": true,
+        "__meta": {
+          "name": "BiomeTweaker"
+        }
+      },
+      {
+        "projectID": 229208,
+        "fileID": 3004631,
+        "required": true,
+        "__meta": {
+          "name": "CD4017BE Library"
+        }
+      },
+      {
+        "projectID": 229218,
+        "fileID": 2855967,
+        "required": true,
+        "__meta": {
+          "name": "ExtraCells2",
+          "dependencies": [
+            223794
+          ]
+        }
+      },
+      {
+        "projectID": 229587,
+        "fileID": 2698688,
+        "required": true,
+        "__meta": {
+          "name": "BNBGamingLib"
+        }
+      },
+      {
+        "projectID": 229876,
+        "fileID": 2483393,
+        "required": true,
+        "__meta": {
+          "name": "BetterFps"
+        }
+      },
+      {
+        "projectID": 230497,
+        "fileID": 2450900,
+        "required": true,
+        "__meta": {
+          "name": "Chameleon"
+        }
+      },
+      {
+        "projectID": 231095,
+        "fileID": 2720655,
+        "required": true,
+        "__meta": {
+          "name": "Chisels & Bits"
+        }
+      },
+      {
+        "projectID": 231275,
+        "fileID": 2801170,
+        "required": true,
+        "__meta": {
+          "name": "Ding"
+        }
+      },
+      {
+        "projectID": 231347,
+        "fileID": 3477335,
+        "required": true,
+        "__meta": {
+          "name": "Mo' Bends"
+        }
+      },
+      {
+        "projectID": 231382,
+        "fileID": 3408276,
+        "required": true,
+        "__meta": {
+          "name": "Brandon's Core",
+          "dependencies": [
+            270789,
+            242818
+          ]
+        }
+      },
+      {
+        "projectID": 231951,
+        "fileID": 2974106,
+        "required": true,
+        "__meta": {
+          "name": "Immersive Engineering"
+        }
+      },
+      {
+        "projectID": 232564,
+        "fileID": 3280205,
+        "required": true,
+        "__meta": {
+          "name": "Thaumic Additions: Reconstructed",
+          "dependencies": [
+            247401,
+            223628
+          ]
+        }
+      },
+      {
+        "projectID": 232758,
+        "fileID": 3159497,
+        "required": true,
+        "__meta": {
+          "name": "Cyclops Core"
+        }
+      },
+      {
+        "projectID": 232791,
+        "fileID": 3330021,
+        "required": true,
+        "__meta": {
+          "name": "It's the little things"
+        }
+      },
+      {
+        "projectID": 233105,
+        "fileID": 2745846,
+        "required": true,
+        "__meta": {
+          "name": "McJtyLib"
+        }
+      },
+      {
+        "projectID": 235279,
+        "fileID": 2915375,
+        "required": true,
+        "__meta": {
+          "name": "Chisel",
+          "dependencies": [
+            267602
+          ]
+        }
+      },
+      {
+        "projectID": 235492,
+        "fileID": 2825547,
+        "required": true,
+        "__meta": {
+          "name": "Triumph",
+          "dependencies": [
+            274341,
+            272515,
+            229587
+          ]
+        }
+      },
+      {
+        "projectID": 236188,
+        "fileID": 3005254,
+        "required": true,
+        "__meta": {
+          "name": "AcademyCraft"
+        }
+      },
+      {
+        "projectID": 236541,
+        "fileID": 3499791,
+        "required": true,
+        "__meta": {
+          "name": "LibVulpes"
+        }
+      },
+      {
+        "projectID": 236542,
+        "fileID": 3487193,
+        "required": true,
+        "__meta": {
+          "name": "Advanced Rocketry",
+          "dependencies": [
+            236541
+          ]
+        }
+      },
+      {
+        "projectID": 237065,
+        "fileID": 3331364,
+        "required": true,
+        "__meta": {
+          "name": "ContentTweaker",
+          "dependencies": [
+            239197,
+            246996
+          ]
+        }
+      },
+      {
+        "projectID": 237102,
+        "fileID": 3157548,
+        "required": true,
+        "__meta": {
+          "name": "FTB Utilities (Forge)",
+          "dependencies": [
+            237167
+          ]
+        }
+      },
+      {
+        "projectID": 237167,
+        "fileID": 2985811,
+        "required": true,
+        "__meta": {
+          "name": "FTB Library (Forge) (Legacy)"
+        }
+      },
+      {
+        "projectID": 237307,
+        "fileID": 2937869,
+        "required": true,
+        "__meta": {
+          "name": "Cosmetic Armor Reworked"
+        }
+      },
+      {
+        "projectID": 237701,
+        "fileID": 2560638,
+        "required": true,
+        "__meta": {
+          "name": "ReAuth"
+        }
+      },
+      {
+        "projectID": 238222,
+        "fileID": 3043174,
+        "required": true,
+        "__meta": {
+          "name": "Just Enough Items (JEI)"
+        }
+      },
+      {
+        "projectID": 238911,
+        "fileID": 2604993,
+        "required": true,
+        "__meta": {
+          "name": "Grappling Hook Mod",
+          "pinned": true
+        }
+      },
+      {
+        "projectID": 239197,
+        "fileID": 3523955,
+        "required": true,
+        "__meta": {
+          "name": "CraftTweaker"
+        }
+      },
+      {
+        "projectID": 239431,
+        "fileID": 2615930,
+        "required": true,
+        "__meta": {
+          "name": "MCMultiPart"
+        }
+      },
+      {
+        "projectID": 240630,
+        "fileID": 2728585,
+        "required": true,
+        "__meta": {
+          "name": "Just Enough Resources (JER)",
+          "dependencies": [
+            238222
+          ]
+        }
+      },
+      {
+        "projectID": 240950,
+        "fileID": 2707390,
+        "required": true,
+        "__meta": {
+          "name": "RFTools Dimensions",
+          "dependencies": [
+            224641,
+            233105
+          ]
+        }
+      },
+      {
+        "projectID": 241542,
+        "fileID": 2505277,
+        "required": true,
+        "__meta": {
+          "name": "Biome Bundle",
+          "dependencies": [
+            265894
+          ]
+        }
+      },
+      {
+        "projectID": 241721,
+        "fileID": 3044416,
+        "required": true,
+        "__meta": {
+          "name": "Astral Sorcery",
+          "dependencies": [
+            227083
+          ]
+        }
+      },
+      {
+        "projectID": 241895,
+        "fileID": 2733525,
+        "required": true,
+        "__meta": {
+          "name": "KleeSlabs"
+        }
+      },
+      {
+        "projectID": 241941,
+        "fileID": 2545467,
+        "required": true,
+        "__meta": {
+          "name": "Chickens"
+        }
+      },
+      {
+        "projectID": 241967,
+        "fileID": 2966941,
+        "required": true,
+        "__meta": {
+          "name": "Ex Compressum"
+        }
+      },
+      {
+        "projectID": 242818,
+        "fileID": 2779848,
+        "required": true,
+        "__meta": {
+          "name": "CodeChicken Lib 1.8.+"
+        }
+      },
+      {
+        "projectID": 243298,
+        "fileID": 3116493,
+        "required": true,
+        "__meta": {
+          "name": "LLibrary"
+        }
+      },
+      {
+        "projectID": 243363,
+        "fileID": 3540284,
+        "required": true,
+        "__meta": {
+          "name": "[ANGRY PIXEL] The Betweenlands"
+        }
+      },
+      {
+        "projectID": 243478,
+        "fileID": 2745657,
+        "required": true,
+        "__meta": {
+          "name": "More Overlays"
+        }
+      },
+      {
+        "projectID": 243482,
+        "fileID": 2758220,
+        "required": true,
+        "__meta": {
+          "name": "Sky Resources 2"
+        }
+      },
+      {
+        "projectID": 244181,
+        "fileID": 2509046,
+        "required": true,
+        "__meta": {
+          "name": "Block Drops (JEI Addon)",
+          "dependencies": [
+            238222
+          ]
+        }
+      },
+      {
+        "projectID": 244201,
+        "fileID": 2958103,
+        "required": true,
+        "__meta": {
+          "name": "Techguns"
+        }
+      },
+      {
+        "projectID": 244451,
+        "fileID": 3516968,
+        "required": true,
+        "__meta": {
+          "name": "ICBM - Classic"
+        }
+      },
+      {
+        "projectID": 244844,
+        "fileID": 3505633,
+        "required": true,
+        "__meta": {
+          "name": "ForgeEndertech"
+        }
+      },
+      {
+        "projectID": 245211,
+        "fileID": 2667280,
+        "required": true,
+        "__meta": {
+          "name": "The One Probe"
+        }
+      },
+      {
+        "projectID": 245247,
+        "fileID": 2584086,
+        "required": true,
+        "__meta": {
+          "name": "Vanilla Immersion",
+          "dependencies": [
+            248453
+          ]
+        }
+      },
+      {
+        "projectID": 245287,
+        "fileID": 2658176,
+        "required": true,
+        "__meta": {
+          "name": "Morph-o-Tool",
+          "dependencies": [
+            250363
+          ]
+        }
+      },
+      {
+        "projectID": 246640,
+        "fileID": 2704562,
+        "required": true,
+        "__meta": {
+          "name": "Mystical Agriculture",
+          "dependencies": [
+            272335
+          ]
+        }
+      },
+      {
+        "projectID": 246996,
+        "fileID": 3440963,
+        "required": true,
+        "__meta": {
+          "name": "B.A.S.E"
+        }
+      },
+      {
+        "projectID": 247007,
+        "fileID": 3053017,
+        "required": true,
+        "__meta": {
+          "name": "Common Capabilities",
+          "dependencies": [
+            232758
+          ]
+        }
+      },
+      {
+        "projectID": 247111,
+        "fileID": 2887479,
+        "required": true,
+        "__meta": {
+          "name": "TOP Addons",
+          "dependencies": [
+            245211
+          ]
+        }
+      },
+      {
+        "projectID": 247401,
+        "fileID": 3493538,
+        "required": true,
+        "__meta": {
+          "name": "Hammer Lib"
+        }
+      },
+      {
+        "projectID": 248453,
+        "fileID": 2785465,
+        "required": true,
+        "__meta": {
+          "name": "Shadowfacts' Forgelin"
+        }
+      },
+      {
+        "projectID": 248787,
+        "fileID": 2987247,
+        "required": true,
+        "__meta": {
+          "name": "AppleSkin"
+        }
+      },
+      {
+        "projectID": 250290,
+        "fileID": 2916357,
+        "required": true,
+        "__meta": {
+          "name": "Surge"
+        }
+      },
+      {
+        "projectID": 250363,
+        "fileID": 2746011,
+        "required": true,
+        "__meta": {
+          "name": "AutoRegLib"
+        }
+      },
+      {
+        "projectID": 250398,
+        "fileID": 3025548,
+        "required": true,
+        "__meta": {
+          "name": "Controlling"
+        }
+      },
+      {
+        "projectID": 250577,
+        "fileID": 2648656,
+        "required": true,
+        "__meta": {
+          "name": "Akashic Tome",
+          "dependencies": [
+            250363
+          ]
+        }
+      },
+      {
+        "projectID": 250898,
+        "fileID": 2897369,
+        "required": true,
+        "__meta": {
+          "name": "Ore Excavation"
+        }
+      },
+      {
+        "projectID": 251121,
+        "fileID": 2664750,
+        "required": true,
+        "__meta": {
+          "name": "Industrial Wires",
+          "dependencies": [
+            231951
+          ]
+        }
+      },
+      {
+        "projectID": 251786,
+        "fileID": 2545468,
+        "required": true,
+        "__meta": {
+          "name": "More Chickens",
+          "dependencies": [
+            241941
+          ]
+        }
+      },
+      {
+        "projectID": 253211,
+        "fileID": 3308160,
+        "required": true,
+        "__meta": {
+          "name": "MTLib",
+          "dependencies": [
+            239197
+          ]
+        }
+      },
+      {
+        "projectID": 253230,
+        "fileID": 2465617,
+        "required": true,
+        "__meta": {
+          "name": "Initial Inventory",
+          "dependencies": [
+            239197,
+            253211
+          ]
+        }
+      },
+      {
+        "projectID": 253770,
+        "fileID": 2463898,
+        "required": true,
+        "__meta": {
+          "name": "More Default Options"
+        }
+      },
+      {
+        "projectID": 253874,
+        "fileID": 2989594,
+        "required": true,
+        "__meta": {
+          "name": "Guidebook"
+        }
+      },
+      {
+        "projectID": 254317,
+        "fileID": 2932048,
+        "required": true,
+        "__meta": {
+          "name": "Just Enough Dimensions"
+        }
+      },
+      {
+        "projectID": 254334,
+        "fileID": 3466259,
+        "required": true,
+        "__meta": {
+          "name": "OMLib"
+        }
+      },
+      {
+        "projectID": 254602,
+        "fileID": 3438487,
+        "required": true,
+        "__meta": {
+          "name": "Tesla Core Lib",
+          "dependencies": [
+            248453
+          ]
+        }
+      },
+      {
+        "projectID": 254794,
+        "fileID": 2713918,
+        "required": true,
+        "__meta": {
+          "name": "Tropicraft"
+        }
+      },
+      {
+        "projectID": 256247,
+        "fileID": 2704832,
+        "required": true,
+        "__meta": {
+          "name": "Mystical Agradditions",
+          "dependencies": [
+            246640,
+            272335
+          ]
+        }
+      },
+      {
+        "projectID": 256717,
+        "fileID": 2666198,
+        "required": true,
+        "__meta": {
+          "name": "Clumps"
+        }
+      },
+      {
+        "projectID": 257356,
+        "fileID": 3101719,
+        "required": true,
+        "__meta": {
+          "name": "In Control!"
+        }
+      },
+      {
+        "projectID": 257573,
+        "fileID": 3248033,
+        "required": true,
+        "__meta": {
+          "name": "Xtones"
+        }
+      },
+      {
+        "projectID": 257814,
+        "fileID": 3537907,
+        "required": true,
+        "__meta": {
+          "name": "CreativeCore"
+        }
+      },
+      {
+        "projectID": 257818,
+        "fileID": 3553559,
+        "required": true,
+        "__meta": {
+          "name": "LittleTiles",
+          "dependencies": [
+            257814
+          ]
+        }
+      },
+      {
+        "projectID": 258205,
+        "fileID": 3204340,
+        "required": true,
+        "__meta": {
+          "name": "RandomTweaks"
+        }
+      },
+      {
+        "projectID": 260912,
+        "fileID": 2745852,
+        "required": true,
+        "__meta": {
+          "name": "XNet",
+          "dependencies": [
+            233105
+          ]
+        }
+      },
+      {
+        "projectID": 261251,
+        "fileID": 3045651,
+        "required": true,
+        "__meta": {
+          "name": "Bad Wither No Cookie - Reloaded"
+        }
+      },
+      {
+        "projectID": 261725,
+        "fileID": 2643616,
+        "required": true,
+        "__meta": {
+          "name": "ItemZoom"
+        }
+      },
+      {
+        "projectID": 264111,
+        "fileID": 2615892,
+        "required": true,
+        "__meta": {
+          "name": "Charcoal Pit"
+        }
+      },
+      {
+        "projectID": 264231,
+        "fileID": 2939529,
+        "required": true,
+        "__meta": {
+          "name": "Ice and Fire: Dragons",
+          "dependencies": [
+            243298
+          ]
+        }
+      },
+      {
+        "projectID": 265894,
+        "fileID": 3559986,
+        "required": true,
+        "__meta": {
+          "name": "Open Terrain Generator (OTG)"
+        }
+      },
+      {
+        "projectID": 266784,
+        "fileID": 3146549,
+        "required": true,
+        "__meta": {
+          "name": "Scannable"
+        }
+      },
+      {
+        "projectID": 266824,
+        "fileID": 2810222,
+        "required": true,
+        "__meta": {
+          "name": "Caliper",
+          "dependencies": [
+            228525
+          ]
+        }
+      },
+      {
+        "projectID": 267193,
+        "fileID": 3490718,
+        "required": true,
+        "__meta": {
+          "name": "Chunk-Pregenerator"
+        }
+      },
+      {
+        "projectID": 267602,
+        "fileID": 2915363,
+        "required": true,
+        "__meta": {
+          "name": "ConnectedTexturesMod"
+        }
+      },
+      {
+        "projectID": 268250,
+        "fileID": 3382321,
+        "required": true,
+        "__meta": {
+          "name": "Immersive Petroleum",
+          "dependencies": [
+            231951
+          ]
+        }
+      },
+      {
+        "projectID": 268387,
+        "fileID": 2777071,
+        "required": true,
+        "__meta": {
+          "name": "Extended Crafting",
+          "dependencies": [
+            272335
+          ]
+        }
+      },
+      {
+        "projectID": 268560,
+        "fileID": 2835175,
+        "required": true,
+        "__meta": {
+          "name": "Mekanism"
+        }
+      },
+      {
+        "projectID": 268566,
+        "fileID": 2835177,
+        "required": true,
+        "__meta": {
+          "name": "Mekanism Generators",
+          "dependencies": [
+            268560
+          ]
+        }
+      },
+      {
+        "projectID": 268567,
+        "fileID": 2835178,
+        "required": true,
+        "__meta": {
+          "name": "Mekanism Tools",
+          "dependencies": [
+            268560
+          ]
+        }
+      },
+      {
+        "projectID": 268655,
+        "fileID": 2951840,
+        "required": true,
+        "__meta": {
+          "name": "Game Stages",
+          "dependencies": [
+            228525
+          ]
+        }
+      },
+      {
+        "projectID": 269054,
+        "fileID": 2525195,
+        "required": true,
+        "__meta": {
+          "name": "OC Sensors",
+          "dependencies": [
+            223008
+          ]
+        }
+      },
+      {
+        "projectID": 269141,
+        "fileID": 3168903,
+        "required": true,
+        "__meta": {
+          "name": "Simple Sponge",
+          "dependencies": [
+            356646
+          ]
+        }
+      },
+      {
+        "projectID": 269359,
+        "fileID": 3271509,
+        "required": true,
+        "__meta": {
+          "name": "Tick Dynamic"
+        }
+      },
+      {
+        "projectID": 270457,
+        "fileID": 2918455,
+        "required": true,
+        "__meta": {
+          "name": "Improved Backpacks"
+        }
+      },
+      {
+        "projectID": 270789,
+        "fileID": 2920436,
+        "required": true,
+        "__meta": {
+          "name": "Redstone Flux"
+        }
+      },
+      {
+        "projectID": 270790,
+        "fileID": 2761302,
+        "required": true,
+        "__meta": {
+          "name": "Modular Machinery"
+        }
+      },
+      {
+        "projectID": 271009,
+        "fileID": 2863246,
+        "required": true,
+        "__meta": {
+          "name": "Forgiving Void"
+        }
+      },
+      {
+        "projectID": 271384,
+        "fileID": 2920434,
+        "required": true,
+        "__meta": {
+          "name": "CoFH World"
+        }
+      },
+      {
+        "projectID": 271740,
+        "fileID": 2707353,
+        "required": true,
+        "__meta": {
+          "name": "Toast Control",
+          "dependencies": [
+            283644
+          ]
+        }
+      },
+      {
+        "projectID": 272335,
+        "fileID": 2645867,
+        "required": true,
+        "__meta": {
+          "name": "Cucumber Library"
+        }
+      },
+      {
+        "projectID": 272515,
+        "fileID": 2685984,
+        "required": true,
+        "__meta": {
+          "name": "Better Advancements"
+        }
+      },
+      {
+        "projectID": 274081,
+        "fileID": 2463318,
+        "required": true,
+        "__meta": {
+          "name": "Modern Lights"
+        }
+      },
+      {
+        "projectID": 274159,
+        "fileID": 2568579,
+        "required": true,
+        "__meta": {
+          "name": "Immersive Tech"
+        }
+      },
+      {
+        "projectID": 274341,
+        "fileID": 2991671,
+        "required": true,
+        "__meta": {
+          "name": "BnBGamingCore"
+        }
+      },
+      {
+        "projectID": 274456,
+        "fileID": 2817545,
+        "required": true,
+        "__meta": {
+          "name": "Ex Nihilo: Creatio",
+          "dependencies": [
+            248453
+          ]
+        }
+      },
+      {
+        "projectID": 275343,
+        "fileID": 2632938,
+        "required": true,
+        "__meta": {
+          "name": "TinkerStages",
+          "dependencies": [
+            74072,
+            268655,
+            239197,
+            74924
+          ]
+        }
+      },
+      {
+        "projectID": 276951,
+        "fileID": 2880613,
+        "required": true,
+        "__meta": {
+          "name": "Comforts (Forge)"
+        }
+      },
+      {
+        "projectID": 277064,
+        "fileID": 3483816,
+        "required": true,
+        "__meta": {
+          "name": "MysticalLib"
+        }
+      },
+      {
+        "projectID": 277631,
+        "fileID": 2750633,
+        "required": true,
+        "__meta": {
+          "name": "ArchitectureCraft - TridentMC Version"
+        }
+      },
+      {
+        "projectID": 277663,
+        "fileID": 2744735,
+        "required": true,
+        "__meta": {
+          "name": "ModelLoader"
+        }
+      },
+      {
+        "projectID": 277711,
+        "fileID": 2702080,
+        "required": true,
+        "__meta": {
+          "name": "Roost"
+        }
+      },
+      {
+        "projectID": 277890,
+        "fileID": 2555574,
+        "required": true,
+        "__meta": {
+          "name": "Water Control Extreme"
+        }
+      },
+      {
+        "projectID": 278493,
+        "fileID": 3319307,
+        "required": true,
+        "__meta": {
+          "name": "Unlimited Chisel Works"
+        }
+      },
+      {
+        "projectID": 278494,
+        "fileID": 3327893,
+        "required": true,
+        "__meta": {
+          "name": "Foam​Fix"
+        }
+      },
+      {
+        "projectID": 278822,
+        "fileID": 3178832,
+        "required": true,
+        "__meta": {
+          "name": "Factory Tech"
+        }
+      },
+      {
+        "projectID": 278882,
+        "fileID": 2716712,
+        "required": true,
+        "__meta": {
+          "name": "Blockcraftery",
+          "dependencies": [
+            277064
+          ]
+        }
+      },
+      {
+        "projectID": 278993,
+        "fileID": 2846217,
+        "required": true,
+        "__meta": {
+          "name": "Bonsai Trees 2"
+        }
+      },
+      {
+        "projectID": 280294,
+        "fileID": 3362160,
+        "required": true,
+        "__meta": {
+          "name": "FPS Reducer"
+        }
+      },
+      {
+        "projectID": 280316,
+        "fileID": 2810185,
+        "required": true,
+        "__meta": {
+          "name": "Item Stages",
+          "dependencies": [
+            268655,
+            239197
+          ]
+        }
+      },
+      {
+        "projectID": 280510,
+        "fileID": 2810157,
+        "required": true,
+        "__meta": {
+          "name": "AttributeFix"
+        }
+      },
+      {
+        "projectID": 280554,
+        "fileID": 3405071,
+        "required": true,
+        "__meta": {
+          "name": "Recipe Stages"
+        }
+      },
+      {
+        "projectID": 281849,
+        "fileID": 2978408,
+        "required": true,
+        "__meta": {
+          "name": "PneumaticCraft: Repressurized"
+        }
+      },
+      {
+        "projectID": 282947,
+        "fileID": 2721067,
+        "required": true,
+        "__meta": {
+          "name": "Baubley Heart Canisters",
+          "dependencies": [
+            74924,
+            227083
+          ]
+        }
+      },
+      {
+        "projectID": 282988,
+        "fileID": 2598021,
+        "required": true,
+        "__meta": {
+          "name": "Scavenge"
+        }
+      },
+      {
+        "projectID": 283525,
+        "fileID": 2947622,
+        "required": true,
+        "__meta": {
+          "name": "LagGoggles",
+          "dependencies": [
+            377201
+          ]
+        }
+      },
+      {
+        "projectID": 283589,
+        "fileID": 2708030,
+        "required": true,
+        "__meta": {
+          "name": "YNot",
+          "dependencies": [
+            260912
+          ]
+        }
+      },
+      {
+        "projectID": 283644,
+        "fileID": 2694382,
+        "required": true,
+        "__meta": {
+          "name": "Placebo"
+        }
+      },
+      {
+        "projectID": 284139,
+        "fileID": 2821069,
+        "required": true,
+        "__meta": {
+          "name": "MultiBlock Stages",
+          "dependencies": [
+            239197,
+            231951,
+            268655
+          ]
+        }
+      },
+      {
+        "projectID": 284523,
+        "fileID": 3066682,
+        "required": true,
+        "__meta": {
+          "name": "Charset Lib"
+        }
+      },
+      {
+        "projectID": 284754,
+        "fileID": 2725062,
+        "required": true,
+        "__meta": {
+          "name": "Mob Spawner Control"
+        }
+      },
+      {
+        "projectID": 285385,
+        "fileID": 2634368,
+        "required": true,
+        "__meta": {
+          "name": "OC XNet Driver"
+        }
+      },
+      {
+        "projectID": 285492,
+        "fileID": 2705304,
+        "required": true,
+        "__meta": {
+          "name": "Thaumic JEI",
+          "dependencies": [
+            223628,
+            238222
+          ]
+        }
+      },
+      {
+        "projectID": 285612,
+        "fileID": 3133651,
+        "required": true,
+        "__meta": {
+          "name": "RandomPatches (Forge)"
+        }
+      },
+      {
+        "projectID": 285968,
+        "fileID": 2700901,
+        "required": true,
+        "__meta": {
+          "name": "Together Forever"
+        }
+      },
+      {
+        "projectID": 286230,
+        "fileID": 2572528,
+        "required": true,
+        "__meta": {
+          "name": "Unloader"
+        }
+      },
+      {
+        "projectID": 286530,
+        "fileID": 2695912,
+        "required": true,
+        "__meta": {
+          "name": "Glacidus"
+        }
+      },
+      {
+        "projectID": 288959,
+        "fileID": 2535057,
+        "required": true,
+        "__meta": {
+          "name": "MystAgrad Cloche Compat",
+          "dependencies": [
+            231951,
+            256247
+          ]
+        }
+      },
+      {
+        "projectID": 289316,
+        "fileID": 2745283,
+        "required": true,
+        "__meta": {
+          "name": "SimpleLogic Gates",
+          "dependencies": [
+            284523
+          ]
+        }
+      },
+      {
+        "projectID": 289412,
+        "fileID": 3156637,
+        "required": true,
+        "__meta": {
+          "name": "FTB Quests (Forge)",
+          "dependencies": [
+            237167,
+            309674
+          ]
+        }
+      },
+      {
+        "projectID": 291126,
+        "fileID": 3023901,
+        "required": true,
+        "__meta": {
+          "name": "Engineer's Doors",
+          "dependencies": [
+            231951
+          ]
+        }
+      },
+      {
+        "projectID": 291429,
+        "fileID": 2814421,
+        "required": true,
+        "__meta": {
+          "name": "Admin Shop"
+        }
+      },
+      {
+        "projectID": 291493,
+        "fileID": 2718784,
+        "required": true,
+        "__meta": {
+          "name": "Portality",
+          "dependencies": [
+            267602
+          ]
+        }
+      },
+      {
+        "projectID": 291727,
+        "fileID": 2549332,
+        "required": true,
+        "__meta": {
+          "name": "Just Enough Petroleum",
+          "dependencies": [
+            268250
+          ]
+        }
+      },
+      {
+        "projectID": 292238,
+        "fileID": 3062353,
+        "required": true,
+        "__meta": {
+          "name": "Dregora | 245+ Custom Biomes",
+          "dependencies": [
+            265894
+          ]
+        }
+      },
+      {
+        "projectID": 292785,
+        "fileID": 2915154,
+        "required": true,
+        "__meta": {
+          "name": "VanillaFix"
+        }
+      },
+      {
+        "projectID": 293110,
+        "fileID": 2781748,
+        "required": true,
+        "__meta": {
+          "name": "MekaTweaker",
+          "dependencies": [
+            226447,
+            239197,
+            268560
+          ]
+        }
+      },
+      {
+        "projectID": 293425,
+        "fileID": 3186612,
+        "required": true,
+        "__meta": {
+          "name": "Alchemistry",
+          "dependencies": [
+            248453,
+            293426
+          ]
+        }
+      },
+      {
+        "projectID": 293426,
+        "fileID": 2761706,
+        "required": true,
+        "__meta": {
+          "name": "A Lib",
+          "dependencies": [
+            248453
+          ]
+        }
+      },
+      {
+        "projectID": 293817,
+        "fileID": 2672311,
+        "required": true,
+        "__meta": {
+          "name": "RandomConfigs"
+        }
+      },
+      {
+        "projectID": 296057,
+        "fileID": 2573063,
+        "required": true,
+        "__meta": {
+          "name": "No Nether Portals"
+        }
+      },
+      {
+        "projectID": 296289,
+        "fileID": 2919737,
+        "required": true,
+        "__meta": {
+          "name": "JustEnoughIDs"
+        }
+      },
+      {
+        "projectID": 296384,
+        "fileID": 2974926,
+        "required": true,
+        "__meta": {
+          "name": "ZenStages",
+          "dependencies": [
+            239197,
+            268655
+          ]
+        }
+      },
+      {
+        "projectID": 296686,
+        "fileID": 3097911,
+        "required": true,
+        "__meta": {
+          "name": "Gauges and Switches"
+        }
+      },
+      {
+        "projectID": 296851,
+        "fileID": 2936858,
+        "required": true,
+        "__meta": {
+          "name": "Catwalks 4"
+        }
+      },
+      {
+        "projectID": 297878,
+        "fileID": 3065647,
+        "required": true,
+        "__meta": {
+          "name": "Topography",
+          "dependencies": [
+            229587,
+            274341
+          ]
+        }
+      },
+      {
+        "projectID": 298187,
+        "fileID": 3005950,
+        "required": true,
+        "__meta": {
+          "name": "Building Gadgets"
+        }
+      },
+      {
+        "projectID": 298582,
+        "fileID": 3367186,
+        "required": true,
+        "__meta": {
+          "name": "Cave Generator"
+        }
+      },
+      {
+        "projectID": 298995,
+        "fileID": 3273132,
+        "required": true,
+        "__meta": {
+          "name": "SCP: Lockdown"
+        }
+      },
+      {
+        "projectID": 299849,
+        "fileID": 3340876,
+        "required": true,
+        "__meta": {
+          "name": "Industrial Renewal"
+        }
+      },
+      {
+        "projectID": 300331,
+        "fileID": 2754916,
+        "required": true,
+        "__meta": {
+          "name": "Simply Light",
+          "dependencies": [
+            248453
+          ]
+        }
+      },
+      {
+        "projectID": 301356,
+        "fileID": 3091010,
+        "required": true,
+        "__meta": {
+          "name": "Demagnetize"
+        }
+      },
+      {
+        "projectID": 302113,
+        "fileID": 2847346,
+        "required": true,
+        "__meta": {
+          "name": "Effortless Building"
+        }
+      },
+      {
+        "projectID": 303375,
+        "fileID": 2634700,
+        "required": true,
+        "__meta": {
+          "name": "SimpleZoom"
+        }
+      },
+      {
+        "projectID": 303876,
+        "fileID": 2623013,
+        "required": true,
+        "__meta": {
+          "name": "Resource Reloader"
+        }
+      },
+      {
+        "projectID": 304287,
+        "fileID": 2625862,
+        "required": true,
+        "__meta": {
+          "name": "Custom Nausea (Forge) (Discontinued)"
+        }
+      },
+      {
+        "projectID": 305120,
+        "fileID": 2638122,
+        "required": true,
+        "__meta": {
+          "name": "Ageing Mobs"
+        }
+      },
+      {
+        "projectID": 306540,
+        "fileID": 2774818,
+        "required": true,
+        "__meta": {
+          "name": "Delivery",
+          "dependencies": [
+            239197
+          ]
+        }
+      },
+      {
+        "projectID": 306555,
+        "fileID": 2707092,
+        "required": true,
+        "__meta": {
+          "name": "Sound Device Options"
+        }
+      },
+      {
+        "projectID": 306770,
+        "fileID": 3162874,
+        "required": true,
+        "__meta": {
+          "name": "Patchouli"
+        }
+      },
+      {
+        "projectID": 308192,
+        "fileID": 2699215,
+        "required": true,
+        "__meta": {
+          "name": "Matter Overdrive: Legacy Edition"
+        }
+      },
+      {
+        "projectID": 309674,
+        "fileID": 3003364,
+        "required": true,
+        "__meta": {
+          "name": "Item Filters (Forge)"
+        }
+      },
+      {
+        "projectID": 310303,
+        "fileID": 3089030,
+        "required": true,
+        "__meta": {
+          "name": "Better Diving"
+        }
+      },
+      {
+        "projectID": 310812,
+        "fileID": 2783832,
+        "required": true,
+        "__meta": {
+          "name": "Just Enough Energistics (JEE)",
+          "dependencies": [
+            223794,
+            238222
+          ]
+        }
+      },
+      {
+        "projectID": 310992,
+        "fileID": 2937031,
+        "required": true,
+        "__meta": {
+          "name": "Vertically Stacked Dimensions",
+          "dependencies": [
+            229208
+          ]
+        }
+      },
+      {
+        "projectID": 311201,
+        "fileID": 2663543,
+        "required": true,
+        "__meta": {
+          "name": "Power Chisels",
+          "dependencies": [
+            235279
+          ]
+        }
+      },
+      {
+        "projectID": 312918,
+        "fileID": 2827455,
+        "required": true,
+        "__meta": {
+          "name": "Blue Skies"
+        }
+      },
+      {
+        "projectID": 313866,
+        "fileID": 3468576,
+        "required": true,
+        "__meta": {
+          "name": "Engineer's Decor"
+        }
+      },
+      {
+        "projectID": 314904,
+        "fileID": 2819669,
+        "required": true,
+        "__meta": {
+          "name": "FTB Backups (Forge)"
+        }
+      },
+      {
+        "projectID": 316582,
+        "fileID": 3010808,
+        "required": true,
+        "__meta": {
+          "name": "Corpse"
+        }
+      },
+      {
+        "projectID": 318255,
+        "fileID": 2919497,
+        "required": true,
+        "__meta": {
+          "name": "Phosphor (Forge)"
+        }
+      },
+      {
+        "projectID": 319441,
+        "fileID": 3536155,
+        "required": true,
+        "__meta": {
+          "name": "Thaumic Augmentation",
+          "dependencies": [
+            223628,
+            227083
+          ]
+        }
+      },
+      {
+        "projectID": 321092,
+        "fileID": 3225614,
+        "required": true,
+        "__meta": {
+          "name": "Gambling Style"
+        }
+      },
+      {
+        "projectID": 321315,
+        "fileID": 2792370,
+        "required": true,
+        "__meta": {
+          "name": "HungerTweaker",
+          "dependencies": [
+            224472,
+            239197
+          ]
+        }
+      },
+      {
+        "projectID": 321720,
+        "fileID": 2711427,
+        "required": true,
+        "__meta": {
+          "name": "AE2 Network Visualiser",
+          "dependencies": [
+            223794,
+            242818,
+            231382
+          ]
+        }
+      },
+      {
+        "projectID": 321792,
+        "fileID": 3198382,
+        "required": true,
+        "__meta": {
+          "name": "Aqua Acrobatics",
+          "dependencies": [
+            357178
+          ]
+        }
+      },
+      {
+        "projectID": 322764,
+        "fileID": 3491956,
+        "required": true,
+        "__meta": {
+          "name": "Let Me Sleep"
+        }
+      },
+      {
+        "projectID": 325357,
+        "fileID": 2754959,
+        "required": true,
+        "__meta": {
+          "name": "OpenScreens",
+          "dependencies": [
+            223008
+          ]
+        }
+      },
+      {
+        "projectID": 335689,
+        "fileID": 2766324,
+        "required": true,
+        "__meta": {
+          "name": "Vanilla Vistas",
+          "dependencies": [
+            265894
+          ]
+        }
+      },
+      {
+        "projectID": 336895,
+        "fileID": 3386487,
+        "required": true,
+        "__meta": {
+          "name": "NuclearCraft: Overhauled"
+        }
+      },
+      {
+        "projectID": 339350,
+        "fileID": 2854820,
+        "required": true,
+        "__meta": {
+          "name": "Delivery Merchants",
+          "dependencies": [
+            306540
+          ]
+        }
+      },
+      {
+        "projectID": 352137,
+        "fileID": 3331597,
+        "required": true,
+        "__meta": {
+          "name": "The Aurorian"
+        }
+      },
+      {
+        "projectID": 353447,
+        "fileID": 2997589,
+        "required": true,
+        "__meta": {
+          "name": "Emerging Technology"
+        }
+      },
+      {
+        "projectID": 354143,
+        "fileID": 3511568,
+        "required": true,
+        "__meta": {
+          "name": "Performant"
+        }
+      },
+      {
+        "projectID": 356646,
+        "fileID": 3168863,
+        "required": true,
+        "__meta": {
+          "name": "GunpowderLib"
+        }
+      },
+      {
+        "projectID": 362056,
+        "fileID": 3493623,
+        "required": true,
+        "__meta": {
+          "name": "QMD",
+          "dependencies": [
+            336895
+          ]
+        }
+      },
+      {
+        "projectID": 366140,
+        "fileID": 2898681,
+        "required": true,
+        "__meta": {
+          "name": "Dynamic View[Forge/Fabric]"
+        }
+      },
+      {
+        "projectID": 377201,
+        "fileID": 3140670,
+        "required": true,
+        "__meta": {
+          "name": "TickCentral"
+        }
+      },
+      {
+        "projectID": 378646,
+        "fileID": 3340797,
+        "required": true,
+        "__meta": {
+          "name": "Macaw's Doors"
+        }
+      },
+      {
+        "projectID": 380401,
+        "fileID": 3191629,
+        "required": true,
+        "__meta": {
+          "name": "WorldEditCUI Forge Edition 3"
+        }
+      },
+      {
+        "projectID": 381658,
+        "fileID": 3263908,
+        "required": true,
+        "__meta": {
+          "name": "Builder's Bag"
+        }
+      },
+      {
+        "projectID": 401178,
+        "fileID": 3553466,
+        "required": true,
+        "__meta": {
+          "name": "Zen Utils",
+          "dependencies": [
+            270789,
+            239197
+          ]
+        }
+      },
+      {
+        "projectID": 408853,
+        "fileID": 3530681,
+        "required": true,
+        "__meta": {
+          "name": "Particle Culling",
+          "dependencies": [
+            357178
+          ]
+        }
+      },
+      {
+        "projectID": 412108,
+        "fileID": 3268062,
+        "required": true,
+        "__meta": {
+          "name": "OCRocketry",
+          "dependencies": [
+            223008,
+            236542
+          ]
+        }
+      },
+      {
+        "projectID": 416864,
+        "fileID": 3098521,
+        "required": true,
+        "__meta": {
+          "name": "Alien Jungle",
+          "dependencies": [
+            265894
+          ]
+        }
+      },
+      {
+        "projectID": 419286,
+        "fileID": 3321174,
+        "required": true,
+        "__meta": {
+          "name": "MixinBooter"
+        }
+      },
+      {
+        "projectID": 429642,
+        "fileID": 3526794,
+        "required": true,
+        "__meta": {
+          "name": "Kiro's Basic Blocks",
+          "dependencies": [
+            257818
+          ]
+        }
+      },
+      {
+        "projectID": 435557,
+        "fileID": 3522790,
+        "required": true,
+        "__meta": {
+          "name": "LittleFrames",
+          "dependencies": [
+            257814,
+            257818
+          ]
+        }
+      },
+      {
+        "projectID": 447846,
+        "fileID": 3524446,
+        "required": true,
+        "__meta": {
+          "name": "Advanced Rocketry Pixelated - AR16x16"
+        }
+      },
+      {
+        "projectID": 453979,
+        "fileID": 3231425,
+        "required": true,
+        "__meta": {
+          "name": "Wildlands",
+          "dependencies": [
+            265894
+          ]
+        }
+      },
+      {
+        "projectID": 460609,
+        "fileID": 3551623,
+        "required": true,
+        "__meta": {
+          "name": "SneedASM",
+          "dependencies": [
+            419286
+          ]
+        }
+      },
+      {
+        "projectID": 525389,
+        "fileID": 3544884,
+        "required": true,
+        "__meta": {
+          "name": "Modular Controller",
+          "dependencies": [
+            239197,
+            419286,
+            270790
+          ]
+        }
+      },
+      {
+        "projectID": 530919,
+        "fileID": 3537921,
+        "required": true,
+        "__meta": {
+          "name": "GuGu Utils",
+          "dependencies": [
+            242818,
+            233105
+          ]
+        }
+      },
+      {
+        "projectID": 545353,
+        "fileID": 3519479,
+        "required": true,
+        "__meta": {
+          "name": "Tinkers OreDict Cache",
+          "dependencies": [
+            419286,
+            74072
+          ]
+        }
+      }
+    ]
+  }

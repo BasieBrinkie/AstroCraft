@@ -1,0 +1,6 @@
+
+{
+  "Name": "ranged_rogue_android",
+  "Registry ID": "matteroverdrive:ranged_rogue_android",
+  "Class": "matteroverdrive.entity.monster.EntityRangedRogueAndroidMob"
+}

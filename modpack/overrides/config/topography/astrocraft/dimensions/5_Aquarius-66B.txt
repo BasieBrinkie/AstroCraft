@@ -1,0 +1,40 @@
+//world = new OverworldGenerator()
+
+//Set world layers
+
+layers = new LayerGenerator()
+layers.addLayer(0~0, <minecraft:bedrock>)
+addGenerator(layers)
+
+layers = new LayerGenerator()
+layers.addLayer(1~5, <minecraft:obsidian>)
+addGenerator(layers)
+
+layers = new LayerGenerator()
+layers.addLayer(5~179, <minecraft:stone>)
+addGenerator(layers)
+
+layers = new LayerGenerator()
+layers.addLayer(180~200, <minecraft:water>)
+addGenerator(layers)
+
+//caves = new VanillaCaveGenerator()
+//222addGenerator(caves)
+
+setSingleBiome("minecraft:ocean")
+
+//world.setSeaLevel(240)
+//addGenerator(world)
+
+
+//Skybox handing
+sky = setSkyRenderer()
+
+night = sky.addSkybox("astrocraft:textures/skybox/sky_aquarius_day.png")
+
+day = sky.addSkybox("astrocraft:textures/skybox/sky_aquarius_day.png")
+sky.addSunMoon()
+
+disableClouds()
+
+useWorldTypeTerrain()

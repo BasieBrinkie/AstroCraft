@@ -1,0 +1,18 @@
+{
+	x: 2.0d,
+	y: 2.0d,
+	dependencies: [
+		"e60dc75b"
+	],
+	tasks: [{
+		uid: "638b2956",
+		type: "item",
+		items: [{
+			id: "minecraft:dye",
+			Damage: 15s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

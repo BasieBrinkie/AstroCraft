@@ -1,0 +1,23 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	dependencies: [
+		"18e670a5"
+	],
+	tasks: [{
+		uid: "0b88b45d",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "kerosene",
+				Amount: 1000
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

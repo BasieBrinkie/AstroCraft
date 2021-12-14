@@ -1,0 +1,14 @@
+{
+	x: 2.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "5252539d",
+		type: "item",
+		items: [{
+			id: "techguns:item_door3x3",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

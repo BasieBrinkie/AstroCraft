@@ -1,0 +1,22 @@
+{
+	x: 16.0d,
+	y: 3.0d,
+	description: "Stronger gears",
+	text: [
+		"This tier 1 gear can be used in the factory tech machines. It lasts much longer than the gear you could make earlier."
+	],
+	dependencies: [
+		"430eb9c7"
+	],
+	tasks: [{
+		uid: "2ee615f9",
+		type: "item",
+		items: [{
+			id: "factorytech:machinepart",
+			Damage: 14s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

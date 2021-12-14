@@ -1,0 +1,6 @@
+
+{
+  "Name": "rogue_android",
+  "Registry ID": "matteroverdrive:rogue_android",
+  "Class": "matteroverdrive.entity.monster.EntityMeleeRougeAndroidMob"
+}

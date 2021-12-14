@@ -1,0 +1,23 @@
+{
+	x: 11.5d,
+	y: -3.0d,
+	description: "Condenses better",
+	text: [
+		"Only has an higher efficiency. Each recipe will then consumes less HU. The efficiency for the Iron Condenser is 121%.",
+		"It will then use less of the item you're trying to condense. The stats stack with the casing efficiency."
+	],
+	dependencies: [
+		"180c9647"
+	],
+	tasks: [{
+		uid: "81bf5e6d",
+		type: "item",
+		items: [{
+			id: "skyresources:condenser",
+			Damage: 3s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}
