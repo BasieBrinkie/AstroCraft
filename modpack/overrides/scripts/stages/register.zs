@@ -193,16 +193,17 @@ global itemFactorytechCrate as Stage = ZenStager.initStage("item_factorytech_cra
 global stageTank1 as Stage = ZenStager.initStage("tank_one");
 
 //Minecraft
-global stageCrook as Stage = ZenStager.initStage("crook");
-global stageDiamondPickaxe as Stage = ZenStager.initStage("diamond_pickaxe");
-global stageEmerald as Stage = ZenStager.initStage("emerald");
-global stageIronTools as Stage = ZenStager.initStage("iron_tools");
-global stageFurnace as Stage = ZenStager.initStage("furnace");
-global stageHammer as Stage = ZenStager.initStage("hammer");
-global stageLeaves as Stage = ZenStager.initStage("leaves");
-global stageShears as Stage = ZenStager.initStage("shears");
-global stageStone as Stage = ZenStager.initStage("stone");
-global stageStoneTools as Stage = ZenStager.initStage("stone_tools");
+global itemCrook as Stage = ZenStager.initStage("crook");
+global itemDiamondPickaxe as Stage = ZenStager.initStage("diamond_pickaxe");
+global itemDirt as Stage = ZenStager.initStage("dirt");
+global itemEmerald as Stage = ZenStager.initStage("emerald");
+global itemIronTools as Stage = ZenStager.initStage("iron_tools");
+global itemFurnace as Stage = ZenStager.initStage("furnace");
+global itemHammer as Stage = ZenStager.initStage("hammer");
+global itemLeaves as Stage = ZenStager.initStage("leaves");
+global itemShears as Stage = ZenStager.initStage("shears");
+global itemStone as Stage = ZenStager.initStage("stone");
+global itemStoneTools as Stage = ZenStager.initStage("stone_tools");
 global stageWoodTools as Stage = ZenStager.initStage("wood_tools");
 
 

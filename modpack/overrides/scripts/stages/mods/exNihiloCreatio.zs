@@ -39,12 +39,12 @@ static stagedItems as IIngredient[][string] = {
 		<exnihilocreatio:hammer_iron:*>
 	],
 
-	stageHammer.stage: [
+	itemHammer.stage: [
 		<exnihilocreatio:hammer_stone:*>,
 		<exnihilocreatio:hammer_wood:*>,
 	],
 	//Items
-	stageCrook.stage: [
+	itemCrook.stage: [
 		<exnihilocreatio:crook_iron:*>,
 		<exnihilocreatio:crook_wood:*>,
 	],

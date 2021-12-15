@@ -1,6 +1,10 @@
 {
 	x: 3.0d,
 	y: -1.0d,
+	description: "Small pieces of the lumicia stalk",
+	text: [
+		"The lumicia stalk contains small pieces of living wood that can be extracted with the crushing table."
+	],
 	dependencies: [
 		"1baf478b",
 		"e7aadb40"

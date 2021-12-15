@@ -1,6 +1,10 @@
 {
 	x: 4.5d,
 	y: 0.0d,
+	description: "Heated lumicia stalk turns into a gluey mess",
+	text: [
+		""
+	],
 	dependencies: [
 		"52d56e44"
 	],

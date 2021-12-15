@@ -1,9 +1,9 @@
 {
 	x: 1.5d,
-	y: 0.0d,
+	y: -1.0d,
 	description: "Basic tools",
 	text: [
-		"We need real stone not that frozen blah blah blah stone!"
+		"The crushing table can be used to crush the objects to place onto them. To actually smash the object you right click the table multiple times with a magneticraft hammer."
 	],
 	dependencies: [
 		"dcdfc562"

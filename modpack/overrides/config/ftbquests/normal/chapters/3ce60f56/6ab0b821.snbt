@@ -1,6 +1,11 @@
 {
 	x: 4.5d,
 	y: 2.0d,
+	description: "Simply defrosted antinatric stone",
+	text: [
+		"Although you could use frozen antinatric stone for the living rock transformation, thawed antinatric stone is 4 times quicker to transform compared to the frozen variant.",
+		"The only variant that transforms even faster is just plain old regular stone."
+	],
 	dependencies: [
 		"52d56e44"
 	],

@@ -1,11 +1,34 @@
 {
-	x: 6.0d,
-	y: 1.5d,
+	x: 4.5d,
+	y: 5.0d,
+	description: "The first step to botanics",
+	text: [
+		"If the lumicia grass or dirt is mined it will turn into regular dirt that is usable for farming.",
+		"Now we can make/find a pure daisy to start converting stone into livingrock. "
+	],
+	dependencies: [
+		"e3a02ef8",
+		"6ab0b821"
+	],
+	dependency_requirement: "one_completed",
 	tasks: [{
-		uid: "74642284",
+		uid: "10bf0257",
 		type: "item",
 		items: [{
-			id: "botania:livingrock",
+			id: "botania:specialflower",
+			tag: {
+				type: "puredaisy"
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	},
+	{
+		uid: "a1ee9fde",
+		type: "item",
+		items: [{
+			id: "minecraft:dirt",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			}

@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: -1.5d,
+	description: "In case you cannot find any",
+	text: [
+		""
+	],
+	dependencies: [
+		"dcdfc562"
+	],
+	tasks: [{
+		uid: "931f346b",
+		type: "item",
+		items: [{
+			id: "aether:aether_crafting_table",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

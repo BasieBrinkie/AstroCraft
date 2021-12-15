@@ -17,8 +17,14 @@ import crafttweaker.event.BlockHarvestDropsEvent;
 */
 static normalDrops as IItemStack[][string] = {
 	//Glacidus
-	"glacidus:dead_lumicia":[
+	"glacidus:dead_lumicia": [
 		<glacidus:dead_lumicia:0>
+	],
+	"glacidus:lumicia_grass": [
+		<minecraft:dirt:0>
+	],
+	"glacidus:lumicia_dirt": [
+		<minecraft:dirt:0>
 	],
 	
 	//Minecraft

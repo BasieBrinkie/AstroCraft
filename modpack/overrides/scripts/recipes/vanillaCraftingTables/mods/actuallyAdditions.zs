@@ -27,7 +27,14 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <excompressum:uncompressed_coal:0>, <excompressum:uncompressed_coal:0>],
 			[null, null, <excompressum:uncompressed_coal:0>]
 		]
-	]
+	],
+	<actuallyadditions:item_misc:12>: [
+		[
+			[null, <actuallyadditions:item_misc:9>, null],
+			[<actuallyadditions:item_misc:9>,<actuallyadditions:item_misc:9>,<actuallyadditions:item_misc:9>],
+			[null, <actuallyadditions:item_misc:9>, null]
+		]
+	],
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
@@ -67,6 +74,9 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 	----------------
 */
 static furnaceRecipes as IIngredient[][IItemStack] = {
+	<actuallyadditions:item_misc:9>: [
+		<glacidus:dead_lumicia:0>
+	],
 	<actuallyadditions:item_food:15>: [
 		<actuallyadditions:item_misc:4>
 	]

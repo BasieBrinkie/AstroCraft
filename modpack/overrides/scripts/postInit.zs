@@ -86,7 +86,8 @@ function initIntegrations() {
 	scripts.recipes.integrations.actuallyAdditions.empowerer.init();
 	
 	scripts.recipes.integrations.appliedEnergistics2.grinder.init();
-
+	scripts.recipes.integrations.botania.pureDaisy.init();
+	
 	scripts.recipes.integrations.charcoalPit.bloomery.init();
 	scripts.recipes.integrations.charcoalPit.fuels.init();
 	scripts.recipes.integrations.charcoalPit.kiln.init();

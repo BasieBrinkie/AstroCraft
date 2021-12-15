@@ -1,6 +1,11 @@
 {
 	x: 1.5d,
-	y: -1.0d,
+	y: 0.0d,
+	description: "Dead vegetation",
+	text: [
+		"The Lumicia Stalk that can be found on the upper surface of the planet.",
+		"Although the vegetation has been dead for millions of years, they are preserved by the extremely low temperature on the surface."
+	],
 	dependencies: [
 		"dcdfc562"
 	],

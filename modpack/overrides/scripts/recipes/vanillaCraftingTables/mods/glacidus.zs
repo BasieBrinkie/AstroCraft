@@ -42,13 +42,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
             [null, <glacidus:underground_stick:0>, null]
         ]
     ],
-    <glacidus:underground_stick:0>: [
-        [
-            [<glacidus:dead_lumicia:0>],
-            [<glacidus:dead_lumicia:0>],
-            [<glacidus:dead_lumicia:0>]
-        ]
-    ],
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
@@ -71,6 +64,9 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
     ------------------
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
+    <glacidus:underground_stick:0> * 2: [
+        [<glacidus:dead_lumicia:0>]
+    ],
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {

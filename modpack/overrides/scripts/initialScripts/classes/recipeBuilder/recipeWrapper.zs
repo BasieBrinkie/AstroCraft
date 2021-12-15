@@ -164,6 +164,7 @@ zenClass recipeBuilder {
 			furnace.remove(toRemove);
 		}
 	}
+	
 	function removeFurnace(map as IIngredient[IIngredient]) {
 		for input, output in map {
 			furnace.remove(input, output);
@@ -188,6 +189,7 @@ zenClass recipeBuilder {
 	function hideItems(removals as IIngredient[]) {
 		hideItems(removals, false);
 	}
+
 	function hideItems(removals as IIngredient[], removeRecipe as bool) {
 		if (removeRecipe) {
 			for toHide in removals {

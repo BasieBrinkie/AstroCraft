@@ -1,6 +1,11 @@
 {
 	x: 4.5d,
 	y: -1.0d,
+	description: "Time to explore the inner layer of the planet",
+	text: [
+		"You can place the rope only underneath a block. while digging downwards you will have to slowly dig a hole but be wary as it is a deep dive whenever you reach the ceiling of the inner layer. ",
+		"If you place another rope anywhere on the already existing rope it will automatically place the new rope underneath the lowest piece of rope. If you walk up to the rope you will climb the rope just like a regular ladder."
+	],
 	dependencies: [
 		"1dc06d15",
 		"351d0f67"

@@ -35,5 +35,11 @@
 		type: "gamestage",
 		auto: "no_toast",
 		stage: "furnace"
+	},
+	{
+		uid: "f62ebdd1",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "dirt"
 	}]
 }

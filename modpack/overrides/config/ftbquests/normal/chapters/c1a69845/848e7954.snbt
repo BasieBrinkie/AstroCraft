@@ -53,5 +53,11 @@
 		type: "gamestage",
 		auto: "no_toast",
 		stage: "hammer"
+	},
+	{
+		uid: "3e7ab924",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "dirt"
 	}]
 }

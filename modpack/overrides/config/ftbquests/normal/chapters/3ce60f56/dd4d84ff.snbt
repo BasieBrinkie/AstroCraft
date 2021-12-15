@@ -1,0 +1,14 @@
+{
+	x: 3.5d,
+	y: 6.0d,
+	tasks: [{
+		uid: "2d470612",
+		type: "item",
+		items: [{
+			id: "botania:pool",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

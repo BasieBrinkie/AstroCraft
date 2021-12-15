@@ -4,7 +4,9 @@ import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
 static stagedItems as IIngredient[][string] = {
-
+	stageGlacidusSpawn.stage: [
+		<aether:aether_crafting_table>
+	]
 };
 
 static disabledItems as IIngredient[] = [

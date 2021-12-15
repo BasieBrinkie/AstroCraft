@@ -7,7 +7,6 @@ static stagedItems as IIngredient[][string] = {
 	stageAsteroidsOxygen1.stage: [
 		<minecraft:coal:1>,
 		<minecraft:crafting_table:0>,
-		<minecraft:dirt:0>,
 		<minecraft:dirt:1>,
 		<minecraft:lever:0>,
 		<minecraft:log:0>,
@@ -19,10 +18,10 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:wheat:0>,
 		<minecraft:wool:0>
 	],
-	stageFurnace.stage: [
+	itemFurnace.stage: [
 		<minecraft:furnace:0>
 	],
-	stageStone.stage: [
+	itemStone.stage: [
 		<minecraft:cobblestone:0>,
 		<minecraft:stone:0>,		
 	],
@@ -31,19 +30,19 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:wooden_pickaxe>,
 		<minecraft:wooden_shovel>
 	],
-	stageStoneTools.stage: [
+	itemStoneTools.stage: [
 		<minecraft:stone_axe>,
 		<minecraft:stone_hoe>,
 		<minecraft:stone_pickaxe>,
 		<minecraft:stone_shovel>,	
 	],
-	stageIronTools.stage: [
+	itemIronTools.stage: [
 		<minecraft:iron_axe>,
 		<minecraft:iron_hoe>,
 		<minecraft:iron_pickaxe>,
 		<minecraft:iron_shovel>,
 	],
-	stageDiamondPickaxe.stage: [
+	itemDiamondPickaxe.stage: [
 		<minecraft:diamond_pickaxe>,
 	],
 	stageAsteroidsResources1.stage: [
@@ -74,7 +73,7 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:stonebrick:0>,
 		<minecraft:water_bucket:0>,
 	],
-	stageLeaves.stage: [
+	itemLeaves.stage: [
 		<minecraft:leaves:0>,
 		<minecraft:sapling:0>,
 	],
@@ -99,12 +98,15 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:tnt:0>,
 	],
 
-	stageEmerald.stage: [
+	itemEmerald.stage: [
 		<minecraft:emerald:0>
 	],
-	stageShears.stage: [
+	itemShears.stage: [
 		<minecraft:shears>
 	],
+	itemDirt.stage: [
+		<minecraft:dirt:0>
+	]
 	stageBasicDecorator.stage: [
 		<minecraft:clay:0>
 	],

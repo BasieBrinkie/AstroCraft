@@ -16,9 +16,8 @@ import crafttweaker.oredict.IOreDictEntry;
 
 static addRecipe as IItemStack[][IItemStack] = {
 	//planet_glacidus_spawn
-	<glacidus:dead_lumicia:0>: [
-		<glacidus:underground_stick:0> * 2,
-		<botania:manaresource:3>
+	<botania:manaresource:3>: [
+		<glacidus:dead_lumicia:0>,
 	],
     <minecraft:cobblestone:0>: [
         <glacidus:frozen_antinatric_stone:0>,
