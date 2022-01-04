@@ -480,7 +480,7 @@
     },
     {
       "projectID": 231347,
-      "fileID": 3477335,
+      "fileID": 3573346,
       "required": true,
       "__meta": {
         "name": "Mo' Bends"
@@ -576,7 +576,7 @@
     },
     {
       "projectID": 236541,
-      "fileID": 3499791,
+      "fileID": 3587079,
       "required": true,
       "__meta": {
         "name": "LibVulpes"
@@ -584,7 +584,7 @@
     },
     {
       "projectID": 236542,
-      "fileID": 3487193,
+      "fileID": 3587070,
       "required": true,
       "__meta": {
         "name": "Advanced Rocketry",
@@ -659,7 +659,7 @@
     },
     {
       "projectID": 239197,
-      "fileID": 3523955,
+      "fileID": 3587830,
       "required": true,
       "__meta": {
         "name": "CraftTweaker"
@@ -957,7 +957,7 @@
     },
     {
       "projectID": 251121,
-      "fileID": 2664750,
+      "fileID": 2660427,
       "required": true,
       "__meta": {
         "name": "Industrial Wires",
@@ -1097,7 +1097,7 @@
     },
     {
       "projectID": 257818,
-      "fileID": 3553559,
+      "fileID": 3584330,
       "required": true,
       "__meta": {
         "name": "LittleTiles",
@@ -1827,7 +1827,7 @@
     },
     {
       "projectID": 296289,
-      "fileID": 2919737,
+      "fileID": 3581715,
       "required": true,
       "__meta": {
         "name": "JustEnoughIDs"
@@ -1883,7 +1883,7 @@
     },
     {
       "projectID": 298582,
-      "fileID": 3367186,
+      "fileID": 3587417,
       "required": true,
       "__meta": {
         "name": "Cave Generator"
@@ -2322,7 +2322,7 @@
     },
     {
       "projectID": 419286,
-      "fileID": 3321174,
+      "fileID": 3575119,
       "required": true,
       "__meta": {
         "name": "MixinBooter"
@@ -2383,7 +2383,7 @@
     },
     {
       "projectID": 525389,
-      "fileID": 3544884,
+      "fileID": 3583128,
       "required": true,
       "__meta": {
         "name": "Modular Controller",
