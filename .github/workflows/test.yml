@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v2
       - name: Prepare Modpack Files
         run: |
-          mkdir tmp/modpack
+          mkdir -p tmp/modpack
           cp modpack tmp/modpack
       - name: Download mods
         run: |
