@@ -24,9 +24,10 @@ jobs:
           cat CHANGELOG.md
           git config --global user.name 'CI Workflow'
           git config --global user.email 'jjooss@live.nl'
+          git add CHANGELOG.md
           git commit -am "Update CHANGELOG.md"
           git push
-      - name: Store changelog
+      - name: Store changelog in artifactory
         uses: actions/upload-artifact@v2
         with:
           name: changelog
