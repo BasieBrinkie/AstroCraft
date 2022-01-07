@@ -25530,13 +25530,28 @@
     "length": 1,
     "name0": "advancedrocketry:aliensapling",
     "meta0": 0,
-    "0chance0": 5.85,
-    "1chance0": 6.725,
-    "2chance0": 8.1,
-    "3chance0": 9.45,
+    "0chance0": 5.05,
+    "1chance0": 5.9500003,
+    "2chance0": 8.0,
+    "3chance0": 9.475,
     "0pair0": "{\n  \"left\": 0,\n  \"right\": 1\n}",
     "1pair0": "{\n  \"left\": 0,\n  \"right\": 1\n}",
     "2pair0": "{\n  \"left\": 0,\n  \"right\": 1\n}",
     "3pair0": "{\n  \"left\": 0,\n  \"right\": 1\n}"
+  },
+  {
+    "name": "advancedrocketry:charcoallog",
+    "meta": 0,
+    "length": 1,
+    "name0": "minecraft:coal",
+    "meta0": 1,
+    "0chance0": 100.0,
+    "1chance0": 100.0,
+    "2chance0": 150.125,
+    "3chance0": 200.4,
+    "0pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}",
+    "1pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}",
+    "2pair0": "{\n  \"left\": 1,\n  \"right\": 2\n}",
+    "3pair0": "{\n  \"left\": 1,\n  \"right\": 3\n}"
   }
 ]
