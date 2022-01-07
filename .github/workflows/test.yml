@@ -20,7 +20,8 @@ jobs:
           myToken: ${{ secrets.GITHUB_TOKEN }}
       - name: Save Changelog to Repo
         run: |
-          echo "${{ steps.changelog.outputs.changelog }}" >> CHANGELOG.md
+          touch CHANGELOG.md
+          sed -i "1i ${{ steps.changelog.outputs.changelog }}" CHANGELOG.md
           sed -i "1i ## (Test text 2)" CHANGELOG.md
           git config --global user.name 'CI Workflow'
           git config --global user.email 'jjooss@live.nl'
