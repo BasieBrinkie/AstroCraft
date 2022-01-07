@@ -16,7 +16,7 @@ jobs:
       - name: Prepare Modpack Files
         run: |
           mkdir -p tmp/modpack
-          cp modpack tmp/modpack
+          cp -R modpack tmp/modpack
       - name: Download mods
         run: |
           java -jar serverpack/ModpackDownloader-cli-0.7.1.jar -manifest ../modpack/manifest.json -folder ../modpack/overrides/mods
