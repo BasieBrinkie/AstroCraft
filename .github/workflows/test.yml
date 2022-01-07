@@ -5,6 +5,7 @@ on: workflow_dispatch
 env:
   PROJECT_ID: "315744"
 
+jobs:
   changelog:
     runs-on: ubuntu-latest
     outputs:
@@ -19,6 +20,7 @@ env:
           token: ${{ secrets.GITHUB_TOKEN }}
           output: CHANGELOG.md
           stripGeneratorNotice: true
+      - name: Cat changelog
         run: |
           cat CHANGELOG.md
       - name: Store changelog
