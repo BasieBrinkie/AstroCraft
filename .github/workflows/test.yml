@@ -19,7 +19,7 @@ jobs:
           cp -R modpack tmp/modpack
       - name: Download mods
         run: |
-          java -jar serverpack/ModpackDownloader-cli-0.7.1.jar -manifest ../modpack/manifest.json -folder ../modpack/overrides/mods
+          java -jar serverpack/ModpackDownloader-cli-0.7.1.jar -manifest tmp/modpack/manifest.json -folder tmp/modpack/overrides/mods
           ls -a modpack/overrides/mods
       - name: Make Server-pack
         run: |
