@@ -20,12 +20,13 @@ jobs:
           myToken: ${{ secrets.GITHUB_TOKEN }}
       - name: Save Changelog to Repo
         run: |
+          touch CHANGELOG.md
           mv CHANGELOG.md CHANGELOG_OLD.md
           echo "## (Test text 2)" > CHANGELOG.md
           echo "${{ steps.changelog.outputs.changelog }}" >> CHANGELOG.md
           cat CHANGELOG_OLD.md >> CHANGELOG.md
           git config --global user.name 'CI Workflow'
-          git config --global user.email 'jjooss@live.nl'
+          git config --global user.email 'noreply@nourl.com'
           git add CHANGELOG.md
           git commit -am "Update CHANGELOG.md"
           git push
