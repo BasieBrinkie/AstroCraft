@@ -6,32 +6,29 @@ env:
   PROJECT_ID: "315744"
 
 jobs:
-  changelog:
+  build-serverpack:
     runs-on: ubuntu-latest
     outputs:
       changelog: ${{ steps.changelog.outputs.changelog }}
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Generate changelog
-        id: changelog
-        uses: metcalfc/changelog-generator@v3.0.0
-        with:
-          myToken: ${{ secrets.GITHUB_TOKEN }}
-      - name: Save Changelog to Repo
+      - name: Prepare Modpack Files
         run: |
-          touch CHANGELOG.md
-          mv CHANGELOG.md CHANGELOG_OLD.md
-          echo "## (Test text 2)" > CHANGELOG.md
-          echo "${{ steps.changelog.outputs.changelog }}" >> CHANGELOG.md
-          cat CHANGELOG_OLD.md >> CHANGELOG.md
-          git config --global user.name 'CI Workflow'
-          git config --global user.email 'noreply@nourl.com'
-          git add CHANGELOG.md
-          git commit -am "Update CHANGELOG.md"
-          git push
-      - name: Store changelog in artifactory
+          mkdir tmp/modpack
+          cp modpack tmp/modpack
+      - name: Download mods
+        run: |
+          java -jar serverpack/ModpackDownloader-cli-0.7.1.jar -manifest ../modpack/manifest.json -folder ../modpack/overrides/mods
+          ls -a modpack/overrides/mods
+      - name: Make Server-pack
+        run: |
+          java -jar serverpack/ServerPackCreator-3.0.0-alpha.13 -cli
+      - name: Rename Server-pack
+        run: |
+          mv serverpack/server-packs/_server_pack.zip serverpack/server-packs/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-Server-Pack.zip
+      - name: Store Pack in artifactory
         uses: actions/upload-artifact@v2
         with:
-          name: changelog
-          path: CHANGELOG.md
+          name: serverpack
+          path: serverpack/server-packs/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-Server-Pack.zip
