@@ -1001,14 +1001,6 @@
       }
     },
     {
-      "projectID": 253770,
-      "fileID": 2463898,
-      "required": true,
-      "__meta": {
-        "name": "More Default Options"
-      }
-    },
-    {
       "projectID": 253874,
       "fileID": 2989594,
       "required": true,
