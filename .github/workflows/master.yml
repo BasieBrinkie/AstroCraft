@@ -104,7 +104,7 @@ jobs:
       - name: Download Mods
         run: |
           mkdir -p serverpack/server
-          cp -R modpack/overides serverpack/server
+          cp -R modpack/overrides serverpack/server
           cp modpack/manifest.json serverpack/server/manifest.json
           cd serverpack
           mv server-files/README.txt server/README.txt
