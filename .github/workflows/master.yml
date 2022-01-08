@@ -107,7 +107,7 @@ jobs:
       - name: Prepare modpack files
         run: |
           mkdir -p serverpack/server
-          cp -R modpack/overrides serverpack/server
+          cp -R modpack/overrides/* serverpack/server
           cp modpack/manifest.json serverpack/server/manifest.json
           cd serverpack
           mv server_files/README.txt server/README.txt
@@ -119,7 +119,7 @@ jobs:
         run: |
           rm -R -f serverpack/server/mods/*.zip
           pattern="java.io.IOException:"
-          if [[ -n $(cat output.txt | grep -q $pattern) ]]; then echo not all mods could be downloaded && exit 1; fi
+          if [[ -n $(cat serverpack/output.txt | grep -q $pattern) ]]; then echo not all mods could be downloaded && exit 1; fi
       - name: Generate Server-pack
         run: |
           cd serverpack
@@ -150,6 +150,10 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: changelog
+      - name: show files
+        run: | 
+          ls -l
+          ls -l serverpack/server-packs
       - name: Create Github release
         uses: softprops/action-gh-release@v1
         with:
