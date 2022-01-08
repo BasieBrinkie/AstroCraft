@@ -109,7 +109,7 @@ jobs:
           cp -R modpack/overrides serverpack/server
           cp modpack/manifest.json serverpack/server/manifest.json
           cd serverpack
-          mv server-files/README.txt server/README.txt
+          mv server_files/README.txt server/README.txt
           java -jar ModpackDownloader-cli-0.7.1.jar -manifest server/manifest.json -folder server/mods
       - name: Generate Server-pack
         run: |
