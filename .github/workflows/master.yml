@@ -56,9 +56,8 @@ jobs:
           echo "${{ steps.changelog.outputs.changelog }}" >> CHANGELOG.md
           cat CHANGELOG_OLD.md >> CHANGELOG.md
           
-          git add CHANGELOG.md
-          git commit -am "Update CHANGELOG.md"
-          git push
+          pattern="## (${{ needs.modpack-info.outputs.tag }})"
+          if [[ ! -n $(cat CHANGELOG.md | grep $pattern) ]]; then git add CHANGELOG.md && git commit -am "Update CHANGELOG.md" && git push; fi
           
           echo "${{ steps.changelog.outputs.changelog }}" >> CHANGELOG_SHORT.md
       - name: Store changelog in artifactory
@@ -105,22 +104,27 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Download Mods
+      - name: Prepare modpack files
         run: |
           mkdir -p serverpack/server
           cp -R modpack/overrides serverpack/server
           cp modpack/manifest.json serverpack/server/manifest.json
           cd serverpack
           mv server_files/README.txt server/README.txt
+      - name: Download Mods
+        run: |
+          cd serverpack
           java -jar ModpackDownloader-cli-0.7.1.jar -manifest server/manifest.json -folder server/mods | tee -a output.txt
-          
-          # Filter mods and resourcepacks and crash if not all mods could be downloaded
-          rm -R -f /server/*.zip
-          pattern="java.io.IOException: Server returned HTTP response code: 504 for URL"
+      - name: Preparing/checking mods Folder
+        run: |
+          rm -R -f serverpack/server/mods/*.zip
+          pattern="java.io.IOException:"
           if [[ -n $(cat output.txt | grep -q $pattern) ]]; then echo not all mods could be downloaded && exit 1; fi
       - name: Generate Server-pack
         run: |
           cd serverpack
+          ls -l
+          ls -l server/
           java -jar ServerPackCreator-3.0.0-alpha.13.jar -cli
           cd server-packs
           mv server_server_pack.zip ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-server.zip
