@@ -114,6 +114,7 @@ jobs:
           java -jar ModpackDownloader-cli-0.7.1.jar -manifest server/manifest.json -folder server/mods
       - name: Generate Server-pack
         run: |
+          cd serverpack
           java -jar ServerPackCreator-3.0.0-alpha.13.jar -cli
           cd server-packs
           mv server_server_pack.zip ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-server.zip
