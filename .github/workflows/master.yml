@@ -112,21 +112,25 @@ jobs:
           cd serverpack
           mv server_files/README.txt server/README.txt
       - name: Download Mods
-        run: |
-          cd serverpack
-          java -jar ModpackDownloader-cli-0.7.1.jar -manifest server/manifest.json -folder server/mods | tee -a output.txt
-      - name: Preparing/checking mods Folder
+        uses: nick-invision/retry@v2
+        with:
+          timeout_seconds: 15
+          max_attempts: 3
+          command: |
+            cd serverpack
+            java -jar ModpackDownloader-cli-0.7.1.jar -manifest server/manifest.json -folder server/mods | tee -a output.txt
+            pattern="java.io.IOException:"
+            if [[ -n $(cat serverpack/output.txt | grep -q $pattern) ]]; then echo not all mods could be downloaded && exit 1; fi
+      - name: Preparing mods Folder
         run: |
           rm -R -f serverpack/server/mods/*.zip
-          pattern="java.io.IOException:"
-          if [[ -n $(cat serverpack/output.txt | grep -q $pattern) ]]; then echo not all mods could be downloaded && exit 1; fi
       - name: Generate Server-pack
         run: |
           cd serverpack
-          ls -l
-          ls -l server/
           java -jar ServerPackCreator-3.0.0-alpha.13.jar -cli
-          cd server-packs
+      - name: Renaming Server-pack
+        run: |
+          cd serverpack/server-packs
           mv server_server_pack.zip ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-server.zip
       - name: Upload Server zip
         uses: actions/upload-artifact@v2
