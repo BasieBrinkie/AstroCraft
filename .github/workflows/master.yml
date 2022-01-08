@@ -46,7 +46,7 @@ jobs:
         run: |
           touch CHANGELOG.md
           mv CHANGELOG.md CHANGELOG_OLD.md
-          echo "## (Test text 2)" > CHANGELOG.md
+          echo "## (${{ needs.modpack-info.outputs.tag }})" > CHANGELOG.md
           echo "${{ steps.changelog.outputs.changelog }}" >> CHANGELOG.md
           cat CHANGELOG_OLD.md >> CHANGELOG.md
           
@@ -63,7 +63,7 @@ jobs:
           name: changelog
           path: CHANGELOG_SHORT.md
 
-  build:
+  build-modpack:
     runs-on: ubuntu-latest
     needs: [changelog, modpack-info]
     steps:
@@ -94,34 +94,63 @@ jobs:
           name: modpack
           path: .out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
   
-  release-github:
+  build-server:
     runs-on: ubuntu-latest
-    needs: [build, changelog, modpack-info]
+    needs: [build-modpack, changelog, modpack-info]
     steps:
       - name: Download modpack
         uses: actions/download-artifact@v2
         with:
           name: modpack
+      - name: Generate Server-pack
+        uses: henkelmax/build-modpack-server-action@v1.0.0
+        with:
+          modpack-path: "./${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip"
+          output-path: "./${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-server.zip"
+      - name: Upload Server zip
+        uses: actions/upload-artifact@v2
+        with:
+          name: server
+          path: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-server.zip
+  
+  release-github:
+    runs-on: ubuntu-latest
+    needs: [build-modpack, build-server, changelog, modpack-info]
+    steps:
+      - name: Download modpack
+        uses: actions/download-artifact@v2
+        with:
+          name: modpack
+      - name: Download server
+        uses: actions/download-artifact@v2
+        with:
+          name: server
       - name: Download changelog
         uses: actions/download-artifact@v2
         with:
           name: changelog
-      - name: Create release
+      - name: Create Github release
         uses: softprops/action-gh-release@v1
         with:
           body_path: CHANGELOG.md
-          files: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
+          files: |
+            ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
+            ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-server.zip 
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   release-curseforge:
     runs-on: ubuntu-latest
-    needs: [build, changelog, modpack-info]
+    needs: [build-modpack, build-server, changelog, modpack-info]
     steps:
       - name: Download modpack
         uses: actions/download-artifact@v2
         with:
           name: modpack
+      - name: Download server
+        uses: actions/download-artifact@v2
+        with:
+          name: server
       - name: Get release type
         id: release-type
         run: |
@@ -132,14 +161,16 @@ jobs:
             *) rel_type="release" ;;
           esac
           echo "::set-output name=type::$rel_type"
-      - name: Create release
-        uses: itsmeow/curseforge-upload@v3
+      - name: Create Curseforge release
+        uses: juraj-hrivnak/upload-curseforge-modpack-action@v1.0.1
         with:
-          token: ${{ secrets.CF_API_TOKEN }}
-          project_id: ${{ env.PROJECT_ID }}
-          game_endpoint: minecraft
-          file_path: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
-          changelog: "${{ needs.changelog.outputs.changelog }}"
-          changelog_type: markdown
-          game_versions: ${{ needs.modpack-info.outputs.version }}
-          release_type: ${{ steps.release-type.outputs.type }}
+          api-token: ${{ secrets.CF_API_TOKEN }}
+          project-id: ${{ env.PROJECT_ID }}
+          modpack-path: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
+          display-name: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}
+          modpack-server-path: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-server.zip
+          server-display-name: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-server
+          changelog: ${{ steps.changelog.outputs.changelog }}
+          changelog-format: markdown
+          game-version: ${{ needs.modpack-info.outputs.version }}
+          release-type: ${{ steps.release-type.outputs.type }}
