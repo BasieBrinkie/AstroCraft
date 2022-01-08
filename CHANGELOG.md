@@ -1,3 +1,107 @@
+## (v0.2.11-alpha)
+- [fbbaca29b](http://github.com/BasieBrinkie/AstroCraft/commit/fbbaca29bc2bbd388ed603a43f697038981da41b) - Forgot you have to cd each job
+- [24f33a601](http://github.com/BasieBrinkie/AstroCraft/commit/24f33a6015fe28f494f0bf77799f25c0c665034e) - Update CHANGELOG.md
+- [3ec448322](http://github.com/BasieBrinkie/AstroCraft/commit/3ec448322ffec515a2db392ead884a61bd30e6ee) - Build server async and move checkout for master
+- [16dbef157](http://github.com/BasieBrinkie/AstroCraft/commit/16dbef157999a86964ac05a47524dce7ac4a8e43) - Update CHANGELOG.md
+- [56400183c](http://github.com/BasieBrinkie/AstroCraft/commit/56400183caf1dedb8a070407e9ba56c6f0e2a4ba) - Changed - to _ for server files
+- [807e9318d](http://github.com/BasieBrinkie/AstroCraft/commit/807e9318d065f80593f3d5a0bb868a57c39c0872) - Update CHANGELOG.md
+- [380dcbd40](http://github.com/BasieBrinkie/AstroCraft/commit/380dcbd4095da0ebf733340e617c1eba191899b9) - Add a checkout to the build-server
+- [fac5eb749](http://github.com/BasieBrinkie/AstroCraft/commit/fac5eb7493f13f0e93f9ca0f558841161cc6f1df) - Update CHANGELOG.md
+- [eba01bb4f](http://github.com/BasieBrinkie/AstroCraft/commit/eba01bb4f0040a2de534472b5daf415332d19ae2) - overrides is hard to type
+- [6f22e5f69](http://github.com/BasieBrinkie/AstroCraft/commit/6f22e5f695dabbb0e64ee6a850bea92298e0d566) - Update CHANGELOG.md
+- [ead6e5d9d](http://github.com/BasieBrinkie/AstroCraft/commit/ead6e5d9d40d907c84affb7c9e3ca12fd27ab0ba) - Merge branch 'master' of https://github.com/BasieBrinkie/AstroCraft
+- [8ebf063c7](http://github.com/BasieBrinkie/AstroCraft/commit/8ebf063c78a294fc2d95401f8282dbb8429e7955) - Include readme in the server
+- [1c3e334e5](http://github.com/BasieBrinkie/AstroCraft/commit/1c3e334e516db0a42cc5fe477b05b8dacfbc4a31) - Add readme to the server pack
+- [fa7d8909d](http://github.com/BasieBrinkie/AstroCraft/commit/fa7d8909d362392cd5b1408ef8eaba7058c0ac88) - Test updated server generation
+- [bf8c2d428](http://github.com/BasieBrinkie/AstroCraft/commit/bf8c2d4284d2fb222b6619180c76228d808645ec) - Update CHANGELOG.md
+- [a3a3f1d55](http://github.com/BasieBrinkie/AstroCraft/commit/a3a3f1d558c9ade89a754688601dfb814999e838) - Update CHANGELOG.md
+- [3fe7c2d7c](http://github.com/BasieBrinkie/AstroCraft/commit/3fe7c2d7c167fc2508ee7ca0fb254c1eace8e68d) - Ensure that we are on master
+- [196771912](http://github.com/BasieBrinkie/AstroCraft/commit/1967719124c28bebf171471b0d5d3a95ebae877d) - Finalized the server integration (hopefully)
+- [b3c2c27b3](http://github.com/BasieBrinkie/AstroCraft/commit/b3c2c27b373122db7df76c29e6fc9311a67a97f7) - Delete test.yml
+- [ff69ac629](http://github.com/BasieBrinkie/AstroCraft/commit/ff69ac6296107ceb91d2bde174b1aa0d8c03339f) - Changed the workflow paths
+- [2bc827ad7](http://github.com/BasieBrinkie/AstroCraft/commit/2bc827ad700bc4374e0fb715b078e82e51b9ebdb) - Merge branch 'master' of https://github.com/BasieBrinkie/AstroCraft
+- [ecd4c10bd](http://github.com/BasieBrinkie/AstroCraft/commit/ecd4c10bd609c1cf5f2a9c87e4b1a770ece34079) - Update serverpackcreator.conf
+- [dd9d1b4c7](http://github.com/BasieBrinkie/AstroCraft/commit/dd9d1b4c7624eddcabafb06d2fde94e8be9ee99b) - correct the path to the downloader jar
+- [086e9d35b](http://github.com/BasieBrinkie/AstroCraft/commit/086e9d35bac4c0ad7b2340a3cdff863f43a33b70) - -R to copy recursively
+- [3180e2b9f](http://github.com/BasieBrinkie/AstroCraft/commit/3180e2b9f499ac2fa4239ce35c238799bfe628ca) - added the -p param to mkdir
+- [e456de868](http://github.com/BasieBrinkie/AstroCraft/commit/e456de868ca91bd88d0c39a1540929d989d04a4e) - Merge branch 'master' of https://github.com/BasieBrinkie/AstroCraft
+- [fac3494cc](http://github.com/BasieBrinkie/AstroCraft/commit/fac3494cc524f28c457bc2876f1544259c2e1420) - Upload server pack creation files
+- [e711b1564](http://github.com/BasieBrinkie/AstroCraft/commit/e711b1564c5599bd369f696155e7adef82bbfe85) - Integration of automatic server pack creation
+- [fd2161723](http://github.com/BasieBrinkie/AstroCraft/commit/fd216172315ffc59e4821e6dfab08e9833742d5d) - Merge branch 'master' of https://github.com/BasieBrinkie/AstroCraft
+- [50ed34b79](http://github.com/BasieBrinkie/AstroCraft/commit/50ed34b79a73d5ce9f1ededd3d2a8a76b84e9942) - Incorporate correct changelog in the releases
+- [e2669ed9c](http://github.com/BasieBrinkie/AstroCraft/commit/e2669ed9c5866f4210fa336a6a837a3278f55a72) - Make a zero byte file if changelog not present
+- [e6d4ff7d3](http://github.com/BasieBrinkie/AstroCraft/commit/e6d4ff7d361c8afbf34137b389859598e2b43191) - Delete CHANGELOG.md
+- [671fa4b68](http://github.com/BasieBrinkie/AstroCraft/commit/671fa4b68a9d1e29419d55c54f2ddc8e5efd0ae6) - Update CHANGELOG.md
+- [a22464731](http://github.com/BasieBrinkie/AstroCraft/commit/a22464731a63988a93c6cefe20bf2e901e7e6ee4) - Had a type in the changelog file
+- [9856afb61](http://github.com/BasieBrinkie/AstroCraft/commit/9856afb61723facde3c6740fcb484babe53d6802) - Update test.yml
+- [0804be0e4](http://github.com/BasieBrinkie/AstroCraft/commit/0804be0e4fe26ad00299cbe688632450375f3c3e) - Corrected the appending of old changelogs
+- [adccb6571](http://github.com/BasieBrinkie/AstroCraft/commit/adccb6571b0258f7be1c50aa3f6b740a25ca5347) - Added new changelog underneath changed to top
+- [5c98a29d2](http://github.com/BasieBrinkie/AstroCraft/commit/5c98a29d26761e35f79ea84501b9f669b724d665) - Update CHANGELOG.md
+- [cf367ba60](http://github.com/BasieBrinkie/AstroCraft/commit/cf367ba605250bf8662c63093d3aae0b67f74c6c) - Added new markdown styling to changelog
+- [769faa9dd](http://github.com/BasieBrinkie/AstroCraft/commit/769faa9dd7ad39f3d52e865fe1ee8a2f59756824) - Update CHANGELOG.md
+- [818f08e45](http://github.com/BasieBrinkie/AstroCraft/commit/818f08e45549385996dd5caa562065be34afed5c) - Test the changelog updater
+- [ba2116568](http://github.com/BasieBrinkie/AstroCraft/commit/ba2116568407f28aaf0bea90a65504df552eef04) - Update CHANGELOG.md
+- [cbb839255](http://github.com/BasieBrinkie/AstroCraft/commit/cbb83925541d6630ee20272a7a1f9ef577578792) - Git add command
+- [cdcf95bba](http://github.com/BasieBrinkie/AstroCraft/commit/cdcf95bbab98b7ed930a692f696b085976b483c8) - Forgot to echo the variable
+- [b835dc18c](http://github.com/BasieBrinkie/AstroCraft/commit/b835dc18cfafde1b02a96883044765aa2c36edab) - Update test.yml
+- [e6ef792d6](http://github.com/BasieBrinkie/AstroCraft/commit/e6ef792d69ec61dbc3e9f3ddc6abf13c477bf543) - Delete New Text Document.txt
+- [72dd44542](http://github.com/BasieBrinkie/AstroCraft/commit/72dd44542f53cf48cc1a4a89469eac27af3b7dd4) - Fixed typo of leaving jobs out
+- [e497d4211](http://github.com/BasieBrinkie/AstroCraft/commit/e497d4211455a40bb6cea194455df816ab469122) - Test the changelog generator
+- [5a90874ec](http://github.com/BasieBrinkie/AstroCraft/commit/5a90874ec5666a52caeda0157aa876e4a3bd4382) - update mods to latest version
+- [beeaff61f](http://github.com/BasieBrinkie/AstroCraft/commit/beeaff61f4261c1e20193abb788913cdb5091075) - Wildlands created ~76000 files
+
+## (v0.2.11-alpha)
+- [fbbaca29b](http://github.com/BasieBrinkie/AstroCraft/commit/fbbaca29bc2bbd388ed603a43f697038981da41b) - Forgot you have to cd each job
+- [24f33a601](http://github.com/BasieBrinkie/AstroCraft/commit/24f33a6015fe28f494f0bf77799f25c0c665034e) - Update CHANGELOG.md
+- [3ec448322](http://github.com/BasieBrinkie/AstroCraft/commit/3ec448322ffec515a2db392ead884a61bd30e6ee) - Build server async and move checkout for master
+- [16dbef157](http://github.com/BasieBrinkie/AstroCraft/commit/16dbef157999a86964ac05a47524dce7ac4a8e43) - Update CHANGELOG.md
+- [56400183c](http://github.com/BasieBrinkie/AstroCraft/commit/56400183caf1dedb8a070407e9ba56c6f0e2a4ba) - Changed - to _ for server files
+- [807e9318d](http://github.com/BasieBrinkie/AstroCraft/commit/807e9318d065f80593f3d5a0bb868a57c39c0872) - Update CHANGELOG.md
+- [380dcbd40](http://github.com/BasieBrinkie/AstroCraft/commit/380dcbd4095da0ebf733340e617c1eba191899b9) - Add a checkout to the build-server
+- [fac5eb749](http://github.com/BasieBrinkie/AstroCraft/commit/fac5eb7493f13f0e93f9ca0f558841161cc6f1df) - Update CHANGELOG.md
+- [eba01bb4f](http://github.com/BasieBrinkie/AstroCraft/commit/eba01bb4f0040a2de534472b5daf415332d19ae2) - overrides is hard to type
+- [6f22e5f69](http://github.com/BasieBrinkie/AstroCraft/commit/6f22e5f695dabbb0e64ee6a850bea92298e0d566) - Update CHANGELOG.md
+- [ead6e5d9d](http://github.com/BasieBrinkie/AstroCraft/commit/ead6e5d9d40d907c84affb7c9e3ca12fd27ab0ba) - Merge branch 'master' of https://github.com/BasieBrinkie/AstroCraft
+- [8ebf063c7](http://github.com/BasieBrinkie/AstroCraft/commit/8ebf063c78a294fc2d95401f8282dbb8429e7955) - Include readme in the server
+- [1c3e334e5](http://github.com/BasieBrinkie/AstroCraft/commit/1c3e334e516db0a42cc5fe477b05b8dacfbc4a31) - Add readme to the server pack
+- [fa7d8909d](http://github.com/BasieBrinkie/AstroCraft/commit/fa7d8909d362392cd5b1408ef8eaba7058c0ac88) - Test updated server generation
+- [bf8c2d428](http://github.com/BasieBrinkie/AstroCraft/commit/bf8c2d4284d2fb222b6619180c76228d808645ec) - Update CHANGELOG.md
+- [a3a3f1d55](http://github.com/BasieBrinkie/AstroCraft/commit/a3a3f1d558c9ade89a754688601dfb814999e838) - Update CHANGELOG.md
+- [3fe7c2d7c](http://github.com/BasieBrinkie/AstroCraft/commit/3fe7c2d7c167fc2508ee7ca0fb254c1eace8e68d) - Ensure that we are on master
+- [196771912](http://github.com/BasieBrinkie/AstroCraft/commit/1967719124c28bebf171471b0d5d3a95ebae877d) - Finalized the server integration (hopefully)
+- [b3c2c27b3](http://github.com/BasieBrinkie/AstroCraft/commit/b3c2c27b373122db7df76c29e6fc9311a67a97f7) - Delete test.yml
+- [ff69ac629](http://github.com/BasieBrinkie/AstroCraft/commit/ff69ac6296107ceb91d2bde174b1aa0d8c03339f) - Changed the workflow paths
+- [2bc827ad7](http://github.com/BasieBrinkie/AstroCraft/commit/2bc827ad700bc4374e0fb715b078e82e51b9ebdb) - Merge branch 'master' of https://github.com/BasieBrinkie/AstroCraft
+- [ecd4c10bd](http://github.com/BasieBrinkie/AstroCraft/commit/ecd4c10bd609c1cf5f2a9c87e4b1a770ece34079) - Update serverpackcreator.conf
+- [dd9d1b4c7](http://github.com/BasieBrinkie/AstroCraft/commit/dd9d1b4c7624eddcabafb06d2fde94e8be9ee99b) - correct the path to the downloader jar
+- [086e9d35b](http://github.com/BasieBrinkie/AstroCraft/commit/086e9d35bac4c0ad7b2340a3cdff863f43a33b70) - -R to copy recursively
+- [3180e2b9f](http://github.com/BasieBrinkie/AstroCraft/commit/3180e2b9f499ac2fa4239ce35c238799bfe628ca) - added the -p param to mkdir
+- [e456de868](http://github.com/BasieBrinkie/AstroCraft/commit/e456de868ca91bd88d0c39a1540929d989d04a4e) - Merge branch 'master' of https://github.com/BasieBrinkie/AstroCraft
+- [fac3494cc](http://github.com/BasieBrinkie/AstroCraft/commit/fac3494cc524f28c457bc2876f1544259c2e1420) - Upload server pack creation files
+- [e711b1564](http://github.com/BasieBrinkie/AstroCraft/commit/e711b1564c5599bd369f696155e7adef82bbfe85) - Integration of automatic server pack creation
+- [fd2161723](http://github.com/BasieBrinkie/AstroCraft/commit/fd216172315ffc59e4821e6dfab08e9833742d5d) - Merge branch 'master' of https://github.com/BasieBrinkie/AstroCraft
+- [50ed34b79](http://github.com/BasieBrinkie/AstroCraft/commit/50ed34b79a73d5ce9f1ededd3d2a8a76b84e9942) - Incorporate correct changelog in the releases
+- [e2669ed9c](http://github.com/BasieBrinkie/AstroCraft/commit/e2669ed9c5866f4210fa336a6a837a3278f55a72) - Make a zero byte file if changelog not present
+- [e6d4ff7d3](http://github.com/BasieBrinkie/AstroCraft/commit/e6d4ff7d361c8afbf34137b389859598e2b43191) - Delete CHANGELOG.md
+- [671fa4b68](http://github.com/BasieBrinkie/AstroCraft/commit/671fa4b68a9d1e29419d55c54f2ddc8e5efd0ae6) - Update CHANGELOG.md
+- [a22464731](http://github.com/BasieBrinkie/AstroCraft/commit/a22464731a63988a93c6cefe20bf2e901e7e6ee4) - Had a type in the changelog file
+- [9856afb61](http://github.com/BasieBrinkie/AstroCraft/commit/9856afb61723facde3c6740fcb484babe53d6802) - Update test.yml
+- [0804be0e4](http://github.com/BasieBrinkie/AstroCraft/commit/0804be0e4fe26ad00299cbe688632450375f3c3e) - Corrected the appending of old changelogs
+- [adccb6571](http://github.com/BasieBrinkie/AstroCraft/commit/adccb6571b0258f7be1c50aa3f6b740a25ca5347) - Added new changelog underneath changed to top
+- [5c98a29d2](http://github.com/BasieBrinkie/AstroCraft/commit/5c98a29d26761e35f79ea84501b9f669b724d665) - Update CHANGELOG.md
+- [cf367ba60](http://github.com/BasieBrinkie/AstroCraft/commit/cf367ba605250bf8662c63093d3aae0b67f74c6c) - Added new markdown styling to changelog
+- [769faa9dd](http://github.com/BasieBrinkie/AstroCraft/commit/769faa9dd7ad39f3d52e865fe1ee8a2f59756824) - Update CHANGELOG.md
+- [818f08e45](http://github.com/BasieBrinkie/AstroCraft/commit/818f08e45549385996dd5caa562065be34afed5c) - Test the changelog updater
+- [ba2116568](http://github.com/BasieBrinkie/AstroCraft/commit/ba2116568407f28aaf0bea90a65504df552eef04) - Update CHANGELOG.md
+- [cbb839255](http://github.com/BasieBrinkie/AstroCraft/commit/cbb83925541d6630ee20272a7a1f9ef577578792) - Git add command
+- [cdcf95bba](http://github.com/BasieBrinkie/AstroCraft/commit/cdcf95bbab98b7ed930a692f696b085976b483c8) - Forgot to echo the variable
+- [b835dc18c](http://github.com/BasieBrinkie/AstroCraft/commit/b835dc18cfafde1b02a96883044765aa2c36edab) - Update test.yml
+- [e6ef792d6](http://github.com/BasieBrinkie/AstroCraft/commit/e6ef792d69ec61dbc3e9f3ddc6abf13c477bf543) - Delete New Text Document.txt
+- [72dd44542](http://github.com/BasieBrinkie/AstroCraft/commit/72dd44542f53cf48cc1a4a89469eac27af3b7dd4) - Fixed typo of leaving jobs out
+- [e497d4211](http://github.com/BasieBrinkie/AstroCraft/commit/e497d4211455a40bb6cea194455df816ab469122) - Test the changelog generator
+- [5a90874ec](http://github.com/BasieBrinkie/AstroCraft/commit/5a90874ec5666a52caeda0157aa876e4a3bd4382) - update mods to latest version
+- [beeaff61f](http://github.com/BasieBrinkie/AstroCraft/commit/beeaff61f4261c1e20193abb788913cdb5091075) - Wildlands created ~76000 files
+
 ## (v0.2.10-alpha)
 - [3ec448322](http://github.com/BasieBrinkie/AstroCraft/commit/3ec448322ffec515a2db392ead884a61bd30e6ee) - Build server async and move checkout for master
 - [16dbef157](http://github.com/BasieBrinkie/AstroCraft/commit/16dbef157999a86964ac05a47524dce7ac4a8e43) - Update CHANGELOG.md
