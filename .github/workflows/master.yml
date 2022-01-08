@@ -9,40 +9,29 @@ env:
   PROJECT_ID: "315744"
 
 jobs:
-  modpack-info:
-    runs-on: ubuntu-latest
-    outputs:
-      projectname: ${{ steps.info.outputs.projectname }}
-      version: ${{ steps.info.outputs.version }}
-      tag: ${{ steps.version.outputs.tag }}
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Get modpack info
-        id: info
-        run: |
-            manifestjson=`cat modpack/manifest.json`
-            projectname=`echo $(jq -r '.name' <<< "$manifestjson")`
-            echo "::set-output name=projectname::$projectname"
-            version=`echo $(jq -r '.minecraft.version' <<< "$manifestjson")`
-            echo "::set-output name=version::$version"
-      - name: Get tag
-        id: version
-        uses: "WyriHaximus/github-action-get-previous-tag@v1"
-
   changelog:
     runs-on: ubuntu-latest
-    needs: [modpack-info]
     outputs:
       changelog: ${{ steps.changelog.outputs.changelog }}
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Generate changelog
+      - name: Get tag
+        id: version
+        uses: "WyriHaximus/github-action-get-previous-tag@v1"
+      - name: Generate Changelog
         id: changelog
         uses: metcalfc/changelog-generator@v3.0.0
         with:
           myToken: ${{ secrets.GITHUB_TOKEN }}
+      - name: Make Changelog Files
+        run: |
+          touch CHANGELOG.md
+          mv CHANGELOG.md CHANGELOG_OLD.md
+          echo "## (${{ steps.version.outputs.tag }})" > CHANGELOG.md
+          echo "${{ steps.changelog.outputs.changelog }}" >> CHANGELOG.md
+          cat CHANGELOG_OLD.md >> CHANGELOG.md
+          echo "${{ steps.changelog.outputs.changelog }}" > CHANGELOG_SHORT.md
       - name: Save Changelog to Repo
         run: |
           git fetch
@@ -50,153 +39,5 @@ jobs:
           git config --global user.name 'CI Workflow'
           git config --global user.email 'noreply@nourl.com'
           
-          touch CHANGELOG.md
-          mv CHANGELOG.md CHANGELOG_OLD.md
-          echo "## (${{ needs.modpack-info.outputs.tag }})" > CHANGELOG.md
-          echo "${{ steps.changelog.outputs.changelog }}" >> CHANGELOG.md
-          cat CHANGELOG_OLD.md >> CHANGELOG.md
-          
-          pattern="## (${{ needs.modpack-info.outputs.tag }})"
-          if [[ ! -n $(cat CHANGELOG.md | grep $pattern) ]]; then git add CHANGELOG.md && git commit -am "Update CHANGELOG.md" && git push; fi
-          
-          echo "${{ steps.changelog.outputs.changelog }}" >> CHANGELOG_SHORT.md
-      - name: Store changelog in artifactory
-        uses: actions/upload-artifact@v2
-        with:
-          name: changelog
-          path: CHANGELOG_SHORT.md
-
-  build-modpack:
-    runs-on: ubuntu-latest
-    needs: [changelog, modpack-info]
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Download PAX
-        uses: dsaltares/fetch-gh-release-asset@master
-        with:
-          repo: froehlichA/pax
-          file: "pax"
-          token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Download changelog
-        uses: actions/download-artifact@v2
-        with:
-          name: changelog
-      - name: Move changelog
-        run:  mv CHANGELOG.md modpack/CHANGELOG.md
-      - name: Export modpack
-        run: |
-          sudo chmod +x ./pax
-          ./pax export
-      - name: Rename zip
-        run: |
-          mv .out/${{ needs.modpack-info.outputs.projectname }}.zip .out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
-      - name: Upload zip
-        uses: actions/upload-artifact@v2
-        with:
-          name: modpack
-          path: .out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
-  
-  build-server:
-    timeout-minutes: 60
-    runs-on: ubuntu-latest
-    needs: [changelog, modpack-info]
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Prepare modpack files
-        run: |
-          mkdir -p serverpack/server
-          cp -R modpack/overrides/* serverpack/server
-          cp modpack/manifest.json serverpack/server/manifest.json
-          cd serverpack
-          mv server_files/README.txt server/README.txt
-      - name: Download Mods
-        uses: nick-invision/retry@v2
-        with:
-          timeout_minutes: 10
-          retry_wait_seconds: 30
-          max_attempts: 3
-          command: |
-            cd serverpack
-            java -jar ModpackDownloader-cli-0.7.1.jar -manifest server/manifest.json -folder server/mods | tee -a output.txt
-            pattern="java.io.IOException:"
-            if [[ -n $(cat output.txt | grep $pattern) ]]; then echo not all mods could be downloaded && exit 1; fi
-      - name: Preparing mods Folder
-        run: |
-          rm -R -f serverpack/server/mods/*.zip
-      - name: Generate Server-pack
-        run: |
-          cd serverpack
-          java -jar ServerPackCreator-3.0.0-alpha.13.jar -cli
-      - name: Renaming Server-pack
-        run: |
-          cd serverpack/server-packs
-          mv server_server_pack.zip ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-server.zip
-      - name: Upload Server zip
-        uses: actions/upload-artifact@v2
-        with:
-          name: server
-          path: serverpack/server-packs/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-server.zip
-  
-  release-github:
-    runs-on: ubuntu-latest
-    needs: [build-modpack, build-server, changelog, modpack-info]
-    steps:
-      - name: Download modpack
-        uses: actions/download-artifact@v2
-        with:
-          name: modpack
-      - name: Download server
-        uses: actions/download-artifact@v2
-        with:
-          name: server
-      - name: Download changelog
-        uses: actions/download-artifact@v2
-        with:
-          name: changelog
-      - name: Create Github release
-        uses: softprops/action-gh-release@v1
-        with:
-          body_path: CHANGELOG.md
-          files: |
-            ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
-            ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-server.zip 
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-  release-curseforge:
-    runs-on: ubuntu-latest
-    needs: [build-modpack, build-server, changelog, modpack-info]
-    steps:
-      - name: Download modpack
-        uses: actions/download-artifact@v2
-        with:
-          name: modpack
-      - name: Download server
-        uses: actions/download-artifact@v2
-        with:
-          name: server
-      - name: Get release type
-        id: release-type
-        run: |
-          rel_type="release"
-          case "${{ needs.modpack-info.outputs.tag }}" in
-            *alpha*) rel_type="alpha" ;;
-            *beta*) rel_type="beta" ;;
-            *) rel_type="release" ;;
-          esac
-          echo "::set-output name=type::$rel_type"
-      - name: Create Curseforge release
-        uses: juraj-hrivnak/upload-curseforge-modpack-action@v1.0.1
-        with:
-          api-token: ${{ secrets.CF_API_TOKEN }}
-          project-id: ${{ env.PROJECT_ID }}
-          modpack-path: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
-          display-name: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}
-          modpack-server-path: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-server.zip
-          server-display-name: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-server
-          changelog:  ${{ steps.changelog.outputs.changelog }}
-          changelog-format: markdown
-          game-version: ${{ needs.modpack-info.outputs.version }}
-          release-type: ${{ steps.release-type.outputs.type }}
+          pattern="## (${{ steps.version.outputs.tag }})"
+          if [[ ! -n $(cat CHANGELOG_SHORT.md | grep $pattern) ]]; then git add CHANGELOG.md CHANGELOG_SHORT.md && git commit -am "Update CHANGELOG" && git push; fi
