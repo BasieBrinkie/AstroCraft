@@ -45,16 +45,17 @@ jobs:
           myToken: ${{ secrets.GITHUB_TOKEN }}
       - name: Save Changelog to Repo
         run: |
+          git fetch
+          git checkout master
+          git config --global user.name 'CI Workflow'
+          git config --global user.email 'noreply@nourl.com'
+          
           touch CHANGELOG.md
           mv CHANGELOG.md CHANGELOG_OLD.md
           echo "## (${{ needs.modpack-info.outputs.tag }})" > CHANGELOG.md
           echo "${{ steps.changelog.outputs.changelog }}" >> CHANGELOG.md
           cat CHANGELOG_OLD.md >> CHANGELOG.md
           
-          git fetch
-          git checkout master
-          git config --global user.name 'CI Workflow'
-          git config --global user.email 'noreply@nourl.com'
           git add CHANGELOG.md
           git commit -am "Update CHANGELOG.md"
           git push
@@ -99,7 +100,7 @@ jobs:
   
   build-server:
     runs-on: ubuntu-latest
-    needs: [build-modpack, changelog, modpack-info]
+    needs: [changelog, modpack-info]
     steps:
       - name: Checkout
         uses: actions/checkout@v2
