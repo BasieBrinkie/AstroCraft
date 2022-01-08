@@ -98,7 +98,7 @@ jobs:
           path: .out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
   
   build-server:
-    timeout-minutes: 30
+    timeout-minutes: 60
     runs-on: ubuntu-latest
     needs: [changelog, modpack-info]
     steps:
@@ -114,14 +114,14 @@ jobs:
       - name: Download Mods
         uses: nick-invision/retry@v2
         with:
-          timeout_minutes: 5
+          timeout_minutes: 10
           retry_wait_seconds: 30
           max_attempts: 3
           command: |
             cd serverpack
             java -jar ModpackDownloader-cli-0.7.1.jar -manifest server/manifest.json -folder server/mods | tee -a output.txt
             pattern="java.io.IOException:"
-            if [[ -n $(cat serverpack/output.txt | grep -q $pattern) ]]; then echo not all mods could be downloaded && exit 1; fi
+            if [[ -n $(cat output.txt | grep $pattern) ]]; then echo not all mods could be downloaded && exit 1; fi
       - name: Preparing mods Folder
         run: |
           rm -R -f serverpack/server/mods/*.zip
@@ -155,10 +155,6 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: changelog
-      - name: show files
-        run: | 
-          ls -l
-          ls -l serverpack/server-packs
       - name: Create Github release
         uses: softprops/action-gh-release@v1
         with:
@@ -200,7 +196,7 @@ jobs:
           display-name: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}
           modpack-server-path: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-server.zip
           server-display-name: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-server
-          changelog: ${{ steps.changelog.outputs.changelog }}
+          changelog:  ${{ steps.changelog.outputs.changelog }}
           changelog-format: markdown
           game-version: ${{ needs.modpack-info.outputs.version }}
           release-type: ${{ steps.release-type.outputs.type }}
