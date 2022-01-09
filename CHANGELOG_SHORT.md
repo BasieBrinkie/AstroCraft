@@ -1,3 +1,7 @@
+- [c056824a5](http://github.com/BasieBrinkie/AstroCraft/commit/c056824a557941f0a3de30c4ca9d87993d599322) - bump version to v0.2.19-alpha
+- [ab4b0adb6](http://github.com/BasieBrinkie/AstroCraft/commit/ab4b0adb6f7f332862eed7775f976d4093689b0d) - Merge branch 'master' of https://github.com/BasieBrinkie/AstroCraft
+- [f767eb043](http://github.com/BasieBrinkie/AstroCraft/commit/f767eb04312132a6be49de8ed88f5ef73cee07c0) - bump version to v0.2.18-alpha
+- [f6baadbbe](http://github.com/BasieBrinkie/AstroCraft/commit/f6baadbbed47c49258c350bcbfcdf64322deaf40) - Update CHANGELOG
 - [267bc6ab0](http://github.com/BasieBrinkie/AstroCraft/commit/267bc6ab0b847facea3a74f0b6bf085d52a5f22c) - Merge branch 'master' of https://github.com/BasieBrinkie/AstroCraft
 - [e7874bc98](http://github.com/BasieBrinkie/AstroCraft/commit/e7874bc98f887f7df0083ae9196a0daacba72309) - Move the pax/server files locally
 - [16ddaedd1](http://github.com/BasieBrinkie/AstroCraft/commit/16ddaedd1c7110d7b0d1aae51f51cfc503fd8b4e) - Removed the integration of automatic server generation
