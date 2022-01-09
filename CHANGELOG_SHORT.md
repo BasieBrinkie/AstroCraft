@@ -1,4 +1,3 @@
-## (v0.2.18-alpha)
 - [267bc6ab0](http://github.com/BasieBrinkie/AstroCraft/commit/267bc6ab0b847facea3a74f0b6bf085d52a5f22c) - Merge branch 'master' of https://github.com/BasieBrinkie/AstroCraft
 - [e7874bc98](http://github.com/BasieBrinkie/AstroCraft/commit/e7874bc98f887f7df0083ae9196a0daacba72309) - Move the pax/server files locally
 - [16ddaedd1](http://github.com/BasieBrinkie/AstroCraft/commit/16ddaedd1c7110d7b0d1aae51f51cfc503fd8b4e) - Removed the integration of automatic server generation
@@ -71,5 +70,4 @@
 - [e497d4211](http://github.com/BasieBrinkie/AstroCraft/commit/e497d4211455a40bb6cea194455df816ab469122) - Test the changelog generator
 - [5a90874ec](http://github.com/BasieBrinkie/AstroCraft/commit/5a90874ec5666a52caeda0157aa876e4a3bd4382) - update mods to latest version
 - [beeaff61f](http://github.com/BasieBrinkie/AstroCraft/commit/beeaff61f4261c1e20193abb788913cdb5091075) - Wildlands created ~76000 files
-
 
