@@ -106,7 +106,7 @@ static stagedItems as IIngredient[][string] = {
 	],
 	itemDirt.stage: [
 		<minecraft:dirt:0>
-	]
+	],
 	stageBasicDecorator.stage: [
 		<minecraft:clay:0>
 	],

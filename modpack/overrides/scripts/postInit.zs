@@ -1,5 +1,4 @@
 #priority -1
-#no_fix_recipe_book
 
 /*
 	-------------------------
