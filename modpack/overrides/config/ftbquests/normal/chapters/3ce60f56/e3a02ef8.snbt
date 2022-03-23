@@ -1,6 +1,10 @@
 {
 	x: 5.5d,
 	y: 5.0d,
+	description: "Best botanist tool ever",
+	text: [
+		"Can combine organic materials into completely new materials with sometimes magical properties"
+	],
 	dependencies: [
 		"59c26a54"
 	],

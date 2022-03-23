@@ -4,7 +4,8 @@ import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
 static stagedItems as IIngredient[][string] = {
-    stageGlacidusSpawn.stage: [
+    stageGlacidusSpawn.stage: [`
+        <botania:altar:0>,
         <botania:manaresource:3>,
     ]
 

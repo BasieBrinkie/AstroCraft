@@ -23,6 +23,11 @@ static addRecipe as IItemStack[][IItemStack] = {
         <glacidus:frozen_antinatric_stone:0>,
 		<glacidus:thawed_antinatric_stone:0>,
     ],
+	<thermalfoundation:material:816>: [
+		<glacidus:aurantiacus_flower:0>,
+		<glacidus:crysial_flower:0>,
+		<glacidus:solegia_flower:0>,
+	]
 };
 
 static addOredictRecipe as IOreDictEntry[][IItemStack] = {

@@ -3,8 +3,10 @@
 	y: 5.0d,
 	description: "The first step to botanics",
 	text: [
-		"If the lumicia grass or dirt is mined it will turn into regular dirt that is usable for farming.",
-		"Now we can make/find a pure daisy to start converting stone into livingrock. "
+		"If the lumicia grass or lumicia dirt is mined it will turn into regular dirt that is usable for farming.",
+		"Now we can make a pure daisy to start converting stone into livingrock. ",
+		"",
+		"PS. If you dare you can visit the lowest level to pick up the mushrooms required for making the flower which is \"easier\" than creating the petals"
 	],
 	dependencies: [
 		"e3a02ef8",

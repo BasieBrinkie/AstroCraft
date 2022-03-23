@@ -12,6 +12,9 @@ static stagedItems as IIngredient[][string] = {
 		<thermalfoundation:material:135>,
 		<thermalfoundation:material:802>,
 	],
+	stageGlacidusSpawn.stage: [
+		<thermalfoundation:material:816>
+	],
 
 	toolsSteel.stage: [
 		<thermalfoundation:tool.axe_steel:*>,

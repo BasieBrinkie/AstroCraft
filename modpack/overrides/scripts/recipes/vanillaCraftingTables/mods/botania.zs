@@ -7,6 +7,13 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
+	<botania:altar:0>: [
+		[
+			[<ore:slabCobblestone>, null, <ore:slabCobblestone>],
+			[null, <ore:cobblestone>, null],
+			[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]
+		]
+	],
 	<botania:livingrock0slab:0>: [
 		[
 			[<botania:livingrock:0>,<botania:livingrock:0>,<botania:livingrock:0>]
