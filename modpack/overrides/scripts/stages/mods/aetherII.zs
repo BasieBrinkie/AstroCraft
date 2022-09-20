@@ -11,8 +11,8 @@ static stagedItems as IIngredient[][string] = {
 
 static disabledItems as IIngredient[] = [
 	<aether:aether_portal:0>,
-    <aether:aether_teleporter:0>
-	<aether:skyroot_bucket>,
+    <aether:aether_teleporter:0>,
+	<aether:skyroot_bucket>
 ];
 
 function init() {

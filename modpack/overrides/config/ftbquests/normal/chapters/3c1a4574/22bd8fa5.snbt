@@ -1,0 +1,17 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "17bb6ffd",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "endoflame"
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

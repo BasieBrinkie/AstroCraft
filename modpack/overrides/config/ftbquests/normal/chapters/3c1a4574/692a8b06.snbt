@@ -1,0 +1,17 @@
+{
+	x: 2.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "a00756ae",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "thermalily"
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

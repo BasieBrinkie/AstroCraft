@@ -6,7 +6,8 @@
 		"If the lumicia grass or lumicia dirt is mined it will turn into regular dirt that is usable for farming.",
 		"Now we can make a pure daisy to start converting stone into livingrock. ",
 		"",
-		"PS. If you dare you can visit the lowest level to pick up the mushrooms required for making the flower which is \"easier\" than creating the petals"
+		"PS.",
+		"If you dare, you can visit the lowest level to pick up the mushrooms required for making the flower, which is \"easier\" than creating the petals. But be carefull!"
 	],
 	dependencies: [
 		"e3a02ef8",

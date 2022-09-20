@@ -1,0 +1,17 @@
+{
+	x: 1.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "72bfc62c",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "hydroangeas"
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

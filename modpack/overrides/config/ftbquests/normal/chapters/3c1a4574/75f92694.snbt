@@ -1,0 +1,17 @@
+{
+	x: 1.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "55afe6f4",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "munchdew"
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

@@ -1,5 +1,5 @@
 import crafttweaker.item.IItemStack;
-import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.item.IIngredient;
 
 /*	
 	----------------------------------------------------------------------------------------------
@@ -14,7 +14,7 @@ import crafttweaker.oredict.IOreDictEntry;
 	----------------------------------------------------------------------------------------------
 */	
 
-static addRecipe as IItemStack[][IItemStack] = {
+static addRecipe as IIngredient[][IItemStack] = {
 	//planet_glacidus_spawn
 	<botania:manaresource:3>: [
 		<glacidus:dead_lumicia:0>,
@@ -30,19 +30,15 @@ static addRecipe as IItemStack[][IItemStack] = {
 	]
 };
 
-static addOredictRecipe as IOreDictEntry[][IItemStack] = {
-};
 
 static removeRecipe as IItemStack[] = [
 	<minecraft:skull:0>,
 	<minecraft:skull:2>,
 	<minecraft:skull:4>,
-
 ];
 
 
 function init() {
     mg.crushingTableAdd(addRecipe);
-    mg.crushingTableAddOredict(addOredictRecipe);
     mg.crushingTableRemove(removeRecipe);
 }

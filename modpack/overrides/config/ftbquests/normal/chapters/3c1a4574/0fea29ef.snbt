@@ -1,0 +1,17 @@
+{
+	x: -4.0d,
+	y: -0.5d,
+	dependencies: [
+		"81607181"
+	],
+	tasks: [{
+		uid: "7cff0c5e",
+		type: "item",
+		items: [{
+			id: "botania:altar",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

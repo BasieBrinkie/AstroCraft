@@ -7,23 +7,13 @@ import crafttweaker.oredict.IOreDictEntry;
 zenClass magnetiCraft {
 	zenConstructor() {}
 
-	function crushingTableAdd(map as IItemStack[][IItemStack]) {
+	function crushingTableAdd(map as IIngredient[][IItemStack]) {
 		for output, array in map {
 			for input in array {
-				mods.magneticraft.CrushingTable.addRecipe(input, output, false);
+				mods.magneticraft.CrushingTable.addRecipe(input, output);
 			}
 		}
 	}
-
-    function crushingTableAddOredict(map as IOreDictEntry[][IItemStack]) {
-        for output, array in map {
-            for oredict in array {
-                for input in oredict.items {
-				    mods.magneticraft.CrushingTable.addRecipe(input, output, false);
-                }
-			}
-        }
-    }
 
     function crushingTableRemove(map as IItemStack[]) {
         for output in map {

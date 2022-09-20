@@ -1,0 +1,20 @@
+{
+	x: -4.0d,
+	y: 1.0d,
+	dependencies: [
+		"0fea29ef"
+	],
+	tasks: [{
+		uid: "cccba12e",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "puredaisy"
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

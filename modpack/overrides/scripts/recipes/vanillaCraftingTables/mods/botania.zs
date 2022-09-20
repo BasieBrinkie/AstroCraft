@@ -30,7 +30,14 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<botania:livingrock0slab:0>, null, <botania:livingrock0slab:0>],
 			[<botania:livingrock:0>, <botania:livingrock:0>, <botania:livingrock:0>]
 		]
-	]
+	],
+	<botania:twigwand>.withTag({color1: 3, color2: 3, boundTileZ: 0, boundTileX: 0, boundTileY: -1}): [
+		[
+			[null, <ore:petal>, <ore:livingwoodTwig>],
+			[null, <ore:livingwoodTwig>, <ore:petal>],
+			[<ore:livingwoodTwig>, null, null]
+		]
+	],
 
 };
 
@@ -54,6 +61,12 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
     ------------------
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
+	<botania:lexicon>.withTag({"knowledge.minecraft": 1 as byte, "knowledge.alfheim": 1 as byte, "knowledge.relic": 1 as byte}): [
+	[
+		<ore:treeSapling>,
+		<minecraft:book:0>
+	]
+],
 
 };
 
