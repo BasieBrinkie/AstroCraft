@@ -19665,36 +19665,6 @@
     "3pair485": "{\n  \"left\": 0,\n  \"right\": 1\n}"
   },
   {
-    "name": "appliedenergistics2:charged_quartz_ore",
-    "meta": 0,
-    "length": 1,
-    "name0": "appliedenergistics2:material",
-    "meta0": 1,
-    "0chance0": 149.6,
-    "1chance0": 202.825,
-    "2chance0": 262.65,
-    "3chance0": 329.125,
-    "0pair0": "{\n  \"left\": 1,\n  \"right\": 2\n}",
-    "1pair0": "{\n  \"left\": 1,\n  \"right\": 4\n}",
-    "2pair0": "{\n  \"left\": 1,\n  \"right\": 6\n}",
-    "3pair0": "{\n  \"left\": 1,\n  \"right\": 8\n}"
-  },
-  {
-    "name": "appliedenergistics2:quartz_ore",
-    "meta": 0,
-    "length": 1,
-    "name0": "appliedenergistics2:material",
-    "meta0": 0,
-    "0chance0": 149.4,
-    "1chance0": 198.075,
-    "2chance0": 257.425,
-    "3chance0": 329.5,
-    "0pair0": "{\n  \"left\": 1,\n  \"right\": 2\n}",
-    "1pair0": "{\n  \"left\": 1,\n  \"right\": 4\n}",
-    "2pair0": "{\n  \"left\": 1,\n  \"right\": 6\n}",
-    "3pair0": "{\n  \"left\": 1,\n  \"right\": 8\n}"
-  },
-  {
     "name": "mekanism:saltblock",
     "meta": 0,
     "length": 1,
@@ -25608,5 +25578,35 @@
     "1pair1": "{\n  \"left\": 1,\n  \"right\": 3\n}",
     "2pair1": "{\n  \"left\": 1,\n  \"right\": 4\n}",
     "3pair1": "{\n  \"left\": 1,\n  \"right\": 5\n}"
+  },
+  {
+    "name": "appliedenergistics2:charged_quartz_ore",
+    "meta": 0,
+    "length": 1,
+    "name0": "appliedenergistics2:material",
+    "meta0": 1,
+    "0chance0": 149.975,
+    "1chance0": 198.375,
+    "2chance0": 264.975,
+    "3chance0": 331.55,
+    "0pair0": "{\n  \"left\": 1,\n  \"right\": 2\n}",
+    "1pair0": "{\n  \"left\": 1,\n  \"right\": 4\n}",
+    "2pair0": "{\n  \"left\": 1,\n  \"right\": 6\n}",
+    "3pair0": "{\n  \"left\": 1,\n  \"right\": 8\n}"
+  },
+  {
+    "name": "appliedenergistics2:quartz_ore",
+    "meta": 0,
+    "length": 1,
+    "name0": "appliedenergistics2:material",
+    "meta0": 0,
+    "0chance0": 150.125,
+    "1chance0": 196.425,
+    "2chance0": 262.275,
+    "3chance0": 323.875,
+    "0pair0": "{\n  \"left\": 1,\n  \"right\": 2\n}",
+    "1pair0": "{\n  \"left\": 1,\n  \"right\": 4\n}",
+    "2pair0": "{\n  \"left\": 1,\n  \"right\": 6\n}",
+    "3pair0": "{\n  \"left\": 1,\n  \"right\": 8\n}"
   }
 ]
