@@ -7,7 +7,11 @@ static stagedItems as IIngredient[][string] = {
     stageGlacidusSpawn.stage: [
         <botania:altar:0>,
         <botania:manaresource:3>,
-        <botania:lexicon:0>
+        <botania:lexicon:0>,
+        <botania:livingrock:0>,
+        <botania:livingwood:0>,
+        <botania:specialflower:0>.withTag({type: "puredaisy"}),
+        <botania:spreader:0>
     ]
 };
 

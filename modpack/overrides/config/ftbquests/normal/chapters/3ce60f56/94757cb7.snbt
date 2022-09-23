@@ -1,0 +1,20 @@
+{
+	x: 1.0d,
+	y: 8.5d,
+	tasks: [{
+		uid: "6eae18c6",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "rocketfuel",
+				Amount: 1000
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

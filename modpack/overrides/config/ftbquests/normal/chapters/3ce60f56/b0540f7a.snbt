@@ -1,0 +1,17 @@
+{
+	x: 5.5d,
+	y: 6.0d,
+	dependencies: [
+		"f8d6f470"
+	],
+	tasks: [{
+		uid: "0f9e2927",
+		type: "item",
+		items: [{
+			id: "botania:livingwood",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

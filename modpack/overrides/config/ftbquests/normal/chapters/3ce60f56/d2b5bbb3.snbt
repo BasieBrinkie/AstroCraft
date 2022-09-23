@@ -1,0 +1,17 @@
+{
+	x: 5.5d,
+	y: 7.0d,
+	dependencies: [
+		"b0540f7a"
+	],
+	tasks: [{
+		uid: "2921e53c",
+		type: "item",
+		items: [{
+			id: "botania:spreader",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}
