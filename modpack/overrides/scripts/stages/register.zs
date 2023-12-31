@@ -210,6 +210,9 @@ global stageWoodTools as Stage = ZenStager.initStage("wood_tools");
 //Modular Machinery
 global modularMachineryTier1 as Stage = ZenStager.initStage("modular_machinery_tier_one");
 global modularMachineryTier2 as Stage = ZenStager.initStage("modular_machinery_tier_two");
+
+//Techguns
+global itemMedkit as Stage = ZenStager.initStage("medkit");
 /*
 	------------
 	Misc Stages.

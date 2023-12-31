@@ -42,6 +42,7 @@ function initRecipes() {
 	scripts.recipes.vanillaCraftingTables.mods.advancedRocketry.init();
 	scripts.recipes.vanillaCraftingTables.mods.appliedEnergistics2.init();
 	scripts.recipes.vanillaCraftingTables.mods.architectureCraft.init();
+	scripts.recipes.vanillaCraftingTables.mods.aetherII.init();
 	scripts.recipes.vanillaCraftingTables.mods.botania.init();
 	scripts.recipes.vanillaCraftingTables.mods.charcoalPit.init();
 	scripts.recipes.vanillaCraftingTables.mods.chisel.init();
@@ -85,6 +86,7 @@ function initIntegrations() {
 	scripts.recipes.integrations.actuallyAdditions.empowerer.init();
 	
 	scripts.recipes.integrations.appliedEnergistics2.grinder.init();
+	
 	scripts.recipes.integrations.botania.pureDaisy.init();
 	
 	scripts.recipes.integrations.charcoalPit.bloomery.init();
@@ -109,6 +111,7 @@ function initIntegrations() {
 	scripts.recipes.integrations.factoryTech.chopSaw.init(); 
 	scripts.recipes.integrations.factoryTech.compressionChamber.init();
 	scripts.recipes.integrations.factoryTech.drill.init();
+	scripts.recipes.integrations.factoryTech.electricFurnace.init();
 	scripts.recipes.integrations.factoryTech.grindStone.init();
 	scripts.recipes.integrations.factoryTech.magneticCentrifuge.init();
 	scripts.recipes.integrations.factoryTech.metalCutter.init();
@@ -132,12 +135,12 @@ function initIntegrations() {
 	scripts.recipes.integrations.skyResources.rockGrinder.init();
 	scripts.recipes.integrations.skyResources.waterExtractor.init();
 	
-	scripts.recipes.integrations.tConstruct.melting.init();
 	scripts.recipes.integrations.tConstruct.alloy.init();
 	scripts.recipes.integrations.tConstruct.basin.init();
 	scripts.recipes.integrations.tConstruct.casting.init();
 	scripts.recipes.integrations.tConstruct.drying.init();
 	scripts.recipes.integrations.tConstruct.fuel.init();
+	scripts.recipes.integrations.tConstruct.melting.init();
 	}
 	
 }
@@ -182,6 +185,7 @@ function initStages() {
 	scripts.stages.mods.grapplemod.init();
 	scripts.stages.mods.icbmClassic.init();
 	scripts.stages.mods.immersiveEngineering.init();
+	scripts.stages.mods.industrialRenewal.init();
 	scripts.stages.mods.jurassicraft.init();
 	scripts.stages.mods.libVulpes.init();
 	scripts.stages.mods.littleTiles.init();
@@ -231,6 +235,7 @@ function initOredict() {
 	scripts.oredict.woodSlabs.init();
 	scripts.oredict.wool.init();
 	
+	scripts.oredict.mods.botania.init();
 	scripts.oredict.mods.chiselsAndBits.init();
 	scripts.oredict.mods.exNihiloCreatio.init();
 	scripts.oredict.mods.exCompressum.init();

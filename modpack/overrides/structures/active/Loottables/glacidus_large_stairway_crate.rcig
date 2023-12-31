@@ -1,0 +1,45 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "astrocraft:glacidus_large_stairway_crate",
+  "items": [
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "reccomplex:inventory_generation_single_tag",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "itemCollectionKey": {
+              "nbtType": "string",
+              "nbt": "astrocraft:metal_iron_ingot_tier1_low"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.5121370553970337,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "reccomplex:inventory_generation_tag",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "itemCollectionKey": {
+              "nbtType": "string",
+              "nbt": "astrocraft:glacidus_wood_kit"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

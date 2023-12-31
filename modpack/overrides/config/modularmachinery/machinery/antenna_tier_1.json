@@ -1,6 +1,6 @@
 {
     "registryname": "antenna_tier_1",
-    "localizedname": "Antenna",
+    "localizedname": "Antenna Tier 1",
     "requires-blueprint": false,
     "color": "878787",
     "parts": [

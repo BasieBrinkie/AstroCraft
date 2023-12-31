@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "astrocraft:metal_iron_ingot_tier1_low",
+  "items": [
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "damage": 0,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

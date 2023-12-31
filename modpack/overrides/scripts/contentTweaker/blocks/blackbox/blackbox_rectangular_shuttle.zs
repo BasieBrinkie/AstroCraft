@@ -17,7 +17,7 @@ blackBox.setWitherProof(true);
 blackBox.creativeTab = astrocraftTab;
 
 blackBox.onBlockActivated = function(world, pos, state, player, hand, facing, blockHit) {
-    player.give(<item:opencomputers:material:12>.withTag({blackbox: "rectangular_shuttle", display: {LocName: "Blackbox Data: Rectangular Shuttle", Lore: ["This particular platter contains data from the blackbox"]}}));
+    player.give(<item:opencomputers:material:12>.withTag({blackbox: "rectangular_shuttle", display: {LocName: "Blackbox Data: Rectangular Shuttle", Lore: ["This particular platter contains data from a blackbox"]}}));
     return true;
 };
 

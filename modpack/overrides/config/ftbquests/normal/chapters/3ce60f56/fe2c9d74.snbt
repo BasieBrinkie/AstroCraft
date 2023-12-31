@@ -1,6 +1,6 @@
 {
-	x: 3.5d,
-	y: 5.0d,
+	x: 8.0d,
+	y: 2.0d,
 	description: "Convert compatible stone to livingrock",
 	text: [
 		"Now a few notes about the turn rate to living rate:",

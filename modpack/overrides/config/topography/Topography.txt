@@ -1,9 +1,5 @@
 //If this file is deleted, a new set of default configs will be generated.
 
-//Sets if the mod should print documentation.
-printDocumentation(false)
-setAsDefaultWorldType()
-
 //Registers a preset. First argument is name, second is the image name, third is a description, fourth is WorldType, fifth is generator options Json.
 astrocraft = registerPreset("Large Escape Pod", "images/asteroids_large_escape_pod", "You have crashed with a large escape pod. This escape pod contains several salvageable items that help you survive the harsh environment. Due to the amount of resources you can quickly travel to its closest planets, Glacidus and Aquarius-66B.")
 astrocraft.registerDimension(0, "astrocraft/dimensions/0_Asteroids_One_LargeEscapePod")
@@ -23,5 +19,6 @@ astrocraft.registerDimension(5, "astrocraft/dimensions/5_Aquarius-66B")
 astrocraft.registerDimension(18, "astrocraft/dimensions/18_Ringworld")
 astrocraft.disableNetherPortal()
 
-
-
+//Sets if the mod should print documentation.
+printDocumentation(false)
+setAsDefaultWorldType()

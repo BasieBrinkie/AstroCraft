@@ -1,6 +1,6 @@
 {
-	x: 4.5d,
-	y: 5.0d,
+	x: 7.0d,
+	y: 2.0d,
 	description: "The first step to botanics",
 	text: [
 		"If the lumicia grass or lumicia dirt is mined it will turn into regular dirt that is usable for farming.",

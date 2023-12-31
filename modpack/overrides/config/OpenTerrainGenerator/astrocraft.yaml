@@ -6,7 +6,7 @@ ShowOTGWorldCreationMenu: false
 version: 1
 WorldName: "OTG Preset Dimensions"
 Overworld:
-  PresetName: "Biome Bundle"
+  PresetName: null
   DimensionId: 9
   ShowInWorldCreationGUI: false
   LowestSupportedModPackConfigVersion: 1

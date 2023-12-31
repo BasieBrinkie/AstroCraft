@@ -1,0 +1,137 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "astrocraft:glacidus_starting_gear",
+  "items": [
+    {
+      "weight": 0.12706157565116882,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:iron_pickaxe",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5889394283294678,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:iron_pickaxe",
+        "damage": 36,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.0472542829811573,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:diamond_pickaxe",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.5121370553970337,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:wooden_pickaxe",
+        "damage": 5,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.646636426448822,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:stone_pickaxe",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.9243392944335938,
+      "min": 1,
+      "max": 3,
+      "item": {
+        "id": "glacidus:grapes",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.18405085802078247,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "industrialrenewal:medkit",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.12706157565116882,
+      "min": 1,
+      "max": 10,
+      "item": {
+        "id": "thebetweenlands:log_hearthgrove",
+        "damage": 1,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.4858947992324829,
+      "min": 1,
+      "max": 12,
+      "item": {
+        "id": "thebetweenlands:weedwood_planks",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0068187713623047,
+      "min": 1,
+      "max": 11,
+      "item": {
+        "id": "thebetweenlands:log_rotten_bark",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5889394283294678,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "thebetweenlands:log_hearthgrove",
+        "damage": 1,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.1894346475601196,
+      "min": 1,
+      "max": 5,
+      "item": {
+        "id": "thebetweenlands:log_rotten_bark",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5889394283294678,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "thebetweenlands:rope_item",
+        "damage": 0,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

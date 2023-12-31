@@ -65,6 +65,11 @@ static normalDrops as IItemStack[][string] = {
 
 	"minecraft:wool": [
 		<minecraft:string:0> * 3
+	],
+	//Techguns
+	"techguns:military_crate:3": [
+		<industrialrenewal:medkit> * 3,
+		<nuclearcraft:radaway_slow>
 	]
 };
 

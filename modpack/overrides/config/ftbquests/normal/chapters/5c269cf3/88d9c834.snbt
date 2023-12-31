@@ -3,9 +3,6 @@
 		id: "modularmachinery:itemblueprint",
 		tag: {
 			dynamicmachine: "modularmachinery:asteroid_miner_tier_1"
-		},
-		ForgeCaps: {
-			"customnpcs:itemscripteddata": {}
 		}
 	},
 	x: -2.0d,
@@ -14,9 +11,10 @@
 	description: "Automatic miner in the asteroid fields",
 	text: [
 		"You simply input power and the miner will become active.",
-		"Check JEI for the predicted output of the miner",
+		"Check JEI for the predicted output of the miner.",
+		"The general machine controller can be upgraded to the miner machine controller, doing so enables auto-building the structure when clicked on with a weak stick, (other variants don't work)",
 		"",
-		"Although you can technically use a small item output you need to use at least 9 output slots for the miner to work."
+		"Although you can technically use a small item output you need to use at least 9 output slots for the miner to work, otherwise you might miss out on some mined ores if an asteroid contained many types of ores."
 	],
 	dependencies: [
 		"7d38c86b"
@@ -39,5 +37,30 @@
 	{
 		uid: "427b63a4",
 		type: "checkmark"
+	},
+	{
+		uid: "6130892b",
+		type: "item",
+		items: [{
+			id: "modularcontroller:asteroid_miner_tier_1_controller",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "f5de19b7",
+		type: "item",
+		item: {
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:asteroid_miner_tier_1"
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 8192,
+		only_one: true
 	}]
 }

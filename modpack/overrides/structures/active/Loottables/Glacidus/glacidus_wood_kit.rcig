@@ -1,0 +1,97 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "astrocraft:glacidus_wood_kit",
+  "items": [
+    {
+      "weight": 1.39763605594635,
+      "min": 1,
+      "max": 16,
+      "item": {
+        "id": "glacidus:underground_planks",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 16,
+      "item": {
+        "id": "thebetweenlands:rotten_planks",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.18405085802078247,
+      "min": 1,
+      "max": 10,
+      "item": {
+        "id": "glacidus:underground_log",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 16,
+      "item": {
+        "id": "glacidus:underground_fence",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 2.0475566387176514,
+      "min": 1,
+      "max": 8,
+      "item": {
+        "id": "glacidus:underground_planks",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.25986868143081665,
+      "min": 1,
+      "max": 8,
+      "item": {
+        "id": "glacidus:underground_log",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.6340234279632568,
+      "min": 1,
+      "max": 10,
+      "item": {
+        "id": "glacidus:underground_stairs",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.0976562350988388,
+      "min": 1,
+      "max": 3,
+      "item": {
+        "id": "factorytech:salvagepart",
+        "damage": 73,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.1442086547613144,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "factorytech:salvagepart",
+        "damage": 1,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

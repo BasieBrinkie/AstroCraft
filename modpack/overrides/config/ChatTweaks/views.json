@@ -38,7 +38,7 @@
     },
     {
       "name": "Startup messages",
-      "filterPattern": "CustomNpcs Installed. For more info Click here",
+      "filterPattern": "CustomNpcs installed. For more info Click here",
       "outputFormat": "$0",
       "style": "Hidden",
       "isExclusive": true,
