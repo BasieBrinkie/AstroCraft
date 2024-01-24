@@ -1,6 +1,0 @@
-
-{
-  "Name": "scp.blob_worm",
-  "Registry ID": "scp:blob_worm",
-  "Class": "alexiy.secure.contain.protect.entity.dragonsnails.EntityBlobworm"
-}
