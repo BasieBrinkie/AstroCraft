@@ -1,55 +1,29 @@
 # Un-Needed Mod Bloat
-src/config/AppliedEnergistics2/items.csv
-src/config/AppliedEnergistics2/aerecipes/*
-src/config/cd4017be/inductiveLogistics.rcp
-src/config/cd4017be/inductiveLogistics.rcp.old
-src/config/cd4017be/compiled.dat
-src/config/cd4017be/core.rcp.old
-src/acmedia/*
-src/astralsorcery/*
-src/backups/*
-src/bendpacks/*
-src/betweenlands_gallery/*
-src/journeymap/*
-src/llibrary/*
-src/local/*
-src/logs/*
-src/mods/*
-src/nuclearcraft/*
-src/saves/*
-src/.ReAuth.cfg
-src/BotaniaVars.dat
-src/*.log
-src/*.dll
-src/.curseclient
-src/.mixin.out/*'
-src/config/tellme/*
-src/config/BiomeTweaker/output/*
-src/config/cavegenerator/example_presets/*
-src/config/InvTweaksRules.txt
-src/config/InvTweaks.cfg
-src/config/tickdynamic.cfg
-src/config/thaumicjei_itemstack_aspects.json
-src/config/splash.properties
-src/usercache.json
-src/usernamecache.json
+modpack/overrides/config/AppliedEnergistics2/items.csv
+modpack/overrides/config/AppliedEnergistics2/aerecipes/*
+modpack/overrides/config/cd4017be/inductiveLogistics.rcp
+modpack/overrides/config/cd4017be/inductiveLogistics.rcp.old
+modpack/overrides/config/cd4017be/compiled.dat
+modpack/overrides/config/cd4017be/core.rcp.old
+modpack/overrides/config/tellme/*
+modpack/overrides/config/BiomeTweaker/output/*
+modpack/overrides/config/cavegenerator/example_presets/*
+modpack/overrides/config/InvTweaksRules.txt
+modpack/overrides/config/InvTweaks.cfg
+modpack/overrides/config/tickdynamic.cfg
+modpack/overrides/config/thaumicjei_itemstack_aspects.json
+modpack/overrides/config/splash.properties
+modpack/overrides/config/brandon3055/contributors.json
 
 # Client Only Files
-src/config/jei/bookmarks.ini
-src/config/jei/worldSettings.cfg
-src/config/jei/lookupHistory.zip
-src/journeymap/data/*
-src/journeymap/server/*
-src/journeymap/journeymap.log
-src/crash-reports/*
-src/.mixin.out/*
+modpack/overrides/config/jei/bookmarks.ini
+modpack/overrides/config/jei/worldSettings.cfg
+modpack/overrides/config/jei/lookupHistory.zip
 
 # Other
-src/config/worldedit/*
-src/config/sampler.ini
-src/usercache.json
-src/usernamecache.json
-src/resourcepacks/*
+modpack/overrides/config/worldedit/*
+modpack/overrides/config/sampler.ini
+
 
 # IDE
 .idea/
@@ -58,7 +32,14 @@ src/resourcepacks/*
 .DS_Store
 *.dat
 
-src/patchouli_data.json
-src/seen_buildersbag_addons.txt
-src/config/brandon3055/contributors.json
-src/cache/lolicaches/modlist.bin
+### PAX ###
+pax
+pax.exe
+PaxStart.Bat
+PAX Wiki.url
+libssl*.dll
+libcrypto*.dll
+cacert.pem
+
+### Modpack ###
+.out/
