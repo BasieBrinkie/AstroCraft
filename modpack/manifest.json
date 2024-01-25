@@ -1462,6 +1462,14 @@
       }
     },
     {
+      "projectID": 282313,
+      "fileID": 2689835,
+      "required": true,
+      "__meta": {
+        "name": "TipTheScales"
+      }
+    },
+    {
       "projectID": 282947,
       "fileID": 2721067,
       "required": true,
@@ -1566,14 +1574,6 @@
       "required": true,
       "__meta": {
         "name": "RandomPatches (Forge)"
-      }
-    },
-    {
-      "projectID": 285789,
-      "fileID": 4581880,
-      "required": true,
-      "__meta": {
-        "name": "Born in a Barn"
       }
     },
     {
@@ -2310,6 +2310,20 @@
       }
     },
     {
+      "projectID": 518410,
+      "fileID": 4836485,
+      "required": true,
+      "__meta": {
+        "name": "Music Triggers",
+        "dependencies": [
+          419286,
+          419286,
+          661115,
+          661115
+        ]
+      }
+    },
+    {
       "projectID": 530919,
       "fileID": 3652765,
       "required": true,
@@ -2357,6 +2371,15 @@
       "required": true,
       "__meta": {
         "name": "Fixeroo"
+      }
+    },
+    {
+      "projectID": 661115,
+      "fileID": 4727144,
+      "required": true,
+      "__meta": {
+        "name": "The Impossible LIbrary",
+        "explicit": false
       }
     },
     {
