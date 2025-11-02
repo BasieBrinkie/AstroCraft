@@ -44,5 +44,6 @@ cacert.pem
 ### Modpack ###
 .out/
 
-### World Backups ###
+### World Backups and Locks ###
 Worlds/*.zip
+*.lock
