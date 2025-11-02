@@ -1,0 +1,23 @@
+// Cleanroom Relauncher configuration
+// This file is parsed leniently; comments are allowed and preserved on save.
+
+{
+  // Cleanroom version to launch (auto-selected on first run)
+  "selectedVersion": "0.3.21-alpha",
+  // Latest Cleanroom version seen by the relauncher (informational)
+  "latestVersion": "0.3.21-alpha",
+  // Preferred Java vendor: "adoptium" (Temurin) or "graalvm" (GraalVM Community JDK).
+  // If chosen vendor is unavailable for your OS/arch/version, the relauncher falls back to Adoptium automatically.
+  "javaVendor": "adoptium",
+  // Java major version to use (e.g., 24). Changing this triggers auto re-download and switch.
+  "javaVersion": 25,
+  // UI theme: dark mode on/off (default: true). When enabled, all relauncher UI uses a dark theme.
+  "darkMode": true,
+  // Automatically switch to the latest Cleanroom release on launch.
+  // When true, the relauncher will always select the latest release, skipping update prompts.
+  "autoUpdate": false,
+  // Optional absolute path to a Java executable. Leave null/empty to let the relauncher manage Java automatically.
+  "javaPath": "C:\\Users\\basie\\.cleanroom\\relauncher\\java\\temurin-25-windows-x64\\jdk-25-jre\\bin\\java.exe",
+  // Optional JVM arguments appended when launching Cleanroom.
+  "args": "-XX:+UnlockExperimentalVMOptions -XX:+UseCompactObjectHeaders -XX:+UseZGC"
+}

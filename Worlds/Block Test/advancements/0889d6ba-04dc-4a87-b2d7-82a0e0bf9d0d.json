@@ -1,0 +1,26 @@
+{
+  "triumph:lore_structures/systems/arcturus": {
+    "criteria": {
+      "dim_4": "2025-11-02 02:14:27 +0100"
+    },
+    "done": true
+  },
+  "triumph:lore_items/systems/arcturus": {
+    "criteria": {
+      "dim_4": "2025-11-02 02:14:27 +0100"
+    },
+    "done": true
+  },
+  "triumph:lore_structures/root": {
+    "criteria": {
+      "location": "2025-11-02 02:14:27 +0100"
+    },
+    "done": true
+  },
+  "triumph:lore_items/root": {
+    "criteria": {
+      "location": "2025-11-02 02:14:27 +0100"
+    },
+    "done": true
+  }
+}
