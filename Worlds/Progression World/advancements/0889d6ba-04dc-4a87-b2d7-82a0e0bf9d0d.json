@@ -1,0 +1,116 @@
+{
+  "charcoal_pit:root": {
+    "criteria": {
+      "crafting_table": "2019-02-24 19:52:23 +0100"
+    },
+    "done": true
+  },
+  "advancedrocketry:normal/suitedup": {
+    "criteria": {
+      "suited": "2019-02-24 19:52:23 +0100"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/craft_hammer": {
+    "criteria": {
+      "craft_hammer": "2019-02-24 19:52:23 +0100"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/root": {
+    "criteria": {
+      "tick": "2021-02-22 18:47:47 +0100"
+    },
+    "done": true
+  },
+  "charcoal_pit:ash": {
+    "criteria": {
+      "item": "2019-04-28 22:44:24 +0200"
+    },
+    "done": true
+  },
+  "erebus:portal/root": {
+    "criteria": {
+      "obsidian": "2019-04-28 22:42:32 +0200"
+    },
+    "done": false
+  },
+  "mysticalworld:root": {
+    "criteria": {
+      "auto": "2021-02-22 18:47:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2019-02-24 19:52:23 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:fission/decay_generator": {
+    "criteria": {
+      "has_item": "2019-05-02 14:22:46 +0200"
+    },
+    "done": true
+  },
+  "nuclearcraft:devices/bin": {
+    "criteria": {
+      "has_item": "2019-05-07 14:22:52 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2019-05-08 00:09:21 +0200"
+    },
+    "done": true
+  },
+  "advancedrocketry:normal/root": {
+    "criteria": {
+      "crafting_table": "2019-02-24 19:52:23 +0100"
+    },
+    "done": true
+  },
+  "astralsorcery:root": {
+    "criteria": {
+      "astralsorcery_present": "2019-02-24 19:52:43 +0100"
+    },
+    "done": true
+  },
+  "advancedrocketry:normal/holographic": {
+    "criteria": {
+      "warp": "2019-02-24 19:52:23 +0100"
+    },
+    "done": true
+  },
+  "appliedenergistics2:main/network1": {
+    "criteria": {
+      "cable": "2019-02-24 19:52:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2019-05-02 14:49:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2019-05-07 14:21:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2019-02-24 19:52:23 +0100"
+    },
+    "done": true
+  },
+  "rftools:hardpower": {
+    "criteria": {
+      "placed_endergenic": "2019-05-02 14:49:43 +0200"
+    },
+    "done": true
+  }
+}

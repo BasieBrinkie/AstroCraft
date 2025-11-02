@@ -1,0 +1,2 @@
+#Dynamically calculated blood values - DON'T EDIT
+glacidus:merialces=15

@@ -1,0 +1,29 @@
+{
+    "DialogData": [
+    ],
+    "BankData": [
+    ],
+    "QuestData": {
+        "CompletedQuests": [
+        ],
+        "ActiveQuests": [
+        ]
+    },
+    "TransportData": [
+    ],
+    "FactionData": [
+    ],
+    "ItemGiverChained": [
+    ],
+    "ItemGiversList": [
+    ],
+    "MailData": [
+    ],
+    "NpcsTimers": [
+    ],
+    "PlayerName": "BasieBrinkie",
+    "UUID": "0889d6ba-04dc-4a87-b2d7-82a0e0bf9d0d",
+    "PlayerCompanionId": 0,
+    "ScriptStoreddata": {
+    }
+}

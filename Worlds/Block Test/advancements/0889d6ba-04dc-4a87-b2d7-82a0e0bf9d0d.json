@@ -1,25 +1,73 @@
 {
+<<<<<<< Updated upstream
   "triumph:lore_structures/systems/arcturus": {
     "criteria": {
       "dim_4": "2025-11-02 02:14:27 +0100"
+=======
+  "triumph:lore_items/dimensions/asteroids_1/beacon": {
+    "criteria": {
+      "structure_asteroidbeacon": "2021-08-26 19:15:03 +0200"
+    },
+    "done": true
+  },
+  "triumph:lore_structures/systems/arcturus": {
+    "criteria": {
+      "dim_0": "2021-07-09 01:44:57 +0200"
+    },
+    "done": true
+  },
+  "triumph:lore_structures/dimensions/asteroids_1": {
+    "criteria": {
+      "Dimension Stage": "2021-07-09 02:06:03 +0200"
+    },
+    "done": true
+  },
+  "triumph:lore_structures/dimensions/asteroids_1/beacon": {
+    "criteria": {
+      "structure_asteroidbeacon": "2021-07-09 02:17:24 +0200"
+    },
+    "done": true
+  },
+  "triumph:lore_items/dimensions/asteroids_1": {
+    "criteria": {
+      "Dimension Stage": "2021-07-28 01:20:41 +0200"
+>>>>>>> Stashed changes
     },
     "done": true
   },
   "triumph:lore_items/systems/arcturus": {
     "criteria": {
+<<<<<<< Updated upstream
       "dim_4": "2025-11-02 02:14:27 +0100"
+=======
+      "dim_0": "2021-07-09 02:33:08 +0200"
+    },
+    "done": true
+  },
+  "triumph:lore_structures/dimensions/glacidus": {
+    "criteria": {
+      "Dimension Stage": "2021-08-24 17:59:37 +0200"
+>>>>>>> Stashed changes
     },
     "done": true
   },
   "triumph:lore_structures/root": {
     "criteria": {
+<<<<<<< Updated upstream
       "location": "2025-11-02 02:14:27 +0100"
+=======
+      "location": "2021-07-09 00:40:41 +0200"
+>>>>>>> Stashed changes
     },
     "done": true
   },
   "triumph:lore_items/root": {
     "criteria": {
+<<<<<<< Updated upstream
       "location": "2025-11-02 02:14:27 +0100"
+=======
+      "location": "2021-07-09 02:29:02 +0200"
+>>>>>>> Stashed changes
     },
     "done": true
   }

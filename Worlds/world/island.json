@@ -1,0 +1,10 @@
+{
+  "spawn": {
+    "playerName": "default_island",
+    "playerId": null,
+    "islandName": "spawn_island",
+    "posX": -84,
+    "posY": 60,
+    "posZ": 334
+  }
+}

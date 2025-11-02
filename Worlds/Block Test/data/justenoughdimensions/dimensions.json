@@ -7,11 +7,15 @@
     {
       "dim": 0,
       "override": true,
+<<<<<<< Updated upstream
       "biome": "advancedrocketry:space",
+=======
+>>>>>>> Stashed changes
       "dimensiontype": {
         "id": 0,
         "name": "DIM_0",
         "suffix": "_DIM_0",
+<<<<<<< Updated upstream
         "keeploaded": true,
         "worldprovider": "zmaster587.advancedRocketry.world.provider.WorldProviderAsteroid"
       },
@@ -25,10 +29,21 @@
           "fallDamageMultiplier": "0",
           "doWeatherCycle": false,
           "sendCommandFeedback": false
+=======
+        "keeploaded": false,
+        "worldprovider": "zmaster587.advancedRocketry.world.provider.WorldProviderAsteroid",
+        "WorldProviderOverride": "zmaster587.advancedRocketry.world.provider.WorldProviderAsteroid"
+      },
+      "worldinfo": {
+        "GameRules": {
+          "fallDamageMultiplier": "0",
+          "doWeatherCycle": false
+>>>>>>> Stashed changes
         }
       }
     },
     {
+<<<<<<< Updated upstream
       "dim": 4,
       "dimensiontype": {
         "id": 4,
@@ -53,6 +68,20 @@
           "doWeatherCycle": false,
           "sendCommandFeedback": false
         }
+=======
+      "dim": 5,
+      "dimensiontype": {
+        "id": 5,
+        "name": "DIM_5",
+        "suffix": "_DIM_5",
+        "keeploaded": false,
+        "worldprovider": "com.legacy.glacidus.world.WorldProviderGlacidus"
+      },
+      "worldinfo": {
+        "generatorName": "topography",
+        "generatorOptions": "{\"Topography-Preset\":\"Ringworld\"}",
+        "generatorVersion": 0
+>>>>>>> Stashed changes
       }
     }
   ]

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<galaxy>
+    <star blackHole="true" name="ToBeSetWIP" numGasGiants="0" numPlanets="0" size="1.0" temp="100" x="0" y="0">
+        <planet DIMID="0" dimMapping="" name="Earth">
+            <isKnown>true</isKnown>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>1.0,1.0,1.0</skyColor>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>100</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+            <orbitalPhi>0</orbitalPhi>
+            <avgTemperature>287</avgTemperature>
+            <rotationalPeriod>24000</rotationalPeriod>
+            <atmosphereDensity>100</atmosphereDensity>
+            <generateCraters>false</generateCraters>
+            <generateVolcanos>false</generateVolcanos>
+            <generateStructures>false</generateStructures>
+            <generateGeodes>false</generateGeodes>
+        </planet>
+        <planet DIMID="3" name="Asteroid Belt">
+            <isKnown>true</isKnown>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>1.0,1.0,1.0</skyColor>
+            <gravitationalMultiplier>5</gravitationalMultiplier>
+            <orbitalDistance>100</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+            <orbitalPhi>0</orbitalPhi>
+            <avgTemperature>255</avgTemperature>
+            <rotationalPeriod>24000</rotationalPeriod>
+            <atmosphereDensity>0</atmosphereDensity>
+            <generateCraters>false</generateCraters>
+            <generateVolcanos>false</generateVolcanos>
+            <generateStructures>false</generateStructures>
+            <generateGeodes>false</generateGeodes>
+            <genType>2</genType>
+            <biomeIds>advancedrocketry:space</biomeIds>
+        </planet>
+    </star>
+</galaxy>

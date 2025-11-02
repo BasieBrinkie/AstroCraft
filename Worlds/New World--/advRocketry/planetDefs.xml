@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<galaxy>
+    <star blackHole="false" name="Arcturus (K1.5III)" numGasGiants="0" numPlanets="0" size="1.8" temp="100" x="0" y="0">
+        <star blackHole="false" separation="20.0" size="3.0" temp="120"/>
+        <planet DIMID="18" customIcon="earthlike" dimMapping="" name="Ring World">
+            <isKnown>true</isKnown>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>1.0,1.0,1.0</skyColor>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>25</orbitalDistance>
+            <orbitalTheta>90</orbitalTheta>
+            <orbitalPhi>90</orbitalPhi>
+            <retrograde>false</retrograde>
+            <avgTemperature>772</avgTemperature>
+            <rotationalPeriod>2147483647</rotationalPeriod>
+            <atmosphereDensity>100</atmosphereDensity>
+            <generateCraters>false</generateCraters>
+            <generateCaves>false</generateCaves>
+            <generateVolcanos>false</generateVolcanos>
+            <generateStructures>false</generateStructures>
+            <generateGeodes>false</generateGeodes>
+        </planet>
+        <planet DIMID="4" customIcon="glacidus" dimMapping="" name="Glacidus">
+            <isKnown>true</isKnown>
+            <hasRings>true</hasRings>
+            <ringColor>0.3,0.1,1.0</ringColor>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>1.0,1.0,1.0</skyColor>
+            <gravitationalMultiplier>50</gravitationalMultiplier>
+            <orbitalDistance>70</orbitalDistance>
+            <orbitalTheta>119</orbitalTheta>
+            <orbitalPhi>10</orbitalPhi>
+            <retrograde>false</retrograde>
+            <avgTemperature>436</avgTemperature>
+            <rotationalPeriod>24771</rotationalPeriod>
+            <atmosphereDensity>80</atmosphereDensity>
+            <generateCraters>false</generateCraters>
+            <generateCaves>false</generateCaves>
+            <generateVolcanos>false</generateVolcanos>
+            <generateStructures>false</generateStructures>
+            <generateGeodes>false</generateGeodes>
+            <planet DIMID="0" customIcon="asteroid" name="Mining Site 495-IIM">
+                <isKnown>true</isKnown>
+                <fogColor>1.0,1.0,1.0</fogColor>
+                <skyColor>1.0,1.0,1.0</skyColor>
+                <gravitationalMultiplier>5</gravitationalMultiplier>
+                <orbitalDistance>20</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
+                <orbitalPhi>180</orbitalPhi>
+                <retrograde>false</retrograde>
+                <avgTemperature>767</avgTemperature>
+                <rotationalPeriod>11525</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <generateCraters>false</generateCraters>
+                <generateCaves>false</generateCaves>
+                <generateVolcanos>false</generateVolcanos>
+                <generateStructures>false</generateStructures>
+                <generateGeodes>false</generateGeodes>
+                <genType>2</genType>
+                <biomeIds>advancedrocketry:space;30</biomeIds>
+            </planet>
+        </planet>
+    </star>
+</galaxy>

@@ -1,7 +1,12 @@
 #TODO: Provide instructions for modpack devs.
 ---
+<<<<<<< Updated upstream
 ModPackConfigName: null
 ModPackConfigVersion: 0
+=======
+ModPackConfigName: "Astrocraft"
+ModPackConfigVersion: 1
+>>>>>>> Stashed changes
 ShowOTGWorldCreationMenu: true
 version: 1
 WorldName: "Block Test"
@@ -12,9 +17,15 @@ Overworld:
   LowestSupportedModPackConfigVersion: 1
   RemoveOnUpdate: false
   Seed: ""
+<<<<<<< Updated upstream
   GameType: "Creative"
   BonusChest: false
   AllowCheats: true
+=======
+  GameType: "Survival"
+  BonusChest: false
+  AllowCheats: false
+>>>>>>> Stashed changes
   WorldBorderRadiusInChunks: 0
   PregeneratorRadiusInChunks: 0
   Settings:
