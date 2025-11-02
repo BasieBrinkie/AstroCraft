@@ -1,0 +1,41 @@
+{
+  "config_version": {
+    "id": "__default",
+    "version": 0
+  },
+  "dimensions": [
+    {
+      "dim": 0,
+      "override": true,
+      "dimensiontype": {
+        "id": 0,
+        "name": "DIM_0",
+        "suffix": "_DIM_0",
+        "keeploaded": false,
+        "worldprovider": "zmaster587.advancedRocketry.world.provider.WorldProviderAsteroid",
+        "WorldProviderOverride": "zmaster587.advancedRocketry.world.provider.WorldProviderAsteroid"
+      },
+      "worldinfo": {
+        "GameRules": {
+          "fallDamageMultiplier": "0",
+          "doWeatherCycle": false
+        }
+      }
+    },
+    {
+      "dim": 5,
+      "dimensiontype": {
+        "id": 5,
+        "name": "DIM_5",
+        "suffix": "_DIM_5",
+        "keeploaded": false,
+        "worldprovider": "com.legacy.glacidus.world.WorldProviderGlacidus"
+      },
+      "worldinfo": {
+        "generatorName": "topography",
+        "generatorOptions": "{\"Topography-Preset\":\"Ringworld\"}",
+        "generatorVersion": 0
+      }
+    }
+  ]
+}
