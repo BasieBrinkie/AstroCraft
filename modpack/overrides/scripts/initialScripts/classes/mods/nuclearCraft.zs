@@ -923,13 +923,15 @@ zenClass nuclearCraft {
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-	function steamTurbineAddRecipe(map as double[string][double][double][ILiquidStack][ILiquidStack]) {
+	function steamTurbineAddRecipe(map as double[string][double][double][double][ILiquidStack][ILiquidStack]) {
 		for outputFluid, array1 in map {
 			for inputFluid, array2 in array1 {
 				for powerPerMB, array3 in array2 {
-					for expansionPerMB, array4 in array3 {
-						for particleName, particleSpeedMultiplier in array4 {
-							mods.nuclearcraft.Turbine.addRecipe(inputFluid, outputFluid, powerPerMB, particleName, particleSpeedMultiplier);
+					for expansionLevel, array4 in array3 {
+						for spinUpMultiplier, array5 in array4 {
+							for partEffect, partSpeedMult in array5 {
+								mods.nuclearcraft.Turbine.addRecipe(inputFluid, outputFluid, powerPerMB, expansionLevel, spinUpMultiplier, partEffect, partSpeedMult);
+							}
 						}
 					}
 				}
@@ -956,12 +958,30 @@ zenClass nuclearCraft {
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-	function condenserAddRecipe(map as int[double][ILiquidStack][ILiquidStack]) {
+	function condenserWithFlowAddRecipe(map as double[int][int][int][double][ILiquidStack][ILiquidStack]) {
 		for outputFluid, array1 in map {
 			for inputFluid, array2 in array1 {
-				for condensTemp, coolingReq in array2 {
-					mods.nuclearcraft.Condenser.addRecipe(inputFluid, outputFluid, coolingReq, condensTemp);
-				}		
+				for coolingReq, array3 in array2 {
+					for tempIn, array4 in array3 {
+						for tempOut, array5 in array4 {
+							for prefFlowDir, flowDirBonus in array5 {
+								mods.nuclearcraft.Condenser.addRecipe(inputFluid, outputFluid, coolingReq, tempIn, tempOut, prefFlowDir, flowDirBonus);
+							}
+						}
+					}		
+				}
+			}
+		}
+	}
+
+	function condenserAddRecipe(map as int[int][double][ILiquidStack][ILiquidStack]) {
+		for outputFluid, array1 in map {
+			for inputFluid, array2 in array1 {
+				for coolingReq, array3 in array2 {
+					for tempIn, tempOut in array3 {
+						mods.nuclearcraft.Condenser.addRecipe(inputFluid, outputFluid, coolingReq, tempIn, tempOut);			
+					}		
+				}
 			}
 		}
 	}

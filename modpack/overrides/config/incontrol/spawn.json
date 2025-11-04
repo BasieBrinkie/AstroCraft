@@ -1,4 +1,8 @@
 [
+    {  
+        "dimension": 0, 
+        "result": "deny"
+    },
     {
         "dimension": 4,
         "mod": "glacidus",

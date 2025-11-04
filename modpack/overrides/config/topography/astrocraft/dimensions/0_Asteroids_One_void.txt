@@ -1,0 +1,3 @@
+setSpawnStructure("void", 200)
+setSpawnStructureSpacing(1)
+disableClouds()
