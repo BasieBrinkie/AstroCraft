@@ -4,7 +4,7 @@ ModPackConfigName: "Astrocraft"
 ModPackConfigVersion: 1
 ShowOTGWorldCreationMenu: true
 version: 1
-WorldName: "Block Test"
+WorldName: "Structures World"
 Overworld:
   PresetName: null
   DimensionId: 9
