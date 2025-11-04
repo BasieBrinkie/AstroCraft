@@ -47,3 +47,4 @@ cacert.pem
 ### World Backups and Locks ###
 Worlds/*.zip
 *.lock
+modpack/overrides/config/relauncher.json
