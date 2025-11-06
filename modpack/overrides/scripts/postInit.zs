@@ -282,6 +282,7 @@ function initEvents() {
 	scripts.initialScripts.classes.events.eventDimensionGameStage.init();
 	scripts.initialScripts.classes.events.eventDimensionInteractLock.init();
 	scripts.initialScripts.classes.events.eventFallDamageCancelPlayer.init();
+	scripts.initialScripts.classes.events.eventOnPlayerJoin.init();
 	scripts.initialScripts.classes.events.eventSpawnTeleport.init();
 }
 

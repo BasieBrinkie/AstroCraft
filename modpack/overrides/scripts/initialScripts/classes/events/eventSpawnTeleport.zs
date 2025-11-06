@@ -80,4 +80,3 @@ function init() {
     });
 }
 
-init();

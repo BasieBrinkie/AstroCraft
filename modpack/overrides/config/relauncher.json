@@ -17,7 +17,7 @@
   // When true, the relauncher will always select the latest release, skipping update prompts.
   "autoUpdate": true,
   // Optional absolute path to a Java executable. Leave null/empty to let the relauncher manage Java automatically.
-  "javaPath": "C:\\Users\\basie\\.cleanroom\\relauncher\\java\\temurin-25-windows-x64\\jdk-25-jre\\bin\\java.exe",
+  "javaPath": "C:\\Users\\Bas\\.cleanroom\\relauncher\\java\\temurin-25-windows-x64\\jdk-25-jre\\bin\\java.exe",
   // Optional JVM arguments appended when launching Cleanroom.
   "args": "-XX:+UnlockExperimentalVMOptions -XX:+UseCompactObjectHeaders -XX:+UseZGC"
 }

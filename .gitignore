@@ -48,3 +48,4 @@ cacert.pem
 Worlds/*.zip
 *.lock
 modpack/overrides/config/relauncher.json
+*.log
