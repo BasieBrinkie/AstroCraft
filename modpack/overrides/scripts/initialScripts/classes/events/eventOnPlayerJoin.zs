@@ -18,9 +18,6 @@ static welcomeMessage as string = "Test Join Message, TBD";
 
 function init() {
     events.onPlayerLoggedIn(function(event as crafttweaker.event.PlayerLoggedInEvent){
-        server.commandManager.executeCommand(server, '/tellraw ' + event.player.name + ' ["' + welcomeMessage + '"]' );
-        var delay as int = 20;
-        while (delay > 0) {delay = delay - 1;}
         server.commandManager.executeCommand(server, '/tellraw ' + event.player.name + ' ["\n\n"]');
         server.commandManager.executeCommand(server, '/tellraw ' + event.player.name + ' ["' + welcomeMessage + '"]' );
     });
