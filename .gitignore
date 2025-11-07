@@ -30,7 +30,6 @@ modpack/overrides/config/sampler.ini
 
 # Stuff
 .DS_Store
-*.dat
 
 ### PAX ###
 pax
