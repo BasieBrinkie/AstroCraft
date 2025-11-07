@@ -20,5 +20,11 @@
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "44545aa5",
+		type: "item",
+		item: "charcoal_pit:log_pile",
+		count: 10
 	}]
 }

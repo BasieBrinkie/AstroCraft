@@ -1,6 +1,6 @@
 {
 	title: "Barrels",
-	x: 13.0d,
+	x: 12.0d,
 	y: 2.0d,
 	description: "Barrels will make you dirt in the early game stages",
 	text: [
@@ -14,10 +14,7 @@
 		uid: "551edeef",
 		type: "item",
 		items: [{
-			id: "exnihilocreatio:block_barrel0",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "exnihilocreatio:block_barrel0"
 		}]
 	}]
 }
