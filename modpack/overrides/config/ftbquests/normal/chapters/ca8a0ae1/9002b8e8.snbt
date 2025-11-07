@@ -7,7 +7,7 @@
 		"- Break astrostone to obtain pebbles",
 		"- Craft 10 cobblestone by filling all crafting slots with pebbles",
 		"",
-		"P.S. keep a few or more than a few pebbles you'll need them later on"
+		"P.S. keep a few (or more than a few) pebbles you'll need them later on"
 	],
 	dependencies: [
 		"74ede6f3"
@@ -16,10 +16,7 @@
 		uid: "888251ee",
 		type: "item",
 		items: [{
-			id: "minecraft:cobblestone",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "minecraft:cobblestone"
 		}],
 		count: 10L
 	}]

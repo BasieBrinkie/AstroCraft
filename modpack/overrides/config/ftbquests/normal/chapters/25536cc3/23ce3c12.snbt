@@ -5,11 +5,7 @@
 		uid: "d5d7398f",
 		type: "item",
 		items: [{
-			id: "immersiveengineering:wirecoil",
-			Damage: 7s,
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "immersiveengineering:wirecoil 1 7"
 		}]
 	}]
 }

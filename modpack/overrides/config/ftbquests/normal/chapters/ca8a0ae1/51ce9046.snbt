@@ -30,7 +30,7 @@
 	rewards: [{
 		uid: "6f9c64c3",
 		type: "gamestage",
-		team_reward: false,
+		team_reward: 0b,
 		auto: "enabled",
 		stage: "planet_asteroids_resources_one"
 	},

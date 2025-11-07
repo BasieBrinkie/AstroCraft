@@ -13,11 +13,14 @@
 		uid: "6e9333e7",
 		type: "item",
 		items: [{
-			id: "charcoal_pit:item_ash",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "charcoal_pit:item_ash"
 		}],
 		count: 25L
+	}],
+	rewards: [{
+		uid: "c5e47a44",
+		type: "item",
+		item: "exnihilocreatio:item_pebble",
+		count: 64
 	}]
 }

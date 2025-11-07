@@ -14,8 +14,8 @@
 		"",
 		"Activate the stage whenever you need to build with decorative blocks. You cannot craft them without the stage."
 	],
-	can_repeat: true,
-	hide_dependency_lines: true,
+	can_repeat: 1b,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"ae6d182c"
 	],

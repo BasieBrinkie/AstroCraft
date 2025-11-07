@@ -18,7 +18,7 @@
 	dependencies: [
 		"3547c9a2"
 	],
-	hide: true,
+	hide: 1b,
 	tasks: [{
 		uid: "e2ef0b0a",
 		type: "item",
@@ -28,7 +28,7 @@
 				"customnpcs:itemscripteddata": {}
 			}
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}]
 }

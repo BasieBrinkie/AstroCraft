@@ -5,10 +5,7 @@
 		uid: "fe10ff3f",
 		type: "item",
 		items: [{
-			id: "tconstruct:smeltery_controller",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "tconstruct:smeltery_controller"
 		}]
 	}]
 }

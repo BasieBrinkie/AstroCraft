@@ -5,10 +5,7 @@
 		uid: "20404d8b",
 		type: "item",
 		items: [{
-			id: "immersiveengineering:wirecoil",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "immersiveengineering:wirecoil"
 		}]
 	}]
 }

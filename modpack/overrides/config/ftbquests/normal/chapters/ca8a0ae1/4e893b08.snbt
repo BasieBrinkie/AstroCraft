@@ -13,18 +13,12 @@
 		uid: "d0ea1396",
 		type: "item",
 		items: [{
-			id: "exnihilocreatio:hammer_wood",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "exnihilocreatio:hammer_wood"
 		},
 		{
-			id: "exnihilocreatio:hammer_stone",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "exnihilocreatio:hammer_stone"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}]
 }

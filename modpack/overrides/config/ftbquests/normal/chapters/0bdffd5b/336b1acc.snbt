@@ -17,11 +17,11 @@
 		"",
 		"The antenna needs 5 minutes to scan the environment."
 	],
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"5a24c14e"
 	],
-	or_tasks: true,
+	or_tasks: 1b,
 	tasks: [{
 		uid: "49f09b10",
 		type: "checkmark"
@@ -38,6 +38,6 @@
 				"customnpcs:itemscripteddata": {}
 			}
 		},
-		only_one: true
+		only_one: 1b
 	}]
 }

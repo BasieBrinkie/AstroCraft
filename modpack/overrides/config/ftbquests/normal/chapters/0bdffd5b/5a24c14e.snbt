@@ -32,7 +32,7 @@
 	rewards: [{
 		uid: "f84552a1",
 		type: "gamestage",
-		team_reward: false,
+		team_reward: 0b,
 		auto: "enabled",
 		stage: "dim_spacestation"
 	}]

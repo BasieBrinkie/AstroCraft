@@ -5,10 +5,7 @@
 		uid: "dc259f6e",
 		type: "item",
 		items: [{
-			id: "glacidus:lumicia_tallgrass",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "glacidus:lumicia_tallgrass"
 		}]
 	}]
 }

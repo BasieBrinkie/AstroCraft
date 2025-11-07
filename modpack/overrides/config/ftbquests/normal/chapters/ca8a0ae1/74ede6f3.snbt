@@ -16,12 +16,14 @@
 		uid: "316d1369",
 		type: "item",
 		items: [{
-			id: "minecraft:wooden_pickaxe",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "minecraft:wooden_pickaxe"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5751f0d9",
+		type: "item",
+		item: "minecraft:stone_pickaxe"
 	}]
 }

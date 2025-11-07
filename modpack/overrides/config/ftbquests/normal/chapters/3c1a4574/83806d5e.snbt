@@ -5,10 +5,7 @@
 		uid: "1a37c8ec",
 		type: "item",
 		items: [{
-			id: "botania:spreader",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "botania:spreader"
 		}]
 	}]
 }

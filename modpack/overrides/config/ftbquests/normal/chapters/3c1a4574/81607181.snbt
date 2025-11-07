@@ -5,10 +5,7 @@
 		uid: "d0366a00",
 		type: "item",
 		items: [{
-			id: "minecraft:dirt",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "minecraft:dirt"
 		}]
 	}]
 }

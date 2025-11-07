@@ -8,8 +8,8 @@
 		Count: 1b
 	},
 	loot_size: 1,
-	hide_tooltip: true,
-	use_title: true,
+	hide_tooltip: 1b,
+	use_title: 1b,
 	rewards: [{
 		title: "Mining Site 495-IIM",
 		icon: {

@@ -5,10 +5,7 @@
 		uid: "27b010e9",
 		type: "item",
 		items: [{
-			id: "minecraft:comparator",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "minecraft:comparator"
 		}]
 	}]
 }

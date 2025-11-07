@@ -19,8 +19,8 @@
 	dependencies: [
 		"7d38c86b"
 	],
-	hide: true,
-	or_tasks: true,
+	hide: 1b,
+	or_tasks: 1b,
 	tasks: [{
 		uid: "ba89e324",
 		type: "item",
@@ -45,7 +45,8 @@
 			id: "modularcontroller:asteroid_miner_tier_1_controller",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
-			}
+			},
+			Count: 1b
 		}]
 	}],
 	rewards: [{
@@ -61,6 +62,6 @@
 			}
 		},
 		count: 8192,
-		only_one: true
+		only_one: 1b
 	}]
 }

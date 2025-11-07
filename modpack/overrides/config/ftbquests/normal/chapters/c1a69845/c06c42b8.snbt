@@ -10,7 +10,7 @@
 		uid: "9210cbad",
 		type: "command",
 		command: "/me astrocraft startworld Glacidus",
-		player_command: true
+		player_command: 1b
 	},
 	{
 		uid: "1fd794ae",

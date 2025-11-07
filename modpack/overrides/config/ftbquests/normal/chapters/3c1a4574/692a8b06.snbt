@@ -8,9 +8,6 @@
 			id: "botania:specialflower",
 			tag: {
 				type: "thermalily"
-			},
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
 			}
 		}]
 	}]

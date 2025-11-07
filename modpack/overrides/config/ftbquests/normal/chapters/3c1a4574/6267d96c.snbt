@@ -5,10 +5,7 @@
 		uid: "83a56e7e",
 		type: "item",
 		items: [{
-			id: "botania:manaresource",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "botania:manaresource"
 		}]
 	}]
 }

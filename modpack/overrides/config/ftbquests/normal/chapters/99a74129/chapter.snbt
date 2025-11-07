@@ -6,7 +6,7 @@
 			"customnpcs:itemscripteddata": {}
 		}
 	},
-	always_invisible: true,
+	always_invisible: 1b,
 	group: -658887791,
 	default_quest_shape: ""
 }

@@ -5,10 +5,7 @@
 		uid: "237b2048",
 		type: "item",
 		items: [{
-			id: "minecraft:dispenser",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "minecraft:dispenser"
 		}]
 	}]
 }

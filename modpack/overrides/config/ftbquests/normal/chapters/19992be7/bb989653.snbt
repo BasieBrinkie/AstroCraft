@@ -5,10 +5,7 @@
 		uid: "040e9f6b",
 		type: "item",
 		items: [{
-			id: "advancedrocketry:smallairlockdoor",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "advancedrocketry:smallairlockdoor"
 		}]
 	}]
 }

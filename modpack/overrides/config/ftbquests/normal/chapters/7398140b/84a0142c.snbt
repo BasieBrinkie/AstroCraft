@@ -5,12 +5,9 @@
 		uid: "fb4a8c04",
 		type: "item",
 		items: [{
-			id: "astralsorcery:itemjournal",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "astralsorcery:itemjournal"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}]
 }

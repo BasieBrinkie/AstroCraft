@@ -5,10 +5,7 @@
 		uid: "29857dff",
 		type: "item",
 		items: [{
-			id: "minecraft:repeater",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "minecraft:repeater"
 		}]
 	}]
 }

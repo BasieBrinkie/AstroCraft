@@ -8,9 +8,7 @@
 		"",
 		"- Fill the down side of the furnace with a fuel.",
 		"- Put a block of cobblestone in the top side.",
-		"- Wait until the cobblestone has transformed into stone.",
-		"",
-		"TIP: Build the furnace in an enclosed space so you can leave the furnace without losing items."
+		"- Wait until the cobblestone has transformed into stone."
 	],
 	dependencies: [
 		"0bf1b1e9"
@@ -19,10 +17,7 @@
 		uid: "fa621bd5",
 		type: "item",
 		items: [{
-			id: "minecraft:stone",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "minecraft:stone"
 		}]
 	}]
 }

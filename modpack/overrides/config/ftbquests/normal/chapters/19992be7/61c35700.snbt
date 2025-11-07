@@ -5,10 +5,7 @@
 		uid: "f8bd5b68",
 		type: "item",
 		items: [{
-			id: "scp:blast_door",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "scp:blast_door"
 		}]
 	}]
 }

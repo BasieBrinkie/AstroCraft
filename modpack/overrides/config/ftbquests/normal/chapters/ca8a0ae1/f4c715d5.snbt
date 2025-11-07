@@ -3,17 +3,20 @@
 	y: 0.0d,
 	description: "Crafting tables are essential for your survival",
 	text: [
+		"We need to produce oxygen ASAP. That will be our main focus in this quest line",
+		"",
 		"You can get a crafting table pretty easily.",
 		"Find a charcoallog that you want to convert to a crafting table.",
 		"",
 		"- Make sure your hand is empty",
 		"- Now Sneak!",
-		"- Hit the log with your hand",
+		"- Right-click the log and voilà",
 		"",
 		"Input items by right clicking them or dragging them in their spots.",
 		"If you drag while holding shift, the item will spread over all spots.",
 		"Remove items by left clicking the items in the table."
 	],
+	can_repeat: 1b,
 	min_required_dependencies: 1,
 	dependencies: [
 		"d1418823"

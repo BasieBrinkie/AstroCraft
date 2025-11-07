@@ -5,10 +5,7 @@
 		uid: "5252539d",
 		type: "item",
 		items: [{
-			id: "techguns:item_door3x3",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "techguns:item_door3x3"
 		}]
 	}]
 }

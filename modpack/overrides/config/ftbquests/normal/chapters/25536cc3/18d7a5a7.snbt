@@ -5,10 +5,7 @@
 		uid: "846a290b",
 		type: "item",
 		items: [{
-			id: "mekanismgenerators:solarpanel",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "mekanismgenerators:solarpanel"
 		}]
 	}]
 }

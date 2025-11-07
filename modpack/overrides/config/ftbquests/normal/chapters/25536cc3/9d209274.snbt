@@ -5,10 +5,7 @@
 		uid: "98170a29",
 		type: "item",
 		items: [{
-			id: "emergingtechnology:solarglass",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "emergingtechnology:solarglass"
 		}]
 	}]
 }

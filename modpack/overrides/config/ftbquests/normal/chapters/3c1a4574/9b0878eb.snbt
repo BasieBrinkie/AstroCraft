@@ -8,9 +8,6 @@
 			id: "botania:specialflower",
 			tag: {
 				type: "hydroangeas"
-			},
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
 			}
 		}]
 	}]

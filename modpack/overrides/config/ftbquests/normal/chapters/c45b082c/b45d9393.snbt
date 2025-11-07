@@ -5,11 +5,7 @@
 		uid: "ef5f7286",
 		type: "item",
 		items: [{
-			id: "appliedenergistics2:material",
-			Damage: 5s,
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "appliedenergistics2:material 1 5"
 		}]
 	}]
 }

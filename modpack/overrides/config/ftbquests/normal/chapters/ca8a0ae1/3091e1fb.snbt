@@ -16,10 +16,7 @@
 		uid: "738f5d8e",
 		type: "item",
 		items: [{
-			id: "charcoal_pit:fire_starter",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "charcoal_pit:fire_starter"
 		}]
 	}]
 }

@@ -13,18 +13,12 @@
 		uid: "ab360283",
 		type: "item",
 		items: [{
-			id: "minecraft:wooden_axe",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "minecraft:wooden_axe"
 		},
 		{
-			id: "minecraft:stone_axe",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "minecraft:stone_axe"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}]
 }

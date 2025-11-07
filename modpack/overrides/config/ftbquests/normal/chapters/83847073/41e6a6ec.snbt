@@ -5,10 +5,7 @@
 		uid: "80d16daf",
 		type: "item",
 		items: [{
-			id: "minecraft:redstone_torch",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "minecraft:redstone_torch"
 		}]
 	}]
 }

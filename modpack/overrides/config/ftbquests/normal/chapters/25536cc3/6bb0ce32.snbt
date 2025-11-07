@@ -5,11 +5,7 @@
 		uid: "54a3649e",
 		type: "item",
 		items: [{
-			id: "immersiveengineering:connector",
-			Damage: 5s,
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "immersiveengineering:connector 1 5"
 		}]
 	}]
 }

@@ -13,18 +13,12 @@
 		uid: "fac6418a",
 		type: "item",
 		items: [{
-			id: "minecraft:wooden_shovel",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "minecraft:wooden_shovel"
 		},
 		{
-			id: "minecraft:stone_shovel",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "minecraft:stone_shovel"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}]
 }

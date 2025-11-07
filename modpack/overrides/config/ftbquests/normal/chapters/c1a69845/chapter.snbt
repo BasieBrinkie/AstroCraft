@@ -6,8 +6,8 @@
 			"customnpcs:itemscripteddata": {}
 		}
 	},
-	disable_toast: true,
-	always_invisible: true,
+	disable_toast: 1b,
+	always_invisible: 1b,
 	group: 0,
 	default_quest_shape: ""
 }

@@ -5,10 +5,7 @@
 		uid: "7a17e1d6",
 		type: "item",
 		items: [{
-			id: "tconstruct:cast",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "tconstruct:cast"
 		}]
 	}]
 }

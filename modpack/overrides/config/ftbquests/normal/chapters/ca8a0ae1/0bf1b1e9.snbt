@@ -6,7 +6,9 @@
 	text: [
 		"Luckily there is a solution",
 		"",
-		"- Craft a furnace."
+		"- Craft a furnace.",
+		"",
+		"TIP: Place the furnace in an enclosed space so you can leave the furnace without losing items as it will spit them out in the open."
 	],
 	dependencies: [
 		"a8d3ccf1"
@@ -15,10 +17,7 @@
 		uid: "506b8d04",
 		type: "item",
 		items: [{
-			id: "minecraft:furnace",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "minecraft:furnace"
 		}]
 	}]
 }

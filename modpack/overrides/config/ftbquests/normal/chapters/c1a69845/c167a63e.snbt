@@ -12,7 +12,7 @@
 	text: [
 		""
 	],
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"e2c60067",
 		"b5ae43e5"

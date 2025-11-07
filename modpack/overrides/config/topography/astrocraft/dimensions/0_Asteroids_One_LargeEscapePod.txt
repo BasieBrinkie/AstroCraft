@@ -1,4 +1,3 @@
 setSpawnStructure("large_escape_pod", 200)
 setSpawnStructureSpacing(2000)
-//Disables clouds.
 disableClouds()

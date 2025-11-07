@@ -11,7 +11,7 @@
 	text: [
 		""
 	],
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	min_required_dependencies: 1,
 	dependencies: [
 		"e2c60067"

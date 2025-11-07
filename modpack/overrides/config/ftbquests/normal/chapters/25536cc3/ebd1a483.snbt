@@ -5,10 +5,7 @@
 		uid: "69b00fed",
 		type: "item",
 		items: [{
-			id: "nuclearcraft:solar_panel_basic",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "nuclearcraft:solar_panel_basic"
 		}]
 	}]
 }

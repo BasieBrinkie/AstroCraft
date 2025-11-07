@@ -9,12 +9,9 @@
 		uid: "126b64da",
 		type: "item",
 		items: [{
-			id: "minecraft:diamond_pickaxe",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "minecraft:diamond_pickaxe"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}]
 }

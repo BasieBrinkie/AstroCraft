@@ -11,7 +11,7 @@
 		"",
 		"NOTE: Be sure that every side including the top is covered once the fire is lit otherwise all piles will just burn up instead of giving coal.",
 		"",
-		"TIP: You can transform multiple blocks of log piles at once by placing multiple adjecent log piles. Then cover all log piles with a block of cobblestone on the top except for the one that needs to be lit by pebbles."
+		"TIP: You can transform multiple blocks of log piles at once by placing multiple adjecent log piles."
 	],
 	dependencies: [
 		"aa540013"
@@ -20,11 +20,7 @@
 		uid: "1eb09a18",
 		type: "item",
 		items: [{
-			id: "minecraft:coal",
-			Damage: 1s,
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "minecraft:coal 1 1"
 		}]
 	}]
 }

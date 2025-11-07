@@ -18,10 +18,7 @@
 		uid: "0f0b6966",
 		type: "item",
 		items: [{
-			id: "charcoal_pit:log_pile",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "charcoal_pit:log_pile"
 		}]
 	}]
 }

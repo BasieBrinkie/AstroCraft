@@ -5,10 +5,7 @@
 		uid: "787ae43d",
 		type: "item",
 		items: [{
-			id: "minecraft:wheat",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "minecraft:wheat"
 		}]
 	}]
 }

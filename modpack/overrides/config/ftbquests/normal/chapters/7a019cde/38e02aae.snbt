@@ -21,6 +21,6 @@
 				"customnpcs:itemscripteddata": {}
 			}
 		}],
-		ignore_damage: true
+		ignore_damage: 1b
 	}]
 }

@@ -8,9 +8,6 @@
 			id: "botania:specialflower",
 			tag: {
 				type: "munchdew"
-			},
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
 			}
 		}]
 	}]

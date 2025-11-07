@@ -5,10 +5,7 @@
 		uid: "3f92b0f4",
 		type: "item",
 		items: [{
-			id: "tconstruct:seared_tank",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "tconstruct:seared_tank"
 		}]
 	}]
 }

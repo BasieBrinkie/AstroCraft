@@ -10,12 +10,9 @@
 				ammo: 20s,
 				ammovariant: "default",
 				camo: 0b
-			},
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
 			}
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}]
 }

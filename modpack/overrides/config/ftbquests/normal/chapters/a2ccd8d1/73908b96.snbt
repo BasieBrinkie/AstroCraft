@@ -5,10 +5,7 @@
 		uid: "d3564d56",
 		type: "item",
 		items: [{
-			id: "academy:tutorial",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "academy:tutorial"
 		}]
 	}]
 }

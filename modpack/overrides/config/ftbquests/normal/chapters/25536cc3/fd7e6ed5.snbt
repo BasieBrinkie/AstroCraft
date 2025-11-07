@@ -5,11 +5,7 @@
 		uid: "ca402b3a",
 		type: "item",
 		items: [{
-			id: "immersiveengineering:wirecoil",
-			Damage: 1s,
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "immersiveengineering:wirecoil 1 1"
 		}]
 	}]
 }

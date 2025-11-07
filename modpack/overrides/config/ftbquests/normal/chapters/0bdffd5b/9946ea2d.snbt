@@ -35,6 +35,6 @@
 			},
 			Count: 1b
 		}],
-		consume_items: false
+		consume_items: 0b
 	}]
 }

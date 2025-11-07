@@ -17,7 +17,7 @@
 				"customnpcs:itemscripteddata": {}
 			}
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
@@ -29,7 +29,7 @@
 				"customnpcs:itemscripteddata": {}
 			}
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
@@ -41,7 +41,7 @@
 				"customnpcs:itemscripteddata": {}
 			}
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
@@ -53,7 +53,7 @@
 				"customnpcs:itemscripteddata": {}
 			}
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}]
 }

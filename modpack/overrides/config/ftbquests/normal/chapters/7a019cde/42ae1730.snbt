@@ -13,8 +13,8 @@
 		"Remove all decorative blocks from JEI. ",
 		"You cannot craft any decorative block if this option is toggled."
 	],
-	can_repeat: true,
-	hide_dependency_lines: true,
+	can_repeat: 1b,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"ae6d182c"
 	],
@@ -27,6 +27,6 @@
 		type: "gamestage",
 		auto: "enabled",
 		stage: "basic_decorator_toggle",
-		remove: true
+		remove: 1b
 	}]
 }
