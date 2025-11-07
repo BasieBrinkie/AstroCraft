@@ -1,1 +1,16 @@
-{"bookGuiScale":0,"clickedVisualize":false,"bookData":{}}
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "patchouli:personal_diary": {
+      "viewedEntries": [
+        "patchouli:rocket_crash"
+      ],
+      "bookmarks": [],
+      "history": [
+        "patchouli:rocket_crash"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "triumph:lore_structures/systems/arcturus": {
+    "criteria": {
+      "dim_0": "2025-11-07 02:48:08 +0100"
+    },
+    "done": true
+  },
+  "triumph:lore_structures/dimensions/asteroids_1": {
+    "criteria": {
+      "Dimension Stage": "2025-11-07 03:26:35 +0100"
+    },
+    "done": true
+  },
+  "triumph:lore_items/dimensions/asteroids_1": {
+    "criteria": {
+      "Dimension Stage": "2025-11-07 03:26:35 +0100"
+    },
+    "done": true
+  },
+  "triumph:lore_items/systems/arcturus": {
+    "criteria": {
+      "dim_0": "2025-11-07 02:48:08 +0100"
+    },
+    "done": true
+  },
+  "triumph:lore_structures/root": {
+    "criteria": {
+      "location": "2025-11-07 02:48:08 +0100"
+    },
+    "done": true
+  },
+  "triumph:lore_items/root": {
+    "criteria": {
+      "location": "2025-11-07 02:48:08 +0100"
+    },
+    "done": true
+  }
+}
