@@ -16,7 +16,7 @@
         "worldprovider": "zmaster587.advancedRocketry.world.provider.WorldProviderAsteroid"
       },
       "jed": {
-        "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+        "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderAsteroidSky",
         "CanSleepHere": "allow",
         "CanDoLightning ": "false",
         "CanDoRainSnowIce": "true"
