@@ -1,6 +1,6 @@
 {
     "registryname": "asteroid_miner_tier_1",
-    "localizedname": "Asteroid Miner - Tier 1",
+    "localizedname": "Basic Asteroid Miner",
     "requires-blueprint": false,
     "color": "878787",
     "parts": [
@@ -422,7 +422,8 @@
             "y": 1,
             "z": 3,
             "elements": [
-                "factorytech:crate@0"
+                "advancedrocketry:fueltank@8",
+                "advancedrocketry:fueltank@5"
             ]
         },
         {
@@ -567,8 +568,9 @@
             "x": 0,
             "y": 1,
             "z": 2,
+            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d", "shieldingRadResistance":"0.0d"}}, "stage":"0","id":"minecraft:arbrokenpart","transitionProb":"0.05f","maxStage":"10"},
             "elements": [
-                "minecraft:iron_block@0"
+                "advancedrocketry:rocketmotor@0"
             ]
         },
         {
