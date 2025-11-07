@@ -140,7 +140,6 @@
   "appleskin": "1.0.14",
   "embers": "1.25.6",
   "spawnercontrol": "1.6.3b",
-  "gnetum": "1.3.2",
   "dynamiclights_onfire": "1.0.7",
   "ocxnetdriver": "1.0.3",
   "minemenu": "1.6.11",
