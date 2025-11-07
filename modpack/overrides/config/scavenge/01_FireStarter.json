@@ -31,7 +31,7 @@
           "effects": [{        
             "type": "modify_required",
             "name": "minecraft:fire",
-            "chance": 8.0,
+            "chance": 2.0,
             "sides": ["north"] 
           }]
         },
@@ -45,7 +45,7 @@
           "effects": [{        
             "type": "modify_required",
             "name": "minecraft:fire",
-            "chance": 8.0,
+            "chance": 2.0,
             "sides": ["west"] 
           }]
         },
@@ -59,7 +59,7 @@
           "effects": [{        
             "type": "modify_required",
             "name": "minecraft:fire",
-            "chance": 8.0,
+            "chance": 2.0,
             "sides": ["east"] 
           }]
         },
@@ -73,7 +73,7 @@
           "effects": [{        
             "type": "modify_required",
             "name": "minecraft:fire",
-            "chance": 8.0,
+            "chance": 2.0,
             "sides": ["south"] 
           }]
         },
@@ -87,7 +87,7 @@
           "effects": [{        
             "type": "modify_required",
             "name": "minecraft:fire",
-            "chance": 8.0,
+            "chance": 2.0,
             "sides": ["down"] 
           }]
         }
