@@ -129,7 +129,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<minecraft:log:0>: [
 		[
-			[<minecraft:planks:0>, <minecraft:planks:0>]
+			[<advancedrocketry:charcoallog:0>]
 		]
 	],
 	<minecraft:paper:0> * 2: [
