@@ -1,3 +1,4 @@
+#notreloadable
 import mods.zenutils.command.CommandUtils;
 import mods.zenutils.command.IGetTabCompletion;
 import mods.zenutils.command.ZenCommand;

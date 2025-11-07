@@ -11,9 +11,6 @@ import crafttweaker.text.ITextComponent;
 import crafttweaker.formatting.IFormattedText;
 import crafttweaker.item.IItemStack;
 
-import mods.zenstages.ZenStager;
-import mods.zenstages.Stage;
-
 static welcomeMessage as string = "Test Join Message, TBD";
 
 function init() {

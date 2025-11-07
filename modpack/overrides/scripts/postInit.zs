@@ -7,6 +7,7 @@
 */
 initSpawnItems();
 initOredict();
+initEvents();
 initStages();
 initIntegrations();
 initRecipes();
@@ -15,7 +16,6 @@ initBuildStages();
 initItemProperties();
 initDrops();
 initSeeds();
-initEvents();
 
 function initRecipes() {	
 	/*
@@ -146,7 +146,7 @@ function initIntegrations() {
 }
 
 function initStages() {
-	if (!devDisableStages | !dev) {
+	if ((!devDisableStages | !dev) & scriptStatus() == 0) {
 	print("----------------------- Stages -----------------------");
 
 	scripts.stages.doors.init();
@@ -247,7 +247,7 @@ function initOredict() {
 }
 
 function initItemProperties() {
-	if (!devDisableItemProperties | !dev) {
+	if ((!devDisableItemProperties | !dev)) {
 	print("----------------------- Item Properties -----------------------");
 	/*	
 		----------------------------
@@ -278,12 +278,14 @@ function initItemProperties() {
 
 function initEvents() {
 	print("----------------------- Events -----------------------");
-	scripts.initialScripts.classes.events.eventAstrocraftCommands.init();
-	scripts.initialScripts.classes.events.eventDimensionGameStage.init();
+	if (scriptStatus() != 1) {
+		scripts.initialScripts.classes.events.eventAstrocraftCommands.init();
+		scripts.initialScripts.classes.events.eventDimensionGameStage.init();
+		scripts.initialScripts.classes.events.eventSpawnTeleport.init();
+	}
 	scripts.initialScripts.classes.events.eventDimensionInteractLock.init();
 	scripts.initialScripts.classes.events.eventFallDamageCancelPlayer.init();
 	scripts.initialScripts.classes.events.eventOnPlayerJoin.init();
-	scripts.initialScripts.classes.events.eventSpawnTeleport.init();
 }
 
 function initSpawnItems() {

@@ -1,3 +1,4 @@
+#notreloadable
 import crafttweaker.event.CommandEvent;
 import crafttweaker.events.IEventManager;
 import crafttweaker.player.IPlayer;

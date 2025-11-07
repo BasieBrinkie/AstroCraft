@@ -1,3 +1,4 @@
+#notreloadable
 import crafttweaker.item.IIngredient;
 import crafttweaker.events.IEventManager;
 import crafttweaker.event.PlayerChangedDimensionEvent;

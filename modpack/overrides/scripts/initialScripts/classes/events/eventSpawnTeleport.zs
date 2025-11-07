@@ -1,3 +1,4 @@
+#notreloadable
 import crafttweaker.event.PlayerLoggedInEvent;
 import crafttweaker.event.PlayerLoggedOutEvent;
 import crafttweaker.world.IWorld;
