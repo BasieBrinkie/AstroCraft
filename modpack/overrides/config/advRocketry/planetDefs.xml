@@ -1,6 +1,5 @@
 <galaxy>
     <star name="Arcturus (K1.5III)" temp="100" x="0" y="0" size="1.8" numPlanets="0" numGasGiants="0" blackHole="false">
-        <star name="Arcturus-test" size="3" temp="120" separation="20"></star>
         <planet name="Glacidus" DIMID="4" dimMapping="" customIcon="glacidus">
             <isKnown>true</isKnown>
             <hasRings>true</hasRings>
@@ -19,13 +18,13 @@
                <genType>2</genType>
                <atmosphereDensity>0</atmosphereDensity>
                <gravitationalMultiplier>5</gravitationalMultiplier>
-               <orbitalDistance>20</orbitalDistance>
+               <orbitalDistance>7</orbitalDistance>
                <orbitalTheta>0</orbitalTheta>
-               <orbitalPhi>180</orbitalPhi>
+               <orbitalPhi>73</orbitalPhi>
                <biomeIds>advancedrocketry:space</biomeIds>
                <fillerBlock></fillerBlock>
                <OreGen></OreGen>
-               <rotationalPeriod>11525</rotationalPeriod>
+               <rotationalPeriod>4800</rotationalPeriod>
             </planet>
         </planet>
         <planet name="Ring World" DIMID="18" dimMapping="" customIcon="earthlike">
