@@ -6,7 +6,7 @@
 	-------------------------------------------------------------------------
 */
 
-global packVersion as string = "0.1.1";
+global packVersion as string = "0.2.21";
 
 global dev as bool = true; //This setting sets dev mode, without this option you can't enable any option underneath this one if false [default: false]
 
