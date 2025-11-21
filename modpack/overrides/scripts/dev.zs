@@ -15,5 +15,6 @@ global devDisableItemProperties as bool = false;//This setting disables the cust
 global devDisableIntegrations as bool = false;	//This setting disables all custom integrations from crafttweaker supported mods if TRUE
 global devDisableAddRecipes as bool = false; 	//This setting will prevent new recipes from being added if TRUE
 global devDisableRemoveRecipes as bool = true; 	//This setting will disable the removal of recipes if TRUE
+global devDisableRemoveFurnace as bool = false; 	//This setting will disable the removal of recipes if TRUE
 global devDisableStages as bool = false; 		//This setting disables items being staged if TRUE
 global devNonStagedItems as bool = false;		//This setting will add all non staged items to a stage if TRUE, might increase the loading time drastically

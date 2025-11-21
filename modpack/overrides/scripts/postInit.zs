@@ -26,9 +26,11 @@ function initRecipes() {
 	if (!devDisableRemoveRecipes | !dev) {
 	print("----------------------- Recipes: Removal -----------------------");
 	scripts.recipes.remove.init();
-
 	}
-
+	if (!devDisableRemoveFurnace | !dev) {
+	print("----------------------- Recipes: Removal Furnace Recipes -----------------------");
+	scripts.recipes.remove.initFurnace();
+	}
 	/*	
 		----------------
 		Recipes per mod.

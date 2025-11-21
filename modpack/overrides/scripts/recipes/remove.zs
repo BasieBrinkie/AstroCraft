@@ -2,8 +2,11 @@
 static skipModIDs as string[] = [
 ];
 
+function initFurnace() {
+	recipeBuilder.removeAllFurnaceRecipes();
+}
+
 function init() {
 	recipeBuilder.removeRecipesMod(skipModIDs);
 	recipeBuilder.removeAllRecipes();
-	recipeBuilder.removeAllFurnaceRecipes();
 }
