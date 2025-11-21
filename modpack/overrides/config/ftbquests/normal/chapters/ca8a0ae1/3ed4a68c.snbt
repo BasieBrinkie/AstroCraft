@@ -17,10 +17,13 @@
 		uid: "26982a7c",
 		type: "item",
 		items: [{
-			id: "minecraft:dirt",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "minecraft:dirt"
 		}]
+	}],
+	rewards: [{
+		uid: "0a77fe4a",
+		type: "item",
+		item: "minecraft:dirt",
+		count: 8
 	}]
 }

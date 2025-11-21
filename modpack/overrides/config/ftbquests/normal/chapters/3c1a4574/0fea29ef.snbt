@@ -8,10 +8,7 @@
 		uid: "7cff0c5e",
 		type: "item",
 		items: [{
-			id: "botania:altar",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "botania:altar"
 		}]
 	}]
 }

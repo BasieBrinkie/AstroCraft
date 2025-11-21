@@ -15,10 +15,7 @@
 		uid: "12d973fd",
 		type: "item",
 		items: [{
-			id: "excompressum:wooden_crucible",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "excompressum:wooden_crucible"
 		}]
 	}]
 }

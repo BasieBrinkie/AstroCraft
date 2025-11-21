@@ -9,7 +9,7 @@
 		"",
 		"- Craft a 'Sieve'",
 		"",
-		"For faster processing try placing multiple sieves next to each other."
+		"For faster processing try placing multiple sieves next to each other. Clicking one will activate sieves around them."
 	],
 	dependencies: [
 		"86cfc518"

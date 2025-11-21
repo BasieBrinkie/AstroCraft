@@ -18,12 +18,14 @@
 		uid: "eb4435d9",
 		type: "item",
 		items: [{
-			id: "skyresources:alchemyitemcomponent",
-			Damage: 1s,
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "skyresources:alchemyitemcomponent 1 1"
 		}],
 		count: 18L
+	}],
+	rewards: [{
+		uid: "65df427e",
+		type: "item",
+		item: "minecraft:log",
+		count: 8
 	}]
 }
