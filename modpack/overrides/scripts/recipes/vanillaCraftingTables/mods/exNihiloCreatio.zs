@@ -17,6 +17,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]
 		]
 	],
+	<exnihilocreatio:block_sieve:0>: [
+		[
+			[<ore:slabWood>, null, <ore:slabWood>],
+			[<ore:woodPlanksTier1>, <ore:slabWood>, <ore:woodPlanksTier1>],
+			[<ore:stickWood>, null, <ore:stickWood>]
+		]
+	],
 	<exnihilocreatio:crook_iron>: [
 		[
 			[<actuallyadditions:item_knife:0>, <ore:ingotIron>],

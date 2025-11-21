@@ -67,7 +67,5 @@ zenClass MixinRenderAsteroidSky {
         
         // Make Star align with x-axis
         GL11.glRotatef(-82, one, zero, zero);
-
-
     }
 }
