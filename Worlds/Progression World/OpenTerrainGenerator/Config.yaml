@@ -1,7 +1,7 @@
 #TODO: Provide instructions for modpack devs.
 ---
-ModPackConfigName: null
-ModPackConfigVersion: 0
+ModPackConfigName: "Astrocraft"
+ModPackConfigVersion: 1
 ShowOTGWorldCreationMenu: true
 version: 1
 WorldName: "Progression World"
