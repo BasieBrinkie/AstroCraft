@@ -8,10 +8,7 @@
 		uid: "8b8e075f",
 		type: "item",
 		items: [{
-			id: "thaumcraft:thaumonomicon",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "thaumcraft:thaumonomicon"
 		}],
 		ignore_nbt: 1b
 	}]

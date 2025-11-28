@@ -12,10 +12,7 @@
 		uid: "d7dd738e",
 		type: "item",
 		items: [{
-			id: "skyresources:irongrinder",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "skyresources:irongrinder"
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b

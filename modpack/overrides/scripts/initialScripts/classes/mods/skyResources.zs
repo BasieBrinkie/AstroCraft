@@ -78,11 +78,9 @@ zenClass skyRes {
 		}
 	}
 
-	function crucibleAddRecipe(map as IItemStack[][ILiquidStack]) {
-		for outputFluid, itemArray in map {
-			for item in itemArray {
-				mods.skyresources.crucible.addRecipe(outputFluid, item);
-			}
+	function crucibleAddRecipe(map as ILiquidStack[IItemStack]) {
+		for inputItem, outputFluid in map {
+			mods.skyresources.crucible.addRecipe(outputFluid, inputItem);
 		}
 	}
 

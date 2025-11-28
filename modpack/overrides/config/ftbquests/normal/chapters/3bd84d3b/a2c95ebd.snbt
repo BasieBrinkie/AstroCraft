@@ -1,6 +1,12 @@
 {
 	title: "Lore WIP",
-	x: 15.0d,
+	icon: {
+		id: "patchouli:guide_book",
+		tag: {
+			"patchouli:book": "patchouli:personal_diary"
+		}
+	},
+	x: 16.0d,
 	y: 0.0d,
 	description: "Currently still WIP",
 	text: [
@@ -10,22 +16,10 @@
 		"this has been replaced with this cheatsheet"
 	],
 	dependencies: [
-		"35c5ada8",
-		"d24f7a48"
+		"18e8bf92"
 	],
 	tasks: [{
-		uid: "3e34f5fc",
-		type: "item",
-		items: [{
-			id: "patchouli:guide_book",
-			tag: {
-				"patchouli:book": "patchouli:chapter_1"
-			},
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
-		}],
-		ignore_damage: 1b,
-		ignore_nbt: 1b
+		uid: "2deb7ddd",
+		type: "checkmark"
 	}]
 }

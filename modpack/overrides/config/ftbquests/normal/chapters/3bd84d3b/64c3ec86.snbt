@@ -14,10 +14,7 @@
 		uid: "f76536bf",
 		type: "item",
 		items: [{
-			id: "minecraft:iron_block",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "minecraft:iron_block"
 		}]
 	}]
 }

@@ -52,6 +52,7 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:chest:0>,
 		<minecraft:glass:0>,
 		<minecraft:glowstone_dust:0>,
+		<minecraft:gravel:0>,
 		<minecraft:iron_ore:0>,
 		<minecraft:paper:0>,
 		<minecraft:sand:0>,

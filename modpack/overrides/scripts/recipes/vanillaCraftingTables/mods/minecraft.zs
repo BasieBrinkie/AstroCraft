@@ -32,7 +32,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <ore:ingotIron>, null]
 		]
 	],
-	<minecraft:chest:0>: [
+	<minecraft:chest:0> * 2: [
 		[
 			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
 			[<ore:plankWood>, <ore:nuggetIron>, <ore:plankWood>],
@@ -114,6 +114,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <ore:stickWood>, null]
 		]
 	],
+	<minecraft:iron_shovel>: [
+		[
+			[null, <ore:nuggetIron>, null],
+			[null, <ore:stickWood>, null],
+			[null, <ore:stickWood>, null]
+		]
+	],
 	<minecraft:leaves:0>: [
 		[
 			[<thebetweenlands:fallen_leaves:0>, <thebetweenlands:fallen_leaves:0>, <thebetweenlands:fallen_leaves:0>],
@@ -180,9 +187,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<minecraft:stone_hoe>: [
 		[
-			[<ore:stickWood>, null, null],
-			[<exnihilocreatio:item_pebble>, <ore:stickWood>, null],
-			[null, null, <ore:stickWood>]
+			[null, <exnihilocreatio:item_pebble>, <ore:stickWood>],
+			[null, <ore:stickWood>, null],
+			[<ore:stickWood>, null, null]
 		]
 	],
 	<minecraft:stone_pickaxe>: [

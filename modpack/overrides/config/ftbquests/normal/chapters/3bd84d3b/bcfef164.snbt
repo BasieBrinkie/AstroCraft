@@ -13,10 +13,7 @@
 		uid: "ecc161a3",
 		type: "item",
 		items: [{
-			id: "factorytech:saw",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "factorytech:saw"
 		}]
 	}]
 }

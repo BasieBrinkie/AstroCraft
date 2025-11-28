@@ -1,7 +1,7 @@
 {
-	x: 9.0d,
+	x: 8.5d,
 	y: 0.0d,
-	description: "Gear can transmit torque",
+	description: "Gears can transmit torque",
 	text: [
 		"Basic ingredient for early game machines."
 	],
@@ -12,11 +12,7 @@
 		uid: "2ebe0a6e",
 		type: "item",
 		items: [{
-			id: "factorytech:machinepart",
-			Damage: 10s,
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "factorytech:machinepart 1 10"
 		}]
 	}]
 }

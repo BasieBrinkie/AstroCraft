@@ -12,11 +12,7 @@
 		uid: "c3f9cb13",
 		type: "item",
 		items: [{
-			id: "exnihilocreatio:item_ore_nickel",
-			Damage: 1s,
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "exnihilocreatio:item_ore_nickel 1 1"
 		}]
 	}]
 }

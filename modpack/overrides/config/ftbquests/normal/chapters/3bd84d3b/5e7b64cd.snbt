@@ -1,9 +1,9 @@
 {
 	x: 5.0d,
 	y: -1.0d,
-	description: "Storage is valuable but apparently also pricey",
+	description: "Storage is valuable but apparently also bit more pricey than normal",
 	text: [
-		"Nothing more than just a vanilla chest"
+		"Nothing more than just a vanilla chest, but requires an extra seal for containment in vacuum"
 	],
 	dependencies: [
 		"3f863bdb"
@@ -12,10 +12,7 @@
 		uid: "b8b9332f",
 		type: "item",
 		items: [{
-			id: "minecraft:chest",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "minecraft:chest"
 		}]
 	}]
 }

@@ -4,7 +4,9 @@
 	y: -2.0d,
 	description: "The other one was a bit tedious especially in low gravity",
 	text: [
-		"Craft the Crafting Station from tinkers construct for a better crafting experience."
+		"Craft the Crafting Station from tinkers construct for a better crafting experience.",
+		"",
+		"TIP: Place a inventory (chest) next to the crafting station to access it while crafting"
 	],
 	dependencies: [
 		"0efe456e"
@@ -13,10 +15,7 @@
 		uid: "f06a309d",
 		type: "item",
 		items: [{
-			id: "tconstruct:tooltables",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "tconstruct:tooltables"
 		}]
 	}]
 }

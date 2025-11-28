@@ -1,5 +1,5 @@
 {
-	x: 9.0d,
+	x: 9.5d,
 	y: 1.0d,
 	description: "Just a pointy gear",
 	text: [
@@ -12,10 +12,7 @@
 		uid: "55f3da78",
 		type: "item",
 		items: [{
-			id: "factorytech:machinepart",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "factorytech:machinepart"
 		}]
 	}]
 }

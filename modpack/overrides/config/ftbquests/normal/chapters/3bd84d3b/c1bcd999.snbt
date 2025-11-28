@@ -1,5 +1,5 @@
 {
-	x: 9.0d,
+	x: 8.5d,
 	y: -2.0d,
 	description: "Motor useable in machines",
 	text: [
@@ -13,11 +13,7 @@
 		uid: "acad86dc",
 		type: "item",
 		items: [{
-			id: "factorytech:machinepart",
-			Damage: 60s,
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "factorytech:machinepart 1 60"
 		}]
 	}]
 }

@@ -3,7 +3,8 @@
 	y: 0.0d,
 	description: "Just smash Iron Ingots hard",
 	text: [
-		"Search for an Obsidian block and right click with an Iron Ingot.",
+		"Search for an Obsidian block and smash it with an Iron Ingot.",
+		"",
 		"This will generate the most basic version of Iron Shafts"
 	],
 	dependencies: [
@@ -13,11 +14,7 @@
 		uid: "90538e68",
 		type: "item",
 		items: [{
-			id: "factorytech:machinepart",
-			Damage: 50s,
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "factorytech:machinepart 1 50"
 		}]
 	}]
 }

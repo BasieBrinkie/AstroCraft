@@ -3,7 +3,9 @@
 	y: 0.0d,
 	description: "Use better catalysts to improve yields",
 	text: [
-		"If you ever need to know which materials are catalysts and their yields, type #Catalyst in JEI."
+		"If you ever need to know which materials are catalysts and their yields, type #Catalyst in JEI.",
+		"",
+		"With the \"#\" in front of the search query, JEI will also search the descriptions of items"
 	],
 	dependencies: [
 		"043b044e"
@@ -12,10 +14,7 @@
 		uid: "e6b98214",
 		type: "item",
 		items: [{
-			id: "skyresources:fusiontable",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "skyresources:fusiontable"
 		}]
 	}]
 }

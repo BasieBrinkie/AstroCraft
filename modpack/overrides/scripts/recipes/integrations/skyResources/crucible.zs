@@ -8,36 +8,41 @@ import crafttweaker.liquid.ILiquidStack;
 	- remove existing recipes.
 
 	Add method:
-	First [ILiquidStack] is the output liquid.
-	Second IItemStack[] is the input item in an array. 
+	First [IItemStack] is the input item.
+	Second ILiquidStack is the output liquid, add '* mBAmount' for the amount of liquid. 
 	----------------------------------------------------------------------------------------------
 */	
 
 
-static crucibleAdd as IItemStack[][ILiquidStack] = {
+static crucibleAdd as ILiquidStack[IItemStack] = {
 	//Asteroids The Dawn of a New Age
-
-	<liquid:oxygen> * 100: [<skyresources:alchemyitemcomponent:1>],
+	<skyresources:alchemyitemcomponent:1>: <liquid:oxygen> * 100,
 	
 	//Asteroids Basic Resources
 
-	<liquid:iron> * 108: [<mekanism:dirtydust:0>, <factorytech:salvagepart:50>],
-	<liquid:preheated_water> * 250: [<contenttweaker:astro_ice:0>], 
+	<mekanism:dirtydust:0>: <liquid:iron> * 108,
+	<factorytech:salvagepart:50>: <liquid:iron> * 108,
+	<contenttweaker:astro_ice:0>: <liquid:preheated_water> * 250, 
 	
 	//Rocket Builder
 
-	<liquid:iridium> * 108: [<skyresources:orealchdust:17>],
-	<liquid:iron> * 54: [<factorytech:salvagepart:1>, <factorytech:salvagepart:11>, <factorytech:salvagepart:31>],
-	<liquid:lead> * 216: [<exnihilocreatio:item_ore_lead:0>],
-	<liquid:nickel> * 108: [<factorytech:ore_dust:5>],
+	<skyresources:orealchdust:17>: <liquid:iridium> * 108,
+	<factorytech:salvagepart:1>: <liquid:iron> * 54, 
+	<factorytech:salvagepart:11>: <liquid:iron> * 54,
+	<factorytech:salvagepart:31>: <liquid:iron> * 54,
+	<exnihilocreatio:item_ore_lead:0>: <liquid:lead> * 216,
+	<factorytech:ore_dust:5>: <liquid:nickel> * 108,
 
 	//Asteroids Advanced Resources
 
-	<liquid:copper> * 12: [<mekanism:nugget:5>, <immersiveengineering:metal:20>, <factorytech:ore_dust:4>],
-	<liquid:copper> * 432: [<mekanism:clump:3>, <tconstruct:shard>.withTag({Material: "copper"})],
+	<mekanism:nugget:5>: <liquid:copper> * 12, 
+	<immersiveengineering:metal:20>: <liquid:copper> * 12, 
+	<factorytech:ore_dust:4>: <liquid:copper> * 12,
+	<mekanism:clump:3>: <liquid:copper> * 432, 
+	<tconstruct:shard>.withTag({Material: "copper"}): <liquid:copper> * 432,
 
 	//Decorator
-	<liquid:glass> * 1296: [<minecraft:glass:0>]
+	<minecraft:glass:0>: <liquid:glass> * 1296
 };
 
 /*	

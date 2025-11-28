@@ -91,7 +91,7 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 	Copper Gears.
 	-------------
 	*/
-	<ore:gearCopperTier1>: [
+	<ore:gearCopperTier2>: [
 		<thermalfoundation:material:256>
 	],
 

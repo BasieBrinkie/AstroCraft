@@ -3,7 +3,8 @@
 	y: 4.0d,
 	description: "Moar books!",
 	text: [
-		"Most information regarding the recipes are incorrect but the information on how to use the machines might still be relevant.",
+		"Most recipes in the book are incorrect but the information on how to use the machines might still be relevant.",
+		"",
 		"This might be a good time to inform you that the multiblock cheatsheet also consists of references to wikis and handy tutorials.",
 		"",
 		"By the way this recipe doesn't consume the iron rod."
@@ -15,10 +16,7 @@
 		uid: "ba9ed1bd",
 		type: "item",
 		items: [{
-			id: "factorytech:handbook",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "factorytech:handbook"
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b

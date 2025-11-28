@@ -23,7 +23,7 @@ static sieveAdd as IItemStack[][float][IIngredient][int] = {
 		<ore:normalDirt>: {
 			0.05: [<minecraft:wheat_seeds:0>],
 			0.3: [<actuallyadditions:item_worm:0>],
-			0.95: [<minecraft:dirt:0>]
+			0.6: [<minecraft:dirt:1>]
 		},
 		<ore:gravel>: {
 			0.05: [<exnihilocreatio:item_ore_copper:1>],
@@ -45,6 +45,7 @@ static sieveAdd as IItemStack[][float][IIngredient][int] = {
 			0.1: [<actuallyadditions:item_worm:0>],
 			0.72: [<thebetweenlands:fallen_leaves:0>],
 			0.2: [<thebetweenlands:fallen_leaves:0>],
+			0.85: [<minecraft:dirt:1>]
 		}
 	},
 };

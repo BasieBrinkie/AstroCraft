@@ -3,7 +3,7 @@
 	y: 0.0d,
 	description: "Blown up iron chunks",
 	text: [
-		"Insert a fuel into the combustion heater such as charcoal.",
+		"Insert a fuel into the combustion heater such as charcoal or wood.",
 		"",
 		"Look in JEI for the recipe for iron ore pieces and insert the item though the trapdoor",
 		"",
@@ -16,10 +16,7 @@
 		uid: "938a0145",
 		type: "item",
 		items: [{
-			id: "exnihilocreatio:item_ore_iron",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "exnihilocreatio:item_ore_iron"
 		}]
 	}]
 }

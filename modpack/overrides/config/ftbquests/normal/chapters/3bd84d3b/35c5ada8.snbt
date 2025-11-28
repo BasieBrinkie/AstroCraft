@@ -21,10 +21,7 @@
 		uid: "bdadfb5e",
 		type: "item",
 		items: [{
-			id: "grapplemod:grapplinghook",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "grapplemod:grapplinghook"
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b

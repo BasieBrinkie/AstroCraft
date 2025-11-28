@@ -11,8 +11,8 @@
 		"- Collect 'Copper Ore Pieces'",
 		"- Craft 'Copper Ore Chunks'",
 		"",
-		"- Cook the 'Copper Ore Chunks' this will transform it in 'Copper Clump - Size: (Enormous)'",
-		"- Craft a block of 'Copper Block - Purity (8%)'"
+		"- Cook the 'Copper Ore Chunks' this will transform it in 'Enormous Copper Clump'",
+		"- Craft a block of 'Unprocessed Copper Block'"
 	],
 	dependencies: [
 		"3c5b4a57"

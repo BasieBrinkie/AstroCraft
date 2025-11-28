@@ -23,10 +23,7 @@
 		uid: "e2ef0b0a",
 		type: "item",
 		items: [{
-			id: "skyresources:stonegrinder",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "skyresources:stonegrinder"
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b

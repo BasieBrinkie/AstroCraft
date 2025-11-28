@@ -11,6 +11,13 @@ static unlocalizedNames as string[string] = {
 };
 
 static itemTooltips as IFormattedText[][IFormattedText[]][string][IItemStack] = {
+	<advancedrocketry:platepress:0>: {
+		"Small Plate Presser": {[
+			format.gray("Requires obsidian two blocks below to function")]: [
+				format.white("Supply a redstone signal to activate the plate presser")
+			]
+		}		
+	},
 	<advancedrocketry:oxygencharger:0>: {
 		"Oxygen Pad": {[
 			format.gray("Charges your spacesuit up with oxygen")]: [

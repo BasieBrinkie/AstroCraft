@@ -172,9 +172,7 @@ zenClass recipeBuilder {
 	}
 
 	function removeAllFurnaceRecipes() {
-		if (!dev) {
-			furnace.removeAll();
-		}
+		furnace.removeAll();
 	}
 
 	/*	
@@ -185,7 +183,6 @@ zenClass recipeBuilder {
 		This also sets the Stage to Disabled incase people still have them or find them.
 		--------------------------------------------------------------------------------
 	*/
-
 	function hideItems(removals as IIngredient[]) {
 		hideItems(removals, false);
 	}

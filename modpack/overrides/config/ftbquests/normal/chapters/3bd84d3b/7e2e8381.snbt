@@ -14,10 +14,7 @@
 		uid: "c5820447",
 		type: "item",
 		items: [{
-			id: "factorytech:centrifuge",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "factorytech:centrifuge"
 		}]
 	}]
 }

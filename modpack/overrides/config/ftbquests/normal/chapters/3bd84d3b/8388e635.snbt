@@ -4,7 +4,9 @@
 	y: 4.0d,
 	description: "Refreshing and cool ice",
 	text: [
-		"Gotta make water in order to survive."
+		"Gotta make water in order to survive.",
+		"",
+		"Get out into the asteroid field and gather some ice blocks"
 	],
 	dependencies: [
 		"053739df"
@@ -13,10 +15,7 @@
 		uid: "f3e50b99",
 		type: "item",
 		items: [{
-			id: "minecraft:packed_ice",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "contenttweaker:astro_ice"
 		}],
 		count: 4L
 	}]

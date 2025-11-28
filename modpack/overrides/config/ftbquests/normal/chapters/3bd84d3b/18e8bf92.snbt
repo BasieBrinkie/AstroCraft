@@ -1,23 +1,28 @@
 {
 	title: "Questing system",
-	x: 16.0d,
+	x: 15.0d,
 	y: 0.0d,
 	shape: "gear",
 	description: "To the stars and beyond!",
 	text: [
-		"You now have unlocked \"Rocket Builder\" and \"Professions - Stage: 1\".",
+		"You now have unlocked \"Rocket Builder\" and \"Basic Professions\".",
+		"",
 		"Rocket Builder will allow you to use rockets to travel to your yet to be build space station or you can use them to traval faster through the asteroid belt.",
-		"You also unlocked the progression line \"Professions - Stage: 1\". These professions can be practiced while you are on a space station.",
+		"You also unlocked the progression line \"Basic Professions\". These professions can be practiced while you are on a space station.",
 		"",
 		"The recipes you have learned so far are not always applicable on other planets/environments. ",
-		"This means that certain items and machines do not work on planets. ",
+		"This means that certain items and machines do not work on planets. But also some machines/interactions do not work on the space station and only on the planet.",
+		"",
+		"This is done to motivate you to build factories on planets and setup interplanetary item transport to your space station.",
+		"",
 		"Once you land on planets JEI will show what items are available to you and the quests will guide you through the possibilities of each planet. ",
 		"In the end your space station provides the option to combine items from those planets to craft new/speedup item production.",
 		"",
 		"TIP: Gear quests are the final quests of a progression line."
 	],
 	dependencies: [
-		"a2c95ebd"
+		"35c5ada8",
+		"d24f7a48"
 	],
 	tasks: [{
 		uid: "06ded309",

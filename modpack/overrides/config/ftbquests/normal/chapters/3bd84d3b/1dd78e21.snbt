@@ -1,10 +1,11 @@
 {
-	x: 9.0d,
+	x: 8.5d,
 	y: -1.0d,
 	description: "Converts electricity into work",
 	text: [
 		"This is a basic ingredient used for early game machines.",
-		"Later a better motor will become available but for now you are stuck with this one"
+		"",
+		"Later a better motor will become available but for now you are stuck with this one."
 	],
 	dependencies: [
 		"9040656a"
@@ -13,11 +14,7 @@
 		uid: "7ebac02b",
 		type: "item",
 		items: [{
-			id: "factorytech:intermediate",
-			Damage: 4s,
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "factorytech:intermediate 1 4"
 		}]
 	}]
 }

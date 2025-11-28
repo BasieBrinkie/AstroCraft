@@ -12,7 +12,7 @@
 		"",
 		"TIP: open the multiblock cheatsheet to find a preview of the multiblock",
 		"",
-		"TIP2: The wooden trapdoor doesn't work for higher levels of combustion heaters, then you would need an iron trapdoor or a dropper like block",
+		"TIP 2: The wooden trapdoor doesn't work for higher levels of combustion heaters, then you would need an iron trapdoor or a dropper-like block",
 		"and pick up items by standing close to the multiblock"
 	],
 	dependencies: [
@@ -22,10 +22,7 @@
 		uid: "9fc6996d",
 		type: "item",
 		items: [{
-			id: "skyresources:combustionheater",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "skyresources:combustionheater"
 		}]
 	},
 	{
@@ -33,59 +30,44 @@
 		type: "item",
 		title: "Stone",
 		items: [{
-			id: "minecraft:planks",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "minecraft:planks"
 		}],
-		count: 5L
+		count: 4L
 	},
 	{
 		uid: "49250fcb",
 		type: "item",
 		items: [{
-			id: "minecraft:wooden_button",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "minecraft:wooden_button"
 		},
 		{
-			id: "minecraft:stone_button",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "minecraft:stone_button"
 		},
 		{
-			id: "minecraft:wooden_pressure_plate",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "minecraft:wooden_pressure_plate"
 		},
 		{
-			id: "minecraft:stone_pressure_plate",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "minecraft:stone_pressure_plate"
 		}]
 	},
 	{
 		uid: "9e9ca94a",
 		type: "item",
 		items: [{
-			id: "skyresources:casing",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "skyresources:casing"
 		}]
 	},
 	{
 		uid: "60f67e7e",
 		type: "item",
 		items: [{
-			id: "minecraft:trapdoor",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "minecraft:trapdoor"
 		}]
+	}],
+	rewards: [{
+		uid: "438c7e45",
+		type: "item",
+		item: "minecraft:log",
+		count: 8
 	}]
 }

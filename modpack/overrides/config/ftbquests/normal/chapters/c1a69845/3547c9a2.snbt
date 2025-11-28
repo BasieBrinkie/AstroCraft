@@ -11,5 +11,11 @@
 		uid: "c9156f24",
 		type: "gamestage",
 		stage: "planet_asteroids_resources_one"
+	}],
+	rewards: [{
+		uid: "289708ea",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "iron_tools"
 	}]
 }

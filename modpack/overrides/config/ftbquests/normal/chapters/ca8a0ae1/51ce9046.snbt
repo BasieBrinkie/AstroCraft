@@ -11,7 +11,11 @@
 		"- Put a fluid transfer node onto a crucible",
 		"- Put the \"Upgrade Mining\" in the transfer node",
 		"- Connect the cable to the \"Oxygen Pad\"",
-		"- Stand on top of a filled 'Oxygen Pad' while your spacesuit is equipped"
+		"- Stand on top of a filled 'Oxygen Pad' while your spacesuit is equipped",
+		"",
+		"Some usefull information:",
+		"You have 2 - 1000 mB tanks in you space suit. ",
+		"Oxygen is consumed at a rate of 0.1 mB/tick hence if you fully topped of your suit you can last roughly 16.5 minutes until a refill is required"
 	],
 	dependencies: [
 		"d0462d13",

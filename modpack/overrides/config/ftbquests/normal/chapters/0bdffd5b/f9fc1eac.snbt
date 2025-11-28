@@ -12,11 +12,7 @@
 		uid: "5877740b",
 		type: "item",
 		items: [{
-			id: "thermalfoundation:ore",
-			Damage: 7s,
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "thermalfoundation:ore 1 7"
 		}]
 	}]
 }

@@ -3,7 +3,9 @@
 	y: 4.0d,
 	description: "HO(e)s before BROs",
 	text: [
-		"Just an ordinarily hoe, nothing more to it."
+		"Just an ordinarily hoe, nothing more to it.",
+		"",
+		"Can be used to transform coarse dirt back to normal dirt."
 	],
 	dependencies: [
 		"8388e635"
@@ -12,10 +14,10 @@
 		uid: "726b68b1",
 		type: "item",
 		items: [{
-			id: "minecraft:stone_hoe",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "minecraft:stone_hoe"
+		},
+		{
+			item: "minecraft:iron_hoe"
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b

@@ -12,10 +12,13 @@
 		uid: "79bba5b7",
 		type: "item",
 		items: [{
-			id: "minecraft:bread",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "minecraft:bread"
 		}]
+	}],
+	rewards: [{
+		uid: "c78de218",
+		type: "item",
+		item: "minecraft:bread",
+		count: 8
 	}]
 }

@@ -14,11 +14,7 @@
 		uid: "1e7dfd30",
 		type: "item",
 		items: [{
-			id: "exnihilocreatio:item_mesh",
-			Damage: 3s,
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "exnihilocreatio:item_mesh 1 3"
 		}]
 	}]
 }

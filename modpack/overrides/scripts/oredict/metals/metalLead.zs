@@ -83,7 +83,7 @@ static createItemsToOredict as IItemStack[][IOreDictEntry] = {
 	Lead Gears.
 	-------------
 	*/
-	<ore:gearLeadTier1>: [
+	<ore:gearLeadTier2>: [
 		<thermalfoundation:material:259>
 	],
 

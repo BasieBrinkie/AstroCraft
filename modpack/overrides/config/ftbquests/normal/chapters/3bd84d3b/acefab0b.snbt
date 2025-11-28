@@ -5,7 +5,9 @@
 	description: "The cheat sheet for multiblock structures",
 	text: [
 		"If you ever get stuck with building multiblock structures, open this cheatsheet and search the multiblock by clicking the right quest chapter and then its ",
-		"multiblocks. Alternatively you could search the multiblocks by modname and machinename using the entry index.",
+		"multiblocks. ",
+		"",
+		"Alternatively you could search the multiblocks by modname and machinename using the entry index.",
 		"",
 		"TIP: The recipe is free!"
 	],
@@ -19,9 +21,6 @@
 			id: "patchouli:guide_book",
 			tag: {
 				"patchouli:book": "patchouli:multiblock_cheatsheet"
-			},
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
 			}
 		}],
 		ignore_damage: 1b,
