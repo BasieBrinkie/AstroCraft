@@ -65,24 +65,24 @@ zenClass tooltipGen {
 	------------------------------
 
 	---------------------------------------
-	Select which purity for specified tier.
+	Select which name for specified tier.
 	---------------------------------------
 	*/
-	function purityTier(tier as int) as string {
+	function tierName(tier as int) as string {
 		if (tier == 1) {
-			return "8%"; 
+			return "Unprocessed"; 
 		}
 		if (tier == 2) {
-			return "23%"; 
+			return "Purified"; 
 		}
 		if (tier == 3) {
-			return "47.5%"; 
+			return "Enhanced"; 
 		}
 		if (tier == 4) {
-			return "78%"; 
+			return "Nano-Forged"; 
 		}
 		if (tier == 5) {
-			return "98.7%"; 
+			return "Phase-Stabilized"; 
 		}
 		
 		else {
@@ -91,40 +91,19 @@ zenClass tooltipGen {
 	}
 
 	/*
-	---------------------------------------------
-	Select which carbon level for specified tier.
-	---------------------------------------------
-	*/
-	function carbonTier(tier as int) as string {
-		if (tier == 1) {
-			return "0.3%"; 
-		}
-		if (tier == 2) {
-			return "1.6%"; 
-		}
-		if (tier == 3) {
-			return "3.8%"; 
-		}
-		
-		else {
-			return "ERROR, Wrong Tier!!!";
-		}	
-	}	
-
-	/*
 	-------------------------------------
 	Select which size for specified tier.
 	-------------------------------------
 	*/
 	function sizeTier(tier as int) as string {
 		if (tier == 1) {
-			return "29.7mm"; 
+			return "Unprocessed"; 
 		}
 		if (tier == 2) {
-			return "13.1mm"; 
+			return "Purified"; 
 		}
 		if (tier == 3) {
-			return "2.5mm"; 
+			return "Nano-Refined"; 
 		}		
 		
 		else {
@@ -140,19 +119,19 @@ zenClass tooltipGen {
 	*/
 	function thicknessTier(tier as int) as string {
 		if (tier == 1) {
-			return "25mm"; 
+			return "Pressed"; 
 		}
 		if (tier == 2) {
-			return "18mm"; 
+			return "Rolled"; 
 		}
 		if (tier == 3) {
-			return "12mm"; 
+			return "Laminated"; 
 		}
 		if (tier == 4) {
-			return "4mm"; 
+			return "Composite"; 
 		}
 		if (tier == 5) {
-			return "2mm"; 
+			return "Nano-Grown"; 
 		}
 		else {
 			return "ERROR, Wrong Tier!!!";
@@ -166,19 +145,19 @@ zenClass tooltipGen {
 	*/
 	function moduleTier(tier as int) as string {
 		if (tier == 1) {
-			return "32"; 
+			return "Primitive"; 
 		}
 		if (tier == 2) {
-			return "25"; 
+			return "Standard"; 
 		}
 		if (tier == 3) {
-			return "16"; 
+			return "Reinforced"; 
 		}
 		if (tier == 4) {
-			return "8"; 
+			return "Precision"; 
 		}
 		if (tier == 5) {
-			return "4"; 
+			return "Nano-Synthesized"; 
 		}
 		else {
 			return "ERROR, Wrong Tier!!!";
@@ -226,13 +205,7 @@ zenClass tooltipGen {
 	*/
 	function tierDescription(material as string, part as string, tier as int) as string {
 		if (part == "Block" | part == "Ingot") {
-			if (material == "Steel") {
-				return carbonTier(tier);
-			}
-
-			else {
-				return purityTier(tier);
-			}
+			return tierName(tier);
 		}
 		if (part == "Nugget") {
 			return sizeTier(tier);
@@ -258,13 +231,7 @@ zenClass tooltipGen {
 	*/
 	function partDescription(part as string, material as string) as string {
 		if (part == "Block") {
-			if (material == "Steel") {
-				return "Carbon level";
-			}
-			
-			else {
-				return "Purity";
-			}
+			return "Purity";
 		}
 		if (part == "Ingot") {
 			return "Purity";
@@ -292,36 +259,29 @@ zenClass tooltipGen {
 	-----------------------
 	*/
 	function itemNameString(material as string, part as string, tier as int) as string {
-		var partDesc as string = partDescription(part, material);
 		var tierDesc as string = tierDescription(material, part, tier);
 
-		val itemNameString as string = material ~ " " ~ part ~ " - " ~ partDesc ~ ": (" ~ tierDesc ~ ")";
+		val itemNameString as string = tierDesc ~ " " ~ material ~ " " ~ part;
 		return itemNameString;
 	}
 
 	function itemDescriptionFormatted(material as string, part as string, tier as int) as IFormattedText[] {
 		val DPart as string = decapitalize(part);
-		val CArticle as string = capitalize(iArticleGen(DPart));
+		val DTierDesc as string = decapitalize(tierDescription(material, part, tier));
+		val CArticle as string = capitalize(iArticleGen(DTierDesc));
 		val DMaterial as string = decapitalize(material);
 		val DPartDesc as string = decapitalize(partDescription(part, material));
 		
-		if (part == "Clump") {
-			val itemDescriptionFormatted as IFormattedText[] = [
-				format.gray(CArticle ~ " " ~ DPart ~ " of " ~ DMaterial ~ " with a " ~ decapitalize(tierDescription(material, part, tier)) ~ " " ~ DPartDesc),
-				format.yellow("Tier " ~ tier)
-			];
-			return itemDescriptionFormatted;
-		}
 		if (part == "Dust") {
 			val itemDescriptionFormatted as IFormattedText[] = [
-				format.gray(CArticle ~ " " ~ decapitalize(tierDescription(material, part, tier)) ~ " piece of " ~ DMaterial ~ " " ~ DPart),
+				format.gray(CArticle ~ " " ~ DTierDesc ~ " piece of " ~ DMaterial ~ " " ~ DPart),
 				format.yellow("Tier " ~ tier)
 			];
 			return itemDescriptionFormatted;
 		}
 		else {
 			val itemDescriptionFormatted as IFormattedText[] = [
-				format.gray(CArticle ~ " " ~ DPart ~ " of " ~ DMaterial ~ " with a " ~ DPartDesc ~ " of " ~ tierDescription(material, part, tier)),
+				format.gray(CArticle ~ " " ~ DTierDesc ~ " " ~ DPart ~ " of " ~ DMaterial),
 				format.yellow("Tier " ~ tier)
 			];
 			return itemDescriptionFormatted;
