@@ -7,7 +7,7 @@ import crafttweaker.item.IIngredient;
     ---------------
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<modularmachinery:blockcontroller:0>: [
+	<modularmachinery:antenna_tier_1_controller:0>: [
 		[
 			[<ore:plateIron>, <ore:blockSteel>, <ore:plateIron>],
 			[<ore:plateIron>, <factorytech:machinepart:150>, <ore:plateIron>],
