@@ -21,7 +21,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<tconstruct:materials:0>, <tconstruct:materials:0>, <tconstruct:materials:0>]
 		]
 	],
-	<tconstruct:channel:0>: [
+	<tconstruct:channel:0> * 3: [
 		[
 			[<tconstruct:materials:0>, null, <tconstruct:materials:0>],
 			[<tconstruct:materials:0>, <tconstruct:materials:0>, <tconstruct:materials:0>]

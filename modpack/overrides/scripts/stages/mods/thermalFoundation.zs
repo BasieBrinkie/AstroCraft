@@ -5,7 +5,6 @@ import mods.zenstages.Stage;
 
 static stagedItems as IIngredient[][string] = {
 	stageBasicRocketBuilder.stage: [
-		<thermalfoundation:ore:7>,
 		<thermalfoundation:material:199>,
 	],
 	stageAsteroidsAdvancedResources.stage: [

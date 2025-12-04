@@ -7,7 +7,8 @@ static stagedItems as IIngredient[][string] = {
 	stageBasicRocketBuilder.stage: [
 		<libvulpes:coalgenerator:0>,
 		<libvulpes:holoprojector:0>,
-		<libvulpes:linker:0>
+		<libvulpes:linker:0>,
+		<libvulpes:productplate:6>,
 	],
 	advancedRocketryMultiblock.stage: [
 		<libvulpes:forgepowerinput:0>,
@@ -18,6 +19,7 @@ static stagedItems as IIngredient[][string] = {
 
 static disabledItems as IIngredient[] = [
 	<libvulpes:coil0:2>,
+	<libvulpes:ore0:10>,
 	<libvulpes:productdust:0>,
 	<libvulpes:productdust:1>,
 	<libvulpes:productdust:2>,

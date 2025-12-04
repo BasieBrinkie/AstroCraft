@@ -37,7 +37,21 @@ static castingAddConsume as int[int][ILiquidStack][IIngredient][IItemStack] = {
 	<factorytech:circuit_intermediate:8>: {
 		<ore:dustLead>: {
 			<liquid:iridium>: {
-				1296: 800
+				576: 800
+			}
+		}
+	},
+	<factorytech:machinepart:90>: {
+		<factorytech:circuit_intermediate:0>: {
+			<liquid:copper>: {
+				16: 200
+			}
+		}
+	},
+	<factorytech:machinepart:100>: {
+		<factorytech:circuit_intermediate:1>: {
+			<liquid:copper>: {
+				16: 200
 			}
 		}
 	},
