@@ -15,10 +15,7 @@
 		uid: "1d219082",
 		type: "item",
 		items: [{
-			id: "advancedrocketry:guidancecomputer",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "advancedrocketry:guidancecomputer"
 		}]
 	}]
 }

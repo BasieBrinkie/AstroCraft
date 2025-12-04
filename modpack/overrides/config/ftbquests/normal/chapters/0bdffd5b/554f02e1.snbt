@@ -3,7 +3,11 @@
 	y: 7.0d,
 	description: "Rocket go brrrr.",
 	text: [
-		"Can probably be salvaged from the crash site. Hopefully they still work since the technology to craft is way too advanced for now."
+		"Yeah, we can make these yet.",
+		"",
+		"Can probably be salvaged from the crash site. Hopefully they still work since the technology to craft is way too advanced for now.",
+		"",
+		"If you are all out of engines, explore the asteroid dimension and find structures with engines mounted to it."
 	],
 	dependencies: [
 		"8b3ce582"
@@ -12,10 +16,7 @@
 		uid: "c98b4348",
 		type: "item",
 		items: [{
-			id: "advancedrocketry:rocketmotor",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "advancedrocketry:rocketmotor"
 		}]
 	}]
 }

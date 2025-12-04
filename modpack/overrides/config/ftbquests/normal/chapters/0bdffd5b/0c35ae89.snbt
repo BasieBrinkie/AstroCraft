@@ -12,11 +12,13 @@
 		uid: "8cb64872",
 		type: "item",
 		items: [{
-			id: "factorytech:circuit_intermediate",
-			Damage: 8s,
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "factorytech:circuit_intermediate 1 8"
 		}]
+	}],
+	rewards: [{
+		uid: "1ef520a6",
+		type: "item",
+		item: "thermalfoundation:ore 1 7",
+		count: 4
 	}]
 }

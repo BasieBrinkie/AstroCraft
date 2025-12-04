@@ -8,6 +8,9 @@
 		"Once you program the chip with a space station make sure you have at least a copy at each planet you go.",
 		"More information will be given once you obtain the Space Station Assembler.",
 		"",
+		"IF YOU LOSE THE PROGRAMMED CHIP YOU CAN NOT GET IT BACK WITHOUT OP COMMANDS",
+		"OP command: /advanced rocketry giveStation <stationID>  [playername]",
+		"",
 		"TIP the recipe doesn't consume the linker"
 	],
 	dependencies: [
@@ -17,10 +20,7 @@
 		uid: "623b2d4a",
 		type: "item",
 		items: [{
-			id: "advancedrocketry:spacestationchip",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "advancedrocketry:spacestationchip"
 		}]
 	}]
 }

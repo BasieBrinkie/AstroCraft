@@ -13,22 +13,14 @@
 		uid: "a9be5072",
 		type: "item",
 		items: [{
-			id: "thermalfoundation:material",
-			Damage: 199s,
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "thermalfoundation:material 1 199"
 		}]
 	},
 	{
 		uid: "41e0f1bd",
 		type: "item",
 		items: [{
-			id: "factorytech:machinepart",
-			Damage: 11s,
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "factorytech:machinepart 1 11"
 		}]
 	}]
 }

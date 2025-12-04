@@ -1,5 +1,5 @@
 {
-	x: 2.0d,
+	x: 2.5d,
 	y: 3.0d,
 	description: "Combines multiple fluids and items",
 	text: [
@@ -17,10 +17,7 @@
 		uid: "4fa21b73",
 		type: "item",
 		items: [{
-			id: "factorytech:agitator",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "factorytech:agitator"
 		}]
 	}]
 }

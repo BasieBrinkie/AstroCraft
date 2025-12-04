@@ -4,7 +4,9 @@
 	description: "Etching machine",
 	text: [
 		"Place the blank pattern in the Circuit Scribe.",
-		"Look at JEI which squares need to be gray and which ones need to be white."
+		"",
+		"Look at JEI which squares need to be gray and which ones need to be white.",
+		"But before you insert the blank pattern, first etch the correct squares as otherwise it is not remembered by the machine"
 	],
 	dependencies: [
 		"0c35ae89"
@@ -13,10 +15,7 @@
 		uid: "a742f882",
 		type: "item",
 		items: [{
-			id: "factorytech:circuitscribe",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "factorytech:circuitscribe"
 		}]
 	}]
 }

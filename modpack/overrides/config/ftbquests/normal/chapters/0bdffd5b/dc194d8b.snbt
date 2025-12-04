@@ -12,10 +12,7 @@
 		uid: "4f7b7c71",
 		type: "item",
 		items: [{
-			id: "libvulpes:linker",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "libvulpes:linker"
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b

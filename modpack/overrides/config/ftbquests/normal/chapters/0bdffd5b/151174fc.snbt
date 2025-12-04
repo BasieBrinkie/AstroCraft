@@ -5,7 +5,7 @@
 	text: [
 		"Some sort of pipes is better than no pipes.",
 		"",
-		"Check out the entry in the sheet of cheats for more information on how to use these \"pipes\""
+		"Check out the entry in the sheets of cheats for more information on how to use these \"pipes\""
 	],
 	dependencies: [
 		"73b2726d"
@@ -14,10 +14,7 @@
 		uid: "f2bb8222",
 		type: "item",
 		items: [{
-			id: "tconstruct:channel",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "tconstruct:channel"
 		}]
 	}]
 }

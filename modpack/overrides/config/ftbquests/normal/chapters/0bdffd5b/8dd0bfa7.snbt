@@ -21,10 +21,7 @@
 		uid: "d701f0af",
 		type: "item",
 		items: [{
-			id: "advancedrocketry:stationbuilder",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "advancedrocketry:stationbuilder"
 		}]
 	}]
 }
