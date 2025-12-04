@@ -53,7 +53,7 @@
 			<oreDict>blockSteel</oreDict>
 		</input>
 		<output>
-			<itemStack>libvulpes:productplate 6 1</itemStack>
+			<itemStack>libvulpes:productplate 3 6</itemStack>
 		</output>
 	</Recipe>
 </Recipes>
