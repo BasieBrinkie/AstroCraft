@@ -14,10 +14,7 @@
 		uid: "54d033fc",
 		type: "item",
 		items: [{
-			id: "grapplemod:block_grapple_modifier",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "grapplemod:block_grapple_modifier"
 		}]
 	}]
 }

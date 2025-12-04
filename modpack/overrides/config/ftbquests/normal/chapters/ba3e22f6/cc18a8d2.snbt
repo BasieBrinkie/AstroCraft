@@ -5,7 +5,7 @@
 	text: [
 		"It is scaffholding.",
 		"",
-		"Climbs up like ladders and builds up if you keep clicking the bottom scaffholding with scaffholding"
+		"Climbs up like ladders and builds up if you keep clicking the bottom scaffholding with scaffholding will increase in height. Might come in handy on planets with a lot of gravity."
 	],
 	dependencies: [
 		"37e21d68"
@@ -14,10 +14,7 @@
 		uid: "e7b2053d",
 		type: "item",
 		items: [{
-			id: "factorytech:scaffold",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "factorytech:scaffold"
 		}]
 	}]
 }

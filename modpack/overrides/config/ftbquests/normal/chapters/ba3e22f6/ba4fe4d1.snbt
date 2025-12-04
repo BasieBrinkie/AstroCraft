@@ -14,10 +14,7 @@
 		uid: "70ff4864",
 		type: "item",
 		items: [{
-			id: "minecraft:water_bucket",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "minecraft:water_bucket"
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b

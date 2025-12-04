@@ -22,19 +22,6 @@
 	hide: 1b,
 	or_tasks: 1b,
 	tasks: [{
-		uid: "ba89e324",
-		type: "item",
-		items: [{
-			id: "modularmachinery:itemblueprint",
-			tag: {
-				dynamicmachine: "modularmachinery:asteroid_miner_tier_1"
-			},
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
-		}]
-	},
-	{
 		uid: "427b63a4",
 		type: "checkmark"
 	},
@@ -42,11 +29,7 @@
 		uid: "6130892b",
 		type: "item",
 		items: [{
-			id: "modularcontroller:asteroid_miner_tier_1_controller",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			Count: 1b
+			item: "modularmachinery:asteroid_miner_tier_1_controller"
 		}]
 	}],
 	rewards: [{
@@ -56,12 +39,8 @@
 			id: "modularmachinery:itemblueprint",
 			tag: {
 				dynamicmachine: "modularmachinery:asteroid_miner_tier_1"
-			},
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
 			}
 		},
-		count: 8192,
 		only_one: 1b
 	}]
 }

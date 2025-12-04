@@ -13,9 +13,9 @@
 		"We need to build an antenna to scan the area around you for data about the planets in the neighbourhood.",
 		"additionally we can try reaching the mining corp for rescue. ",
 		"",
-		"Search in JEI for \"Antenna tier 1\" for the blueprint for this structure doesn't need to be inserted in order to work. ",
+		"Search in JEI for \"Dish Antenna\" for the blueprint for this structure doesn't need to be inserted in order to work. There are multiblocks where the blueprint does need to be inserted as it determines the intput/output items or liquids.",
 		"",
-		"The antenna needs 5 minutes to scan the environment."
+		"The antenna will need about 5 minutes to scan the environment and send the distress signal."
 	],
 	hide_dependency_lines: 1b,
 	dependencies: [

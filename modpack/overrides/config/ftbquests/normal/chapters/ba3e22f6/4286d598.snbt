@@ -1,6 +1,6 @@
 {
 	x: 4.5d,
-	y: 3.0d,
+	y: 3.5d,
 	description: "Machine component",
 	text: [
 		""
@@ -12,11 +12,7 @@
 		uid: "134adcf6",
 		type: "item",
 		items: [{
-			id: "factorytech:machinepart",
-			Damage: 150s,
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "factorytech:machinepart 1 150"
 		}]
 	}]
 }

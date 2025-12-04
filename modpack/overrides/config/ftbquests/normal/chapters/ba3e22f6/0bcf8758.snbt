@@ -1,23 +1,20 @@
 {
 	x: 6.0d,
 	y: -2.0d,
-	description: "Consists of many mini nuggets",
+	description: "Consists of many mini copper nuggets",
 	text: [
-		"Can be melted into liquid copper"
+		"Can be melted into liquid copper",
+		"",
+		"It also contains small traces of redstone, which makes it so conductive"
 	],
 	dependencies: [
-		"016e1ba2",
 		"d68d44fc"
 	],
 	tasks: [{
 		uid: "c94700ac",
 		type: "item",
 		items: [{
-			id: "mekanism:dirtydust",
-			Damage: 3s,
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "mekanism:dirtydust 1 3"
 		}]
 	}]
 }

@@ -4,20 +4,17 @@
 	description: "Centrifuges using rotational and magnetic forces",
 	text: [
 		"In order to correctly centrifuge the items, we need a solvent.",
-		"Connect a pipe to the Magnetic Centrigure and pump from an liquid inventory. You cannot fill the machine by hand."
+		"",
+		"Connect a pipe to the Magnetic Centrigure and pump water into the centrifuge. Each use of the machine require 250 mB of water"
 	],
 	dependencies: [
-		"1c8d21c4",
 		"ba4fe4d1"
 	],
 	tasks: [{
 		uid: "cc98cf70",
 		type: "item",
 		items: [{
-			id: "factorytech:magcent",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "factorytech:magcent"
 		}]
 	}]
 }

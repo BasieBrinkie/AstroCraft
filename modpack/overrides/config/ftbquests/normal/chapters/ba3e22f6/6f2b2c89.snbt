@@ -1,5 +1,5 @@
 {
-	x: 9.0d,
+	x: 10.5d,
 	y: 1.5d,
 	description: "This is not a drill! This is the real deal.",
 	text: [
@@ -12,18 +12,10 @@
 		uid: "70993aac",
 		type: "item",
 		items: [{
-			id: "factorytech:machinepart",
-			Damage: 72s,
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "factorytech:machinepart 1 72"
 		},
 		{
-			id: "factorytech:machinepart",
-			Damage: 71s,
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "factorytech:machinepart 1 71"
 		}],
 		consume_items: 0b
 	}]

@@ -1,6 +1,6 @@
 {
-	x: 7.5d,
-	y: 4.5d,
+	x: 8.0d,
+	y: 5.0d,
 	description: "Stronger gears and saw blades",
 	text: [
 		"This gear and saw blade lasts longer than their poor counterpart."

@@ -3,7 +3,9 @@
 	y: -1.5d,
 	description: "Smaller than slabs",
 	text: [
-		"You could use this as a floor to prettify your base or use in recipes"
+		"You could use this as a floor to prettify your base or use in recipes.",
+		"",
+		"Additionally the extra height makes it impossible for mobs to spawn at other planets."
 	],
 	dependencies: [
 		"c21b369f"
@@ -12,10 +14,7 @@
 		uid: "53ff2297",
 		type: "item",
 		items: [{
-			id: "enderutilities:floor",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "enderutilities:floor"
 		}]
 	}]
 }

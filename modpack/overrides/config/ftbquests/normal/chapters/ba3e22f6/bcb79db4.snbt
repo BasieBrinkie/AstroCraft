@@ -1,6 +1,6 @@
 {
-	x: 6.0d,
-	y: 3.0d,
+	x: 7.0d,
+	y: 2.5d,
 	description: "Easier way to obtain Iron Dust",
 	text: [
 		"No more going through the whole process.",
@@ -13,10 +13,7 @@
 		uid: "8831ce25",
 		type: "item",
 		items: [{
-			id: "mekanism:dirtydust",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "mekanism:dirtydust"
 		}]
 	}]
 }

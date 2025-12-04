@@ -1,7 +1,7 @@
 {
 	title: "Foods",
-	x: 10.0d,
-	y: 3.5d,
+	x: 10.5d,
+	y: 4.0d,
 	description: "Newly unlocked foods",
 	text: [
 		"With knife you can make toast or baguettes"

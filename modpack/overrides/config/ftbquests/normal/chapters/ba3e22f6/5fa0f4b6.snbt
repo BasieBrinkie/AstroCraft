@@ -12,11 +12,7 @@
 		uid: "ab669c15",
 		type: "item",
 		items: [{
-			id: "exnihilocreatio:item_ore_copper",
-			Damage: 3s,
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "exnihilocreatio:item_ore_copper 1 3"
 		}]
 	}]
 }

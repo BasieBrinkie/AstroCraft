@@ -13,10 +13,7 @@
 		uid: "bbdcae4c",
 		type: "item",
 		items: [{
-			id: "factorytech:fridge",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "factorytech:fridge"
 		}]
 	}]
 }

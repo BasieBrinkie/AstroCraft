@@ -1,5 +1,4 @@
 {
-	disable_toast: 1b,
 	x: 6.0d,
 	y: 5.0d,
 	shape: "hexagon",
@@ -10,16 +9,14 @@
 		"This is also a pathway to the knowledge of logic systems I"
 	],
 	dependencies: [
+		"016e1ba2",
 		"0bcf8758"
 	],
 	tasks: [{
 		uid: "ec873674",
 		type: "item",
 		items: [{
-			id: "minecraft:redstone",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "minecraft:redstone"
 		}]
 	}],
 	rewards: [{

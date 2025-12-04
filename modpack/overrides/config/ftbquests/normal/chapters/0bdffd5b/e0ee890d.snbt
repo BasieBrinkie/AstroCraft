@@ -3,20 +3,20 @@
 	y: -3.5d,
 	description: "The brains of the machine",
 	text: [
-		"Every modular machine needs a controller. ",
-		"When you click the controller you may sometimes need to supply the blueprint so it knows what input items and output items it can expect."
+		"This is the Dish Antenna controller. ",
+		"",
+		"Each multiblock for this mod, will have its own controller block. \\",
+		"",
+		"we can also see that this multiblock will only work in the -2 dimension, which is the spacestation dimension."
 	],
 	dependencies: [
 		"336b1acc"
 	],
 	tasks: [{
-		uid: "cc15b691",
+		uid: "de345401",
 		type: "item",
 		items: [{
-			id: "modularmachinery:blockcontroller",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "modularmachinery:antenna_tier_1_controller"
 		}]
 	}]
 }

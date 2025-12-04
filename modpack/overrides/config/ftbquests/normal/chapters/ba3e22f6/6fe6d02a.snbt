@@ -1,6 +1,6 @@
 {
-	x: 7.5d,
-	y: 3.0d,
+	x: 8.0d,
+	y: 3.5d,
 	description: "Shoots focussed laser beams",
 	text: [
 		"The tempering oven shoots a really dense energy ray to the item in the oven. ",
@@ -20,10 +20,7 @@
 		uid: "5d1731ab",
 		type: "item",
 		items: [{
-			id: "factorytech:temperer",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "factorytech:temperer"
 		}]
 	}]
 }
