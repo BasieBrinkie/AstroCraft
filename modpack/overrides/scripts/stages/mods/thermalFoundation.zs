@@ -15,7 +15,18 @@ static stagedItems as IIngredient[][string] = {
 	stageGlacidusSpawn.stage: [
 		<thermalfoundation:material:816>
 	],
-
+	oreAluminum.stage: [
+		<thermalfoundation:ore:4>
+	],
+	oreLead.stage: [
+		<thermalfoundation:ore:3>
+	],
+	oreNickel.stage: [
+		<thermalfoundation:ore:5>
+	],
+	oreIridium.stage: [
+		<thermalfoundation:ore:7>
+	],
 	toolsSteel.stage: [
 		<thermalfoundation:tool.axe_steel:*>,
 		<thermalfoundation:tool.hoe_steel:*>,

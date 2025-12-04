@@ -1,4 +1,3 @@
-
 #priority 9999
 /*
 	---------------------------------
@@ -55,6 +54,17 @@ global stageBasicNuclearManagement as Stage = ZenStager.initStage("basic_nuclear
 global stageBasicOxygen as Stage = ZenStager.initStage("basic_oxygen");
 global stageBasicRocketBuilder as Stage = ZenStager.initStage("basic_rocket_builder");
 global stageBasicSpaceCourier as Stage = ZenStager.initStage("basic_space_courier");
+
+/*
+	----------------------
+	Ores
+	----------------------
+*/
+global oreAluminum as Stage = ZenStager.initStage("ore_aluminum");
+global oreIridium as Stage = ZenStager.initStage("ore_iridium");
+global oreIron as Stage = ZenStager.initStage("ore_iron");
+global oreLead as Stage = ZenStager.initStage("ore_lead");
+global oreNickel as Stage = ZenStager.initStage("ore_nickel");
 
 /*
 	----------------------

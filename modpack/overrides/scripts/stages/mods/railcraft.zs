@@ -1,23 +1,21 @@
 import crafttweaker.item.IIngredient;
+import crafttweaker.oredict.IOreDictEntry;
 
 import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
 static stagedItems as IIngredient[][string] = {
-	stageAsteroidsAdvancedResources.stage: [
-		<immersiveengineering:material:17>,
-	],
+};
+
+static stagedOredicts as IOreDictEntry[][string] = {
 };
 
 static disabledItems as IIngredient[] = [
-	<immersiveengineering:material:5>,
-	<immersiveengineering:material:6>,
-	<immersiveengineering:ore:2>,
-	<immersiveengineering:ore:5>,
-	<immersiveengineering:stone_decoration:3>,
+    <railcraft:ore_metal:2>
 ];
 
 function init() {
 	stager.setStage(stagedItems);
+    stager.setStageOredict(stagedOredicts);
 	stager.disable(disabledItems);
 }

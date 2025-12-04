@@ -12,11 +12,12 @@ static stagedItems as IIngredient[][string] = {
 	],
 	stageMiner1.stage: [
 		<techguns:explosive_charge:0>,
-		<techguns:explosive_charge:1>,
+		<techguns:explosive_charge:1>
 	],
 };
 
 static disabledItems as IIngredient[] = [
+	<techguns:basicore:2>,
 	<techguns:radaway:0>,
 	<techguns:radpills:0>
 ];

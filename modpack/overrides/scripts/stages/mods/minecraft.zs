@@ -156,6 +156,10 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:dispenser:0>
 	],
 
+	oreIron.stage: [
+		<minecraft:iron_ore:0>
+	],
+
 	liquidLava.stage: [
 		<minecraft:lava_bucket:0>
 	],
