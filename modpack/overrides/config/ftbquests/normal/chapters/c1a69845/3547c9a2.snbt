@@ -17,5 +17,11 @@
 		type: "gamestage",
 		auto: "no_toast",
 		stage: "iron_tools"
+	},
+	{
+		uid: "c847e489",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "ore_iron"
 	}]
 }

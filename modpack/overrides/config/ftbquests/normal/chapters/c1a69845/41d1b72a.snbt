@@ -1,4 +1,5 @@
 {
+	icon: "twilightforest:miniature_structure",
 	x: -1.0d,
 	y: 12.0d,
 	hide_dependency_lines: 1b,
@@ -6,14 +7,9 @@
 		"e2c60067"
 	],
 	tasks: [{
-		uid: "833c61d7",
-		type: "item",
-		items: [{
-			id: "twilightforest:miniature_structure",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
-		}]
+		uid: "3eca7fc0",
+		type: "gamestage",
+		stage: "disable_staging"
 	}],
 	rewards: [{
 		uid: "0c1dc84f",

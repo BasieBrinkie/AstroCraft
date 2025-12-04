@@ -17,5 +17,23 @@
 		type: "gamestage",
 		auto: "no_toast",
 		stage: "modular_machinery_tier_one"
+	},
+	{
+		uid: "95d44dea",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "ore_nickel"
+	},
+	{
+		uid: "edd0cf35",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "ore_lead"
+	},
+	{
+		uid: "aff0133d",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "ore_aluminum"
 	}]
 }

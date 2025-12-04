@@ -12,11 +12,7 @@
 		uid: "b822c06d",
 		type: "item",
 		items: [{
-			id: "factorytech:ore_dust",
-			Damage: 5s,
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "factorytech:ore_dust 1 5"
 		}]
 	}]
 }

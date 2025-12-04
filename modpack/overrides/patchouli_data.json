@@ -11,6 +11,22 @@
         "patchouli:rocket_crash"
       ],
       "completedManualQuests": []
+    },
+    "patchouli:multiblock_cheatsheet": {
+      "viewedEntries": [
+        "patchouli:asteroids/dawn_of_a_new_age/charcoalpit",
+        "patchouli:asteroids/dawn_of_a_new_age/press",
+        "patchouli:asteroids/basic_resources/combustion_heater",
+        "patchouli:asteroids/advanced_resources/bloomery"
+      ],
+      "bookmarks": [],
+      "history": [
+        "patchouli:asteroids/advanced_resources/bloomery",
+        "patchouli:asteroids/basic_resources/combustion_heater",
+        "patchouli:asteroids/dawn_of_a_new_age/press",
+        "patchouli:asteroids/dawn_of_a_new_age/charcoalpit"
+      ],
+      "completedManualQuests": []
     }
   }
 }

@@ -20,9 +20,6 @@
 					lvl: 1s,
 					id: 35
 				}]
-			},
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
 			}
 		}],
 		ignore_damage: 1b,

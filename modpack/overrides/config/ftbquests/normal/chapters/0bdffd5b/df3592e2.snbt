@@ -12,11 +12,7 @@
 		uid: "86d435dc",
 		type: "item",
 		items: [{
-			id: "mekanism:dirtydust",
-			Damage: 6s,
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "mekanism:dirtydust 1 6"
 		}]
 	}]
 }

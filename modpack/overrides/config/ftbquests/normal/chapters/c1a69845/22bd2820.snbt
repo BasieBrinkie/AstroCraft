@@ -11,6 +11,6 @@
 	tasks: [{
 		uid: "0ed98f56",
 		type: "gamestage",
-		stage: "professions_five"
+		stage: "disable_staging"
 	}]
 }

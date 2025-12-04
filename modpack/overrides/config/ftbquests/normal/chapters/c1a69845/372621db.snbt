@@ -17,6 +17,11 @@
 		"b5ae43e5"
 	],
 	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "ec277eb2",
+		type: "gamestage",
+		stage: "disable_staging"
+	}],
 	rewards: [{
 		uid: "cd3a5e7d",
 		type: "gamestage",

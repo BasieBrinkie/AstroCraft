@@ -12,11 +12,13 @@
 		uid: "05ed2e5f",
 		type: "item",
 		items: [{
-			id: "libvulpes:productingot",
-			Damage: 9s,
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "libvulpes:productingot 1 9"
 		}]
+	}],
+	rewards: [{
+		uid: "b38c7576",
+		type: "item",
+		item: "minecraft:glowstone_dust",
+		count: 10
 	}]
 }

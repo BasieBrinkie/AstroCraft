@@ -17,6 +17,11 @@
 		"e2c60067"
 	],
 	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "daf525a2",
+		type: "gamestage",
+		stage: "disable_staging"
+	}],
 	rewards: [{
 		uid: "315e8e3f",
 		type: "gamestage",

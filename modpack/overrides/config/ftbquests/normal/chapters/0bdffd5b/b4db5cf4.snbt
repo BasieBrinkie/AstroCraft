@@ -12,11 +12,7 @@
 		uid: "ac7246b2",
 		type: "item",
 		items: [{
-			id: "thaumcraft:nugget",
-			Damage: 4s,
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "thaumcraft:nugget 1 4"
 		}]
 	}]
 }

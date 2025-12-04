@@ -13,16 +13,10 @@
 		uid: "5977f17e",
 		type: "item",
 		items: [{
-			id: "exnihilocreatio:hammer_iron",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "exnihilocreatio:hammer_iron"
 		},
 		{
-			id: "exnihilocreatio:hammer_diamond",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "exnihilocreatio:hammer_diamond"
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b

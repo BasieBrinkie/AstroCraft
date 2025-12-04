@@ -3,7 +3,7 @@
 	y: 4.0d,
 	description: "Preheated water melts the aluminum.",
 	text: [
-		"Preheated water has exactly the right temperature to melt aluminum and create nuggets."
+		"Preheated water has exactly the right temperature to melt aluminum and create nuggets. Minecraft physics right???"
 	],
 	dependencies: [
 		"49223e9d"
@@ -12,11 +12,7 @@
 		uid: "6d667646",
 		type: "item",
 		items: [{
-			id: "libvulpes:productnugget",
-			Damage: 9s,
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "libvulpes:productnugget 1 9"
 		}]
 	}]
 }
