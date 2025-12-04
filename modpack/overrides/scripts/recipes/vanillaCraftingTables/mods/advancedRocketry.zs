@@ -37,7 +37,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<advancedrocketry:guidancecomputer:0>: [
 		[
-			[<factorytech:circuit_intermediate:0>, <ore:plateCopper>, <factorytech:circuit_intermediate:1>],
+			[<factorytech:machinepart:90>, <ore:plateCopper>, <factorytech:machinepart:100>],
 			[<factorytech:machinepart:121>, <ore:blockIron>, <factorytech:machinepart:111>],
 			[<ore:plateCopper>,<skyresources:orealchdust:17>,<ore:plateCopper>]
 		]
@@ -58,7 +58,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<advancedrocketry:loader:1>: [
 		[
 			[null, <ore:plateIron>, null],
-			[<ore:plateIron>, <minecraft:chest:0>, <ore:plateIron>],
+			[<ore:plateIron>, <minecraft:chest:0> | <factorytech:crate:0>, <ore:plateIron>],
 			[null, <ore:plateIron>, null]
 		]
 	],
@@ -66,7 +66,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		[
 			[<minecraft:glass_pane>, <minecraft:glass_pane>, <minecraft:glass_pane>],
 			[<ore:dustIron>, <ore:dustIron>, <ore:dustIron>],
-			[null, <factorytech:circuit_intermediate:1>, null]
+			[null, <factorytech:machinepart:100>, null]
 		]
 	],
 	<advancedrocketry:platepress:0>: [
@@ -86,7 +86,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<advancedrocketry:rocketbuilder:0>: [
 		[
 			[<ore:ingotIron>, <ore:factoryTechWire>, <ore:ingotIron>],
-			[<factorytech:circuit_intermediate:2>, <ore:blockIron>, <factorytech:circuit_intermediate:2>],
+			[<factorytech:machinepart:111>, <ore:blockIron>, <factorytech:machinepart:111>],
 			[<ore:blockIron>, <ore:stone>, <ore:blockIron>]
 		]
 	],
@@ -99,7 +99,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<advancedrocketry:stationbuilder:0>: [
 		[
-			[null, <factorytech:circuit_intermediate:1>, null],
+			[null, <factorytech:machinepart:100>, null],
 			[<ore:ingotAluminum>, <ore:nuggetLead>, <ore:ingotAluminum>],
 			[<ore:stone>, <ore:stone>, <ore:stone>]
 		]
@@ -160,6 +160,26 @@ function init() {
 	recipeBuilder.process(shapedRecipes, false);
     recipeBuilder.process(mirroredRecipes, true);
     recipeBuilder.processShapeless(shapelessRecipes);
+	
+	//Recipe for copying spacestation IDs
+	recipes.addShapeless(
+		"space_station_id_copy",
+		<advancedrocketry:spacestationchip:0> * 2, 
+		[<advancedrocketry:spacestationchip:0>.marked("chip1"), <advancedrocketry:spacestationchip:0>.marked('chip2')], 
+		function(output, input, crafting) {
+			print(input.chip1.tag.asString().length);
+			if (input.chip1.tag.asString().length == 2) {
+				return output.withTag(input.chip2.tag);
+			}
+			if (input.chip2.tag.asString().length == 2) {
+				return output.withTag(input.chip1.tag);
+			}
+			else {
+				return null;
+			}
+		},
+		null
+	);
 
 	/*	--------------
 		Named Recipes.
