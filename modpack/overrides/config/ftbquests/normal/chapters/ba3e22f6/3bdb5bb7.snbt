@@ -12,10 +12,7 @@
 		uid: "b5c47d30",
 		type: "item",
 		items: [{
-			id: "skyresources:ironcuttingknife",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "skyresources:ironcuttingknife"
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b

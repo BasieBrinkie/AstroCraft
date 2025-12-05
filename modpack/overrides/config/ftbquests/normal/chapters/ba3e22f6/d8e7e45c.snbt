@@ -13,10 +13,7 @@
 		uid: "53388f60",
 		type: "item",
 		items: [{
-			id: "grapplemod:magnetupgradeitem",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "grapplemod:magnetupgradeitem"
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b

@@ -14,10 +14,7 @@
 		uid: "6575760c",
 		type: "item",
 		items: [{
-			id: "grapplemod:limitsupgradeitem",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "grapplemod:limitsupgradeitem"
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b

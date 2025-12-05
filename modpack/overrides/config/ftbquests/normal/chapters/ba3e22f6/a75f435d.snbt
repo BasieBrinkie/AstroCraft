@@ -12,10 +12,7 @@
 		uid: "5af4aa85",
 		type: "item",
 		items: [{
-			id: "grapplemod:swingupgradeitem",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "grapplemod:swingupgradeitem"
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b

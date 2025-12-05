@@ -275,7 +275,7 @@
   "oe": "1.2.2",
   "justenoughpetroleum": "0.1",
   "fluidlogged_api": "3.1.2",
-  "fugue": "0.22.2",
+  "fugue": "0.22.4",
   "theaurorian": "1.12.2-Release",
   "storagedrawers": "5.5.3",
   "blockcraftery": "1.12.2-1.3.1",

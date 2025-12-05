@@ -12,10 +12,7 @@
 		uid: "dc176dab",
 		type: "item",
 		items: [{
-			id: "grapplemod:doubleupgradeitem",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "grapplemod:doubleupgradeitem"
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b

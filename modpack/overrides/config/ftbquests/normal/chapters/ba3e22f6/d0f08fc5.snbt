@@ -12,10 +12,7 @@
 		uid: "3ab3a089",
 		type: "item",
 		items: [{
-			id: "grapplemod:motorupgradeitem",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "grapplemod:motorupgradeitem"
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b

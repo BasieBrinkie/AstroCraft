@@ -9,14 +9,12 @@
 		"6525455c",
 		"8f51abf2"
 	],
+	dependency_requirement: "all_started",
 	tasks: [{
 		uid: "84fa64fd",
 		type: "item",
 		items: [{
-			id: "grapplemod:ropeupgradeitem",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "grapplemod:ropeupgradeitem"
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b

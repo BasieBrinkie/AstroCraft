@@ -13,10 +13,7 @@
 		uid: "c88bfcf7",
 		type: "item",
 		items: [{
-			id: "actuallyadditions:item_knife",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "actuallyadditions:item_knife"
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b

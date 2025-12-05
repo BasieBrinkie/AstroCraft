@@ -3,7 +3,9 @@
 	y: -1.0d,
 	description: "An improvement over shobby wires",
 	text: [
-		"Little bit more expensive but it also lasts longer"
+		"Little bit more expensive but it also lasts longer.",
+		"",
+		"As a reward you get a few broken wires that you could simply repair."
 	],
 	dependencies: [
 		"1df151d3",
@@ -13,11 +15,13 @@
 		uid: "41b51d43",
 		type: "item",
 		items: [{
-			id: "factorytech:machinepart",
-			Damage: 21s,
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "factorytech:machinepart 1 21"
 		}]
+	}],
+	rewards: [{
+		uid: "1cfb912a",
+		type: "item",
+		item: "factorytech:salvagepart 1 21",
+		count: 5
 	}]
 }

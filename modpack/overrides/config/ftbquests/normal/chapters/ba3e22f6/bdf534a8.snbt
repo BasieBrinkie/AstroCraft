@@ -13,11 +13,13 @@
 		uid: "cd5dfc0c",
 		type: "item",
 		items: [{
-			id: "factorytech:machinepart",
-			Damage: 22s,
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "factorytech:machinepart 1 22"
 		}]
+	}],
+	rewards: [{
+		uid: "ab96de7a",
+		type: "item",
+		item: "factorytech:machinepart 1 21",
+		count: 4
 	}]
 }
