@@ -1,8 +1,10 @@
 {
+	title: "Uranium Ore",
+	icon: "techguns:basicore 1 4",
 	x: 7.5d,
 	y: 6.0d,
 	shape: "hexagon",
-	description: "If you can't see it, it isn't there",
+	description: "If you can't see it, (doesn't mean) it isn't there",
 	text: [
 		"Although they are thought to emit radition you would only really know when you pick the uranium ore. YOLO right?",
 		"",
@@ -18,10 +20,7 @@
 		"033a47b7"
 	],
 	tasks: [{
-		uid: "0ec0918c",
-		type: "item",
-		items: [{
-			item: "techguns:basicore 1 4"
-		}]
+		uid: "4d5f9c97",
+		type: "checkmark"
 	}]
 }

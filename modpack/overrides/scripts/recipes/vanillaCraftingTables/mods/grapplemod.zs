@@ -53,7 +53,7 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 		[<grapplemod:baseupgradeitem:0>, <factorytech:machinepart:130>]
 	],
 	<grapplemod:motorupgradeitem:0>: [
-		[<grapplemod:baseupgradeitem:0>, <ore:factoryTechMotor>]
+		[<grapplemod:baseupgradeitem:0>, <factorytech:machinepart:60> | <factorytech:machinepart:61> | <factorytech:machinepart:62>]
 	],
 	<grapplemod:ropeupgradeitem:0>: [
 		[<grapplemod:baseupgradeitem:0>, <factorytech:machinepart:22>]
@@ -62,7 +62,7 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 		[<grapplemod:baseupgradeitem:0>, <exnihilocreatio:item_material:2>]
 	],
 	<grapplemod:throwupgradeitem:0>: [
-		[<grapplemod:baseupgradeitem:0>, <minecraft:wheat:0>]
+		[<grapplemod:baseupgradeitem:0>, <minecraft:string:0>]
 	]
 
 };

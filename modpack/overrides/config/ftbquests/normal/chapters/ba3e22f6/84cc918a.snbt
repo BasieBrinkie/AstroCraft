@@ -16,10 +16,7 @@
 		uid: "a2f2f0d3",
 		type: "item",
 		items: [{
-			id: "minecraft:lava_bucket",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "minecraft:lava_bucket"
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b

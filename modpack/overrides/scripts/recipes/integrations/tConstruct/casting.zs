@@ -59,7 +59,7 @@ static castingAddConsume as int[int][ILiquidStack][IIngredient][IItemStack] = {
 	<factorytech:machinepart:21>: {
 		<factorytech:salvagepart:21>: {
 			<liquid:copper>: {
-				288: 140
+				144: 140
 			}
 		}
 	},

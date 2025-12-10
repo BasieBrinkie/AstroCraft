@@ -27,6 +27,9 @@ static tempererAdd as int[IItemStack][IItemStack] = {
 	<factorytech:machinepart:72>: {
 		<factorytech:machinepart:71>: 30
 	},
+	<minecraft:stonebrick:0> * 4: {
+		<minecraft:stone:0>: 20
+	},
 	<skyresources:ironcuttingknife:0>: {
 		<actuallyadditions:item_knife:0>: 30
 	},

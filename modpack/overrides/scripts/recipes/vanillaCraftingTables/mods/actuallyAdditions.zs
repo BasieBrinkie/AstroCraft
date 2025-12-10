@@ -21,6 +21,20 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <ore:ingotIron>, <ore:stickWood>]
 		]
 	],
+	<actuallyadditions:item_misc:2>: [
+		[
+			[null, null, <ore:ingotIron>],
+			[null, <ore:ingotIron>, null],
+			[<minecraft:flint:0>, null, null]
+		]
+	],
+	<actuallyadditions:item_misc:3>: [
+		[
+			[<minecraft:flint:0>, null, null],
+			[null, <ore:stickTier1To3>, null],
+			[null, null, <ore:stickTier1To3>]
+		]
+	],
 	<actuallyadditions:item_misc:11>: [
 		[
 			[<excompressum:uncompressed_coal:0>, <excompressum:uncompressed_coal:0>, <excompressum:uncompressed_coal:0>],
@@ -62,7 +76,10 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 	],
 	<actuallyadditions:item_misc:4> * 4: [
 		[<actuallyadditions:item_knife:*>.transformDamage(), <minecraft:wheat:0> * 2]
-	]
+	],
+	<actuallyadditions:item_knife>: [
+		[<actuallyadditions:item_misc:2>, <actuallyadditions:item_misc:3>]
+	],
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {

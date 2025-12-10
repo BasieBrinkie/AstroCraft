@@ -21,6 +21,7 @@
 		type: "item",
 		items: [{
 			item: "minecraft:stonebrick"
-		}]
+		}],
+		count: 28L
 	}]
 }

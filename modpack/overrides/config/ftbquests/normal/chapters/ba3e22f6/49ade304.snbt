@@ -1,6 +1,10 @@
 {
 	x: 9.5d,
 	y: 6.0d,
+	description: "Heated Cobblestone",
+	text: [
+		"If we somehow bind cobblestone and nuclear fuel, then we maybe we can create magma blocks."
+	],
 	dependencies: [
 		"1bfe80f9"
 	],
@@ -8,10 +12,7 @@
 		uid: "bbc6c175",
 		type: "item",
 		items: [{
-			id: "minecraft:magma",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "minecraft:magma"
 		}]
 	}]
 }

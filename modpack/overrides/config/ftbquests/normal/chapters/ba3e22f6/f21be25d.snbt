@@ -7,14 +7,12 @@
 	dependencies: [
 		"49ade304"
 	],
+	optional: 1b,
 	tasks: [{
 		uid: "c448f15e",
 		type: "item",
 		items: [{
-			id: "minecraft:obsidian",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "minecraft:obsidian"
 		}]
 	}]
 }

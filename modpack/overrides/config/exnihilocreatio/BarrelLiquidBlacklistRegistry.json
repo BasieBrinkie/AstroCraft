@@ -3,6 +3,11 @@
     "lava",
     "fire_water",
     "rocket_fuel",
-    "pyrotheum"
+    "pyrotheum",
+    "iron",
+    "copper",
+    "nickel",
+    "iridium",
+    "lead"
   ]
 }

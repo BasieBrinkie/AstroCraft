@@ -14,6 +14,8 @@ static stagedItems as IIngredient[][string] = {
 		<actuallyadditions:item_knife:*>,
 		<actuallyadditions:item_food:10>,
 		<actuallyadditions:item_food:15>,
+		<actuallyadditions:item_misc:2>,
+		<actuallyadditions:item_misc:3>,
 		<actuallyadditions:item_misc:4>
 	],
 	stageBasicNuclearManagement.stage: [

@@ -14,11 +14,7 @@
 		uid: "71bdeeea",
 		type: "item",
 		items: [{
-			id: "nuclearcraft:uranium",
-			Damage: 10s,
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "nuclearcraft:uranium 1 10"
 		}]
 	}]
 }

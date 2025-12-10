@@ -3,7 +3,7 @@
 	y: -3.5d,
 	description: "Hot, hotter, hottest",
 	text: [
-		"Although not the hottest one yet it is an improvement over the stone heat provider. It outputs more heat and is also a bit faster than the stone version."
+		"Although not the hottest one yet, it is an improvement over the stone heat provider. It outputs more heat and is also a bit faster than the stone version."
 	],
 	dependencies: [
 		"180c9647"
@@ -12,11 +12,7 @@
 		uid: "8166cfda",
 		type: "item",
 		items: [{
-			id: "skyresources:heatprovider",
-			Damage: 3s,
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "skyresources:heatprovider 1 3"
 		}]
 	}]
 }
