@@ -11,6 +11,9 @@ static stagedItemsOredict as IOreDictEntry[][string] = {
 	stageAsteroidsAdvancedResources.stage: [
 		<ore:ingotSteelTier1>,
 		<ore:nuggetSteelTier1>,
+	],
+	metalSteelTier2.stage: [
+		<ore:blockSteelTier2>
 	]
 };
 
