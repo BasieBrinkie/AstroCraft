@@ -58,6 +58,9 @@ function init() {
                 }
                 if (params[2] == "Glacidus") {
                     if player.data.firstJoin == 1 {
+                        if && player.world.getDimension() == 4 {
+                            return;
+                        }
                         for stage in glacidusSpawnStages { 
                             player.addGameStage(stage);
                         }
@@ -83,6 +86,9 @@ function init() {
                 }
                 if (params[2] == "Aquarius-66B") {
                     if player.data.firstJoin == 1 {
+                        if && player.world.getDimension() == 5 {
+                            return;
+                        }
                         for stage in aquariusSpawnStages {
                             player.addGameStage(stage);
                         }
