@@ -24,7 +24,7 @@
       "worldinfo": {
         "DayTime": 6000,
         "GameRules": {
-          "doDaylightCycle": false,
+          "doDaylightCycle": true,
           "fallDamageMultiplier": "0",
           "doWeatherCycle": false,
           "sendCommandFeedback": false
@@ -53,6 +53,7 @@
       },
       "worldinfo_onetime": {
         "GameRules": {
+          "doDaylightCycle": true,
           "doWeatherCycle": false,
           "sendCommandFeedback": false
         }
