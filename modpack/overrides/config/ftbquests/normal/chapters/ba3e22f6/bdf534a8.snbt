@@ -1,6 +1,6 @@
 {
 	x: 8.0d,
-	y: 1.0d,
+	y: 0.5d,
 	description: "Strong, stronger, strongest",
 	text: [
 		"By hardening the wire it gets even more durable"

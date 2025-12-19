@@ -1,6 +1,6 @@
 {
   "bookGuiScale": 0,
-  "clickedVisualize": false,
+  "clickedVisualize": true,
   "bookData": {
     "patchouli:personal_diary": {
       "viewedEntries": [
@@ -17,11 +17,15 @@
         "patchouli:asteroids/dawn_of_a_new_age/charcoalpit",
         "patchouli:asteroids/dawn_of_a_new_age/press",
         "patchouli:asteroids/basic_resources/combustion_heater",
-        "patchouli:asteroids/advanced_resources/bloomery"
+        "patchouli:asteroids/advanced_resources/bloomery",
+        "patchouli:rocket_builder/channel_piping",
+        "patchouli:wiki_manuals/advanced_rocketry"
       ],
       "bookmarks": [],
       "history": [
         "patchouli:asteroids/advanced_resources/bloomery",
+        "patchouli:wiki_manuals/advanced_rocketry",
+        "patchouli:rocket_builder/channel_piping",
         "patchouli:asteroids/basic_resources/combustion_heater",
         "patchouli:asteroids/dawn_of_a_new_age/press",
         "patchouli:asteroids/dawn_of_a_new_age/charcoalpit"

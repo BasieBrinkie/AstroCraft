@@ -13,28 +13,16 @@
 		uid: "fe7fdf82",
 		type: "item",
 		items: [{
-			id: "thermalfoundation:tool.pickaxe_steel",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "thermalfoundation:tool.pickaxe_steel"
 		},
 		{
-			id: "thermalfoundation:tool.axe_steel",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "thermalfoundation:tool.axe_steel"
 		},
 		{
-			id: "thermalfoundation:tool.hoe_steel",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "thermalfoundation:tool.hoe_steel"
 		},
 		{
-			id: "thermalfoundation:tool.shovel_steel",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "thermalfoundation:tool.shovel_steel"
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b

@@ -12,11 +12,7 @@
 		uid: "5525a243",
 		type: "item",
 		items: [{
-			id: "mekanism:basicblock",
-			Damage: 5s,
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "mekanism:basicblock 1 5"
 		}]
 	}]
 }

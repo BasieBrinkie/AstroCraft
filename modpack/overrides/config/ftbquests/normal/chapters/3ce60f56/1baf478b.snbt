@@ -13,10 +13,7 @@
 		uid: "71703d92",
 		type: "item",
 		items: [{
-			id: "glacidus:dead_lumicia",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "glacidus:dead_lumicia"
 		}]
 	}]
 }

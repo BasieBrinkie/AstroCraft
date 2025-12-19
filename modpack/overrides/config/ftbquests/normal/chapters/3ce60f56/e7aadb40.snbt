@@ -12,20 +12,14 @@
 		uid: "0646fc4b",
 		type: "item",
 		items: [{
-			id: "magneticraft:crushing_table",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "magneticraft:crushing_table"
 		}]
 	},
 	{
 		uid: "d7331d71",
 		type: "item",
 		items: [{
-			id: "magneticraft:stone_hammer",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "magneticraft:stone_hammer"
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b

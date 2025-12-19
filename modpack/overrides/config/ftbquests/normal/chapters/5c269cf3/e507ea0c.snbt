@@ -1,6 +1,6 @@
 {
 	title: "Hoppers",
-	x: -10.5d,
+	x: -8.0d,
 	y: -3.0d,
 	description: "Just plain old vanilla hoppers",
 	text: [

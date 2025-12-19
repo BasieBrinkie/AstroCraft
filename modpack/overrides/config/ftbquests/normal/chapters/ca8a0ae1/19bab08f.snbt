@@ -52,12 +52,7 @@
 	rewards: [{
 		uid: "6ea5ecfe",
 		type: "choice",
-		icon: {
-			id: "contenttweaker:astrostone_3",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
-		},
+		icon: "contenttweaker:astrostone_3",
 		auto: "disabled",
 		table: 0
 	},

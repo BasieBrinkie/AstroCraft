@@ -12,11 +12,7 @@
 		uid: "834e7e7b",
 		type: "item",
 		items: [{
-			id: "immersiveengineering:material",
-			Damage: 17s,
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "immersiveengineering:material 1 17"
 		}]
 	}]
 }

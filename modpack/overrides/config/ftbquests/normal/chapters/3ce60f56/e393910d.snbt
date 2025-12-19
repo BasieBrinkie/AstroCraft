@@ -12,10 +12,7 @@
 		uid: "931f346b",
 		type: "item",
 		items: [{
-			id: "aether:aether_crafting_table",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "aether:aether_crafting_table"
 		}]
 	}]
 }

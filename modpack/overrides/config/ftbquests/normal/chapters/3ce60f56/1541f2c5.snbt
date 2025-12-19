@@ -13,10 +13,7 @@
 		uid: "5f02a0e1",
 		type: "item",
 		items: [{
-			id: "glacidus:underground_stick",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "glacidus:underground_stick"
 		}]
 	}]
 }
