@@ -48,3 +48,4 @@ Worlds/*.zip
 *.lock
 modpack/overrides/config/relauncher.json
 *.log
+modpack/overrides/config/cleanroom_load_timings.dat

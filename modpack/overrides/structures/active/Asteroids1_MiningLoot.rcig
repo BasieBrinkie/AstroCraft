@@ -1,0 +1,67 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "Asteroids1_MiningLoot",
+  "items": [
+    {
+      "weight": 0.646636426448822,
+      "min": 1,
+      "max": 44,
+      "item": {
+        "id": "thermalfoundation:ore",
+        "damage": 7,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.39763605594635,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "thermalfoundation:ore",
+        "damage": 5,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.1442086547613144,
+      "min": 1,
+      "max": 10,
+      "item": {
+        "id": "minecraft:diamond_ore",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.32298368215560913,
+      "min": 1,
+      "max": 19,
+      "item": {
+        "id": "thermalfoundation:ore",
+        "damage": 4,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.6340234279632568,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "minecraft:iron_ore",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.7755888104438782,
+      "min": 1,
+      "max": 37,
+      "item": {
+        "id": "advancedrocketry:charcoallog",
+        "damage": 0,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

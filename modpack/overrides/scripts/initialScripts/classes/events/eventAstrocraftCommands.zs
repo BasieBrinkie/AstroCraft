@@ -58,7 +58,7 @@ function init() {
                 }
                 if (params[2] == "Glacidus") {
                     if player.data.firstJoin == 1 {
-                        if && player.world.getDimension() == 4 {
+                        if player.world.getDimension() == 4 {
                             event.cancel(); //cancel the command since we handled it
                             return;
                         }
@@ -87,7 +87,7 @@ function init() {
                 }
                 if (params[2] == "Aquarius-66B") {
                     if player.data.firstJoin == 1 {
-                        if && player.world.getDimension() == 5 {
+                        if player.world.getDimension() == 5 {
                             event.cancel(); //cancel the command since we handled it
                             return;
                         }

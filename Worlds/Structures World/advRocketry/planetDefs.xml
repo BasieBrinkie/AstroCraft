@@ -66,7 +66,7 @@
                 <orbitalPhi>73</orbitalPhi>
                 <retrograde>false</retrograde>
                 <avgTemperature>1297</avgTemperature>
-                <rotationalPeriod>2000</rotationalPeriod>
+                <rotationalPeriod>4800</rotationalPeriod>
                 <atmosphereDensity>0</atmosphereDensity>
                 <rainStartLength>168000</rainStartLength>
                 <rainProlongationLength>12000</rainProlongationLength>

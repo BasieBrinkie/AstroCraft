@@ -29,6 +29,12 @@
     },
     "done": true
   },
+  "triumph:lore_structures/dimensions/asteroids_1/miningdroid": {
+    "criteria": {
+      "structure_miningdroid": "2026-05-06 22:56:27 +0200"
+    },
+    "done": true
+  },
   "triumph:lore_items/systems/arcturus": {
     "criteria": {
       "dim_0": "2021-07-09 02:33:08 +0200"
@@ -38,6 +44,12 @@
   "triumph:lore_structures/dimensions/glacidus": {
     "criteria": {
       "Dimension Stage": "2021-08-24 17:59:37 +0200"
+    },
+    "done": true
+  },
+  "triumph:lore_items/dimensions/asteroids_1/miningdroid": {
+    "criteria": {
+      "structure_miningdroid": "2026-05-06 22:56:27 +0200"
     },
     "done": true
   },
