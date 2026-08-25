@@ -791,16 +791,18 @@ zenClass nuclearCraft {
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 
-	function fissionSolidAddRecipe(map as double[bool][double][int][double][int][int][IIngredient][IIngredient]) {
+	function fissionSolidAddRecipe(map as double[bool][double][int][int][double][int][int][IIngredient][IIngredient]) {
 		for inputItem, array1 in map {
 			for outputItem, array2 in array1 {
 				for time, array3 in array2 {
 					for heat, array4 in array3 {
 						for efficiency, array5 in array4 {
 							for criticality, array6 in array5 {
-								for decayFactor, array7 in array6 {
-									for selfPriming, radiation in array7 {
-										mods.nuclearcraft.SolidFission.addRecipe(inputItem, outputItem, time, heat, efficiency, criticality, decayFactor, selfPriming, radiation);
+								for intrinsicFlux, array7 in array6 {
+									for decayFactor, array8 in array7 {
+										for selfPriming, radiation in array8 {
+											mods.nuclearcraft.SolidFission.addRecipe(inputItem, outputItem, time, heat, efficiency, criticality, intrinsicFlux, decayFactor, selfPriming, radiation);
+										}
 									}
 								}
 							}
@@ -855,16 +857,18 @@ zenClass nuclearCraft {
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-	function saltFissionAddRecipe(map as double[bool][double][int][double][int][double][IIngredient][IIngredient]) {
+	function saltFissionAddRecipe(map as double[bool][double][int][int][double][int][double][IIngredient][IIngredient]) {
 		for inputItem, array1 in map {
 			for outputItem, array2 in array1 {
 				for time, array3 in array2 {
 					for heat, array4 in array3 {
 						for efficiency, array5 in array4 {
 							for criticality, array6 in array5 {
-								for decayFactor, array7 in array6 {
-									for selfPriming, radiation in array7 {
-										mods.nuclearcraft.SaltFission.addRecipe(inputItem, outputItem, time, heat, efficiency, criticality, decayFactor, selfPriming, radiation);
+								for intrinsicFlux, array7 in array6 {
+									for decayFactor, array8 in array7 {
+										for selfPriming, radiation in array8 {
+											mods.nuclearcraft.SaltFission.addRecipe(inputItem, outputItem, time, heat, efficiency, criticality, intrinsicFlux, decayFactor, selfPriming, radiation);
+										}
 									}
 								}
 							}
