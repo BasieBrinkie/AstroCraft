@@ -4,7 +4,9 @@
 	description: "Simply defrosted antinatric stone",
 	text: [
 		"Although you could use frozen antinatric stone for the living rock transformation, thawed antinatric stone is 4 times quicker to transform compared to the frozen variant.",
-		"The only variant that transforms even faster is just plain old regular stone."
+		"The only variant that transforms even faster is just plain old regular stone.",
+		"",
+		"Be mindfull of using the furnace, this might attract any mobs on the surface. So be ready to fight them!"
 	],
 	dependencies: [
 		"52d56e44"
@@ -13,10 +15,14 @@
 		uid: "e3e556b4",
 		type: "item",
 		items: [{
-			id: "glacidus:thawed_antinatric_stone",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "glacidus:thawed_antinatric_stone"
 		}]
+	}],
+	rewards: [{
+		uid: "8e254b57",
+		type: "gamestage",
+		icon: "extrautils2:supermobspawner",
+		auto: "no_toast",
+		stage: "planet_glacidus_mob_spawn"
 	}]
 }

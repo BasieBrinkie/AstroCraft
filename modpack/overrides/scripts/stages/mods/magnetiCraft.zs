@@ -5,7 +5,8 @@ import mods.zenstages.Stage;
 
 static stagedItems as IIngredient[][string] = {
 	stageGlacidusSpawn.stage: [
-        <magneticraft:crushing_table:0>
+        <magneticraft:crushing_table:0>,
+		<magneticraft:stone_hammer>
 	]
 };
 

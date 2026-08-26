@@ -59,5 +59,11 @@
 		type: "gamestage",
 		auto: "no_toast",
 		stage: "dirt"
+	},
+	{
+		uid: "6cbe78de",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "bucket"
 	}]
 }

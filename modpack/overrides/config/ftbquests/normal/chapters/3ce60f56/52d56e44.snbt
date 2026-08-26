@@ -14,10 +14,7 @@
 		uid: "8575afe8",
 		type: "item",
 		items: [{
-			id: "minecraft:furnace",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "minecraft:furnace"
 		}]
 	}],
 	rewards: [{

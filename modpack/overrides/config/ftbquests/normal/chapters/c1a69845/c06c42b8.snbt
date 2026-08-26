@@ -9,7 +9,7 @@
 	rewards: [{
 		uid: "9210cbad",
 		type: "command",
-		command: "/me astrocraft startworld Glacidus",
+		command: "/astrocraft startworld Glacidus",
 		player_command: 1b
 	},
 	{

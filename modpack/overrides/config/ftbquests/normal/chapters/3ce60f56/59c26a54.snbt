@@ -3,7 +3,7 @@
 	y: 1.0d,
 	description: "Yup, stone",
 	text: [
-		""
+		"Be mindfull of using the furnace, this might attract any mobs on the surface. So be ready to fight them!"
 	],
 	dependencies: [
 		"f7925be6",
@@ -13,10 +13,14 @@
 		uid: "3bf5dc4f",
 		type: "item",
 		items: [{
-			id: "minecraft:stone",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "minecraft:stone"
 		}]
+	}],
+	rewards: [{
+		uid: "236ea928",
+		type: "gamestage",
+		icon: "extrautils2:supermobspawner",
+		auto: "no_toast",
+		stage: "planet_glacidus_mob_spawn"
 	}]
 }

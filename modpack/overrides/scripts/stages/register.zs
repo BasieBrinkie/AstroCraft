@@ -204,6 +204,7 @@ global itemFactorytechCrate as Stage = ZenStager.initStage("item_factorytech_cra
 global stageTank1 as Stage = ZenStager.initStage("tank_one");
 
 //Minecraft
+global itemBucket as Stage = ZenStager.initStage("bucket");
 global itemCrook as Stage = ZenStager.initStage("crook");
 global itemDiamondPickaxe as Stage = ZenStager.initStage("diamond_pickaxe");
 global itemDirt as Stage = ZenStager.initStage("dirt");

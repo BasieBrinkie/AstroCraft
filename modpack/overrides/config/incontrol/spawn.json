@@ -5,8 +5,22 @@
     },
     {
         "dimension": 4,
-        "mod": "glacidus",
-        "hostile": true,
+        "mob": "glacidus:drop_spider",
+        "maxheight": 26,
+        "maxcount": {
+            "amount": 7
+        },
+        "gamestage": "planet_glacidus_mob_spawn",
+        "result": "allow"
+    },
+    {
+        "dimension": 4,
+        "mob": "glacidus:morprous",
+        "speedmultiply": 0.7,
+        "minheight": 80,
+        "maxcount": {
+            "amount": 5
+        },
         "gamestage": "planet_glacidus_mob_spawn",
         "result": "allow"
     },

@@ -211,6 +211,11 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:stickWood>]
 		]
 	],
+	<minecraft:stone_slab:3> * 6: [
+		[
+			[<minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>]
+		]
+	],
 	<minecraft:stick:0> * 2: [
 		[
 			[<ore:plankWood>], 

@@ -5,6 +5,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 
 import mods.botania.PureDaisy;
+import mods.botania.Apothecary;
 
 zenClass bot {
 	zenConstructor() {}
@@ -20,6 +21,26 @@ zenClass bot {
 	function pureDaisyRemove(map as IIngredient[]) {
 		for output in map {
 			PureDaisy.removeRecipe(output);
+		}
+	}
+
+	function apothecaryAdd(map as string[IIngredient[]][IItemStack]) {
+		for output, array in map {
+			for inputArray, name in array {
+				Apothecary.addRecipe(name, inputArray, output);
+			}
+		}
+	}
+	
+	function apothecaryRemove(map as IIngredient[]) {
+		for output in map {
+			Apothecary.removeRecipe(output);
+		}
+	}
+	
+	function apothecaryRemove(map as string[]) {
+		for output in map {
+			Apothecary.removeRecipe(string);
 		}
 	}
 }

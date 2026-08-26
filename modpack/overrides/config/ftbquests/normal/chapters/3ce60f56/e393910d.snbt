@@ -3,7 +3,7 @@
 	y: -1.5d,
 	description: "In case you cannot find any",
 	text: [
-		""
+		"You should get your eyes checked because there should be one at your spawn location"
 	],
 	dependencies: [
 		"dcdfc562"

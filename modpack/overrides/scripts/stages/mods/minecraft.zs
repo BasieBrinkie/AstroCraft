@@ -18,17 +18,21 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:wheat:0>,
 		<minecraft:wool:0>
 	],
+	itemBucket.stage: [
+		<minecraft:bucket:0>,
+	],
 	itemFurnace.stage: [
 		<minecraft:furnace:0>
 	],
 	itemStone.stage: [
 		<minecraft:cobblestone:0>,
-		<minecraft:stone:0>,		
+		<minecraft:stone:0>,	
+		<minecraft:stone_slab:0>,	
 	],
 	stageWoodTools.stage: [
 		<minecraft:wooden_axe>,
 		<minecraft:wooden_pickaxe>,
-		<minecraft:wooden_shovel>
+		<minecraft:wooden_shovel>,
 	],
 	itemStoneTools.stage: [
 		<minecraft:stone_axe>,
@@ -48,7 +52,6 @@ static stagedItems as IIngredient[][string] = {
 	stageAsteroidsResources1.stage: [
 		<minecraft:book:0>,
 		<minecraft:bread:0>,
-		<minecraft:bucket:0>,
 		<minecraft:chest:0>,
 		<minecraft:glass:0>,
 		<minecraft:glowstone_dust:0>,

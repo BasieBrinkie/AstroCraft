@@ -5,5 +5,11 @@
 		uid: "dfb2611d",
 		type: "gamestage",
 		stage: "startplanet_aquarius"
+	}],
+	rewards: [{
+		uid: "9f7073e1",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "planet_glacidus_mob_spawn"
 	}]
 }

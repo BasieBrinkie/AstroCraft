@@ -13,11 +13,7 @@
 		uid: "8dd9f749",
 		type: "item",
 		items: [{
-			id: "botania:manaresource",
-			Damage: 3s,
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "botania:manaresource 1 3"
 		}]
 	}]
 }

@@ -3,9 +3,9 @@
 	y: 2.0d,
 	description: "Handheld Tools",
 	text: [
-		"You already know the vanilla variants of these tools so I won't bother introducing you to them.",
+		"You already know the vanilla variants of these tools so I won't bother introducing you to them or is this already an introduction? hmmmmm.",
 		"",
-		"I do want to attend you on the fact that mob spawning is disabled until you complete this quest or carry on with the quest line."
+		"If you cannot manage to escape the mobs, maybe this potion will help you escape them!"
 	],
 	dependencies: [
 		"1541f2c5"
@@ -14,10 +14,7 @@
 		uid: "d82f0281",
 		type: "item",
 		items: [{
-			id: "glacidus:antinatric_pickaxe",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "glacidus:antinatric_pickaxe"
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b
@@ -26,10 +23,7 @@
 		uid: "2b33cee7",
 		type: "item",
 		items: [{
-			id: "glacidus:antinatric_shovel",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "glacidus:antinatric_shovel"
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b
@@ -38,10 +32,7 @@
 		uid: "fc583133",
 		type: "item",
 		items: [{
-			id: "glacidus:antinatric_axe",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "glacidus:antinatric_axe"
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b
@@ -50,10 +41,7 @@
 		uid: "e8b48d3b",
 		type: "item",
 		items: [{
-			id: "glacidus:antinatric_hoe",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "glacidus:antinatric_hoe"
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b
@@ -62,18 +50,20 @@
 		uid: "1f7e991d",
 		type: "item",
 		items: [{
-			id: "glacidus:antinatric_sword",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "glacidus:antinatric_sword"
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "19aec309",
-		type: "gamestage",
-		auto: "no_toast",
-		stage: "planet_glacidus_mob_spawn"
+		uid: "fd1db435",
+		type: "item",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:strong_swiftness"
+			}
+		},
+		count: 3
 	}]
 }

@@ -21,9 +21,6 @@
 			id: "botania:specialflower",
 			tag: {
 				type: "puredaisy"
-			},
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
 			}
 		}]
 	},
@@ -31,10 +28,7 @@
 		uid: "a1ee9fde",
 		type: "item",
 		items: [{
-			id: "minecraft:dirt",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "minecraft:dirt"
 		}]
 	}]
 }

@@ -1,9 +1,9 @@
 {
-	x: 5.5d,
+	x: 4.5d,
 	y: 0.0d,
 	description: "Heated lumicia stalk turns into a gluey mess",
 	text: [
-		""
+		"Be mindfull of using the furnace, this might attract any mobs on the surface. So be ready to fight them!"
 	],
 	dependencies: [
 		"52d56e44"
@@ -12,11 +12,14 @@
 		uid: "40dd08ec",
 		type: "item",
 		items: [{
-			id: "actuallyadditions:item_misc",
-			Damage: 9s,
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "actuallyadditions:item_misc 1 9"
 		}]
+	}],
+	rewards: [{
+		uid: "a2390b06",
+		type: "gamestage",
+		icon: "extrautils2:supermobspawner",
+		auto: "no_toast",
+		stage: "planet_glacidus_mob_spawn"
 	}]
 }

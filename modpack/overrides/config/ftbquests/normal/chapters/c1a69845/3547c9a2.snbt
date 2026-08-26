@@ -23,5 +23,11 @@
 		type: "gamestage",
 		auto: "no_toast",
 		stage: "ore_iron"
+	},
+	{
+		uid: "20e652c0",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "bucket"
 	}]
 }
