@@ -555,21 +555,6 @@
     "3pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}"
   },
   {
-    "name": "techguns:basicore",
-    "meta": 4,
-    "length": 1,
-    "name0": "nuclearcraft:uranium",
-    "meta0": 10,
-    "0chance0": 100.0,
-    "1chance0": 200.0,
-    "2chance0": 300.0,
-    "3chance0": 400.0,
-    "0pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}",
-    "1pair0": "{\n  \"left\": 2,\n  \"right\": 2\n}",
-    "2pair0": "{\n  \"left\": 3,\n  \"right\": 3\n}",
-    "3pair0": "{\n  \"left\": 4,\n  \"right\": 4\n}"
-  },
-  {
     "name": "actuallyadditions:block_colored_lamp_on",
     "meta": 12,
     "length": 1,
@@ -645,36 +630,6 @@
     "3pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}"
   },
   {
-    "name": "techguns:military_crate",
-    "meta": 3,
-    "length": 1,
-    "name0": "industrialrenewal:medkit",
-    "meta0": 0,
-    "0chance0": 300.0,
-    "1chance0": 300.0,
-    "2chance0": 300.0,
-    "3chance0": 300.0,
-    "0pair0": "{\n  \"left\": 3,\n  \"right\": 3\n}",
-    "1pair0": "{\n  \"left\": 3,\n  \"right\": 3\n}",
-    "2pair0": "{\n  \"left\": 3,\n  \"right\": 3\n}",
-    "3pair0": "{\n  \"left\": 3,\n  \"right\": 3\n}"
-  },
-  {
-    "name": "advancedrocketry:alienleaves",
-    "meta": 0,
-    "length": 1,
-    "name0": "advancedrocketry:aliensapling",
-    "meta0": 0,
-    "0chance0": 4.775,
-    "1chance0": 6.25,
-    "2chance0": 8.349999,
-    "3chance0": 9.775,
-    "0pair0": "{\n  \"left\": 0,\n  \"right\": 1\n}",
-    "1pair0": "{\n  \"left\": 0,\n  \"right\": 1\n}",
-    "2pair0": "{\n  \"left\": 0,\n  \"right\": 1\n}",
-    "3pair0": "{\n  \"left\": 0,\n  \"right\": 1\n}"
-  },
-  {
     "name": "embers:ore_quartz",
     "meta": 0,
     "length": 1,
@@ -733,5 +688,35 @@
     "1pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}",
     "2pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}",
     "3pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}"
+  },
+  {
+    "name": "advancedrocketry:alienleaves",
+    "meta": 0,
+    "length": 1,
+    "name0": "advancedrocketry:aliensapling",
+    "meta0": 0,
+    "0chance0": 5.35,
+    "1chance0": 6.6749997,
+    "2chance0": 8.925,
+    "3chance0": 10.375,
+    "0pair0": "{\n  \"left\": 0,\n  \"right\": 1\n}",
+    "1pair0": "{\n  \"left\": 0,\n  \"right\": 1\n}",
+    "2pair0": "{\n  \"left\": 0,\n  \"right\": 1\n}",
+    "3pair0": "{\n  \"left\": 0,\n  \"right\": 1\n}"
+  },
+  {
+    "name": "advancedrocketry:charcoallog",
+    "meta": 0,
+    "length": 1,
+    "name0": "minecraft:coal",
+    "meta0": 1,
+    "0chance0": 100.0,
+    "1chance0": 100.0,
+    "2chance0": 149.025,
+    "3chance0": 200.20001,
+    "0pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}",
+    "1pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}",
+    "2pair0": "{\n  \"left\": 1,\n  \"right\": 2\n}",
+    "3pair0": "{\n  \"left\": 1,\n  \"right\": 3\n}"
   }
 ]

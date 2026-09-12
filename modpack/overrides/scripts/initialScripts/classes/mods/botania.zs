@@ -10,25 +10,15 @@ import mods.botania.Apothecary;
 zenClass bot {
 	zenConstructor() {}
 
-	function pureDaisyAdd(map as int[IIngredient][IItemStack]) {
-		for output, array in map {
-			for input, time in array {
-				PureDaisy.addRecipe(input, output, time);
-			}
+	function apothecaryAdd(map as IIngredient[][IItemStack]) {
+		for output, inputArray in map {
+			Apothecary.addRecipe(output, inputArray);
 		}
 	}
-
-	function pureDaisyRemove(map as IIngredient[]) {
-		for output in map {
-			PureDaisy.removeRecipe(output);
-		}
-	}
-
-	function apothecaryAdd(map as string[IIngredient[]][IItemStack]) {
-		for output, array in map {
-			for inputArray, name in array {
-				Apothecary.addRecipe(name, inputArray, output);
-			}
+	
+	function apothecaryAddFlower(map as IIngredient[][string]) {
+		for flowerName, inputArray in map {
+			Apothecary.addRecipe(flowerName, inputArray);
 		}
 	}
 	
@@ -40,7 +30,23 @@ zenClass bot {
 	
 	function apothecaryRemove(map as string[]) {
 		for output in map {
-			Apothecary.removeRecipe(string);
+			Apothecary.removeRecipe(output);
+		}
+	}
+
+
+
+	function pureDaisyAdd(map as int[IIngredient][IItemStack]) {
+		for output, array in map {
+			for input, time in array {
+				PureDaisy.addRecipe(input, output, time);
+			}
+		}
+	}
+
+	function pureDaisyRemove(map as IIngredient[]) {
+		for output in map {
+			PureDaisy.removeRecipe(output);
 		}
 	}
 }

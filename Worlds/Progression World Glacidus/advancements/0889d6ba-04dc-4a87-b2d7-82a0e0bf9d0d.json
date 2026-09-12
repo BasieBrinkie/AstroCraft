@@ -1,7 +1,19 @@
 {
+  "triumph:lore_items/dimensions/asteroids_1/beacon": {
+    "criteria": {
+      "structure_asteroidbeacon": "2026-09-12 22:18:29 +0200"
+    },
+    "done": true
+  },
   "triumph:lore_structures/systems/arcturus": {
     "criteria": {
       "dim_4": "2025-12-17 22:17:53 +0100"
+    },
+    "done": true
+  },
+  "triumph:lore_structures/dimensions/asteroids_1/beacon": {
+    "criteria": {
+      "structure_asteroidbeacon": "2026-09-12 22:18:29 +0200"
     },
     "done": true
   },

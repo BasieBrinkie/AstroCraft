@@ -2,11 +2,9 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
 //IIngredient input, IItemStack output, int time
-static apothecaryAdd as string[IIngredient][IItemStack] = {
+static apothecaryAdd as IIngredient[][IItemStack] = {
 	//Glacidus Spawn
-    <minecraft:stone>: {
-	    <glacidus:thawed_antinatric_stone:0>: "test"
-    }
+    <minecraft:stone>: {[<glacidus:thawed_antinatric_stone:0>]}
 };
 
 //IIngredient output

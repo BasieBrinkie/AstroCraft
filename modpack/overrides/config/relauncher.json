@@ -1,10 +1,10 @@
 {
-  "selectedVersion": "0.6.11-alpha",
-  "latestVersion": "0.6.11-alpha",
+  "selectedVersion": "0.6.13-alpha",
+  "latestVersion": "0.6.13-alpha",
   "targetJavaVersion": 25,
   "targetVendor": "Azul Zulu",
   "javaPath": "C:\\Users\\Bas\\.cleanroom\\java\\zulu25.36.205-ca-jdk25.0.4.1-win_x64\\zulu25.36.205-ca-jdk25.0.4.1-win_x64\\bin\\javaw.exe",
-  "args": "-XX:+UseCompactObjectHeaders ",
+  "args": "-XX:+UseCompactObjectHeaders",
   "autoSetup": true,
   "enableRelauncher": true,
   "fetchUpdates": true,
